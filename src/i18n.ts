@@ -71,7 +71,8 @@ export const translations = {
     },
     back: 'Retour au site',
     footer: {
-      faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité'
+      faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité',
+      copyright: '© 2026 VitraCare. Tous droits réservés.'
     }
   },
   NL: {
@@ -144,7 +145,8 @@ export const translations = {
     },
     back: 'Terug naar de site',
     footer: {
-      faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid'
+      faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid',
+      copyright: '© 2026 VitraCare. Alle rechten voorbehouden.'
     }
   },
   EN: {
@@ -217,7 +219,8 @@ export const translations = {
     },
     back: 'Back to site',
     footer: {
-      faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy'
+      faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy',
+      copyright: '© 2026 VitraCare. All rights reserved.'
     }
   }
 };

@@ -595,6 +595,11 @@ export default function Home() {
             VITRACARE
           </div>
         </div>
+
+        {/* Copyright */}
+        <div className="text-white/70 text-[12px] mt-8">
+          {t.footer.copyright}
+        </div>
       </footer>
     </div>
   );

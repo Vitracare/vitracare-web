@@ -43,15 +43,19 @@ export const translations = {
     devis: {
       title: 'Obtenez votre devis',
       subtitle: 'Découvrez le potentiel de vos vitrages : plus d\'intimité, moins de chaleur, et une protection durable pour votre intérieur.',
-      success: 'Message envoyé ! Nous vous recontacterons dans les 48 heures.',
+      reassurance: 'Devis 100% gratuit et sans engagement — réponse sous 24h',
+      success: 'Message envoyé ! Nous vous recontacterons dans les 24 heures.',
       form_name: 'Nom / Prénom',
       form_address: 'Adresse',
       form_zip: 'Code postal',
       form_email: 'Email',
       form_phone: 'Téléphone',
+      form_message: 'Expliquez-nous votre demande',
+      form_message_placeholder: 'Nombre de fenêtres, film souhaité, problème actuellement rencontré...',
+      form_photos: 'Ajouter des photos (optionnel)',
       form_privacy1: 'J\'ai lu et j\'accepte votre ',
       form_privacy2: 'politique de confidentialité',
-      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 48h.'
+      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 24h.'
     },
     contactPage: {
       title: 'Contactez-nous',
@@ -112,15 +116,19 @@ export const translations = {
     devis: {
       title: 'Ontvang uw offerte',
       subtitle: 'Ontdek het potentieel van uw ramen: meer privacy, minder warmte en duurzame bescherming voor uw interieur.',
-      success: 'Bericht verzonden! We nemen binnen 48 uur contact met u op.',
+      reassurance: 'Offerte 100% gratis en vrijblijvend — antwoord binnen 24u',
+      success: 'Bericht verzonden! We nemen binnen 24 uur contact met u op.',
       form_name: 'Naam / Voornaam',
       form_address: 'Adres',
       form_zip: 'Postcode',
       form_email: 'E-mail',
       form_phone: 'Telefoon',
+      form_message: 'Vertel ons over uw project',
+      form_message_placeholder: 'Aantal ramen, gewenste folie, huidig probleem...',
+      form_photos: 'Foto\'s toevoegen (optioneel)',
       form_privacy1: 'Ik heb uw ',
       form_privacy2: 'privacybeleid gelezen en ga ermee akkoord',
-      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 48 uur contact met u op.'
+      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 24 uur contact met u op.'
     },
     contactPage: {
       title: 'Contacteer ons',
@@ -181,15 +189,19 @@ export const translations = {
     devis: {
       title: 'Get your quote',
       subtitle: 'Discover the potential of your windows: more privacy, less heat, and lasting protection for your interior.',
-      success: 'Message sent! We will contact you within 48 hours.',
+      reassurance: '100% free quote, no obligation — reply within 24h',
+      success: 'Message sent! We will contact you within 24 hours.',
       form_name: 'Name / Surname',
       form_address: 'Address',
       form_zip: 'Postal code',
       form_email: 'Email',
       form_phone: 'Phone',
+      form_message: 'Tell us about your project',
+      form_message_placeholder: 'Number of windows, desired film, current issue...',
+      form_photos: 'Add photos (optional)',
       form_privacy1: 'I have read and accept your ',
       form_privacy2: 'privacy policy',
-      info_text: 'Fill in your details and click the button below, we will contact you within 48 hours.'
+      info_text: 'Fill in your details and click the button below, we will contact you within 24 hours.'
     },
     contactPage: {
       title: 'Contact us',

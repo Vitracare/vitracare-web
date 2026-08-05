@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     return;
   }
 
-  const { name, address, zip, email, phone, message } = req.body || {};
+  const { name, address, zip, email, phone, message, photos } = req.body || {};
 
   if (!name || !email) {
     res.status(400).json({ error: 'Nom et email requis' });
@@ -33,6 +33,7 @@ export default async function handler(req, res) {
           `Code postal: ${zip || '-'}`,
           `Email: ${email}`,
           `Téléphone: ${phone || '-'}`,
+          `Demande: ${message || '-'}`,
         ]
       : [
           `Nom: ${name}`,
@@ -40,12 +41,21 @@ export default async function handler(req, res) {
           `Message: ${message || '-'}`,
         ];
 
+    const attachments = Array.isArray(photos)
+      ? photos.slice(0, 6).map((p) => ({
+          filename: p.filename || 'photo.jpg',
+          content: Buffer.from(p.contentBase64, 'base64'),
+          contentType: p.contentType || 'image/jpeg',
+        }))
+      : [];
+
     await transporter.sendMail({
       from: '"VitraCare — Site web" <contact@vitracare.be>',
       to: 'contact@vitracare.be',
       replyTo: email,
       subject: isDevis ? `Nouvelle demande de devis — ${name}` : `Nouveau message de contact — ${name}`,
       text: lines.join('\n'),
+      attachments,
     });
 
     res.status(200).json({ ok: true });

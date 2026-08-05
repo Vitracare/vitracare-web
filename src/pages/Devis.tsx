@@ -12,21 +12,52 @@ export default function Devis() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
+  const MAX_PHOTOS_BYTES = 3.5 * 1024 * 1024; // stays under the ~4.5MB serverless request limit once base64-encoded
+
+  const fileToBase64 = (file: File): Promise<string> =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve((reader.result as string).split(',')[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitError('');
+
+    const formEl = e.currentTarget;
+    const formData = new FormData(formEl);
+    const photoInput = formEl.querySelector<HTMLInputElement>('input[name="photos"]');
+    const files: File[] = photoInput?.files ? Array.from(photoInput.files) : [];
+
+    const totalSize = files.reduce((sum, f) => sum + f.size, 0);
+    if (totalSize > MAX_PHOTOS_BYTES) {
+      setSubmitError('Les photos sélectionnées sont trop volumineuses au total (max ~3,5 Mo). Réduisez le nombre de photos ou leur taille.');
+      return;
+    }
+
     setIsSubmitting(true);
 
-    const formData = new FormData(e.currentTarget);
-    const payload = {
-      name: formData.get('name'),
-      address: formData.get('address'),
-      zip: formData.get('zip'),
-      email: formData.get('email'),
-      phone: formData.get('phone'),
-    };
-
     try {
+      const photos = await Promise.all(
+        files.map(async (file) => ({
+          filename: file.name,
+          contentType: file.type,
+          contentBase64: await fileToBase64(file),
+        }))
+      );
+
+      const payload = {
+        name: formData.get('name'),
+        address: formData.get('address'),
+        zip: formData.get('zip'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        message: formData.get('message'),
+        photos,
+      };
+
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -60,9 +91,13 @@ export default function Devis() {
 
           <div className="w-[60px] h-[2px] mb-8" style={{ backgroundColor: brandColor }}></div>
 
-          <p className="text-[18px] text-white/90 text-center max-w-2xl leading-relaxed mb-16">
+          <p className="text-[18px] text-white/90 text-center max-w-2xl leading-relaxed mb-6">
             {t.devis.subtitle}
           </p>
+
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
+            {t.devis.reassurance}
+          </div>
 
           {/* Form Card */}
           <div className="w-full flex flex-col md:flex-row rounded-[16px] overflow-hidden shadow-2xl relative">
@@ -120,6 +155,32 @@ export default function Devis() {
                   placeholder={t.devis.form_phone}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
+
+                <div className="mt-2">
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-2">
+                    {t.devis.form_message}
+                  </label>
+                  <textarea
+                    name="message"
+                    rows={4}
+                    placeholder={t.devis.form_message_placeholder}
+                    className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-2">
+                    {t.devis.form_photos}
+                  </label>
+                  <input
+                    type="file"
+                    name="photos"
+                    accept="image/*"
+                    multiple
+                    className="w-full text-[13px] text-gray-600 file:mr-4 file:py-2.5 file:px-4 file:rounded-md file:border-0 file:text-[13px] file:font-bold file:bg-[#F2E9DA] file:text-[#8a6a3f] hover:file:bg-[#eadfc9] file:cursor-pointer cursor-pointer"
+                  />
+                </div>
+
                 <div className="flex items-start gap-2 mt-2">
                   <input type="checkbox" id="privacy" required className="mt-1" />
                   <label htmlFor="privacy" className="text-[11px] text-gray-500 leading-tight">

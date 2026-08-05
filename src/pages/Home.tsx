@@ -112,7 +112,7 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('accueil');
 
   useEffect(() => {
-    const sectionIds = ['accueil', 'services', 'produit', 'avis'];
+    const sectionIds = ['accueil', 'services', 'produit', 'realisations', 'avis'];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -211,6 +211,7 @@ export default function Home() {
             { id: 'accueil', label: t.nav.home, href: '#accueil' },
             { id: 'services', label: t.nav.services, href: '#services' },
             { id: 'produit', label: t.nav.pricing, href: '#produit' },
+            { id: 'realisations', label: t.nav.realisations, href: '#realisations' },
             { id: 'avis', label: t.nav.about, href: '#avis' },
           ] as const).map((item) => (
             <a
@@ -384,6 +385,26 @@ export default function Home() {
               {t.hero.getQuote}
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Réalisations Section */}
+      <section id="realisations" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-[#FAF9F6]">
+        <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
+          {t.realisations.title}
+        </h2>
+        <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
+          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => (
+            <div key={n} className="aspect-[3/4] rounded-xl overflow-hidden">
+              <img
+                src={`/images/realisations/chantier-${n}.jpg`}
+                alt={`Réalisation VitraCare ${n}`}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          ))}
         </div>
       </section>
 

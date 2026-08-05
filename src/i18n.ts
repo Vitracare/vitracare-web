@@ -2,7 +2,7 @@ export type Lang = 'FR' | 'NL' | 'EN';
 
 export const translations = {
   FR: {
-    nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', about: 'Avis', contact: 'Contact' },
+    nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', realisations: 'Réalisations', about: 'Avis', contact: 'Contact' },
     hero: { title1: 'Libérons tout le', title2: 'potentiel de vos', title3: 'Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS' },
     words: ['intimité', 'sécurité', 'préservation', 'isolation'],
     features: {
@@ -21,6 +21,7 @@ export const translations = {
       subtitle: 'Films pour vitrages sur mesure.'
     },
     slider: { before: 'AVANT', after: 'APRÈS' },
+    realisations: { title: 'Nos réalisations' },
     reviews: {
       title: 'Avis',
       r1: 'Le salon plein sud est enfin vivable en été !',
@@ -76,7 +77,7 @@ export const translations = {
     }
   },
   NL: {
-    nav: { home: 'Startpagina', services: 'Diensten', pricing: 'Product', about: 'Beoordelingen', contact: 'Contact' },
+    nav: { home: 'Startpagina', services: 'Diensten', pricing: 'Product', realisations: 'Realisaties', about: 'Beoordelingen', contact: 'Contact' },
     hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN' },
     words: ['privacy', 'veiligheid', 'behoud', 'isolatie'],
     features: {
@@ -95,6 +96,7 @@ export const translations = {
       subtitle: 'Raamfolie op maat.'
     },
     slider: { before: 'VOOR', after: 'NA' },
+    realisations: { title: 'Onze realisaties' },
     reviews: {
       title: 'Beoordelingen',
       r1: 'De woonkamer op het zuiden is eindelijk leefbaar in de zomer!',
@@ -150,7 +152,7 @@ export const translations = {
     }
   },
   EN: {
-    nav: { home: 'Home', services: 'Services', pricing: 'Product', about: 'Reviews', contact: 'Contact' },
+    nav: { home: 'Home', services: 'Services', pricing: 'Product', realisations: 'Our work', about: 'Reviews', contact: 'Contact' },
     hero: { title1: 'Unlock the full', title2: 'potential of your', title3: 'Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE' },
     words: ['privacy', 'security', 'preservation', 'insulation'],
     features: {
@@ -169,6 +171,7 @@ export const translations = {
       subtitle: 'Custom window films.'
     },
     slider: { before: 'BEFORE', after: 'AFTER' },
+    realisations: { title: 'Our work' },
     reviews: {
       title: 'Reviews',
       r1: 'The south-facing living room is finally livable in summer!',

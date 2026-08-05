@@ -212,6 +212,28 @@ export default function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState('accueil');
+
+  useEffect(() => {
+    const sectionIds = ['accueil', 'services', 'produit', 'avis', 'contact'];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: '-40% 0px -55% 0px', threshold: 0 }
+    );
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -317,14 +339,25 @@ export default function App() {
 
         {/* Desktop Navigation - Centered */}
         <nav className="hidden lg:flex items-center gap-8 text-[20px] absolute left-1/2 transform -translate-x-1/2">
-          <a href="#accueil" className="font-bold relative pb-1" style={{ color: textColor }}>
-            {t.nav.home}
-            <span className="absolute bottom-0 left-0 w-full h-[2px]" style={{ backgroundColor: brandColor }}></span>
-          </a>
-          <a href="#services" className="hover:text-black transition-colors" style={{ color: textColor }}>{t.nav.services}</a>
-          <a href="#produit" className="hover:text-black transition-colors" style={{ color: textColor }}>{t.nav.pricing}</a>
-          <a href="#avis" className="hover:text-black transition-colors" style={{ color: textColor }}>{t.nav.about}</a>
-          <a href="#contact" className="hover:text-black transition-colors" style={{ color: textColor }}>{t.nav.contact}</a>
+          {([
+            { id: 'accueil', label: t.nav.home },
+            { id: 'services', label: t.nav.services },
+            { id: 'produit', label: t.nav.pricing },
+            { id: 'avis', label: t.nav.about },
+            { id: 'contact', label: t.nav.contact },
+          ] as const).map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className={`relative pb-1 transition-colors ${activeSection === item.id ? 'font-bold' : 'hover:text-black'}`}
+              style={{ color: textColor }}
+            >
+              {item.label}
+              {activeSection === item.id && (
+                <span className="absolute bottom-0 left-0 w-full h-[2px]" style={{ backgroundColor: brandColor }}></span>
+              )}
+            </a>
+          ))}
         </nav>
 
         {/* Actions */}

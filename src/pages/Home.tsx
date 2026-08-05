@@ -560,10 +560,10 @@ export default function Home() {
 
         {/* Bottom links */}
         <div className="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-3 mb-16 text-[14px] md:text-[15px]">
-          <a href="#" className="hover:opacity-80 transition-opacity">{t.footer.faq}</a>
-          <a href="#" className="hover:opacity-80 transition-opacity">{t.footer.terms}</a>
-          <a href="#" className="hover:opacity-80 transition-opacity">{t.footer.legal}</a>
-          <a href="#" className="hover:opacity-80 transition-opacity">{t.footer.privacy}</a>
+          <Link to="/faq" className="hover:opacity-80 transition-opacity">{t.footer.faq}</Link>
+          <Link to="/conditions-generales" className="hover:opacity-80 transition-opacity">{t.footer.terms}</Link>
+          <Link to="/mentions-legales" className="hover:opacity-80 transition-opacity">{t.footer.legal}</Link>
+          <Link to="/politique-confidentialite" className="hover:opacity-80 transition-opacity">{t.footer.privacy}</Link>
         </div>
 
         {/* Logo */}

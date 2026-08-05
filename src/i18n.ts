@@ -1,0 +1,211 @@
+export type Lang = 'FR' | 'NL' | 'EN';
+
+export const translations = {
+  FR: {
+    nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', about: 'Avis', contact: 'Contact' },
+    hero: { title1: 'Libérons tout le', title2: 'potentiel de vos', title3: 'Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS' },
+    words: ['intimité', 'sécurité', 'préservation', 'isolation'],
+    features: {
+      title: 'La lumière entre, rien d\'autre',
+      f1_title: 'Retrouvez votre\nintimité',
+      f1_desc: 'Le film bloque les regards extérieurs tout en laissant passer la lumière, pour une intimité ajustable pièce par pièce selon l\'opacité choisie.',
+      f2_title: 'Protégez votre\nfamille',
+      f2_desc: 'Le film renforce vos vitrages et retient le verre en cas de bris, retardant les intrusions pour gagner de précieuses secondes quand elles comptent.',
+      f3_title: 'Préservez vos\nbiens',
+      f3_desc: 'Le film filtre plus de 99 % des rayons UV pour protéger vos sols, vos meubles et vos œuvres de la décoloration, et préserver l\'éclat de votre intérieur.',
+      f4_title: 'Une température\nmaîtrisée',
+      f4_desc: 'Le film bloque jusqu\'à 80 % de la chaleur solaire infrarouge pour un intérieur plus frais en été, mieux isolé en hiver et confortable toute l\'année.'
+    },
+    protection: {
+      title: 'Une protection\ninvisible pour\nvotre maison.',
+      subtitle: 'Films pour vitrages sur mesure.'
+    },
+    slider: { before: 'AVANT', after: 'APRÈS' },
+    reviews: {
+      title: 'Avis',
+      r1: 'Le salon plein sud est enfin vivable en été !',
+      r2: 'Impossible de savoir si nous sommes là de l\'extérieur. C\'est exactement ce qu\'on voulait.',
+      r3: 'Nous vivons enfin rideaux ouverts, sans nous sentir observés.',
+      r4: 'Nos toiles ne craignent plus le soleil. Un vrai soulagement !',
+      more: 'EN SAVOIR PLUS'
+    },
+    strip: {
+      f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
+      f2_title: 'Film garanti', f2_desc: 'Jusqu\'à 10 ans\npar le fabricant',
+      f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 1 an\npar VitraCare',
+      f4_title: 'Devis sous 48h', f4_desc: 'Contacter un expert\nsans engagement'
+    },
+    map: {
+      title: 'Partout à Bruxelles\net en périphérie',
+      subtitle: 'Nous développons un service de haute qualité partout\nà Bruxelles et ses alentours',
+      locations: ['Centre', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'Et partout\nautour']
+    },
+    devis: {
+      title: 'Obtenez votre devis',
+      subtitle: 'Découvrez le potentiel de vos vitrages : plus d\'intimité, moins de chaleur, et une protection durable pour votre intérieur.',
+      success: 'Message envoyé ! Nous vous recontacterons dans les 48 heures.',
+      form_name: 'Nom / Prénom',
+      form_address: 'Adresse',
+      form_zip: 'Code postal',
+      form_email: 'Email',
+      form_phone: 'Téléphone',
+      form_privacy1: 'J\'ai lu et j\'accepte votre ',
+      form_privacy2: 'politique de confidentialité',
+      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 48h.'
+    },
+    contactPage: {
+      title: 'Contactez-nous',
+      subtitle: 'Une question ? Envoyez-nous un message ou contactez-nous directement.',
+      phone: 'Téléphone',
+      whatsapp: 'WhatsApp',
+      email: 'Email',
+      form_name: 'Nom / Prénom',
+      form_email: 'Email',
+      form_message: 'Votre message',
+      submit: 'Envoyer le message',
+      success: 'Message envoyé ! Nous vous répondons rapidement.'
+    },
+    back: 'Retour au site',
+    footer: {
+      faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité'
+    }
+  },
+  NL: {
+    nav: { home: 'Startpagina', services: 'Diensten', pricing: 'Product', about: 'Beoordelingen', contact: 'Contact' },
+    hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN' },
+    words: ['privacy', 'veiligheid', 'behoud', 'isolatie'],
+    features: {
+      title: 'Het licht komt binnen, verder niets',
+      f1_title: 'Vind uw\nprivacy terug',
+      f1_desc: 'De folie blokkeert blikken van buitenaf en laat tegelijkertijd licht door, voor instelbare privacy per kamer.',
+      f2_title: 'Bescherm uw\nfamilie',
+      f2_desc: 'De folie versterkt uw ramen en houdt het glas vast bij breuk, waardoor indringers worden vertraagd.',
+      f3_title: 'Behoud uw\neigendommen',
+      f3_desc: 'De folie filtert meer dan 99% van de UV-stralen om uw vloeren en meubels te beschermen tegen vervaging.',
+      f4_title: 'Een beheerste\ntemperatuur',
+      f4_desc: 'De folie blokkeert tot 80% van de zonnewarmte voor een koeler interieur in de zomer en beter geïsoleerd in de winter.'
+    },
+    protection: {
+      title: 'Een onzichtbare\nbescherming voor\nuw huis.',
+      subtitle: 'Raamfolie op maat.'
+    },
+    slider: { before: 'VOOR', after: 'NA' },
+    reviews: {
+      title: 'Beoordelingen',
+      r1: 'De woonkamer op het zuiden is eindelijk leefbaar in de zomer!',
+      r2: 'Onmogelijk om van buitenaf te zien of we er zijn. Precies wat we wilden.',
+      r3: 'We leven eindelijk met open gordijnen, zonder ons bekeken te voelen.',
+      r4: 'Onze doeken zijn niet meer bang voor de zon. Een hele opluchting!',
+      more: 'LEES MEER'
+    },
+    strip: {
+      f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
+      f2_title: 'Gegarandeerde folie', f2_desc: 'Tot 10 jaar\ndoor de fabrikant',
+      f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 1 jaar\ndoor VitraCare',
+      f4_title: 'Offerte binnen 48u', f4_desc: 'Neem vrijblijvend\ncontact op met een expert'
+    },
+    map: {
+      title: 'Overal in Brussel\nen de rand',
+      subtitle: 'Wij ontwikkelen een hoogwaardige service overal\nin Brussel en omgeving',
+      locations: ['Centrum', 'Elsene', 'Ukkel', 'Woluwe', 'Evere', 'Oudergem', 'Etterbeek', 'Vorst', 'Waterloo', 'Linkebeek', 'Kraainem', 'En overal\nrondom']
+    },
+    devis: {
+      title: 'Ontvang uw offerte',
+      subtitle: 'Ontdek het potentieel van uw ramen: meer privacy, minder warmte en duurzame bescherming voor uw interieur.',
+      success: 'Bericht verzonden! We nemen binnen 48 uur contact met u op.',
+      form_name: 'Naam / Voornaam',
+      form_address: 'Adres',
+      form_zip: 'Postcode',
+      form_email: 'E-mail',
+      form_phone: 'Telefoon',
+      form_privacy1: 'Ik heb uw ',
+      form_privacy2: 'privacybeleid gelezen en ga ermee akkoord',
+      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 48 uur contact met u op.'
+    },
+    contactPage: {
+      title: 'Contacteer ons',
+      subtitle: 'Een vraag? Stuur ons een bericht of neem rechtstreeks contact op.',
+      phone: 'Telefoon',
+      whatsapp: 'WhatsApp',
+      email: 'E-mail',
+      form_name: 'Naam / Voornaam',
+      form_email: 'E-mail',
+      form_message: 'Uw bericht',
+      submit: 'Bericht verzenden',
+      success: 'Bericht verzonden! We reageren snel.'
+    },
+    back: 'Terug naar de site',
+    footer: {
+      faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid'
+    }
+  },
+  EN: {
+    nav: { home: 'Home', services: 'Services', pricing: 'Product', about: 'Reviews', contact: 'Contact' },
+    hero: { title1: 'Unlock the full', title2: 'potential of your', title3: 'Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE' },
+    words: ['privacy', 'security', 'preservation', 'insulation'],
+    features: {
+      title: 'Light comes in, nothing else',
+      f1_title: 'Regain your\nprivacy',
+      f1_desc: 'The film blocks outside views while letting light through, for adjustable privacy room by room.',
+      f2_title: 'Protect your\nfamily',
+      f2_desc: 'The film strengthens your windows and holds the glass in case of breakage, delaying intrusions.',
+      f3_title: 'Preserve your\nbelongings',
+      f3_desc: 'The film filters more than 99% of UV rays to protect your floors, furniture and artwork from fading.',
+      f4_title: 'A controlled\ntemperature',
+      f4_desc: 'The film blocks up to 80% of infrared solar heat for a cooler interior in summer and better insulated in winter.'
+    },
+    protection: {
+      title: 'Invisible protection\nfor your\nhome.',
+      subtitle: 'Custom window films.'
+    },
+    slider: { before: 'BEFORE', after: 'AFTER' },
+    reviews: {
+      title: 'Reviews',
+      r1: 'The south-facing living room is finally livable in summer!',
+      r2: 'Impossible to know if we are there from the outside. Exactly what we wanted.',
+      r3: 'We finally live with curtains open, without feeling watched.',
+      r4: 'Our canvases no longer fear the sun. A real relief!',
+      more: 'LEARN MORE'
+    },
+    strip: {
+      f1_title: 'Custom made', f1_desc: 'studied window\nby window',
+      f2_title: 'Guaranteed film', f2_desc: 'Up to 10 years\nby the manufacturer',
+      f3_title: 'Guaranteed installation', f3_desc: 'Up to 1 year\nby VitraCare',
+      f4_title: 'Quote within 48h', f4_desc: 'Contact an expert\nwithout obligation'
+    },
+    map: {
+      title: 'Everywhere in Brussels\nand surroundings',
+      subtitle: 'We develop a high quality service everywhere\nin Brussels and surroundings',
+      locations: ['Center', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'And everywhere\naround']
+    },
+    devis: {
+      title: 'Get your quote',
+      subtitle: 'Discover the potential of your windows: more privacy, less heat, and lasting protection for your interior.',
+      success: 'Message sent! We will contact you within 48 hours.',
+      form_name: 'Name / Surname',
+      form_address: 'Address',
+      form_zip: 'Postal code',
+      form_email: 'Email',
+      form_phone: 'Phone',
+      form_privacy1: 'I have read and accept your ',
+      form_privacy2: 'privacy policy',
+      info_text: 'Fill in your details and click the button below, we will contact you within 48 hours.'
+    },
+    contactPage: {
+      title: 'Contact us',
+      subtitle: 'Have a question? Send us a message or reach out directly.',
+      phone: 'Phone',
+      whatsapp: 'WhatsApp',
+      email: 'Email',
+      form_name: 'Name / Surname',
+      form_email: 'Email',
+      form_message: 'Your message',
+      submit: 'Send message',
+      success: 'Message sent! We will reply shortly.'
+    },
+    back: 'Back to site',
+    footer: {
+      faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy'
+    }
+  }
+};

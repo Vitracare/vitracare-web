@@ -6,12 +6,14 @@ export default async function handler(req, res) {
     return;
   }
 
-  const { name, address, zip, email, phone } = req.body || {};
+  const { name, address, zip, email, phone, message } = req.body || {};
 
   if (!name || !email) {
     res.status(400).json({ error: 'Nom et email requis' });
     return;
   }
+
+  const isDevis = address !== undefined || zip !== undefined || phone !== undefined;
 
   try {
     const transporter = nodemailer.createTransport({
@@ -24,18 +26,26 @@ export default async function handler(req, res) {
       },
     });
 
+    const lines = isDevis
+      ? [
+          `Nom: ${name}`,
+          `Adresse: ${address || '-'}`,
+          `Code postal: ${zip || '-'}`,
+          `Email: ${email}`,
+          `Téléphone: ${phone || '-'}`,
+        ]
+      : [
+          `Nom: ${name}`,
+          `Email: ${email}`,
+          `Message: ${message || '-'}`,
+        ];
+
     await transporter.sendMail({
       from: '"VitraCare — Site web" <contact@vitracare.be>',
       to: 'contact@vitracare.be',
       replyTo: email,
-      subject: `Nouvelle demande de devis — ${name}`,
-      text: [
-        `Nom: ${name}`,
-        `Adresse: ${address || '-'}`,
-        `Code postal: ${zip || '-'}`,
-        `Email: ${email}`,
-        `Téléphone: ${phone || '-'}`,
-      ].join('\n'),
+      subject: isDevis ? `Nouvelle demande de devis — ${name}` : `Nouveau message de contact — ${name}`,
+      text: lines.join('\n'),
     });
 
     res.status(200).json({ ok: true });

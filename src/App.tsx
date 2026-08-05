@@ -209,7 +209,38 @@ export default function App() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitError('');
+    setIsSubmitting(true);
+
+    const formData = new FormData(e.currentTarget);
+    const payload = {
+      name: formData.get('name'),
+      address: formData.get('address'),
+      zip: formData.get('zip'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+    };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) throw new Error('Request failed');
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError('Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -337,11 +368,12 @@ export default function App() {
             </span>
           </div>
 
-          <button 
-            className="text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] w-fit cursor-pointer"
+          <a
+            href="#contact"
+            className="inline-block text-center text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] w-fit cursor-pointer"
           >
             {t.hero.getQuote}
-          </button>
+          </a>
         </div>
       </main>
       </div>
@@ -407,11 +439,12 @@ export default function App() {
         </div>
 
         <div className="flex justify-center mt-24">
-          <button 
-            className="text-white px-10 py-4 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+          <a
+            href="#contact"
+            className="inline-block text-white px-10 py-4 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
           >
             {t.hero.getQuote}
-          </button>
+          </a>
         </div>
       </section>
 
@@ -436,11 +469,12 @@ export default function App() {
               {t.protection.subtitle}
             </p>
             
-            <button 
-              className="text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+            <a
+              href="#contact"
+              className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
             >
               {t.hero.getQuote}
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -639,40 +673,48 @@ export default function App() {
 
             {/* Left Form Side */}
             <div className={`w-full md:w-[55%] bg-white p-8 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
-              <form className="flex flex-col gap-4" onSubmit={(e) => { e.preventDefault(); setIsSubmitted(true); }}>
-                <input 
-                  type="text" 
-                  placeholder={t.contact.form_name} 
+              <form id="devis-form" className="flex flex-col gap-4" onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder={t.contact.form_name}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
-                <input 
-                  type="text" 
-                  placeholder={t.contact.form_address} 
+                <input
+                  type="text"
+                  name="address"
+                  placeholder={t.contact.form_address}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
-                <input 
-                  type="text" 
-                  placeholder={t.contact.form_zip} 
+                <input
+                  type="text"
+                  name="zip"
+                  placeholder={t.contact.form_zip}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
-                <input 
-                  type="email" 
-                  placeholder={t.contact.form_email} 
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder={t.contact.form_email}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
-                <input 
-                  type="tel" 
-                  placeholder={t.contact.form_phone} 
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder={t.contact.form_phone}
                   className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
                 />
                 <div className="flex items-start gap-2 mt-2">
-                  <input type="checkbox" id="privacy" className="mt-1" />
+                  <input type="checkbox" id="privacy" required className="mt-1" />
                   <label htmlFor="privacy" className="text-[11px] text-gray-500 leading-tight">
                     {t.contact.form_privacy1}<span style={{ color: brandColor }}>{t.contact.form_privacy2}</span>
                   </label>
                 </div>
-                {/* Hidden submit button to allow form submission via enter key */}
-                <button type="submit" className="hidden">Submit</button>
+                {submitError && (
+                  <p className="text-[12px] text-red-600">{submitError}</p>
+                )}
               </form>
             </div>
 
@@ -690,12 +732,13 @@ export default function App() {
                 {t.contact.info_text}
               </p>
 
-              <button 
-                type="button"
-                onClick={(e) => { e.preventDefault(); setIsSubmitted(true); }}
-                className="bg-white text-[#BA9765] text-[13px] font-bold px-8 py-3.5 rounded-full tracking-wider transition-all duration-300 border-2 border-white hover:bg-[#BA9765] hover:text-white active:bg-[#BA9765] active:text-white cursor-pointer"
+              <button
+                type="submit"
+                form="devis-form"
+                disabled={isSubmitting}
+                className="bg-white text-[#BA9765] text-[13px] font-bold px-8 py-3.5 rounded-full tracking-wider transition-all duration-300 border-2 border-white hover:bg-[#BA9765] hover:text-white active:bg-[#BA9765] active:text-white cursor-pointer disabled:opacity-60 disabled:cursor-wait"
               >
-                {t.hero.getQuote}
+                {isSubmitting ? '...' : t.hero.getQuote}
               </button>
             </div>
           </div>

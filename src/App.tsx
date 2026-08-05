@@ -556,8 +556,8 @@ export default function App() {
           {/* Slider side */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
             <BeforeAfterSlider
-              before="https://i.postimg.cc/BbZHK34K/Avant-Apres.png"
-              after="https://i.postimg.cc/BbZHK34K/Avant-Apres.png"
+              before="/avant.jpg"
+              after="/apres.jpg"
               beforeLabel={t.slider.before}
               afterLabel={t.slider.after}
             />

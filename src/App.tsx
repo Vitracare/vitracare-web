@@ -325,7 +325,7 @@ export default function App() {
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 to-transparent h-32"></div>
 
       {/* Header */}
-      <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${isScrolled ? 'py-6 bg-white/90 backdrop-blur-md shadow-sm' : 'py-10 bg-transparent'}`}>
+      <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${isScrolled ? 'py-6 bg-white shadow-sm' : 'py-10 bg-transparent'}`}>
         {/* Logo */}
         <a href="#accueil" className="flex items-center gap-3 mix-blend-multiply">
           {/* Split logo and name to add custom spacing */}

@@ -177,7 +177,7 @@ export default function Home() {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=2000')",
+          backgroundImage: "url('/images/hero.jpg')",
         }}
       />
 

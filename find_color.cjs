@@ -1,0 +1,11 @@
+const fs = require('fs');
+const { PNG } = require('pngjs');
+
+const data = fs.readFileSync('yeux.png');
+const png = PNG.sync.read(data);
+let minC = 255;
+for (let i = 0; i < png.data.length; i+=4) {
+  let avg = (png.data[i] + png.data[i+1] + png.data[i+2]) / 3;
+  if (avg < minC) minC = avg;
+}
+console.log('Darkest pixel avg:', minC);

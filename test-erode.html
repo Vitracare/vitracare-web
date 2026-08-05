@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10 bg-gray-200">
+  <svg width="0" height="0">
+    <filter id="thin1">
+      <feMorphology operator="erode" radius="0.5" in="SourceGraphic" />
+    </filter>
+    <filter id="thin2">
+      <feMorphology operator="erode" radius="1" in="SourceGraphic" />
+    </filter>
+    <filter id="thin3">
+      <feMorphology operator="erode" radius="2" in="SourceGraphic" />
+    </filter>
+  </svg>
+  <div class="flex gap-4">
+    <img src="https://i.postimg.cc/Kz6Dkw4K/Yeux.png" class="h-20 w-20 object-contain" />
+    <img src="https://i.postimg.cc/Kz6Dkw4K/Yeux.png" class="h-20 w-20 object-contain" style="filter: url(#thin1);" />
+    <img src="https://i.postimg.cc/Kz6Dkw4K/Yeux.png" class="h-20 w-20 object-contain" style="filter: url(#thin2);" />
+    <img src="https://i.postimg.cc/Kz6Dkw4K/Yeux.png" class="h-20 w-20 object-contain" style="filter: url(#thin3);" />
+  </div>
+</body>
+</html>

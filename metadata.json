@@ -1,0 +1,6 @@
+{
+  "name": "Vitracare Hero",
+  "description": "A modern hero section for a glass/windows service website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

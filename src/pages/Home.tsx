@@ -46,10 +46,10 @@ const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before:
       onTouchStart={(e) => { isDragging.current = true; updatePosition(e.touches[0].clientX); }}
     >
       {/* After image — base layer, always fully visible */}
-      <img src={after} alt={afterLabel} className="absolute inset-0 w-full h-full object-cover pointer-events-none" draggable={false} referrerPolicy="no-referrer" />
+      <img loading="lazy" src={after} alt={afterLabel} className="absolute inset-0 w-full h-full object-cover pointer-events-none" draggable={false} referrerPolicy="no-referrer" />
 
       {/* Before image — clipped to reveal only up to the handle */}
-      <img
+      <img loading="lazy"
         src={before}
         alt={beforeLabel}
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
@@ -78,7 +78,7 @@ const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: 
   return (
     <div className={`flex items-start gap-4 w-full max-w-[340px] ${offsetClass || ''}`}>
       <div className="flex flex-col items-center gap-1.5 shrink-0 z-10 pt-4">
-        <img src={image} alt={name} className="w-12 h-12 rounded-full object-cover shadow-sm" />
+        <img loading="lazy" src={image} alt={name} className="w-12 h-12 rounded-full object-cover shadow-sm" />
         <span className="text-[12px] text-[#A87C5D] font-bold">{name}</span>
       </div>
       <div className="relative bg-[#AF9269] text-white p-5 pl-6 rounded-[20px] shadow-sm mt-2 flex-1">
@@ -112,7 +112,7 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('accueil');
 
   useEffect(() => {
-    const sectionIds = ['accueil', 'services', 'produit', 'realisations', 'avis'];
+    const sectionIds = ['accueil', 'services', 'produit', 'avis'];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -211,7 +211,6 @@ export default function Home() {
             { id: 'accueil', label: t.nav.home, href: '#accueil' },
             { id: 'services', label: t.nav.services, href: '#services' },
             { id: 'produit', label: t.nav.pricing, href: '#produit' },
-            { id: 'realisations', label: t.nav.realisations, href: '#realisations' },
             { id: 'avis', label: t.nav.about, href: '#avis' },
           ] as const).map((item) => (
             <a
@@ -226,6 +225,13 @@ export default function Home() {
               )}
             </a>
           ))}
+          <Link
+            to="/realisations"
+            className="pb-1 transition-colors hover:text-black"
+            style={{ color: textColor }}
+          >
+            {t.nav.realisations}
+          </Link>
           <Link
             to="/contact"
             className="pb-1 transition-colors hover:text-black"
@@ -292,7 +298,7 @@ export default function Home() {
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="/images/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f1_title}
@@ -305,7 +311,7 @@ export default function Home() {
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="/images/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f2_title}
@@ -318,7 +324,7 @@ export default function Home() {
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="/images/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f3_title}
@@ -331,7 +337,7 @@ export default function Home() {
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="/images/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f4_title}
@@ -388,26 +394,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Réalisations Section */}
-      <section id="realisations" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-[#FAF9F6]">
-        <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
-          {t.realisations.title}
-        </h2>
-        <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
-          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => (
-            <div key={n} className="aspect-[3/4] rounded-xl overflow-hidden">
-              <img
-                src={`/images/realisations/chantier-${n}.jpg`}
-                alt={`Réalisation VitraCare ${n}`}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Avis Section */}
       <section id="avis" className="w-full bg-white py-24">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
@@ -424,20 +410,20 @@ export default function Home() {
             <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-4 h-[550px] relative">
               {/* Top Row */}
               <div className="flex w-full h-[42%] gap-4 items-end">
-                <img src="/images/House-1-final.png" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
-                <img src="/images/Avis-2.png" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/House-1-final.png" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-2.png" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
               </div>
               {/* Bottom Row */}
               <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                <img src="/images/Avis-3-final.png" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
-                <img src="/images/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
-                <img src="/images/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-3-final.png" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
               </div>
             </div>
 
             {/* Mobile Photo Collage */}
             <div className="w-full h-[300px] md:hidden relative overflow-hidden rounded-xl bg-gray-50 flex items-center justify-center">
-               <img src="/images/House-1-final.png" className="w-full h-full object-contain mix-blend-multiply" alt="Maison" referrerPolicy="no-referrer" />
+               <img loading="lazy" src="/images/House-1-final.png" className="w-full h-full object-contain mix-blend-multiply" alt="Maison" referrerPolicy="no-referrer" />
             </div>
 
             {/* Right: Testimonials */}
@@ -488,7 +474,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <img src="/images/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
               <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
                 {t.strip.f1_title}
               </h3>
@@ -537,7 +523,7 @@ export default function Home() {
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
+           <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 
@@ -564,7 +550,7 @@ export default function Home() {
 
           {/* Right Content */}
           <div className="w-full lg:w-1/2 flex justify-center items-center relative min-h-[300px] lg:min-h-[500px]">
-            <img src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[500px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[500px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
         </div>
       </section>
@@ -597,6 +583,7 @@ export default function Home() {
           <a href="#accueil" className="hover:opacity-80 transition-opacity">{t.nav.home}</a>
           <a href="#services" className="hover:opacity-80 transition-opacity">{t.nav.services}</a>
           <a href="#produit" className="hover:opacity-80 transition-opacity">{t.nav.pricing}</a>
+          <Link to="/realisations" className="hover:opacity-80 transition-opacity">{t.nav.realisations}</Link>
           <a href="#avis" className="hover:opacity-80 transition-opacity">{t.nav.about}</a>
           <Link to="/contact" className="hover:opacity-80 transition-opacity">{t.nav.contact}</Link>
         </div>
@@ -611,7 +598,7 @@ export default function Home() {
 
         {/* Logo */}
         <div className="flex flex-col items-center">
-          <img src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+          <img loading="lazy" src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
           <div className="text-white text-[12px] md:text-[13px] tracking-[0.4em] font-bold">
             VITRACARE
           </div>

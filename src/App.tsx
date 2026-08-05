@@ -2,6 +2,75 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Ruler, ShieldCheck, FileBadge, Clock } from 'lucide-react';
 
 
+const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before: string, after: string, beforeLabel: string, afterLabel: string }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [position, setPosition] = useState(50);
+  const isDragging = useRef(false);
+
+  const updatePosition = (clientX: number) => {
+    const container = containerRef.current;
+    if (!container) return;
+    const rect = container.getBoundingClientRect();
+    const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+    setPosition((x / rect.width) * 100);
+  };
+
+  useEffect(() => {
+    const handleMove = (e: MouseEvent | TouchEvent) => {
+      if (!isDragging.current) return;
+      const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
+      updatePosition(clientX);
+    };
+    const handleUp = () => { isDragging.current = false; };
+
+    window.addEventListener('mousemove', handleMove);
+    window.addEventListener('mouseup', handleUp);
+    window.addEventListener('touchmove', handleMove);
+    window.addEventListener('touchend', handleUp);
+    return () => {
+      window.removeEventListener('mousemove', handleMove);
+      window.removeEventListener('mouseup', handleUp);
+      window.removeEventListener('touchmove', handleMove);
+      window.removeEventListener('touchend', handleUp);
+    };
+  }, []);
+
+  return (
+    <div
+      ref={containerRef}
+      className="relative w-full max-w-[500px] aspect-[4/3] rounded-xl overflow-hidden select-none cursor-ew-resize shadow-lg"
+      onMouseDown={(e) => { isDragging.current = true; updatePosition(e.clientX); }}
+      onTouchStart={(e) => { isDragging.current = true; updatePosition(e.touches[0].clientX); }}
+    >
+      {/* After image — base layer, always fully visible */}
+      <img src={after} alt={afterLabel} className="absolute inset-0 w-full h-full object-cover pointer-events-none" draggable={false} referrerPolicy="no-referrer" />
+
+      {/* Before image — clipped to reveal only up to the handle */}
+      <img
+        src={before}
+        alt={beforeLabel}
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+        style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
+        draggable={false}
+        referrerPolicy="no-referrer"
+      />
+
+      {/* Labels */}
+      <div className="absolute top-3 left-3 bg-black/55 text-white text-[11px] font-bold tracking-wider px-2.5 py-1 rounded pointer-events-none">{beforeLabel}</div>
+      <div className="absolute top-3 right-3 bg-black/55 text-white text-[11px] font-bold tracking-wider px-2.5 py-1 rounded pointer-events-none">{afterLabel}</div>
+
+      {/* Drag handle */}
+      <div className="absolute top-0 bottom-0 w-[3px] bg-white shadow-lg pointer-events-none" style={{ left: `${position}%`, transform: 'translateX(-50%)' }}>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#BA9765" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M8 5l-5 7 5 7M16 5l5 7-5 7" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: string, text: string, offsetClass?: string }) => {
   return (
     <div className={`flex items-start gap-4 w-full max-w-[340px] ${offsetClass || ''}`}>
@@ -486,7 +555,12 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 py-24 flex flex-col md:flex-row items-center justify-between gap-16 md:gap-24">
           {/* Slider side */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-            <img src="https://i.postimg.cc/BbZHK34K/Avant-Apres.png" alt="Avant / Après" className="w-full h-auto object-contain max-w-[500px]" referrerPolicy="no-referrer" />
+            <BeforeAfterSlider
+              before="https://i.postimg.cc/BbZHK34K/Avant-Apres.png"
+              after="https://i.postimg.cc/BbZHK34K/Avant-Apres.png"
+              beforeLabel={t.slider.before}
+              afterLabel={t.slider.after}
+            />
           </div>
           
           {/* Content side */}

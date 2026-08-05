@@ -399,10 +399,10 @@ export default function App() {
         <a href="#accueil" className="flex items-center gap-3 mix-blend-multiply">
           {/* Split logo and name to add custom spacing */}
           <div className="relative h-8 w-[29px] overflow-hidden">
-            <img src="https://i.postimg.cc/P5C9fybp/Logo-et-nom.png" alt="Logo" className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
+            <img src="/images/Logo-et-nom.png" alt="Logo" className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
           </div>
           <div className="relative h-8 w-[105px] overflow-hidden">
-            <img src="https://i.postimg.cc/P5C9fybp/Logo-et-nom.png" alt="VITRACARE" className="absolute top-0 left-[-33.5px] h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
+            <img src="/images/Logo-et-nom.png" alt="VITRACARE" className="absolute top-0 left-[-33.5px] h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
           </div>
         </a>
 
@@ -490,7 +490,7 @@ export default function App() {
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="https://i.postimg.cc/Kz6Dkw4K/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+              <img src="/images/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f1_title}
@@ -503,7 +503,7 @@ export default function App() {
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="https://i.postimg.cc/JnVsbLct/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img src="/images/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f2_title}
@@ -516,7 +516,7 @@ export default function App() {
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="https://i.postimg.cc/qMRv6qVG/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img src="/images/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f3_title}
@@ -529,7 +529,7 @@ export default function App() {
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
-              <img src="https://i.postimg.cc/hjDBFZSW/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img src="/images/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f4_title}
@@ -602,20 +602,20 @@ export default function App() {
             <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-4 h-[550px] relative">
               {/* Top Row */}
               <div className="flex w-full h-[42%] gap-4 items-end">
-                <img src="https://i.postimg.cc/CLhZ6F9P/House-1-final.png" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
-                <img src="https://i.postimg.cc/pr42fQKV/Avis-2.png" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
+                <img src="/images/House-1-final.png" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
+                <img src="/images/Avis-2.png" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
               </div>
               {/* Bottom Row */}
               <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                <img src="https://i.postimg.cc/7PWYr4jH/Avis-3-final.png" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
-                <img src="https://i.postimg.cc/P5GXN4tC/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
-                <img src="https://i.postimg.cc/Z5kb0cTX/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
+                <img src="/images/Avis-3-final.png" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
+                <img src="/images/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
+                <img src="/images/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
               </div>
             </div>
             
             {/* Mobile Photo Collage */}
             <div className="w-full h-[300px] md:hidden relative overflow-hidden rounded-xl bg-gray-50 flex items-center justify-center">
-               <img src="https://i.postimg.cc/CLhZ6F9P/House-1-final.png" className="w-full h-full object-contain mix-blend-multiply" alt="Maison" referrerPolicy="no-referrer" />
+               <img src="/images/House-1-final.png" className="w-full h-full object-contain mix-blend-multiply" alt="Maison" referrerPolicy="no-referrer" />
             </div>
 
             {/* Right: Testimonials */}
@@ -623,26 +623,26 @@ export default function App() {
               <div className="flex flex-col gap-8 w-full">
                 <Testimonial 
                   name="Isabelle" 
-                  image="https://i.postimg.cc/sxhFRkZz/Isabelle.avif" 
+                  image="/images/Isabelle.avif" 
                   text={t.reviews.r1} 
                 />
                 
                 <Testimonial 
                   name="Olivier" 
-                  image="https://i.postimg.cc/02GkMSbq/Francois.avif" 
+                  image="/images/Francois.avif" 
                   text={t.reviews.r2} 
                   offsetClass="ml-auto lg:mr-4"
                 />
 
                 <Testimonial 
                   name="Sophie" 
-                  image="https://i.postimg.cc/FFy5D4mP/Sophie.avif" 
+                  image="/images/Sophie.avif" 
                   text={t.reviews.r3} 
                 />
 
                 <Testimonial 
                   name="François" 
-                  image="https://i.postimg.cc/QtVCcdv4/Olivier.avif" 
+                  image="/images/Olivier.avif" 
                   text={t.reviews.r4} 
                   offsetClass="ml-auto lg:mr-4"
                 />
@@ -666,7 +666,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <img src="https://i.postimg.cc/90YzLScS/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
+              <img src="/images/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
               <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
                 {t.strip.f1_title}
               </h3>
@@ -715,7 +715,7 @@ export default function App() {
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img src="https://i.postimg.cc/5thDHz4Z/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
+           <img src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
           
@@ -829,7 +829,7 @@ export default function App() {
             <div className={`w-full md:w-[45%] p-8 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
               {/* Logo icon */}
               <div className="flex flex-col items-center mb-8">
-                <img src="https://i.postimg.cc/5twPjRXW/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+                <img src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
                 <div className="text-white text-[12px] md:text-[13px] tracking-[0.4em] font-bold">
                   VITRACARE
                 </div>
@@ -873,7 +873,7 @@ export default function App() {
         
         {/* Logo */}
         <div className="flex flex-col items-center">
-          <img src="https://i.postimg.cc/5twPjRXW/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+          <img src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
           <div className="text-white text-[12px] md:text-[13px] tracking-[0.4em] font-bold">
             VITRACARE
           </div>

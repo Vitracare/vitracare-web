@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ShieldCheck, FileBadge, Clock } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
+import { DevisFormCard } from '../components/DevisFormCard';
 
 const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before: string, after: string, beforeLabel: string, afterLabel: string }) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -544,6 +545,27 @@ export default function Home() {
           <div className="w-full lg:w-1/2 flex justify-center items-center relative min-h-[300px] lg:min-h-[500px]">
             <img src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[500px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
+        </div>
+      </section>
+
+      {/* Devis Section */}
+      <section id="devis" className="w-full bg-[#4b4b4b] py-24 px-8 md:px-16">
+        <div className="max-w-5xl mx-auto flex flex-col items-center">
+          <h2 className="text-[36px] md:text-[44px] font-bold text-white mb-6 text-center tracking-tight">
+            {t.devis.title}
+          </h2>
+
+          <div className="w-[60px] h-[2px] mb-8" style={{ backgroundColor: brandColor }}></div>
+
+          <p className="text-[18px] text-white/90 text-center max-w-2xl leading-relaxed mb-6">
+            {t.devis.subtitle}
+          </p>
+
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
+            {t.devis.reassurance}
+          </div>
+
+          <DevisFormCard />
         </div>
       </section>
 

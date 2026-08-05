@@ -457,11 +457,12 @@ export default function Home() {
               </div>
 
               <div className="mt-12 flex justify-start pl-4 md:pl-16">
-                <button
-                  className="text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+                <Link
+                  to="/realisations"
+                  className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
                 >
                   {t.reviews.more}
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -568,7 +569,7 @@ export default function Home() {
             {t.devis.subtitle}
           </p>
 
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
+          <div className="max-w-[92%] sm:max-w-fit mx-auto text-center inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
             {t.devis.reassurance}
           </div>
 

@@ -20,9 +20,9 @@ export default function Devis() {
         <LanguageSwitcher />
       </header>
 
-      <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-12">
-        <div className="max-w-5xl w-full flex flex-col items-center">
-          <h1 className="text-[36px] md:text-[44px] font-bold text-white mb-6 text-center tracking-tight">
+      <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-12 min-w-0">
+        <div className="max-w-5xl w-full min-w-0 flex flex-col items-center">
+          <h1 className="w-full text-[36px] md:text-[44px] font-bold text-white mb-6 text-center tracking-tight">
             {t.devis.title}
           </h1>
 
@@ -32,7 +32,7 @@ export default function Devis() {
             {t.devis.subtitle}
           </p>
 
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
+          <div className="max-w-[92%] sm:max-w-fit mx-auto text-center inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
             {t.devis.reassurance}
           </div>
 

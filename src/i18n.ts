@@ -56,7 +56,9 @@ export const translations = {
       form_photos: 'Ajouter des photos (optionnel)',
       form_privacy1: 'J\'ai lu et j\'accepte votre ',
       form_privacy2: 'politique de confidentialité',
-      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 24h.'
+      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 24h.',
+      form_error: 'Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.',
+      photos_too_large: 'Les photos sélectionnées sont trop volumineuses au total (max ~3,5 Mo). Réduisez le nombre de photos ou leur taille.'
     },
     contactPage: {
       title: 'Contactez-nous',
@@ -68,7 +70,8 @@ export const translations = {
       form_email: 'Email',
       form_message: 'Votre message',
       submit: 'Envoyer le message',
-      success: 'Message envoyé ! Nous vous répondons rapidement.'
+      success: 'Message envoyé ! Nous vous répondons rapidement.',
+      form_error: 'Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.'
     },
     back: 'Retour au site',
     footer: {
@@ -131,7 +134,9 @@ export const translations = {
       form_photos: 'Foto\'s toevoegen (optioneel)',
       form_privacy1: 'Ik heb uw ',
       form_privacy2: 'privacybeleid gelezen en ga ermee akkoord',
-      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 24 uur contact met u op.'
+      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 24 uur contact met u op.',
+      form_error: 'Er is een fout opgetreden. Probeer opnieuw, of bel ons rechtstreeks op 0489 60 70 74.',
+      photos_too_large: 'De geselecteerde foto\'s zijn samen te groot (max ~3,5 MB). Verminder het aantal foto\'s of hun formaat.'
     },
     contactPage: {
       title: 'Contacteer ons',
@@ -143,7 +148,8 @@ export const translations = {
       form_email: 'E-mail',
       form_message: 'Uw bericht',
       submit: 'Bericht verzenden',
-      success: 'Bericht verzonden! We reageren snel.'
+      success: 'Bericht verzonden! We reageren snel.',
+      form_error: 'Er is een fout opgetreden. Probeer opnieuw, of bel ons rechtstreeks op 0489 60 70 74.'
     },
     back: 'Terug naar de site',
     footer: {
@@ -206,7 +212,9 @@ export const translations = {
       form_photos: 'Add photos (optional)',
       form_privacy1: 'I have read and accept your ',
       form_privacy2: 'privacy policy',
-      info_text: 'Fill in your details and click the button below, we will contact you within 24 hours.'
+      info_text: 'Fill in your details and click the button below, we will contact you within 24 hours.',
+      form_error: 'Something went wrong. Please try again, or call us directly on 0489 60 70 74.',
+      photos_too_large: 'The selected photos are too large in total (max ~3.5 MB). Reduce the number of photos or their size.'
     },
     contactPage: {
       title: 'Contact us',
@@ -218,7 +226,8 @@ export const translations = {
       form_email: 'Email',
       form_message: 'Your message',
       submit: 'Send message',
-      success: 'Message sent! We will reply shortly.'
+      success: 'Message sent! We will reply shortly.',
+      form_error: 'Something went wrong. Please try again, or call us directly on 0489 60 70 74.'
     },
     back: 'Back to site',
     footer: {

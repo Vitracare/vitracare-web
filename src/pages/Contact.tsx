@@ -33,7 +33,7 @@ export default function Contact() {
       if (!response.ok) throw new Error('Request failed');
       setIsSubmitted(true);
     } catch {
-      setSubmitError('Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.');
+      setSubmitError(t.contactPage.form_error);
     } finally {
       setIsSubmitting(false);
     }

@@ -29,7 +29,7 @@ export const DevisFormCard = () => {
 
     const totalSize = files.reduce((sum, f) => sum + f.size, 0);
     if (totalSize > MAX_PHOTOS_BYTES) {
-      setSubmitError('Les photos sélectionnées sont trop volumineuses au total (max ~3,5 Mo). Réduisez le nombre de photos ou leur taille.');
+      setSubmitError(t.devis.photos_too_large);
       return;
     }
 
@@ -62,7 +62,7 @@ export const DevisFormCard = () => {
       if (!response.ok) throw new Error('Request failed');
       setIsSubmitted(true);
     } catch {
-      setSubmitError('Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.');
+      setSubmitError(t.devis.form_error);
     } finally {
       setIsSubmitting(false);
     }

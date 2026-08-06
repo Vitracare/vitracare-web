@@ -19,7 +19,7 @@ export default function Devis() {
           {t.back}
         </Link>
         <div className="flex items-center gap-4">
-          <LanguageSwitcher />
+          <LanguageSwitcher dark />
           <MobileMenu dark />
         </div>
       </header>

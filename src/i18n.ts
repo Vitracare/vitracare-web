@@ -22,6 +22,15 @@ export const translations = {
     },
     slider: { before: 'AVANT', after: 'APRÈS' },
     realisations: { title: 'Nos réalisations' },
+    teintes: {
+      title: 'Nos teintes',
+      miroir_title: 'Teint effet miroir',
+      miroir_desc: 'Film miroir sans tain pour une intimité totale. Bloque 99% des UV et réduit considérablement la chaleur.',
+      solaire_title: 'Teinte solaire',
+      solaire_desc: 'Réduction de la chaleur et des UV pour un confort optimal en intérieur.',
+      mat_title: 'Teint blanc mat',
+      mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.'
+    },
     reviews: {
       title: 'Avis',
       r1: 'Le salon plein sud est enfin vivable en été !',
@@ -106,6 +115,15 @@ export const translations = {
     },
     slider: { before: 'VOOR', after: 'NA' },
     realisations: { title: 'Onze realisaties' },
+    teintes: {
+      title: 'Onze folies',
+      miroir_title: 'Spiegeleffect folie',
+      miroir_desc: 'Spiegelfolie zonder tain voor volledige privacy. Blokkeert 99% van de UV-stralen en vermindert de warmte aanzienlijk.',
+      solaire_title: 'Zonwerende folie',
+      solaire_desc: 'Vermindering van warmte en UV voor optimaal comfort binnenshuis.',
+      mat_title: 'Matwitte folie',
+      mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.'
+    },
     reviews: {
       title: 'Beoordelingen',
       r1: 'De woonkamer op het zuiden is eindelijk leefbaar in de zomer!',
@@ -190,6 +208,15 @@ export const translations = {
     },
     slider: { before: 'BEFORE', after: 'AFTER' },
     realisations: { title: 'Our work' },
+    teintes: {
+      title: 'Our tints',
+      miroir_title: 'Mirror effect film',
+      miroir_desc: 'One-way mirror film for total privacy. Blocks 99% of UV and significantly reduces heat.',
+      solaire_title: 'Solar tint',
+      solaire_desc: 'Reduces heat and UV for optimal indoor comfort.',
+      mat_title: 'Matte white film',
+      mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.'
+    },
     reviews: {
       title: 'Reviews',
       r1: 'The south-facing living room is finally livable in summer!',

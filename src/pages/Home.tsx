@@ -396,6 +396,64 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Teintes Section */}
+      <section className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
+        <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
+          {t.teintes.title}
+        </h2>
+        <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+          <div className="flex flex-col items-center text-center">
+            <div
+              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
+              style={{ background: 'linear-gradient(135deg, #9AA3A6, #E7EAEA 45%, #7C8689)' }}
+            ></div>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+              {t.teintes.miroir_title}
+            </h3>
+            <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
+              {t.teintes.miroir_desc}
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <div
+              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
+              style={{ background: 'linear-gradient(135deg, #E7E2D6, #F7F5EF)' }}
+            ></div>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+              {t.teintes.solaire_title}
+            </h3>
+            <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
+              {t.teintes.solaire_desc}
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <div
+              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
+              style={{ background: 'linear-gradient(135deg, #EDEDED, #FBFBFB)' }}
+            ></div>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+              {t.teintes.mat_title}
+            </h3>
+            <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
+              {t.teintes.mat_desc}
+            </p>
+          </div>
+        </div>
+
+        <div className="flex justify-center mt-16">
+          <Link
+            to="/devis"
+            className="inline-block text-white px-10 py-4 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+          >
+            {t.hero.getQuote}
+          </Link>
+        </div>
+      </section>
+
       {/* Avis Section */}
       <section id="avis" className="w-full bg-white py-24">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">

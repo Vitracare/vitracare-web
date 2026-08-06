@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Phone, MessageCircle, Mail } from 'lucide-react';
+import { Phone, MessageCircle, Mail } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
-import { LanguageSwitcher } from '../components/LanguageSwitcher';
-import { MobileMenu } from '../components/MobileMenu';
+import { SiteHeader } from '../components/SiteHeader';
+import { SiteFooter } from '../components/SiteFooter';
 
 const brandColor = '#BA9765';
 
@@ -56,19 +56,9 @@ export default function Contact() {
 
   return (
     <div className="w-full min-h-screen font-sans bg-white flex flex-col">
-      {/* Header */}
-      <header className="w-full px-8 md:px-16 lg:px-20 py-8 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 text-[#555] hover:text-black transition-colors text-[14px] font-bold tracking-wider">
-          <ArrowLeft size={18} />
-          {t.back}
-        </Link>
-        <div className="flex items-center gap-4">
-          <LanguageSwitcher />
-          <MobileMenu />
-        </div>
-      </header>
+      <SiteHeader activeId="contact" alwaysSolid />
 
-      <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-12">
+      <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 pt-36 pb-12">
         <div className="max-w-3xl w-full">
           <h1 className="text-[36px] md:text-[44px] font-bold text-center tracking-tight mb-6" style={{ color: '#464646' }}>
             {t.contactPage.title}
@@ -165,6 +155,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      <SiteFooter />
     </div>
   );
 }

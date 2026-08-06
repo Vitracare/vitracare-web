@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
-import { LanguageSwitcher } from '../components/LanguageSwitcher';
-import { MobileMenu } from '../components/MobileMenu';
+import { SiteHeader } from '../components/SiteHeader';
+import { SiteFooter } from '../components/SiteFooter';
 
 const brandColor = '#BA9765';
 
@@ -11,18 +10,9 @@ export default function Realisations() {
 
   return (
     <div className="w-full min-h-screen font-sans bg-white flex flex-col">
-      <header className="w-full px-8 md:px-16 lg:px-20 py-8 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 text-[#555] hover:text-black transition-colors text-[14px] font-bold tracking-wider">
-          <ArrowLeft size={18} />
-          {t.back}
-        </Link>
-        <div className="flex items-center gap-4">
-          <LanguageSwitcher />
-          <MobileMenu />
-        </div>
-      </header>
+      <SiteHeader activeId="realisations" alwaysSolid />
 
-      <div className="flex-1 px-8 md:px-16 lg:px-20 pb-24">
+      <div className="flex-1 px-8 md:px-16 lg:px-20 pt-36 pb-24">
         <h1 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: '#464646' }}>
           {t.realisations.title}
         </h1>
@@ -41,6 +31,35 @@ export default function Realisations() {
           ))}
         </div>
       </div>
+
+      {/* CTA band */}
+      <div className="w-full bg-[#FAF9F6] border-t border-gray-100 py-16 px-8 text-center">
+        <h2 className="text-[24px] md:text-[28px] font-bold mb-3" style={{ color: '#464646' }}>
+          {t.realisations.ctaTitle}
+        </h2>
+        <p className="text-[15px] mb-8 max-w-xl mx-auto" style={{ color: '#767676' }}>
+          {t.realisations.ctaSubtitle}
+        </p>
+        <div className="flex flex-wrap gap-4 justify-center">
+          <Link
+            to="/devis"
+            className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+          >
+            {t.hero.getQuote}
+          </Link>
+          <Link
+            to="/contact"
+            className="inline-block px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 cursor-pointer hover:text-white"
+            style={{ color: brandColor, borderColor: brandColor }}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = brandColor)}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
+          >
+            {t.nav.contact}
+          </Link>
+        </div>
+      </div>
+
+      <SiteFooter />
     </div>
   );
 }

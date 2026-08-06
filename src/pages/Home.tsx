@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, FileBadge, Clock } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
-import { LanguageSwitcher } from '../components/LanguageSwitcher';
-import { MobileMenu } from '../components/MobileMenu';
+import { SiteHeader } from '../components/SiteHeader';
+import { SiteFooter } from '../components/SiteFooter';
 import { DevisFormCard } from '../components/DevisFormCard';
 
 const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before: string, after: string, beforeLabel: string, afterLabel: string }) => {
@@ -109,7 +109,6 @@ export default function Home() {
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
-  const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('accueil');
 
   useEffect(() => {
@@ -131,14 +130,6 @@ export default function Home() {
     });
 
     return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   useEffect(() => {
@@ -194,66 +185,7 @@ export default function Home() {
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 to-transparent h-32"></div>
 
       {/* Header */}
-      <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${isScrolled ? 'py-6 bg-white shadow-sm' : 'py-10 bg-transparent'}`}>
-        {/* Logo */}
-        <a href="#accueil" className="flex items-center gap-3 mix-blend-multiply">
-          {/* Split logo and name to add custom spacing */}
-          <div className="relative h-8 w-[29px] overflow-hidden">
-            <img src="/images/Logo-et-nom.png" alt="Logo" className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
-          </div>
-          <div className="relative h-8 w-[105px] overflow-hidden">
-            <img src="/images/Logo-et-nom.png" alt="VITRACARE" className="absolute top-0 left-[-33.5px] h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
-          </div>
-        </a>
-
-        {/* Desktop Navigation - Centered */}
-        <nav className="hidden lg:flex items-center gap-8 text-[20px] absolute left-1/2 transform -translate-x-1/2">
-          {([
-            { id: 'accueil', label: t.nav.home, href: '#accueil' },
-            { id: 'services', label: t.nav.services, href: '#services' },
-            { id: 'produit', label: t.nav.pricing, href: '#produit' },
-            { id: 'avis', label: t.nav.about, href: '#avis' },
-          ] as const).map((item) => (
-            <a
-              key={item.id}
-              href={item.href}
-              className={`relative pb-1 transition-colors ${activeSection === item.id ? 'font-bold' : 'hover:text-black'}`}
-              style={{ color: textColor }}
-            >
-              {item.label}
-              {activeSection === item.id && (
-                <span className="absolute bottom-0 left-0 w-full h-[2px]" style={{ backgroundColor: brandColor }}></span>
-              )}
-            </a>
-          ))}
-          <Link
-            to="/realisations"
-            className="pb-1 transition-colors hover:text-black"
-            style={{ color: textColor }}
-          >
-            {t.nav.realisations}
-          </Link>
-          <Link
-            to="/contact"
-            className="pb-1 transition-colors hover:text-black"
-            style={{ color: textColor }}
-          >
-            {t.nav.contact}
-          </Link>
-        </nav>
-
-        {/* Actions */}
-        <div className="flex items-center gap-6">
-          <Link
-            to="/devis"
-            className="hidden sm:block text-white px-6 py-2 rounded-full text-[16px] font-bold tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
-          >
-            {t.hero.quote}
-          </Link>
-          <LanguageSwitcher />
-          <MobileMenu />
-        </div>
-      </header>
+      <SiteHeader activeId={activeSection} />
 
       {/* Main Content */}
       <main className="relative z-10 flex flex-col justify-center min-h-[100vh] pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
@@ -643,39 +575,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="w-full py-16 flex flex-col items-center justify-center text-white" style={{ backgroundColor: brandColor }}>
-        {/* Top links */}
-        <div className="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-3 mb-4 text-[14px] md:text-[15px]">
-          <a href="#accueil" className="hover:opacity-80 transition-opacity">{t.nav.home}</a>
-          <a href="#services" className="hover:opacity-80 transition-opacity">{t.nav.services}</a>
-          <a href="#produit" className="hover:opacity-80 transition-opacity">{t.nav.pricing}</a>
-          <Link to="/realisations" className="hover:opacity-80 transition-opacity">{t.nav.realisations}</Link>
-          <a href="#avis" className="hover:opacity-80 transition-opacity">{t.nav.about}</a>
-          <Link to="/contact" className="hover:opacity-80 transition-opacity">{t.nav.contact}</Link>
-        </div>
-
-        {/* Bottom links */}
-        <div className="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-3 mb-16 text-[14px] md:text-[15px]">
-          <Link to="/faq" className="hover:opacity-80 transition-opacity">{t.footer.faq}</Link>
-          <Link to="/conditions-generales" className="hover:opacity-80 transition-opacity">{t.footer.terms}</Link>
-          <Link to="/mentions-legales" className="hover:opacity-80 transition-opacity">{t.footer.legal}</Link>
-          <Link to="/politique-confidentialite" className="hover:opacity-80 transition-opacity">{t.footer.privacy}</Link>
-        </div>
-
-        {/* Logo */}
-        <div className="flex flex-col items-center">
-          <img loading="lazy" src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
-          <div className="text-white text-[12px] md:text-[13px] tracking-[0.4em] font-bold">
-            VITRACARE
-          </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="text-white/70 text-[12px] mt-8">
-          {t.footer.copyright}
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

@@ -21,7 +21,11 @@ export const translations = {
       subtitle: 'Films pour vitrages sur mesure.'
     },
     slider: { before: 'AVANT', after: 'APRÈS' },
-    realisations: { title: 'Nos réalisations' },
+    realisations: {
+      title: 'Nos réalisations',
+      ctaTitle: 'Un projet similaire en tête ?',
+      ctaSubtitle: 'Demandez votre devis gratuit sous 24h, ou contactez-nous directement pour en discuter.'
+    },
     teintes: {
       title: 'Nos teintes',
       miroir_title: 'Teint effet miroir',
@@ -114,7 +118,11 @@ export const translations = {
       subtitle: 'Raamfolie op maat.'
     },
     slider: { before: 'VOOR', after: 'NA' },
-    realisations: { title: 'Onze realisaties' },
+    realisations: {
+      title: 'Onze realisaties',
+      ctaTitle: 'Een gelijkaardig project in gedachten?',
+      ctaSubtitle: 'Vraag uw gratis offerte aan binnen 24u, of neem rechtstreeks contact met ons op.'
+    },
     teintes: {
       title: 'Onze folies',
       miroir_title: 'Spiegeleffect folie',
@@ -207,7 +215,11 @@ export const translations = {
       subtitle: 'Custom window films.'
     },
     slider: { before: 'BEFORE', after: 'AFTER' },
-    realisations: { title: 'Our work' },
+    realisations: {
+      title: 'Our work',
+      ctaTitle: 'Have a similar project in mind?',
+      ctaSubtitle: 'Request your free quote within 24h, or contact us directly to discuss it.'
+    },
     teintes: {
       title: 'Our tints',
       miroir_title: 'Mirror effect film',

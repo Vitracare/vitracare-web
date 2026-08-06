@@ -539,7 +539,12 @@ export default function Home() {
 
           {/* Right Content */}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center relative min-h-[320px] lg:min-h-[560px]">
-            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
+            {/* Soft clearing behind the pin graphic so the map lines fade out instead of crossing over it */}
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FAF9F6 45%, rgba(250,249,246,0) 85%)' }}
+            ></div>
+            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
         </div>
       </section>

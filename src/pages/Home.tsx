@@ -582,8 +582,14 @@ export default function Home() {
 
       {/* Map Section */}
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
-        {/* Background Image */}
-        <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
+        {/* Background Image — confined to the left/text side, fading out before the pin graphic */}
+        <div
+          className="absolute inset-0 pointer-events-none mix-blend-multiply"
+          style={{
+            maskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',
+            WebkitMaskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',
+          }}
+        >
            <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">

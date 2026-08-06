@@ -12,23 +12,29 @@ import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
 import Blog from './pages/Blog';
 import BlogArticle from './pages/BlogArticle';
 
+export function AppRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/devis" element={<Devis />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/faq" element={<Faq />} />
+      <Route path="/realisations" element={<Realisations />} />
+      <Route path="/conditions-generales" element={<ConditionsGenerales />} />
+      <Route path="/mentions-legales" element={<MentionsLegales />} />
+      <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:slug" element={<BlogArticle />} />
+    </Routes>
+  );
+}
+
 export default function App() {
   return (
     <LanguageProvider>
       <BrowserRouter>
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/devis" element={<Devis />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/realisations" element={<Realisations />} />
-          <Route path="/conditions-generales" element={<ConditionsGenerales />} />
-          <Route path="/mentions-legales" element={<MentionsLegales />} />
-          <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogArticle />} />
-        </Routes>
+        <AppRoutes />
       </BrowserRouter>
     </LanguageProvider>
   );

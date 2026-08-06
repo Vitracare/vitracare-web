@@ -11,10 +11,24 @@ export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
+  const [attempted, setAttempted] = useState(false);
+
+  const invalidClass = attempted
+    ? 'invalid:border-red-400 invalid:focus:border-red-400'
+    : '';
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitError('');
+
+    const formEl = e.currentTarget;
+    if (!formEl.checkValidity()) {
+      setAttempted(true);
+      setSubmitError(t.contactPage.required_error);
+      formEl.reportValidity();
+      return;
+    }
+
     setIsSubmitting(true);
 
     const formData = new FormData(e.currentTarget);
@@ -115,23 +129,24 @@ export default function Contact() {
                 type="text"
                 name="name"
                 required
-                placeholder={t.contactPage.form_name}
-                className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+                placeholder={`${t.contactPage.form_name} *`}
+                className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
               />
               <input
                 type="email"
                 name="email"
                 required
-                placeholder={t.contactPage.form_email}
-                className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+                placeholder={`${t.contactPage.form_email} *`}
+                className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
               />
               <textarea
                 name="message"
                 required
                 rows={5}
-                placeholder={t.contactPage.form_message}
-                className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none"
+                placeholder={`${t.contactPage.form_message} *`}
+                className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none ${invalidClass}`}
               />
+              <p className="text-[11px] text-gray-400">{t.contactPage.required_note}</p>
               {submitError && (
                 <p className="text-[12px] text-red-600">{submitError}</p>
               )}

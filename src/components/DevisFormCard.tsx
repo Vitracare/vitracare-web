@@ -1,13 +1,49 @@
-import { useState, type FormEvent } from 'react';
+import { useState, type FormEvent, type ChangeEvent } from 'react';
+import { X } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
 const brandColor = '#BA9765';
 const MAX_PHOTOS_BYTES = 3.5 * 1024 * 1024; // stays under the ~4.5MB serverless request limit once base64-encoded
+const MAX_PHOTOS_COUNT = 12;
+const COMPRESS_MAX_DIM = 1280;
+const COMPRESS_QUALITY = 0.72;
 
-const fileToBase64 = (file: File): Promise<string> =>
+type PhotoItem = {
+  filename: string;
+  contentType: string;
+  dataUrl: string;
+  size: number;
+};
+
+const compressImage = (file: File): Promise<PhotoItem> =>
   new Promise((resolve, reject) => {
     const reader = new FileReader();
-    reader.onload = () => resolve((reader.result as string).split(',')[1]);
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        let { width, height } = img;
+        if (width > COMPRESS_MAX_DIM || height > COMPRESS_MAX_DIM) {
+          if (width > height) {
+            height = Math.round((height * COMPRESS_MAX_DIM) / width);
+            width = COMPRESS_MAX_DIM;
+          } else {
+            width = Math.round((width * COMPRESS_MAX_DIM) / height);
+            height = COMPRESS_MAX_DIM;
+          }
+        }
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        if (!ctx) { reject(new Error('no canvas context')); return; }
+        ctx.drawImage(img, 0, 0, width, height);
+        const dataUrl = canvas.toDataURL('image/jpeg', COMPRESS_QUALITY);
+        const size = Math.round((dataUrl.length - dataUrl.indexOf(',') - 1) * 0.75);
+        resolve({ filename: file.name.replace(/\.\w+$/, '.jpg'), contentType: 'image/jpeg', dataUrl, size });
+      };
+      img.onerror = () => reject(new Error('image decode failed'));
+      img.src = reader.result as string;
+    };
     reader.onerror = reject;
     reader.readAsDataURL(file);
   });
@@ -16,18 +52,48 @@ export const DevisFormCard = () => {
   const { t } = useLanguage();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isCompressing, setIsCompressing] = useState(false);
   const [submitError, setSubmitError] = useState('');
+  const [photos, setPhotos] = useState<PhotoItem[]>([]);
+  const [attempted, setAttempted] = useState(false);
+
+  const handlePhotosChange = async (e: ChangeEvent<HTMLInputElement>) => {
+    const files: File[] = e.target.files ? Array.from(e.target.files) : [];
+    e.target.value = '';
+    if (files.length === 0) return;
+
+    setSubmitError('');
+    setIsCompressing(true);
+    try {
+      const compressed = await Promise.all(files.map((f) => compressImage(f).catch(() => null)));
+      const valid = compressed.filter((p): p is PhotoItem => p !== null);
+      setPhotos((prev) => [...prev, ...valid].slice(0, MAX_PHOTOS_COUNT));
+    } finally {
+      setIsCompressing(false);
+    }
+  };
+
+  const removePhoto = (index: number) => {
+    setPhotos((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const invalidClass = attempted
+    ? 'invalid:border-red-400 invalid:focus:border-red-400'
+    : '';
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitError('');
 
     const formEl = e.currentTarget;
-    const formData = new FormData(formEl);
-    const photoInput = formEl.querySelector<HTMLInputElement>('input[name="photos"]');
-    const files: File[] = photoInput?.files ? Array.from(photoInput.files) : [];
+    if (!formEl.checkValidity()) {
+      setAttempted(true);
+      setSubmitError(t.devis.required_error);
+      formEl.reportValidity();
+      return;
+    }
 
-    const totalSize = files.reduce((sum, f) => sum + f.size, 0);
+    const totalSize = photos.reduce((sum, p) => sum + p.size, 0);
     if (totalSize > MAX_PHOTOS_BYTES) {
       setSubmitError(t.devis.photos_too_large);
       return;
@@ -36,14 +102,7 @@ export const DevisFormCard = () => {
     setIsSubmitting(true);
 
     try {
-      const photos = await Promise.all(
-        files.map(async (file) => ({
-          filename: file.name,
-          contentType: file.type,
-          contentBase64: await fileToBase64(file),
-        }))
-      );
-
+      const formData = new FormData(formEl);
       const payload = {
         name: formData.get('name'),
         address: formData.get('address'),
@@ -51,7 +110,11 @@ export const DevisFormCard = () => {
         email: formData.get('email'),
         phone: formData.get('phone'),
         message: formData.get('message'),
-        photos,
+        photos: photos.map((p) => ({
+          filename: p.filename,
+          contentType: p.contentType,
+          contentBase64: p.dataUrl.split(',')[1],
+        })),
       };
 
       const response = await fetch('/api/contact', {
@@ -88,13 +151,13 @@ export const DevisFormCard = () => {
 
       {/* Left Form Side */}
       <div className={`w-full md:w-[55%] bg-white p-8 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
-        <form id="devis-form" className="flex flex-col gap-4" onSubmit={handleSubmit}>
+        <form id="devis-form" className="flex flex-col gap-4" onSubmit={handleSubmit} noValidate={false}>
           <input
             type="text"
             name="name"
             required
-            placeholder={t.devis.form_name}
-            className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+            placeholder={`${t.devis.form_name} *`}
+            className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
           />
           <input
             type="text"
@@ -112,8 +175,8 @@ export const DevisFormCard = () => {
             type="email"
             name="email"
             required
-            placeholder={t.devis.form_email}
-            className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+            placeholder={`${t.devis.form_email} *`}
+            className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
           />
           <input
             type="tel"
@@ -143,8 +206,29 @@ export const DevisFormCard = () => {
               name="photos"
               accept="image/*"
               multiple
+              onChange={handlePhotosChange}
               className="w-full text-[13px] text-gray-600 file:mr-4 file:py-2.5 file:px-4 file:rounded-md file:border-0 file:text-[13px] file:font-bold file:bg-[#F2E9DA] file:text-[#8a6a3f] hover:file:bg-[#eadfc9] file:cursor-pointer cursor-pointer"
             />
+            {isCompressing && (
+              <p className="text-[12px] text-gray-500 mt-2">{t.devis.compressing}</p>
+            )}
+            {photos.length > 0 && (
+              <div className="grid grid-cols-4 gap-2 mt-3">
+                {photos.map((p, i) => (
+                  <div key={i} className="relative aspect-square rounded-md overflow-hidden border border-gray-200 group">
+                    <img src={p.dataUrl} alt={p.filename} className="w-full h-full object-cover" />
+                    <button
+                      type="button"
+                      onClick={() => removePhoto(i)}
+                      aria-label={t.devis.remove_photo}
+                      className="absolute top-1 right-1 bg-black/60 hover:bg-black/80 text-white rounded-full w-5 h-5 flex items-center justify-center"
+                    >
+                      <X size={12} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="flex items-start gap-2 mt-2">
@@ -153,6 +237,9 @@ export const DevisFormCard = () => {
               {t.devis.form_privacy1}<span style={{ color: brandColor }}>{t.devis.form_privacy2}</span>
             </label>
           </div>
+
+          <p className="text-[11px] text-gray-400">{t.devis.required_note}</p>
+
           {submitError && (
             <p className="text-[12px] text-red-600">{submitError}</p>
           )}
@@ -176,7 +263,7 @@ export const DevisFormCard = () => {
         <button
           type="submit"
           form="devis-form"
-          disabled={isSubmitting}
+          disabled={isSubmitting || isCompressing}
           className="bg-white text-[#BA9765] text-[13px] font-bold px-8 py-3.5 rounded-full tracking-wider transition-all duration-300 border-2 border-white hover:bg-[#BA9765] hover:text-white active:bg-[#BA9765] active:text-white cursor-pointer disabled:opacity-60 disabled:cursor-wait"
         >
           {isSubmitting ? '...' : t.hero.getQuote}

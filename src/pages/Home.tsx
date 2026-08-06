@@ -403,14 +403,14 @@ export default function Home() {
             <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-4 h-[550px] relative">
               {/* Top Row */}
               <div className="flex w-full h-[42%] gap-4 items-end">
-                <img loading="lazy" src="/images/House-1-final.png" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-2.png" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
               </div>
               {/* Bottom Row */}
               <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                <img loading="lazy" src="/images/Avis-3-final.png" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
               </div>
             </div>
 
@@ -512,7 +512,7 @@ export default function Home() {
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
+           <img loading="lazy" src="/images/Bruxelles.webp" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 

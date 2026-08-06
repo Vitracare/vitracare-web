@@ -13,8 +13,8 @@ export const SiteFooter = () => {
         <Link to="/" className="hover:opacity-80 transition-opacity">{t.nav.home}</Link>
         <Link to="/#services" className="hover:opacity-80 transition-opacity">{t.nav.services}</Link>
         <Link to="/#produit" className="hover:opacity-80 transition-opacity">{t.nav.pricing}</Link>
-        <Link to="/realisations" className="hover:opacity-80 transition-opacity">{t.nav.realisations}</Link>
         <Link to="/#avis" className="hover:opacity-80 transition-opacity">{t.nav.about}</Link>
+        <Link to="/realisations" className="hover:opacity-80 transition-opacity">{t.nav.realisations}</Link>
         <Link to="/contact" className="hover:opacity-80 transition-opacity">{t.nav.contact}</Link>
       </div>
 

@@ -510,24 +510,8 @@ export default function Home() {
 
       {/* Map Section */}
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
-        {/* Background Image — mobile: fades out vertically before the pin graphic (stacked layout) */}
-        <div
-          className="absolute inset-0 pointer-events-none mix-blend-multiply lg:hidden"
-          style={{
-            maskImage: 'linear-gradient(180deg, black 0%, black 38%, transparent 58%)',
-            WebkitMaskImage: 'linear-gradient(180deg, black 0%, black 38%, transparent 58%)',
-          }}
-        >
-           <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
-        </div>
-        {/* Background Image — desktop: fades out horizontally before the pin graphic (side-by-side layout) */}
-        <div
-          className="absolute inset-0 pointer-events-none mix-blend-multiply hidden lg:block"
-          style={{
-            maskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',
-            WebkitMaskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',
-          }}
-        >
+        {/* Background Image — covers the full section behind all content */}
+        <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
            <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">

@@ -21,8 +21,8 @@ export const MobileMenu = ({ dark = false }: { dark?: boolean }) => {
     { to: '/', label: t.nav.home, icon: Home },
     { to: '/#services', label: t.nav.services, icon: Eye },
     { to: '/#produit', label: t.nav.pricing, icon: Layers },
-    { to: '/realisations', label: t.nav.realisations, icon: Image },
     { to: '/#avis', label: t.nav.about, icon: Star },
+    { to: '/realisations', label: t.nav.realisations, icon: Image },
     { to: '/devis', label: t.hero.quote, icon: FileText },
     { to: '/contact', label: t.nav.contact, icon: Mail },
   ];

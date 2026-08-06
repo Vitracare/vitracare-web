@@ -24,8 +24,8 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
     { id: 'accueil', label: t.nav.home, to: '/' },
     { id: 'services', label: t.nav.services, to: '/#services' },
     { id: 'produit', label: t.nav.pricing, to: '/#produit' },
-    { id: 'realisations', label: t.nav.realisations, to: '/realisations' },
     { id: 'avis', label: t.nav.about, to: '/#avis' },
+    { id: 'realisations', label: t.nav.realisations, to: '/realisations' },
     { id: 'contact', label: t.nav.contact, to: '/contact' },
   ];
 

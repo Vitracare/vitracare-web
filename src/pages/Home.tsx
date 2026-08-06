@@ -361,7 +361,7 @@ export default function Home() {
       </section>
 
       {/* Protection Section */}
-      <section id="produit" className="w-full bg-[#4b4b4b] text-white">
+      <section className="w-full bg-[#4b4b4b] text-white">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 py-24 flex flex-col md:flex-row items-center justify-between gap-16 md:gap-24">
           {/* Slider side */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
@@ -397,7 +397,7 @@ export default function Home() {
       </section>
 
       {/* Teintes Section */}
-      <section className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
+      <section id="produit" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
         <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
           {t.teintes.title}
         </h2>

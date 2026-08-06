@@ -582,10 +582,6 @@ export default function Home() {
 
       {/* Map Section */}
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
-        {/* Background Image */}
-        <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
-        </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 
           {/* Left Content */}
@@ -610,8 +606,8 @@ export default function Home() {
           </div>
 
           {/* Right Content */}
-          <div className="w-full lg:w-1/2 flex justify-center items-center relative min-h-[300px] lg:min-h-[500px]">
-            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[500px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
+          <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center relative min-h-[320px] lg:min-h-[560px]">
+            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
         </div>
       </section>

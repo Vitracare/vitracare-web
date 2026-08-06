@@ -33,7 +33,8 @@ export const translations = {
       solaire_title: 'Teinte solaire',
       solaire_desc: 'Réduction de la chaleur et des UV pour un confort optimal en intérieur.',
       mat_title: 'Teint blanc mat',
-      mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.'
+      mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.',
+      swipeHint: '← Glissez pour voir les 3 teintes →'
     },
     reviews: {
       title: 'Avis',
@@ -47,7 +48,7 @@ export const translations = {
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
       f2_title: 'Film garanti', f2_desc: 'Jusqu\'à 10 ans\npar le fabricant',
       f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 1 an\npar VitraCare',
-      f4_title: 'Devis sous 48h', f4_desc: 'Contacter un expert\nsans engagement'
+      f4_title: 'Devis sous 24h', f4_desc: 'Contacter un expert\nsans engagement'
     },
     map: {
       title: 'Partout à Bruxelles\net en périphérie',
@@ -130,7 +131,8 @@ export const translations = {
       solaire_title: 'Zonwerende folie',
       solaire_desc: 'Vermindering van warmte en UV voor optimaal comfort binnenshuis.',
       mat_title: 'Matwitte folie',
-      mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.'
+      mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.',
+      swipeHint: '← Schuif om de 3 tinten te zien →'
     },
     reviews: {
       title: 'Beoordelingen',
@@ -144,7 +146,7 @@ export const translations = {
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
       f2_title: 'Gegarandeerde folie', f2_desc: 'Tot 10 jaar\ndoor de fabrikant',
       f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 1 jaar\ndoor VitraCare',
-      f4_title: 'Offerte binnen 48u', f4_desc: 'Neem vrijblijvend\ncontact op met een expert'
+      f4_title: 'Offerte binnen 24u', f4_desc: 'Neem vrijblijvend\ncontact op met een expert'
     },
     map: {
       title: 'Overal in Brussel\nen de rand',
@@ -227,7 +229,8 @@ export const translations = {
       solaire_title: 'Solar tint',
       solaire_desc: 'Reduces heat and UV for optimal indoor comfort.',
       mat_title: 'Matte white film',
-      mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.'
+      mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.',
+      swipeHint: '← Swipe to see all 3 tints →'
     },
     reviews: {
       title: 'Reviews',
@@ -241,7 +244,7 @@ export const translations = {
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',
       f2_title: 'Guaranteed film', f2_desc: 'Up to 10 years\nby the manufacturer',
       f3_title: 'Guaranteed installation', f3_desc: 'Up to 1 year\nby VitraCare',
-      f4_title: 'Quote within 48h', f4_desc: 'Contact an expert\nwithout obligation'
+      f4_title: 'Quote within 24h', f4_desc: 'Contact an expert\nwithout obligation'
     },
     map: {
       title: 'Everywhere in Brussels\nand surroundings',

@@ -335,8 +335,8 @@ export default function Home() {
         </h2>
         <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
-          <div className="flex flex-col items-center text-center">
+        <div className="flex md:grid md:grid-cols-3 gap-6 md:gap-10 max-w-5xl mx-auto overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 px-4 -mx-4 md:px-0 md:mx-auto">
+          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
             <div
               className="w-full aspect-square rounded-xl mb-6 border border-black/5"
               style={{ background: 'linear-gradient(135deg, #9AA3A6, #E7EAEA 45%, #7C8689)' }}
@@ -349,10 +349,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
-              style={{ background: 'linear-gradient(135deg, #E7E2D6, #F7F5EF)' }}
+              className="w-full aspect-square rounded-xl mb-6 border border-black/10"
+              style={{ background: 'linear-gradient(135deg, #C9DCE5, #EFF5F8)' }}
             ></div>
             <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.solaire_title}
@@ -362,10 +362,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
-              style={{ background: 'linear-gradient(135deg, #EDEDED, #FBFBFB)' }}
+              className="w-full aspect-square rounded-xl mb-6 border border-black/15 shadow-sm"
+              style={{ background: 'linear-gradient(135deg, #DADADA, #F4F4F4)' }}
             ></div>
             <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.mat_title}
@@ -375,6 +375,7 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <p className="text-center text-[12px] text-gray-400 mt-4 md:hidden">{t.teintes.swipeHint}</p>
 
         <div className="flex justify-center mt-16">
           <Link
@@ -411,11 +412,6 @@ export default function Home() {
                 <img loading="lazy" src="/images/Avis-4.png" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
                 <img loading="lazy" src="/images/Avis-5-final.png" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
               </div>
-            </div>
-
-            {/* Mobile Photo Collage */}
-            <div className="w-full h-[300px] md:hidden relative overflow-hidden rounded-xl bg-gray-50 flex items-center justify-center">
-               <img loading="lazy" src="/images/House-1-final.png" className="w-full h-full object-contain mix-blend-multiply" alt="Maison" referrerPolicy="no-referrer" />
             </div>
 
             {/* Right: Testimonials */}
@@ -464,7 +460,7 @@ export default function Home() {
       {/* Feature Strip Section */}
       <section className="w-full bg-[#4b4b4b] py-16">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
               <img loading="lazy" src="/images/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
@@ -514,9 +510,19 @@ export default function Home() {
 
       {/* Map Section */}
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
-        {/* Background Image — confined to the left/text side, fading out before the pin graphic */}
+        {/* Background Image — mobile: fades out vertically before the pin graphic (stacked layout) */}
         <div
-          className="absolute inset-0 pointer-events-none mix-blend-multiply"
+          className="absolute inset-0 pointer-events-none mix-blend-multiply lg:hidden"
+          style={{
+            maskImage: 'linear-gradient(180deg, black 0%, black 38%, transparent 58%)',
+            WebkitMaskImage: 'linear-gradient(180deg, black 0%, black 38%, transparent 58%)',
+          }}
+        >
+           <img loading="lazy" src="/images/Bruxelles.png" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
+        </div>
+        {/* Background Image — desktop: fades out horizontally before the pin graphic (side-by-side layout) */}
+        <div
+          className="absolute inset-0 pointer-events-none mix-blend-multiply hidden lg:block"
           style={{
             maskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',
             WebkitMaskImage: 'linear-gradient(90deg, black 0%, black 40%, transparent 62%)',

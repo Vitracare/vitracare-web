@@ -9,6 +9,8 @@ import Realisations from './pages/Realisations';
 import ConditionsGenerales from './pages/ConditionsGenerales';
 import MentionsLegales from './pages/MentionsLegales';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
+import Blog from './pages/Blog';
+import BlogArticle from './pages/BlogArticle';
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
           <Route path="/conditions-generales" element={<ConditionsGenerales />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogArticle />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

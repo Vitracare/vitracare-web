@@ -94,8 +94,15 @@ export const translations = {
       required_error: 'Merci de remplir les champs obligatoires (*).'
     },
     back: 'Retour au site',
+    blog: {
+      title: 'Blog',
+      subtitle: 'Conseils et informations sur les films et teintes pour vitrages.',
+      readMore: 'Lire l\'article',
+      backToBlog: 'Retour au blog',
+      ctaTitle: 'Un projet de film pour vitrages ?'
+    },
     footer: {
-      faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité',
+      faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
       copyright: '© 2026 VitraCare. Tous droits réservés.'
     }
   },
@@ -192,8 +199,15 @@ export const translations = {
       required_error: 'Vul de verplichte velden in (*).'
     },
     back: 'Terug naar de site',
+    blog: {
+      title: 'Blog',
+      subtitle: 'Tips en informatie over folies en tinten voor beglazing.',
+      readMore: 'Lees het artikel',
+      backToBlog: 'Terug naar blog',
+      ctaTitle: 'Een project voor raamfolie?'
+    },
     footer: {
-      faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid',
+      faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
       copyright: '© 2026 VitraCare. Alle rechten voorbehouden.'
     }
   },
@@ -290,8 +304,15 @@ export const translations = {
       required_error: 'Please fill in the required fields (*).'
     },
     back: 'Back to site',
+    blog: {
+      title: 'Blog',
+      subtitle: 'Tips and information about window films and tints.',
+      readMore: 'Read the article',
+      backToBlog: 'Back to blog',
+      ctaTitle: 'Have a window film project?'
+    },
     footer: {
-      faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy',
+      faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',
       copyright: '© 2026 VitraCare. All rights reserved.'
     }
   }

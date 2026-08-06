@@ -20,6 +20,7 @@ export const SiteFooter = () => {
 
       {/* Bottom links */}
       <div className="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-3 mb-16 text-[14px] md:text-[15px]">
+        <Link to="/blog" className="hover:opacity-80 transition-opacity">{t.footer.blog}</Link>
         <Link to="/faq" className="hover:opacity-80 transition-opacity">{t.footer.faq}</Link>
         <Link to="/conditions-generales" className="hover:opacity-80 transition-opacity">{t.footer.terms}</Link>
         <Link to="/mentions-legales" className="hover:opacity-80 transition-opacity">{t.footer.legal}</Link>

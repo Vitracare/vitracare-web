@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Phone, MessageCircle, Mail } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
+import { MobileMenu } from '../components/MobileMenu';
 
 const brandColor = '#BA9765';
 
@@ -61,7 +62,10 @@ export default function Contact() {
           <ArrowLeft size={18} />
           {t.back}
         </Link>
-        <LanguageSwitcher />
+        <div className="flex items-center gap-4">
+          <LanguageSwitcher />
+          <MobileMenu />
+        </div>
       </header>
 
       <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-12">

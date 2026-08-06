@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
+import { MobileMenu } from '../components/MobileMenu';
 import { DevisFormCard } from '../components/DevisFormCard';
 
 const brandColor = '#BA9765';
@@ -17,7 +18,10 @@ export default function Devis() {
           <ArrowLeft size={18} />
           {t.back}
         </Link>
-        <LanguageSwitcher />
+        <div className="flex items-center gap-4">
+          <LanguageSwitcher />
+          <MobileMenu dark />
+        </div>
       </header>
 
       <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-12 min-w-0">

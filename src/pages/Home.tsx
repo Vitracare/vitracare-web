@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ShieldCheck, FileBadge, Clock } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
+import { MobileMenu } from '../components/MobileMenu';
 import { DevisFormCard } from '../components/DevisFormCard';
 
 const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before: string, after: string, beforeLabel: string, afterLabel: string }) => {
@@ -250,6 +251,7 @@ export default function Home() {
             {t.hero.quote}
           </Link>
           <LanguageSwitcher />
+          <MobileMenu />
         </div>
       </header>
 

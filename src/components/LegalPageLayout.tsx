@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { MobileMenu } from './MobileMenu';
 
 const brandColor = '#BA9765';
 
@@ -16,7 +17,10 @@ export const LegalPageLayout = ({ title, children }: { title: string, children: 
           <ArrowLeft size={18} />
           {t.back}
         </Link>
-        <LanguageSwitcher />
+        <div className="flex items-center gap-4">
+          <LanguageSwitcher />
+          <MobileMenu />
+        </div>
       </header>
 
       <div className="flex-1 px-8 md:px-16 lg:px-20 pb-24">

@@ -162,14 +162,16 @@ export const DevisFormCard = () => {
           <input
             type="text"
             name="address"
-            placeholder={t.devis.form_address}
-            className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+            required
+            placeholder={`${t.devis.form_address} *`}
+            className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
           />
           <input
             type="text"
             name="zip"
-            placeholder={t.devis.form_zip}
-            className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+            required
+            placeholder={`${t.devis.form_zip} *`}
+            className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
           />
           <input
             type="email"
@@ -191,9 +193,10 @@ export const DevisFormCard = () => {
             </label>
             <textarea
               name="message"
+              required
               rows={4}
-              placeholder={t.devis.form_message_placeholder}
-              className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none"
+              placeholder={`${t.devis.form_message_placeholder} *`}
+              className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none ${invalidClass}`}
             />
           </div>
 

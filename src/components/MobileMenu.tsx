@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Home, Eye, Layers, Image, Star, FileText, Phone, MessageCircle, Mail } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
 const brandColor = '#BA9765';
@@ -18,13 +18,13 @@ export const MobileMenu = ({ dark = false }: { dark?: boolean }) => {
   }, [open]);
 
   const links = [
-    { to: '/', label: t.nav.home, icon: Home },
-    { to: '/#services', label: t.nav.services, icon: Eye },
-    { to: '/#produit', label: t.nav.pricing, icon: Layers },
-    { to: '/#avis', label: t.nav.about, icon: Star },
-    { to: '/realisations', label: t.nav.realisations, icon: Image },
-    { to: '/devis', label: t.hero.quote, icon: FileText },
-    { to: '/contact', label: t.nav.contact, icon: Mail },
+    { to: '/', label: t.nav.home },
+    { to: '/#services', label: t.nav.services },
+    { to: '/#produit', label: t.nav.pricing },
+    { to: '/#avis', label: t.nav.about },
+    { to: '/realisations', label: t.nav.realisations },
+    { to: '/devis', label: t.hero.quote },
+    { to: '/contact', label: t.nav.contact },
   ];
 
   return (
@@ -66,20 +66,16 @@ export const MobileMenu = ({ dark = false }: { dark?: boolean }) => {
 
             {/* Nav links */}
             <nav className="flex flex-col px-3 py-3">
-              {links.map((link) => {
-                const Icon = link.icon;
-                return (
-                  <Link
-                    key={link.to}
-                    to={link.to}
-                    onClick={() => setOpen(false)}
-                    className="flex items-center gap-4 px-3 py-3.5 rounded-lg text-[16px] font-bold text-[#464646] hover:bg-[#F8F5EF] transition-colors"
-                  >
-                    <Icon size={19} color={brandColor} strokeWidth={2} />
-                    {link.label}
-                  </Link>
-                );
-              })}
+              {links.map((link) => (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  onClick={() => setOpen(false)}
+                  className="px-3 py-3.5 rounded-lg text-[16px] font-bold text-[#464646] hover:bg-[#F8F5EF] transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
             </nav>
 
             {/* Contact card */}

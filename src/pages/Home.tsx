@@ -517,7 +517,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 
           {/* Left Content */}
-          <div className="w-full lg:w-1/2 mb-16 lg:mb-0 lg:pr-10">
+          <div className="w-full lg:w-1/2 mb-16 lg:mb-0 lg:pr-10 flex flex-col items-center text-center lg:items-start lg:text-left">
             <h2 className="text-[36px] md:text-[44px] font-bold leading-[1.1] mb-6 tracking-tight whitespace-pre-line" style={{ color: headingColor }}>
               {t.map.title}
             </h2>
@@ -537,8 +537,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Content */}
-          <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center relative min-h-[320px] lg:min-h-[560px]">
+          {/* Right Content — desktop only, hidden on mobile/tablet */}
+          <div className="hidden lg:flex w-full lg:w-1/2 lg:justify-end items-center relative lg:min-h-[560px]">
             {/* Soft clearing behind the pin graphic so the map lines fade out instead of crossing over it */}
             <div
               className="absolute inset-0 pointer-events-none"

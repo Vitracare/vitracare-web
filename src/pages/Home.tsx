@@ -403,14 +403,14 @@ export default function Home() {
             <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-4 h-[550px] relative">
               {/* Top Row */}
               <div className="flex w-full h-[42%] gap-4 items-end">
-                <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
               </div>
               {/* Bottom Row */}
               <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Vitrages" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
+                <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
               </div>
             </div>
 
@@ -463,7 +463,7 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <img loading="lazy" src="/images/Mesure.png" alt="Mesure" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Mesure.png" alt="Mesures sur mesure, fenêtre par fenêtre" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
               <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
                 {t.strip.f1_title}
               </h3>
@@ -512,7 +512,7 @@ export default function Home() {
       <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img loading="lazy" src="/images/Bruxelles.webp" className="w-full h-full object-cover opacity-80" alt="Background map" referrerPolicy="no-referrer" />
+           <img loading="lazy" src="/images/Bruxelles.webp" className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 
@@ -544,7 +544,7 @@ export default function Home() {
               className="absolute inset-0 pointer-events-none"
               style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FAF9F6 45%, rgba(250,249,246,0) 85%)' }}
             ></div>
-            <img loading="lazy" src="/bx_transparent.png" alt="Bruxelles" className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <img loading="lazy" src="/bx_transparent.png" alt="Carte de Bruxelles et sa périphérie desservies par VitraCare" className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
         </div>
       </section>

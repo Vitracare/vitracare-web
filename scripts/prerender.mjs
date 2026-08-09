@@ -54,6 +54,20 @@ const routes = [
     title: 'Quel film choisir pour vos vitrages ? — VitraCare',
     description:
       'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
+      description:
+        'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
+      datePublished: '2026-08-06',
+      dateModified: '2026-08-09',
+      author: { '@type': 'Organization', name: 'VitraCare' },
+      publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
+      mainEntityOfPage: 'https://vitracare.be/blog/quel-film-choisir-vitrages',
+      url: 'https://vitracare.be/blog/quel-film-choisir-vitrages',
+      inLanguage: 'fr-BE',
+    },
   },
   {
     path: '/mentions-legales',
@@ -105,6 +119,11 @@ async function main() {
         /<meta name="twitter:description" content=".*?" \/>/,
         `<meta name="twitter:description" content="${description}" />`,
       );
+
+    if (route.schema) {
+      const schemaScript = `<script type="application/ld+json">${JSON.stringify(route.schema)}</script>\n  </head>`;
+      html = html.replace('</head>', schemaScript);
+    }
 
     const outPath = join(distDir, route.file);
     await mkdir(dirname(outPath), { recursive: true });

@@ -6,6 +6,7 @@ export type BlogSection = {
 export type BlogArticle = {
   slug: string;
   title: string;
+  metaTitle: string;
   metaDescription: string;
   date: string;
   excerpt: string;
@@ -17,6 +18,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'quel-film-choisir-vitrages',
       title: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
+      metaTitle: 'Quel film choisir pour vos vitrages ?',
       metaDescription: "Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.",
       date: '2026-08-06',
       excerpt: "Chaque film répond à un besoin différent : intimité totale, confort thermique, ou esthétique discrète. Voici un guide simple pour faire le bon choix.",
@@ -75,6 +77,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'quel-film-choisir-vitrages',
       title: 'Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?',
+      metaTitle: 'Welke folie kiezen voor uw beglazing?',
       metaDescription: 'Spiegelfolie, zonwerende folie of matwitte folie: ontdek de verschillen, voordelen en toepassingen van elke folie, en welke het beste bij uw huis past.',
       date: '2026-08-06',
       excerpt: 'Elke folie beantwoordt aan een andere behoefte: volledige privacy, thermisch comfort, of een discrete esthetiek. Een eenvoudige gids om de juiste keuze te maken.',
@@ -133,6 +136,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'quel-film-choisir-vitrages',
       title: 'Mirror effect, solar tint or matte white: which film should you choose for your windows?',
+      metaTitle: 'Which window film should you choose?',
       metaDescription: 'Mirror film, solar tint or matte white: discover the differences, benefits and uses of each window film, and which one best suits your home.',
       date: '2026-08-06',
       excerpt: "Each film answers a different need: total privacy, thermal comfort, or a discreet look. Here's a simple guide to help you make the right choice.",

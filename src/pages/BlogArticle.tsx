@@ -15,7 +15,7 @@ export default function BlogArticle() {
 
   useEffect(() => {
     if (article) {
-      document.title = `${article.title} — VitraCare`;
+      document.title = `${article.metaTitle} — VitraCare`;
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) metaDesc.setAttribute('content', article.metaDescription);
     }

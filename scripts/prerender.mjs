@@ -51,7 +51,7 @@ const routes = [
   {
     path: '/blog/quel-film-choisir-vitrages',
     file: 'blog/quel-film-choisir-vitrages/index.html',
-    title: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ? — VitraCare',
+    title: 'Quel film choisir pour vos vitrages ? — VitraCare',
     description:
       'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
   },

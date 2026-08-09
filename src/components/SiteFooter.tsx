@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocalizedLink as Link } from './LocalizedLink';
 import { useLanguage } from '../LanguageContext';
 
 const brandColor = '#BA9765';

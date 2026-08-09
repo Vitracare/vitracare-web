@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 import { translations, Lang } from './i18n';
 
 type LanguageContextValue = {
@@ -9,9 +9,17 @@ type LanguageContextValue = {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
-export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [lang, setLang] = useState<Lang>('FR');
+export const LanguageProvider = ({ children, initialLang = 'FR' }: { children: React.ReactNode, initialLang?: Lang }) => {
+  const [lang, setLang] = useState<Lang>(initialLang);
   const t = translations[lang];
+
+  // Route-level language groups (/nl, /en) can be reconciled rather than remounted
+  // on client-side navigation between them — re-sync state when initialLang changes
+  // so the language switcher actually updates the rendered content, not just the URL.
+  useEffect(() => {
+    setLang(initialLang);
+    document.documentElement.lang = initialLang.toLowerCase();
+  }, [initialLang]);
 
   return (
     <LanguageContext.Provider value={{ lang, setLang, t }}>

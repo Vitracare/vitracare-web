@@ -6,130 +6,286 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 const distDir = join(root, 'dist');
 
-const routes = [
+const prefixes = { FR: '', NL: '/nl', EN: '/en' };
+const hreflangCodes = { FR: 'fr', NL: 'nl', EN: 'en' };
+const langs = ['FR', 'NL', 'EN'];
+
+const pages = [
   {
     path: '/',
-    file: 'index.html',
-    title: 'VitraCare — Films et teintes pour vitrages à Bruxelles',
-    description:
-      "VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
+    meta: {
+      FR: {
+        title: 'VitraCare — Films et teintes pour vitrages à Bruxelles',
+        description:
+          "VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
+      },
+      NL: {
+        title: 'VitraCare — Folies en tinten voor beglazing in Brussel',
+        description:
+          'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
+      },
+      EN: {
+        title: 'VitraCare — Window Films and Tints in Brussels',
+        description:
+          'VitraCare installs custom window films and tints for homes in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
+      },
+    },
   },
   {
     path: '/devis',
-    file: 'devis/index.html',
-    title: 'Demander un devis gratuit — VitraCare',
-    description:
-      'Obtenez votre devis gratuit et sans engagement pour la pose de films et teintes sur vitrages à Bruxelles et sa périphérie. Réponse sous 24h.',
+    meta: {
+      FR: {
+        title: 'Demander un devis gratuit — VitraCare',
+        description:
+          'Obtenez votre devis gratuit et sans engagement pour la pose de films et teintes sur vitrages à Bruxelles et sa périphérie. Réponse sous 24h.',
+      },
+      NL: {
+        title: 'Gratis offerte aanvragen — VitraCare',
+        description:
+          'Vraag uw gratis en vrijblijvende offerte aan voor het plaatsen van folies en tinten op beglazing in Brussel en omgeving. Antwoord binnen 24u.',
+      },
+      EN: {
+        title: 'Request a Free Quote — VitraCare',
+        description:
+          'Get your free, no-obligation quote for window film and tint installation in Brussels and the surrounding area. Response within 24h.',
+      },
+    },
   },
   {
     path: '/realisations',
-    file: 'realisations/index.html',
-    title: 'Nos réalisations — VitraCare',
-    description:
-      'Découvrez nos chantiers de pose de films et teintes pour vitrages réalisés à Bruxelles et dans sa périphérie.',
+    meta: {
+      FR: {
+        title: 'Nos réalisations — VitraCare',
+        description:
+          'Découvrez nos chantiers de pose de films et teintes pour vitrages réalisés à Bruxelles et dans sa périphérie.',
+      },
+      NL: {
+        title: 'Onze realisaties — VitraCare',
+        description:
+          'Ontdek onze projecten voor het plaatsen van folies en tinten op beglazing, uitgevoerd in Brussel en omgeving.',
+      },
+      EN: {
+        title: 'Our Work — VitraCare',
+        description:
+          'Discover our window film and tint installation projects completed in Brussels and the surrounding area.',
+      },
+    },
   },
   {
     path: '/contact',
-    file: 'contact/index.html',
-    title: 'Contact — VitraCare',
-    description:
-      'Contactez VitraCare pour toute question sur la pose de films et teintes pour vitrages à Bruxelles et sa périphérie.',
+    meta: {
+      FR: {
+        title: 'Contact — VitraCare',
+        description:
+          'Contactez VitraCare pour toute question sur la pose de films et teintes pour vitrages à Bruxelles et sa périphérie.',
+      },
+      NL: {
+        title: 'Contact — VitraCare',
+        description:
+          'Neem contact op met VitraCare voor al uw vragen over het plaatsen van folies en tinten op beglazing in Brussel en omgeving.',
+      },
+      EN: {
+        title: 'Contact — VitraCare',
+        description:
+          'Contact VitraCare for any questions about window film and tint installation in Brussels and the surrounding area.',
+      },
+    },
   },
   {
     path: '/faq',
-    file: 'faq/index.html',
-    title: 'FAQ — VitraCare',
-    description:
-      'Toutes les réponses à vos questions sur les films et teintes pour vitrages : pose, entretien, garantie, prix.',
+    meta: {
+      FR: {
+        title: 'FAQ — VitraCare',
+        description:
+          'Toutes les réponses à vos questions sur les films et teintes pour vitrages : pose, entretien, garantie, prix.',
+      },
+      NL: {
+        title: 'Veelgestelde vragen — VitraCare',
+        description:
+          'Alle antwoorden op uw vragen over folies en tinten voor beglazing: plaatsing, onderhoud, garantie, prijs.',
+      },
+      EN: {
+        title: 'FAQ — VitraCare',
+        description:
+          'All the answers to your questions about window films and tints: installation, maintenance, warranty, pricing.',
+      },
+    },
   },
   {
     path: '/blog',
-    file: 'blog/index.html',
-    title: 'Blog — VitraCare',
-    description: 'Conseils et actualités sur les films et teintes pour vitrages à Bruxelles.',
-  },
-  {
-    path: '/blog/quel-film-choisir-vitrages',
-    file: 'blog/quel-film-choisir-vitrages/index.html',
-    title: 'Quel film choisir pour vos vitrages ? — VitraCare',
-    description:
-      'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
-    schema: [
-      {
-        '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
-        headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
-        description:
-          'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
-        datePublished: '2026-08-06',
-        dateModified: '2026-08-09',
-        author: { '@type': 'Organization', name: 'VitraCare' },
-        publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
-        mainEntityOfPage: 'https://vitracare.be/blog/quel-film-choisir-vitrages',
-        url: 'https://vitracare.be/blog/quel-film-choisir-vitrages',
-        inLanguage: 'fr-BE',
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://vitracare.be/' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://vitracare.be/blog' },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: 'Quel film choisir pour vos vitrages ?',
-            item: 'https://vitracare.be/blog/quel-film-choisir-vitrages',
-          },
-        ],
-      },
-    ],
+    meta: {
+      FR: { title: 'Blog — VitraCare', description: 'Conseils et actualités sur les films et teintes pour vitrages à Bruxelles.' },
+      NL: { title: 'Blog — VitraCare', description: 'Tips en informatie over folies en tinten voor beglazing.' },
+      EN: { title: 'Blog — VitraCare', description: 'Tips and information about window films and tints.' },
+    },
   },
   {
     path: '/mentions-legales',
-    file: 'mentions-legales/index.html',
-    title: 'Mentions légales — VitraCare',
-    description: 'Mentions légales du site vitracare.be.',
+    meta: {
+      FR: { title: 'Mentions légales — VitraCare', description: 'Mentions légales du site vitracare.be.' },
+      NL: { title: 'Wettelijke vermeldingen — VitraCare', description: 'Wettelijke vermeldingen van de website vitracare.be.' },
+      EN: { title: 'Legal Notice — VitraCare', description: 'Legal notice for the website vitracare.be.' },
+    },
   },
   {
     path: '/politique-confidentialite',
-    file: 'politique-confidentialite/index.html',
-    title: 'Politique confidentialité — VitraCare',
-    description: "Politique de confidentialité et protection des données personnelles de VitraCare.",
+    meta: {
+      FR: {
+        title: 'Politique confidentialité — VitraCare',
+        description: 'Politique de confidentialité et protection des données personnelles de VitraCare.',
+      },
+      NL: {
+        title: 'Privacybeleid — VitraCare',
+        description: 'Privacybeleid en bescherming van persoonsgegevens van VitraCare.',
+      },
+      EN: {
+        title: 'Privacy Policy — VitraCare',
+        description: "VitraCare's privacy policy and personal data protection.",
+      },
+    },
   },
   {
     path: '/conditions-generales',
-    file: 'conditions-generales/index.html',
-    title: 'Conditions générales — VitraCare',
-    description: 'Conditions générales de mise en relation VitraCare.',
+    meta: {
+      FR: { title: 'Conditions générales — VitraCare', description: 'Conditions générales de mise en relation VitraCare.' },
+      NL: { title: 'Algemene voorwaarden — VitraCare', description: 'Algemene voorwaarden voor bemiddeling van VitraCare.' },
+      EN: { title: 'Terms and Conditions — VitraCare', description: "VitraCare's general terms and conditions for introduction services." },
+    },
   },
 ];
+
+const blogArticle = {
+  path: '/blog/quel-film-choisir-vitrages',
+  meta: {
+    FR: {
+      title: 'Quel film choisir pour vos vitrages ? — VitraCare',
+      description:
+        'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
+      headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
+      datePublished: '2026-08-06',
+      dateModified: '2026-08-09',
+    },
+    NL: {
+      title: 'Welke folie kiezen voor uw beglazing? — VitraCare',
+      description:
+        'Spiegelfolie, zonwerende folie of matwitte folie: ontdek de verschillen, voordelen en toepassingen van elke folie, en welke het beste bij uw huis past.',
+      headline: 'Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?',
+      datePublished: '2026-08-06',
+      dateModified: '2026-08-09',
+    },
+    EN: {
+      title: 'Which Window Film Should You Choose? — VitraCare',
+      description:
+        'Mirror film, solar tint or matte white: discover the differences, benefits and uses of each window film, and which one best suits your home.',
+      headline: 'Mirror effect, solar tint or matte white: which film should you choose for your windows?',
+      datePublished: '2026-08-06',
+      dateModified: '2026-08-09',
+    },
+  },
+};
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function fullPath(prefix, path) {
+  return path === '/' ? prefix || '/' : `${prefix}${path}`;
+}
+
+function buildRoutes() {
+  const routes = [];
+
+  for (const page of pages) {
+    for (const lang of langs) {
+      const prefix = prefixes[lang];
+      const routePath = fullPath(prefix, page.path);
+      const fileRel = routePath === '/' ? 'index.html' : `${routePath.replace(/^\//, '')}/index.html`;
+      routes.push({
+        routePath,
+        file: fileRel,
+        canonicalPath: page.path,
+        lang,
+        title: page.meta[lang].title,
+        description: page.meta[lang].description,
+      });
+    }
+  }
+
+  for (const lang of langs) {
+    const prefix = prefixes[lang];
+    const routePath = fullPath(prefix, blogArticle.path);
+    const fileRel = `${routePath.replace(/^\//, '')}/index.html`;
+    const m = blogArticle.meta[lang];
+    routes.push({
+      routePath,
+      file: fileRel,
+      canonicalPath: blogArticle.path,
+      lang,
+      title: m.title,
+      description: m.description,
+      schema: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          headline: m.headline,
+          description: m.description,
+          datePublished: m.datePublished,
+          dateModified: m.dateModified,
+          author: { '@type': 'Organization', name: 'VitraCare' },
+          publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
+          mainEntityOfPage: `https://vitracare.be${routePath}`,
+          url: `https://vitracare.be${routePath}`,
+          inLanguage: `${hreflangCodes[lang]}-BE`,
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Accueil', item: `https://vitracare.be${fullPath(prefix, '/')}` },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://vitracare.be${fullPath(prefix, '/blog')}` },
+            { '@type': 'ListItem', position: 3, name: m.title.replace(' — VitraCare', ''), item: `https://vitracare.be${routePath}` },
+          ],
+        },
+      ],
+    });
+  }
+
+  return routes;
+}
+
 async function main() {
   const { render } = await import(join(root, 'dist-server', 'entry-server.js'));
   const template = await readFile(join(distDir, 'index.html'), 'utf-8');
+  const routes = buildRoutes();
 
   for (const route of routes) {
-    const appHtml = render(route.path);
-    const canonical = `https://vitracare.be${route.path === '/' ? '/' : route.path}`;
+    const appHtml = render(route.routePath);
+    const canonical = `https://vitracare.be${fullPath(prefixes[route.lang], route.canonicalPath)}`;
     const title = escapeHtml(route.title);
     const description = escapeHtml(route.description);
 
+    const hreflangLinks = langs
+      .map((l) => {
+        const href = `https://vitracare.be${fullPath(prefixes[l], route.canonicalPath)}`;
+        return `<link rel="alternate" hreflang="${hreflangCodes[l]}" href="${href}" />`;
+      })
+      .join('\n    ');
+    const xDefault = `https://vitracare.be${fullPath(prefixes.FR, route.canonicalPath)}`;
+    const hreflangBlock = `${hreflangLinks}\n    <link rel="alternate" hreflang="x-default" href="${xDefault}" />`;
+
     let html = template
+      .replace(/<html lang="fr"/, `<html lang="${hreflangCodes[route.lang]}"`)
       .replace(/<div id="root"><\/div>/, `<div id="root">${appHtml}</div>`)
       .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
       .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${description}" />`)
-      .replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${canonical}" />`)
+      .replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${canonical}" />\n    ${hreflangBlock}`)
       .replace(/<meta property="og:title" content=".*?" \/>/, `<meta property="og:title" content="${title}" />`)
       .replace(
         /<meta property="og:description" content=".*?" \/>/,
         `<meta property="og:description" content="${description}" />`,
       )
       .replace(/<meta property="og:url" content=".*?" \/>/, `<meta property="og:url" content="${canonical}" />`)
+      .replace(/<meta property="og:locale" content=".*?" \/>/, `<meta property="og:locale" content="${hreflangCodes[route.lang]}_BE" />`)
       .replace(/<meta name="twitter:title" content=".*?" \/>/, `<meta name="twitter:title" content="${title}" />`)
       .replace(
         /<meta name="twitter:description" content=".*?" \/>/,
@@ -137,8 +293,7 @@ async function main() {
       );
 
     if (route.schema) {
-      const schemas = Array.isArray(route.schema) ? route.schema : [route.schema];
-      const schemaScripts = schemas
+      const schemaScripts = route.schema
         .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
         .join('\n  ');
       html = html.replace('</head>', `${schemaScripts}\n  </head>`);
@@ -147,7 +302,7 @@ async function main() {
     const outPath = join(distDir, route.file);
     await mkdir(dirname(outPath), { recursive: true });
     await writeFile(outPath, html, 'utf-8');
-    console.log(`Prerendered ${route.path} -> dist/${route.file}`);
+    console.log(`Prerendered [${route.lang}] ${route.routePath} -> dist/${route.file}`);
   }
 }
 

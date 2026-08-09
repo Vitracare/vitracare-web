@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
+import { LocalizedLink as Link, withLangPrefix } from '../components/LocalizedLink';
 import { ArrowLeft } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
 import { blogArticles } from '../blogContent';
+import { langPrefixes } from '../App';
 
 const brandColor = '#BA9765';
 
@@ -20,12 +22,17 @@ export default function BlogArticle() {
       if (metaDesc) metaDesc.setAttribute('content', article.metaDescription);
     }
     return () => {
-      document.title = 'VitraCare — Films et teintes pour vitrages à Bruxelles';
+      const fallbackTitles = {
+        FR: 'VitraCare — Films et teintes pour vitrages à Bruxelles',
+        NL: 'VitraCare — Folies en tinten voor beglazing in Brussel',
+        EN: 'VitraCare — Window films and tints in Brussels',
+      };
+      document.title = fallbackTitles[lang];
     };
-  }, [article]);
+  }, [article, lang]);
 
   if (!article) {
-    return <Navigate to="/blog" replace />;
+    return <Navigate to={withLangPrefix('/blog', langPrefixes[lang])} replace />;
   }
 
   return (

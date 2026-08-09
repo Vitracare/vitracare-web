@@ -9,7 +9,27 @@
     { "source": "/blog/:slug", "destination": "/index.html" },
     { "source": "/mentions-legales", "destination": "/index.html" },
     { "source": "/politique-confidentialite", "destination": "/index.html" },
-    { "source": "/conditions-generales", "destination": "/index.html" }
+    { "source": "/conditions-generales", "destination": "/index.html" },
+    { "source": "/nl", "destination": "/nl/index.html" },
+    { "source": "/nl/devis", "destination": "/nl/index.html" },
+    { "source": "/nl/realisations", "destination": "/nl/index.html" },
+    { "source": "/nl/contact", "destination": "/nl/index.html" },
+    { "source": "/nl/faq", "destination": "/nl/index.html" },
+    { "source": "/nl/blog", "destination": "/nl/index.html" },
+    { "source": "/nl/blog/:slug", "destination": "/nl/index.html" },
+    { "source": "/nl/mentions-legales", "destination": "/nl/index.html" },
+    { "source": "/nl/politique-confidentialite", "destination": "/nl/index.html" },
+    { "source": "/nl/conditions-generales", "destination": "/nl/index.html" },
+    { "source": "/en", "destination": "/en/index.html" },
+    { "source": "/en/devis", "destination": "/en/index.html" },
+    { "source": "/en/realisations", "destination": "/en/index.html" },
+    { "source": "/en/contact", "destination": "/en/index.html" },
+    { "source": "/en/faq", "destination": "/en/index.html" },
+    { "source": "/en/blog", "destination": "/en/index.html" },
+    { "source": "/en/blog/:slug", "destination": "/en/index.html" },
+    { "source": "/en/mentions-legales", "destination": "/en/index.html" },
+    { "source": "/en/politique-confidentialite", "destination": "/en/index.html" },
+    { "source": "/en/conditions-generales", "destination": "/en/index.html" }
   ],
   "headers": [
     {

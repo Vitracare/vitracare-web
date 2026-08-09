@@ -1,43 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vitracare.be/</loc>
     <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/" />
   </url>
   <url>
     <loc>https://vitracare.be/devis</loc>
     <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/devis" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/devis" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/devis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/devis" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/devis</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/devis" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/devis" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/devis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/devis" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/devis</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/devis" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/devis" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/devis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/devis" />
   </url>
   <url>
     <loc>https://vitracare.be/realisations</loc>
     <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/realisations" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/realisations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/realisations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/realisations" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/realisations</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/realisations" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/realisations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/realisations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/realisations" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/realisations</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/realisations" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/realisations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/realisations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/realisations" />
   </url>
   <url>
     <loc>https://vitracare.be/contact</loc>
     <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/contact" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/contact" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/contact" />
   </url>
   <url>
     <loc>https://vitracare.be/blog</loc>
     <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/blog</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/blog</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog" />
   </url>
   <url>
     <loc>https://vitracare.be/blog/quel-film-choisir-vitrages</loc>
     <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/blog/quel-film-choisir-vitrages</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/blog/quel-film-choisir-vitrages</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/quel-film-choisir-vitrages" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/quel-film-choisir-vitrages" />
   </url>
   <url>
     <loc>https://vitracare.be/faq</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/faq" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/faq</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/faq" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/faq</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/faq" />
   </url>
   <url>
     <loc>https://vitracare.be/mentions-legales</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/mentions-legales" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/mentions-legales</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/mentions-legales" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/mentions-legales</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/mentions-legales" />
   </url>
   <url>
     <loc>https://vitracare.be/politique-confidentialite</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/politique-confidentialite" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/politique-confidentialite</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/politique-confidentialite" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/politique-confidentialite</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/politique-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/politique-confidentialite" />
   </url>
   <url>
     <loc>https://vitracare.be/conditions-generales</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/conditions-generales" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/conditions-generales</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/conditions-generales" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/conditions-generales</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/conditions-generales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/conditions-generales" />
   </url>
 </urlset>

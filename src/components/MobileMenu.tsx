@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { LocalizedLink as Link } from './LocalizedLink';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 

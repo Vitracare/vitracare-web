@@ -1,6 +1,7 @@
 import { useState, type FormEvent, type ChangeEvent } from 'react';
 import { X } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
+import { LocalizedLink as Link } from './LocalizedLink';
 
 const brandColor = '#BA9765';
 const MAX_PHOTOS_BYTES = 3.5 * 1024 * 1024; // stays under the ~4.5MB serverless request limit once base64-encoded
@@ -134,9 +135,9 @@ export const DevisFormCard = () => {
   return (
     <div className="w-full flex flex-col md:flex-row rounded-[16px] overflow-hidden shadow-2xl relative">
 
-      {/* Success Overlay */}
+      {/* Success Overlay — fixed to the viewport (not the card) so it's always visible immediately on submit, regardless of scroll position or card height */}
       <div
-        className={`absolute inset-0 z-50 flex flex-col items-center justify-center p-8 md:p-12 text-center transition-opacity duration-500 ease-in-out ${isSubmitted ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+        className={`fixed inset-0 z-[200] flex flex-col items-center justify-center p-8 md:p-12 text-center transition-opacity duration-500 ease-in-out ${isSubmitted ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
         style={{ backgroundColor: brandColor }}
       >
         <div className="w-[72px] h-[72px] rounded-full border-[5px] border-white flex items-center justify-center mb-6">
@@ -147,6 +148,9 @@ export const DevisFormCard = () => {
         <h3 className="text-white text-[28px] md:text-[36px] font-bold px-4 max-w-2xl leading-tight">
           {t.devis.success}
         </h3>
+        <Link to="/" className="mt-8 text-white underline text-[14px] font-bold">
+          {t.back}
+        </Link>
       </div>
 
       {/* Left Form Side — shown second on mobile so the reassurance panel + button aren't buried below the whole form */}

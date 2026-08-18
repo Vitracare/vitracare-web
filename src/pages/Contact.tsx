@@ -100,9 +100,9 @@ export default function Contact() {
 
           {/* Message form */}
           <div className="rounded-[16px] overflow-hidden shadow-xl border border-gray-100 relative">
-            {/* Success Overlay */}
+            {/* Success Overlay — fixed to the viewport so it's always visible immediately on submit, regardless of scroll position */}
             <div
-              className={`absolute inset-0 z-50 flex flex-col items-center justify-center p-8 md:p-12 text-center transition-opacity duration-500 ease-in-out ${isSubmitted ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+              className={`fixed inset-0 z-[200] flex flex-col items-center justify-center p-8 md:p-12 text-center transition-opacity duration-500 ease-in-out ${isSubmitted ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
               style={{ backgroundColor: brandColor }}
             >
               <div className="w-[64px] h-[64px] rounded-full border-[4px] border-white flex items-center justify-center mb-5">

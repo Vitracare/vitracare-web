@@ -59,7 +59,7 @@ export const translations = {
       title: 'Obtenez votre devis',
       subtitle: 'Découvrez le potentiel de vos vitrages : plus d\'intimité, moins de chaleur, et une protection durable pour votre intérieur.',
       reassurance: 'Devis 100% gratuit et sans engagement — réponse sous 24h',
-      success: 'Message envoyé ! Nous vous recontacterons dans les 24 heures.',
+      success: 'Message envoyé ! Nous vous recontacterons dans les 24 heures.',
       form_name: 'Nom / Prénom',
       form_address: 'Adresse',
       form_zip: 'Code postal',
@@ -88,7 +88,7 @@ export const translations = {
       form_email: 'Email',
       form_message: 'Votre message',
       submit: 'Envoyer le message',
-      success: 'Message envoyé ! Nous vous répondons rapidement.',
+      success: 'Message envoyé ! Nous vous répondons rapidement.',
       form_error: 'Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.',
       required_note: '* Champs obligatoires',
       required_error: 'Merci de remplir les champs obligatoires (*).'

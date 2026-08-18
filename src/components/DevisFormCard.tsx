@@ -149,8 +149,8 @@ export const DevisFormCard = () => {
         </h3>
       </div>
 
-      {/* Left Form Side */}
-      <div className={`w-full md:w-[55%] bg-white p-8 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
+      {/* Left Form Side — shown second on mobile so the reassurance panel + button aren't buried below the whole form */}
+      <div className={`order-2 md:order-1 w-full md:w-[55%] bg-white p-8 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
         <form id="devis-form" className="flex flex-col gap-4" onSubmit={handleSubmit} noValidate={false}>
           <input
             type="text"
@@ -249,8 +249,8 @@ export const DevisFormCard = () => {
         </form>
       </div>
 
-      {/* Right Info Side */}
-      <div className={`w-full md:w-[45%] p-8 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
+      {/* Right Info Side — shown first on mobile: brand, reassurance text, and the submit button right away */}
+      <div className={`order-1 md:order-2 w-full md:w-[45%] p-8 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
         {/* Logo icon */}
         <div className="flex flex-col items-center mb-8">
           <img src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />

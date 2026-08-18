@@ -223,66 +223,66 @@ export default function Home() {
       </div>
 
       {/* Features Section */}
-      <section id="services" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
-        <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-24" style={{ color: brandColor }}>
+      <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-white">
+        <h2 className="text-[26px] md:text-[40px] font-bold text-center mb-10 md:mb-24" style={{ color: brandColor }}>
           {t.features.title}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 md:gap-12 lg:gap-8 max-w-7xl mx-auto">
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center">
-            <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
+            <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
               <img loading="lazy" src="/images/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
             </div>
-            <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
+            <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f1_title}
             </h3>
-            <p className="text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
+            <p className="text-[12.5px] md:text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
               {t.features.f1_desc}
             </p>
           </div>
 
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center">
-            <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
+            <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
               <img loading="lazy" src="/images/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
-            <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
+            <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f2_title}
             </h3>
-            <p className="text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
+            <p className="text-[12.5px] md:text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
               {t.features.f2_desc}
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
-            <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
+            <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
               <img loading="lazy" src="/images/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
-            <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
+            <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f3_title}
             </h3>
-            <p className="text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
+            <p className="text-[12.5px] md:text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
               {t.features.f3_desc}
             </p>
           </div>
 
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center">
-            <div className="mb-8 flex h-[80px] w-[80px] items-center justify-center">
+            <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
               <img loading="lazy" src="/images/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
-            <h3 className="text-[22px] font-bold mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
+            <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f4_title}
             </h3>
-            <p className="text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
+            <p className="text-[12.5px] md:text-[17px] leading-relaxed max-w-[280px]" style={{ color: lightTextColor }}>
               {t.features.f4_desc}
             </p>
           </div>
         </div>
 
-        <div className="flex justify-center mt-24">
+        <div className="flex justify-center mt-10 md:mt-24">
           <Link
             to="/devis"
             className="inline-block text-white px-10 py-4 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
@@ -509,7 +509,7 @@ export default function Home() {
       </section>
 
       {/* Map Section */}
-      <section className="relative w-full bg-[#FAF9F6] py-24 overflow-hidden border-t border-gray-100">
+      <section className="relative w-full bg-[#FAF9F6] py-14 md:py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
            <img loading="lazy" src="/images/Bruxelles.webp" className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
@@ -518,22 +518,27 @@ export default function Home() {
 
           {/* Left Content */}
           <div className="w-full lg:w-1/2 mb-16 lg:mb-0 lg:pr-10 flex flex-col items-center text-center lg:items-start lg:text-left">
-            <h2 className="text-[36px] md:text-[44px] font-bold leading-[1.1] mb-6 tracking-tight whitespace-pre-line" style={{ color: headingColor }}>
+            <h2 className="text-[28px] md:text-[44px] font-bold leading-[1.1] mb-4 md:mb-6 tracking-tight whitespace-pre-line" style={{ color: headingColor }}>
               {t.map.title}
             </h2>
 
-            <div className="w-[60px] h-[2px] mb-8" style={{ backgroundColor: brandColor }}></div>
+            <div className="w-[60px] h-[2px] mb-5 md:mb-8" style={{ backgroundColor: brandColor }}></div>
 
-            <p className="text-[18px] text-[#767676] mb-12 max-w-md leading-relaxed whitespace-pre-line">
+            <p className="text-[15px] md:text-[18px] text-[#767676] mb-7 md:mb-12 max-w-md leading-relaxed whitespace-pre-line">
               {t.map.subtitle}
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-4">
-              {t.map.locations.map((city, idx) => (
-                <div key={idx} className="font-bold text-[16px] leading-tight" style={{ color: brandColor, whiteSpace: 'pre-line' }}>
-                  {city}
-                </div>
-              ))}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-6 md:gap-y-10 gap-x-4">
+              {t.map.locations.map((city, idx) => {
+                const isLast = idx === t.map.locations.length - 1;
+                // Show fewer examples on mobile (first 5 + the "et partout autour" catch-all) to keep the page shorter — full list stays on tablet/desktop.
+                const mobileHidden = idx >= 5 && !isLast ? 'hidden md:block' : '';
+                return (
+                  <div key={idx} className={`font-bold text-[16px] leading-tight ${mobileHidden}`} style={{ color: brandColor, whiteSpace: 'pre-line' }}>
+                    {city}
+                  </div>
+                );
+              })}
             </div>
           </div>
 

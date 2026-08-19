@@ -3,7 +3,7 @@ export type Lang = 'FR' | 'NL' | 'EN';
 export const translations = {
   FR: {
     nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', realisations: 'Réalisations', about: 'Avis', contact: 'Contact' },
-    hero: { title1: 'Libérons tout le', title2: 'potentiel de vos', title3: 'Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS' },
+    hero: { title1: 'Libérons tout le', title2: 'potentiel de', title3: 'vos Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS' },
     words: ['intimité', 'sécurité', 'préservation', 'isolation'],
     features: {
       title: 'La lumière entre, rien d\'autre',
@@ -227,7 +227,7 @@ export const translations = {
   },
   EN: {
     nav: { home: 'Home', services: 'Services', pricing: 'Product', realisations: 'Our work', about: 'Reviews', contact: 'Contact' },
-    hero: { title1: 'Unlock the full', title2: 'potential of your', title3: 'Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE' },
+    hero: { title1: 'Unlock the full', title2: 'potential of', title3: 'your Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE' },
     words: ['privacy', 'security', 'preservation', 'insulation'],
     features: {
       title: 'Light comes in, nothing else',

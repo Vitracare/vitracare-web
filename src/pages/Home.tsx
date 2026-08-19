@@ -168,7 +168,7 @@ export default function Home() {
       <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
         {/* Background Image Container */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center"
+        className="absolute inset-0 z-0 bg-cover bg-right md:bg-center"
         style={{
           backgroundImage: "url('/images/hero.jpg')",
         }}
@@ -416,8 +416,11 @@ export default function Home() {
 
             {/* Right: Testimonials */}
             <div className="w-full lg:w-1/2 flex flex-col lg:pl-10">
-              {/* Mobile: swipeable carousel. Tablet/desktop: unchanged stacked chat-bubble layout. */}
-              <div className="flex lg:flex-col gap-6 lg:gap-8 w-full overflow-x-auto lg:overflow-visible snap-x snap-mandatory lg:snap-none pb-4 lg:pb-0 px-8 -mx-8 lg:px-0 lg:mx-0">
+              {/* Mobile: swipeable carousel. Tablet/desktop: unchanged stacked chat-bubble layout.
+                  pt-4 here matters: overflow-x-auto also clips the vertical axis (CSS turns overflow-y to
+                  "auto" too), which was cutting off the quote-mark badge that intentionally overflows
+                  above each bubble via negative positioning. */}
+              <div className="flex lg:flex-col gap-6 lg:gap-8 w-full overflow-x-auto lg:overflow-visible snap-x snap-mandatory lg:snap-none pt-4 pb-4 lg:pt-0 lg:pb-0 px-8 -mx-8 lg:px-0 lg:mx-0">
                 <Testimonial
                   name="Isabelle"
                   image="/images/Isabelle.avif"
@@ -530,21 +533,23 @@ export default function Home() {
               {t.map.subtitle}
             </p>
 
-            {/* Mobile: swipeable carousel (few cards visible, all reachable by scrolling). Tablet/desktop: unchanged static grid.
-                w-full min-w-0 is required here — the parent uses items-center (for the text-centering above), which without an
-                explicit width lets this flex child grow to its full unclipped content width instead of respecting the viewport. */}
-            <div className="w-full min-w-0 flex md:grid md:grid-cols-4 gap-3 md:gap-x-4 md:gap-y-10 overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-2 md:pb-0 px-8 -mx-8 md:px-0 md:mx-0">
-              {t.map.locations.map((city, idx) => (
-                <div
-                  key={idx}
-                  className="shrink-0 md:shrink snap-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none flex items-center justify-center text-center rounded-xl border border-[#BA9765]/25 md:border-0 py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight"
-                  style={{ color: brandColor, whiteSpace: 'pre-line' }}
-                >
-                  {city}
-                </div>
-              ))}
+            {/* Mobile: continuous auto-scrolling ticker (list rendered twice for a seamless loop). Tablet/desktop: unchanged static grid.
+                w-full min-w-0 on the outer wrapper is required — the parent uses items-center (for the text-centering above), which
+                without an explicit width would let this child grow to its full unclipped content width instead of respecting the viewport. */}
+            <div className="w-full min-w-0 overflow-hidden md:overflow-visible px-8 -mx-8 md:px-0 md:mx-0">
+              <div className="flex md:grid md:grid-cols-4 gap-3 md:gap-x-4 md:gap-y-10 animate-marquee">
+                {[...t.map.locations, ...t.map.locations].map((city, idx) => (
+                  <div
+                    key={idx}
+                    className={`shrink-0 md:shrink flex items-center justify-center text-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight ${idx >= t.map.locations.length ? 'md:hidden' : ''}`}
+                    style={{ color: brandColor, whiteSpace: 'pre-line' }}
+                    aria-hidden={idx >= t.map.locations.length}
+                  >
+                    {city}
+                  </div>
+                ))}
+              </div>
             </div>
-            <p className="text-center text-[12px] text-gray-400 mt-3 md:hidden">{t.map.swipeHint}</p>
           </div>
 
           {/* Right Content — desktop only, hidden on mobile/tablet */}

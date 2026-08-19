@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+/* Continuous auto-scrolling ticker for the mobile "communes desservies" strip.
+   The track renders the location list twice back-to-back; animating to -50%
+   moves exactly one full copy across, so the loop point is seamless. */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 22s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
+/* Tailwind's utilities live in a CSS cascade layer, which always loses to this
+   plain (unlayered) rule regardless of source order — so `md:animate-none` in
+   the JSX can't actually override .animate-marquee above. Disable it here instead,
+   at the same breakpoint used for the grid layout switch. */
+@media (min-width: 768px) {
+  .animate-marquee {
+    animation: none;
+    transform: none;
+  }
+}

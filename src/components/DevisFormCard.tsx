@@ -250,10 +250,19 @@ export const DevisFormCard = () => {
           {submitError && (
             <p className="text-[12px] text-red-600">{submitError}</p>
           )}
+
+          <button
+            type="submit"
+            disabled={isSubmitting || isCompressing}
+            className="mt-2 text-white text-[13px] font-bold px-8 py-3.5 rounded-full tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] cursor-pointer disabled:opacity-60 disabled:cursor-wait w-fit self-center"
+            style={{ backgroundColor: brandColor }}
+          >
+            {isSubmitting ? '...' : t.hero.getQuote}
+          </button>
         </form>
       </div>
 
-      {/* Right Info Side — shown first on mobile: brand, reassurance text, and the submit button right away */}
+      {/* Right Info Side — shown first on mobile: brand + reassurance text, the actual submit button now lives at the end of the form */}
       <div className={`order-1 md:order-2 w-full md:w-[45%] p-8 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
         {/* Logo icon */}
         <div className="flex flex-col items-center mb-8">
@@ -263,18 +272,9 @@ export const DevisFormCard = () => {
           </div>
         </div>
 
-        <p className="text-white text-[16px] leading-relaxed mb-10 font-medium">
+        <p className="text-white text-[16px] leading-relaxed font-medium">
           {t.devis.info_text}
         </p>
-
-        <button
-          type="submit"
-          form="devis-form"
-          disabled={isSubmitting || isCompressing}
-          className="bg-white text-[#BA9765] text-[13px] font-bold px-8 py-3.5 rounded-full tracking-wider transition-all duration-300 border-2 border-white hover:bg-[#BA9765] hover:text-white active:bg-[#BA9765] active:text-white cursor-pointer disabled:opacity-60 disabled:cursor-wait"
-        >
-          {isSubmitting ? '...' : t.hero.getQuote}
-        </button>
       </div>
     </div>
   );

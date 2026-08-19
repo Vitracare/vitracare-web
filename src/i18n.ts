@@ -42,7 +42,8 @@ export const translations = {
       r2: 'Impossible de savoir si nous sommes là de l\'extérieur. C\'est exactement ce qu\'on voulait.',
       r3: 'Nous vivons enfin rideaux ouverts, sans nous sentir observés.',
       r4: 'Nos toiles ne craignent plus le soleil. Un vrai soulagement !',
-      more: 'EN SAVOIR PLUS'
+      more: 'EN SAVOIR PLUS',
+      swipeHint: '← Glissez pour voir tous les avis →'
     },
     strip: {
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
@@ -52,8 +53,9 @@ export const translations = {
     },
     map: {
       title: 'Partout à Bruxelles\net en périphérie',
-      subtitle: 'Nous développons un service de haute qualité partout\nà Bruxelles et ses alentours',
-      locations: ['Centre', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'Et partout\nautour']
+      subtitle: 'Nous développons un service de haute qualité\npartout à Bruxelles et ses alentours',
+      locations: ['Centre', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'Et partout\nautour'],
+      swipeHint: '← Glissez pour voir toutes les communes →'
     },
     devis: {
       title: 'Obtenez votre devis',
@@ -70,7 +72,7 @@ export const translations = {
       form_photos: 'Ajouter des photos (optionnel)',
       form_privacy1: 'J\'ai lu et j\'accepte votre ',
       form_privacy2: 'politique de confidentialité',
-      info_text: 'Remplissez vos coordonnées et cliquez sur le bouton ci-dessous, nous vous recontacterons dans les 24h.',
+      info_text: 'Remplissez vos coordonnées et nous vous recontacterons dans les 24h.',
       form_error: 'Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.',
       photos_too_large: 'Les photos sont encore trop volumineuses une fois compressées. Réduisez le nombre de photos.',
       required_note: '* Champs obligatoires',
@@ -147,7 +149,8 @@ export const translations = {
       r2: 'Onmogelijk om van buitenaf te zien of we er zijn. Precies wat we wilden.',
       r3: 'We leven eindelijk met open gordijnen, zonder ons bekeken te voelen.',
       r4: 'Onze doeken zijn niet meer bang voor de zon. Een hele opluchting!',
-      more: 'LEES MEER'
+      more: 'LEES MEER',
+      swipeHint: '← Schuif om alle beoordelingen te zien →'
     },
     strip: {
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
@@ -157,8 +160,9 @@ export const translations = {
     },
     map: {
       title: 'Overal in Brussel\nen de rand',
-      subtitle: 'Wij ontwikkelen een hoogwaardige service overal\nin Brussel en omgeving',
-      locations: ['Centrum', 'Elsene', 'Ukkel', 'Woluwe', 'Evere', 'Oudergem', 'Etterbeek', 'Vorst', 'Waterloo', 'Linkebeek', 'Kraainem', 'En overal\nrondom']
+      subtitle: 'Wij ontwikkelen een hoogwaardige service\noveral in Brussel en omgeving',
+      locations: ['Centrum', 'Elsene', 'Ukkel', 'Woluwe', 'Evere', 'Oudergem', 'Etterbeek', 'Vorst', 'Waterloo', 'Linkebeek', 'Kraainem', 'En overal\nrondom'],
+      swipeHint: '← Schuif om alle gemeenten te zien →'
     },
     devis: {
       title: 'Ontvang uw offerte',
@@ -175,7 +179,7 @@ export const translations = {
       form_photos: 'Foto\'s toevoegen (optioneel)',
       form_privacy1: 'Ik heb uw ',
       form_privacy2: 'privacybeleid gelezen en ga ermee akkoord',
-      info_text: 'Vul uw gegevens in en klik op de onderstaande knop, wij nemen binnen 24 uur contact met u op.',
+      info_text: 'Vul uw gegevens in en wij nemen binnen 24 uur contact met u op.',
       form_error: 'Er is een fout opgetreden. Probeer opnieuw, of bel ons rechtstreeks op 0489 60 70 74.',
       photos_too_large: 'De foto\'s zijn nog steeds te groot na compressie. Verminder het aantal foto\'s.',
       required_note: '* Verplichte velden',
@@ -252,7 +256,8 @@ export const translations = {
       r2: 'Impossible to know if we are there from the outside. Exactly what we wanted.',
       r3: 'We finally live with curtains open, without feeling watched.',
       r4: 'Our canvases no longer fear the sun. A real relief!',
-      more: 'LEARN MORE'
+      more: 'LEARN MORE',
+      swipeHint: '← Swipe to see all reviews →'
     },
     strip: {
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',
@@ -262,8 +267,9 @@ export const translations = {
     },
     map: {
       title: 'Everywhere in Brussels\nand surroundings',
-      subtitle: 'We develop a high quality service everywhere\nin Brussels and surroundings',
-      locations: ['Center', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'And everywhere\naround']
+      subtitle: 'We develop a high quality service\neverywhere in Brussels and surroundings',
+      locations: ['Center', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'And everywhere\naround'],
+      swipeHint: '← Swipe to see all the communes →'
     },
     devis: {
       title: 'Get your quote',
@@ -280,7 +286,7 @@ export const translations = {
       form_photos: 'Add photos (optional)',
       form_privacy1: 'I have read and accept your ',
       form_privacy2: 'privacy policy',
-      info_text: 'Fill in your details and click the button below, we will contact you within 24 hours.',
+      info_text: 'Fill in your details and we will contact you within 24 hours.',
       form_error: 'Something went wrong. Please try again, or call us directly on 0489 60 70 74.',
       photos_too_large: 'The photos are still too large after compression. Reduce the number of photos.',
       required_note: '* Required fields',

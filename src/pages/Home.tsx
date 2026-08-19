@@ -77,7 +77,7 @@ const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before:
 
 const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: string, text: string, offsetClass?: string }) => {
   return (
-    <div className={`flex items-start gap-4 w-full max-w-[340px] ${offsetClass || ''}`}>
+    <div className={`flex items-start gap-4 w-full min-w-[280px] max-w-[280px] md:min-w-0 md:max-w-[340px] shrink-0 md:shrink snap-center ${offsetClass || ''}`}>
       <div className="flex flex-col items-center gap-1.5 shrink-0 z-10 pt-4">
         <img loading="lazy" src={image} alt={name} className="w-12 h-12 rounded-full object-cover shadow-sm" />
         <span className="text-[12px] text-[#A87C5D] font-bold">{name}</span>
@@ -416,7 +416,8 @@ export default function Home() {
 
             {/* Right: Testimonials */}
             <div className="w-full lg:w-1/2 flex flex-col lg:pl-10">
-              <div className="flex flex-col gap-8 w-full">
+              {/* Mobile: swipeable carousel. Tablet/desktop: unchanged stacked chat-bubble layout. */}
+              <div className="flex lg:flex-col gap-6 lg:gap-8 w-full overflow-x-auto lg:overflow-visible snap-x snap-mandatory lg:snap-none pb-4 lg:pb-0 px-8 -mx-8 lg:px-0 lg:mx-0">
                 <Testimonial
                   name="Isabelle"
                   image="/images/Isabelle.avif"
@@ -427,7 +428,7 @@ export default function Home() {
                   name="Olivier"
                   image="/images/Francois.avif"
                   text={t.reviews.r2}
-                  offsetClass="ml-auto lg:mr-4"
+                  offsetClass="lg:ml-auto lg:mr-4"
                 />
 
                 <Testimonial
@@ -440,11 +441,12 @@ export default function Home() {
                   name="François"
                   image="/images/Olivier.avif"
                   text={t.reviews.r4}
-                  offsetClass="ml-auto lg:mr-4"
+                  offsetClass="lg:ml-auto lg:mr-4"
                 />
               </div>
+              <p className="text-center text-[12px] text-gray-400 mt-3 lg:hidden">{t.reviews.swipeHint}</p>
 
-              <div className="mt-12 flex justify-start pl-4 md:pl-16">
+              <div className="mt-8 lg:mt-12 flex justify-center lg:justify-start pl-0 lg:pl-16">
                 <Link
                   to="/realisations"
                   className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
@@ -528,18 +530,21 @@ export default function Home() {
               {t.map.subtitle}
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-6 md:gap-y-10 gap-x-4">
-              {t.map.locations.map((city, idx) => {
-                const isLast = idx === t.map.locations.length - 1;
-                // Show fewer examples on mobile (first 5 + the "et partout autour" catch-all) to keep the page shorter — full list stays on tablet/desktop.
-                const mobileHidden = idx >= 5 && !isLast ? 'hidden md:block' : '';
-                return (
-                  <div key={idx} className={`font-bold text-[16px] leading-tight ${mobileHidden}`} style={{ color: brandColor, whiteSpace: 'pre-line' }}>
-                    {city}
-                  </div>
-                );
-              })}
+            {/* Mobile: swipeable carousel (few cards visible, all reachable by scrolling). Tablet/desktop: unchanged static grid.
+                w-full min-w-0 is required here — the parent uses items-center (for the text-centering above), which without an
+                explicit width lets this flex child grow to its full unclipped content width instead of respecting the viewport. */}
+            <div className="w-full min-w-0 flex md:grid md:grid-cols-4 gap-3 md:gap-x-4 md:gap-y-10 overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-2 md:pb-0 px-8 -mx-8 md:px-0 md:mx-0">
+              {t.map.locations.map((city, idx) => (
+                <div
+                  key={idx}
+                  className="shrink-0 md:shrink snap-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none flex items-center justify-center text-center rounded-xl border border-[#BA9765]/25 md:border-0 py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight"
+                  style={{ color: brandColor, whiteSpace: 'pre-line' }}
+                >
+                  {city}
+                </div>
+              ))}
             </div>
+            <p className="text-center text-[12px] text-gray-400 mt-3 md:hidden">{t.map.swipeHint}</p>
           </div>
 
           {/* Right Content — desktop only, hidden on mobile/tablet */}

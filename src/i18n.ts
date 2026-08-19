@@ -106,6 +106,11 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
       copyright: '© 2026 VitraCare. Tous droits réservés.'
+    },
+    popup: {
+      title: 'Une question sur vos vitrages ?',
+      subtitle: 'Discutez directement avec nous sur WhatsApp, ou demandez votre devis gratuit — sans engagement.',
+      whatsapp: 'Discuter sur WhatsApp'
     }
   },
   NL: {
@@ -213,6 +218,11 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
       copyright: '© 2026 VitraCare. Alle rechten voorbehouden.'
+    },
+    popup: {
+      title: 'Een vraag over uw beglazing?',
+      subtitle: 'Praat rechtstreeks met ons via WhatsApp, of vraag uw gratis offerte aan — vrijblijvend.',
+      whatsapp: 'Chat via WhatsApp'
     }
   },
   EN: {
@@ -320,6 +330,11 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',
       copyright: '© 2026 VitraCare. All rights reserved.'
+    },
+    popup: {
+      title: 'A question about your windows?',
+      subtitle: 'Chat with us directly on WhatsApp, or request your free quote — no obligation.',
+      whatsapp: 'Chat on WhatsApp'
     }
   }
 };

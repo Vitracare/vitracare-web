@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './LanguageContext';
 import { Lang } from './i18n';
 import { ScrollToTop } from './components/ScrollToTop';
+import { EngagementPopup } from './components/EngagementPopup';
 import Home from './pages/Home';
 import Devis from './pages/Devis';
 import Contact from './pages/Contact';
@@ -58,6 +59,7 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       <AppRoutes />
+      <EngagementPopup />
     </BrowserRouter>
   );
 }

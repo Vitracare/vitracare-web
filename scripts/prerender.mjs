@@ -154,7 +154,8 @@ const pages = [
   },
 ];
 
-const blogArticle = {
+const blogArticles = [
+{
   path: '/blog/quel-film-choisir-vitrages',
   meta: {
     FR: {
@@ -182,7 +183,37 @@ const blogArticle = {
       dateModified: '2026-08-09',
     },
   },
-};
+},
+{
+  path: '/blog/film-vitrage-economies-climatisation',
+  meta: {
+    FR: {
+      title: 'Film pour vitrage vs climatisation : quelle économie ? — VitraCare',
+      description:
+        "Ventilateur, climatiseur ou film pour vitrage : quelle solution réduit vraiment la chaleur chez vous ? Voici ce que montrent les études, chiffres et sources à l'appui.",
+      headline: 'Film pour vitrage ou climatisation : quelle solution refroidit vraiment votre intérieur sans faire exploser la facture ?',
+      datePublished: '2026-08-19',
+      dateModified: '2026-08-19',
+    },
+    NL: {
+      title: 'Raamfolie vs airco: welke besparing? — VitraCare',
+      description:
+        'Ventilator, airco of raamfolie: wat vermindert de hitte bij u thuis echt? Dit tonen studies, met cijfers en bronnen.',
+      headline: 'Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?',
+      datePublished: '2026-08-19',
+      dateModified: '2026-08-19',
+    },
+    EN: {
+      title: 'Window Film vs AC: Which Saves More Energy? — VitraCare',
+      description:
+        "Fan, air conditioner, or window film: what actually reduces heat at home? Here's what studies show, with figures and sources.",
+      headline: 'Window film or air conditioning: which solution actually cools your home without blowing up your energy bill?',
+      datePublished: '2026-08-19',
+      dateModified: '2026-08-19',
+    },
+  },
+},
+];
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -211,43 +242,45 @@ function buildRoutes() {
     }
   }
 
-  for (const lang of langs) {
-    const prefix = prefixes[lang];
-    const routePath = fullPath(prefix, blogArticle.path);
-    const fileRel = `${routePath.replace(/^\//, '')}/index.html`;
-    const m = blogArticle.meta[lang];
-    routes.push({
-      routePath,
-      file: fileRel,
-      canonicalPath: blogArticle.path,
-      lang,
-      title: m.title,
-      description: m.description,
-      schema: [
-        {
-          '@context': 'https://schema.org',
-          '@type': 'BlogPosting',
-          headline: m.headline,
-          description: m.description,
-          datePublished: m.datePublished,
-          dateModified: m.dateModified,
-          author: { '@type': 'Organization', name: 'VitraCare' },
-          publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
-          mainEntityOfPage: `https://vitracare.be${routePath}`,
-          url: `https://vitracare.be${routePath}`,
-          inLanguage: `${hreflangCodes[lang]}-BE`,
-        },
-        {
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Accueil', item: `https://vitracare.be${fullPath(prefix, '/')}` },
-            { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://vitracare.be${fullPath(prefix, '/blog')}` },
-            { '@type': 'ListItem', position: 3, name: m.title.replace(' — VitraCare', ''), item: `https://vitracare.be${routePath}` },
-          ],
-        },
-      ],
-    });
+  for (const blogArticle of blogArticles) {
+    for (const lang of langs) {
+      const prefix = prefixes[lang];
+      const routePath = fullPath(prefix, blogArticle.path);
+      const fileRel = `${routePath.replace(/^\//, '')}/index.html`;
+      const m = blogArticle.meta[lang];
+      routes.push({
+        routePath,
+        file: fileRel,
+        canonicalPath: blogArticle.path,
+        lang,
+        title: m.title,
+        description: m.description,
+        schema: [
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: m.headline,
+            description: m.description,
+            datePublished: m.datePublished,
+            dateModified: m.dateModified,
+            author: { '@type': 'Organization', name: 'VitraCare' },
+            publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
+            mainEntityOfPage: `https://vitracare.be${routePath}`,
+            url: `https://vitracare.be${routePath}`,
+            inLanguage: `${hreflangCodes[lang]}-BE`,
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Accueil', item: `https://vitracare.be${fullPath(prefix, '/')}` },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://vitracare.be${fullPath(prefix, '/blog')}` },
+              { '@type': 'ListItem', position: 3, name: m.title.replace(' — VitraCare', ''), item: `https://vitracare.be${routePath}` },
+            ],
+          },
+        ],
+      });
+    }
   }
 
   return routes;

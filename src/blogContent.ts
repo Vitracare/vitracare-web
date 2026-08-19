@@ -72,6 +72,87 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-vitrage-economies-climatisation',
+      title: 'Film pour vitrage ou climatisation : quelle solution refroidit vraiment votre intérieur sans faire exploser la facture ?',
+      metaTitle: 'Film pour vitrage vs climatisation : quelle économie ?',
+      metaDescription:
+        "Ventilateur, climatiseur ou film pour vitrage : quelle solution réduit vraiment la chaleur chez vous ? Voici ce que montrent les études, chiffres et sources à l'appui.",
+      date: '2026-08-19',
+      excerpt:
+        "Face à la chaleur, le réflexe est souvent d'allumer un ventilateur ou un climatiseur. Voici ce que montrent les études sur une alternative plus discrète : le film pour vitrage.",
+      sections: [
+        {
+          paragraphs: [
+            "Chaque été, le même réflexe : sortir le ventilateur, ou investir dans un climatiseur mobile. Les deux ont un point commun — ils consomment de l'électricité en continu, sans jamais s'attaquer à la vraie cause du problème : la chaleur qui entre par les fenêtres. Le film pour vitrage prend le problème à l'envers, en bloquant une bonne partie de cette chaleur avant qu'elle n'entre. Voici ce que montrent les études indépendantes sur le sujet.",
+          ],
+        },
+        {
+          heading: 'Combien de degrés en moins, concrètement ?',
+          paragraphs: [
+            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil — vérandas, toits vitrés, façades sud ou ouest en tête de liste.",
+            "Aux États-Unis, le Department of Energy (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon le même organisme, d'environ un tiers de la charge de climatisation d'un bâtiment.",
+          ],
+        },
+        {
+          heading: 'Moins de climatisation, moins de dépenses',
+          paragraphs: [
+            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées. En France, ce type de solution est d'ailleurs reconnu par l'ADEME (l'agence de la transition écologique) comme un moyen efficace et économique de réduire la consommation énergétique liée au refroidissement des bâtiments.",
+            "Contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité, pas d'entretien, pas de filtre à changer. C'est un investissement unique, pas une dépense qui revient chaque mois d'été.",
+          ],
+        },
+        {
+          heading: 'Film, climatiseur ou ventilateur : quelle différence de fond ?',
+          paragraphs: [
+            "Un ventilateur ne fait que déplacer l'air chaud déjà présent dans la pièce — il ne réduit pas la chaleur qui continue d'entrer par les vitrages. Un climatiseur, lui, refroidit activement l'air, mais consomme de l'électricité en continu et doit lutter en permanence contre une chaleur qui n'arrête pas d'entrer.",
+            "Le film pour vitrage agit en amont : il réduit la quantité de chaleur solaire qui traverse le verre. Moins de chaleur qui entre, c'est moins de travail pour un climatiseur existant (et donc moins de consommation), ou tout simplement une pièce plus vivable sans avoir besoin d'allumer quoi que ce soit.",
+          ],
+        },
+        {
+          heading: 'Et en hiver, ce n\'est pas du gaspillage ?',
+          paragraphs: [
+            "Non — le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
+          ],
+        },
+        {
+          heading: 'Le film pour vitrage remplace-t-il complètement la climatisation ?',
+          paragraphs: [
+            "Pas nécessairement dans les cas les plus extrêmes, mais il réduit fortement le besoin. Beaucoup de nos clients constatent qu'une pièce auparavant invivable en été redevient confortable sans avoir besoin d'installer ou d'allumer un climatiseur.",
+          ],
+        },
+        {
+          heading: 'Le film fonctionne-t-il aussi bien qu\'un ventilateur ?',
+          paragraphs: [
+            "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce — les deux ne résolvent pas le même problème.",
+          ],
+        },
+        {
+          heading: 'Le film a-t-il un coût d\'entretien ou de fonctionnement ?',
+          paragraphs: [
+            "Non. Contrairement à un climatiseur, le film ne consomme aucune électricité et ne nécessite aucun entretien régulier une fois posé.",
+          ],
+        },
+        {
+          heading: 'Est-ce que ça fonctionne sur tous les types de vitrage ?',
+          paragraphs: [
+            "Nos films sont compatibles avec le simple et le double vitrage. Chaque projet étant différent, nous établissons toujours un devis personnalisé et gratuit après avoir évalué votre situation.",
+          ],
+        },
+        {
+          heading: 'Combien de temps dure l\'installation ?',
+          paragraphs: [
+            "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée exacte dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            'U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique : osti.gov/servlets/purl/1089147',
+            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (données terrain, référence à l\'ADEME) : wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+          ],
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -131,6 +212,87 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-vitrage-economies-climatisation',
+      title: 'Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?',
+      metaTitle: 'Raamfolie vs airco: welke besparing?',
+      metaDescription:
+        'Ventilator, airco of raamfolie: wat vermindert de hitte bij u thuis echt? Dit tonen studies, met cijfers en bronnen.',
+      date: '2026-08-19',
+      excerpt:
+        'Bij hitte grijpen we al snel naar de ventilator of de airco. Dit tonen studies over een discreter alternatief: raamfolie.',
+      sections: [
+        {
+          paragraphs: [
+            "Elke zomer dezelfde reflex: de ventilator erbij halen, of investeren in een mobiele airco. Beide hebben iets gemeen — ze verbruiken continu elektriciteit, zonder de echte oorzaak van het probleem aan te pakken: de warmte die via de ramen binnenkomt. Raamfolie pakt het probleem omgekeerd aan, door een groot deel van die warmte tegen te houden vóór ze binnenkomt. Dit tonen onafhankelijke studies over het onderwerp.",
+          ],
+        },
+        {
+          heading: 'Hoeveel graden minder, concreet?',
+          paragraphs: [
+            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn — verandas, glazen daken, zuid- of westgevels op kop.",
+            "In de Verenigde Staten wijst het Department of Energy (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde instantie, voor ongeveer een derde van de koellast van een gebouw.",
+          ],
+        },
+        {
+          heading: 'Minder airco, minder kosten',
+          paragraphs: [
+            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels. In Frankrijk wordt dit type oplossing trouwens erkend door ADEME (het Franse agentschap voor ecologische transitie) als een efficiënte en economische manier om het energieverbruik voor gebouwkoeling te verminderen.",
+            "In tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit, geen onderhoud, geen filter om te vervangen. Het is een eenmalige investering, geen kost die elke zomermaand terugkeert.",
+          ],
+        },
+        {
+          heading: 'Folie, airco of ventilator: wat is het fundamentele verschil?',
+          paragraphs: [
+            "Een ventilator verplaatst enkel de warme lucht die al in de ruimte aanwezig is — hij vermindert niet de warmte die via de beglazing blijft binnenkomen. Een airco koelt de lucht actief, maar verbruikt continu elektriciteit en moet voortdurend strijden tegen warmte die blijft binnenkomen.",
+            "Raamfolie grijpt in aan de bron: ze vermindert de hoeveelheid zonnewarmte die door het glas dringt. Minder warmte die binnenkomt betekent minder werk voor een bestaande airco (en dus minder verbruik), of gewoon een leefbaardere ruimte zonder iets te moeten aanzetten.",
+          ],
+        },
+        {
+          heading: 'En is dit geen verspilling in de winter?',
+          paragraphs: [
+            "Nee — de folie helpt ook om warmte binnen te houden in de winter, door warmteverlies via de beglazing te beperken. Het is een investering die het hele jaar door werkt, niet enkel tijdens zomerse hittepieken.",
+          ],
+        },
+        {
+          heading: 'Vervangt raamfolie de airco volledig?',
+          paragraphs: [
+            "Niet noodzakelijk in de meest extreme gevallen, maar de folie vermindert de nood sterk. Veel van onze klanten merken dat een ruimte die voorheen onleefbaar was in de zomer opnieuw comfortabel wordt, zonder een airco te moeten installeren of aanzetten.",
+          ],
+        },
+        {
+          heading: 'Werkt de folie even goed als een ventilator?',
+          paragraphs: [
+            "Dat is niet vergelijkbaar: een ventilator verplaatst de warme lucht die al aanwezig is, zonder de binnenkomende warmte te verminderen. De folie grijpt in vóór de warmte de ruimte binnenkomt — beide lossen niet hetzelfde probleem op.",
+          ],
+        },
+        {
+          heading: 'Heeft de folie onderhouds- of werkingskosten?',
+          paragraphs: [
+            'Nee. In tegenstelling tot een airco verbruikt de folie geen elektriciteit en vereist ze geen regelmatig onderhoud eenmaal geplaatst.',
+          ],
+        },
+        {
+          heading: 'Werkt dit op alle soorten beglazing?',
+          paragraphs: [
+            'Onze folies zijn compatibel met enkel en dubbel glas. Aangezien elk project anders is, stellen we altijd een gepersonaliseerde en gratis offerte op na evaluatie van uw situatie.',
+          ],
+        },
+        {
+          heading: 'Hoe lang duurt de installatie?',
+          paragraphs: [
+            'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De exacte duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            'U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies: osti.gov/servlets/purl/1089147',
+            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (praktijkgegevens, verwijzing naar ADEME): wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+          ],
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -186,6 +348,87 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'film-vitrage-economies-climatisation',
+      title: 'Window film or air conditioning: which solution actually cools your home without blowing up your energy bill?',
+      metaTitle: 'Window Film vs AC: Which Saves More Energy?',
+      metaDescription:
+        "Fan, air conditioner, or window film: what actually reduces heat at home? Here's what studies show, with figures and sources.",
+      date: '2026-08-19',
+      excerpt:
+        "When it gets hot, the default move is to reach for a fan or an air conditioner. Here's what studies show about a quieter alternative: window film.",
+      sections: [
+        {
+          paragraphs: [
+            "Every summer, the same reflex: pull out the fan, or invest in a portable air conditioner. Both share one thing in common — they consume electricity continuously, without ever addressing the real cause of the problem: the heat entering through the windows. Window film tackles the problem from the other end, blocking a large share of that heat before it gets in. Here's what independent research shows on the topic.",
+          ],
+        },
+        {
+          heading: 'How many degrees cooler, in practice?',
+          paragraphs: [
+            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun — conservatories, glass roofs, and south- or west-facing façades leading the list.",
+            "In the United States, the Department of Energy points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same agency, accounts for roughly a third of a building's cooling load.",
+          ],
+        },
+        {
+          heading: 'Less air conditioning, lower costs',
+          paragraphs: [
+            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades. In France, this type of solution is in fact recognised by ADEME (the French ecological transition agency) as an effective and cost-efficient way to reduce a building's cooling energy consumption.",
+            "Unlike an air conditioner, the film has zero running cost once installed: no electricity, no maintenance, no filter to replace. It's a one-off investment, not a bill that comes back every summer month.",
+          ],
+        },
+        {
+          heading: 'Film, AC, or fan: what\'s the fundamental difference?',
+          paragraphs: [
+            "A fan only moves the hot air already inside the room — it doesn't reduce the heat still coming in through the glass. An air conditioner actively cools the air, but consumes electricity continuously and has to keep fighting heat that never stops coming in.",
+            "Window film acts upstream: it reduces the amount of solar heat passing through the glass in the first place. Less heat coming in means less work for an existing air conditioner (and so less consumption) — or simply a more liveable room without switching anything on at all.",
+          ],
+        },
+        {
+          heading: "Isn't that wasted effort come winter?",
+          paragraphs: [
+            "No — the film also helps retain indoor heat in winter, by limiting heat loss through the glazing. It's an investment that works year-round, not just during summer heat peaks.",
+          ],
+        },
+        {
+          heading: 'Does window film fully replace air conditioning?',
+          paragraphs: [
+            "Not necessarily in the most extreme cases, but it sharply reduces the need for it. Many of our clients find that a room that used to be unbearable in summer becomes comfortable again, without needing to install or switch on an air conditioner.",
+          ],
+        },
+        {
+          heading: 'Does the film work as well as a fan?',
+          paragraphs: [
+            "They're not really comparable: a fan circulates the hot air already present, without reducing the heat still coming in. The film acts before heat enters the room at all — the two don't solve the same problem.",
+          ],
+        },
+        {
+          heading: 'Does the film have any maintenance or running costs?',
+          paragraphs: [
+            'No. Unlike an air conditioner, the film uses no electricity and requires no regular maintenance once installed.',
+          ],
+        },
+        {
+          heading: 'Does this work on all types of glazing?',
+          paragraphs: [
+            'Our films are compatible with single and double glazing. Since every project is different, we always draw up a free, personalised quote after assessing your situation.',
+          ],
+        },
+        {
+          heading: 'How long does installation take?',
+          paragraphs: [
+            "Installation is carried out by our partner installer directly at your home, in a single visit. The exact duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            'U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films: osti.gov/servlets/purl/1089147',
+            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (field data, referencing ADEME, the French ecological transition agency): wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
           ],
         },
       ],

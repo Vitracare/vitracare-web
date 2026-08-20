@@ -29,7 +29,7 @@ export const legalContent = {
     ],
     mentionsTitle: 'Mentions légales',
     mentionsSections: [
-      { h: '1. Éditeur du site', p: ['Le site vitracare.be est édité par VitraCare.', 'Adresse : Bruxelles, Belgique', 'Email : contact@vitracare.be', "Numéro d'entreprise : non applicable — activité exercée à titre personnel (à mettre à jour dès l'immatriculation d'une structure).", 'Pour nous contacter par téléphone, consultez notre page Contact.'] },
+      { h: '1. Éditeur du site', p: ['Le site vitracare.be est édité par VitraCare.', 'Adresse : Bruxelles, Belgique', 'Email : contact@vitracare.be', "Numéro d'entreprise : non applicable — activité exercée à titre personnel.", 'Pour nous contacter par téléphone, consultez notre page Contact.'] },
       { h: '2. Directeur de la publication', p: ['VitraCare'] },
       { h: '3. Hébergement', p: ['Le site est hébergé par Vercel Inc. (États-Unis) — coordonnées complètes disponibles sur vercel.com/legal.'] },
       { h: '4. Description des services', p: ["Ce site présente les services de teinte et de film pour vitres proposés sous la marque VitraCare. VitraCare agit en tant qu'intermédiaire commercial : la prise de contact, le devis et le suivi client sont assurés par VitraCare, tandis que la pose est réalisée par un installateur partenaire indépendant. Les informations publiées sont données à titre indicatif et peuvent évoluer sans préavis."] },
@@ -82,7 +82,7 @@ export const legalContent = {
     ],
     mentionsTitle: 'Wettelijke vermeldingen',
     mentionsSections: [
-      { h: '1. Uitgever van de website', p: ['De website vitracare.be wordt uitgegeven door VitraCare.', 'Adres: Brussel, België', 'E-mail: contact@vitracare.be', 'Ondernemingsnummer: niet van toepassing — activiteit uitgeoefend als particulier (bij te werken zodra een structuur wordt geregistreerd).', 'Om ons telefonisch te contacteren, raadpleeg onze Contactpagina.'] },
+      { h: '1. Uitgever van de website', p: ['De website vitracare.be wordt uitgegeven door VitraCare.', 'Adres: Brussel, België', 'E-mail: contact@vitracare.be', 'Ondernemingsnummer: niet van toepassing — activiteit uitgeoefend als particulier.', 'Om ons telefonisch te contacteren, raadpleeg onze Contactpagina.'] },
       { h: '2. Verantwoordelijke uitgever', p: ['VitraCare'] },
       { h: '3. Hosting', p: ['De website wordt gehost door Vercel Inc. (Verenigde Staten) — volledige contactgegevens beschikbaar op vercel.com/legal.'] },
       { h: '4. Beschrijving van de diensten', p: ['Deze website presenteert de diensten voor raamfolie en tinten die onder het merk VitraCare worden aangeboden. VitraCare treedt op als commerciële tussenpersoon: het eerste contact, de offerte en de klantopvolging worden door VitraCare verzorgd, terwijl de plaatsing wordt uitgevoerd door een onafhankelijke partnerinstallateur. De gepubliceerde informatie is indicatief en kan zonder voorafgaande kennisgeving wijzigen.'] },
@@ -135,7 +135,7 @@ export const legalContent = {
     ],
     mentionsTitle: 'Legal notice',
     mentionsSections: [
-      { h: '1. Website publisher', p: ['The website vitracare.be is published by VitraCare.', 'Address: Brussels, Belgium', 'Email: contact@vitracare.be', 'Company number: not applicable — activity carried out as a private individual (to be updated once a company is registered).', 'To contact us by phone, please see our Contact page.'] },
+      { h: '1. Website publisher', p: ['The website vitracare.be is published by VitraCare.', 'Address: Brussels, Belgium', 'Email: contact@vitracare.be', 'Company number: not applicable — activity carried out as a private individual.', 'To contact us by phone, please see our Contact page.'] },
       { h: '2. Publication director', p: ['VitraCare'] },
       { h: '3. Hosting', p: ['The website is hosted by Vercel Inc. (United States) — full contact details available at vercel.com/legal.'] },
       { h: '4. Description of services', p: ['This website presents the window tinting and film services offered under the VitraCare brand. VitraCare acts as a commercial intermediary: the initial contact, quote and client follow-up are handled by VitraCare, while installation is carried out by an independent partner installer. The information published is provided for guidance and may change without notice.'] },

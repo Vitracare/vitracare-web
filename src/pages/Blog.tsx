@@ -8,7 +8,7 @@ const brandColor = '#BA9765';
 
 export default function Blog() {
   const { t, lang } = useLanguage();
-  const articles = blogArticles[lang];
+  const articles = [...blogArticles[lang]].sort((a, b) => (a.date < b.date ? 1 : -1));
 
   return (
     <div className="w-full min-h-screen font-sans bg-white flex flex-col">

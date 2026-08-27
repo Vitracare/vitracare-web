@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://vitracare.be/blog</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://vitracare.be/nl/blog</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://vitracare.be/en/blog</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog" />
@@ -167,6 +167,30 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/film-vitrage-economies-climatisation" />
     <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/film-vitrage-economies-climatisation" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/film-vitrage-economies-climatisation" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/blog/intimite-vis-a-vis-film-vitrage" />
   </url>
   <url>
     <loc>https://vitracare.be/faq</loc>

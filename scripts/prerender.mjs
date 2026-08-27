@@ -213,6 +213,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/intimite-vis-a-vis-film-vitrage',
+  meta: {
+    FR: {
+      title: 'Film pour vitrage et intimité : la solution au vis-à-vis — VitraCare',
+      description:
+        "Rez-de-chaussée, vis-à-vis entre voisins, bureaux exposés à la rue : comment profiter de la lumière naturelle sans être vu depuis l'extérieur ? Voici comment le film pour vitrage change la donne.",
+      headline: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
+      datePublished: '2026-08-27',
+      dateModified: '2026-08-27',
+    },
+    NL: {
+      title: 'Raamfolie en privacy: de oplossing tegen inkijk — VitraCare',
+      description:
+        'Gelijkvloers, inkijk tussen buren, kantoren aan de straatkant: hoe geniet u van natuurlijk licht zonder van buitenaf gezien te worden? Raamfolie verandert de zaak.',
+      headline: 'Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?',
+      datePublished: '2026-08-27',
+      dateModified: '2026-08-27',
+    },
+    EN: {
+      title: 'Window Film for Privacy: The Fix for Being Overlooked — VitraCare',
+      description:
+        "Ground floor rooms, neighbours facing your windows, offices exposed to the street: how do you enjoy natural light without being seen from outside? Here's how window film changes the equation.",
+      headline: 'Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?',
+      datePublished: '2026-08-27',
+      dateModified: '2026-08-27',
+    },
+  },
+},
 ];
 
 function escapeHtml(str) {

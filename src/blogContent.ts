@@ -153,6 +153,96 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'intimite-vis-a-vis-film-vitrage',
+      title: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
+      metaTitle: 'Film pour vitrage et intimité : la solution au vis-à-vis',
+      metaDescription:
+        "Rez-de-chaussée, vis-à-vis entre voisins, bureaux exposés à la rue : comment profiter de la lumière naturelle sans être vu depuis l'extérieur ? Voici comment le film pour vitrage change la donne.",
+      date: '2026-08-27',
+      excerpt:
+        "Vivre en ville, c'est souvent choisir entre lumière naturelle et intimité. Le film pour vitrage permet d'avoir les deux, sans fermer un seul volet.",
+      sections: [
+        {
+          paragraphs: [
+            "Rideaux tirés en pleine journée, volets qui ne se rouvrent jamais complètement, salon qu'on évite de traverser en pyjama : le vis-à-vis fait partie du quotidien de beaucoup de foyers en ville. La solution la plus courante — fermer — a un coût direct : moins de lumière naturelle, une maison plus sombre, une pièce qu'on finit par déserter. Le film pour vitrage propose une autre approche : garder les fenêtres dégagées, tout en empêchant qu'on puisse voir à l'intérieur.",
+          ],
+        },
+        {
+          heading: 'Le vis-à-vis, une réalité du quotidien en ville',
+          paragraphs: [
+            "Maisons mitoyennes, rez-de-chaussée qui donnent directement sur le trottoir, appartements qui se font face de part et d'autre d'une cour intérieure, bureaux au rez-de-chaussée visibles depuis la rue : la densité du bâti bruxellois multiplie les situations où on est vu, qu'on le veuille ou non. Le réflexe naturel est de fermer — rideaux, voilages, volets — mais cette solution ferme aussi la lumière, et avec elle, une partie du confort de vie dans la pièce.",
+          ],
+        },
+        {
+          heading: 'Voir sans être vu : le principe',
+          paragraphs: [
+            "Le film effet miroir repose sur un principe optique simple : la lumière. En journée, l'extérieur est toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir empêchant la vue de l'intérieur — pendant que depuis chez vous, la vue reste dégagée, comme à travers une vitre classique.",
+            "Un point important à connaître : cet effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur, donc en journée. Le soir, une fois la lumière allumée chez vous et la nuit tombée dehors, l'effet s'inverse — comme pour n'importe quelle fenêtre éclairée dans le noir. C'est un point à garder en tête selon les pièces et les horaires concernés.",
+          ],
+        },
+        {
+          heading: 'Rez-de-chaussée : reprendre possession de son salon',
+          paragraphs: [
+            "Pour un rez-de-chaussée donnant sur la rue, le film effet miroir permet de laisser passer la lumière toute la journée sans jamais fermer un rideau, tout en étant certain que personne ne peut voir à l'intérieur depuis le trottoir. C'est souvent la différence entre une pièce qu'on n'utilise qu'en soirée, volets fermés, et un salon qui redevient vivable en journée.",
+          ],
+        },
+        {
+          heading: 'Bureaux et commerces : rester visible sans être exposé',
+          paragraphs: [
+            "Pour un bureau ou un espace professionnel en rez-de-chaussée, la vitrine est souvent un atout — mais elle expose aussi tout ce qui se passe à l'intérieur : réunions, poste de travail, documents. Le film pour vitrage permet de garder une façade vitrée engageante depuis l'extérieur, tout en travaillant à l'abri des regards.",
+          ],
+        },
+        {
+          heading: 'Vis-à-vis entre voisins : plus besoin de rideaux fermés en permanence',
+          paragraphs: [
+            "Dans un immeuble ou une cour intérieure où les fenêtres se font face, le réflexe est souvent de garder les voilages fermés en continu — au détriment de la lumière naturelle. Avec un film sur les vitrages concernés, les fenêtres restent dégagées en journée, sans que les voisins d'en face ne puissent voir à l'intérieur.",
+          ],
+        },
+        {
+          heading: 'Le film blanc mat : l\'intimité totale, jour et nuit',
+          paragraphs: [
+            "Pour une pièce où l'intimité doit être garantie à toute heure — une salle de bain, une chambre au rez-de-chaussée, une porte d'entrée vitrée — le film effet miroir n'est pas la solution la plus adaptée, puisqu'il ne fonctionne que de jour. Le film blanc mat, lui, bloque la vue dans les deux sens, jour et nuit, quelle que soit la luminosité de chaque côté. Il laisse entrer la lumière tout en garantissant une intimité constante.",
+          ],
+        },
+        {
+          heading: 'Est-ce que ça marche la nuit aussi ?',
+          paragraphs: [
+            "Le film effet miroir fonctionne uniquement de jour, quand l'extérieur est plus lumineux que l'intérieur. La nuit, si vos lumières sont allumées, l'effet s'inverse. Pour une intimité garantie à toute heure, le film blanc mat est la solution adaptée : son fonctionnement ne dépend pas de la luminosité.",
+          ],
+        },
+        {
+          heading: 'Est-ce que je vois moins bien vers l\'extérieur avec le film posé ?',
+          paragraphs: [
+            "Avec le film effet miroir ou la teinte solaire, la vue depuis l'intérieur reste claire et dégagée — seul le regard depuis l'extérieur est bloqué. Le film blanc mat, en revanche, floute la vue dans les deux sens : c'est le compromis nécessaire pour une intimité totale à toute heure.",
+          ],
+        },
+        {
+          heading: 'Est-ce adapté pour un appartement en copropriété ?',
+          paragraphs: [
+            "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux — nous vous recommandons de vérifier le règlement de copropriété au cas où.",
+          ],
+        },
+        {
+          heading: 'Le film remplace-t-il complètement les rideaux et volets ?',
+          paragraphs: [
+            "Il réduit fortement le besoin de les fermer en journée, notamment avec le film effet miroir ou blanc mat. La nuit, pour l'intimité ou l'isolation thermique, beaucoup de nos clients continuent à utiliser rideaux ou volets en complément.",
+          ],
+        },
+        {
+          heading: 'Combien de temps dure la pose ?',
+          paragraphs: [
+            "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -293,6 +383,95 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'intimite-vis-a-vis-film-vitrage',
+      title: 'Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?',
+      metaTitle: 'Raamfolie en privacy: de oplossing tegen inkijk',
+      metaDescription:
+        'Gelijkvloers, inkijk tussen buren, kantoren aan de straatkant: hoe geniet u van natuurlijk licht zonder van buitenaf gezien te worden? Raamfolie verandert de zaak.',
+      date: '2026-08-27',
+      excerpt:
+        'Stadswonen betekent vaak kiezen tussen natuurlijk licht en privacy. Raamfolie biedt beide, zonder één rolluik te moeten sluiten.',
+      sections: [
+        {
+          paragraphs: [
+            "Gordijnen dicht midden op de dag, rolluiken die nooit helemaal opengaan, een woonkamer die je in pyjama liever vermijdt: inkijk hoort bij het dagelijks leven van veel gezinnen in de stad. De meest voorkomende oplossing — sluiten — heeft een directe kost: minder natuurlijk licht, een donkerder huis, een kamer die je uiteindelijk links laat liggen. Raamfolie biedt een andere aanpak: de ramen open houden, terwijl niemand naar binnen kan kijken.",
+          ],
+        },
+        {
+          heading: 'Inkijk, een dagelijkse realiteit in de stad',
+          paragraphs: [
+            "Rijwoningen, gelijkvloerse verdiepingen die rechtstreeks op het trottoir uitgeven, appartementen die elkaar aankijken over een binnenkoer, kantoren op het gelijkvloers zichtbaar vanaf de straat: de dichte bebouwing in Brussel vermenigvuldigt de situaties waarin u gezien wordt, of u dat nu wilt of niet. De natuurlijke reflex is sluiten — gordijnen, vitrages, rolluiken — maar deze oplossing sluit ook het licht buiten, en daarmee een deel van het wooncomfort in de kamer.",
+          ],
+        },
+        {
+          heading: 'Zien zonder gezien te worden: het principe',
+          paragraphs: [
+            "Spiegeleffectfolie berust op een eenvoudig optisch principe: licht. Overdag is het buiten altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van buitenaf blokkeert — terwijl u vanuit uw huis gewoon vrij zicht behoudt, zoals door een gewoon raam.",
+          ],
+        },
+        {
+          heading: 'Werkt dit ook \'s nachts?',
+          paragraphs: [
+            "Een belangrijk punt: dit effect werkt enkel zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer het licht bij u brandt en het buiten donker is, keert het effect om — zoals bij elk verlicht raam in het donker. Hou hier rekening mee, afhankelijk van de kamer en het tijdstip.",
+          ],
+        },
+        {
+          heading: 'Gelijkvloers: uw woonkamer terug innemen',
+          paragraphs: [
+            "Voor een gelijkvloerse verdieping aan de straatkant laat spiegeleffectfolie het licht de hele dag binnen zonder ooit een gordijn te moeten sluiten, terwijl niemand vanaf het trottoir naar binnen kan kijken. Vaak is dit het verschil tussen een kamer die u enkel 's avonds gebruikt, rolluiken dicht, en een woonkamer die overdag opnieuw leefbaar wordt.",
+          ],
+        },
+        {
+          heading: 'Kantoren en winkels: zichtbaar blijven zonder blootgesteld te zijn',
+          paragraphs: [
+            "Voor een kantoor of professionele ruimte op het gelijkvloers is de etalage vaak een troef — maar ze toont ook alles wat binnen gebeurt: vergaderingen, werkplekken, documenten. Raamfolie laat toe een uitnodigende glazen gevel te behouden vanaf buiten, terwijl u beschut van blikken werkt.",
+          ],
+        },
+        {
+          heading: 'Inkijk tussen buren: geen permanent gesloten vitrages meer nodig',
+          paragraphs: [
+            "In een gebouw of binnenkoer waar ramen elkaar aankijken, is de reflex vaak om de vitrages voortdurend dicht te houden — ten koste van het natuurlijk licht. Met folie op de betrokken ramen blijven de ramen overdag vrij, zonder dat de buren aan de overkant naar binnen kunnen kijken.",
+          ],
+        },
+        {
+          heading: 'Matwitte folie: volledige privacy, dag en nacht',
+          paragraphs: [
+            "Voor een ruimte waar privacy op elk moment gegarandeerd moet zijn — een badkamer, een slaapkamer op het gelijkvloers, een glazen voordeur — is spiegeleffectfolie niet de meest geschikte oplossing, aangezien ze enkel overdag werkt. Matwitte folie daarentegen blokkeert het zicht in beide richtingen, dag en nacht, ongeacht de lichtsterkte aan elke kant. Ze laat licht binnen terwijl ze constante privacy garandeert.",
+          ],
+        },
+        {
+          heading: 'Zie ik minder goed naar buiten met de folie geplaatst?',
+          paragraphs: [
+            "Met spiegeleffectfolie of zonwerende folie blijft het zicht vanaf binnen helder en vrij — enkel het zicht vanaf buiten wordt geblokkeerd. Matwitte folie daarentegen vertroebelt het zicht in beide richtingen: dat is het noodzakelijke compromis voor volledige privacy op elk moment.",
+          ],
+        },
+        {
+          heading: 'Is dit geschikt voor een appartement in mede-eigendom?',
+          paragraphs: [
+            "De folie wordt aan de binnenzijde van het glas geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn — we raden aan het reglement van mede-eigendom na te kijken.",
+          ],
+        },
+        {
+          heading: 'Vervangt de folie gordijnen en rolluiken volledig?',
+          paragraphs: [
+            "Ze vermindert sterk de nood om ze overdag te sluiten, vooral met spiegeleffectfolie of matwitte folie. 's Nachts, voor privacy of thermische isolatie, blijven veel van onze klanten gordijnen of rolluiken als aanvulling gebruiken.",
+          ],
+        },
+        {
+          heading: 'Hoe lang duurt de plaatsing?',
+          paragraphs: [
+            'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -429,6 +608,95 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             'U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films: osti.gov/servlets/purl/1089147',
             'Wonderglass — Le film solaire : moins de clim, plus d\'économies (field data, referencing ADEME, the French ecological transition agency): wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'intimite-vis-a-vis-film-vitrage',
+      title: 'Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?',
+      metaTitle: 'Window Film for Privacy: The Fix for Being Overlooked',
+      metaDescription:
+        "Ground floor rooms, neighbours facing your windows, offices exposed to the street: how do you enjoy natural light without being seen from outside? Here's how window film changes the equation.",
+      date: '2026-08-27',
+      excerpt:
+        "City living often means choosing between natural light and privacy. Window film gives you both, without closing a single shutter.",
+      sections: [
+        {
+          paragraphs: [
+            "Curtains drawn in the middle of the day, shutters that never fully open, a living room you avoid walking through in your pyjamas: being overlooked is part of daily life for many city households. The usual fix — closing up — comes with a real cost: less natural light, a darker home, a room you eventually stop using. Window film offers a different approach: keep the windows uncovered, while making it impossible to see inside.",
+          ],
+        },
+        {
+          heading: 'Being overlooked: a daily reality of city living',
+          paragraphs: [
+            "Terraced houses, ground-floor rooms opening straight onto the pavement, flats facing each other across a shared courtyard, ground-floor offices visible from the street: dense urban housing in Brussels multiplies the situations where you're seen, whether you want to be or not. The natural instinct is to close up — curtains, net curtains, shutters — but that also shuts out the light, and with it, part of the room's liveability.",
+          ],
+        },
+        {
+          heading: 'Seeing without being seen: how it works',
+          paragraphs: [
+            "Mirror effect film relies on a simple optical principle: light. During the day, the outside of a room is always brighter than the inside. The film reflects that light on the outside face, creating a mirror effect that blocks the view from outside — while from inside your home, the view stays just as clear as through an ordinary window.",
+          ],
+        },
+        {
+          heading: 'Does it work at night too?',
+          paragraphs: [
+            "One important thing to know: this effect only works as long as the outside is brighter than the inside — in other words, during the day. In the evening, once your lights are on and it's dark outside, the effect reverses, just like with any lit window at night. Worth keeping in mind depending on the room and the time of day.",
+          ],
+        },
+        {
+          heading: 'Ground floor: taking back your living room',
+          paragraphs: [
+            "For a ground-floor room facing the street, mirror effect film lets light in all day without ever closing a curtain, while guaranteeing no one can see inside from the pavement. It's often the difference between a room you only use in the evening with the shutters down, and a living room that becomes usable again during the day.",
+          ],
+        },
+        {
+          heading: 'Offices and shopfronts: staying visible without being exposed',
+          paragraphs: [
+            "For a ground-floor office or professional space, a glazed frontage is often an asset — but it also puts everything inside on display: meetings, workstations, documents. Window film lets you keep an inviting glass façade from the outside, while working away from prying eyes on the inside.",
+          ],
+        },
+        {
+          heading: "Overlooked by neighbours: no more permanently closed net curtains",
+          paragraphs: [
+            "In a building or courtyard where windows face each other, the usual reflex is to keep net curtains permanently closed — at the cost of natural light. With film applied to the windows concerned, they stay uncovered during the day, without neighbours across the way being able to see in.",
+          ],
+        },
+        {
+          heading: 'Matte white film: total privacy, day and night',
+          paragraphs: [
+            "For a room where privacy needs to be guaranteed at all times — a bathroom, a ground-floor bedroom, a glazed front door — mirror effect film isn't the best fit, since it only works during the day. Matte white film, on the other hand, blocks the view in both directions, day and night, regardless of the light level on either side. It lets light in while guaranteeing constant privacy.",
+          ],
+        },
+        {
+          heading: 'Do I lose visibility looking outward with the film applied?',
+          paragraphs: [
+            "With mirror effect film or solar tint, the view from inside stays clear and unobstructed — only the view from outside is blocked. Matte white film, on the other hand, blurs the view in both directions: that's the necessary trade-off for total privacy at all times.",
+          ],
+        },
+        {
+          heading: 'Is this suitable for a flat in a co-owned building?',
+          paragraphs: [
+            "The film is applied to the inside face of the glass and doesn't change the building's exterior appearance. Depending on the co-ownership rules, a simple notice to the general assembly or the building manager may still be required beforehand — we recommend checking your co-ownership regulations to be sure.",
+          ],
+        },
+        {
+          heading: 'Does the film fully replace curtains and shutters?',
+          paragraphs: [
+            "It greatly reduces the need to close them during the day, especially with mirror effect or matte white film. At night, for privacy or thermal insulation, many of our clients still use curtains or shutters alongside it.",
+          ],
+        },
+        {
+          heading: 'How long does installation take?',
+          paragraphs: [
+            "Installation is carried out by our partner installer directly at your home, in a single visit. The duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your situation and reply within 24 hours.",
           ],
         },
       ],

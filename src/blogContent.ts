@@ -65,6 +65,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
+          paragraphs: [
+            "Toujours à l'intérieur. C'est ce qui protège le film des intempéries et des lavages de vitres, et qui garantit sa durée de vie — jusqu'à 10 ans.",
+          ],
+        },
+        {
+          heading: 'Le film abîme-t-il la vue vers l\'extérieur ?',
+          paragraphs: [
+            "Non, ni le film effet miroir ni la teinte solaire ne dégradent la vue depuis l'intérieur — elle reste nette et dégagée. Seul le film blanc mat floute la vue, dans les deux sens, puisque c'est justement sa fonction.",
+          ],
+        },
+        {
+          heading: 'Puis-je combiner plusieurs films différents dans la même maison ?',
+          paragraphs: [
+            "Oui, c'est même très courant : un film miroir pour le rez-de-chaussée exposé à la rue, une teinte solaire pour le salon plein sud, et un blanc mat pour la salle de bain, par exemple. Chaque pièce peut avoir la solution la plus adaptée à son usage.",
+          ],
+        },
+        {
           heading: 'Vous hésitez encore ?',
           paragraphs: [
             "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
@@ -91,13 +109,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Combien de degrés en moins, concrètement ?',
           paragraphs: [
             "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil — vérandas, toits vitrés, façades sud ou ouest en tête de liste.",
-            "Aux États-Unis, le Department of Energy (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon le même organisme, d'environ un tiers de la charge de climatisation d'un bâtiment.",
+            "Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon la même étude, d'environ un tiers de la charge de climatisation d'un bâtiment.",
           ],
         },
         {
           heading: 'Moins de climatisation, moins de dépenses',
           paragraphs: [
-            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées. En France, ce type de solution est d'ailleurs reconnu par l'ADEME (l'agence de la transition écologique) comme un moyen efficace et économique de réduire la consommation énergétique liée au refroidissement des bâtiments.",
+            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées, selon les données compilées par [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), qui s'appuient notamment sur les recommandations de l'ADEME (l'agence française de la transition écologique).",
             "Contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité, pas d'entretien, pas de filtre à changer. C'est un investissement unique, pas une dépense qui revient chaque mois d'été.",
           ],
         },
@@ -147,8 +165,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Sources',
           paragraphs: [
-            'U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique : osti.gov/servlets/purl/1089147',
-            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (données terrain, référence à l\'ADEME) : wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique](https://www.osti.gov/servlets/purl/1089147)',
+            '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (données terrain, référence à l\'ADEME)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
         },
       ],
@@ -295,6 +313,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
+          paragraphs: [
+            "Altijd aan de binnenzijde. Dit beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en garandeert haar levensduur — tot 10 jaar.",
+          ],
+        },
+        {
+          heading: 'Verslechtert de folie het zicht naar buiten?',
+          paragraphs: [
+            "Nee, noch de spiegeleffectfolie noch de zonwerende folie tast het zicht van binnenuit aan — dat blijft helder en vrij. Enkel de matwitte folie vertroebelt het zicht, in beide richtingen, aangezien dat net haar functie is.",
+          ],
+        },
+        {
+          heading: 'Kan ik verschillende folies combineren in hetzelfde huis?',
+          paragraphs: [
+            "Ja, dit is zelfs heel gebruikelijk: spiegelfolie voor het gelijkvloers aan de straatkant, zonwerende folie voor de zuidgerichte woonkamer, en matwitte folie voor de badkamer, bijvoorbeeld. Elke ruimte kan de oplossing krijgen die het beste bij haar gebruik past.",
+          ],
+        },
+        {
           heading: 'Twijfelt u nog?',
           paragraphs: [
             'Neem contact met ons op, we adviseren u gratis op basis van uw project en antwoorden binnen 24u.',
@@ -321,13 +357,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Hoeveel graden minder, concreet?',
           paragraphs: [
             "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn — verandas, glazen daken, zuid- of westgevels op kop.",
-            "In de Verenigde Staten wijst het Department of Energy (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde instantie, voor ongeveer een derde van de koellast van een gebouw.",
+            "In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde studie, voor ongeveer een derde van de koellast van een gebouw.",
           ],
         },
         {
           heading: 'Minder airco, minder kosten',
           paragraphs: [
-            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels. In Frankrijk wordt dit type oplossing trouwens erkend door ADEME (het Franse agentschap voor ecologische transitie) als een efficiënte en economische manier om het energieverbruik voor gebouwkoeling te verminderen.",
+            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels, volgens gegevens verzameld door [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), die zich onder meer baseren op de aanbevelingen van ADEME (het Franse agentschap voor ecologische transitie).",
             "In tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit, geen onderhoud, geen filter om te vervangen. Het is een eenmalige investering, geen kost die elke zomermaand terugkeert.",
           ],
         },
@@ -377,8 +413,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Bronnen',
           paragraphs: [
-            'U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies: osti.gov/servlets/purl/1089147',
-            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (praktijkgegevens, verwijzing naar ADEME): wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies](https://www.osti.gov/servlets/purl/1089147)',
+            '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (praktijkgegevens, verwijzing naar ADEME)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
         },
       ],
@@ -524,6 +560,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Is the film applied to the inside or the outside of the glass?',
+          paragraphs: [
+            "Always on the inside. This protects the film from weather and window cleaning, and guarantees its lifespan — up to 10 years.",
+          ],
+        },
+        {
+          heading: "Does the film reduce the view towards the outside?",
+          paragraphs: [
+            "No, neither mirror effect film nor solar tint affects the view from inside — it stays clear and unobstructed. Only matte white film blurs the view, in both directions, since that's precisely its purpose.",
+          ],
+        },
+        {
+          heading: 'Can I combine different films within the same home?',
+          paragraphs: [
+            "Yes, it's actually very common: mirror film for a street-facing ground floor, solar tint for a south-facing living room, and matte white for the bathroom, for example. Each room can get the solution best suited to how it's used.",
+          ],
+        },
+        {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
@@ -550,13 +604,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'How many degrees cooler, in practice?',
           paragraphs: [
             "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun — conservatories, glass roofs, and south- or west-facing façades leading the list.",
-            "In the United States, the Department of Energy points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same agency, accounts for roughly a third of a building's cooling load.",
+            "In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same study, accounts for roughly a third of a building's cooling load.",
           ],
         },
         {
           heading: 'Less air conditioning, lower costs',
           paragraphs: [
-            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades. In France, this type of solution is in fact recognised by ADEME (the French ecological transition agency) as an effective and cost-efficient way to reduce a building's cooling energy consumption.",
+            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades, according to figures compiled by [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), which draw in part on recommendations from ADEME, the French ecological transition agency.",
             "Unlike an air conditioner, the film has zero running cost once installed: no electricity, no maintenance, no filter to replace. It's a one-off investment, not a bill that comes back every summer month.",
           ],
         },
@@ -606,8 +660,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Sources',
           paragraphs: [
-            'U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films: osti.gov/servlets/purl/1089147',
-            'Wonderglass — Le film solaire : moins de clim, plus d\'économies (field data, referencing ADEME, the French ecological transition agency): wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films](https://www.osti.gov/servlets/purl/1089147)',
+            '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (field data, referencing ADEME, the French ecological transition agency)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
         },
       ],

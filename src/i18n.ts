@@ -101,7 +101,13 @@ export const translations = {
       subtitle: 'Conseils et informations sur les films et teintes pour vitrages.',
       readMore: 'Lire l\'article',
       backToBlog: 'Retour au blog',
-      ctaTitle: 'Un projet de film pour vitrages ?'
+      ctaTitle: 'Un projet de film pour vitrages ?',
+      byline: 'Par l\'équipe VitraCare',
+      share: 'Partager',
+      shareWhatsapp: 'WhatsApp',
+      shareEmail: 'E-mail',
+      copyLink: 'Copier le lien',
+      linkCopied: 'Lien copié !'
     },
     footer: {
       faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
@@ -213,7 +219,13 @@ export const translations = {
       subtitle: 'Tips en informatie over folies en tinten voor beglazing.',
       readMore: 'Lees het artikel',
       backToBlog: 'Terug naar blog',
-      ctaTitle: 'Een project voor raamfolie?'
+      ctaTitle: 'Een project voor raamfolie?',
+      byline: 'Door het VitraCare-team',
+      share: 'Delen',
+      shareWhatsapp: 'WhatsApp',
+      shareEmail: 'E-mail',
+      copyLink: 'Link kopiëren',
+      linkCopied: 'Link gekopieerd!'
     },
     footer: {
       faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
@@ -325,7 +337,13 @@ export const translations = {
       subtitle: 'Tips and information about window films and tints.',
       readMore: 'Read the article',
       backToBlog: 'Back to blog',
-      ctaTitle: 'Have a window film project?'
+      ctaTitle: 'Have a window film project?',
+      byline: 'By the VitraCare Team',
+      share: 'Share',
+      shareWhatsapp: 'WhatsApp',
+      shareEmail: 'Email',
+      copyLink: 'Copy link',
+      linkCopied: 'Link copied!'
     },
     footer: {
       faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',

@@ -244,6 +244,48 @@ const blogArticles = [
 },
 ];
 
+function decodeEntities(str) {
+  return str
+    .replace(/&#x27;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+function stripTags(str) {
+  return decodeEntities(str.replace(/<[^>]+>/g, '')).trim();
+}
+
+// Blog articles author their Q&A-style sections as a plain heading ending in
+// "?" followed by one or more paragraphs — the same pattern readers already
+// see on the page. Rather than duplicating that content by hand into a
+// separate FAQ schema, we derive FAQPage JSON-LD straight from the rendered
+// HTML: any heading/paragraph pair matching that shape becomes a Question/
+// Answer entry. New FAQ-style sections added to blogContent.ts pick this up
+// automatically.
+function extractFaqSchema(appHtml) {
+  const faqPattern = /<h2[^>]*>([^<]*\?)<\/h2>((?:<p[^>]*>.*?<\/p>)+)/g;
+  const items = [];
+  let match;
+  while ((match = faqPattern.exec(appHtml)) !== null) {
+    const question = stripTags(match[1]);
+    const answerParagraphs = match[2].match(/<p[^>]*>.*?<\/p>/g) || [];
+    const answer = answerParagraphs.map((p) => stripTags(p)).join(' ');
+    if (question && answer) items.push({ question, answer });
+  }
+  if (items.length === 0) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  };
+}
+
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
@@ -355,7 +397,9 @@ async function main() {
       );
 
     if (route.schema) {
-      const schemaScripts = route.schema
+      const faqSchema = extractFaqSchema(appHtml);
+      const schemas = faqSchema ? [...route.schema, faqSchema] : route.schema;
+      const schemaScripts = schemas
         .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
         .join('\n  ');
       html = html.replace('</head>', `${schemaScripts}\n  </head>`);

@@ -3,6 +3,11 @@ export type BlogSection = {
   paragraphs: string[];
 };
 
+export type BlogFaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type BlogArticle = {
   slug: string;
   title: string;
@@ -11,6 +16,7 @@ export type BlogArticle = {
   date: string;
   excerpt: string;
   sections: BlogSection[];
+  faq: BlogFaqItem[];
 };
 
 export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
@@ -65,28 +71,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
-          paragraphs: [
-            "Toujours à l'intérieur. C'est ce qui protège le film des intempéries et des lavages de vitres, et qui garantit sa durée de vie — jusqu'à 10 ans.",
-          ],
-        },
-        {
-          heading: 'Le film abîme-t-il la vue vers l\'extérieur ?',
-          paragraphs: [
-            "Non, ni le film effet miroir ni la teinte solaire ne dégradent la vue depuis l'intérieur — elle reste nette et dégagée. Seul le film blanc mat floute la vue, dans les deux sens, puisque c'est justement sa fonction.",
-          ],
-        },
-        {
-          heading: 'Puis-je combiner plusieurs films différents dans la même maison ?',
-          paragraphs: [
-            "Oui, c'est même très courant : un film miroir pour le rez-de-chaussée exposé à la rue, une teinte solaire pour le salon plein sud, et un blanc mat pour la salle de bain, par exemple. Chaque pièce peut avoir la solution la plus adaptée à son usage.",
-          ],
-        },
-        {
           heading: 'Vous hésitez encore ?',
           paragraphs: [
             "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
+          answer: "Toujours à l'intérieur. C'est ce qui protège le film des intempéries et des lavages de vitres, et qui garantit sa durée de vie — jusqu'à 10 ans.",
+        },
+        {
+          question: 'Le film abîme-t-il la vue vers l\'extérieur ?',
+          answer: "Non, ni le film effet miroir ni la teinte solaire ne dégradent la vue depuis l'intérieur — elle reste nette et dégagée. Seul le film blanc mat floute la vue, dans les deux sens, puisque c'est justement sa fonction.",
+        },
+        {
+          question: 'Puis-je combiner plusieurs films différents dans la même maison ?',
+          answer: "Oui, c'est même très courant : un film miroir pour le rez-de-chaussée exposé à la rue, une teinte solaire pour le salon plein sud, et un blanc mat pour la salle de bain, par exemple. Chaque pièce peut avoir la solution la plus adaptée à son usage.",
         },
       ],
     },
@@ -127,47 +129,37 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Et en hiver, ce n\'est pas du gaspillage ?',
-          paragraphs: [
-            "Non — le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
-          ],
-        },
-        {
-          heading: 'Le film pour vitrage remplace-t-il complètement la climatisation ?',
-          paragraphs: [
-            "Pas nécessairement dans les cas les plus extrêmes, mais il réduit fortement le besoin. Beaucoup de nos clients constatent qu'une pièce auparavant invivable en été redevient confortable sans avoir besoin d'installer ou d'allumer un climatiseur.",
-          ],
-        },
-        {
-          heading: 'Le film fonctionne-t-il aussi bien qu\'un ventilateur ?',
-          paragraphs: [
-            "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce — les deux ne résolvent pas le même problème.",
-          ],
-        },
-        {
-          heading: 'Le film a-t-il un coût d\'entretien ou de fonctionnement ?',
-          paragraphs: [
-            "Non. Contrairement à un climatiseur, le film ne consomme aucune électricité et ne nécessite aucun entretien régulier une fois posé.",
-          ],
-        },
-        {
-          heading: 'Est-ce que ça fonctionne sur tous les types de vitrage ?',
-          paragraphs: [
-            "Nos films sont compatibles avec le simple et le double vitrage. Chaque projet étant différent, nous établissons toujours un devis personnalisé et gratuit après avoir évalué votre situation.",
-          ],
-        },
-        {
-          heading: 'Combien de temps dure l\'installation ?',
-          paragraphs: [
-            "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée exacte dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
-          ],
-        },
-        {
           heading: 'Sources',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique](https://www.osti.gov/servlets/purl/1089147)',
             '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (données terrain, référence à l\'ADEME)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Et en hiver, ce n\'est pas du gaspillage ?',
+          answer: "Non — le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
+        },
+        {
+          question: 'Le film pour vitrage remplace-t-il complètement la climatisation ?',
+          answer: "Pas nécessairement dans les cas les plus extrêmes, mais il réduit fortement le besoin. Beaucoup de nos clients constatent qu'une pièce auparavant invivable en été redevient confortable sans avoir besoin d'installer ou d'allumer un climatiseur.",
+        },
+        {
+          question: 'Le film fonctionne-t-il aussi bien qu\'un ventilateur ?',
+          answer: "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce — les deux ne résolvent pas le même problème.",
+        },
+        {
+          question: 'Le film a-t-il un coût d\'entretien ou de fonctionnement ?',
+          answer: "Non. Contrairement à un climatiseur, le film ne consomme aucune électricité et ne nécessite aucun entretien régulier une fois posé.",
+        },
+        {
+          question: 'Est-ce que ça fonctionne sur tous les types de vitrage ?',
+          answer: "Nos films sont compatibles avec le simple et le double vitrage. Chaque projet étant différent, nous établissons toujours un devis personnalisé et gratuit après avoir évalué votre situation.",
+        },
+        {
+          question: 'Combien de temps dure l\'installation ?',
+          answer: "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée exacte dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
         },
       ],
     },
@@ -224,40 +216,32 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Est-ce que ça marche la nuit aussi ?',
-          paragraphs: [
-            "Le film effet miroir fonctionne uniquement de jour, quand l'extérieur est plus lumineux que l'intérieur. La nuit, si vos lumières sont allumées, l'effet s'inverse. Pour une intimité garantie à toute heure, le film blanc mat est la solution adaptée : son fonctionnement ne dépend pas de la luminosité.",
-          ],
-        },
-        {
-          heading: 'Est-ce que je vois moins bien vers l\'extérieur avec le film posé ?',
-          paragraphs: [
-            "Avec le film effet miroir ou la teinte solaire, la vue depuis l'intérieur reste claire et dégagée — seul le regard depuis l'extérieur est bloqué. Le film blanc mat, en revanche, floute la vue dans les deux sens : c'est le compromis nécessaire pour une intimité totale à toute heure.",
-          ],
-        },
-        {
-          heading: 'Est-ce adapté pour un appartement en copropriété ?',
-          paragraphs: [
-            "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux — nous vous recommandons de vérifier le règlement de copropriété au cas où.",
-          ],
-        },
-        {
-          heading: 'Le film remplace-t-il complètement les rideaux et volets ?',
-          paragraphs: [
-            "Il réduit fortement le besoin de les fermer en journée, notamment avec le film effet miroir ou blanc mat. La nuit, pour l'intimité ou l'isolation thermique, beaucoup de nos clients continuent à utiliser rideaux ou volets en complément.",
-          ],
-        },
-        {
-          heading: 'Combien de temps dure la pose ?',
-          paragraphs: [
-            "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
-          ],
-        },
-        {
           heading: 'Vous hésitez encore ?',
           paragraphs: [
             "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Est-ce que ça marche la nuit aussi ?',
+          answer: "Le film effet miroir fonctionne uniquement de jour, quand l'extérieur est plus lumineux que l'intérieur. La nuit, si vos lumières sont allumées, l'effet s'inverse. Pour une intimité garantie à toute heure, le film blanc mat est la solution adaptée : son fonctionnement ne dépend pas de la luminosité.",
+        },
+        {
+          question: 'Est-ce que je vois moins bien vers l\'extérieur avec le film posé ?',
+          answer: "Avec le film effet miroir ou la teinte solaire, la vue depuis l'intérieur reste claire et dégagée — seul le regard depuis l'extérieur est bloqué. Le film blanc mat, en revanche, floute la vue dans les deux sens : c'est le compromis nécessaire pour une intimité totale à toute heure.",
+        },
+        {
+          question: 'Est-ce adapté pour un appartement en copropriété ?',
+          answer: "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux — nous vous recommandons de vérifier le règlement de copropriété au cas où.",
+        },
+        {
+          question: 'Le film remplace-t-il complètement les rideaux et volets ?',
+          answer: "Il réduit fortement le besoin de les fermer en journée, notamment avec le film effet miroir ou blanc mat. La nuit, pour l'intimité ou l'isolation thermique, beaucoup de nos clients continuent à utiliser rideaux ou volets en complément.",
+        },
+        {
+          question: 'Combien de temps dure la pose ?',
+          answer: "La pose est réalisée par notre installateur partenaire directement chez vous, en une seule intervention. La durée dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
         },
       ],
     },
@@ -313,28 +297,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
-          paragraphs: [
-            "Altijd aan de binnenzijde. Dit beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en garandeert haar levensduur — tot 10 jaar.",
-          ],
-        },
-        {
-          heading: 'Verslechtert de folie het zicht naar buiten?',
-          paragraphs: [
-            "Nee, noch de spiegeleffectfolie noch de zonwerende folie tast het zicht van binnenuit aan — dat blijft helder en vrij. Enkel de matwitte folie vertroebelt het zicht, in beide richtingen, aangezien dat net haar functie is.",
-          ],
-        },
-        {
-          heading: 'Kan ik verschillende folies combineren in hetzelfde huis?',
-          paragraphs: [
-            "Ja, dit is zelfs heel gebruikelijk: spiegelfolie voor het gelijkvloers aan de straatkant, zonwerende folie voor de zuidgerichte woonkamer, en matwitte folie voor de badkamer, bijvoorbeeld. Elke ruimte kan de oplossing krijgen die het beste bij haar gebruik past.",
-          ],
-        },
-        {
           heading: 'Twijfelt u nog?',
           paragraphs: [
             'Neem contact met ons op, we adviseren u gratis op basis van uw project en antwoorden binnen 24u.',
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
+          answer: "Altijd aan de binnenzijde. Dit beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en garandeert haar levensduur — tot 10 jaar.",
+        },
+        {
+          question: 'Verslechtert de folie het zicht naar buiten?',
+          answer: "Nee, noch de spiegeleffectfolie noch de zonwerende folie tast het zicht van binnenuit aan — dat blijft helder en vrij. Enkel de matwitte folie vertroebelt het zicht, in beide richtingen, aangezien dat net haar functie is.",
+        },
+        {
+          question: 'Kan ik verschillende folies combineren in hetzelfde huis?',
+          answer: "Ja, dit is zelfs heel gebruikelijk: spiegelfolie voor het gelijkvloers aan de straatkant, zonwerende folie voor de zuidgerichte woonkamer, en matwitte folie voor de badkamer, bijvoorbeeld. Elke ruimte kan de oplossing krijgen die het beste bij haar gebruik past.",
         },
       ],
     },
@@ -375,47 +355,37 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'En is dit geen verspilling in de winter?',
-          paragraphs: [
-            "Nee — de folie helpt ook om warmte binnen te houden in de winter, door warmteverlies via de beglazing te beperken. Het is een investering die het hele jaar door werkt, niet enkel tijdens zomerse hittepieken.",
-          ],
-        },
-        {
-          heading: 'Vervangt raamfolie de airco volledig?',
-          paragraphs: [
-            "Niet noodzakelijk in de meest extreme gevallen, maar de folie vermindert de nood sterk. Veel van onze klanten merken dat een ruimte die voorheen onleefbaar was in de zomer opnieuw comfortabel wordt, zonder een airco te moeten installeren of aanzetten.",
-          ],
-        },
-        {
-          heading: 'Werkt de folie even goed als een ventilator?',
-          paragraphs: [
-            "Dat is niet vergelijkbaar: een ventilator verplaatst de warme lucht die al aanwezig is, zonder de binnenkomende warmte te verminderen. De folie grijpt in vóór de warmte de ruimte binnenkomt — beide lossen niet hetzelfde probleem op.",
-          ],
-        },
-        {
-          heading: 'Heeft de folie onderhouds- of werkingskosten?',
-          paragraphs: [
-            'Nee. In tegenstelling tot een airco verbruikt de folie geen elektriciteit en vereist ze geen regelmatig onderhoud eenmaal geplaatst.',
-          ],
-        },
-        {
-          heading: 'Werkt dit op alle soorten beglazing?',
-          paragraphs: [
-            'Onze folies zijn compatibel met enkel en dubbel glas. Aangezien elk project anders is, stellen we altijd een gepersonaliseerde en gratis offerte op na evaluatie van uw situatie.',
-          ],
-        },
-        {
-          heading: 'Hoe lang duurt de installatie?',
-          paragraphs: [
-            'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De exacte duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
-          ],
-        },
-        {
           heading: 'Bronnen',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies](https://www.osti.gov/servlets/purl/1089147)',
             '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (praktijkgegevens, verwijzing naar ADEME)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'En is dit geen verspilling in de winter?',
+          answer: "Nee — de folie helpt ook om warmte binnen te houden in de winter, door warmteverlies via de beglazing te beperken. Het is een investering die het hele jaar door werkt, niet enkel tijdens zomerse hittepieken.",
+        },
+        {
+          question: 'Vervangt raamfolie de airco volledig?',
+          answer: "Niet noodzakelijk in de meest extreme gevallen, maar de folie vermindert de nood sterk. Veel van onze klanten merken dat een ruimte die voorheen onleefbaar was in de zomer opnieuw comfortabel wordt, zonder een airco te moeten installeren of aanzetten.",
+        },
+        {
+          question: 'Werkt de folie even goed als een ventilator?',
+          answer: "Dat is niet vergelijkbaar: een ventilator verplaatst de warme lucht die al aanwezig is, zonder de binnenkomende warmte te verminderen. De folie grijpt in vóór de warmte de ruimte binnenkomt — beide lossen niet hetzelfde probleem op.",
+        },
+        {
+          question: 'Heeft de folie onderhouds- of werkingskosten?',
+          answer: 'Nee. In tegenstelling tot een airco verbruikt de folie geen elektriciteit en vereist ze geen regelmatig onderhoud eenmaal geplaatst.',
+        },
+        {
+          question: 'Werkt dit op alle soorten beglazing?',
+          answer: 'Onze folies zijn compatibel met enkel en dubbel glas. Aangezien elk project anders is, stellen we altijd een gepersonaliseerde en gratis offerte op na evaluatie van uw situatie.',
+        },
+        {
+          question: 'Hoe lang duurt de installatie?',
+          answer: 'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De exacte duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
         },
       ],
     },
@@ -447,12 +417,6 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Werkt dit ook \'s nachts?',
-          paragraphs: [
-            "Een belangrijk punt: dit effect werkt enkel zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer het licht bij u brandt en het buiten donker is, keert het effect om — zoals bij elk verlicht raam in het donker. Hou hier rekening mee, afhankelijk van de kamer en het tijdstip.",
-          ],
-        },
-        {
           heading: 'Gelijkvloers: uw woonkamer terug innemen',
           paragraphs: [
             "Voor een gelijkvloerse verdieping aan de straatkant laat spiegeleffectfolie het licht de hele dag binnen zonder ooit een gordijn te moeten sluiten, terwijl niemand vanaf het trottoir naar binnen kan kijken. Vaak is dit het verschil tussen een kamer die u enkel 's avonds gebruikt, rolluiken dicht, en een woonkamer die overdag opnieuw leefbaar wordt.",
@@ -477,34 +441,32 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Zie ik minder goed naar buiten met de folie geplaatst?',
-          paragraphs: [
-            "Met spiegeleffectfolie of zonwerende folie blijft het zicht vanaf binnen helder en vrij — enkel het zicht vanaf buiten wordt geblokkeerd. Matwitte folie daarentegen vertroebelt het zicht in beide richtingen: dat is het noodzakelijke compromis voor volledige privacy op elk moment.",
-          ],
-        },
-        {
-          heading: 'Is dit geschikt voor een appartement in mede-eigendom?',
-          paragraphs: [
-            "De folie wordt aan de binnenzijde van het glas geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn — we raden aan het reglement van mede-eigendom na te kijken.",
-          ],
-        },
-        {
-          heading: 'Vervangt de folie gordijnen en rolluiken volledig?',
-          paragraphs: [
-            "Ze vermindert sterk de nood om ze overdag te sluiten, vooral met spiegeleffectfolie of matwitte folie. 's Nachts, voor privacy of thermische isolatie, blijven veel van onze klanten gordijnen of rolluiken als aanvulling gebruiken.",
-          ],
-        },
-        {
-          heading: 'Hoe lang duurt de plaatsing?',
-          paragraphs: [
-            'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
-          ],
-        },
-        {
           heading: 'Twijfelt u nog?',
           paragraphs: [
             'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Werkt dit ook \'s nachts?',
+          answer: "Een belangrijk punt: dit effect werkt enkel zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer het licht bij u brandt en het buiten donker is, keert het effect om — zoals bij elk verlicht raam in het donker. Hou hier rekening mee, afhankelijk van de kamer en het tijdstip.",
+        },
+        {
+          question: 'Zie ik minder goed naar buiten met de folie geplaatst?',
+          answer: "Met spiegeleffectfolie of zonwerende folie blijft het zicht vanaf binnen helder en vrij — enkel het zicht vanaf buiten wordt geblokkeerd. Matwitte folie daarentegen vertroebelt het zicht in beide richtingen: dat is het noodzakelijke compromis voor volledige privacy op elk moment.",
+        },
+        {
+          question: 'Is dit geschikt voor een appartement in mede-eigendom?',
+          answer: "De folie wordt aan de binnenzijde van het glas geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn — we raden aan het reglement van mede-eigendom na te kijken.",
+        },
+        {
+          question: 'Vervangt de folie gordijnen en rolluiken volledig?',
+          answer: "Ze vermindert sterk de nood om ze overdag te sluiten, vooral met spiegeleffectfolie of matwitte folie. 's Nachts, voor privacy of thermische isolatie, blijven veel van onze klanten gordijnen of rolluiken als aanvulling gebruiken.",
+        },
+        {
+          question: 'Hoe lang duurt de plaatsing?',
+          answer: 'De plaatsing gebeurt door onze partnerinstallateur rechtstreeks bij u thuis, in één interventie. De duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
         },
       ],
     },
@@ -560,28 +522,24 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Is the film applied to the inside or the outside of the glass?',
-          paragraphs: [
-            "Always on the inside. This protects the film from weather and window cleaning, and guarantees its lifespan — up to 10 years.",
-          ],
-        },
-        {
-          heading: "Does the film reduce the view towards the outside?",
-          paragraphs: [
-            "No, neither mirror effect film nor solar tint affects the view from inside — it stays clear and unobstructed. Only matte white film blurs the view, in both directions, since that's precisely its purpose.",
-          ],
-        },
-        {
-          heading: 'Can I combine different films within the same home?',
-          paragraphs: [
-            "Yes, it's actually very common: mirror film for a street-facing ground floor, solar tint for a south-facing living room, and matte white for the bathroom, for example. Each room can get the solution best suited to how it's used.",
-          ],
-        },
-        {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is the film applied to the inside or the outside of the glass?',
+          answer: "Always on the inside. This protects the film from weather and window cleaning, and guarantees its lifespan — up to 10 years.",
+        },
+        {
+          question: "Does the film reduce the view towards the outside?",
+          answer: "No, neither mirror effect film nor solar tint affects the view from inside — it stays clear and unobstructed. Only matte white film blurs the view, in both directions, since that's precisely its purpose.",
+        },
+        {
+          question: 'Can I combine different films within the same home?',
+          answer: "Yes, it's actually very common: mirror film for a street-facing ground floor, solar tint for a south-facing living room, and matte white for the bathroom, for example. Each room can get the solution best suited to how it's used.",
         },
       ],
     },
@@ -622,47 +580,37 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: "Isn't that wasted effort come winter?",
-          paragraphs: [
-            "No — the film also helps retain indoor heat in winter, by limiting heat loss through the glazing. It's an investment that works year-round, not just during summer heat peaks.",
-          ],
-        },
-        {
-          heading: 'Does window film fully replace air conditioning?',
-          paragraphs: [
-            "Not necessarily in the most extreme cases, but it sharply reduces the need for it. Many of our clients find that a room that used to be unbearable in summer becomes comfortable again, without needing to install or switch on an air conditioner.",
-          ],
-        },
-        {
-          heading: 'Does the film work as well as a fan?',
-          paragraphs: [
-            "They're not really comparable: a fan circulates the hot air already present, without reducing the heat still coming in. The film acts before heat enters the room at all — the two don't solve the same problem.",
-          ],
-        },
-        {
-          heading: 'Does the film have any maintenance or running costs?',
-          paragraphs: [
-            'No. Unlike an air conditioner, the film uses no electricity and requires no regular maintenance once installed.',
-          ],
-        },
-        {
-          heading: 'Does this work on all types of glazing?',
-          paragraphs: [
-            'Our films are compatible with single and double glazing. Since every project is different, we always draw up a free, personalised quote after assessing your situation.',
-          ],
-        },
-        {
-          heading: 'How long does installation take?',
-          paragraphs: [
-            "Installation is carried out by our partner installer directly at your home, in a single visit. The exact duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
-          ],
-        },
-        {
           heading: 'Sources',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films](https://www.osti.gov/servlets/purl/1089147)',
             '[Wonderglass — Le film solaire : moins de clim, plus d\'économies (field data, referencing ADEME, the French ecological transition agency)](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie)',
           ],
+        },
+      ],
+      faq: [
+        {
+          question: "Isn't that wasted effort come winter?",
+          answer: "No — the film also helps retain indoor heat in winter, by limiting heat loss through the glazing. It's an investment that works year-round, not just during summer heat peaks.",
+        },
+        {
+          question: 'Does window film fully replace air conditioning?',
+          answer: "Not necessarily in the most extreme cases, but it sharply reduces the need for it. Many of our clients find that a room that used to be unbearable in summer becomes comfortable again, without needing to install or switch on an air conditioner.",
+        },
+        {
+          question: 'Does the film work as well as a fan?',
+          answer: "They're not really comparable: a fan circulates the hot air already present, without reducing the heat still coming in. The film acts before heat enters the room at all — the two don't solve the same problem.",
+        },
+        {
+          question: 'Does the film have any maintenance or running costs?',
+          answer: 'No. Unlike an air conditioner, the film uses no electricity and requires no regular maintenance once installed.',
+        },
+        {
+          question: 'Does this work on all types of glazing?',
+          answer: 'Our films are compatible with single and double glazing. Since every project is different, we always draw up a free, personalised quote after assessing your situation.',
+        },
+        {
+          question: 'How long does installation take?',
+          answer: "Installation is carried out by our partner installer directly at your home, in a single visit. The exact duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
         },
       ],
     },
@@ -694,12 +642,6 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Does it work at night too?',
-          paragraphs: [
-            "One important thing to know: this effect only works as long as the outside is brighter than the inside — in other words, during the day. In the evening, once your lights are on and it's dark outside, the effect reverses, just like with any lit window at night. Worth keeping in mind depending on the room and the time of day.",
-          ],
-        },
-        {
           heading: 'Ground floor: taking back your living room',
           paragraphs: [
             "For a ground-floor room facing the street, mirror effect film lets light in all day without ever closing a curtain, while guaranteeing no one can see inside from the pavement. It's often the difference between a room you only use in the evening with the shutters down, and a living room that becomes usable again during the day.",
@@ -724,34 +666,32 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Do I lose visibility looking outward with the film applied?',
-          paragraphs: [
-            "With mirror effect film or solar tint, the view from inside stays clear and unobstructed — only the view from outside is blocked. Matte white film, on the other hand, blurs the view in both directions: that's the necessary trade-off for total privacy at all times.",
-          ],
-        },
-        {
-          heading: 'Is this suitable for a flat in a co-owned building?',
-          paragraphs: [
-            "The film is applied to the inside face of the glass and doesn't change the building's exterior appearance. Depending on the co-ownership rules, a simple notice to the general assembly or the building manager may still be required beforehand — we recommend checking your co-ownership regulations to be sure.",
-          ],
-        },
-        {
-          heading: 'Does the film fully replace curtains and shutters?',
-          paragraphs: [
-            "It greatly reduces the need to close them during the day, especially with mirror effect or matte white film. At night, for privacy or thermal insulation, many of our clients still use curtains or shutters alongside it.",
-          ],
-        },
-        {
-          heading: 'How long does installation take?',
-          paragraphs: [
-            "Installation is carried out by our partner installer directly at your home, in a single visit. The duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
-          ],
-        },
-        {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your situation and reply within 24 hours.",
           ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does it work at night too?',
+          answer: "One important thing to know: this effect only works as long as the outside is brighter than the inside — in other words, during the day. In the evening, once your lights are on and it's dark outside, the effect reverses, just like with any lit window at night. Worth keeping in mind depending on the room and the time of day.",
+        },
+        {
+          question: 'Do I lose visibility looking outward with the film applied?',
+          answer: "With mirror effect film or solar tint, the view from inside stays clear and unobstructed — only the view from outside is blocked. Matte white film, on the other hand, blurs the view in both directions: that's the necessary trade-off for total privacy at all times.",
+        },
+        {
+          question: 'Is this suitable for a flat in a co-owned building?',
+          answer: "The film is applied to the inside face of the glass and doesn't change the building's exterior appearance. Depending on the co-ownership rules, a simple notice to the general assembly or the building manager may still be required beforehand — we recommend checking your co-ownership regulations to be sure.",
+        },
+        {
+          question: 'Does the film fully replace curtains and shutters?',
+          answer: "It greatly reduces the need to close them during the day, especially with mirror effect or matte white film. At night, for privacy or thermal insulation, many of our clients still use curtains or shutters alongside it.",
+        },
+        {
+          question: 'How long does installation take?',
+          answer: "Installation is carried out by our partner installer directly at your home, in a single visit. The duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
         },
       ],
     },

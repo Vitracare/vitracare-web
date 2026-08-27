@@ -257,15 +257,15 @@ function stripTags(str) {
   return decodeEntities(str.replace(/<[^>]+>/g, '')).trim();
 }
 
-// Blog articles author their Q&A-style sections as a plain heading ending in
-// "?" followed by one or more paragraphs — the same pattern readers already
-// see on the page. Rather than duplicating that content by hand into a
-// separate FAQ schema, we derive FAQPage JSON-LD straight from the rendered
-// HTML: any heading/paragraph pair matching that shape becomes a Question/
-// Answer entry. New FAQ-style sections added to blogContent.ts pick this up
-// automatically.
+// Blog articles author their Q&A-style content as a heading ending in "?"
+// (h2 section titles, or h3 questions nested under the "FAQ" h2) followed by
+// one or more paragraphs — the same pattern readers already see on the page.
+// Rather than duplicating that content by hand into a separate FAQ schema,
+// we derive FAQPage JSON-LD straight from the rendered HTML: any heading/
+// paragraph pair matching that shape becomes a Question/Answer entry. New
+// FAQ items added to blogContent.ts pick this up automatically.
 function extractFaqSchema(appHtml) {
-  const faqPattern = /<h2[^>]*>([^<]*\?)<\/h2>((?:<p[^>]*>.*?<\/p>)+)/g;
+  const faqPattern = /<h[23][^>]*>([^<]*\?)<\/h[23]>((?:<p[^>]*>.*?<\/p>)+)/g;
   const items = [];
   let match;
   while ((match = faqPattern.exec(appHtml)) !== null) {

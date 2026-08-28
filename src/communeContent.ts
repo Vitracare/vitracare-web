@@ -48,6 +48,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Les grandes baies vitrées donnant sur le jardin, typiques des maisons uccloises, exposent aussi l'intérieur du logement aux regards extérieurs — pas seulement ceux des voisins bienveillants. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
           heading: 'VitraCare à Uccle',
           paragraphs: [
             "Nous menons actuellement des actions de sensibilisation locale à Uccle, en complément de notre présence dans toute la région bruxelloise. Notre installateur partenaire intervient dans tous les quartiers de la commune.",
@@ -66,6 +72,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Le film est-il adapté à une maison avec jardin, même sans vis-à-vis apparent ?',
           answer: "Oui. Même avec un jardin, les propriétés voisines ou la rue restent souvent visibles depuis certaines pièces — le film permet de garder cette intimité sans fermer les volets en journée.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
         },
       ],
     },
@@ -92,6 +102,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Les grandes propriétés, parfois plus isolées et moins passantes qu'en zone urbaine dense, exposent aussi davantage ce qui est visible depuis leurs grandes baies vitrées ou vérandas. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
           heading: 'VitraCare à Waterloo',
           paragraphs: [
             "Nous étendons actuellement notre présence à Waterloo, en complément de notre activité dans la région bruxelloise. Notre installateur partenaire se déplace dans toute la commune.",
@@ -110,6 +126,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Faut-il un vis-à-vis pour que le film soit utile ?',
           answer: "Non. Même sans vis-à-vis direct, la teinte solaire reste pertinente pour son effet sur la chaleur et les UV, indépendamment de toute question d'intimité.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
         },
       ],
     },
@@ -136,6 +156,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "À Forest, un rez-de-chaussée donnant directement sur la rue laisse voir à tout passant ce qui se trouve à l'intérieur — télévision, ordinateur, objets de valeur. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
           heading: 'VitraCare à Forest',
           paragraphs: [
             "Nous menons actuellement des actions de sensibilisation locale à Forest, en complément de notre présence dans le reste de la région bruxelloise.",
@@ -154,6 +180,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Que se passe-t-il le soir, une fois les lumières allumées ?',
           answer: "L'effet miroir fonctionne uniquement de jour. Le soir, si l'intérieur est éclairé, l'effet s'inverse comme pour une fenêtre classique — un point à garder en tête selon les pièces concernées.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
         },
       ],
     },
@@ -182,6 +212,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Grote raampartijen op de tuin, typisch voor woningen in Ukkel, stellen ook het interieur bloot aan blikken van buitenaf — niet enkel die van goedbedoelende buren. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
           heading: 'VitraCare in Ukkel',
           paragraphs: [
             'We voeren momenteel lokale sensibiliseringsacties in Ukkel, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze partnerinstallateur is actief in alle wijken van de gemeente.',
@@ -200,6 +236,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Is de folie geschikt voor een woning met tuin, ook zonder zichtbare inkijk?',
           answer: 'Ja. Zelfs met een tuin blijven buurwoningen of de straat vaak zichtbaar vanuit bepaalde kamers — de folie laat toe deze privacy te behouden zonder overdag de rolluiken te moeten sluiten.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
         },
       ],
     },
@@ -226,6 +266,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Grote eigendommen, soms afgelegener en minder doorgaand verkeer dan in dicht stedelijk gebied, maken ook zichtbaarder wat er via hun grote raampartijen of veranda\'s te zien is. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
             'We breiden onze aanwezigheid momenteel uit naar Waterloo, als aanvulling op onze activiteit in het Brussels gewest. Onze partnerinstallateur verplaatst zich naar de hele gemeente.',
@@ -244,6 +290,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Moet er inkijk zijn opdat de folie nuttig is?',
           answer: 'Nee. Ook zonder directe inkijk blijft zonwerende folie relevant voor haar effect op warmte en UV-stralen, los van elke privacy-overweging.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
         },
       ],
     },
@@ -270,6 +320,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'In Vorst laat een gelijkvloers dat rechtstreeks op straat uitgeeft elke voorbijganger zien wat er binnen staat — televisie, computer, waardevolle voorwerpen. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
           heading: 'VitraCare in Vorst',
           paragraphs: [
             'We voeren momenteel lokale sensibiliseringsacties in Vorst, als aanvulling op onze aanwezigheid in de rest van het Brussels gewest.',
@@ -288,6 +344,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Wat gebeurt er \'s avonds, eenmaal de lichten aan zijn?',
           answer: 'Het spiegeleffect werkt enkel overdag. \'s Avonds, als het binnen verlicht is, keert het effect om zoals bij een gewoon raam — een aandachtspunt afhankelijk van de betrokken kamers.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
         },
       ],
     },
@@ -316,6 +376,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Large windows facing the garden, typical of Uccle houses, also expose the inside of the home to outside view — not just from well-meaning neighbours. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
           heading: 'VitraCare in Uccle',
           paragraphs: [
             'We are currently running local outreach in Uccle, alongside our presence across the wider Brussels region. Our partner installer works in every neighbourhood of the commune.',
@@ -334,6 +400,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Is the film suitable for a house with a garden, even without obvious overlooking?',
           answer: 'Yes. Even with a garden, neighbouring properties or the street often remain visible from certain rooms — the film preserves that privacy without closing the shutters during the day.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
         },
       ],
     },
@@ -360,6 +430,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Larger properties, sometimes more secluded and with less passing traffic than in dense urban areas, also make what's visible through their large windows or conservatories more noticeable to anyone who does pass by. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
             'We are currently expanding our presence to Waterloo, alongside our activity across the Brussels region. Our partner installer travels throughout the commune.',
@@ -378,6 +454,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Do I need to be overlooked for the film to be useful?',
           answer: 'No. Even without direct overlooking, solar tint remains worthwhile for its effect on heat and UV, independent of any privacy consideration.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
         },
       ],
     },
@@ -404,6 +484,12 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
           ],
         },
         {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "In Forest, a ground floor facing directly onto the street lets every passer-by see what's inside — a TV, a computer, valuables. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
           heading: 'VitraCare in Forest',
           paragraphs: [
             'We are currently running local outreach in Forest, alongside our presence across the rest of the Brussels region.',
@@ -422,6 +508,10 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'What happens in the evening, once the lights are on?',
           answer: 'The mirror effect only works during the day. In the evening, if the interior is lit, the effect reverses just like with any ordinary window — worth keeping in mind depending on the room.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
         },
       ],
     },

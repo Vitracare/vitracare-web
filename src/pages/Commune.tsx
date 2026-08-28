@@ -7,6 +7,7 @@ import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
 import { communePages } from '../communeContent';
 import { langPrefixes } from '../App';
+import { renderParagraph } from '../lib/renderParagraph';
 
 const brandColor = '#BA9765';
 
@@ -64,7 +65,7 @@ export default function Commune() {
                   </h2>
                 )}
                 {section.paragraphs.map((p, pIdx) => (
-                  <p key={pIdx} className="mb-3">{p}</p>
+                  <p key={pIdx} className="mb-3">{renderParagraph(p)}</p>
                 ))}
               </div>
             ))}
@@ -80,7 +81,7 @@ export default function Commune() {
                       <h3 className="text-[17px] font-bold mb-2" style={{ color: '#464646' }}>
                         {item.question}
                       </h3>
-                      <p>{item.answer}</p>
+                      <p>{renderParagraph(item.answer)}</p>
                     </div>
                   ))}
                 </div>

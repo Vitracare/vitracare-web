@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactElement } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { LocalizedLink as Link, withLangPrefix } from '../components/LocalizedLink';
 import { ArrowLeft, Share2, MessageCircle, Mail, Copy, Check } from 'lucide-react';
@@ -7,40 +7,10 @@ import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
 import { blogArticles, type BlogArticle as BlogArticleData } from '../blogContent';
 import { langPrefixes } from '../App';
+import { renderParagraph } from '../lib/renderParagraph';
 
 const brandColor = '#BA9765';
 const WORDS_PER_MINUTE = 200;
-
-// Article content is authored as plain strings with an optional lightweight
-// [texte](url) syntax for citing external sources inline. Since this content
-// is hand-written in blogContent.ts (never user input), splitting on the
-// pattern and rendering real <a> elements is simpler and safer than a full
-// markdown parser or dangerouslySetInnerHTML.
-function renderParagraph(text: string) {
-  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
-  const parts: (string | ReactElement)[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let key = 0;
-  while ((match = linkPattern.exec(text)) !== null) {
-    if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
-    parts.push(
-      <a
-        key={key++}
-        href={match[2]}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline font-semibold hover:opacity-80 transition-opacity"
-        style={{ color: brandColor }}
-      >
-        {match[1]}
-      </a>,
-    );
-    lastIndex = linkPattern.lastIndex;
-  }
-  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
-  return parts;
-}
 
 function estimateReadingMinutes(article: BlogArticleData): number {
   const text = [...article.sections.flatMap((s) => s.paragraphs), ...article.faq.map((f) => f.answer)].join(' ');

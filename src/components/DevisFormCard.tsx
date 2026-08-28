@@ -1,5 +1,5 @@
 import { useState, type FormEvent, type ChangeEvent } from 'react';
-import { X } from 'lucide-react';
+import { X, ImagePlus, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LocalizedLink as Link } from './LocalizedLink';
 
@@ -153,8 +153,12 @@ export const DevisFormCard = () => {
         </Link>
       </div>
 
-      {/* Left Form Side — shown second on mobile so the reassurance panel + button aren't buried below the whole form */}
-      <div className={`order-2 md:order-1 w-full md:w-[55%] bg-white p-8 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
+      {/* Left Form Side — shown first on mobile. Used to be ordered second (info panel
+          first) back when the submit button lived in the info panel, but the button now
+          lives at the end of the form itself, so putting the form first is what actually
+          gets a visitor to the fields fastest — an audit found the fields weren't
+          visible at all without scrolling under the old order. */}
+      <div className={`w-full md:w-[55%] bg-white p-6 md:p-12 transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`}>
         <form id="devis-form" className="flex flex-col gap-4" onSubmit={handleSubmit} noValidate={false}>
           <input
             type="text"
@@ -208,16 +212,31 @@ export const DevisFormCard = () => {
             <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-2">
               {t.devis.form_photos}
             </label>
+            {/* The native file input's "No file chosen" text can't be restyled via CSS in
+                any browser — Tailwind's file: utilities only reach the button part. So the
+                input itself is visually hidden and a real label drives it instead, with our
+                own photo count replacing the un-stylable native text entirely. */}
+            <label
+              htmlFor="devis-photos"
+              className="inline-flex items-center gap-2 py-2.5 px-4 rounded-md text-[13px] font-bold bg-[#F2E9DA] text-[#8a6a3f] hover:bg-[#eadfc9] cursor-pointer transition-colors"
+            >
+              <ImagePlus size={15} />
+              {t.devis.form_photos_button}
+            </label>
             <input
+              id="devis-photos"
               type="file"
               name="photos"
               accept="image/*"
               multiple
               onChange={handlePhotosChange}
-              className="w-full text-[13px] text-gray-600 file:mr-4 file:py-2.5 file:px-4 file:rounded-md file:border-0 file:text-[13px] file:font-bold file:bg-[#F2E9DA] file:text-[#8a6a3f] hover:file:bg-[#eadfc9] file:cursor-pointer cursor-pointer"
+              className="sr-only"
             />
             {isCompressing && (
               <p className="text-[12px] text-gray-500 mt-2">{t.devis.compressing}</p>
+            )}
+            {!isCompressing && photos.length > 0 && (
+              <p className="text-[12px] text-gray-500 mt-2">{photos.length} photo{photos.length > 1 ? 's' : ''}</p>
             )}
             {photos.length > 0 && (
               <div className="grid grid-cols-4 gap-2 mt-3">
@@ -262,8 +281,8 @@ export const DevisFormCard = () => {
         </form>
       </div>
 
-      {/* Right Info Side — shown first on mobile: brand + reassurance text, the actual submit button now lives at the end of the form */}
-      <div className={`order-1 md:order-2 w-full md:w-[45%] p-8 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
+      {/* Right Info Side — brand + reassurance text, now shown after the form on mobile */}
+      <div className={`w-full md:w-[45%] p-6 md:p-12 flex flex-col items-center justify-center text-center transition-opacity duration-500 ${isSubmitted ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: brandColor }}>
         {/* Logo icon */}
         <div className="flex flex-col items-center mb-8">
           <img src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
@@ -275,6 +294,19 @@ export const DevisFormCard = () => {
         <p className="text-white text-[16px] leading-relaxed font-medium">
           {t.devis.info_text}
         </p>
+
+        {/* Permanent WhatsApp alternative — the popup that offers this elsewhere on the
+            site is deliberately hidden on /devis, but a form-averse visitor landing
+            directly on the quote page had no chat option at all before this. */}
+        <a
+          href="https://wa.me/32489607074"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center gap-2 text-white/90 hover:text-white text-[13px] font-bold underline underline-offset-2 transition-colors"
+        >
+          <MessageCircle size={16} />
+          {t.devis.whatsapp_cta}
+        </a>
       </div>
     </div>
   );

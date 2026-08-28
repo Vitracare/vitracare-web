@@ -1,4 +1,5 @@
 import { LocalizedLink as Link } from './LocalizedLink';
+import { Phone, Mail } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
 const brandColor = '#BA9765';
@@ -25,6 +26,20 @@ export const SiteFooter = () => {
         <Link to="/conditions-generales" className="hover:opacity-80 transition-opacity">{t.footer.terms}</Link>
         <Link to="/mentions-legales" className="hover:opacity-80 transition-opacity">{t.footer.legal}</Link>
         <Link to="/politique-confidentialite" className="hover:opacity-80 transition-opacity">{t.footer.privacy}</Link>
+      </div>
+
+      {/* NAP block — phone/email were previously only visible on /contact; having them
+          nowhere else on the site was flagged as a local-SEO/on-page gap. */}
+      <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-8 text-[13px] md:text-[14px]">
+        <a href="tel:+32489607074" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Phone size={15} />
+          0489 60 70 74
+        </a>
+        <a href="mailto:contact@vitracare.be" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Mail size={15} />
+          contact@vitracare.be
+        </a>
+        <span className="text-white/80">{t.footer.serviceArea}</span>
       </div>
 
       {/* Logo */}

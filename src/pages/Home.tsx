@@ -106,7 +106,11 @@ export default function Home() {
 
   const words = t.words;
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentText, setCurrentText] = useState('');
+  // Start with the full first word (not an empty string) so the prerendered
+  // HTML and the first paint before hydration always show a complete,
+  // grammatical sentence instead of a mid-typing fragment — a real bug an
+  // SEO audit caught via screenshot ("Et gagnez plus en intimi|").
+  const [currentText, setCurrentText] = useState(words[0]);
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
   const [activeSection, setActiveSection] = useState('accueil');
@@ -166,12 +170,16 @@ export default function Home() {
     <div className="w-full font-sans bg-white flex flex-col">
       {/* Hero Section */}
       <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
-        {/* Background Image Container */}
-      <div
-        className="absolute inset-0 z-0 bg-cover bg-right md:bg-center"
-        style={{
-          backgroundImage: "url('/images/hero.jpg')",
-        }}
+        {/* Background image as a real <img>, not a CSS background-image: the browser's
+            preload scanner can only discover it while parsing HTML if it's a real
+            element (a background-image is only found after CSSOM construction, which
+            was flagged as the likely LCP bottleneck on mobile). */}
+      <img
+        src="/images/hero.jpg"
+        alt=""
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 z-0 w-full h-full object-cover object-right md:object-center"
       />
 
       {/* Strong White Gradient Overlay to match image */}
@@ -194,6 +202,11 @@ export default function Home() {
             className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight"
             style={{ color: headingColor }}
           >
+            {/* Visually hidden (not display:none — screen readers and crawlers still
+                read it), so the H1 carries the service+location keywords an SEO audit
+                flagged as missing, without touching the tagline's carefully-tuned
+                3-line mobile wrap. */}
+            <span className="sr-only">{t.hero.seoPrefix} — </span>
             {t.hero.title1}<br />
             {t.hero.title2}<br />
             {t.hero.title3}
@@ -429,7 +442,7 @@ export default function Home() {
 
                 <Testimonial
                   name="Olivier"
-                  image="/images/Francois.avif"
+                  image="/images/Olivier.avif"
                   text={t.reviews.r2}
                   offsetClass="lg:ml-auto lg:mr-4"
                 />
@@ -442,7 +455,7 @@ export default function Home() {
 
                 <Testimonial
                   name="François"
-                  image="/images/Olivier.avif"
+                  image="/images/Francois.avif"
                   text={t.reviews.r4}
                   offsetClass="lg:ml-auto lg:mr-4"
                 />

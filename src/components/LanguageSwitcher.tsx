@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../LanguageContext';
 import { Lang } from '../i18n';
 import { langPrefixes } from '../App';
@@ -6,14 +6,16 @@ import { langPrefixes } from '../App';
 export const LanguageSwitcher = ({ dark = false }: { dark?: boolean }) => {
   const { lang } = useLanguage();
   const location = useLocation();
-  const navigate = useNavigate();
   const options: Lang[] = ['FR', 'NL', 'EN'];
 
-  const inactiveClass = dark ? 'text-white/50 hover:text-white' : 'text-[#999] hover:text-[#333]';
+  // #767676 is the muted-text color already used elsewhere on the site and
+  // passes WCAG AA contrast on white (unlike the #999 this replaced, which
+  // an audit flagged as likely under 4.5:1). Same idea for the dark variant:
+  // white/50 was too faint against a dark header, bumped to white/70.
+  const inactiveClass = dark ? 'text-white/70 hover:text-white' : 'text-[#767676] hover:text-[#333]';
   const activeClass = dark ? 'text-white' : 'text-[#333]';
 
-  const switchTo = (target: Lang) => {
-    if (target === lang) return;
+  const pathFor = (target: Lang) => {
     const currentPrefix = langPrefixes[lang];
     let path = location.pathname;
     if (currentPrefix && path.startsWith(currentPrefix)) {
@@ -21,19 +23,20 @@ export const LanguageSwitcher = ({ dark = false }: { dark?: boolean }) => {
     }
     const newPrefix = langPrefixes[target];
     const newPath = path === '/' ? newPrefix || '/' : `${newPrefix}${path}`;
-    navigate(`${newPath}${location.search}${location.hash}`);
+    return `${newPath}${location.search}${location.hash}`;
   };
 
   return (
-    <div className="flex gap-2 text-[14px] font-bold tracking-widest">
+    <div className="flex gap-1 text-[14px] font-bold tracking-widest">
       {options.map((option) => (
-        <span
+        <Link
           key={option}
-          onClick={() => switchTo(option)}
-          className={`cursor-pointer ${lang === option ? activeClass : inactiveClass}`}
+          to={pathFor(option)}
+          aria-current={lang === option ? 'page' : undefined}
+          className={`px-1.5 py-2 no-underline ${lang === option ? activeClass : inactiveClass}`}
         >
           {option}
-        </span>
+        </Link>
       ))}
     </div>
   );

@@ -3,7 +3,7 @@ export type Lang = 'FR' | 'NL' | 'EN';
 export const translations = {
   FR: {
     nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', realisations: 'Réalisations', about: 'Avis', contact: 'Contact' },
-    hero: { title1: 'Libérons tout le', title2: 'potentiel de', title3: 'vos Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS' },
+    hero: { title1: 'Libérons tout le', title2: 'potentiel de', title3: 'vos Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS', seoPrefix: 'Films et teintes pour vitrages à Bruxelles' },
     words: ['intimité', 'sécurité', 'préservation', 'isolation'],
     features: {
       title: 'La lumière entre, rien d\'autre',
@@ -70,9 +70,11 @@ export const translations = {
       form_message: 'Expliquez-nous votre demande',
       form_message_placeholder: 'Nombre de fenêtres, film souhaité, problème actuellement rencontré...',
       form_photos: 'Ajouter des photos (optionnel)',
+      form_photos_button: 'Choisir des fichiers',
       form_privacy1: 'J\'ai lu et j\'accepte votre ',
       form_privacy2: 'politique de confidentialité',
       info_text: 'Remplissez vos coordonnées et nous vous recontacterons dans les 24h.',
+      whatsapp_cta: 'Vous préférez WhatsApp ? Écrivez-nous directement',
       form_error: 'Une erreur est survenue. Réessayez, ou appelez-nous directement au 0489 60 70 74.',
       photos_too_large: 'Les photos sont encore trop volumineuses une fois compressées. Réduisez le nombre de photos.',
       required_note: '* Champs obligatoires',
@@ -114,7 +116,8 @@ export const translations = {
     },
     footer: {
       faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
-      copyright: '© 2026 VitraCare. Tous droits réservés.'
+      copyright: '© 2026 VitraCare. Tous droits réservés.',
+      serviceArea: 'Bruxelles et périphérie — sur rendez-vous'
     },
     popup: {
       title: 'Une question sur vos vitrages ?',
@@ -124,7 +127,7 @@ export const translations = {
   },
   NL: {
     nav: { home: 'Startpagina', services: 'Diensten', pricing: 'Product', realisations: 'Realisaties', about: 'Beoordelingen', contact: 'Contact' },
-    hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN' },
+    hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN', seoPrefix: 'Raamfolie en tinten voor beglazing in Brussel' },
     words: ['privacy', 'veiligheid', 'behoud', 'isolatie'],
     features: {
       title: 'Het licht komt binnen, verder niets',
@@ -191,9 +194,11 @@ export const translations = {
       form_message: 'Vertel ons over uw project',
       form_message_placeholder: 'Aantal ramen, gewenste folie, huidig probleem...',
       form_photos: 'Foto\'s toevoegen (optioneel)',
+      form_photos_button: 'Bestanden kiezen',
       form_privacy1: 'Ik heb uw ',
       form_privacy2: 'privacybeleid gelezen en ga ermee akkoord',
       info_text: 'Vul uw gegevens in en wij nemen binnen 24 uur contact met u op.',
+      whatsapp_cta: 'Liever WhatsApp? Schrijf ons rechtstreeks',
       form_error: 'Er is een fout opgetreden. Probeer opnieuw, of bel ons rechtstreeks op 0489 60 70 74.',
       photos_too_large: 'De foto\'s zijn nog steeds te groot na compressie. Verminder het aantal foto\'s.',
       required_note: '* Verplichte velden',
@@ -235,7 +240,8 @@ export const translations = {
     },
     footer: {
       faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
-      copyright: '© 2026 VitraCare. Alle rechten voorbehouden.'
+      copyright: '© 2026 VitraCare. Alle rechten voorbehouden.',
+      serviceArea: 'Brussel en omgeving — op afspraak'
     },
     popup: {
       title: 'Een vraag over uw beglazing?',
@@ -245,7 +251,7 @@ export const translations = {
   },
   EN: {
     nav: { home: 'Home', services: 'Services', pricing: 'Product', realisations: 'Our work', about: 'Reviews', contact: 'Contact' },
-    hero: { title1: 'Unlock the full', title2: 'potential of', title3: 'your Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE' },
+    hero: { title1: 'Unlock the full', title2: 'potential of', title3: 'your Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE', seoPrefix: 'Window films and tints in Brussels' },
     words: ['privacy', 'security', 'preservation', 'insulation'],
     features: {
       title: 'Light comes in, nothing else',
@@ -312,9 +318,11 @@ export const translations = {
       form_message: 'Tell us about your project',
       form_message_placeholder: 'Number of windows, desired film, current issue...',
       form_photos: 'Add photos (optional)',
+      form_photos_button: 'Choose files',
       form_privacy1: 'I have read and accept your ',
       form_privacy2: 'privacy policy',
       info_text: 'Fill in your details and we will contact you within 24 hours.',
+      whatsapp_cta: 'Prefer WhatsApp? Message us directly',
       form_error: 'Something went wrong. Please try again, or call us directly on 0489 60 70 74.',
       photos_too_large: 'The photos are still too large after compression. Reduce the number of photos.',
       required_note: '* Required fields',
@@ -356,7 +364,8 @@ export const translations = {
     },
     footer: {
       faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',
-      copyright: '© 2026 VitraCare. All rights reserved.'
+      copyright: '© 2026 VitraCare. All rights reserved.',
+      serviceArea: 'Brussels and surroundings — by appointment'
     },
     popup: {
       title: 'A question about your windows?',

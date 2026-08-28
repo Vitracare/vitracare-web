@@ -9,6 +9,7 @@ const distDir = join(root, 'dist');
 const prefixes = { FR: '', NL: '/nl', EN: '/en' };
 const hreflangCodes = { FR: 'fr', NL: 'nl', EN: 'en' };
 const langs = ['FR', 'NL', 'EN'];
+const homeLabels = { FR: 'Accueil', NL: 'Home', EN: 'Home' };
 
 const pages = [
   {
@@ -286,6 +287,75 @@ function extractFaqSchema(appHtml) {
   };
 }
 
+// Sitewide business info, one authentic translation per language rather than
+// leaving the JSON-LD in French on /nl and /en while the visible page is
+// correctly translated — reuses wording already established elsewhere in the
+// site's own copy (map section, homepage meta description) instead of
+// inventing new phrasing.
+const businessCopy = {
+  FR: {
+    description:
+      'VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.',
+    city: 'Bruxelles',
+    area: 'Périphérie bruxelloise',
+    serviceType: 'Pose de films et teintes pour vitrages',
+  },
+  NL: {
+    description:
+      'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
+    city: 'Brussel',
+    area: 'Brusselse rand',
+    serviceType: 'Plaatsing van folies en tinten voor beglazing',
+  },
+  EN: {
+    description:
+      'VitraCare installs custom window films and tints for homes in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
+    city: 'Brussels',
+    area: 'Brussels surroundings',
+    serviceType: 'Window film and tint installation',
+  },
+};
+
+function buildBusinessSchema(lang, prefix) {
+  const copy = businessCopy[lang];
+  const inLanguage = `${hreflangCodes[lang]}-BE`;
+  const localBusiness = {
+    '@context': 'https://schema.org',
+    '@type': 'HomeAndConstructionBusiness',
+    '@id': 'https://vitracare.be/#business',
+    name: 'VitraCare',
+    url: `https://vitracare.be${prefix || '/'}`,
+    inLanguage,
+    description: copy.description,
+    telephone: '+32489607074',
+    email: 'contact@vitracare.be',
+    areaServed: [
+      { '@type': 'City', name: copy.city },
+      { '@type': 'AdministrativeArea', name: copy.area },
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+32489607074',
+      contactType: 'customer service',
+      areaServed: 'BE',
+      availableLanguage: ['fr', 'nl', 'en'],
+    },
+  };
+  const service = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: copy.serviceType,
+    inLanguage,
+    provider: { '@id': 'https://vitracare.be/#business' },
+    areaServed: [
+      { '@type': 'City', name: copy.city },
+      { '@type': 'AdministrativeArea', name: copy.area },
+    ],
+    url: `https://vitracare.be${fullPath(prefix, '/devis')}`,
+  };
+  return [localBusiness, service];
+}
+
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
@@ -332,6 +402,7 @@ function buildRoutes() {
             '@type': 'BlogPosting',
             headline: m.headline,
             description: m.description,
+            image: ['https://vitracare.be/icon-512.png'],
             datePublished: m.datePublished,
             dateModified: m.dateModified,
             author: { '@type': 'Organization', name: 'VitraCare' },
@@ -344,7 +415,7 @@ function buildRoutes() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Accueil', item: `https://vitracare.be${fullPath(prefix, '/')}` },
+              { '@type': 'ListItem', position: 1, name: homeLabels[lang], item: `https://vitracare.be${fullPath(prefix, '/')}` },
               { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://vitracare.be${fullPath(prefix, '/blog')}` },
               { '@type': 'ListItem', position: 3, name: m.title.replace(' — VitraCare', ''), item: `https://vitracare.be${routePath}` },
             ],
@@ -396,14 +467,18 @@ async function main() {
         `<meta name="twitter:description" content="${description}" />`,
       );
 
-    if (route.schema) {
-      const faqSchema = extractFaqSchema(appHtml);
-      const schemas = faqSchema ? [...route.schema, faqSchema] : route.schema;
-      const schemaScripts = schemas
-        .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
-        .join('\n  ');
-      html = html.replace('</head>', `${schemaScripts}\n  </head>`);
-    }
+    // Every page gets the localized LocalBusiness + Service pair (this used to be a
+    // single French-only block hardcoded in index.html, served as-is even on /nl and
+    // /en). FAQ extraction now runs on every route, not just blog articles, so a page
+    // like /faq — real question-headed Q&A content, no article wrapper — picks up
+    // FAQPage automatically the same way the blog does.
+    const businessSchema = buildBusinessSchema(route.lang, prefixes[route.lang]);
+    const faqSchema = extractFaqSchema(appHtml);
+    const schemas = [...businessSchema, ...(route.schema || []), ...(faqSchema ? [faqSchema] : [])];
+    const schemaScripts = schemas
+      .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
+      .join('\n  ');
+    html = html.replace('</head>', `${schemaScripts}\n  </head>`);
 
     const outPath = join(distDir, route.file);
     await mkdir(dirname(outPath), { recursive: true });

@@ -25,42 +25,10 @@
     <meta name="twitter:description" content="Films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie. Devis gratuit sous 24h." />
     <meta name="twitter:image" content="https://vitracare.be/icon-512.png" />
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://vitracare.be/#business",
-      "name": "VitraCare",
-      "url": "https://vitracare.be/",
-      "description": "Pose de films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV.",
-      "telephone": "+32489607074",
-      "email": "contact@vitracare.be",
-      "areaServed": [
-        { "@type": "City", "name": "Bruxelles" },
-        { "@type": "AdministrativeArea", "name": "Périphérie bruxelloise" }
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+32489607074",
-        "contactType": "customer service",
-        "areaServed": "BE",
-        "availableLanguage": ["fr", "nl", "en"]
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Pose de films et teintes pour vitrages",
-      "provider": { "@id": "https://vitracare.be/#business" },
-      "areaServed": [
-        { "@type": "City", "name": "Bruxelles" },
-        { "@type": "AdministrativeArea", "name": "Périphérie bruxelloise" }
-      ],
-      "url": "https://vitracare.be/devis"
-    }
-    </script>
+    <!-- LocalBusiness + Service JSON-LD is injected per-language by scripts/prerender.mjs
+         (localized description/areaServed/url) — not hardcoded here, since this file is
+         the shared template for all three languages and a static block would always be
+         French regardless of which locale the page actually renders. -->
   </head>
   <body>
     <div id="root"></div>

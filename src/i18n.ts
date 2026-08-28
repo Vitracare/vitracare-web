@@ -39,11 +39,11 @@ export const translations = {
     },
     teintes: {
       title: 'Nos teintes',
-      miroir_title: 'Teint effet miroir',
+      miroir_title: 'Teinte effet miroir',
       miroir_desc: 'Film miroir sans tain pour une intimité totale. Bloque 99% des UV et réduit considérablement la chaleur.',
       solaire_title: 'Teinte solaire',
       solaire_desc: 'Réduction de la chaleur et des UV pour un confort optimal en intérieur.',
-      mat_title: 'Teint blanc mat',
+      mat_title: 'Teinte blanc mat',
       mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.',
       swipeHint: '← Glissez pour voir les 3 teintes →'
     },

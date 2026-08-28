@@ -35,9 +35,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Le teint effet miroir',
+          heading: 'La teinte effet miroir',
           paragraphs: [
-            "Le teint effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
+            "La teinte effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
             "Au-delà de l'intimité, ce film bloque jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
           ],
@@ -50,16 +50,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Le teint blanc mat',
+          heading: 'La teinte blanc mat',
           paragraphs: [
-            "Le teint blanc mat répond à un besoin différent : une intimité totale, mais dans les deux sens — depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
+            "La teinte blanc mat répond à un besoin différent : une intimité totale, mais dans les deux sens — depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
             "C'est le choix le plus adapté pour une salle de bain, une verrière, une porte d'entrée vitrée, ou toute pièce où vous voulez laisser entrer la lumière sans jamais être visible. Il apporte aussi un rendu esthétique épuré et élégant, très apprécié sur les façades contemporaines.",
           ],
         },
         {
           heading: 'Comment choisir ?',
           paragraphs: [
-            "En résumé : vous voulez une intimité totale de jour, sans perdre la vue depuis l'intérieur → le teint effet miroir. Votre priorité est de réduire la chaleur sans perdre en transparence → la teinte solaire. Vous cherchez une intimité totale à toute heure, avec un rendu mat élégant → le teint blanc mat.",
+            "En résumé : vous voulez une intimité totale de jour, sans perdre la vue depuis l'intérieur → la teinte effet miroir. Votre priorité est de réduire la chaleur sans perdre en transparence → la teinte solaire. Vous cherchez une intimité totale à toute heure, avec un rendu mat élégant → la teinte blanc mat.",
             "Ces trois films sont compatibles avec du simple, double ou triple vitrage.",
           ],
         },

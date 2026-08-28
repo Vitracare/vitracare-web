@@ -340,6 +340,10 @@ function buildBusinessSchema(lang, prefix) {
       areaServed: 'BE',
       availableLanguage: ['fr', 'nl', 'en'],
     },
+    // Confirmed via the business's own Google share link — a real Google Business
+    // Profile exists (Knowledge Graph id g/11zdd0rsnv), previously invisible from the
+    // site itself. Reviews stay on Google; no customer names are reproduced here.
+    sameAs: ['https://share.google/c3Bih4FWySHUhjkAZ'],
   };
   const service = {
     '@context': 'https://schema.org',

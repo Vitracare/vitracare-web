@@ -45,6 +45,35 @@ export default function Devis() {
           </div>
 
           <DevisFormCard />
+
+          {/* Trust/process content: this page used to be little more than the form
+              itself (82 words total) — an audit flagged it as the thinnest page on the
+              site relative to how much trust content a hesitant visitor typically needs
+              before handing over contact details. Placed below the form, not above, so
+              it doesn't undo the mobile above-the-fold fix. */}
+          <div className="w-full mt-16 md:mt-20">
+            <h2 className="text-white text-[22px] md:text-[26px] font-bold text-center mb-10">
+              {t.devis.process_title}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+              {[
+                { n: '1', title: t.devis.process1_title, desc: t.devis.process1_desc },
+                { n: '2', title: t.devis.process2_title, desc: t.devis.process2_desc },
+                { n: '3', title: t.devis.process3_title, desc: t.devis.process3_desc },
+              ].map((step) => (
+                <div key={step.n} className="text-center">
+                  <div
+                    className="w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-[15px]"
+                    style={{ backgroundColor: brandColor, color: '#fff' }}
+                  >
+                    {step.n}
+                  </div>
+                  <p className="text-white font-bold text-[15px] mb-2">{step.title}</p>
+                  <p className="text-white/70 text-[13.5px] leading-relaxed max-w-[280px] mx-auto">{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

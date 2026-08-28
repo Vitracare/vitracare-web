@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { LocalizedLink as Link } from '../components/LocalizedLink';
-import { Phone, MessageCircle, Mail } from 'lucide-react';
+import { Phone, MessageCircle, Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
@@ -69,7 +69,7 @@ export default function Contact() {
           </p>
 
           {/* Direct contact methods */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             <a
               href="tel:+32489607074"
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
@@ -95,6 +95,17 @@ export default function Contact() {
               <Mail size={26} color={brandColor} strokeWidth={1.5} />
               <span className="text-[13px] font-bold uppercase tracking-wider text-gray-500">{t.contactPage.email}</span>
               <span className="text-[15px] font-bold break-all" style={{ color: '#464646' }}>contact@vitracare.be</span>
+            </a>
+            {/* Real Google Business Profile link, no customer names/reviews reproduced */}
+            <a
+              href="https://share.google/c3Bih4FWySHUhjkAZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
+            >
+              <MapPin size={26} color={brandColor} strokeWidth={1.5} />
+              <span className="text-[13px] font-bold uppercase tracking-wider text-gray-500">{t.contactPage.googleMaps}</span>
+              <span className="text-[15px] font-bold" style={{ color: '#464646' }}>Google Maps</span>
             </a>
           </div>
 

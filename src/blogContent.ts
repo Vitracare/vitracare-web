@@ -38,7 +38,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Le teint effet miroir',
           paragraphs: [
             "Le teint effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
-            "Au-delà de l'intimité, ce film bloque 99% des rayons UV et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
+            "Au-delà de l'intimité, ce film bloque jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
           ],
         },
@@ -68,6 +68,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Quel que soit le film choisi, la pose est réalisée par notre installateur partenaire, toujours à l'intérieur du vitrage — ce qui garantit une durée de vie optimale, jusqu'à 10 ans. La pose est couverte par une garantie d'un an.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — protection contre les UV](https://iwfa.com/benefits-of-window-film/uv-protection/)',
           ],
         },
         {
@@ -110,15 +116,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Combien de degrés en moins, concrètement ?',
           paragraphs: [
-            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil — vérandas, toits vitrés, façades sud ou ouest en tête de liste.",
-            "Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon la même étude, d'environ un tiers de la charge de climatisation d'un bâtiment.",
+            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil — vérandas, toits vitrés, façades sud ou ouest en tête de liste. Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon la même étude, d'environ un tiers de la charge de climatisation d'un bâtiment. Concrètement, cela signifie qu'une pièce difficilement supportable en début d'après-midi peut redevenir vivable simplement en réduisant l'apport de chaleur à la source, avant qu'elle n'entre dans la pièce.",
           ],
         },
         {
           heading: 'Moins de climatisation, moins de dépenses',
           paragraphs: [
-            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées, selon les données compilées par [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), qui s'appuient notamment sur les recommandations de l'ADEME (l'agence française de la transition écologique).",
-            "Contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité, pas d'entretien, pas de filtre à changer. C'est un investissement unique, pas une dépense qui revient chaque mois d'été.",
+            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées, selon les données compilées par [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), qui s'appuient notamment sur les recommandations de l'ADEME (l'agence française de la transition écologique). Contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité, pas d'entretien, pas de filtre à changer. Sur la durée, cela change la nature même de la dépense : au lieu d'un poste récurrent qui grimpe avec le prix de l'électricité, la protection solaire devient un investissement réalisé une seule fois, dont le bénéfice se répète chaque été sans coût additionnel.",
           ],
         },
         {
@@ -264,7 +268,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Spiegeleffect folie',
           paragraphs: [
             "De spiegeleffect folie is de meest radicale oplossing op het gebied van privacy. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
-            "Naast privacy blokkeert deze folie ook 99% van de UV-stralen en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
+            "Naast privacy blokkeert deze folie tot 99% van de UV-stralen — een beschermingsniveau erkend door de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) voor kwaliteitsfolies — en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
             "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
           ],
         },
@@ -294,6 +298,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze partnerinstallateur, steeds aan de binnenzijde van het glas — wat een optimale levensduur garandeert, tot 10 jaar. De plaatsing wordt gedekt door een garantie van één jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend.",
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[International Window Film Association — bescherming tegen UV-stralen](https://iwfa.com/benefits-of-window-film/uv-protection/)',
           ],
         },
         {
@@ -336,15 +346,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Hoeveel graden minder, concreet?',
           paragraphs: [
-            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn — verandas, glazen daken, zuid- of westgevels op kop.",
-            "In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde studie, voor ongeveer een derde van de koellast van een gebouw.",
+            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn — verandas, glazen daken, zuid- of westgevels op kop. In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde studie, voor ongeveer een derde van de koellast van een gebouw. Concreet betekent dit dat een ruimte die 's namiddags amper leefbaar is, opnieuw comfortabel kan worden door de warmte al aan de bron te beperken, vóór ze de kamer binnenkomt.",
           ],
         },
         {
           heading: 'Minder airco, minder kosten',
           paragraphs: [
-            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels, volgens gegevens verzameld door [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), die zich onder meer baseren op de aanbevelingen van ADEME (het Franse agentschap voor ecologische transitie).",
-            "In tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit, geen onderhoud, geen filter om te vervangen. Het is een eenmalige investering, geen kost die elke zomermaand terugkeert.",
+            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels, volgens gegevens verzameld door [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), die zich onder meer baseren op de aanbevelingen van ADEME (het Franse agentschap voor ecologische transitie). In tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit, geen onderhoud, geen filter om te vervangen. Op termijn verandert dit de aard van de uitgave zelf: in plaats van een terugkerende kost die meestijgt met de elektriciteitsprijs, wordt de zonwering een eenmalige investering waarvan het voordeel zich elke zomer herhaalt zonder bijkomende kost.",
           ],
         },
         {
@@ -489,7 +497,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Mirror effect film',
           paragraphs: [
             "The mirror effect film is the most effective solution when it comes to privacy. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
-            "Beyond privacy, this film blocks 99% of UV rays and significantly reduces the heat entering through your windows — a real advantage in summer.",
+            "Beyond privacy, this film blocks up to 99% of UV rays — a protection level recognised by the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) for quality films — and significantly reduces the heat entering through your windows — a real advantage in summer.",
             "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
           ],
         },
@@ -519,6 +527,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Whichever film you choose, installation is carried out by our partner installer, always on the interior side of the glass — which guarantees an optimal lifespan of up to 10 years. Installation is covered by a one-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation.',
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — UV protection](https://iwfa.com/benefits-of-window-film/uv-protection/)',
           ],
         },
         {
@@ -561,15 +575,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'How many degrees cooler, in practice?',
           paragraphs: [
-            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun — conservatories, glass roofs, and south- or west-facing façades leading the list.",
-            "In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same study, accounts for roughly a third of a building's cooling load.",
+            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun — conservatories, glass roofs, and south- or west-facing façades leading the list. In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same study, accounts for roughly a third of a building's cooling load. In practical terms, that means a room that's barely bearable by early afternoon can become liveable again simply by cutting the heat off at the source, before it ever enters the room.",
           ],
         },
         {
           heading: 'Less air conditioning, lower costs',
           paragraphs: [
-            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades, according to figures compiled by [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), which draw in part on recommendations from ADEME, the French ecological transition agency.",
-            "Unlike an air conditioner, the film has zero running cost once installed: no electricity, no maintenance, no filter to replace. It's a one-off investment, not a bill that comes back every summer month.",
+            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades, according to figures compiled by [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), which draw in part on recommendations from ADEME, the French ecological transition agency. Unlike an air conditioner, the film has zero running cost once installed: no electricity, no maintenance, no filter to replace. Over time, that changes the nature of the expense itself: instead of a recurring bill that climbs with electricity prices, solar protection becomes a one-off investment whose benefit repeats every summer at no extra cost.",
           ],
         },
         {

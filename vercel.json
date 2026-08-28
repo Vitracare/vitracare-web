@@ -1,6 +1,6 @@
 {
   "redirects": [
-    { "source": "/:path*/", "destination": "/:path*", "permanent": true }
+    { "source": "/(.+)/", "destination": "/$1", "permanent": true }
   ],
   "rewrites": [
     { "source": "/", "destination": "/index.html" },

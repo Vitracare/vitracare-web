@@ -416,6 +416,17 @@ function buildBusinessSchema(lang, prefix) {
       areaServed: 'BE',
       availableLanguage: ['fr', 'nl', 'en'],
     },
+    // Real hours as configured on the business's own Google listing — every day,
+    // since the owner is reachable in this window and installs can also happen on
+    // weekends.
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: [
+        'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
+      ],
+      opens: '09:00',
+      closes: '18:00',
+    },
     // Confirmed via the business's own Google share link — a real Google Business
     // Profile exists (Knowledge Graph id g/11zdd0rsnv), previously invisible from the
     // site itself. Reviews stay on Google; no customer names are reproduced here.

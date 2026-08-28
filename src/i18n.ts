@@ -24,7 +24,18 @@ export const translations = {
     realisations: {
       title: 'Nos réalisations',
       ctaTitle: 'Un projet similaire en tête ?',
-      ctaSubtitle: 'Demandez votre devis gratuit sous 24h, ou contactez-nous directement pour en discuter.'
+      ctaSubtitle: 'Demandez votre devis gratuit sous 24h, ou contactez-nous directement pour en discuter.',
+      captions: [
+        "Film effet miroir posé sur une porte-fenêtre donnant sur jardin à Uccle, pour limiter la chaleur du soleil du matin.",
+        "Film effet miroir posé aux fenêtres du premier étage d'une maison à Anderlecht, contre le vis-à-vis.",
+        "Film effet miroir posé sur une fenêtre donnant sur cour intérieure à Anderlecht, contre le vis-à-vis.",
+        "Film effet miroir au rez-de-chaussée et film blanc mat à l'étage, sur une maison à Anderlecht, contre le vis-à-vis.",
+        "Film effet miroir posé sur une fenêtre de rez-de-chaussée à Uccle, contre le vis-à-vis.",
+        "Film effet miroir posé sur une large fenêtre de rez-de-chaussée à Ixelles, contre le vis-à-vis.",
+        "Film effet miroir posé sur un bow-window à l'étage d'une maison à Waterloo, contre le vis-à-vis et la chaleur.",
+        "Film effet miroir posé sur une maison en construction à Waterloo, choisi pour son esthétique et son effet contre la chaleur.",
+        "Film effet miroir posé sur une fenêtre donnant sur cour intérieure à Ixelles, très exposée au vis-à-vis.",
+      ]
     },
     teintes: {
       title: 'Nos teintes',
@@ -96,7 +107,8 @@ export const translations = {
       phone: 'Téléphone',
       whatsapp: 'WhatsApp',
       email: 'Email',
-      googleMaps: 'Notre fiche Google',
+      googleMaps: 'Google',
+      googleMapsValue: 'Voir la fiche',
       form_name: 'Nom / Prénom',
       form_email: 'Email',
       form_message: 'Votre message',
@@ -160,7 +172,18 @@ export const translations = {
     realisations: {
       title: 'Onze realisaties',
       ctaTitle: 'Een gelijkaardig project in gedachten?',
-      ctaSubtitle: 'Vraag uw gratis offerte aan binnen 24u, of neem rechtstreeks contact met ons op.'
+      ctaSubtitle: 'Vraag uw gratis offerte aan binnen 24u, of neem rechtstreeks contact met ons op.',
+      captions: [
+        'Spiegeleffectfolie geplaatst op een terrasdeur met tuinzicht in Ukkel, om de ochtendzon te temperen.',
+        'Spiegeleffectfolie geplaatst op de ramen van de eerste verdieping van een woning in Anderlecht, tegen inkijk.',
+        'Spiegeleffectfolie geplaatst op een raam met zicht op een binnenkoer in Anderlecht, tegen inkijk.',
+        'Spiegeleffectfolie op het gelijkvloers en matwitte folie op de verdieping, op een woning in Anderlecht, tegen inkijk.',
+        'Spiegeleffectfolie geplaatst op een raam op het gelijkvloers in Ukkel, tegen inkijk.',
+        'Spiegeleffectfolie geplaatst op een groot raam op het gelijkvloers in Elsene, tegen inkijk.',
+        'Spiegeleffectfolie geplaatst op een erker op de verdieping van een woning in Waterloo, tegen inkijk en hitte.',
+        'Spiegeleffectfolie geplaatst op een woning in aanbouw in Waterloo, gekozen voor de esthetiek en het effect tegen hitte.',
+        'Spiegeleffectfolie geplaatst op een raam met zicht op een binnenkoer in Elsene, sterk blootgesteld aan inkijk.',
+      ]
     },
     teintes: {
       title: 'Onze folies',
@@ -232,7 +255,8 @@ export const translations = {
       phone: 'Telefoon',
       whatsapp: 'WhatsApp',
       email: 'E-mail',
-      googleMaps: 'Onze Google-fiche',
+      googleMaps: 'Google',
+      googleMapsValue: 'Bekijk de fiche',
       form_name: 'Naam / Voornaam',
       form_email: 'E-mail',
       form_message: 'Uw bericht',
@@ -296,7 +320,18 @@ export const translations = {
     realisations: {
       title: 'Our work',
       ctaTitle: 'Have a similar project in mind?',
-      ctaSubtitle: 'Request your free quote within 24h, or contact us directly to discuss it.'
+      ctaSubtitle: 'Request your free quote within 24h, or contact us directly to discuss it.',
+      captions: [
+        'Mirror effect film installed on a patio door overlooking the garden in Uccle, to reduce morning sun heat.',
+        'Mirror effect film installed on the first-floor windows of a house in Anderlecht, against being overlooked.',
+        'Mirror effect film installed on a window facing an inner courtyard in Anderlecht, against being overlooked.',
+        'Mirror effect film on the ground floor and matte white film upstairs, on a house in Anderlecht, against being overlooked.',
+        'Mirror effect film installed on a ground-floor window in Uccle, against being overlooked.',
+        'Mirror effect film installed on a large ground-floor window in Ixelles, against being overlooked.',
+        'Mirror effect film installed on an upstairs bay window in a house in Waterloo, against being overlooked and heat.',
+        "Mirror effect film installed on a house under construction in Waterloo, chosen for its look and its effect against heat.",
+        'Mirror effect film installed on a window facing an inner courtyard in Ixelles, heavily exposed to being overlooked.',
+      ]
     },
     teintes: {
       title: 'Our tints',
@@ -368,7 +403,8 @@ export const translations = {
       phone: 'Phone',
       whatsapp: 'WhatsApp',
       email: 'Email',
-      googleMaps: 'Our Google listing',
+      googleMaps: 'Google',
+      googleMapsValue: 'View listing',
       form_name: 'Name / Surname',
       form_email: 'Email',
       form_message: 'Your message',

@@ -104,8 +104,8 @@ export default function Contact() {
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
             >
               <MapPin size={26} color={brandColor} strokeWidth={1.5} />
-              <span className="text-[13px] font-bold uppercase tracking-wider text-gray-500">{t.contactPage.googleMaps}</span>
-              <span className="text-[15px] font-bold" style={{ color: '#464646' }}>Google Maps</span>
+              <span className="text-[13px] font-bold uppercase tracking-wider text-gray-500 whitespace-nowrap">{t.contactPage.googleMaps}</span>
+              <span className="text-[15px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>{t.contactPage.googleMapsValue}</span>
             </a>
           </div>
 

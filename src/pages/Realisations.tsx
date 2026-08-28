@@ -19,16 +19,22 @@ export default function Realisations() {
         <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
-          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => (
-            <div key={n} className="aspect-[3/4] rounded-xl overflow-hidden bg-gray-100">
-              <img
-                src={`/images/realisations/chantier-${n}.jpg`}
-                alt={`Réalisation VitraCare ${n}`}
-                loading="lazy"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-          ))}
+          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => {
+            const caption = t.realisations.captions[n - 1];
+            return (
+              <div key={n} className="flex flex-col gap-2">
+                <div className="aspect-[3/4] rounded-xl overflow-hidden bg-gray-100">
+                  <img
+                    src={`/images/realisations/chantier-${n}.jpg`}
+                    alt={caption}
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <p className="text-[12px] leading-snug px-1" style={{ color: '#767676' }}>{caption}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
 

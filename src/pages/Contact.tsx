@@ -94,7 +94,7 @@ export default function Contact() {
             >
               <Mail size={26} color={brandColor} strokeWidth={1.5} />
               <span className="text-[13px] font-bold uppercase tracking-wider text-gray-500">{t.contactPage.email}</span>
-              <span className="text-[15px] font-bold break-all" style={{ color: '#464646' }}>contact@vitracare.be</span>
+              <span className="text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>contact@vitracare.be</span>
             </a>
             {/* Real Google Business Profile link, no customer names/reviews reproduced */}
             <a

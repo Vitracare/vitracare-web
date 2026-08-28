@@ -10,6 +10,7 @@
     { "source": "/faq", "destination": "/index.html" },
     { "source": "/blog", "destination": "/index.html" },
     { "source": "/blog/:slug", "destination": "/index.html" },
+    { "source": "/communes/:slug", "destination": "/index.html" },
     { "source": "/mentions-legales", "destination": "/index.html" },
     { "source": "/politique-confidentialite", "destination": "/index.html" },
     { "source": "/conditions-generales", "destination": "/index.html" },
@@ -20,6 +21,7 @@
     { "source": "/nl/faq", "destination": "/nl/index.html" },
     { "source": "/nl/blog", "destination": "/nl/index.html" },
     { "source": "/nl/blog/:slug", "destination": "/nl/index.html" },
+    { "source": "/nl/communes/:slug", "destination": "/nl/index.html" },
     { "source": "/nl/mentions-legales", "destination": "/nl/index.html" },
     { "source": "/nl/politique-confidentialite", "destination": "/nl/index.html" },
     { "source": "/nl/conditions-generales", "destination": "/nl/index.html" },
@@ -30,6 +32,7 @@
     { "source": "/en/faq", "destination": "/en/index.html" },
     { "source": "/en/blog", "destination": "/en/index.html" },
     { "source": "/en/blog/:slug", "destination": "/en/index.html" },
+    { "source": "/en/communes/:slug", "destination": "/en/index.html" },
     { "source": "/en/mentions-legales", "destination": "/en/index.html" },
     { "source": "/en/politique-confidentialite", "destination": "/en/index.html" },
     { "source": "/en/conditions-generales", "destination": "/en/index.html" }

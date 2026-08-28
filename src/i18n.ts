@@ -132,6 +132,9 @@ export const translations = {
       title: 'Une question sur vos vitrages ?',
       subtitle: 'Discutez directement avec nous sur WhatsApp, ou demandez votre devis gratuit — sans engagement.',
       whatsapp: 'Discuter sur WhatsApp'
+    },
+    commune: {
+      otherAreas: 'Nous intervenons aussi près de chez vous'
     }
   },
   NL: {
@@ -265,6 +268,9 @@ export const translations = {
       title: 'Een vraag over uw beglazing?',
       subtitle: 'Praat rechtstreeks met ons via WhatsApp, of vraag uw gratis offerte aan — vrijblijvend.',
       whatsapp: 'Chat via WhatsApp'
+    },
+    commune: {
+      otherAreas: 'We zijn ook actief bij u in de buurt'
     }
   },
   EN: {
@@ -398,6 +404,9 @@ export const translations = {
       title: 'A question about your windows?',
       subtitle: 'Chat with us directly on WhatsApp, or request your free quote — no obligation.',
       whatsapp: 'Chat on WhatsApp'
+    },
+    commune: {
+      otherAreas: 'We also work near you'
     }
   }
 };

@@ -245,6 +245,82 @@ const blogArticles = [
 },
 ];
 
+// Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles
+// above) — needed here since prerender.mjs is a plain Node script and can't import the
+// TypeScript content module directly; the actual page body comes from the SSR render,
+// this array only drives per-route meta tags and schema.
+const communePages = [
+  {
+    slug: 'uccle',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Uccle — VitraCare',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin et grandes baies vitrées typiques de la commune.",
+        name: 'Uccle',
+      },
+      NL: {
+        title: 'Raamfolie in Ukkel — VitraCare',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin en grote raampartijen die kenmerkend zijn voor de gemeente.',
+        name: 'Ukkel',
+      },
+      EN: {
+        title: 'Window Film in Uccle — VitraCare',
+        description:
+          'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens and large windows typical of the commune.',
+        name: 'Uccle',
+      },
+    },
+  },
+  {
+    slug: 'waterloo',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Waterloo — VitraCare',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et grandes surfaces vitrées.",
+        name: 'Waterloo',
+      },
+      NL: {
+        title: 'Raamfolie in Waterloo — VitraCare',
+        description:
+          "VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa's en grote glasoppervlakken.",
+        name: 'Waterloo',
+      },
+      EN: {
+        title: 'Window Film in Waterloo — VitraCare',
+        description:
+          'VitraCare installs window films and tints in Waterloo (Walloon Brabant): privacy, thermal comfort and UV protection for villas and large glass surfaces.',
+        name: 'Waterloo',
+      },
+    },
+  },
+  {
+    slug: 'forest',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Forest — VitraCare',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
+        name: 'Forest',
+      },
+      NL: {
+        title: 'Raamfolie in Vorst — VitraCare',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en de stedelijke dichtheid van de gemeente.',
+        name: 'Vorst',
+      },
+      EN: {
+        title: 'Window Film in Forest — VitraCare',
+        description:
+          'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
+        name: 'Forest',
+      },
+    },
+  },
+];
+
 function decodeEntities(str) {
   return str
     .replace(/&#x27;/g, "'")
@@ -422,6 +498,43 @@ function buildRoutes() {
               { '@type': 'ListItem', position: 1, name: homeLabels[lang], item: `https://vitracare.be${fullPath(prefix, '/')}` },
               { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://vitracare.be${fullPath(prefix, '/blog')}` },
               { '@type': 'ListItem', position: 3, name: m.title.replace(' — VitraCare', ''), item: `https://vitracare.be${routePath}` },
+            ],
+          },
+        ],
+      });
+    }
+  }
+
+  for (const commune of communePages) {
+    for (const lang of langs) {
+      const prefix = prefixes[lang];
+      const communePath = `/communes/${commune.slug}`;
+      const routePath = fullPath(prefix, communePath);
+      const fileRel = `${routePath.replace(/^\//, '')}/index.html`;
+      const m = commune.meta[lang];
+      routes.push({
+        routePath,
+        file: fileRel,
+        canonicalPath: communePath,
+        lang,
+        title: m.title,
+        description: m.description,
+        schema: [
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            serviceType: m.title.replace(' — VitraCare', ''),
+            inLanguage: `${hreflangCodes[lang]}-BE`,
+            provider: { '@id': 'https://vitracare.be/#business' },
+            areaServed: { '@type': 'AdministrativeArea', name: m.name },
+            url: `https://vitracare.be${routePath}`,
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: homeLabels[lang], item: `https://vitracare.be${fullPath(prefix, '/')}` },
+              { '@type': 'ListItem', position: 2, name: m.name, item: `https://vitracare.be${routePath}` },
             ],
           },
         ],

@@ -97,7 +97,14 @@ const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: 
 };
 
 export default function Home() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
+  // Only 3 of the marquee's communes have a dedicated page today — the rest stay
+  // plain text rather than link to something that doesn't exist yet.
+  const communeSlugByLabel: Record<string, string> = {
+    FR: { Uccle: 'uccle', Forest: 'forest', Waterloo: 'waterloo' },
+    NL: { Ukkel: 'uccle', Vorst: 'forest', Waterloo: 'waterloo' },
+    EN: { Uccle: 'uccle', Forest: 'forest', Waterloo: 'waterloo' },
+  }[lang];
 
   const brandColor = '#BA9765';
   const headingColor = '#464646';
@@ -564,16 +571,34 @@ export default function Home() {
                 without an explicit width would let this child grow to its full unclipped content width instead of respecting the viewport. */}
             <div className="w-full min-w-0 overflow-hidden md:overflow-visible px-8 -mx-8 md:px-0 md:mx-0">
               <div className="flex md:grid md:grid-cols-4 gap-3 md:gap-x-4 md:gap-y-10 animate-marquee">
-                {[...t.map.locations, ...t.map.locations].map((city, idx) => (
-                  <div
-                    key={idx}
-                    className={`shrink-0 md:shrink flex items-center justify-center text-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight ${idx >= t.map.locations.length ? 'md:hidden' : ''}`}
-                    style={{ color: brandColor, whiteSpace: 'pre-line' }}
-                    aria-hidden={idx >= t.map.locations.length}
-                  >
-                    {city}
-                  </div>
-                ))}
+                {[...t.map.locations, ...t.map.locations].map((city, idx) => {
+                  const itemClass = `shrink-0 md:shrink flex items-center justify-center text-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight ${idx >= t.map.locations.length ? 'md:hidden' : ''}`;
+                  const slug = communeSlugByLabel[city];
+                  if (slug) {
+                    return (
+                      <Link
+                        key={idx}
+                        to={`/communes/${slug}`}
+                        className={`${itemClass} hover:opacity-70 transition-opacity`}
+                        style={{ color: brandColor, whiteSpace: 'pre-line' }}
+                        aria-hidden={idx >= t.map.locations.length}
+                        tabIndex={idx >= t.map.locations.length ? -1 : undefined}
+                      >
+                        {city}
+                      </Link>
+                    );
+                  }
+                  return (
+                    <div
+                      key={idx}
+                      className={itemClass}
+                      style={{ color: brandColor, whiteSpace: 'pre-line' }}
+                      aria-hidden={idx >= t.map.locations.length}
+                    >
+                      {city}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

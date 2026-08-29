@@ -579,7 +579,7 @@ export default function Home() {
                       <Link
                         key={idx}
                         to={`/communes/${slug}`}
-                        className={`${itemClass} hover:opacity-70 transition-opacity`}
+                        className={`${itemClass} underline decoration-2 underline-offset-4 hover:opacity-70 transition-opacity`}
                         style={{ color: brandColor, whiteSpace: 'pre-line' }}
                         aria-hidden={idx >= t.map.locations.length}
                         tabIndex={idx >= t.map.locations.length ? -1 : undefined}

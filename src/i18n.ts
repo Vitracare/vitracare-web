@@ -47,6 +47,13 @@ export const translations = {
       mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.',
       antieffraction_title: 'Film anti-effraction',
       antieffraction_desc: "Film transparent qui retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+      miroir_more: "Fonctionne uniquement de jour : la nuit, si l'intérieur est éclairé, l'effet s'inverse comme pour une fenêtre classique.",
+      solaire_more: 'Reste totalement transparente dans les deux sens, idéale pour un salon plein sud ou une véranda.',
+      mat_more: "Fonctionne jour et nuit, quelle que soit la luminosité — le choix le plus fiable pour une intimité garantie à toute heure.",
+      antieffraction_more: "Ne rend pas la vitre incassable, mais ralentit fortement une tentative d'effraction en retenant les éclats de verre au lieu de les laisser tomber.",
+      learnMore: 'En savoir plus',
+      showLess: 'Réduire',
+      readMore: "Lire l'article complet →",
       swipeHint: '← Glissez pour voir les 4 teintes →'
     },
     reviews: {
@@ -197,6 +204,13 @@ export const translations = {
       mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.',
       antieffraction_title: 'Inbraakwerende folie',
       antieffraction_desc: 'Transparante folie die glasscherven bij impact samenhoudt, wat een inbraakpoging sterk vertraagt.',
+      miroir_more: "Werkt enkel overdag: 's nachts, als het interieur verlicht is, keert het effect om zoals bij een gewoon raam.",
+      solaire_more: 'Blijft volledig transparant in beide richtingen, ideaal voor een zuidgerichte woonkamer of veranda.',
+      mat_more: 'Werkt dag en nacht, ongeacht het lichtniveau — de meest betrouwbare keuze voor permanente privacy.',
+      antieffraction_more: 'Maakt het raam niet onbreekbaar, maar vertraagt een inbraakpoging sterk door de glasscherven vast te houden in plaats van ze te laten vallen.',
+      learnMore: 'Meer weten',
+      showLess: 'Sluiten',
+      readMore: 'Lees het volledige artikel →',
       swipeHint: '← Schuif om de 4 tinten te zien →'
     },
     reviews: {
@@ -347,6 +361,13 @@ export const translations = {
       mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.',
       antieffraction_title: 'Anti-burglary film',
       antieffraction_desc: 'Transparent film that holds broken glass together on impact, significantly slowing down a break-in attempt.',
+      miroir_more: 'Works only during the day: at night, if the interior is lit, the effect reverses just like any window.',
+      solaire_more: 'Stays fully transparent in both directions — ideal for a south-facing living room or conservatory.',
+      mat_more: 'Works day and night regardless of light levels — the most reliable choice for privacy at all times.',
+      antieffraction_more: "Doesn't make the window unbreakable, but significantly slows a break-in attempt by holding the glass shards together instead of letting them fall.",
+      learnMore: 'Learn more',
+      showLess: 'Show less',
+      readMore: 'Read the full article →',
       swipeHint: '← Swipe to see all 4 tints →'
     },
     reviews: {

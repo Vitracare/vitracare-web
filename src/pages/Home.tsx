@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { LocalizedLink as Link } from '../components/LocalizedLink';
-import { ShieldCheck, FileBadge, Clock } from 'lucide-react';
+import { ShieldCheck, FileBadge, Clock, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
@@ -121,6 +121,26 @@ export default function Home() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
   const [activeSection, setActiveSection] = useState('accueil');
+  // Which "teinte" card is expanded inline (accordion below the grid) — null when none.
+  const [openTint, setOpenTint] = useState<'miroir' | 'solaire' | 'mat' | 'antieffraction' | null>(null);
+  const tintAnchors: Record<'miroir' | 'solaire' | 'mat' | 'antieffraction', string> = {
+    miroir: 'miroir',
+    solaire: 'solaire',
+    mat: 'mat',
+    antieffraction: 'anti-effraction',
+  };
+  const tintTitles: Record<'miroir' | 'solaire' | 'mat' | 'antieffraction', string> = {
+    miroir: t.teintes.miroir_title,
+    solaire: t.teintes.solaire_title,
+    mat: t.teintes.mat_title,
+    antieffraction: t.teintes.antieffraction_title,
+  };
+  const tintMoreText: Record<'miroir' | 'solaire' | 'mat' | 'antieffraction', string> = {
+    miroir: t.teintes.miroir_more,
+    solaire: t.teintes.solaire_more,
+    mat: t.teintes.mat_more,
+    antieffraction: t.teintes.antieffraction_more,
+  };
 
   useEffect(() => {
     const sectionIds = ['accueil', 'services', 'produit', 'avis'];
@@ -356,61 +376,126 @@ export default function Home() {
         <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
 
         <div className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 max-w-6xl mx-auto overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 px-4 -mx-4 md:px-0 md:mx-auto">
-          <Link to="/blog/quel-film-choisir-vitrages#miroir" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
+          <button
+            type="button"
+            onClick={() => setOpenTint(openTint === 'miroir' ? null : 'miroir')}
+            aria-expanded={openTint === 'miroir'}
+            className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group cursor-pointer"
+          >
             <div
               className="w-full aspect-square rounded-xl mb-6 border border-black/5 transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #9AA3A6, #E7EAEA 45%, #7C8689)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.miroir_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.miroir_desc}
             </p>
-          </Link>
+            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+              {openTint === 'miroir' ? t.teintes.showLess : t.teintes.learnMore}
+              <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'miroir' ? 'rotate-180' : ''}`} />
+            </span>
+          </button>
 
-          <Link to="/blog/quel-film-choisir-vitrages#solaire" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
+          <button
+            type="button"
+            onClick={() => setOpenTint(openTint === 'solaire' ? null : 'solaire')}
+            aria-expanded={openTint === 'solaire'}
+            className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group cursor-pointer"
+          >
             <div
               className="w-full aspect-square rounded-xl mb-6 border border-black/10 transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #C9DCE5, #EFF5F8)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.solaire_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.solaire_desc}
             </p>
-          </Link>
+            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+              {openTint === 'solaire' ? t.teintes.showLess : t.teintes.learnMore}
+              <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'solaire' ? 'rotate-180' : ''}`} />
+            </span>
+          </button>
 
-          <Link to="/blog/quel-film-choisir-vitrages#mat" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
+          <button
+            type="button"
+            onClick={() => setOpenTint(openTint === 'mat' ? null : 'mat')}
+            aria-expanded={openTint === 'mat'}
+            className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group cursor-pointer"
+          >
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/15 shadow-sm transition-transform group-hover:scale-[1.02]"
-              style={{ background: 'linear-gradient(135deg, #DADADA, #F4F4F4)' }}
+              className="w-full aspect-square rounded-xl mb-6 border border-black/10 transition-transform group-hover:scale-[1.02]"
+              style={{ background: 'linear-gradient(135deg, #EFF3F0, #FAFCFB)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.mat_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.mat_desc}
             </p>
-          </Link>
+            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+              {openTint === 'mat' ? t.teintes.showLess : t.teintes.learnMore}
+              <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'mat' ? 'rotate-180' : ''}`} />
+            </span>
+          </button>
 
-          <Link to="/blog/quel-film-choisir-vitrages#anti-effraction" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
+          <button
+            type="button"
+            onClick={() => setOpenTint(openTint === 'antieffraction' ? null : 'antieffraction')}
+            aria-expanded={openTint === 'antieffraction'}
+            className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group cursor-pointer"
+          >
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]"
-              style={{ background: 'linear-gradient(135deg, #EFF3F0, #FAFCFB)' }}
+              className="relative overflow-hidden w-full aspect-square rounded-xl mb-6 border border-black/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]"
+              style={{ background: 'linear-gradient(135deg, #E7F0EE, #FDFEFE)' }}
             >
-              <ShieldCheck size={56} color={brandColor} strokeWidth={1.2} />
+              {/* Subtle cracked-glass pattern: the film doesn't stay invisible when broken —
+                  it holds the shattered glass together, which is the actual selling point,
+                  so this reads better than trying to depict plain "transparency". */}
+              <svg className="absolute inset-0 w-full h-full opacity-[0.35]" viewBox="0 0 100 100" fill="none">
+                <path
+                  d="M52 58 L22 18 M52 58 L78 9 M52 58 L93 46 M52 58 L74 93 M52 58 L27 91 M52 58 L9 44 M37 36 L29 21 M67 41 L82 30 M42 72 L32 84 M52 58 L52 30"
+                  stroke="#9DB0AA"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                />
+              </svg>
+              <ShieldCheck size={52} color={brandColor} strokeWidth={1.2} className="relative" />
             </div>
-            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.antieffraction_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.antieffraction_desc}
             </p>
-          </Link>
+            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+              {openTint === 'antieffraction' ? t.teintes.showLess : t.teintes.learnMore}
+              <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'antieffraction' ? 'rotate-180' : ''}`} />
+            </span>
+          </button>
         </div>
         <p className="text-center text-[12px] text-gray-400 mt-4 md:hidden">{t.teintes.swipeHint}</p>
+
+        {openTint && (
+          <div className="max-w-2xl mx-auto mt-10 p-6 md:p-8 rounded-xl text-center" style={{ backgroundColor: '#FAF9F6' }}>
+            <h4 className="text-[16px] font-bold mb-2" style={{ color: headingColor }}>
+              {tintTitles[openTint]}
+            </h4>
+            <p className="text-[14px] leading-relaxed mb-4" style={{ color: lightTextColor }}>
+              {tintMoreText[openTint]}
+            </p>
+            <Link
+              to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
+              className="text-[13px] font-bold underline underline-offset-2"
+              style={{ color: brandColor }}
+            >
+              {t.teintes.readMore}
+            </Link>
+          </div>
+        )}
 
         <div className="flex justify-center mt-16">
           <Link

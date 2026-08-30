@@ -18,7 +18,7 @@ const pages = [
       FR: {
         title: 'VitraCare — Films et teintes pour vitrages à Bruxelles',
         description:
-          "VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
+          "VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
       },
       NL: {
         title: 'VitraCare — Folies en tinten voor beglazing in Brussel',
@@ -28,7 +28,7 @@ const pages = [
       EN: {
         title: 'VitraCare — Window Films and Tints in Brussels',
         description:
-          'VitraCare installs custom window films and tints for homes in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
+          'VitraCare installs window films and tints in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
       },
     },
   },
@@ -162,7 +162,7 @@ const blogArticles = [
     FR: {
       title: 'Quel film choisir pour vos vitrages ? — VitraCare',
       description:
-        'Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.',
+        'Film miroir, teinte solaire ou blanc mat : différences, avantages et usages de chaque film, et lequel convient le mieux à votre maison.',
       headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
       datePublished: '2026-08-06',
       dateModified: '2026-08-09',
@@ -189,9 +189,9 @@ const blogArticles = [
   path: '/blog/film-vitrage-economies-climatisation',
   meta: {
     FR: {
-      title: 'Film pour vitrage vs climatisation : quelle économie ? — VitraCare',
+      title: 'Film pour vitrage ou climatisation ? — VitraCare',
       description:
-        "Ventilateur, climatiseur ou film pour vitrage : quelle solution réduit vraiment la chaleur chez vous ? Voici ce que montrent les études, chiffres et sources à l'appui.",
+        "Ventilateur, climatiseur ou film pour vitrage : quelle solution réduit vraiment la chaleur chez vous ? Ce que montrent les études et les chiffres.",
       headline: 'Film pour vitrage ou climatisation : quelle solution refroidit vraiment votre intérieur sans faire exploser la facture ?',
       datePublished: '2026-08-19',
       dateModified: '2026-08-19',
@@ -218,9 +218,9 @@ const blogArticles = [
   path: '/blog/intimite-vis-a-vis-film-vitrage',
   meta: {
     FR: {
-      title: 'Film pour vitrage et intimité : la solution au vis-à-vis — VitraCare',
+      title: 'Film pour vitrage et intimité : le vis-à-vis — VitraCare',
       description:
-        "Rez-de-chaussée, vis-à-vis entre voisins, bureaux exposés à la rue : comment profiter de la lumière naturelle sans être vu depuis l'extérieur ? Voici comment le film pour vitrage change la donne.",
+        "Rez-de-chaussée, vis-à-vis, bureaux exposés à la rue : comment profiter de la lumière sans être vu depuis l'extérieur ? Le film pour vitrage change la donne.",
       headline: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
       datePublished: '2026-08-27',
       dateModified: '2026-08-27',
@@ -228,15 +228,15 @@ const blogArticles = [
     NL: {
       title: 'Raamfolie en privacy: de oplossing tegen inkijk — VitraCare',
       description:
-        'Gelijkvloers, inkijk tussen buren, kantoren aan de straatkant: hoe geniet u van natuurlijk licht zonder van buitenaf gezien te worden? Raamfolie verandert de zaak.',
+        'Gelijkvloers, inkijk tussen buren, kantoren aan de straat: hoe geniet u van licht zonder van buiten gezien te worden? Raamfolie verandert de zaak.',
       headline: 'Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?',
       datePublished: '2026-08-27',
       dateModified: '2026-08-27',
     },
     EN: {
-      title: 'Window Film for Privacy: The Fix for Being Overlooked — VitraCare',
+      title: 'Window Film for Privacy: Stop Being Overlooked — VitraCare',
       description:
-        "Ground floor rooms, neighbours facing your windows, offices exposed to the street: how do you enjoy natural light without being seen from outside? Here's how window film changes the equation.",
+        "Ground floor rooms, overlooked windows, offices facing the street: enjoy natural light without being seen from outside. Window film changes the equation.",
       headline: 'Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?',
       datePublished: '2026-08-27',
       dateModified: '2026-08-27',
@@ -256,19 +256,19 @@ const communePages = [
       FR: {
         title: 'Film pour vitrage à Uccle — VitraCare',
         description:
-          "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin et grandes baies vitrées typiques de la commune.",
+          "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin de la commune.",
         name: 'Uccle',
       },
       NL: {
         title: 'Raamfolie in Ukkel — VitraCare',
         description:
-          'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin en grote raampartijen die kenmerkend zijn voor de gemeente.',
+          'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin in de gemeente.',
         name: 'Ukkel',
       },
       EN: {
         title: 'Window Film in Uccle — VitraCare',
         description:
-          'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens and large windows typical of the commune.',
+          'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens typical of the commune.',
         name: 'Uccle',
       },
     },
@@ -279,13 +279,13 @@ const communePages = [
       FR: {
         title: 'Film pour vitrage à Waterloo — VitraCare',
         description:
-          "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et grandes surfaces vitrées.",
+          "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et vérandas.",
         name: 'Waterloo',
       },
       NL: {
         title: 'Raamfolie in Waterloo — VitraCare',
         description:
-          "VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa's en grote glasoppervlakken.",
+          "VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa's en veranda's.",
         name: 'Waterloo',
       },
       EN: {
@@ -308,7 +308,7 @@ const communePages = [
       NL: {
         title: 'Raamfolie in Vorst — VitraCare',
         description:
-          'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en de stedelijke dichtheid van de gemeente.',
+          'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en stedelijke dichtheid van de gemeente.',
         name: 'Vorst',
       },
       EN: {
@@ -371,7 +371,7 @@ function extractFaqSchema(appHtml) {
 const businessCopy = {
   FR: {
     description:
-      'VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.',
+      'VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.',
     city: 'Bruxelles',
     area: 'Périphérie bruxelloise',
     serviceType: 'Pose de films et teintes pour vitrages',
@@ -385,7 +385,7 @@ const businessCopy = {
   },
   EN: {
     description:
-      'VitraCare installs custom window films and tints for homes in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
+      'VitraCare installs window films and tints in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
     city: 'Brussels',
     area: 'Brussels surroundings',
     serviceType: 'Window film and tint installation',

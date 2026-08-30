@@ -40,12 +40,14 @@ export const translations = {
     teintes: {
       title: 'Nos teintes',
       miroir_title: 'Teinte effet miroir',
-      miroir_desc: 'Film miroir sans tain pour une intimité totale. Bloque 99% des UV et réduit considérablement la chaleur.',
+      miroir_desc: 'Film miroir sans tain pour une intimité totale de jour. Bloque 99% des UV et réduit considérablement la chaleur.',
       solaire_title: 'Teinte solaire',
       solaire_desc: 'Réduction de la chaleur et des UV pour un confort optimal en intérieur.',
       mat_title: 'Teinte blanc mat',
       mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.',
-      swipeHint: '← Glissez pour voir les 3 teintes →'
+      antieffraction_title: 'Film anti-effraction',
+      antieffraction_desc: "Film transparent qui retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+      swipeHint: '← Glissez pour voir les 4 teintes →'
     },
     reviews: {
       title: 'Avis',
@@ -188,12 +190,14 @@ export const translations = {
     teintes: {
       title: 'Onze folies',
       miroir_title: 'Spiegeleffect folie',
-      miroir_desc: 'Spiegelfolie zonder tain voor volledige privacy. Blokkeert 99% van de UV-stralen en vermindert de warmte aanzienlijk.',
+      miroir_desc: 'Spiegelfolie zonder tain voor volledige privacy overdag. Blokkeert 99% van de UV-stralen en vermindert de warmte aanzienlijk.',
       solaire_title: 'Zonwerende folie',
       solaire_desc: 'Vermindering van warmte en UV voor optimaal comfort binnenshuis.',
       mat_title: 'Matwitte folie',
       mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.',
-      swipeHint: '← Schuif om de 3 tinten te zien →'
+      antieffraction_title: 'Inbraakwerende folie',
+      antieffraction_desc: 'Transparante folie die glasscherven bij impact samenhoudt, wat een inbraakpoging sterk vertraagt.',
+      swipeHint: '← Schuif om de 4 tinten te zien →'
     },
     reviews: {
       title: 'Beoordelingen',
@@ -336,12 +340,14 @@ export const translations = {
     teintes: {
       title: 'Our tints',
       miroir_title: 'Mirror effect film',
-      miroir_desc: 'One-way mirror film for total privacy. Blocks 99% of UV and significantly reduces heat.',
+      miroir_desc: 'One-way mirror film for total daytime privacy. Blocks 99% of UV and significantly reduces heat.',
       solaire_title: 'Solar tint',
       solaire_desc: 'Reduces heat and UV for optimal indoor comfort.',
       mat_title: 'Matte white film',
       mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.',
-      swipeHint: '← Swipe to see all 3 tints →'
+      antieffraction_title: 'Anti-burglary film',
+      antieffraction_desc: 'Transparent film that holds broken glass together on impact, significantly slowing down a break-in attempt.',
+      swipeHint: '← Swipe to see all 4 tints →'
     },
     reviews: {
       title: 'Reviews',

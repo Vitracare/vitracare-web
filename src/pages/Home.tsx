@@ -355,45 +355,60 @@ export default function Home() {
         </h2>
         <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
 
-        <div className="flex md:grid md:grid-cols-3 gap-6 md:gap-10 max-w-5xl mx-auto overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 px-4 -mx-4 md:px-0 md:mx-auto">
-          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
+        <div className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 max-w-6xl mx-auto overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 px-4 -mx-4 md:px-0 md:mx-auto">
+          <Link to="/blog/quel-film-choisir-vitrages#miroir" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/5"
+              className="w-full aspect-square rounded-xl mb-6 border border-black/5 transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #9AA3A6, #E7EAEA 45%, #7C8689)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
               {t.teintes.miroir_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.miroir_desc}
             </p>
-          </div>
+          </Link>
 
-          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
+          <Link to="/blog/quel-film-choisir-vitrages#solaire" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/10"
+              className="w-full aspect-square rounded-xl mb-6 border border-black/10 transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #C9DCE5, #EFF5F8)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
               {t.teintes.solaire_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.solaire_desc}
             </p>
-          </div>
+          </Link>
 
-          <div className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center">
+          <Link to="/blog/quel-film-choisir-vitrages#mat" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
             <div
-              className="w-full aspect-square rounded-xl mb-6 border border-black/15 shadow-sm"
+              className="w-full aspect-square rounded-xl mb-6 border border-black/15 shadow-sm transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #DADADA, #F4F4F4)' }}
             ></div>
-            <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
+            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
               {t.teintes.mat_title}
             </h3>
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.mat_desc}
             </p>
-          </div>
+          </Link>
+
+          <Link to="/blog/quel-film-choisir-vitrages#anti-effraction" className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group">
+            <div
+              className="w-full aspect-square rounded-xl mb-6 border border-black/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]"
+              style={{ background: 'linear-gradient(135deg, #EFF3F0, #FAFCFB)' }}
+            >
+              <ShieldCheck size={56} color={brandColor} strokeWidth={1.2} />
+            </div>
+            <h3 className="text-[19px] font-bold mb-2 group-hover:underline" style={{ color: headingColor }}>
+              {t.teintes.antieffraction_title}
+            </h3>
+            <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
+              {t.teintes.antieffraction_desc}
+            </p>
+          </Link>
         </div>
         <p className="text-center text-[12px] text-gray-400 mt-4 md:hidden">{t.teintes.swipeHint}</p>
 

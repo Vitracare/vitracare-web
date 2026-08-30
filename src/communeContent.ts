@@ -75,7 +75,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
-          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
         },
       ],
     },
@@ -129,7 +129,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
-          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
         },
       ],
     },
@@ -183,7 +183,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
-          answer: "Le film n'est pas une garantie contre le cambriolage à lui seul, mais il contribue à un principe recommandé par les services de prévention belges : réduire ce qui est visible depuis l'extérieur. Moins un logement laisse deviner ce qu'il contient, moins il attire l'attention.",
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
         },
       ],
     },
@@ -239,7 +239,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
-          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
         },
       ],
     },
@@ -293,7 +293,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
-          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
         },
       ],
     },
@@ -347,7 +347,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
-          answer: 'De folie is op zichzelf geen garantie tegen inbraak, maar ze draagt bij aan een principe dat door de Belgische preventiediensten wordt aanbevolen: verminderen wat zichtbaar is vanaf buiten. Hoe minder een woning laat raden wat ze bevat, hoe minder aandacht ze trekt.',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
         },
       ],
     },
@@ -403,7 +403,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Can the film help reduce the risk of burglary?',
-          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
         },
       ],
     },
@@ -457,7 +457,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Can the film help reduce the risk of burglary?',
-          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
         },
       ],
     },
@@ -511,7 +511,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Can the film help reduce the risk of burglary?',
-          answer: "The film is not a guarantee against burglary on its own, but it supports a principle recommended by Belgian crime prevention services: reducing what's visible from outside. The less a home reveals about what it contains, the less attention it draws.",
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
         },
       ],
     },

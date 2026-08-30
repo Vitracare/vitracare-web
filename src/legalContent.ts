@@ -2,7 +2,7 @@ export const legalContent = {
   FR: {
     faqTitle: 'FAQ',
     faqItems: [
-      { q: 'Quels types de films proposez-vous ?', a: "Trois teintes : l'effet miroir (intimité totale de jour, bloque 99% des UV), la teinte solaire (transparente, réduit la chaleur et les UV) et le blanc mat (intimité totale des deux côtés, idéal salle de bain ou verrière)." },
+      { q: 'Quels types de films proposez-vous ?', a: "Quatre films : l'effet miroir (intimité totale de jour, bloque 99% des UV), la teinte solaire (transparente, réduit la chaleur et les UV), le blanc mat (intimité totale des deux côtés, idéal salle de bain ou verrière) et le film anti-effraction (transparent, ralentit fortement une tentative d'effraction)." },
       { q: "L'effet miroir fonctionne-t-il aussi la nuit ?", a: "De jour, l'effet miroir bloque totalement la vue depuis l'extérieur. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse — c'est le fonctionnement normal de ce type de film, à garder en tête selon vos pièces." },
       { q: 'Comment se déroule une demande de devis ?', a: 'Vous nous transmettez vos mesures et quelques photos de vos vitrages pour une première estimation rapide. Si vous le préférez, ou pour les projets plus importants, nous pouvons également nous déplacer chez vous pour confirmer les mesures sur place avant de finaliser le devis.' },
       { q: 'Proposez-vous une visite à domicile ?', a: 'Oui — sur simple demande, ou systématiquement pour les grands chantiers, nous nous déplaçons pour évaluer précisément votre projet.' },
@@ -30,6 +30,8 @@ export const legalContent = {
       { q: 'Peut-on poser un film sur des fenêtres déjà installées, sans les démonter ?', a: "Oui, c'est justement l'un des grands avantages du film pour vitrage : il se pose directement sur vos fenêtres existantes, sans démontage ni remplacement du vitrage. L'intervention se fait chez vous, en une seule visite, sans gros travaux." },
       { q: 'Combien de temps dure la pose pour toute une maison ?', a: "La durée dépend du nombre et de la taille des vitrages à traiter — la pose se fait en une seule intervention chez vous, généralement en quelques heures pour une maison standard. Nous vous précisons la durée exacte dans votre devis, une fois votre projet évalué." },
       { q: 'Quel film choisir pour un bureau (reflets à l\'écran, chaleur) ?', a: "La teinte solaire est généralement le meilleur choix pour un bureau : elle réduit la chaleur et les reflets gênants sur les écrans, sans assombrir excessivement la pièce ni bloquer la vue. Si la confidentialité des documents ou des réunions est aussi un enjeu, le film effet miroir permet en plus de ne pas être vu depuis l'extérieur en journée." },
+      { q: 'Comment nettoyer une vitre sur laquelle un film est posé ?', a: "Uniquement à l'eau et au savon doux. Les produits d'entretien chimiques classiques (nettoyants vitres du commerce, produits à base d'ammoniaque ou d'alcool) peuvent abîmer le film et réduire sa durée de vie. Comme le film est posé côté intérieur, le nettoyage extérieur de vos vitres n'est pas concerné par cette précaution." },
+      { q: 'Le film anti-effraction empêche-t-il vraiment un cambriolage ?', a: "Non, aucun film ne rend une vitre incassable. Le principe est différent : en cas de choc, le verre se fissure mais les éclats restent collés au film au lieu de tomber, ce qui empêche le cambrioleur de simplement dégager la vitre brisée. Il doit s'acharner beaucoup plus longtemps pour passer, ce qui le ralentit fortement et laisse plus de temps pour réagir." },
     ],
     cgmrTitle: 'Conditions générales de mise en relation',
     cgmrSections: [
@@ -70,7 +72,7 @@ export const legalContent = {
   NL: {
     faqTitle: 'Veelgestelde vragen',
     faqItems: [
-      { q: 'Welke soorten folie bieden jullie aan?', a: 'Drie tinten: het spiegeleffect (volledige privacy overdag, blokkeert 99% van de UV-stralen), de zonwerende folie (transparant, vermindert warmte en UV) en de matwitte folie (volledige privacy langs beide kanten, ideaal voor badkamer of veranda).' },
+      { q: 'Welke soorten folie bieden jullie aan?', a: 'Vier folies: het spiegeleffect (volledige privacy overdag, blokkeert 99% van de UV-stralen), de zonwerende folie (transparant, vermindert warmte en UV), de matwitte folie (volledige privacy langs beide kanten, ideaal voor badkamer of veranda) en de inbraakwerende folie (transparant, vertraagt een inbraakpoging sterk).' },
       { q: "Werkt het spiegeleffect ook 's nachts?", a: "Overdag blokkeert het spiegeleffect het zicht van buitenaf volledig. 's Nachts, als uw interieur verlicht is en het buiten donker is, keert het effect om — dit is de normale werking van dit type folie, houd hier rekening mee per kamer." },
       { q: 'Hoe verloopt een offerteaanvraag?', a: "U bezorgt ons uw afmetingen en enkele foto's van uw beglazing voor een eerste snelle inschatting. Indien u dit verkiest, of voor grotere projecten, kunnen we ook bij u langsgaan om de afmetingen ter plaatse te bevestigen voordat de offerte wordt afgerond." },
       { q: 'Bieden jullie een huisbezoek aan?', a: 'Ja — op eenvoudig verzoek, of systematisch voor grotere werven, komen we langs om uw project nauwkeurig te evalueren.' },
@@ -98,6 +100,8 @@ export const legalContent = {
       { q: 'Kan folie op reeds geïnstalleerde ramen geplaatst worden, zonder ze te demonteren?', a: "Ja, dat is net een van de grote voordelen van raamfolie: ze wordt rechtstreeks op uw bestaande ramen geplaatst, zonder demontage of vervanging van de beglazing. De interventie gebeurt bij u thuis, in één bezoek, zonder grote werken." },
       { q: 'Hoe lang duurt de plaatsing voor een volledig huis?', a: "De duur hangt af van het aantal en de grootte van de te behandelen vensters — de plaatsing gebeurt in één interventie bij u thuis, doorgaans in enkele uren voor een standaardwoning. We geven u de exacte duur in uw offerte, na evaluatie van uw project." },
       { q: 'Welke folie kiezen voor een bureau (schermreflecties, hitte)?', a: "Zonwerende folie is doorgaans de beste keuze voor een bureau: ze vermindert de hitte en de hinderlijke schermreflecties, zonder de ruimte overdreven te verduisteren of het zicht te blokkeren. Als de vertrouwelijkheid van documenten of vergaderingen ook een aandachtspunt is, laat spiegeleffectfolie bovendien toe overdag niet gezien te worden van buitenaf." },
+      { q: 'Hoe reinig ik een raam waarop folie is geplaatst?', a: "Enkel met water en milde zeep. Klassieke chemische onderhoudsproducten (gewone glasreiniger, producten op basis van ammoniak of alcohol) kunnen de folie beschadigen en haar levensduur verkorten. Aangezien de folie aan de binnenzijde wordt geplaatst, geldt deze voorzorg niet voor het reinigen van de buitenkant van uw ramen." },
+      { q: 'Voorkomt de inbraakwerende folie echt een inbraak?', a: "Nee, geen enkele folie maakt een raam onbreekbaar. Het principe is anders: bij een schok barst het glas, maar de scherven blijven aan de folie kleven in plaats van te vallen, waardoor de inbreker de gebroken ruit niet zomaar kan verwijderen. Hij moet veel langer volharden om door te geraken, wat hem sterk vertraagt en meer tijd geeft om te reageren." },
     ],
     cgmrTitle: 'Algemene voorwaarden voor bemiddeling',
     cgmrSections: [
@@ -138,7 +142,7 @@ export const legalContent = {
   EN: {
     faqTitle: 'FAQ',
     faqItems: [
-      { q: 'What types of film do you offer?', a: 'Three tints: mirror effect (full daytime privacy, blocks 99% of UV), solar tint (transparent, reduces heat and UV) and matte white (full privacy on both sides, ideal for bathrooms or conservatories).' },
+      { q: 'What types of film do you offer?', a: 'Four films: mirror effect (full daytime privacy, blocks 99% of UV), solar tint (transparent, reduces heat and UV), matte white (full privacy on both sides, ideal for bathrooms or conservatories) and anti-burglary film (transparent, significantly slows down a break-in attempt).' },
       { q: 'Does the mirror effect also work at night?', a: "During the day, the mirror effect fully blocks the view from outside. At night, if your interior is lit and it's dark outside, the effect reverses — this is normal behaviour for this type of film, worth keeping in mind depending on the room." },
       { q: 'How does a quote request work?', a: 'You send us your measurements and a few photos of your windows for a quick initial estimate. If you prefer, or for larger projects, we can also visit you to confirm the measurements on site before finalising the quote.' },
       { q: 'Do you offer a home visit?', a: 'Yes — on request, or systematically for larger projects, we come to assess your project precisely.' },
@@ -166,6 +170,8 @@ export const legalContent = {
       { q: 'Can film be applied to windows that are already installed, without removing them?', a: "Yes, that's actually one of the biggest advantages of window film: it's applied directly to your existing windows, with no need to remove or replace the glazing. The work is done at your home, in a single visit, with no major construction involved." },
       { q: 'How long does installation take for an entire house?', a: "The duration depends on the number and size of the windows involved — installation is carried out in a single visit at your home, typically taking a few hours for a standard house. We'll confirm the exact duration in your quote, once your project has been assessed." },
       { q: 'Which film should I choose for an office (screen glare, heat)?', a: "Solar tint is generally the best choice for an office: it reduces heat and distracting screen glare, without excessively darkening the room or blocking the view. If confidentiality of documents or meetings is also a concern, mirror effect film additionally lets you stay unseen from outside during the day." },
+      { q: 'How do I clean a window that has film applied to it?', a: "With water and mild soap only. Standard chemical cleaning products (regular glass cleaner, ammonia- or alcohol-based products) can damage the film and shorten its lifespan. Since the film is applied on the inside, this precaution doesn't affect cleaning the outside of your windows." },
+      { q: 'Does anti-burglary film really prevent a break-in?', a: "No, no film makes a window unbreakable. The principle is different: on impact, the glass cracks but the shards stay stuck to the film instead of falling, so an intruder can't simply clear the broken pane. They have to keep working much longer to get through, which slows them down significantly and gives more time to react." },
     ],
     cgmrTitle: 'Terms of introduction service',
     cgmrSections: [

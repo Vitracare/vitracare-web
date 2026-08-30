@@ -188,7 +188,7 @@ export default function BlogArticle() {
             {article.sections.map((section, idx) => (
               <div key={idx}>
                 {section.heading && (
-                  <h2 className="text-[21px] font-bold mb-3" style={{ color: '#464646' }}>
+                  <h2 id={section.anchor} className="text-[21px] font-bold mb-3 scroll-mt-28" style={{ color: '#464646' }}>
                     {section.heading}
                   </h2>
                 )}

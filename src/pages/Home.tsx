@@ -392,7 +392,7 @@ export default function Home() {
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.miroir_desc}
             </p>
-            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+            <span className="mt-auto pt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
               {openTint === 'miroir' ? t.teintes.showLess : t.teintes.learnMore}
               <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'miroir' ? 'rotate-180' : ''}`} />
             </span>
@@ -414,7 +414,7 @@ export default function Home() {
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.solaire_desc}
             </p>
-            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+            <span className="mt-auto pt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
               {openTint === 'solaire' ? t.teintes.showLess : t.teintes.learnMore}
               <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'solaire' ? 'rotate-180' : ''}`} />
             </span>
@@ -436,7 +436,7 @@ export default function Home() {
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.mat_desc}
             </p>
-            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+            <span className="mt-auto pt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
               {openTint === 'mat' ? t.teintes.showLess : t.teintes.learnMore}
               <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'mat' ? 'rotate-180' : ''}`} />
             </span>
@@ -449,21 +449,10 @@ export default function Home() {
             className="flex flex-col items-center text-center min-w-[260px] max-w-[260px] sm:min-w-[320px] sm:max-w-[320px] md:min-w-0 md:max-w-none shrink-0 md:shrink snap-center group cursor-pointer"
           >
             <div
-              className="relative overflow-hidden w-full aspect-square rounded-xl mb-6 border border-black/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]"
+              className="w-full aspect-square rounded-xl mb-6 border border-black/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]"
               style={{ background: 'linear-gradient(135deg, #E7F0EE, #FDFEFE)' }}
             >
-              {/* Subtle cracked-glass pattern: the film doesn't stay invisible when broken —
-                  it holds the shattered glass together, which is the actual selling point,
-                  so this reads better than trying to depict plain "transparency". */}
-              <svg className="absolute inset-0 w-full h-full opacity-[0.35]" viewBox="0 0 100 100" fill="none">
-                <path
-                  d="M52 58 L22 18 M52 58 L78 9 M52 58 L93 46 M52 58 L74 93 M52 58 L27 91 M52 58 L9 44 M37 36 L29 21 M67 41 L82 30 M42 72 L32 84 M52 58 L52 30"
-                  stroke="#9DB0AA"
-                  strokeWidth="1"
-                  strokeLinecap="round"
-                />
-              </svg>
-              <ShieldCheck size={52} color={brandColor} strokeWidth={1.2} className="relative" />
+              <ShieldCheck size={52} color={brandColor} strokeWidth={1.2} />
             </div>
             <h3 className="text-[19px] font-bold mb-2" style={{ color: headingColor }}>
               {t.teintes.antieffraction_title}
@@ -471,7 +460,7 @@ export default function Home() {
             <p className="text-[15px] leading-relaxed" style={{ color: lightTextColor }}>
               {t.teintes.antieffraction_desc}
             </p>
-            <span className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
+            <span className="mt-auto pt-3 inline-flex items-center gap-1 text-[13px] font-bold" style={{ color: brandColor }}>
               {openTint === 'antieffraction' ? t.teintes.showLess : t.teintes.learnMore}
               <ChevronDown size={14} strokeWidth={2.5} className={`transition-transform ${openTint === 'antieffraction' ? 'rotate-180' : ''}`} />
             </span>
@@ -480,20 +469,22 @@ export default function Home() {
         <p className="text-center text-[12px] text-gray-400 mt-4 md:hidden">{t.teintes.swipeHint}</p>
 
         {openTint && (
-          <div className="max-w-2xl mx-auto mt-10 p-6 md:p-8 rounded-xl text-center" style={{ backgroundColor: '#FAF9F6' }}>
-            <h4 className="text-[16px] font-bold mb-2" style={{ color: headingColor }}>
+          <div className="max-w-2xl mx-auto mt-10 p-6 md:p-8 rounded-xl text-left" style={{ backgroundColor: '#FAF9F6' }}>
+            <h4 className="text-[16px] font-bold mb-3 text-center" style={{ color: headingColor }}>
               {tintTitles[openTint]}
             </h4>
             <p className="text-[14px] leading-relaxed mb-4" style={{ color: lightTextColor }}>
               {tintMoreText[openTint]}
             </p>
-            <Link
-              to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
-              className="text-[13px] font-bold underline underline-offset-2"
-              style={{ color: brandColor }}
-            >
-              {t.teintes.readMore}
-            </Link>
+            <p className="text-center">
+              <Link
+                to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
+                className="text-[13px] font-bold underline underline-offset-2"
+                style={{ color: brandColor }}
+              >
+                {t.teintes.readMore}
+              </Link>
+            </p>
           </div>
         )}
 

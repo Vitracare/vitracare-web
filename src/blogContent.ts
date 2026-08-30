@@ -79,9 +79,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Pose et durée de vie',
           paragraphs: [
-            "Quel que soit le film choisi, la pose est réalisée par notre installateur partenaire, toujours à l'intérieur du vitrage — ce qui garantit une durée de vie optimale, jusqu'à 10 ans. La pose est couverte par une garantie d'un an.",
+            "Quel que soit le film choisi, la pose est réalisée par notre installateur partenaire, toujours à l'intérieur du vitrage — ce qui garantit une durée de vie optimale, jusqu'à 10 ans. La pose est couverte par une garantie de deux ans.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement.",
-            "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement.",
+            "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement. Pendant le mois qui suit la pose, évitez également de nettoyer ou de toucher la vitre : c'est le temps nécessaire au film pour adhérer complètement. De petites bulles d'air éventuellement visibles au début disparaissent d'elles-mêmes durant cette période, la chaleur et le soleil aidant le film à se fixer définitivement.",
+            "Un petit avantage indirect de la pose : la vitre est nettoyée avant l'application du film, ce qui laisse cette face impeccable une fois le chantier terminé.",
           ],
         },
         {
@@ -326,9 +327,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Plaatsing en levensduur',
           paragraphs: [
-            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze partnerinstallateur, steeds aan de binnenzijde van het glas — wat een optimale levensduur garandeert, tot 10 jaar. De plaatsing wordt gedekt door een garantie van één jaar.",
+            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze partnerinstallateur, steeds aan de binnenzijde van het glas — wat een optimale levensduur garandeert, tot 10 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend.",
-            "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots.",
+            "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots. Vermijd ook gedurende de maand na de plaatsing om het raam te reinigen of aan te raken: dit is de tijd die de folie nodig heeft om volledig te hechten. Eventuele kleine luchtbelletjes die in het begin zichtbaar zijn, verdwijnen tijdens deze periode vanzelf, doordat warmte en zonlicht de folie helpen definitief te fixeren.",
+            "Een bijkomend voordeel van de plaatsing: het raam wordt gereinigd vóór het aanbrengen van de folie, waardoor deze zijde na afloop van de werken perfect proper is.",
           ],
         },
         {
@@ -572,9 +574,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Installation and lifespan',
           paragraphs: [
-            "Whichever film you choose, installation is carried out by our partner installer, always on the interior side of the glass — which guarantees an optimal lifespan of up to 10 years. Installation is covered by a one-year warranty.",
+            "Whichever film you choose, installation is carried out by our partner installer, always on the interior side of the glass — which guarantees an optimal lifespan of up to 10 years. Installation is covered by a two-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation.',
-            "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough.",
+            "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation — this is the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
+            "A small side benefit of the installation: the window is cleaned before the film is applied, leaving that side spotless once the work is done.",
           ],
         },
         {

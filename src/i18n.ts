@@ -69,7 +69,7 @@ export const translations = {
     strip: {
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
       f2_title: 'Film garanti', f2_desc: 'Jusqu\'à 10 ans\npar le fabricant',
-      f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 1 an\npar VitraCare',
+      f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 2 ans\npar VitraCare',
       f4_title: 'Devis sous 24h', f4_desc: 'Contacter un expert\nsans engagement'
     },
     map: {
@@ -88,7 +88,7 @@ export const translations = {
       process2_title: 'Nous vous rappelons sous 24h',
       process2_desc: 'Pour affiner votre besoin et vous proposer le film le plus adapté, sans engagement de votre part.',
       process3_title: 'Pose par notre installateur partenaire',
-      process3_desc: 'La pose est réalisée à votre domicile, en une seule intervention, et couverte par une garantie d\'un an.',
+      process3_desc: 'La pose est réalisée à votre domicile, en une seule intervention, et couverte par une garantie de deux ans.',
       success: 'Message envoyé ! Nous vous recontacterons dans les 24 heures.',
       form_name: 'Nom / Prénom',
       form_address: 'Adresse',
@@ -226,7 +226,7 @@ export const translations = {
     strip: {
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
       f2_title: 'Gegarandeerde folie', f2_desc: 'Tot 10 jaar\ndoor de fabrikant',
-      f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 1 jaar\ndoor VitraCare',
+      f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 2 jaar\ndoor VitraCare',
       f4_title: 'Offerte binnen 24u', f4_desc: 'Neem vrijblijvend\ncontact op met een expert'
     },
     map: {
@@ -245,7 +245,7 @@ export const translations = {
       process2_title: 'Wij bellen u terug binnen 24u',
       process2_desc: 'Om uw behoefte te verfijnen en u de meest geschikte folie voor te stellen, geheel vrijblijvend.',
       process3_title: 'Plaatsing door onze partnerinstallateur',
-      process3_desc: 'De plaatsing gebeurt bij u thuis, in één interventie, en is gedekt door een garantie van één jaar.',
+      process3_desc: 'De plaatsing gebeurt bij u thuis, in één interventie, en is gedekt door een garantie van twee jaar.',
       success: 'Bericht verzonden! We nemen binnen 24 uur contact met u op.',
       form_name: 'Naam / Voornaam',
       form_address: 'Adres',
@@ -383,7 +383,7 @@ export const translations = {
     strip: {
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',
       f2_title: 'Guaranteed film', f2_desc: 'Up to 10 years\nby the manufacturer',
-      f3_title: 'Guaranteed installation', f3_desc: 'Up to 1 year\nby VitraCare',
+      f3_title: 'Guaranteed installation', f3_desc: 'Up to 2 years\nby VitraCare',
       f4_title: 'Quote within 24h', f4_desc: 'Contact an expert\nwithout obligation'
     },
     map: {
@@ -402,7 +402,7 @@ export const translations = {
       process2_title: 'We call you back within 24h',
       process2_desc: 'To refine your needs and suggest the most suitable film, with no obligation on your part.',
       process3_title: 'Installation by our partner installer',
-      process3_desc: 'Installation is carried out at your home, in a single visit, and covered by a one-year warranty.',
+      process3_desc: 'Installation is carried out at your home, in a single visit, and covered by a two-year warranty.',
       success: 'Message sent! We will contact you within 24 hours.',
       form_name: 'Name / Surname',
       form_address: 'Address',

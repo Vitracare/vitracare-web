@@ -268,6 +268,77 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'remplacer-fenetres-ou-film-vitrage',
+      title: 'Remplacer ses fenêtres ou poser un film sur ses vitrages : quelle solution choisir ?',
+      metaTitle: 'Remplacer ses fenêtres ou film pour vitrage ? — VitraCare',
+      metaDescription:
+        "Fenêtres à remplacer ou film sur vitrage existant : coût, durée de vie et réversibilité comparés, pour choisir la solution adaptée à votre projet.",
+      date: '2026-09-05',
+      excerpt:
+        "Remplacer ses fenêtres coûte cher et prend du temps. Le film pour vitrage est-il une alternative sérieuse ? Voici un comparatif honnête, chiffres à l'appui.",
+      sections: [
+        {
+          paragraphs: [
+            "Vos fenêtres laissent trop entrer la chaleur, les UV, ou le regard des passants, et vous hésitez entre les remplacer complètement ou poser un film sur le vitrage existant ? Les deux solutions répondent au même problème, mais pas de la même manière, ni au même prix. Voici un comparatif honnête pour vous aider à choisir.",
+          ],
+        },
+        {
+          heading: 'Remplacer ses fenêtres : une solution durable, mais coûteuse',
+          paragraphs: [
+            "Remplacer un vitrage simple par du double ou triple vitrage reste la solution la plus complète sur le long terme : elle améliore l'isolation thermique et phonique de fond en comble, et dure plusieurs décennies. En Belgique, comptez généralement entre 150 et 300 €/m² pour un double vitrage standard posé, et jusqu'à 400 €/m² pour une version haute performance (faible émissivité, gaz argon). Pour une maison avec 5 fenêtres et 8 m² de vitrage, le remplacement complet peut ainsi représenter environ 2000 € hors TVA, selon les estimations du secteur.",
+            "Cette solution est irréversible une fois posée, et implique un vrai chantier : démontage, nouveau châssis ou nouveau vitrage intégré, plusieurs jours d'intervention selon le nombre de fenêtres.",
+          ],
+        },
+        {
+          heading: 'Le film pour vitrage : rapide, réversible, et bien moins cher',
+          paragraphs: [
+            "Le film pour vitrage se pose directement sur vos fenêtres existantes, sans démontage ni remplacement du vitrage. Le coût se situe généralement entre 8 et 80 €/m² selon le type de film, soit une fraction du prix d'un remplacement complet. L'intervention se fait en une seule visite, sans gros œuvre.",
+            "Autre avantage : le film est entièrement réversible. Si vos fenêtres sont encore en bon état, il n'y a aucune raison de les remplacer simplement pour gagner en confort thermique, en intimité ou en protection UV — le film répond au même besoin sans les inconvénients d'un chantier lourd.",
+          ],
+        },
+        {
+          heading: 'Ce que chaque solution ne fait pas',
+          paragraphs: [
+            "Le film ne remplace pas un vitrage défectueux : s'il y a de la condensation entre les parois d'un double vitrage, une fenêtre qui ferme mal, ou un simple vitrage très ancien mal isolé, c'est le signe qu'un remplacement est nécessaire, pas qu'un film suffira.",
+            "À l'inverse, remplacer ses fenêtres uniquement pour gagner en intimité ou réduire la chaleur, alors qu'elles sont encore fonctionnelles, représente une dépense difficile à justifier quand un film résout le même problème pour une fraction du prix.",
+          ],
+        },
+        {
+          heading: 'Les deux solutions sont compatibles',
+          paragraphs: [
+            "Vous venez de faire remplacer vos fenêtres et cherchez en plus de l'intimité ou une protection solaire renforcée ? Le film se pose aussi bien sur du simple, double que triple vitrage neuf. Beaucoup de nos clients l'utilisent justement en complément d'un vitrage récent, pour ajouter une fonction (intimité, effet miroir, anti-effraction) que le vitrage seul n'apporte pas.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Comparatif film solaire vs vitrage à contrôle solaire — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
+            '[Prix pour changer une fenêtre en Belgique — Trustup](https://blog.trustup.be/fr/prix-changer-fenetres/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film pour vitrage fonctionne-t-il sur du double ou triple vitrage neuf ?',
+          answer: "Oui, sans problème. Le film se pose côté intérieur de n'importe quel type de vitrage — simple, double ou triple — qu'il soit ancien ou tout juste installé.",
+        },
+        {
+          question: 'Le film peut-il remplacer un vitrage à contrôle solaire intégré ?',
+          answer: "Il répond au même besoin (réduire la chaleur et les UV) mais pas de la même manière : le vitrage à contrôle solaire est intégré à la fabrication de la fenêtre et dure aussi longtemps qu'elle, alors que le film se pose après coup et se remplace plus facilement, pour un coût de départ bien inférieur.",
+        },
+        {
+          question: 'Combien de temps dure un film pour vitrage comparé à un remplacement de fenêtre ?',
+          answer: "Le film dure généralement jusqu'à 10 ans, contre plusieurs décennies pour un vitrage remplacé. En contrepartie, son coût de départ est nettement inférieur, et il peut être remplacé sans toucher à la fenêtre elle-même.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -515,6 +586,77 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'remplacer-fenetres-ou-film-vitrage',
+      title: 'Ramen vervangen of folie op uw beglazing plaatsen: wat kiezen?',
+      metaTitle: 'Ramen vervangen of raamfolie? — VitraCare',
+      metaDescription:
+        'Ramen vervangen of folie op bestaande beglazing: kostprijs, levensduur en omkeerbaarheid vergeleken, om de juiste oplossing voor uw project te kiezen.',
+      date: '2026-09-05',
+      excerpt:
+        'Ramen vervangen kost veel en duurt lang. Is raamfolie een serieus alternatief? Een eerlijke vergelijking, met cijfers.',
+      sections: [
+        {
+          paragraphs: [
+            'Uw ramen laten te veel warmte, UV-stralen of blikken van voorbijgangers binnen, en u twijfelt tussen ze volledig vervangen of folie plaatsen op de bestaande beglazing? Beide oplossingen pakken hetzelfde probleem aan, maar niet op dezelfde manier, en niet voor dezelfde prijs. Hier is een eerlijke vergelijking om u te helpen kiezen.',
+          ],
+        },
+        {
+          heading: 'Ramen vervangen: een duurzame maar dure oplossing',
+          paragraphs: [
+            'Enkel glas vervangen door dubbel of drievoudig glas blijft op lange termijn de meest complete oplossing: het verbetert de thermische en akoestische isolatie grondig, en gaat tientallen jaren mee. In België betaalt u doorgaans tussen 150 en 300 €/m² voor standaard dubbel glas geplaatst, en tot 400 €/m² voor een hoogperformante versie (lage emissiviteit, argongas). Voor een woning met 5 ramen en 8 m² beglazing kan de volledige vervanging zo ongeveer 2000 € exclusief btw bedragen, volgens schattingen uit de sector.',
+            'Deze oplossing is onomkeerbaar eenmaal geplaatst, en vereist een echte werf: demontage, nieuw kozijn of nieuwe geïntegreerde beglazing, meerdere dagen werk afhankelijk van het aantal ramen.',
+          ],
+        },
+        {
+          heading: 'Raamfolie: snel, omkeerbaar, en veel goedkoper',
+          paragraphs: [
+            'Raamfolie wordt rechtstreeks op uw bestaande ramen geplaatst, zonder demontage of vervanging van de beglazing. De kostprijs ligt doorgaans tussen 8 en 80 €/m² afhankelijk van het type folie, dus een fractie van de prijs van een volledige vervanging. De interventie gebeurt in één bezoek, zonder grote werken.',
+            'Nog een voordeel: de folie is volledig omkeerbaar. Als uw ramen nog in goede staat zijn, is er geen enkele reden om ze te vervangen enkel om thermisch comfort, privacy of UV-bescherming te winnen — de folie beantwoordt aan dezelfde behoefte zonder de nadelen van een zware werf.',
+          ],
+        },
+        {
+          heading: 'Wat elke oplossing niet doet',
+          paragraphs: [
+            'De folie vervangt geen defecte beglazing: als er condensatie zit tussen de wanden van een dubbel glas, een raam dat slecht sluit, of zeer oud enkel glas met slechte isolatie, is dat een teken dat vervanging nodig is, niet dat een folie zal volstaan.',
+            'Omgekeerd is het vervangen van ramen enkel om privacy te winnen of warmte te verminderen, terwijl ze nog functioneel zijn, een uitgave die moeilijk te verantwoorden is wanneer een folie hetzelfde probleem oplost voor een fractie van de prijs.',
+          ],
+        },
+        {
+          heading: 'Beide oplossingen zijn compatibel',
+          paragraphs: [
+            'Heeft u net uw ramen laten vervangen en zoekt u bovendien meer privacy of extra zonwering? De folie wordt evengoed geplaatst op nieuw enkel, dubbel of drievoudig glas. Veel van onze klanten gebruiken ze net als aanvulling op recente beglazing, om een functie toe te voegen (privacy, spiegeleffect, inbraakwering) die de beglazing alleen niet biedt.',
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[Vergelijking zonnefolie vs zonwerende beglazing — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
+            '[Prijs om een raam te vervangen in België — Trustup](https://blog.trustup.be/fr/prix-changer-fenetres/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw project en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Werkt raamfolie op nieuw dubbel of drievoudig glas?',
+          answer: 'Ja, zonder probleem. De folie wordt aan de binnenzijde van eender welk type beglazing geplaatst — enkel, dubbel of drievoudig — of het nu oud is of net geïnstalleerd.',
+        },
+        {
+          question: 'Kan folie een geïntegreerde zonwerende beglazing vervangen?',
+          answer: 'Ze beantwoordt aan dezelfde behoefte (warmte en UV verminderen) maar niet op dezelfde manier: zonwerende beglazing is geïntegreerd bij de fabricage van het raam en gaat even lang mee, terwijl folie achteraf geplaatst wordt en makkelijker te vervangen is, voor een veel lagere startprijs.',
+        },
+        {
+          question: 'Hoe lang gaat raamfolie mee vergeleken met het vervangen van een raam?',
+          answer: 'Folie gaat doorgaans tot 10 jaar mee, tegenover meerdere decennia voor vervangen beglazing. Daartegenover staat een aanzienlijk lagere startprijs, en ze kan vervangen worden zonder het raam zelf aan te raken.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -759,6 +901,77 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'How long does installation take?',
           answer: "Installation is carried out by our partner installer directly at your home, in a single visit. The duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
+        },
+      ],
+    },
+    {
+      slug: 'remplacer-fenetres-ou-film-vitrage',
+      title: 'Replace your windows or add film to your glazing: which should you choose?',
+      metaTitle: 'Replace Windows or Add Window Film? — VitraCare',
+      metaDescription:
+        'Replacing windows or adding film to existing glazing: cost, lifespan and reversibility compared, to help you choose the right solution for your project.',
+      date: '2026-09-05',
+      excerpt:
+        "Replacing windows is expensive and slow. Is window film a serious alternative? An honest, figures-based comparison.",
+      sections: [
+        {
+          paragraphs: [
+            "Your windows let in too much heat, UV rays, or prying eyes, and you're torn between replacing them entirely or adding film to the existing glazing? Both solutions address the same problem, but not in the same way, and not at the same price. Here's an honest comparison to help you choose.",
+          ],
+        },
+        {
+          heading: 'Replacing your windows: a durable but costly solution',
+          paragraphs: [
+            "Replacing single glazing with double or triple glazing remains the most complete long-term solution: it thoroughly improves thermal and acoustic insulation and lasts for decades. In Belgium, expect to pay generally between €150 and €300/m² for standard double glazing installed, and up to €400/m² for a high-performance version (low emissivity, argon gas). For a house with 5 windows and 8 m² of glazing, a full replacement can amount to around €2,000 excluding VAT, according to industry estimates.",
+            'This solution is irreversible once installed, and involves real construction work: removal, a new frame or newly integrated glazing, several days of work depending on the number of windows.',
+          ],
+        },
+        {
+          heading: 'Window film: fast, reversible, and far cheaper',
+          paragraphs: [
+            'Window film is applied directly to your existing windows, with no need to remove or replace the glazing. The cost is generally between €8 and €80/m² depending on the type of film, a fraction of the price of a full replacement. The work is done in a single visit, with no major construction involved.',
+            "Another advantage: the film is fully reversible. If your windows are still in good condition, there's no reason to replace them just to gain thermal comfort, privacy, or UV protection — film addresses the same need without the drawbacks of major construction work.",
+          ],
+        },
+        {
+          heading: "What each solution doesn't do",
+          paragraphs: [
+            "Film doesn't fix faulty glazing: if there's condensation between the panes of a double-glazed window, a window that doesn't close properly, or very old, poorly insulated single glazing, that's a sign replacement is needed, not that film will be enough.",
+            'Conversely, replacing windows solely to gain privacy or reduce heat, when they are still functional, is a hard expense to justify when film solves the same problem for a fraction of the price.',
+          ],
+        },
+        {
+          heading: 'The two solutions work together',
+          paragraphs: [
+            'Just had your windows replaced and still want more privacy or extra solar protection? Film applies just as well to new single, double, or triple glazing. Many of our clients use it precisely as a complement to recently installed glazing, to add a function (privacy, mirror effect, anti-burglary protection) that the glazing alone does not provide.',
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Solar film vs solar control glass comparison — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
+            '[Cost of replacing a window in Belgium — Trustup](https://blog.trustup.be/fr/prix-changer-fenetres/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does window film work on new double or triple glazing?',
+          answer: "Yes, without any issue. The film is applied to the inside of any type of glazing — single, double, or triple — whether it's old or just installed.",
+        },
+        {
+          question: 'Can film replace built-in solar control glazing?',
+          answer: "It addresses the same need (reducing heat and UV) but not in the same way: solar control glazing is integrated during the window's manufacturing and lasts as long as the window itself, while film is applied afterwards and is easier to replace, at a much lower starting cost.",
+        },
+        {
+          question: "How does window film's lifespan compare to replacing a window?",
+          answer: 'Film typically lasts up to 10 years, compared to several decades for replaced glazing. In exchange, its starting cost is significantly lower, and it can be replaced without touching the window itself.',
         },
       ],
     },

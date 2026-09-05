@@ -243,6 +243,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/remplacer-fenetres-ou-film-vitrage',
+  meta: {
+    FR: {
+      title: 'Remplacer ses fenêtres ou film pour vitrage ? — VitraCare',
+      description:
+        "Fenêtres à remplacer ou film sur vitrage existant : coût, durée de vie et réversibilité comparés, pour choisir la solution adaptée à votre projet.",
+      headline: 'Remplacer ses fenêtres ou poser un film sur ses vitrages : quelle solution choisir ?',
+      datePublished: '2026-09-05',
+      dateModified: '2026-09-05',
+    },
+    NL: {
+      title: 'Ramen vervangen of raamfolie? — VitraCare',
+      description:
+        'Ramen vervangen of folie op bestaande beglazing: kostprijs, levensduur en omkeerbaarheid vergeleken, om de juiste oplossing voor uw project te kiezen.',
+      headline: 'Ramen vervangen of folie op uw beglazing plaatsen: wat kiezen?',
+      datePublished: '2026-09-05',
+      dateModified: '2026-09-05',
+    },
+    EN: {
+      title: 'Replace Windows or Add Window Film? — VitraCare',
+      description:
+        'Replacing windows or adding film to existing glazing: cost, lifespan and reversibility compared, to help you choose the right solution for your project.',
+      headline: 'Replace your windows or add film to your glazing: which should you choose?',
+      datePublished: '2026-09-05',
+      dateModified: '2026-09-05',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

@@ -42,7 +42,7 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
       </Link>
 
       {/* Desktop Navigation - Centered */}
-      <nav className="hidden lg:flex items-center gap-8 text-[20px] absolute left-1/2 transform -translate-x-1/2">
+      <nav className="hidden xl:flex items-center gap-8 text-[20px] absolute left-1/2 transform -translate-x-1/2">
         {navItems.map((item) => (
           <Link
             key={item.id}

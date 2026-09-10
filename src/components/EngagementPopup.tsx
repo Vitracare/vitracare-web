@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { X, MessageCircle } from 'lucide-react';
+import { X, MessageCircle, Sparkles } from 'lucide-react';
 import { translations, Lang } from '../i18n';
 import { langPrefixes } from '../App';
 import { withLangPrefix } from './LocalizedLink';
@@ -34,6 +34,9 @@ export const EngagementPopup = () => {
   const barePath = location.pathname.replace(/^\/(nl|en)(?=\/|$)/, '') || '/';
   const isHiddenPage = HIDDEN_ON.some((p) => barePath === p || barePath === `${p}/`);
   const offerActive = Date.now() <= OFFER_END_DATE.getTime();
+  // Real, honest countdown — computed from the same end date the offer itself expires on,
+  // never a separate "fake urgency" number.
+  const daysLeft = Math.max(0, Math.ceil((OFFER_END_DATE.getTime() - Date.now()) / 86400000));
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -59,26 +62,66 @@ export const EngagementPopup = () => {
         visible ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-6 pointer-events-none'
       }`}
     >
-      <div className="relative bg-white rounded-2xl shadow-2xl border border-black/5 p-6 pt-7">
+      <div
+        className="relative rounded-2xl shadow-2xl p-6 pt-7"
+        style={
+          offerActive
+            ? { backgroundColor: '#FBF3E3', border: '2px dashed #BA9765' }
+            : { backgroundColor: '#FFFFFF', border: '1px solid rgba(0,0,0,0.05)' }
+        }
+      >
         <button
           type="button"
           onClick={close}
           aria-label="Close"
-          className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors"
+          className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full text-gray-400 hover:bg-black/5 hover:text-gray-600 transition-colors"
         >
           <X size={16} />
         </button>
 
-        <div className="w-[42px] h-[42px] rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#F2E9DA' }}>
-          <MessageCircle size={20} color={brandColor} />
-        </div>
+        {offerActive ? (
+          <>
+            <div
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider mb-4 motion-safe:animate-pulse"
+              style={{ backgroundColor: brandColor, color: '#FFFFFF' }}
+            >
+              <Sparkles size={12} />
+              {t.offre.eyebrow}
+            </div>
 
-        <h3 className="text-[17px] font-bold leading-snug mb-2" style={{ color: '#464646' }}>
-          {offerActive ? t.popup.offerTitle : t.popup.title}
-        </h3>
-        <p className="text-[14px] text-[#767676] leading-relaxed mb-5">
-          {offerActive ? t.popup.offerSubtitle : t.popup.subtitle}
-        </p>
+            <h3 className="text-[20px] font-bold leading-tight mb-2" style={{ color: '#464646' }}>
+              {t.popup.offerTitle}
+            </h3>
+            <p className="text-[14px] text-[#6a6a6a] leading-relaxed mb-4">
+              {t.popup.offerSubtitle}
+            </p>
+
+            <div
+              className="flex items-center gap-3 rounded-xl mb-5 px-4 py-3"
+              style={{ backgroundColor: '#2b2419' }}
+            >
+              <span className="text-[28px] font-extrabold leading-none" style={{ color: '#E9C88A' }}>
+                {daysLeft}
+              </span>
+              <span className="text-[12px] font-bold uppercase tracking-wide leading-snug" style={{ color: '#F4EDDE' }}>
+                {t.popup.offerDaysLeft}
+              </span>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="w-[42px] h-[42px] rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#F2E9DA' }}>
+              <MessageCircle size={20} color={brandColor} />
+            </div>
+
+            <h3 className="text-[17px] font-bold leading-snug mb-2" style={{ color: '#464646' }}>
+              {t.popup.title}
+            </h3>
+            <p className="text-[14px] text-[#767676] leading-relaxed mb-5">
+              {t.popup.subtitle}
+            </p>
+          </>
+        )}
 
         <div className="flex flex-col gap-2.5">
           <a
@@ -96,7 +139,7 @@ export const EngagementPopup = () => {
             href={withLangPrefix(offerActive ? '/offre' : '/devis', prefix)}
             onClick={close}
             className="inline-flex items-center justify-center text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-gray-200 hover:border-[#BA9765] hover:text-[#BA9765] cursor-pointer"
-            style={{ color: '#464646' }}
+            style={{ color: '#464646', backgroundColor: offerActive ? '#FFFFFF' : 'transparent' }}
           >
             {offerActive ? t.popup.offerCta : t.hero.getQuote}
           </a>

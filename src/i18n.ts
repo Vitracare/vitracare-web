@@ -155,7 +155,8 @@ export const translations = {
       whatsapp: 'Discuter sur WhatsApp',
       offerTitle: 'Nettoyage de vitres offert avec votre pose de film',
       offerSubtitle: "Offre valable jusqu'au 30 septembre 2026 — discutez-en sur WhatsApp ou découvrez l'offre.",
-      offerCta: "Voir l'offre"
+      offerCta: "Voir l'offre",
+      offerDaysLeft: "jours avant la fin de l'offre"
     },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
@@ -328,7 +329,8 @@ export const translations = {
       whatsapp: 'Chat via WhatsApp',
       offerTitle: 'Gratis raamreiniging bij uw folieplaatsing',
       offerSubtitle: 'Aanbieding geldig tot 30 september 2026 — chat via WhatsApp of bekijk de aanbieding.',
-      offerCta: 'Bekijk de aanbieding'
+      offerCta: 'Bekijk de aanbieding',
+      offerDaysLeft: 'dagen tot het einde van de actie'
     },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
@@ -501,7 +503,8 @@ export const translations = {
       whatsapp: 'Chat on WhatsApp',
       offerTitle: 'Free window cleaning with your film installation',
       offerSubtitle: 'Offer valid until September 30, 2026 — chat on WhatsApp or check out the offer.',
-      offerCta: 'View the offer'
+      offerCta: 'View the offer',
+      offerDaysLeft: 'days left before the offer ends'
     },
     commune: {
       otherAreas: 'We also work near you'

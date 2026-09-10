@@ -32,20 +32,32 @@ export default function Offre() {
       <div className="flex-1 px-8 md:px-16 lg:px-20 pt-36 pb-24">
         <div className="max-w-3xl mx-auto">
           <div
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-bold mb-6"
-            style={{ backgroundColor: '#F2E9DA', color: brandColor }}
+            className="rounded-2xl mb-10 p-8 md:p-10"
+            style={{ backgroundColor: '#FBF3E3', border: '2px dashed #BA9765' }}
           >
-            <Sparkles size={14} />
-            {o.badge}
+            <div
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[12px] font-bold uppercase tracking-wider mb-4"
+              style={{ backgroundColor: brandColor, color: '#FFFFFF' }}
+            >
+              <Sparkles size={13} />
+              {o.eyebrow}
+            </div>
+
+            <h1 className="text-[30px] md:text-[38px] font-bold leading-tight mb-4" style={{ color: '#464646' }}>
+              {o.title}
+            </h1>
+
+            <p className="text-[16px] leading-relaxed mb-5" style={{ color: '#4a4a4a' }}>
+              {o.intro}
+            </p>
+
+            <div
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-bold"
+              style={{ backgroundColor: '#FFFFFF', color: brandColor, border: `1.5px solid ${brandColor}` }}
+            >
+              {o.badge}
+            </div>
           </div>
-
-          <h1 className="text-[30px] md:text-[38px] font-bold leading-tight mb-6" style={{ color: '#464646' }}>
-            {o.title}
-          </h1>
-
-          <p className="text-[16px] leading-relaxed mb-10" style={{ color: '#4a4a4a' }}>
-            {o.intro}
-          </p>
 
           <div className="flex flex-col gap-8 text-[16px] leading-relaxed" style={{ color: '#4a4a4a' }}>
             <div>

@@ -159,17 +159,17 @@ const pages = [
       FR: {
         title: 'Offre nettoyage de vitres — VitraCare',
         description:
-          "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Service de nettoyage aussi disponible seul, dès 8€.",
+          "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Offre limitée, contactez-nous pour en profiter.",
       },
       NL: {
         title: 'Aanbieding raamreiniging — VitraCare',
         description:
-          'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Reinigingsdienst ook apart beschikbaar, vanaf 8€.',
+          'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Beperkte aanbieding, neem contact op om ervan te genieten.',
       },
       EN: {
         title: 'Window Cleaning Offer — VitraCare',
         description:
-          'Free window cleaning with any film installation, until September 30, 2026. Standalone cleaning service also available, from €8.',
+          'Free window cleaning with any film installation, until September 30, 2026. Limited-time offer, contact us to take advantage of it.',
       },
     },
   },

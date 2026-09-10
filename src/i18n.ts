@@ -152,10 +152,25 @@ export const translations = {
     popup: {
       title: 'Une question sur vos vitrages ?',
       subtitle: 'Discutez directement avec nous sur WhatsApp, ou demandez votre devis gratuit — sans engagement.',
-      whatsapp: 'Discuter sur WhatsApp'
+      whatsapp: 'Discuter sur WhatsApp',
+      offerTitle: 'Nettoyage de vitres offert avec votre pose de film',
+      offerSubtitle: "Offre valable jusqu'au 30 septembre 2026 — discutez-en sur WhatsApp ou découvrez l'offre.",
+      offerCta: "Voir l'offre"
     },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
+    },
+    offre: {
+      metaTitle: 'Offre nettoyage de vitres — VitraCare',
+      metaDescription: "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Service de nettoyage aussi disponible seul, dès 8€.",
+      badge: "Offre valable jusqu'au 30 septembre 2026",
+      title: 'Nettoyage de vitres offert avec votre pose de film',
+      intro: "Pour toute pose de film sur vos vitrages, nous nettoyons gratuitement les vitres concernées — intérieur et extérieur — avant l'application du film. Un service habituellement facturé à part, inclus ici sans supplément.",
+      section1_title: 'Ce qui est inclus',
+      section1_desc: "Le nettoyage des vitres où le film est posé, sur les deux faces, fait partie intégrante de notre prestation de pose. C'est nécessaire pour un rendu impeccable, et nous en profitons pour vous l'offrir plutôt que de le facturer séparément.",
+      section2_title: 'Un service de nettoyage à part entière',
+      section2_desc: "Nous proposons aussi le nettoyage de vitres indépendamment de toute pose de film : 8€ pour une vitre jusqu'à 1m², 15€ au-delà, intérieur et extérieur compris. Pour les très grandes surfaces vitrées (vérandas, grandes baies), un devis sur mesure est établi au cas par cas.",
+      cta: 'Demander un devis',
     }
   },
   NL: {
@@ -309,10 +324,25 @@ export const translations = {
     popup: {
       title: 'Een vraag over uw beglazing?',
       subtitle: 'Praat rechtstreeks met ons via WhatsApp, of vraag uw gratis offerte aan — vrijblijvend.',
-      whatsapp: 'Chat via WhatsApp'
+      whatsapp: 'Chat via WhatsApp',
+      offerTitle: 'Gratis raamreiniging bij uw folieplaatsing',
+      offerSubtitle: 'Aanbieding geldig tot 30 september 2026 — chat via WhatsApp of bekijk de aanbieding.',
+      offerCta: 'Bekijk de aanbieding'
     },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
+    },
+    offre: {
+      metaTitle: 'Aanbieding raamreiniging — VitraCare',
+      metaDescription: 'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Reinigingsdienst ook apart beschikbaar, vanaf 8€.',
+      badge: 'Aanbieding geldig tot 30 september 2026',
+      title: 'Gratis raamreiniging bij uw folieplaatsing',
+      intro: 'Bij elke folieplaatsing reinigen wij gratis de betrokken ramen — binnen- en buitenzijde — vóór het aanbrengen van de folie. Een dienst die normaal apart wordt gefactureerd, hier inbegrepen zonder meerprijs.',
+      section1_title: 'Wat is inbegrepen',
+      section1_desc: 'Het reinigen van de ramen waarop de folie wordt geplaatst, langs beide zijden, maakt integraal deel uit van onze plaatsingsdienst. Dit is nodig voor een perfect resultaat, en we bieden het u graag aan in plaats van het apart te factureren.',
+      section2_title: 'Een volwaardige reinigingsdienst',
+      section2_desc: "We bieden raamreiniging ook onafhankelijk van elke folieplaatsing aan: 8€ voor een raam tot 1m², 15€ daarboven, binnen- en buitenzijde inbegrepen. Voor zeer grote glasoppervlakken (veranda's, grote raampartijen) maken we een offerte op maat.",
+      cta: 'Offerte aanvragen',
     }
   },
   EN: {
@@ -466,10 +496,25 @@ export const translations = {
     popup: {
       title: 'A question about your windows?',
       subtitle: 'Chat with us directly on WhatsApp, or request your free quote — no obligation.',
-      whatsapp: 'Chat on WhatsApp'
+      whatsapp: 'Chat on WhatsApp',
+      offerTitle: 'Free window cleaning with your film installation',
+      offerSubtitle: 'Offer valid until September 30, 2026 — chat on WhatsApp or check out the offer.',
+      offerCta: 'View the offer'
     },
     commune: {
       otherAreas: 'We also work near you'
+    },
+    offre: {
+      metaTitle: 'Window Cleaning Offer — VitraCare',
+      metaDescription: 'Free window cleaning with any film installation, until September 30, 2026. Standalone cleaning service also available, from €8.',
+      badge: 'Offer valid until September 30, 2026',
+      title: 'Free window cleaning with your film installation',
+      intro: 'With any window film installation, we clean the windows involved — inside and out — before applying the film, free of charge. A service usually billed separately, included here at no extra cost.',
+      section1_title: "What's included",
+      section1_desc: "Cleaning the windows where the film is applied, on both sides, is part of our installation process. It's necessary for a flawless result, and we're happy to offer it rather than bill it separately.",
+      section2_title: 'A standalone cleaning service',
+      section2_desc: 'We also offer window cleaning independently of any film installation: €8 for a window up to 1m², €15 above that, inside and outside included. For very large glass surfaces (conservatories, large bay windows), we provide a custom quote.',
+      cta: 'Request a quote',
     }
   }
 };

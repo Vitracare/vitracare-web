@@ -8,6 +8,10 @@ import { withLangPrefix } from './LocalizedLink';
 const brandColor = '#BA9765';
 const SHOW_AFTER_MS = 9000;
 const DISMISSED_KEY = 'vitracare_popup_dismissed';
+// Window-cleaning launch offer: promotes automatically until this date, then the
+// popup reverts to its normal generic message on its own — no manual follow-up
+// needed, and the "valid until" claim in the copy can never go stale.
+const OFFER_END_DATE = new Date('2026-09-30T23:59:59+02:00');
 
 // Pages where a "talk to us" popup would be redundant — the visitor is already mid-conversion there.
 const HIDDEN_ON = ['/devis', '/contact'];
@@ -29,6 +33,7 @@ export const EngagementPopup = () => {
 
   const barePath = location.pathname.replace(/^\/(nl|en)(?=\/|$)/, '') || '/';
   const isHiddenPage = HIDDEN_ON.some((p) => barePath === p || barePath === `${p}/`);
+  const offerActive = Date.now() <= OFFER_END_DATE.getTime();
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -69,10 +74,10 @@ export const EngagementPopup = () => {
         </div>
 
         <h3 className="text-[17px] font-bold leading-snug mb-2" style={{ color: '#464646' }}>
-          {t.popup.title}
+          {offerActive ? t.popup.offerTitle : t.popup.title}
         </h3>
         <p className="text-[14px] text-[#767676] leading-relaxed mb-5">
-          {t.popup.subtitle}
+          {offerActive ? t.popup.offerSubtitle : t.popup.subtitle}
         </p>
 
         <div className="flex flex-col gap-2.5">
@@ -88,12 +93,12 @@ export const EngagementPopup = () => {
             {t.popup.whatsapp}
           </a>
           <a
-            href={withLangPrefix('/devis', prefix)}
+            href={withLangPrefix(offerActive ? '/offre' : '/devis', prefix)}
             onClick={close}
             className="inline-flex items-center justify-center text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-gray-200 hover:border-[#BA9765] hover:text-[#BA9765] cursor-pointer"
             style={{ color: '#464646' }}
           >
-            {t.hero.getQuote}
+            {offerActive ? t.popup.offerCta : t.hero.getQuote}
           </a>
         </div>
       </div>

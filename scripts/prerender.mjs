@@ -153,6 +153,26 @@ const pages = [
       EN: { title: 'Terms and Conditions — VitraCare', description: "VitraCare's general terms and conditions for introduction services." },
     },
   },
+  {
+    path: '/offre',
+    meta: {
+      FR: {
+        title: 'Offre nettoyage de vitres — VitraCare',
+        description:
+          "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Service de nettoyage aussi disponible seul, dès 8€.",
+      },
+      NL: {
+        title: 'Aanbieding raamreiniging — VitraCare',
+        description:
+          'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Reinigingsdienst ook apart beschikbaar, vanaf 8€.',
+      },
+      EN: {
+        title: 'Window Cleaning Offer — VitraCare',
+        description:
+          'Free window cleaning with any film installation, until September 30, 2026. Standalone cleaning service also available, from €8.',
+      },
+    },
+  },
 ];
 
 const blogArticles = [

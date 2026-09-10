@@ -313,6 +313,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/conditions-generales" />
   </url>
   <url>
+    <loc>https://vitracare.be/offre</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/offre" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/offre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/offre" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/offre" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/offre</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/offre" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/offre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/offre" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/offre" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/offre</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/offre" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/offre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/offre" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/offre" />
+  </url>
+  <url>
     <loc>https://vitracare.be/communes/uccle</loc>
     <lastmod>2026-08-28</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/communes/uccle" />

@@ -206,7 +206,7 @@ export default function Home() {
         alt=""
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 z-0 w-full h-full object-cover object-right md:object-center"
+        className="absolute inset-0 z-0 w-full h-full object-cover object-[62%_center] md:object-center"
       />
 
       {/* Strong White Gradient Overlay to match image */}

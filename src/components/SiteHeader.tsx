@@ -30,7 +30,7 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${solid ? 'py-6 bg-white shadow-sm' : 'py-10 bg-white/35 backdrop-blur-[6px]'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${solid ? 'py-6 bg-white shadow-sm' : 'py-10 bg-transparent'}`}>
       {/* Logo */}
       <Link to="/" className="flex items-center gap-3 mix-blend-multiply">
         <div className="relative h-8 w-[29px] overflow-hidden">

@@ -209,6 +209,22 @@ export default function Home() {
         className="absolute inset-0 z-0 w-full h-full object-cover object-[62%_center] md:object-center"
       />
 
+      {/* Same image, blurred, masked to only show on the plain wall between the text
+          and the windows — softens that seam without ever touching the windows
+          themselves, since the with/without-film comparison has to stay sharp there. */}
+      <img
+        src="/images/hero.jpg"
+        alt=""
+        aria-hidden="true"
+        decoding="async"
+        className="absolute inset-0 z-0 w-full h-full object-cover object-[62%_center] md:object-center"
+        style={{
+          filter: 'blur(18px)',
+          WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
+          maskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
+        }}
+      />
+
       {/* Strong White Gradient Overlay to match image */}
       <div
         className="absolute inset-0 z-0"

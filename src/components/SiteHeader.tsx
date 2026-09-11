@@ -19,10 +19,6 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
   }, [alwaysSolid]);
 
   const solid = alwaysSolid || isScrolled;
-  // Over a photo, plain grey nav text can wash out against a bright sky or wall —
-  // a soft shadow keeps it legible whatever sits behind it, without needing to
-  // guess the image's brightness. Solid header (white bg) never needs this.
-  const overlayShadow = solid ? undefined : '0 1px 3px rgba(0,0,0,0.3), 0 1px 10px rgba(0,0,0,0.2)';
 
   const navItems = [
     { id: 'accueil', label: t.nav.home, to: '/' },
@@ -34,7 +30,7 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${solid ? 'py-6 bg-white shadow-sm' : 'py-10 bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${solid ? 'py-6 bg-white shadow-sm' : 'py-10 bg-white/35 backdrop-blur-[6px]'}`}>
       {/* Logo */}
       <Link to="/" className="flex items-center gap-3 mix-blend-multiply">
         <div className="relative h-8 w-[29px] overflow-hidden">
@@ -52,7 +48,7 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
             key={item.id}
             to={item.to}
             className={`relative pb-1 transition-colors ${activeId === item.id ? 'font-bold' : 'hover:text-black'}`}
-            style={{ color: textColor, textShadow: overlayShadow }}
+            style={{ color: textColor }}
           >
             {item.label}
             {activeId === item.id && (
@@ -70,12 +66,8 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
         >
           {t.hero.quote}
         </Link>
-        <div style={{ textShadow: overlayShadow }}>
-          <LanguageSwitcher />
-        </div>
-        <div style={{ filter: solid ? undefined : 'drop-shadow(0 1px 3px rgba(0,0,0,0.3)) drop-shadow(0 1px 10px rgba(0,0,0,0.2))' }}>
-          <MobileMenu />
-        </div>
+        <LanguageSwitcher />
+        <MobileMenu />
       </div>
     </header>
   );

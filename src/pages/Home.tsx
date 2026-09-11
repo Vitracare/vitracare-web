@@ -213,7 +213,7 @@ export default function Home() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0.7) 65%, rgba(255,255,255,0) 100%)'
+          background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 38%, rgba(255,255,255,0.4) 48%, rgba(255,255,255,0) 58%)'
         }}
       ></div>
       {/* Top subtle fade for header readability over image parts */}

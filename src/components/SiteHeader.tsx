@@ -19,6 +19,10 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
   }, [alwaysSolid]);
 
   const solid = alwaysSolid || isScrolled;
+  // Over a photo, plain grey nav text can wash out against a bright sky or wall —
+  // a soft shadow keeps it legible whatever sits behind it, without needing to
+  // guess the image's brightness. Solid header (white bg) never needs this.
+  const overlayShadow = solid ? undefined : '0 1px 3px rgba(0,0,0,0.3), 0 1px 10px rgba(0,0,0,0.2)';
 
   const navItems = [
     { id: 'accueil', label: t.nav.home, to: '/' },
@@ -48,7 +52,7 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
             key={item.id}
             to={item.to}
             className={`relative pb-1 transition-colors ${activeId === item.id ? 'font-bold' : 'hover:text-black'}`}
-            style={{ color: textColor }}
+            style={{ color: textColor, textShadow: overlayShadow }}
           >
             {item.label}
             {activeId === item.id && (
@@ -66,8 +70,12 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
         >
           {t.hero.quote}
         </Link>
-        <LanguageSwitcher />
-        <MobileMenu />
+        <div style={{ textShadow: overlayShadow }}>
+          <LanguageSwitcher />
+        </div>
+        <div style={{ filter: solid ? undefined : 'drop-shadow(0 1px 3px rgba(0,0,0,0.3)) drop-shadow(0 1px 10px rgba(0,0,0,0.2))' }}>
+          <MobileMenu />
+        </div>
       </div>
     </header>
   );

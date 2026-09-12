@@ -225,9 +225,19 @@ export default function Home() {
         }}
       />
 
-      {/* Strong White Gradient Overlay to match image */}
+      {/* White gradient overlay so the headline stays readable over the photo.
+          Mobile needs a much wider opaque zone: the H1 wraps onto ~3 full-width
+          lines at that size, so the same percentages used on desktop (tuned for
+          a single-column text block next to the image) left the right edge of
+          each mobile line sitting directly on the photo. */}
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 md:hidden"
+        style={{
+          background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 68%, rgba(255,255,255,0.6) 82%, rgba(255,255,255,0) 96%)'
+        }}
+      ></div>
+      <div
+        className="absolute inset-0 z-0 hidden md:block"
         style={{
           background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,0.85) 38%, rgba(255,255,255,0.55) 46%, rgba(255,255,255,0.25) 54%, rgba(255,255,255,0) 64%)'
         }}

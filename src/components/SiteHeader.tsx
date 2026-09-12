@@ -31,8 +31,11 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-[100] w-full px-8 md:px-16 lg:px-20 flex items-center justify-between transition-all duration-300 ${solid ? 'py-6 bg-white shadow-sm' : 'py-10 bg-transparent'}`}>
-      {/* Logo */}
-      <Link to="/" className="flex items-center gap-3 mix-blend-multiply">
+      {/* Logo — the asset itself is transparent (no blend-mode trick needed): mix-blend-mode
+          can't reach past this header's own stacking context (position: fixed creates one),
+          so it only ever blended against the header's own background, never the hero photo
+          behind it — which is exactly why a white box used to show up over the image. */}
+      <Link to="/" className="flex items-center gap-3">
         <div className="relative h-8 w-[29px] overflow-hidden">
           <img src="/images/Logo-et-nom.png" alt="Logo" className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
         </div>

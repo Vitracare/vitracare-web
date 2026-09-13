@@ -292,6 +292,93 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-securite-anti-effraction-vitrage',
+  meta: {
+    FR: {
+      title: 'Film de sécurité anti-effraction pour vitrage à Bruxelles — VitraCare',
+      description:
+        "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
+      headline: 'Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    NL: {
+      title: 'Beveiligingsfolie tegen inbraak voor beglazing in Brussel — VitraCare',
+      description:
+        'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
+      headline: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    EN: {
+      title: 'Security anti-break-in film for windows in Brussels — VitraCare',
+      description:
+        "Shop window, patio door, street-facing ground floor: security film reinforces your existing glazing against break-in attempts, without replacing your windows.",
+      headline: 'Security window film: how to protect your glazing without replacing it?',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+  },
+},
+{
+  path: '/blog/film-solaire-vitrage-bruxelles',
+  meta: {
+    FR: {
+      title: 'Film solaire pour vitrage à Bruxelles — VitraCare',
+      description:
+        "Véranda, bureau plein sud, salon qui surchauffe l'été : le film solaire filtre la chaleur et les UV sans assombrir la pièce ni bloquer la vue.",
+      headline: "Film solaire pour vitrage à Bruxelles : moins de chaleur et d'éblouissement, sans perdre la lumière",
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    NL: {
+      title: 'Zonwerende folie voor beglazing in Brussel — VitraCare',
+      description:
+        "Veranda, zuidgericht kantoor, living die 's zomers oververhit: zonwerende folie filtert warmte en UV zonder de ruimte te verduisteren of het uitzicht te blokkeren.",
+      headline: 'Zonwerende folie voor beglazing in Brussel: minder warmte en verblinding, zonder lichtverlies',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    EN: {
+      title: 'Solar window film in Brussels — VitraCare',
+      description:
+        'Conservatory, south-facing office, living room that overheats in summer: solar film filters heat and UV without darkening the room or blocking the view.',
+      headline: 'Solar window film in Brussels: less heat and glare, without losing the light',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+  },
+},
+{
+  path: '/blog/prix-pose-film-vitrage-bruxelles',
+  meta: {
+    FR: {
+      title: 'Prix pose film vitrage à Bruxelles — VitraCare',
+      description:
+        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Fourchette indicative, facteurs qui font varier le prix, et zone d'intervention de VitraCare.",
+      headline: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    NL: {
+      title: 'Prijs raamfolie plaatsen in Brussel — VitraCare',
+      description:
+        'Hoeveel kost het plaatsen van raamfolie in Brussel? Indicatieve prijsvork, factoren die de prijs doen variëren, en het werkgebied van VitraCare.',
+      headline: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+    EN: {
+      title: 'Window film installation price in Brussels — VitraCare',
+      description:
+        "How much does window film installation cost in Brussels? Indicative price range, what makes it vary, and VitraCare's service area.",
+      headline: 'Window film pricing in Brussels: what to expect',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles
@@ -303,19 +390,19 @@ const communePages = [
     slug: 'uccle',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Uccle — VitraCare',
+        title: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse — VitraCare',
         description:
           "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin de la commune.",
         name: 'Uccle',
       },
       NL: {
-        title: 'Raamfolie in Ukkel — VitraCare',
+        title: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode — VitraCare',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin in de gemeente.',
         name: 'Ukkel',
       },
       EN: {
-        title: 'Window Film in Uccle — VitraCare',
+        title: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse — VitraCare',
         description:
           'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens typical of the commune.',
         name: 'Uccle',
@@ -326,19 +413,19 @@ const communePages = [
     slug: 'waterloo',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Waterloo — VitraCare',
+        title: "Film pour vitrage à Waterloo, Braine-l'Alleud et Lasne — VitraCare",
         description:
           "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et vérandas.",
         name: 'Waterloo',
       },
       NL: {
-        title: 'Raamfolie in Waterloo — VitraCare',
+        title: 'Raamfolie in Waterloo, Eigenbrakel en Lasne — VitraCare',
         description:
           "VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa's en veranda's.",
         name: 'Waterloo',
       },
       EN: {
-        title: 'Window Film in Waterloo — VitraCare',
+        title: "Window Film in Waterloo, Braine-l'Alleud and Lasne — VitraCare",
         description:
           'VitraCare installs window films and tints in Waterloo (Walloon Brabant): privacy, thermal comfort and UV protection for villas and large glass surfaces.',
         name: 'Waterloo',
@@ -349,19 +436,19 @@ const communePages = [
     slug: 'forest',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Forest — VitraCare',
+        title: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles — VitraCare',
         description:
           "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
         name: 'Forest',
       },
       NL: {
-        title: 'Raamfolie in Vorst — VitraCare',
+        title: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis — VitraCare',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en stedelijke dichtheid van de gemeente.',
         name: 'Vorst',
       },
       EN: {
-        title: 'Window Film in Forest — VitraCare',
+        title: 'Window Film in Forest, Anderlecht and Saint-Gilles — VitraCare',
         description:
           'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
         name: 'Forest',
@@ -479,7 +566,10 @@ function buildBusinessSchema(lang, prefix) {
     // Confirmed via the business's own Google share link — a real Google Business
     // Profile exists (Knowledge Graph id g/11zdd0rsnv), previously invisible from the
     // site itself. Reviews stay on Google; no customer names are reproduced here.
-    sameAs: ['https://share.google/c3Bih4FWySHUhjkAZ'],
+    sameAs: [
+      'https://share.google/c3Bih4FWySHUhjkAZ',
+      'https://fr-be.trustpilot.com/review/vitracare.be',
+    ],
   };
   const service = {
     '@context': 'https://schema.org',

@@ -64,7 +64,8 @@ export const translations = {
       r4: 'Nos toiles ne craignent plus le soleil. Un vrai soulagement !',
       more: 'EN SAVOIR PLUS',
       swipeHint: '← Glissez pour voir tous les avis →',
-      googleLink: 'Voir tous nos avis sur Google'
+      googleLink: 'Voir tous nos avis sur Google',
+      trustpilotLink: 'Voir nos avis sur Trustpilot'
     },
     strip: {
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
@@ -238,7 +239,8 @@ export const translations = {
       r4: 'Onze doeken zijn niet meer bang voor de zon. Een hele opluchting!',
       more: 'LEES MEER',
       swipeHint: '← Schuif om alle beoordelingen te zien →',
-      googleLink: 'Bekijk al onze beoordelingen op Google'
+      googleLink: 'Bekijk al onze beoordelingen op Google',
+      trustpilotLink: 'Bekijk onze beoordelingen op Trustpilot'
     },
     strip: {
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
@@ -412,7 +414,8 @@ export const translations = {
       r4: 'Our canvases no longer fear the sun. A real relief!',
       more: 'LEARN MORE',
       swipeHint: '← Swipe to see all reviews →',
-      googleLink: 'See all our reviews on Google'
+      googleLink: 'See all our reviews on Google',
+      trustpilotLink: 'See our reviews on Trustpilot'
     },
     strip: {
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',

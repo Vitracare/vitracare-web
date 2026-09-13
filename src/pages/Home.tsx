@@ -606,6 +606,24 @@ export default function Home() {
                 >
                   {t.reviews.googleLink}
                 </a>
+                {/* Real Trustpilot profile link — same rationale as the Google link above:
+                    a genuine, independently verifiable third-party review source, no
+                    review text or ratings reproduced on-page. */}
+                <a
+                  href={
+                    lang === 'NL'
+                      ? 'https://nl-be.trustpilot.com/review/vitracare.be'
+                      : lang === 'EN'
+                        ? 'https://www.trustpilot.com/review/vitracare.be'
+                        : 'https://fr-be.trustpilot.com/review/vitracare.be'
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
+                  style={{ color: brandColor }}
+                >
+                  {t.reviews.trustpilotLink}
+                </a>
               </div>
             </div>
           </div>

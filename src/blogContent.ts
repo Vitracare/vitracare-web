@@ -339,6 +339,208 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-securite-anti-effraction-vitrage',
+      title: "Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?",
+      metaTitle: 'Film de sécurité anti-effraction pour vitrage à Bruxelles',
+      metaDescription:
+        "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
+      date: '2026-09-13',
+      excerpt:
+        "Un vitrage standard cède en quelques secondes sous un coup porté. Le film de sécurité renforce la résistance du verre et complique une intrusion, sans changer vos fenêtres.",
+      sections: [
+        {
+          paragraphs: [
+            "Une vitrine, une porte-fenêtre, un rez-de-chaussée qui donne directement sur la rue : ce sont les points d'entrée les plus exposés d'une maison ou d'un commerce, et souvent les moins protégés. Un vitrage standard, simple ou double, cède en quelques secondes sous un coup bien placé. Le film de sécurité ne rend pas une vitre incassable, mais il change fondamentalement ce qui se passe quand elle est frappée.",
+          ],
+        },
+        {
+          heading: 'Ce qu\'un film de sécurité change concrètement',
+          paragraphs: [
+            "Le film est appliqué côté intérieur du vitrage, en une couche continue et adhérente. Quand la vitre est frappée, le verre se fissure mais les fragments restent maintenus par le film au lieu de voler en éclats ou de céder d'un coup. Résultat : il faut plusieurs coups répétés, du bruit et du temps pour parvenir à ouvrir un passage — exactement ce qu'un cambrioleur opportuniste cherche à éviter.",
+            "Il est important d'être honnête sur ce point : le film retarde et complique une effraction, il ne la rend pas impossible. C'est une couche de protection supplémentaire, pas une garantie absolue.",
+          ],
+        },
+        {
+          heading: 'Vitrines et rez-de-chaussée : la première ligne exposée',
+          paragraphs: [
+            "Pour un commerce ou un rez-de-chaussée visible depuis la rue, la vitrine est à la fois un atout commercial et le point le plus vulnérable. Le film de sécurité se pose sans changer l'aspect de la vitrine ni gêner la visibilité — il reste transparent et pratiquement invisible une fois installé.",
+          ],
+        },
+        {
+          heading: 'Portes vitrées et baies coulissantes',
+          paragraphs: [
+            "Les portes-fenêtres et baies vitrées coulissantes sont des cibles fréquentes, car souvent plus accessibles qu'une porte d'entrée classique — jardin, terrasse, ruelle latérale. Le même film s'applique sur ces surfaces pour renforcer leur résistance à l'impact.",
+          ],
+        },
+        {
+          heading: 'Un renforcement, pas un remplacement de votre sécurité',
+          paragraphs: [
+            "Le film de sécurité est un complément à vos dispositifs existants — serrures, alarme, éclairage extérieur — pas un substitut. Il agit sur un point précis : le temps et le bruit nécessaires pour franchir un vitrage, ce qui décourage une grande partie des tentatives d'effraction opportunistes.",
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film rend-il la vitre incassable ?',
+          answer: "Non. Le verre peut toujours se fissurer sous un coup, mais le film maintient les fragments ensemble et complique fortement le passage — il faut plus de coups, plus de bruit et plus de temps pour ouvrir un accès.",
+        },
+        {
+          question: 'Le film se voit-il une fois posé ?',
+          answer: "Non, le film de sécurité est transparent et discret : il ne change pas l'aspect de votre vitrage ni la luminosité de la pièce.",
+        },
+        {
+          question: 'Est-ce compatible avec du double ou triple vitrage ?',
+          answer: "Oui, le film se pose côté intérieur, peu importe qu'il s'agisse d'un simple, double ou triple vitrage.",
+        },
+        {
+          question: 'Le film remplace-t-il une alarme ou des volets de sécurité ?',
+          answer: "Non, c'est un complément à vos dispositifs de sécurité existants, pas un remplacement. Il agit spécifiquement sur la résistance du vitrage lui-même.",
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-vitrage-bruxelles',
+      title: "Film solaire pour vitrage à Bruxelles : moins de chaleur et d'éblouissement, sans perdre la lumière",
+      metaTitle: 'Film solaire pour vitrage à Bruxelles',
+      metaDescription:
+        "Véranda, bureau plein sud, salon qui surchauffe l'été : le film solaire filtre la chaleur et les UV sans assombrir la pièce ni bloquer la vue.",
+      date: '2026-09-13',
+      excerpt:
+        "Une pièce exposée plein sud devient vite invivable en été. Le film solaire réduit la chaleur et l'éblouissement, tout en laissant entrer la lumière.",
+      sections: [
+        {
+          paragraphs: [
+            "Véranda qui devient une étuve dès les premiers beaux jours, bureau plein sud où l'écran est illisible l'après-midi, salon qu'on évite entre 14h et 18h en été : l'exposition au soleil à travers de grandes surfaces vitrées a un coût direct sur le confort. Le film solaire s'attaque à ce problème directement au niveau du vitrage, sans travaux lourds.",
+          ],
+        },
+        {
+          heading: 'Comment le film solaire agit sur la chaleur',
+          paragraphs: [
+            "Posé sur la face intérieure du vitrage, le film solaire filtre une partie du rayonnement solaire avant qu'il ne traverse la vitre et ne se transforme en chaleur dans la pièce — c'est le même principe que l'effet de serre, mais atténué. Le résultat se ressent surtout sur les pièces les plus exposées : vérandas, bureaux et salons orientés sud ou ouest.",
+          ],
+        },
+        {
+          heading: 'Moins d\'éblouissement, une vue toujours dégagée',
+          paragraphs: [
+            "Contrairement à un store ou un rideau, le film solaire reste transparent : il réduit l'éblouissement direct — utile pour un écran d'ordinateur ou une télévision en pleine journée — sans obliger à fermer quoi que ce soit ni à perdre la vue vers l'extérieur.",
+          ],
+        },
+        {
+          heading: 'Vérandas et bureaux plein sud : les cas les plus fréquents',
+          paragraphs: [
+            "Les vérandas et les pièces largement vitrées orientées sud sont les configurations où l'écart de confort avant/après pose est le plus marqué, simplement parce que ce sont les surfaces qui reçoivent le plus de rayonnement direct sur la journée.",
+          ],
+        },
+        {
+          heading: 'Une protection UV en complément',
+          paragraphs: [
+            "Le film solaire filtre également une partie des rayons UV responsables de la décoloration des meubles, tissus et parquets exposés au soleil au fil des années — un bénéfice secondaire qui s'ajoute à la baisse de chaleur et d'éblouissement.",
+          ],
+        },
+        {
+          heading: 'Solaire ou effet miroir : quelle différence ?',
+          paragraphs: [
+            "Le film solaire cible la chaleur et la lumière, pas nécessairement l'intimité — la vue depuis l'extérieur reste possible selon le type choisi. Si votre priorité est d'éviter les regards (vis-à-vis, rez-de-chaussée), c'est plutôt vers le film effet miroir ou blanc mat qu'il faut se tourner ; les deux besoins peuvent aussi se combiner selon les pièces.",
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film solaire assombrit-il la pièce ?',
+          answer: "Non, il reste transparent et laisse passer la lumière naturelle : il filtre la chaleur et l'éblouissement sans assombrir fortement la pièce.",
+        },
+        {
+          question: 'Fonctionne-t-il été comme hiver ?',
+          answer: "Il agit dès que le soleil frappe directement le vitrage, donc surtout en mi-saison et en été. Ce n'est pas un film isolant thermique complet pour l'hiver, mais un filtre contre la surchauffe et l'éblouissement solaire.",
+        },
+        {
+          question: 'Le film solaire protège-t-il aussi l\'intimité ?',
+          answer: "Certains types de films solaires réduisent aussi la visibilité depuis l'extérieur, mais ce n'est pas leur fonction principale. Pour une intimité garantie, consultez notre article dédié au film pour vitrage et le vis-à-vis.",
+        },
+        {
+          question: 'Est-ce compatible avec du double ou triple vitrage ?',
+          answer: "Oui, le film se pose côté intérieur, peu importe qu'il s'agisse d'un simple, double ou triple vitrage.",
+        },
+      ],
+    },
+    {
+      slug: 'prix-pose-film-vitrage-bruxelles',
+      title: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
+      metaTitle: 'Prix pose film vitrage à Bruxelles',
+      metaDescription:
+        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Fourchette indicative, facteurs qui font varier le prix, et zone d'intervention de VitraCare.",
+      date: '2026-09-13',
+      excerpt:
+        "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier. Voici une fourchette indicative et ce qui la fait varier.",
+      sections: [
+        {
+          paragraphs: [
+            "C'est souvent la première question, et c'est normal : avant de contacter qui que ce soit, on veut une idée du budget. Voici une fourchette indicative, honnête sur ce qui la fait bouger d'un chantier à l'autre.",
+          ],
+        },
+        {
+          heading: 'Une fourchette de départ',
+          paragraphs: [
+            "À titre indicatif, comptez autour de 100 €/m², pose comprise. C'est une moyenne de référence, pas un tarif fixe applicable à toutes les situations : le prix exact dépend du type de film, de la surface totale du chantier et de la configuration des vitrages concernés.",
+          ],
+        },
+        {
+          heading: 'Ce qui fait varier le prix',
+          paragraphs: [
+            "Le type de film choisi (solaire, sécurité anti-effraction, miroir, blanc mat) peut légèrement modifier le tarif, chaque film ayant ses propres caractéristiques et coûts de matériau. La surface totale joue aussi : un chantier plus important permet souvent un prix au m² plus avantageux. Enfin, l'accessibilité compte — hauteur des vitrages, nombre d'ouvertures, configuration des lieux — car elle influence le temps de pose.",
+          ],
+        },
+        {
+          heading: 'Un devis gratuit et sans engagement',
+          paragraphs: [
+            "Le seul moyen d'avoir un prix précis pour votre situation est un devis, gratuit et sans engagement. Nous nous déplaçons ou évaluons votre projet à distance selon les cas, et vous répondons sous 24h.",
+          ],
+        },
+        {
+          heading: "Notre zone d'intervention",
+          paragraphs: [
+            "Nous intervenons dans toute la Région de Bruxelles-Capitale et ses environs (Brabant wallon et flamand). Pour les chantiers de taille suffisante, nous nous déplaçons également ailleurs en Belgique — Charleroi, Anvers, Gand notamment. N'hésitez pas à nous soumettre votre projet, où qu'il se situe.",
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le prix inclut-il la pose ?',
+          answer: "Oui, la fourchette indicative annoncée (environ 100 €/m²) inclut la fourniture du film et sa pose par notre équipe.",
+        },
+        {
+          question: 'Le prix est-il le même pour tous les types de film ?',
+          answer: "Il peut varier légèrement selon le film choisi (solaire, sécurité, miroir, blanc mat), chacun ayant ses propres caractéristiques. Le devis précise le tarif exact pour votre projet.",
+        },
+        {
+          question: 'Le devis est-il payant ?',
+          answer: "Non, le devis est gratuit et sans engagement.",
+        },
+        {
+          question: 'Intervenez-vous en dehors de Bruxelles ?',
+          answer: "Oui, dans toute la région bruxelloise et ses environs. Pour des chantiers de taille suffisante, nous nous déplaçons aussi vers d'autres villes belges comme Charleroi, Anvers ou Gand.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -657,6 +859,208 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-securite-anti-effraction-vitrage',
+      title: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
+      metaTitle: 'Beveiligingsfolie tegen inbraak voor beglazing in Brussel',
+      metaDescription:
+        'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
+      date: '2026-09-13',
+      excerpt:
+        'Standaard beglazing bezwijkt binnen enkele seconden onder een gerichte klap. Beveiligingsfolie versterkt de weerstand van het glas en bemoeilijkt een inbraak, zonder uw ramen te vervangen.',
+      sections: [
+        {
+          paragraphs: [
+            'Een etalage, een terrasdeur, een gelijkvloers dat rechtstreeks op straat uitgeeft: dit zijn de meest blootgestelde toegangspunten van een huis of handelszaak, en vaak de minst beveiligde. Standaard beglazing, enkel of dubbel, bezwijkt binnen enkele seconden onder een goed gerichte klap. Beveiligingsfolie maakt een raam niet onbreekbaar, maar verandert fundamenteel wat er gebeurt wanneer het geraakt wordt.',
+          ],
+        },
+        {
+          heading: 'Wat beveiligingsfolie concreet verandert',
+          paragraphs: [
+            'De folie wordt aan de binnenzijde van de beglazing aangebracht, in een doorlopende, hechtende laag. Wanneer het raam geraakt wordt, barst het glas, maar de scherven blijven bijeengehouden door de folie in plaats van weg te vliegen of ineens toe te geven. Resultaat: er zijn meerdere herhaalde klappen, lawaai en tijd nodig om een doorgang te forceren — precies wat een opportunistische inbreker wil vermijden.',
+            'Het is belangrijk hier eerlijk over te zijn: de folie vertraagt en bemoeilijkt een inbraak, ze maakt ze niet onmogelijk. Het is een extra beschermingslaag, geen absolute garantie.',
+          ],
+        },
+        {
+          heading: 'Etalages en gelijkvloers: de eerste blootgestelde linie',
+          paragraphs: [
+            'Voor een handelszaak of een gelijkvloers zichtbaar vanaf de straat is de etalage zowel een commerciële troef als het kwetsbaarste punt. Beveiligingsfolie wordt geplaatst zonder het uitzicht van de etalage te veranderen of de zichtbaarheid te hinderen — ze blijft transparant en praktisch onzichtbaar eenmaal geplaatst.',
+          ],
+        },
+        {
+          heading: 'Glazen deuren en schuifpuien',
+          paragraphs: [
+            'Terrasdeuren en glazen schuifpuien zijn veelvoorkomende doelwitten, vaak toegankelijker dan een klassieke voordeur — tuin, terras, zijstraat. Dezelfde folie wordt op deze oppervlakken aangebracht om hun weerstand tegen impact te versterken.',
+          ],
+        },
+        {
+          heading: 'Een versterking, geen vervanging van uw beveiliging',
+          paragraphs: [
+            'Beveiligingsfolie is een aanvulling op uw bestaande voorzieningen — sloten, alarm, buitenverlichting — geen vervanging. Ze werkt op één specifiek punt: de tijd en het lawaai die nodig zijn om door een raam te geraken, wat een groot deel van opportunistische inbraakpogingen ontmoedigt.',
+          ],
+        },
+        {
+          heading: 'Nog twijfels?',
+          paragraphs: [
+            'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Maakt de folie het raam onbreekbaar?',
+          answer: 'Nee. Het glas kan nog steeds barsten onder een klap, maar de folie houdt de scherven samen en bemoeilijkt sterk de doorgang — er zijn meer klappen, meer lawaai en meer tijd nodig om toegang te forceren.',
+        },
+        {
+          question: 'Is de folie zichtbaar eenmaal geplaatst?',
+          answer: 'Nee, beveiligingsfolie is transparant en discreet: ze verandert het uitzicht van uw beglazing noch de lichtinval in de ruimte.',
+        },
+        {
+          question: 'Is dit compatibel met dubbele of drievoudige beglazing?',
+          answer: 'Ja, de folie wordt aan de binnenzijde geplaatst, ongeacht of het om enkele, dubbele of drievoudige beglazing gaat.',
+        },
+        {
+          question: 'Vervangt de folie een alarm of veiligheidsluiken?',
+          answer: 'Nee, het is een aanvulling op uw bestaande beveiligingsvoorzieningen, geen vervanging. Ze werkt specifiek op de weerstand van de beglazing zelf.',
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-vitrage-bruxelles',
+      title: 'Zonwerende folie voor beglazing in Brussel: minder warmte en verblinding, zonder lichtverlies',
+      metaTitle: 'Zonwerende folie voor beglazing in Brussel',
+      metaDescription:
+        "Veranda, zuidgericht kantoor, living die 's zomers oververhit: zonwerende folie filtert warmte en UV zonder de ruimte te verduisteren of het uitzicht te blokkeren.",
+      date: '2026-09-13',
+      excerpt:
+        "Een zuidgerichte ruimte wordt 's zomers snel onleefbaar. Zonwerende folie vermindert warmte en verblinding, terwijl het licht binnenkomt.",
+      sections: [
+        {
+          paragraphs: [
+            "Een veranda die bij de eerste zonnige dagen een broeikas wordt, een zuidgericht kantoor waar het scherm 's middags onleesbaar is, een living die u tussen 14u en 18u 's zomers vermijdt: blootstelling aan de zon door grote glaspartijen heeft een directe impact op het comfort. Zonwerende folie pakt dit probleem rechtstreeks aan op het niveau van de beglazing, zonder zware werken.",
+          ],
+        },
+        {
+          heading: 'Hoe zonwerende folie inwerkt op warmte',
+          paragraphs: [
+            'Aangebracht aan de binnenzijde van de beglazing filtert zonwerende folie een deel van de zonnestraling voordat ze door het glas dringt en omgezet wordt in warmte in de ruimte — hetzelfde principe als het broeikaseffect, maar afgezwakt. Het resultaat is vooral merkbaar in de meest blootgestelde ruimtes: veranda\'s, kantoren en woonkamers op het zuiden of westen.',
+          ],
+        },
+        {
+          heading: 'Minder verblinding, altijd een vrij uitzicht',
+          paragraphs: [
+            'In tegenstelling tot een zonnescherm of gordijn blijft zonwerende folie transparant: ze vermindert directe verblinding — handig voor een computerscherm of televisie overdag — zonder dat u iets moet sluiten of het uitzicht naar buiten moet opgeven.',
+          ],
+        },
+        {
+          heading: 'Veranda\'s en zuidgerichte kantoren: de meest voorkomende gevallen',
+          paragraphs: [
+            'Veranda\'s en ruim beglaasde, zuidgerichte ruimtes zijn de configuraties waar het comfortverschil voor/na plaatsing het meest uitgesproken is, simpelweg omdat dit de oppervlakken zijn die over de dag het meest directe straling ontvangen.',
+          ],
+        },
+        {
+          heading: 'UV-bescherming als extra voordeel',
+          paragraphs: [
+            'Zonwerende folie filtert ook een deel van de UV-stralen die verantwoordelijk zijn voor het verkleuren van meubels, stoffen en parket die jarenlang aan de zon blootgesteld worden — een bijkomend voordeel naast de vermindering van warmte en verblinding.',
+          ],
+        },
+        {
+          heading: 'Zonwerend of spiegeleffect: wat is het verschil?',
+          paragraphs: [
+            'Zonwerende folie richt zich op warmte en licht, niet noodzakelijk op privacy — het uitzicht vanaf buiten blijft mogelijk afhankelijk van het gekozen type. Als uw prioriteit is om blikken te vermijden (inkijk, gelijkvloers), kijkt u beter naar de spiegelfolie of matwitte folie; beide behoeften kunnen ook gecombineerd worden per ruimte.',
+          ],
+        },
+        {
+          heading: 'Nog twijfels?',
+          paragraphs: [
+            'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Verduistert zonwerende folie de ruimte?',
+          answer: 'Nee, ze blijft transparant en laat natuurlijk licht door: ze filtert warmte en verblinding zonder de ruimte sterk te verduisteren.',
+        },
+        {
+          question: "Werkt ze zowel 's zomers als 's winters?",
+          answer: 'Ze werkt zodra de zon rechtstreeks op de beglazing schijnt, dus vooral tussenseizoen en zomer. Het is geen volledige thermische isolatiefolie voor de winter, maar een filter tegen oververhitting en zonneverblinding.',
+        },
+        {
+          question: 'Beschermt zonwerende folie ook de privacy?',
+          answer: 'Sommige types zonwerende folie verminderen ook de zichtbaarheid van buitenaf, maar dat is niet hun hoofdfunctie. Voor gegarandeerde privacy verwijzen we naar ons artikel over raamfolie en inkijk.',
+        },
+        {
+          question: 'Is dit compatibel met dubbele of drievoudige beglazing?',
+          answer: 'Ja, de folie wordt aan de binnenzijde geplaatst, ongeacht of het om enkele, dubbele of drievoudige beglazing gaat.',
+        },
+      ],
+    },
+    {
+      slug: 'prix-pose-film-vitrage-bruxelles',
+      title: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
+      metaTitle: 'Prijs raamfolie plaatsen in Brussel',
+      metaDescription:
+        'Hoeveel kost het plaatsen van raamfolie in Brussel? Indicatieve prijsvork, factoren die de prijs doen variëren, en het werkgebied van VitraCare.',
+      date: '2026-09-13',
+      excerpt:
+        'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf. Hier is een indicatieve prijsvork en wat ze doet variëren.',
+      sections: [
+        {
+          paragraphs: [
+            'Het is vaak de eerste vraag, en dat is normaal: voordat u iemand contacteert, wilt u een idee van het budget. Hier is een indicatieve prijsvork, eerlijk over wat ze doet schommelen van de ene werf tot de andere.',
+          ],
+        },
+        {
+          heading: 'Een indicatieve startprijs',
+          paragraphs: [
+            'Reken ter indicatie op ongeveer 100 €/m², plaatsing inbegrepen. Dit is een gemiddelde richtprijs, geen vast tarief dat op elke situatie van toepassing is: de exacte prijs hangt af van het gekozen type folie, de totale oppervlakte van de werf en de configuratie van de betrokken beglazing.',
+          ],
+        },
+        {
+          heading: 'Wat de prijs doet variëren',
+          paragraphs: [
+            'Het gekozen type folie (zonwerend, beveiliging tegen inbraak, spiegel, matwit) kan het tarief licht beïnvloeden, aangezien elke folie haar eigen kenmerken en materiaalkosten heeft. De totale oppervlakte speelt ook een rol: een grotere werf laat vaak een voordeligere prijs per m² toe. Tot slot telt de toegankelijkheid mee — hoogte van de beglazing, aantal openingen, configuratie van de ruimte — omdat dit de plaatsingstijd beïnvloedt.',
+          ],
+        },
+        {
+          heading: 'Een gratis en vrijblijvende offerte',
+          paragraphs: [
+            'De enige manier om een precieze prijs voor uw situatie te krijgen, is een gratis en vrijblijvende offerte. Naargelang het geval komen we ter plaatse of evalueren we uw project op afstand, en antwoorden binnen 24u.',
+          ],
+        },
+        {
+          heading: 'Ons werkgebied',
+          paragraphs: [
+            'Wij zijn actief in het volledige Brussels Hoofdstedelijk Gewest en omstreken (Waals- en Vlaams-Brabant). Voor werven van voldoende omvang verplaatsen we ons ook elders in België — onder meer Charleroi, Antwerpen en Gent. Aarzel niet om ons uw project voor te leggen, waar het zich ook bevindt.',
+          ],
+        },
+        {
+          heading: 'Nog twijfels?',
+          paragraphs: [
+            'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is de plaatsing inbegrepen in de prijs?',
+          answer: 'Ja, de vermelde indicatieve prijsvork (ongeveer 100 €/m²) omvat zowel de folie zelf als de plaatsing door ons team.',
+        },
+        {
+          question: 'Is de prijs dezelfde voor alle types folie?',
+          answer: 'Deze kan licht variëren naargelang het gekozen type folie (zonwerend, beveiliging, spiegel, matwit), elk met eigen kenmerken. De offerte vermeldt de exacte prijs voor uw project.',
+        },
+        {
+          question: 'Is de offerte betalend?',
+          answer: 'Nee, de offerte is gratis en vrijblijvend.',
+        },
+        {
+          question: 'Bent u ook buiten Brussel actief?',
+          answer: 'Ja, in het volledige Brussels gewest en omstreken. Voor werven van voldoende omvang verplaatsen we ons ook naar andere Belgische steden zoals Charleroi, Antwerpen of Gent.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -972,6 +1376,208 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "How does window film's lifespan compare to replacing a window?",
           answer: 'Film typically lasts up to 10 years, compared to several decades for replaced glazing. In exchange, its starting cost is significantly lower, and it can be replaced without touching the window itself.',
+        },
+      ],
+    },
+    {
+      slug: 'film-securite-anti-effraction-vitrage',
+      title: 'Security window film: how to protect your glazing without replacing it?',
+      metaTitle: 'Security anti-break-in film for windows in Brussels',
+      metaDescription:
+        "Shop window, patio door, street-facing ground floor: security film reinforces your existing glazing against break-in attempts, without replacing your windows.",
+      date: '2026-09-13',
+      excerpt:
+        'Standard glazing gives way within seconds under a well-placed blow. Security film reinforces the glass and makes a break-in far harder, without replacing your windows.',
+      sections: [
+        {
+          paragraphs: [
+            "A shop window, a patio door, a ground-floor room facing directly onto the street: these are the most exposed entry points of a home or business, and often the least protected. Standard glazing, single or double, gives way within seconds under a well-placed blow. Security film doesn't make a window unbreakable, but it fundamentally changes what happens when it's struck.",
+          ],
+        },
+        {
+          heading: 'What security film actually changes',
+          paragraphs: [
+            "The film is applied to the inside face of the glazing, as a continuous, adhesive layer. When the glass is struck, it cracks, but the fragments stay held together by the film instead of shattering outward or giving way in one go. The result: it takes repeated blows, noise and time to force an opening — exactly what an opportunistic burglar wants to avoid.",
+            "It's important to be honest about this: the film slows down and complicates a break-in, it doesn't make one impossible. It's an added layer of protection, not an absolute guarantee.",
+          ],
+        },
+        {
+          heading: 'Shop windows and ground floors: the first exposed line',
+          paragraphs: [
+            "For a shop or a ground-floor space visible from the street, the window is both a commercial asset and the most vulnerable point. Security film is applied without changing the look of the window or affecting visibility — it stays transparent and virtually invisible once installed.",
+          ],
+        },
+        {
+          heading: 'Glass doors and sliding bay windows',
+          paragraphs: [
+            "Patio doors and sliding glass bays are frequent targets, often more accessible than a standard front door — garden, terrace, side alley. The same film is applied to these surfaces to reinforce their resistance to impact.",
+          ],
+        },
+        {
+          heading: 'A reinforcement, not a replacement for your security',
+          paragraphs: [
+            "Security film complements your existing measures — locks, alarm, outdoor lighting — it doesn't replace them. It acts on one specific point: the time and noise needed to get through a window, which discourages a large share of opportunistic break-in attempts.",
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does the film make the glass unbreakable?',
+          answer: "No. The glass can still crack under a blow, but the film holds the fragments together and makes it much harder to get through — it takes more blows, more noise and more time to force access.",
+        },
+        {
+          question: 'Is the film visible once installed?',
+          answer: "No, security film is transparent and discreet: it doesn't change the look of your glazing or the brightness of the room.",
+        },
+        {
+          question: 'Is it compatible with double or triple glazing?',
+          answer: "Yes, the film is applied to the inside face, whether it's single, double, or triple glazing.",
+        },
+        {
+          question: 'Does the film replace an alarm or security shutters?',
+          answer: "No, it complements your existing security measures rather than replacing them. It specifically strengthens the glazing itself.",
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-vitrage-bruxelles',
+      title: 'Solar window film in Brussels: less heat and glare, without losing the light',
+      metaTitle: 'Solar window film in Brussels',
+      metaDescription:
+        'Conservatory, south-facing office, living room that overheats in summer: solar film filters heat and UV without darkening the room or blocking the view.',
+      date: '2026-09-13',
+      excerpt:
+        'A south-facing room quickly becomes unbearable in summer. Solar film reduces heat and glare, while still letting the light in.',
+      sections: [
+        {
+          paragraphs: [
+            "A conservatory that turns into a greenhouse on the first sunny days, a south-facing office where the screen is unreadable in the afternoon, a living room you avoid between 2 and 6pm in summer: sun exposure through large glazed surfaces has a direct cost on comfort. Solar film tackles this problem right at the glazing itself, without heavy renovation work.",
+          ],
+        },
+        {
+          heading: 'How solar film acts on heat',
+          paragraphs: [
+            "Applied to the inside face of the glazing, solar film filters part of the solar radiation before it passes through the glass and turns into heat inside the room — the same principle as the greenhouse effect, but dampened. The effect is most noticeable in the most exposed rooms: conservatories, offices and living rooms facing south or west.",
+          ],
+        },
+        {
+          heading: 'Less glare, an unobstructed view',
+          paragraphs: [
+            "Unlike a blind or curtain, solar film stays transparent: it reduces direct glare — useful for a computer screen or TV during the day — without ever needing to close anything or lose the view outside.",
+          ],
+        },
+        {
+          heading: 'Conservatories and south-facing offices: the most common cases',
+          paragraphs: [
+            "Conservatories and rooms with large south-facing windows are where the before/after comfort gap is most noticeable, simply because these are the surfaces that receive the most direct radiation over the course of a day.",
+          ],
+        },
+        {
+          heading: 'UV protection, as a bonus',
+          paragraphs: [
+            "Solar film also filters part of the UV rays responsible for fading furniture, fabrics and floors exposed to the sun over the years — a secondary benefit on top of the reduced heat and glare.",
+          ],
+        },
+        {
+          heading: 'Solar or mirror effect: what\'s the difference?',
+          paragraphs: [
+            "Solar film targets heat and light, not necessarily privacy — depending on the type chosen, the view from outside may still be possible. If your priority is avoiding being overlooked (privacy, ground floor), mirror or matte white film is the better fit; the two needs can also be combined room by room.",
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does solar film darken the room?',
+          answer: "No, it stays transparent and lets natural light through: it filters heat and glare without significantly darkening the room.",
+        },
+        {
+          question: 'Does it work in both summer and winter?',
+          answer: "It acts whenever the sun hits the glazing directly, so mostly in mid-season and summer. It's not a full thermal insulation film for winter, but a filter against overheating and solar glare.",
+        },
+        {
+          question: 'Does solar film also protect privacy?',
+          answer: "Some solar film types also reduce visibility from outside, but that's not their main purpose. For guaranteed privacy, see our dedicated article on window film and being overlooked.",
+        },
+        {
+          question: 'Is it compatible with double or triple glazing?',
+          answer: "Yes, the film is applied to the inside face, whether it's single, double, or triple glazing.",
+        },
+      ],
+    },
+    {
+      slug: 'prix-pose-film-vitrage-bruxelles',
+      title: 'Window film pricing in Brussels: what to expect',
+      metaTitle: 'Window film installation price in Brussels',
+      metaDescription:
+        'How much does window film installation cost in Brussels? Indicative price range, what makes it vary, and VitraCare\'s service area.',
+      date: '2026-09-13',
+      excerpt:
+        "The price depends on the type of film, the total surface area, and how accessible the site is. Here's an indicative range and what makes it vary.",
+      sections: [
+        {
+          paragraphs: [
+            "It's usually the first question, and rightly so: before contacting anyone, you want a sense of the budget. Here's an indicative price range, and an honest look at what shifts it from one project to another.",
+          ],
+        },
+        {
+          heading: 'A starting price range',
+          paragraphs: [
+            'As a guide, expect around €100/m², installation included. This is an average reference point, not a fixed rate that applies to every situation: the exact price depends on the type of film, the total surface area of the project, and the configuration of the windows involved.',
+          ],
+        },
+        {
+          heading: 'What makes the price vary',
+          paragraphs: [
+            'The type of film chosen (solar, security anti-break-in, mirror, matte white) can slightly affect the rate, as each film has its own characteristics and material cost. Total surface area also matters: a larger project often allows for a better price per m². Finally, accessibility counts — window height, number of openings, site layout — since it affects installation time.',
+          ],
+        },
+        {
+          heading: 'A free, no-obligation quote',
+          paragraphs: [
+            "The only way to get a precise price for your situation is a free, no-obligation quote. Depending on the project, we visit on site or assess it remotely, and reply within 24 hours.",
+          ],
+        },
+        {
+          heading: 'Our service area',
+          paragraphs: [
+            'We work throughout the Brussels-Capital Region and its surroundings (Walloon and Flemish Brabant). For sufficiently large projects, we also travel elsewhere in Belgium — including Charleroi, Antwerp and Ghent. Feel free to submit your project regardless of location.',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does the price include installation?',
+          answer: 'Yes, the indicative range given (around €100/m²) includes both the film itself and installation by our team.',
+        },
+        {
+          question: 'Is the price the same for every type of film?',
+          answer: 'It can vary slightly depending on the film chosen (solar, security, mirror, matte white), each with its own characteristics. The quote will confirm the exact price for your project.',
+        },
+        {
+          question: 'Is the quote free?',
+          answer: 'Yes, the quote is free and comes with no obligation.',
+        },
+        {
+          question: 'Do you work outside Brussels?',
+          answer: 'Yes, throughout the Brussels region and its surroundings. For sufficiently large projects, we also travel to other Belgian cities such as Charleroi, Antwerp or Ghent.',
         },
       ],
     },

@@ -29,7 +29,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Uccle',
       title: 'Film pour vitrage à Uccle : la solution pour maisons avec jardin et grandes baies vitrées',
-      metaTitle: 'Film pour vitrage à Uccle — VitraCare',
+      metaTitle: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse — VitraCare',
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin et grandes baies vitrées typiques de la commune.",
       intro:
@@ -83,7 +83,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'waterloo',
       name: 'Waterloo',
       title: 'Film pour vitrage à Waterloo : confort et intimité pour les grandes propriétés',
-      metaTitle: 'Film pour vitrage à Waterloo — VitraCare',
+      metaTitle: "Film pour vitrage à Waterloo, Braine-l'Alleud et Lasne — VitraCare",
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et grandes surfaces vitrées.",
       intro:
@@ -137,7 +137,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Forest',
       title: 'Film pour vitrage à Forest : la solution pour maisons mitoyennes et vis-à-vis urbain',
-      metaTitle: 'Film pour vitrage à Forest — VitraCare',
+      metaTitle: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles — VitraCare',
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
       intro:
@@ -193,7 +193,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Ukkel',
       title: 'Raamfolie in Ukkel: de oplossing voor huizen met tuin en grote raampartijen',
-      metaTitle: 'Raamfolie in Ukkel — VitraCare',
+      metaTitle: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode — VitraCare',
       metaDescription:
         'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin en grote raampartijen die kenmerkend zijn voor de gemeente.',
       intro:
@@ -247,7 +247,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'waterloo',
       name: 'Waterloo',
       title: 'Raamfolie in Waterloo: comfort en privacy voor ruime eigendommen',
-      metaTitle: 'Raamfolie in Waterloo — VitraCare',
+      metaTitle: 'Raamfolie in Waterloo, Eigenbrakel en Lasne — VitraCare',
       metaDescription:
         'VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa\'s en grote glasoppervlakken.',
       intro:
@@ -301,7 +301,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Vorst',
       title: 'Raamfolie in Vorst: de oplossing voor rijwoningen en stedelijke inkijk',
-      metaTitle: 'Raamfolie in Vorst — VitraCare',
+      metaTitle: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis — VitraCare',
       metaDescription:
         'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en de stedelijke dichtheid van de gemeente.',
       intro:
@@ -357,7 +357,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Uccle',
       title: 'Window film in Uccle: the solution for houses with gardens and large windows',
-      metaTitle: 'Window Film in Uccle — VitraCare',
+      metaTitle: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse — VitraCare',
       metaDescription:
         'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens and large windows typical of the commune.',
       intro:
@@ -411,7 +411,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'waterloo',
       name: 'Waterloo',
       title: 'Window film in Waterloo: comfort and privacy for larger properties',
-      metaTitle: 'Window Film in Waterloo — VitraCare',
+      metaTitle: "Window Film in Waterloo, Braine-l'Alleud and Lasne — VitraCare",
       metaDescription:
         'VitraCare installs window films and tints in Waterloo (Walloon Brabant): privacy, thermal comfort and UV protection for villas and large glass surfaces.',
       intro:
@@ -465,7 +465,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Forest',
       title: 'Window film in Forest: the solution for terraced houses and urban overlooking',
-      metaTitle: 'Window Film in Forest — VitraCare',
+      metaTitle: 'Window Film in Forest, Anderlecht and Saint-Gilles — VitraCare',
       metaDescription:
         'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
       intro:

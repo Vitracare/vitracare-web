@@ -409,6 +409,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/offre" />
   </url>
   <url>
+    <loc>https://vitracare.be/zone-intervention</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/zone-intervention" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/nl/zone-intervention</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/zone-intervention" />
+  </url>
+  <url>
+    <loc>https://vitracare.be/en/zone-intervention</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://vitracare.be/nl/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitracare.be/en/zone-intervention" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitracare.be/zone-intervention" />
+  </url>
+  <url>
     <loc>https://vitracare.be/communes/uccle</loc>
     <lastmod>2026-08-28</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://vitracare.be/communes/uccle" />

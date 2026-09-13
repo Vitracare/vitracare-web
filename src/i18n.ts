@@ -148,7 +148,8 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
       copyright: '© 2026 VitraCare. Tous droits réservés.',
-      serviceArea: 'Bruxelles et périphérie — sur rendez-vous'
+      serviceArea: 'Bruxelles et périphérie — sur rendez-vous',
+      zone: "Zone d'intervention"
     },
     popup: {
       title: 'Une question sur vos vitrages ?',
@@ -161,6 +162,21 @@ export const translations = {
     },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
+    },
+    zone: {
+      metaTitle: "Notre zone d'intervention — VitraCare",
+      metaDescription: "Bruxelles et ses 19 communes, toute la périphérie, et au-delà pour les grands projets : découvrez toute la zone où VitraCare pose des films pour vitrages.",
+      title: "Notre zone d'intervention",
+      intro: "VitraCare intervient dans toute la Région de Bruxelles-Capitale et sa périphérie. Trois communes ont leur page dédiée sur ce site — Uccle, Waterloo et Forest — mais notre zone de travail est bien plus large. Voici le détail complet.",
+      brusselsHeading: 'Les 19 communes de Bruxelles',
+      brusselsIntro: "Nous posons des films et teintes pour vitrages dans l'ensemble de la Région bruxelloise, quelle que soit la commune :",
+      brusselsCommunes: ['Anderlecht', 'Auderghem', 'Berchem-Sainte-Agathe', 'Bruxelles-Ville', 'Etterbeek', 'Evere', 'Forest', 'Ganshoren', 'Ixelles', 'Jette', 'Koekelberg', 'Molenbeek-Saint-Jean', 'Saint-Gilles', 'Saint-Josse-ten-Noode', 'Schaerbeek', 'Uccle', 'Watermael-Boitsfort', 'Woluwe-Saint-Lambert', 'Woluwe-Saint-Pierre'],
+      peripheryHeading: 'La périphérie bruxelloise',
+      peripheryIntro: "Nous nous déplaçons tout aussi naturellement en dehors de Bruxelles, notamment à Waterloo, Braine-l'Alleud, Lasne, Rhode-Saint-Genèse, Linkebeek et Kraainem, et plus largement dans tout le Brabant wallon et le Brabant flamand.",
+      bigCitiesHeading: 'Pour les grands projets, au-delà de Bruxelles',
+      bigCitiesText: "Pour les chantiers de taille suffisante, nous nous déplaçons également ailleurs en Belgique — à Charleroi, Anvers ou Gand notamment. N'hésitez pas à nous soumettre votre projet, où qu'il se situe : nous vous dirons honnêtement si le déplacement se justifie.",
+      detailedHeading: 'Nos pages détaillées par commune',
+      detailedIntro: 'Pour Uccle, Waterloo et Forest, nous avons rédigé une page complète avec les spécificités locales.',
     },
     offre: {
       metaTitle: 'Offre nettoyage de vitres — VitraCare',
@@ -323,7 +339,8 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
       copyright: '© 2026 VitraCare. Alle rechten voorbehouden.',
-      serviceArea: 'Brussel en omgeving — op afspraak'
+      serviceArea: 'Brussel en omgeving — op afspraak',
+      zone: 'Werkgebied'
     },
     popup: {
       title: 'Een vraag over uw beglazing?',
@@ -336,6 +353,21 @@ export const translations = {
     },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
+    },
+    zone: {
+      metaTitle: 'Ons werkgebied — VitraCare',
+      metaDescription: 'Brussel en zijn 19 gemeenten, de hele rand, en verder voor grote projecten: ontdek het volledige gebied waar VitraCare raamfolie plaatst.',
+      title: 'Ons werkgebied',
+      intro: 'VitraCare is actief in het volledige Brussels Hoofdstedelijk Gewest en de rand eromheen. Drie gemeenten hebben een eigen pagina op deze site — Ukkel, Waterloo en Vorst — maar ons werkgebied is veel groter. Hieronder het volledige overzicht.',
+      brusselsHeading: 'De 19 gemeenten van Brussel',
+      brusselsIntro: 'Wij plaatsen folies en tinten voor beglazing in het volledige Brussels Gewest, in elke gemeente:',
+      brusselsCommunes: ['Anderlecht', 'Oudergem', 'Sint-Agatha-Berchem', 'Brussel-Stad', 'Etterbeek', 'Evere', 'Vorst', 'Ganshoren', 'Elsene', 'Jette', 'Koekelberg', 'Sint-Jans-Molenbeek', 'Sint-Gillis', 'Sint-Joost-ten-Node', 'Schaarbeek', 'Ukkel', 'Watermaal-Bosvoorde', 'Sint-Lambrechts-Woluwe', 'Sint-Pieters-Woluwe'],
+      peripheryHeading: 'De Brusselse rand',
+      peripheryIntro: 'Wij verplaatsen ons even vlot buiten Brussel, onder meer naar Waterloo, Eigenbrakel, Lasne, Sint-Genesius-Rode, Linkebeek en Kraainem, en ruimer in heel Waals- en Vlaams-Brabant.',
+      bigCitiesHeading: 'Voor grote projecten, verder dan Brussel',
+      bigCitiesText: 'Voor werven van voldoende omvang verplaatsen we ons ook elders in België — onder meer naar Charleroi, Antwerpen of Gent. Aarzel niet om ons uw project voor te leggen, waar het zich ook bevindt: we zeggen u eerlijk of de verplaatsing de moeite loont.',
+      detailedHeading: "Onze uitgebreide pagina's per gemeente",
+      detailedIntro: 'Voor Ukkel, Waterloo en Vorst schreven we een volledige pagina met de lokale bijzonderheden.',
     },
     offre: {
       metaTitle: 'Aanbieding raamreiniging — VitraCare',
@@ -498,7 +530,8 @@ export const translations = {
     footer: {
       faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',
       copyright: '© 2026 VitraCare. All rights reserved.',
-      serviceArea: 'Brussels and surroundings — by appointment'
+      serviceArea: 'Brussels and surroundings — by appointment',
+      zone: 'Service Area'
     },
     popup: {
       title: 'A question about your windows?',
@@ -511,6 +544,21 @@ export const translations = {
     },
     commune: {
       otherAreas: 'We also work near you'
+    },
+    zone: {
+      metaTitle: 'Our Service Area — VitraCare',
+      metaDescription: "Brussels and its 19 municipalities, the whole periphery, and beyond for large projects: discover VitraCare's full window film service area.",
+      title: 'Our Service Area',
+      intro: 'VitraCare works throughout the Brussels-Capital Region and its periphery. Three communes have their own dedicated page on this site — Uccle, Waterloo and Forest — but our actual coverage is much wider. Here is the full picture.',
+      brusselsHeading: 'The 19 communes of Brussels',
+      brusselsIntro: 'We install window films and tints throughout the Brussels-Capital Region, in every commune:',
+      brusselsCommunes: ['Anderlecht', 'Auderghem', 'Berchem-Sainte-Agathe', 'City of Brussels', 'Etterbeek', 'Evere', 'Forest', 'Ganshoren', 'Ixelles', 'Jette', 'Koekelberg', 'Molenbeek-Saint-Jean', 'Saint-Gilles', 'Saint-Josse-ten-Noode', 'Schaerbeek', 'Uccle', 'Watermael-Boitsfort', 'Woluwe-Saint-Lambert', 'Woluwe-Saint-Pierre'],
+      peripheryHeading: 'The Brussels periphery',
+      peripheryIntro: "We travel just as readily outside Brussels, including to Waterloo, Braine-l'Alleud, Lasne, Rhode-Saint-Genèse, Linkebeek and Kraainem, and more broadly throughout Walloon and Flemish Brabant.",
+      bigCitiesHeading: 'For larger projects, beyond Brussels',
+      bigCitiesText: "For sufficiently large projects, we also travel elsewhere in Belgium — including Charleroi, Antwerp and Ghent. Feel free to submit your project regardless of location: we'll tell you honestly whether the trip is worth it.",
+      detailedHeading: 'Our detailed commune pages',
+      detailedIntro: 'For Uccle, Waterloo and Forest, we wrote a full page covering local specifics.',
     },
     offre: {
       metaTitle: 'Window Cleaning Offer — VitraCare',

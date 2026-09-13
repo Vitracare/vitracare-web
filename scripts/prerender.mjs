@@ -173,6 +173,26 @@ const pages = [
       },
     },
   },
+  {
+    path: '/zone-intervention',
+    meta: {
+      FR: {
+        title: "Notre zone d'intervention — VitraCare",
+        description:
+          "Bruxelles et ses 19 communes, toute la périphérie, et au-delà pour les grands projets : découvrez toute la zone où VitraCare pose des films pour vitrages.",
+      },
+      NL: {
+        title: 'Ons werkgebied — VitraCare',
+        description:
+          'Brussel en zijn 19 gemeenten, de hele rand, en verder voor grote projecten: ontdek het volledige gebied waar VitraCare raamfolie plaatst.',
+      },
+      EN: {
+        title: 'Our Service Area — VitraCare',
+        description:
+          "Brussels and its 19 municipalities, the whole periphery, and beyond for large projects: discover VitraCare's full window film service area.",
+      },
+    },
+  },
 ];
 
 const blogArticles = [

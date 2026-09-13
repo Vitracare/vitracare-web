@@ -119,6 +119,13 @@ export default function Commune() {
                   </Link>
                 ))}
               </div>
+              <Link
+                to="/zone-intervention"
+                className="inline-block mt-5 text-[14px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
+                style={{ color: brandColor }}
+              >
+                {t.zone.title}
+              </Link>
             </div>
           )}
         </div>

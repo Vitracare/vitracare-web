@@ -16,6 +16,7 @@ import Blog from './pages/Blog';
 import BlogArticle from './pages/BlogArticle';
 import Commune from './pages/Commune';
 import Offre from './pages/Offre';
+import ZoneIntervention from './pages/ZoneIntervention';
 
 export const pageRoutes: { path: string; element: ReactElement }[] = [
   { path: '/', element: <Home /> },
@@ -30,6 +31,7 @@ export const pageRoutes: { path: string; element: ReactElement }[] = [
   { path: '/blog/:slug', element: <BlogArticle /> },
   { path: '/communes/:slug', element: <Commune /> },
   { path: '/offre', element: <Offre /> },
+  { path: '/zone-intervention', element: <ZoneIntervention /> },
 ];
 
 export const langPrefixes: Record<Lang, string> = { FR: '', NL: '/nl', EN: '/en' };

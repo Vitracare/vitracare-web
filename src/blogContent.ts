@@ -53,7 +53,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'La teinte solaire',
           anchor: 'solaire',
           paragraphs: [
-            "Si votre priorité est le confort thermique plutôt que l'intimité totale, la teinte solaire est le film le plus adapté. Contrairement au film miroir, elle reste transparente — on continue à voir clairement au travers, dans les deux sens.",
+            "Si votre priorité est le confort thermique plutôt que l'intimité totale, la teinte solaire est le film le plus adapté. Contrairement au film miroir, elle reste transparente — on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
             "Son rôle principal : réduire la chaleur et les UV qui entrent dans la maison, pour un confort optimal en été sans devoir fermer les volets ou installer une climatisation. C'est une solution particulièrement appréciée dans les pièces de vie très exposées au soleil, ou pour protéger un salon plein sud qui devient difficilement vivable l'après-midi.",
           ],
         },
@@ -449,7 +449,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Moins d\'éblouissement, une vue toujours dégagée',
           paragraphs: [
-            "Contrairement à un store ou un rideau, le film solaire reste transparent : il réduit l'éblouissement direct — utile pour un écran d'ordinateur ou une télévision en pleine journée — sans obliger à fermer quoi que ce soit ni à perdre la vue vers l'extérieur.",
+            "Contrairement à un store ou un rideau, le film solaire reste transparent — avec une légère teinte bleutée propre à ce type de film — et réduit l'éblouissement direct — utile pour un écran d'ordinateur ou une télévision en pleine journée — sans obliger à fermer quoi que ce soit ni à perdre la vue vers l'extérieur.",
           ],
         },
         {
@@ -480,7 +480,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film solaire assombrit-il la pièce ?',
-          answer: "Non, il reste transparent et laisse passer la lumière naturelle : il filtre la chaleur et l'éblouissement sans assombrir fortement la pièce.",
+          answer: "Non, il reste transparent et laisse passer la lumière naturelle : il filtre la chaleur et l'éblouissement sans assombrir fortement la pièce. Vous remarquerez une légère teinte bleutée sur le vitrage, propre à ce type de film, mais elle ne réduit pas la clarté de la pièce.",
         },
         {
           question: 'Fonctionne-t-il été comme hiver ?',
@@ -593,7 +593,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Zonwerende folie',
           anchor: 'solaire',
           paragraphs: [
-            "Als uw prioriteit eerder thermisch comfort is dan volledige privacy, is de zonwerende folie de meest geschikte keuze. In tegenstelling tot de spiegelfolie blijft ze transparant — u blijft duidelijk doorheen kijken, in beide richtingen.",
+            "Als uw prioriteit eerder thermisch comfort is dan volledige privacy, is de zonwerende folie de meest geschikte keuze. In tegenstelling tot de spiegelfolie blijft ze transparant — u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
             "Haar belangrijkste rol: de warmte en UV-stralen die het huis binnenkomen verminderen, voor optimaal comfort in de zomer zonder de rolluiken te moeten sluiten of airconditioning te installeren. Een oplossing die vooral gewaardeerd wordt in leefruimtes die sterk aan de zon blootgesteld zijn, of om een zuidgerichte woonkamer te beschermen die 's namiddags moeilijk leefbaar wordt.",
           ],
         },
@@ -988,7 +988,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Minder verblinding, altijd een vrij uitzicht',
           paragraphs: [
-            'In tegenstelling tot een zonnescherm of gordijn blijft zonwerende folie transparant: ze vermindert directe verblinding — handig voor een computerscherm of televisie overdag — zonder dat u iets moet sluiten of het uitzicht naar buiten moet opgeven.',
+            'In tegenstelling tot een zonnescherm of gordijn blijft zonwerende folie transparant — met een lichte blauwachtige tint eigen aan dit type folie — en vermindert ze directe verblinding — handig voor een computerscherm of televisie overdag — zonder dat u iets moet sluiten of het uitzicht naar buiten moet opgeven.',
           ],
         },
         {
@@ -1019,7 +1019,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Verduistert zonwerende folie de ruimte?',
-          answer: 'Nee, ze blijft transparant en laat natuurlijk licht door: ze filtert warmte en verblinding zonder de ruimte sterk te verduisteren.',
+          answer: 'Nee, ze blijft transparant en laat natuurlijk licht door: ze filtert warmte en verblinding zonder de ruimte sterk te verduisteren. U merkt wel een lichte blauwachtige tint op de beglazing, eigen aan dit type folie, maar die vermindert de helderheid van de ruimte niet.',
         },
         {
           question: "Werkt ze zowel 's zomers als 's winters?",
@@ -1132,7 +1132,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Solar tint',
           anchor: 'solaire',
           paragraphs: [
-            "If your priority is thermal comfort rather than total privacy, solar tint is the most suitable film. Unlike mirror film, it remains transparent — you can still see clearly through it, in both directions.",
+            "If your priority is thermal comfort rather than total privacy, solar tint is the most suitable film. Unlike mirror film, it remains transparent — you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
             "Its main role: reducing the heat and UV entering the house, for optimal comfort in summer without having to close the shutters or install air conditioning. It's a solution particularly appreciated in living spaces heavily exposed to the sun, or to protect a south-facing living room that becomes hard to use in the afternoon.",
           ],
         },
@@ -1527,7 +1527,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Less glare, an unobstructed view',
           paragraphs: [
-            "Unlike a blind or curtain, solar film stays transparent: it reduces direct glare — useful for a computer screen or TV during the day — without ever needing to close anything or lose the view outside.",
+            "Unlike a blind or curtain, solar film stays transparent — with a slight blue tint characteristic of this type of film — and reduces direct glare — useful for a computer screen or TV during the day — without ever needing to close anything or lose the view outside.",
           ],
         },
         {
@@ -1558,7 +1558,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Does solar film darken the room?',
-          answer: "No, it stays transparent and lets natural light through: it filters heat and glare without significantly darkening the room.",
+          answer: "No, it stays transparent and lets natural light through: it filters heat and glare without significantly darkening the room. You'll notice a slight blue tint on the glazing, characteristic of this type of film, but it doesn't reduce the room's brightness.",
         },
         {
           question: 'Does it work in both summer and winter?',

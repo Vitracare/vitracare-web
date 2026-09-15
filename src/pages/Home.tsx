@@ -514,6 +514,48 @@ export default function Home() {
           </div>
         )}
 
+        {/* Comparison table — several film types overlap on benefits (e.g. mirror
+            film also cuts heat/UV, not just privacy); a quick visual summary
+            answers that confusion directly, right where most visitors actually
+            look (real customer feedback: people rarely reach the blog articles). */}
+        <div className="max-w-3xl mx-auto mt-16">
+          <h3 className="text-[18px] font-bold text-center mb-6" style={{ color: headingColor }}>
+            {t.teintes.comparisonTitle}
+          </h3>
+          <div className="overflow-x-auto -mx-1 px-1">
+            <table className="w-full border-collapse text-[13px] md:text-[14px]">
+              <thead>
+                <tr>
+                  {t.teintes.comparisonHeaders.map((h, hIdx) => (
+                    <th
+                      key={hIdx}
+                      className="text-left font-bold py-3 px-3 border-b-2"
+                      style={{ color: headingColor, borderColor: brandColor }}
+                    >
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {t.teintes.comparisonRows.map((row, rIdx) => (
+                  <tr key={rIdx} className="border-b border-gray-100">
+                    {row.map((cell, cIdx) => (
+                      <td
+                        key={cIdx}
+                        className={`py-3 px-3 whitespace-nowrap ${cIdx === 0 ? 'font-bold' : ''}`}
+                        style={{ color: cIdx === 0 ? headingColor : lightTextColor }}
+                      >
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div className="flex justify-center mt-16">
           <Link
             to="/devis"

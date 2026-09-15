@@ -2,6 +2,11 @@ export type BlogSection = {
   heading?: string;
   anchor?: string;
   paragraphs: string[];
+  // Optional comparison table, rendered as a real <table> by BlogArticle.tsx.
+  // Kept as plain string cells (no markdown) — used for the film-type comparison
+  // grid, built only from facts already stated elsewhere in this file, never
+  // new/unverified claims.
+  table?: { headers: string[]; rows: string[][] };
 };
 
 export type BlogFaqItem = {
@@ -68,6 +73,21 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée — il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
             "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur.",
           ],
+        },
+        {
+          heading: 'Tableau comparatif des 4 films',
+          paragraphs: [
+            "Plusieurs films se recoupent sur certains points (par exemple, l'effet miroir protège aussi de la chaleur et des UV, en plus de l'intimité) : voici un résumé visuel pour comparer d'un coup d'œil.",
+          ],
+          table: {
+            headers: ['Film', 'Intimité', 'Réduction chaleur', 'Protection UV', 'Sécurité renforcée'],
+            rows: [
+              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui', "Oui (jusqu'à 99%)", 'Non'],
+              ['Solaire', 'Non (reste transparent)', 'Oui (rôle principal)', 'Oui (bonus)', 'Non'],
+              ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
+              ['Anti-effraction', 'Non (reste transparent)', 'Non', 'Non', 'Oui (rôle principal)'],
+            ],
+          },
         },
         {
           heading: 'Comment choisir ?',
@@ -467,6 +487,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           answer: "Il agit dès que le soleil frappe directement le vitrage, donc surtout en mi-saison et en été. Ce n'est pas un film isolant thermique complet pour l'hiver, mais un filtre contre la surchauffe et l'éblouissement solaire.",
         },
         {
+          question: "Le film aide-t-il aussi à garder la chaleur à l'intérieur en hiver ?",
+          answer: "Ce n'est pas l'usage principal du film, conçu avant tout contre la chaleur d'été. Ajouter une couche supplémentaire sur le vitrage peut, en théorie, légèrement limiter les échanges de chaleur dans les deux sens — mais cet effet n'a pas été mesuré ni prouvé scientifiquement pour ce produit. Nous préférons rester honnêtes plutôt que de promettre un bénéfice hivernal que nous ne pouvons pas garantir.",
+        },
+        {
           question: 'Le film solaire protège-t-il aussi l\'intimité ?',
           answer: "Certains types de films solaires réduisent aussi la visibilité depuis l'extérieur, mais ce n'est pas leur fonction principale. Pour une intimité garantie, consultez notre article dédié au film pour vitrage et le vis-à-vis.",
         },
@@ -589,6 +613,21 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen — hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
             "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers.",
           ],
+        },
+        {
+          heading: 'Vergelijkingstabel van de 4 folies',
+          paragraphs: [
+            'Sommige folies overlappen op bepaalde punten (de spiegeleffect folie beschermt bijvoorbeeld ook tegen warmte en UV, naast privacy): hier een visueel overzicht om in één oogopslag te vergelijken.',
+          ],
+          table: {
+            headers: ['Folie', 'Privacy', 'Warmtevermindering', 'UV-bescherming', 'Verhoogde veiligheid'],
+            rows: [
+              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja', 'Ja (tot 99%)', 'Nee'],
+              ['Zonwerend', 'Nee (blijft transparant)', 'Ja (hoofdrol)', 'Ja (extra)', 'Nee'],
+              ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
+              ['Inbraakwerend', 'Nee (blijft transparant)', 'Nee', 'Nee', 'Ja (hoofdrol)'],
+            ],
+          },
         },
         {
           heading: 'Hoe kiezen?',
@@ -987,6 +1026,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           answer: 'Ze werkt zodra de zon rechtstreeks op de beglazing schijnt, dus vooral tussenseizoen en zomer. Het is geen volledige thermische isolatiefolie voor de winter, maar een filter tegen oververhitting en zonneverblinding.',
         },
         {
+          question: "Helpt de folie ook om warmte binnen te houden in de winter?",
+          answer: "Dat is niet het hoofddoel van de folie, die in de eerste plaats tegen zomerhitte is ontworpen. Een extra laag op de beglazing kan in theorie de warmte-uitwisseling in beide richtingen licht beperken — maar dit effect is voor dit product niet gemeten of wetenschappelijk bewezen. We geven liever een eerlijk antwoord dan een winters voordeel te beloven dat we niet kunnen garanderen.",
+        },
+        {
           question: 'Beschermt zonwerende folie ook de privacy?',
           answer: 'Sommige types zonwerende folie verminderen ook de zichtbaarheid van buitenaf, maar dat is niet hun hoofdfunctie. Voor gegarandeerde privacy verwijzen we naar ons artikel over raamfolie en inkijk.',
         },
@@ -1109,6 +1152,21 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane — they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
             "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window.",
           ],
+        },
+        {
+          heading: 'Comparison table of the 4 films',
+          paragraphs: [
+            "Several films overlap on certain points (mirror film, for instance, also protects against heat and UV, on top of privacy): here's a visual summary to compare them at a glance.",
+          ],
+          table: {
+            headers: ['Film', 'Privacy', 'Heat reduction', 'UV protection', 'Enhanced security'],
+            rows: [
+              ['Mirror effect', 'Yes (daytime only)', 'Yes', 'Yes (up to 99%)', 'No'],
+              ['Solar', 'No (stays transparent)', 'Yes (main role)', 'Yes (bonus)', 'No'],
+              ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
+              ['Anti-burglary', 'No (stays transparent)', 'No', 'No', 'Yes (main role)'],
+            ],
+          },
         },
         {
           heading: 'How to choose?',
@@ -1505,6 +1563,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does it work in both summer and winter?',
           answer: "It acts whenever the sun hits the glazing directly, so mostly in mid-season and summer. It's not a full thermal insulation film for winter, but a filter against overheating and solar glare.",
+        },
+        {
+          question: 'Does the film also help keep heat in during winter?',
+          answer: "That's not the film's main purpose, which is primarily designed against summer heat. Adding an extra layer to the glazing could, in theory, slightly limit heat exchange in both directions — but this effect hasn't been measured or scientifically proven for this product. We'd rather give an honest answer than promise a winter benefit we can't guarantee.",
         },
         {
           question: 'Does solar film also protect privacy?',

@@ -195,6 +195,40 @@ export default function BlogArticle() {
                 {section.paragraphs.map((p, pIdx) => (
                   <p key={pIdx} className="mb-3">{renderParagraph(p)}</p>
                 ))}
+                {section.table && (
+                  <div className="overflow-x-auto -mx-1 px-1 mt-2">
+                    <table className="w-full border-collapse text-[14px]">
+                      <thead>
+                        <tr>
+                          {section.table.headers.map((h, hIdx) => (
+                            <th
+                              key={hIdx}
+                              className="text-left font-bold py-3 px-3 border-b-2"
+                              style={{ color: '#464646', borderColor: brandColor }}
+                            >
+                              {h}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.table.rows.map((row, rIdx) => (
+                          <tr key={rIdx} className="border-b border-gray-100">
+                            {row.map((cell, cIdx) => (
+                              <td
+                                key={cIdx}
+                                className={`py-3 px-3 whitespace-nowrap ${cIdx === 0 ? 'font-bold' : ''}`}
+                                style={{ color: cIdx === 0 ? '#464646' : '#4a4a4a' }}
+                              >
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
               </div>
             ))}
 

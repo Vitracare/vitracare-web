@@ -54,7 +54,15 @@ export const translations = {
       learnMore: 'En savoir plus',
       showLess: 'Réduire',
       readMore: "Lire l'article complet →",
-      swipeHint: '← Glissez pour voir les 4 teintes →'
+      swipeHint: '← Glissez pour voir les 4 teintes →',
+      comparisonTitle: 'En un coup d\'œil',
+      comparisonHeaders: ['Film', 'Intimité', 'Réduction chaleur', 'Protection UV', 'Sécurité renforcée'],
+      comparisonRows: [
+        ['Effet miroir', 'Oui (le jour)', 'Oui', 'Oui', 'Non'],
+        ['Solaire', 'Non', 'Oui', 'Oui', 'Non'],
+        ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
+        ['Anti-effraction', 'Non', 'Non', 'Non', 'Oui'],
+      ]
     },
     reviews: {
       title: 'Avis',
@@ -245,7 +253,15 @@ export const translations = {
       learnMore: 'Meer weten',
       showLess: 'Sluiten',
       readMore: 'Lees het volledige artikel →',
-      swipeHint: '← Schuif om de 4 tinten te zien →'
+      swipeHint: '← Schuif om de 4 tinten te zien →',
+      comparisonTitle: 'In één oogopslag',
+      comparisonHeaders: ['Folie', 'Privacy', 'Warmtevermindering', 'UV-bescherming', 'Verhoogde veiligheid'],
+      comparisonRows: [
+        ['Spiegeleffect', 'Ja (overdag)', 'Ja', 'Ja', 'Nee'],
+        ['Zonwerend', 'Nee', 'Ja', 'Ja', 'Nee'],
+        ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
+        ['Inbraakwerend', 'Nee', 'Nee', 'Nee', 'Ja'],
+      ]
     },
     reviews: {
       title: 'Beoordelingen',
@@ -436,7 +452,15 @@ export const translations = {
       learnMore: 'Learn more',
       showLess: 'Show less',
       readMore: 'Read the full article →',
-      swipeHint: '← Swipe to see all 4 tints →'
+      swipeHint: '← Swipe to see all 4 tints →',
+      comparisonTitle: 'At a glance',
+      comparisonHeaders: ['Film', 'Privacy', 'Heat reduction', 'UV protection', 'Enhanced security'],
+      comparisonRows: [
+        ['Mirror effect', 'Yes (daytime)', 'Yes', 'Yes', 'No'],
+        ['Solar', 'No', 'Yes', 'Yes', 'No'],
+        ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
+        ['Anti-burglary', 'No', 'No', 'No', 'Yes'],
+      ]
     },
     reviews: {
       title: 'Reviews',

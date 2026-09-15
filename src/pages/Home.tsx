@@ -141,6 +141,15 @@ export default function Home() {
     mat: t.teintes.mat_more,
     antieffraction: t.teintes.antieffraction_more,
   };
+  // Column position of each tint, matching both the 4-card grid order and the
+  // comparisonRows order in i18n.ts — used to point the panel's caret at the
+  // right card and to highlight the matching row in the comparison table.
+  const tintColumnIndex: Record<'miroir' | 'solaire' | 'mat' | 'antieffraction', number> = {
+    miroir: 0,
+    solaire: 1,
+    mat: 2,
+    antieffraction: 3,
+  };
 
   useEffect(() => {
     const sectionIds = ['accueil', 'services', 'produit', 'avis'];
@@ -495,66 +504,87 @@ export default function Home() {
         <p className="text-center text-[12px] text-gray-400 mt-4 md:hidden">{t.teintes.swipeHint}</p>
 
         {openTint && (
-          <div className="max-w-2xl mx-auto mt-10 p-6 md:p-8 rounded-xl text-left" style={{ backgroundColor: '#FAF9F6' }}>
-            <h4 className="text-[16px] font-bold mb-3 text-center" style={{ color: headingColor }}>
-              {tintTitles[openTint]}
-            </h4>
-            <p className="text-[14px] leading-relaxed mb-4" style={{ color: lightTextColor }}>
-              {tintMoreText[openTint]}
-            </p>
-            <p className="text-center">
-              <Link
-                to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
-                className="text-[13px] font-bold underline underline-offset-2"
-                style={{ color: brandColor }}
-              >
-                {t.teintes.readMore}
-              </Link>
-            </p>
+          <div className="max-w-6xl mx-auto relative mt-10">
+            {/* Caret pointing up at the card that was clicked, so the panel reads
+                as "attached" to it rather than a generic box floating mid-page.
+                Only shown on the lg breakpoint, the only one where the 4 cards
+                truly sit in one row at fixed quarter-width positions. */}
+            <div
+              className="hidden lg:block absolute w-4 h-4 rotate-45"
+              style={{
+                top: '-7px',
+                left: `calc(${(tintColumnIndex[openTint] + 0.5) * 25}% - 8px)`,
+                backgroundColor: '#FAF9F6',
+              }}
+              aria-hidden="true"
+            ></div>
+            <div className="p-6 md:p-10 rounded-xl text-left relative" style={{ backgroundColor: '#FAF9F6' }}>
+              <h4 className="text-[16px] font-bold mb-3 text-center" style={{ color: headingColor }}>
+                {tintTitles[openTint]}
+              </h4>
+              <p className="text-[14px] leading-relaxed mb-4 max-w-2xl mx-auto" style={{ color: lightTextColor }}>
+                {tintMoreText[openTint]}
+              </p>
+              <p className="text-center mb-8">
+                <Link
+                  to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
+                  className="text-[13px] font-bold underline underline-offset-2"
+                  style={{ color: brandColor }}
+                >
+                  {t.teintes.readMore}
+                </Link>
+              </p>
+
+              {/* Comparison table, with the currently open tint's row highlighted —
+                  answers the confusion we saw in practice (a real client couldn't
+                  tell which films overlap on which benefits) right where the
+                  visitor is already paying attention, instead of a separate
+                  block further down the page. */}
+              <h5 className="text-[13px] font-bold uppercase tracking-wider text-center mb-4" style={{ color: brandColor }}>
+                {t.teintes.comparisonTitle}
+              </h5>
+              <div className="overflow-x-auto -mx-1 px-1">
+                <table className="w-full border-collapse text-[13px] md:text-[14px]">
+                  <thead>
+                    <tr>
+                      {t.teintes.comparisonHeaders.map((h, hIdx) => (
+                        <th
+                          key={hIdx}
+                          className="text-left font-bold py-3 px-3 border-b-2"
+                          style={{ color: headingColor, borderColor: brandColor }}
+                        >
+                          {h}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.teintes.comparisonRows.map((row, rIdx) => {
+                      const isActive = rIdx === tintColumnIndex[openTint];
+                      return (
+                        <tr
+                          key={rIdx}
+                          className="border-b border-gray-100"
+                          style={isActive ? { backgroundColor: 'rgba(186, 151, 101, 0.12)' } : undefined}
+                        >
+                          {row.map((cell, cIdx) => (
+                            <td
+                              key={cIdx}
+                              className={`py-3 px-3 whitespace-nowrap ${cIdx === 0 || isActive ? 'font-bold' : ''}`}
+                              style={{ color: cIdx === 0 || isActive ? headingColor : lightTextColor }}
+                            >
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         )}
-
-        {/* Comparison table — several film types overlap on benefits (e.g. mirror
-            film also cuts heat/UV, not just privacy); a quick visual summary
-            answers that confusion directly, right where most visitors actually
-            look (real customer feedback: people rarely reach the blog articles). */}
-        <div className="max-w-3xl mx-auto mt-16">
-          <h3 className="text-[18px] font-bold text-center mb-6" style={{ color: headingColor }}>
-            {t.teintes.comparisonTitle}
-          </h3>
-          <div className="overflow-x-auto -mx-1 px-1">
-            <table className="w-full border-collapse text-[13px] md:text-[14px]">
-              <thead>
-                <tr>
-                  {t.teintes.comparisonHeaders.map((h, hIdx) => (
-                    <th
-                      key={hIdx}
-                      className="text-left font-bold py-3 px-3 border-b-2"
-                      style={{ color: headingColor, borderColor: brandColor }}
-                    >
-                      {h}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {t.teintes.comparisonRows.map((row, rIdx) => (
-                  <tr key={rIdx} className="border-b border-gray-100">
-                    {row.map((cell, cIdx) => (
-                      <td
-                        key={cIdx}
-                        className={`py-3 px-3 whitespace-nowrap ${cIdx === 0 ? 'font-bold' : ''}`}
-                        style={{ color: cIdx === 0 ? headingColor : lightTextColor }}
-                      >
-                        {cell}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
 
         <div className="flex justify-center mt-16">
           <Link

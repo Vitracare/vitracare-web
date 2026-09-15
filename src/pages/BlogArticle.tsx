@@ -227,6 +227,7 @@ export default function BlogArticle() {
                         ))}
                       </tbody>
                     </table>
+                    <p className="text-center text-[12px] text-gray-400 mt-2 md:hidden">{t.teintes.tableSwipeHint}</p>
                   </div>
                 )}
               </div>

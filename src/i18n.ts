@@ -62,7 +62,8 @@ export const translations = {
         ['Solaire', 'Non', 'Oui', 'Oui', 'Non'],
         ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
         ['Anti-effraction', 'Non', 'Non', 'Non', 'Oui'],
-      ]
+      ],
+      tableSwipeHint: '← Glissez pour voir tout le tableau →'
     },
     reviews: {
       title: 'Avis',
@@ -261,7 +262,8 @@ export const translations = {
         ['Zonwerend', 'Nee', 'Ja', 'Ja', 'Nee'],
         ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
         ['Inbraakwerend', 'Nee', 'Nee', 'Nee', 'Ja'],
-      ]
+      ],
+      tableSwipeHint: '← Schuif om de volledige tabel te zien →'
     },
     reviews: {
       title: 'Beoordelingen',
@@ -460,7 +462,8 @@ export const translations = {
         ['Solar', 'No', 'Yes', 'Yes', 'No'],
         ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
         ['Anti-burglary', 'No', 'No', 'No', 'Yes'],
-      ]
+      ],
+      tableSwipeHint: '← Swipe to see the full table →'
     },
     reviews: {
       title: 'Reviews',

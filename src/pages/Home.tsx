@@ -527,10 +527,10 @@ export default function Home() {
               <p className="text-[14px] leading-relaxed mb-4 max-w-2xl mx-auto" style={{ color: lightTextColor }}>
                 {tintMoreText[openTint]}
               </p>
-              <p className="text-center mb-8">
+              <p className="text-center mb-6">
                 <Link
                   to={`/blog/quel-film-choisir-vitrages#${tintAnchors[openTint]}`}
-                  className="text-[13px] font-bold underline underline-offset-2"
+                  className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
                   style={{ color: brandColor }}
                 >
                   {t.teintes.readMore}
@@ -541,12 +541,17 @@ export default function Home() {
                   answers the confusion we saw in practice (a real client couldn't
                   tell which films overlap on which benefits) right where the
                   visitor is already paying attention, instead of a separate
-                  block further down the page. */}
-              <h5 className="text-[13px] font-bold uppercase tracking-wider text-center mb-4" style={{ color: brandColor }}>
-                {t.teintes.comparisonTitle}
-              </h5>
-              <div className="overflow-x-auto -mx-1 px-1">
-                <table className="w-full border-collapse text-[13px] md:text-[14px]">
+                  block further down the page. A top border + a neutral (non-brand)
+                  color for this label visually separates it from the "Lire
+                  l'article complet" link above — both used brandColor before,
+                  which read as two competing actions instead of a link + a
+                  section label. */}
+              <div className="border-t border-gray-200 pt-6">
+                <h5 className="text-[13px] font-bold uppercase tracking-wider text-center mb-4" style={{ color: headingColor }}>
+                  {t.teintes.comparisonTitle}
+                </h5>
+                <div className="overflow-x-auto -mx-1 px-1">
+                  <table className="w-full border-collapse text-[13px] md:text-[14px]">
                   <thead>
                     <tr>
                       {t.teintes.comparisonHeaders.map((h, hIdx) => (
@@ -583,6 +588,8 @@ export default function Home() {
                     })}
                   </tbody>
                 </table>
+                </div>
+                <p className="text-center text-[12px] text-gray-400 mt-2 md:hidden">{t.teintes.tableSwipeHint}</p>
               </div>
             </div>
           </div>

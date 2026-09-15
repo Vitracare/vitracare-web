@@ -510,11 +510,13 @@ export default function Home() {
                 Only shown on the lg breakpoint, the only one where the 4 cards
                 truly sit in one row at fixed quarter-width positions. */}
             <div
-              className="hidden lg:block absolute w-4 h-4 rotate-45"
+              className="hidden lg:block absolute w-6 h-6 rotate-45 border-t border-l"
               style={{
-                top: '-7px',
-                left: `calc(${(tintColumnIndex[openTint] + 0.5) * 25}% - 8px)`,
+                top: '-11px',
+                left: `calc(${(tintColumnIndex[openTint] + 0.5) * 25}% - 12px)`,
                 backgroundColor: '#FAF9F6',
+                borderColor: brandColor,
+                boxShadow: '-2px -2px 4px rgba(0, 0, 0, 0.04)',
               }}
               aria-hidden="true"
             ></div>

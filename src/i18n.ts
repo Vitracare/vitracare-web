@@ -73,7 +73,7 @@ export const translations = {
       r4: 'Nos toiles ne craignent plus le soleil. Un vrai soulagement !',
       more: 'EN SAVOIR PLUS',
       swipeHint: '← Glissez pour voir tous les avis →',
-      googleLink: 'Voir tous nos avis sur Google',
+      googleLink: 'Voir nos avis sur Google',
       trustpilotLink: 'Voir nos avis sur Trustpilot'
     },
     strip: {
@@ -273,7 +273,7 @@ export const translations = {
       r4: 'Onze doeken zijn niet meer bang voor de zon. Een hele opluchting!',
       more: 'LEES MEER',
       swipeHint: '← Schuif om alle beoordelingen te zien →',
-      googleLink: 'Bekijk al onze beoordelingen op Google',
+      googleLink: 'Bekijk onze beoordelingen op Google',
       trustpilotLink: 'Bekijk onze beoordelingen op Trustpilot'
     },
     strip: {
@@ -473,7 +473,7 @@ export const translations = {
       r4: 'Our canvases no longer fear the sun. A real relief!',
       more: 'LEARN MORE',
       swipeHint: '← Swipe to see all reviews →',
-      googleLink: 'See all our reviews on Google',
+      googleLink: 'See our reviews on Google',
       trustpilotLink: 'See our reviews on Trustpilot'
     },
     strip: {

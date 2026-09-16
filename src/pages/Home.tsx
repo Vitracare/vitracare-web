@@ -674,37 +674,36 @@ export default function Home() {
                 >
                   {t.reviews.more}
                 </Link>
-                {/* Real Google Business Profile link — an SEO audit flagged that the site
-                    had zero on-page reference to it, making it impossible for visitors
-                    (or Google) to find/verify reviews independently. No customer names or
-                    review text are reproduced here, only a link to the real listing. */}
-                <a
-                  href="https://share.google/c3Bih4FWySHUhjkAZ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
-                  style={{ color: brandColor }}
-                >
-                  {t.reviews.googleLink}
-                </a>
-                {/* Real Trustpilot profile link — same rationale as the Google link above:
-                    a genuine, independently verifiable third-party review source, no
-                    review text or ratings reproduced on-page. */}
-                <a
-                  href={
-                    lang === 'NL'
-                      ? 'https://nl-be.trustpilot.com/review/vitracare.be'
-                      : lang === 'EN'
-                        ? 'https://www.trustpilot.com/review/vitracare.be'
-                        : 'https://fr-be.trustpilot.com/review/vitracare.be'
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
-                  style={{ color: brandColor }}
-                >
-                  {t.reviews.trustpilotLink}
-                </a>
+                {/* Real Google Business Profile + Trustpilot links, side by side — no
+                    customer names or review text reproduced here, only links to the
+                    real, independently verifiable listings. */}
+                <div className="flex flex-row flex-wrap items-center justify-center lg:justify-start gap-x-4 gap-y-2">
+                  <a
+                    href="https://share.google/c3Bih4FWySHUhjkAZ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
+                    style={{ color: brandColor }}
+                  >
+                    {t.reviews.googleLink}
+                  </a>
+                  <span aria-hidden="true" className="text-gray-300">•</span>
+                  <a
+                    href={
+                      lang === 'NL'
+                        ? 'https://nl-be.trustpilot.com/review/vitracare.be'
+                        : lang === 'EN'
+                          ? 'https://www.trustpilot.com/review/vitracare.be'
+                          : 'https://fr-be.trustpilot.com/review/vitracare.be'
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
+                    style={{ color: brandColor }}
+                  >
+                    {t.reviews.trustpilotLink}
+                  </a>
+                </div>
               </div>
             </div>
           </div>

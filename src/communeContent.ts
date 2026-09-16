@@ -56,7 +56,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Uccle',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Uccle, en complément de notre présence dans toute la région bruxelloise. Notre installateur partenaire intervient dans tous les quartiers de la commune.",
+            "Nous menons actuellement des actions de sensibilisation locale à Uccle, en complément de notre présence dans toute la région bruxelloise. Notre collaborateur intervient dans tous les quartiers de la commune.",
           ],
         },
       ],
@@ -67,7 +67,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Intervenez-vous dans tous les quartiers d\'Uccle ?',
-          answer: "Oui, notre installateur partenaire intervient dans l'ensemble de la commune, du Fort-Jaco à Saint-Job en passant par Calevoet et le centre d'Uccle.",
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, du Fort-Jaco à Saint-Job en passant par Calevoet et le centre d'Uccle.",
         },
         {
           question: 'Le film est-il adapté à une maison avec jardin, même sans vis-à-vis apparent ?',
@@ -110,7 +110,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Waterloo',
           paragraphs: [
-            "Nous étendons actuellement notre présence à Waterloo, en complément de notre activité dans la région bruxelloise. Notre installateur partenaire se déplace dans toute la commune.",
+            "Nous étendons actuellement notre présence à Waterloo, en complément de notre activité dans la région bruxelloise. Notre collaborateur se déplace dans toute la commune.",
           ],
         },
       ],
@@ -175,7 +175,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Intervenez-vous dans tous les quartiers de Forest ?',
-          answer: "Oui, notre installateur partenaire intervient dans l'ensemble de la commune, du Bas de Forest à Saint-Denis.",
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, du Bas de Forest à Saint-Denis.",
         },
         {
           question: 'Que se passe-t-il le soir, une fois les lumières allumées ?',
@@ -220,7 +220,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Ukkel',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Ukkel, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze partnerinstallateur is actief in alle wijken van de gemeente.',
+            'We voeren momenteel lokale sensibiliseringsacties in Ukkel, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze medewerker is actief in alle wijken van de gemeente.',
           ],
         },
       ],
@@ -231,7 +231,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Bent u actief in alle wijken van Ukkel?',
-          answer: 'Ja, onze partnerinstallateur is actief in de hele gemeente, van Fort-Jaco tot Sint-Job, via Kalevoet en het centrum van Ukkel.',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van Fort-Jaco tot Sint-Job, via Kalevoet en het centrum van Ukkel.',
         },
         {
           question: 'Is de folie geschikt voor een woning met tuin, ook zonder zichtbare inkijk?',
@@ -274,7 +274,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
-            'We breiden onze aanwezigheid momenteel uit naar Waterloo, als aanvulling op onze activiteit in het Brussels gewest. Onze partnerinstallateur verplaatst zich naar de hele gemeente.',
+            'We breiden onze aanwezigheid momenteel uit naar Waterloo, als aanvulling op onze activiteit in het Brussels gewest. Onze medewerker verplaatst zich naar de hele gemeente.',
           ],
         },
       ],
@@ -339,7 +339,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Bent u actief in alle wijken van Vorst?',
-          answer: 'Ja, onze partnerinstallateur is actief in de hele gemeente, van Laag-Vorst tot Sint-Denijs.',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van Laag-Vorst tot Sint-Denijs.',
         },
         {
           question: 'Wat gebeurt er \'s avonds, eenmaal de lichten aan zijn?',
@@ -384,7 +384,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Uccle',
           paragraphs: [
-            'We are currently running local outreach in Uccle, alongside our presence across the wider Brussels region. Our partner installer works in every neighbourhood of the commune.',
+            'We are currently running local outreach in Uccle, alongside our presence across the wider Brussels region. Our collaborator works in every neighbourhood of the commune.',
           ],
         },
       ],
@@ -395,7 +395,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Do you work in every neighbourhood of Uccle?',
-          answer: 'Yes, our partner installer covers the whole commune, from Fort-Jaco to Saint-Job, via Calevoet and central Uccle.',
+          answer: 'Yes, our collaborator covers the whole commune, from Fort-Jaco to Saint-Job, via Calevoet and central Uccle.',
         },
         {
           question: 'Is the film suitable for a house with a garden, even without obvious overlooking?',
@@ -438,7 +438,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
-            'We are currently expanding our presence to Waterloo, alongside our activity across the Brussels region. Our partner installer travels throughout the commune.',
+            'We are currently expanding our presence to Waterloo, alongside our activity across the Brussels region. Our collaborator travels throughout the commune.',
           ],
         },
       ],
@@ -503,7 +503,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Do you work in every neighbourhood of Forest?',
-          answer: 'Yes, our partner installer covers the whole commune, from Bas de Forest to Saint-Denis.',
+          answer: 'Yes, our collaborator covers the whole commune, from Bas de Forest to Saint-Denis.',
         },
         {
           question: 'What happens in the evening, once the lights are on?',

@@ -100,7 +100,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Pose et durée de vie',
           paragraphs: [
-            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, toujours à l'intérieur du vitrage — ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
+            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences) — ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement.",
             "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement. Pendant le mois qui suit la pose, évitez également de nettoyer ou de toucher la vitre : c'est le temps nécessaire au film pour adhérer complètement. De petites bulles d'air éventuellement visibles au début disparaissent d'elles-mêmes durant cette période, la chaleur et le soleil aidant le film à se fixer définitivement.",
             "Un petit avantage indirect de la pose : la vitre est nettoyée avant l'application du film, ce qui laisse cette face impeccable une fois le chantier terminé.",
@@ -122,7 +122,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
-          answer: "Toujours à l'intérieur. C'est ce qui protège le film des intempéries et des lavages de vitres, et qui favorise sa durée de vie — estimée à 10-15 ans.",
+          answer: "Généralement à l'intérieur — une pose extérieure reste possible selon vos préférences. La pose intérieure protège le film des intempéries et des lavages de vitres, et favorise sa durée de vie — estimée à 10-15 ans.",
         },
         {
           question: 'Le film abîme-t-il la vue vers l\'extérieur ?',
@@ -641,7 +641,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Plaatsing en levensduur',
           paragraphs: [
-            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, steeds aan de binnenzijde van het glas — wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
+            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur) — wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend.",
             "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots. Vermijd ook gedurende de maand na de plaatsing om het raam te reinigen of aan te raken: dit is de tijd die de folie nodig heeft om volledig te hechten. Eventuele kleine luchtbelletjes die in het begin zichtbaar zijn, verdwijnen tijdens deze periode vanzelf, doordat warmte en zonlicht de folie helpen definitief te fixeren.",
             "Een bijkomend voordeel van de plaatsing: het raam wordt gereinigd vóór het aanbrengen van de folie, waardoor deze zijde na afloop van de werken perfect proper is.",
@@ -663,7 +663,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
-          answer: "Altijd aan de binnenzijde. Dit beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur — geschat op 10 tot 15 jaar.",
+          answer: "Doorgaans aan de binnenzijde — een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur. Een plaatsing aan de binnenzijde beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur — geschat op 10 tot 15 jaar.",
         },
         {
           question: 'Verslechtert de folie het zicht naar buiten?',
@@ -1181,7 +1181,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Installation and lifespan',
           paragraphs: [
-            "Whichever film you choose, installation is carried out by our collaborator, always on the interior side of the glass — which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
+            "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference) — which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation.',
             "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation — this is the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
             "A small side benefit of the installation: the window is cleaned before the film is applied, leaving that side spotless once the work is done.",
@@ -1203,7 +1203,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Is the film applied to the inside or the outside of the glass?',
-          answer: "Always on the inside. This protects the film from weather and window cleaning, and supports its lifespan — estimated at 10-15 years.",
+          answer: "Generally on the inside — exterior installation remains possible depending on your preference. Interior installation protects the film from weather and window cleaning, and supports its lifespan — estimated at 10-15 years.",
         },
         {
           question: "Does the film reduce the view towards the outside?",

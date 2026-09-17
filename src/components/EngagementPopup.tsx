@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { X, MessageCircle, Sparkles } from 'lucide-react';
+import { X, MessageCircle, Sparkles, BadgePercent } from 'lucide-react';
 import { translations, Lang } from '../i18n';
 import { langPrefixes } from '../App';
 import { withLangPrefix } from './LocalizedLink';
@@ -122,6 +122,18 @@ export const EngagementPopup = () => {
             </p>
           </>
         )}
+
+        {/* Standing value prop, shown regardless of which time-limited offer (if any)
+            is active above — a real, ongoing pricing policy (the site visit + quote
+            is normally billed, currently waived), not tied to the window-cleaning
+            offer's own end date. */}
+        <div
+          className="flex items-center gap-1.5 text-[12px] font-bold mb-4"
+          style={{ color: brandColor }}
+        >
+          <BadgePercent size={14} />
+          {t.popup.devisPromo}
+        </div>
 
         <div className="flex flex-col gap-2.5">
           <a

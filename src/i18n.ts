@@ -47,7 +47,7 @@ export const translations = {
       mat_desc: 'Film blanc mat pour une intimité élégante et un style épuré sur vos vitrages.',
       antieffraction_title: 'Film anti-effraction',
       antieffraction_desc: "Film transparent qui retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
-      miroir_more: "De jour, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur, tout en vous laissant une vue dégagée depuis l'intérieur — comme à travers une vitre classique. Il bloque aussi jusqu'à 99% des UV, ce qui protège vos meubles et sols de la décoloration. Un point à connaître : l'effet ne fonctionne que de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre — à garder en tête selon les pièces où vous l'installez.",
+      miroir_more: "De jour, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur, tout en vous laissant une vue dégagée depuis l'intérieur — comme à travers une vitre classique. Il bloque aussi jusqu'à 99% des UV, ce qui protège vos meubles et sols de la décoloration. Un point à connaître : l'effet ne fonctionne que de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre — à garder en tête selon les pièces où vous l'installez. Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée — l'intimité reste garantie même le soir, mais laisse passer nettement moins de lumière. Cette seconde option convient particulièrement à une porte d'entrée vitrée.",
       solaire_more: "Contrairement au film miroir, la teinte solaire reste transparente dans les deux sens (avec une légère teinte bleutée propre à ce type de film) : vous voyez clairement au travers, et depuis l'extérieur on voit aussi à l'intérieur. Son rôle est purement thermique : réduire la chaleur et les UV qui entrent par vos fenêtres, pour un confort optimal en été sans devoir fermer les volets ou installer une climatisation. C'est la solution la plus adaptée pour un salon plein sud, une véranda, ou toute pièce très exposée au soleil.",
       mat_more: "Contrairement au film miroir, la teinte blanc mat ne dépend pas de la luminosité : elle garantit une intimité totale dans les deux sens, de jour comme de nuit. C'est le choix le plus fiable pour une salle de bain, une chambre au rez-de-chaussée ou une porte d'entrée vitrée — les pièces où l'intimité doit être garantie à toute heure. Elle apporte aussi un rendu esthétique épuré et élégant, très apprécié sur les façades contemporaines.",
       antieffraction_more: "Contrairement aux trois autres films, celui-ci ne joue pas sur l'intimité mais sur la sécurité — il est totalement transparent et ne change rien à l'apparence de vos vitrages. En cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée — il doit s'acharner beaucoup plus longtemps, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent. Particulièrement pertinent pour les maisons isolées ou peu passantes.",
@@ -167,7 +167,8 @@ export const translations = {
       offerTitle: 'Nettoyage de vitres offert avec votre pose de film',
       offerSubtitle: "Offre valable jusqu'au 30 septembre 2026 — discutez-en sur WhatsApp ou découvrez l'offre.",
       offerCta: "Voir l'offre",
-      offerDaysLeft: "jours avant la fin de l'offre"
+      offerDaysLeft: "jours avant la fin de l'offre",
+      devisPromo: 'Déplacement & devis offerts — normalement 50€'
     },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
@@ -247,7 +248,7 @@ export const translations = {
       mat_desc: 'Matwitte folie voor een elegante privacy en een strakke stijl op uw beglazing.',
       antieffraction_title: 'Inbraakwerende folie',
       antieffraction_desc: 'Transparante folie die glasscherven bij impact samenhoudt, wat een inbraakpoging sterk vertraagt.',
-      miroir_more: "Overdag creëert deze folie een spiegeleffect zonder tain dat het zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon een vrij uitzicht behoudt — net als door een gewoon raam. Ze blokkeert ook tot 99% van de UV-stralen, wat uw meubels en vloeren beschermt tegen verkleuring. Een aandachtspunt: het effect werkt enkel overdag. 's Nachts, als uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam — hou hier rekening mee afhankelijk van de kamer.",
+      miroir_more: "Overdag creëert deze folie een spiegeleffect zonder tain dat het zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon een vrij uitzicht behoudt — net als door een gewoon raam. Ze blokkeert ook tot 99% van de UV-stralen, wat uw meubels en vloeren beschermt tegen verkleuring. Een aandachtspunt: het effect werkt enkel overdag. 's Nachts, als uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam — hou hier rekening mee afhankelijk van de kamer. Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder — privacy blijft gegarandeerd ook 's avonds, maar er komt merkelijk minder licht binnen. Deze tweede optie is vooral geschikt voor een glazen voordeur.",
       solaire_more: 'In tegenstelling tot de spiegelfolie blijft de zonwerende folie transparant in beide richtingen (met een lichte blauwachtige tint eigen aan dit type folie): u ziet duidelijk doorheen, en van buitenaf ziet men ook naar binnen. Haar rol is puur thermisch: de warmte en UV-stralen verminderen die via uw ramen binnenkomen, voor optimaal zomercomfort zonder de rolluiken te sluiten of airco te installeren. Ideaal voor een zuidgerichte woonkamer, een veranda, of elke ruimte die sterk aan de zon is blootgesteld.',
       mat_more: 'In tegenstelling tot de spiegelfolie hangt de matwitte folie niet af van het lichtniveau: ze garandeert volledige privacy in beide richtingen, dag en nacht. De meest betrouwbare keuze voor een badkamer, een gelijkvloerse slaapkamer of een glazen voordeur — ruimtes waar privacy op elk moment gegarandeerd moet zijn. Ze zorgt ook voor een strak en elegant esthetisch resultaat, erg gewaardeerd op hedendaagse gevels.',
       antieffraction_more: 'In tegenstelling tot de andere drie folies gaat het hier niet om privacy maar om veiligheid — de folie is volledig transparant en verandert niets aan het uiterlijk van uw beglazing. Bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen — hij moet veel langer volharden, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen. Bijzonder relevant voor afgelegen of rustig gelegen woningen.',
@@ -367,7 +368,8 @@ export const translations = {
       offerTitle: 'Gratis raamreiniging bij uw folieplaatsing',
       offerSubtitle: 'Aanbieding geldig tot 30 september 2026 — chat via WhatsApp of bekijk de aanbieding.',
       offerCta: 'Bekijk de aanbieding',
-      offerDaysLeft: 'dagen tot het einde van de actie'
+      offerDaysLeft: 'dagen tot het einde van de actie',
+      devisPromo: 'Verplaatsing & offerte gratis — normaal 50€'
     },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
@@ -447,7 +449,7 @@ export const translations = {
       mat_desc: 'Matte white film for elegant privacy and a clean, refined look on your windows.',
       antieffraction_title: 'Anti-burglary film',
       antieffraction_desc: 'Transparent film that holds broken glass together on impact, significantly slowing down a break-in attempt.',
-      miroir_more: "During the day, this film creates a one-way mirror effect that fully blocks the view from outside, while you keep a clear view from inside — just like through an ordinary window. It also blocks up to 99% of UV rays, protecting your furniture and floors from fading. One thing to know: the effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window — worth keeping in mind depending on the room.",
+      miroir_more: "During the day, this film creates a one-way mirror effect that fully blocks the view from outside, while you keep a clear view from inside — just like through an ordinary window. It also blocks up to 99% of UV rays, protecting your furniture and floors from fading. One thing to know: the effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window — worth keeping in mind depending on the room. This film comes in two tints: silver (the effect described above) or black, much darker — privacy stays guaranteed even in the evening, but noticeably less light comes through. This second option is particularly well suited to a glazed front door.",
       solaire_more: 'Unlike mirror film, solar tint stays transparent in both directions (with a slight blue tint characteristic of this type of film): you see clearly through it, and so can people from outside. Its role is purely thermal: reducing the heat and UV entering through your windows, for optimal summer comfort without closing the shutters or installing air conditioning. Ideal for a south-facing living room, a conservatory, or any room heavily exposed to the sun.',
       mat_more: "Unlike mirror film, matte white film doesn't depend on light levels: it guarantees full privacy in both directions, day and night. The most reliable choice for a bathroom, a ground-floor bedroom or a glazed front door — rooms where privacy needs to be guaranteed at all times. It also gives a clean, elegant look that's very popular on contemporary façades.",
       antieffraction_more: "Unlike the other three films, this one isn't about privacy but about security — it's completely transparent and changes nothing about how your windows look. On impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through the broken pane — they have to keep working much longer, giving more time to react or for help to arrive. Particularly relevant for secluded or quiet homes.",
@@ -567,7 +569,8 @@ export const translations = {
       offerTitle: 'Free window cleaning with your film installation',
       offerSubtitle: 'Offer valid until September 30, 2026 — chat on WhatsApp or check out the offer.',
       offerCta: 'View the offer',
-      offerDaysLeft: 'days left before the offer ends'
+      offerDaysLeft: 'days left before the offer ends',
+      devisPromo: 'Free site visit & quote — normally €50'
     },
     commune: {
       otherAreas: 'We also work near you'

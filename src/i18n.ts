@@ -78,8 +78,8 @@ export const translations = {
     },
     strip: {
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
-      f2_title: 'Film garanti', f2_desc: 'Jusqu\'à 10 ans\npar le fabricant',
-      f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 2 ans\npar VitraCare',
+      f2_title: 'Durée de vie', f2_desc: '10 à 15 ans\nestimée',
+      f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 2 ans\npar notre collaborateur',
       f4_title: 'Devis sous 24h', f4_desc: 'Contacter un expert\nsans engagement'
     },
     map: {
@@ -279,8 +279,8 @@ export const translations = {
     },
     strip: {
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
-      f2_title: 'Gegarandeerde folie', f2_desc: 'Tot 10 jaar\ndoor de fabrikant',
-      f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 2 jaar\ndoor VitraCare',
+      f2_title: 'Levensduur', f2_desc: '10 tot 15 jaar\ngeschat',
+      f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 2 jaar\ndoor onze medewerker',
       f4_title: 'Offerte binnen 24u', f4_desc: 'Neem vrijblijvend\ncontact op met een expert'
     },
     map: {
@@ -480,8 +480,8 @@ export const translations = {
     },
     strip: {
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',
-      f2_title: 'Guaranteed film', f2_desc: 'Up to 10 years\nby the manufacturer',
-      f3_title: 'Guaranteed installation', f3_desc: 'Up to 2 years\nby VitraCare',
+      f2_title: 'Lifespan', f2_desc: '10-15 years\nestimated',
+      f3_title: 'Guaranteed installation', f3_desc: 'Up to 2 years\nby our collaborator',
       f4_title: 'Quote within 24h', f4_desc: 'Contact an expert\nwithout obligation'
     },
     map: {

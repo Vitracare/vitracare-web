@@ -161,14 +161,11 @@ export const translations = {
       zone: "Zone d'intervention"
     },
     popup: {
-      title: 'Une question sur vos vitrages ?',
-      subtitle: 'Discutez directement avec nous sur WhatsApp, ou demandez votre devis gratuit — sans engagement.',
+      eyebrow: 'Offre actuelle',
+      offerTitle: 'Devis gratuit à domicile',
+      offerSubtitle: 'Normalement facturé 50€, actuellement offert. On se déplace, on prend les mesures, vous recevez un devis précis.',
       whatsapp: 'Discuter sur WhatsApp',
-      offerTitle: 'Nettoyage de vitres offert avec votre pose de film',
-      offerSubtitle: "Offre valable jusqu'au 30 septembre 2026 — discutez-en sur WhatsApp ou découvrez l'offre.",
       offerCta: "Voir l'offre",
-      offerDaysLeft: "jours avant la fin de l'offre",
-      devisPromo: 'Déplacement & devis offerts — normalement 50€'
     },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
@@ -189,17 +186,17 @@ export const translations = {
       detailedIntro: 'Pour Uccle, Waterloo et Forest, nous avons rédigé une page complète avec les spécificités locales.',
     },
     offre: {
-      metaTitle: 'Offre nettoyage de vitres — VitraCare',
-      metaDescription: "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Offre limitée, contactez-nous pour en profiter.",
-      eyebrow: 'Offre limitée',
-      badge: "Valable jusqu'au 30 septembre 2026",
-      title: 'Nettoyage de vitres offert avec votre pose de film',
-      intro: "Pour toute pose de film sur vos vitrages, nous nettoyons gratuitement les vitres concernées — intérieur et extérieur — avant l'application du film. Un service habituellement facturé à part, inclus ici sans supplément.",
-      section1_title: 'Ce qui est inclus',
-      section1_desc: "Le nettoyage des vitres où le film est posé, sur les deux faces, fait partie intégrante de notre prestation de pose. C'est nécessaire pour un rendu impeccable, et nous en profitons pour vous l'offrir plutôt que de le facturer séparément.",
-      section2_title: 'Un service de nettoyage à part entière',
-      section2_desc: "Nous proposons également ce service de nettoyage indépendamment de toute pose de film. Contactez-nous pour en savoir plus.",
-      cta: 'Demander un devis',
+      metaTitle: 'Devis gratuit à domicile — VitraCare',
+      metaDescription: 'Nous nous déplaçons gratuitement chez vous pour prendre les mesures et vous établir un devis précis — normalement facturé 50€, actuellement offert.',
+      eyebrow: 'Offre actuelle',
+      badge: 'Normalement facturé 50€ — actuellement offert',
+      title: 'Devis gratuit à domicile',
+      intro: "Prendre les bonnes mesures fait toute la différence pour un devis fiable. C'est pourquoi nous nous déplaçons chez vous pour évaluer votre projet et vous établir un devis précis — sans que vous ayez à mesurer quoi que ce soit vous-même.",
+      section1_title: 'Pourquoi ce déplacement change tout',
+      section1_desc: "Beaucoup de nos clients ne savent pas comment mesurer correctement leurs vitrages, ou hésitent entre plusieurs films. En venant chez vous, nous répondons à vos questions sur place et repartons avec des mesures exactes — votre devis est donc fiable dès la première proposition, pas une simple fourchette.",
+      section2_title: 'Un devis, aucun engagement',
+      section2_desc: "Ce déplacement ne vous engage à rien. Vous recevez votre devis détaillé, et vous décidez ensuite si vous souhaitez donner suite, en une fois ou par étapes.",
+      cta: 'Demander mon devis gratuit',
     }
   },
   NL: {
@@ -362,14 +359,11 @@ export const translations = {
       zone: 'Werkgebied'
     },
     popup: {
-      title: 'Een vraag over uw beglazing?',
-      subtitle: 'Praat rechtstreeks met ons via WhatsApp, of vraag uw gratis offerte aan — vrijblijvend.',
+      eyebrow: 'Huidige aanbieding',
+      offerTitle: 'Gratis offerte aan huis',
+      offerSubtitle: 'Normaal 50€, momenteel gratis. Wij komen langs, meten op, en u ontvangt een nauwkeurige offerte.',
       whatsapp: 'Chat via WhatsApp',
-      offerTitle: 'Gratis raamreiniging bij uw folieplaatsing',
-      offerSubtitle: 'Aanbieding geldig tot 30 september 2026 — chat via WhatsApp of bekijk de aanbieding.',
       offerCta: 'Bekijk de aanbieding',
-      offerDaysLeft: 'dagen tot het einde van de actie',
-      devisPromo: 'Verplaatsing & offerte gratis — normaal 50€'
     },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
@@ -390,17 +384,17 @@ export const translations = {
       detailedIntro: 'Voor Ukkel, Waterloo en Vorst schreven we een volledige pagina met de lokale bijzonderheden.',
     },
     offre: {
-      metaTitle: 'Aanbieding raamreiniging — VitraCare',
-      metaDescription: 'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Beperkte aanbieding, neem contact op om ervan te genieten.',
-      eyebrow: 'Beperkte aanbieding',
-      badge: 'Geldig tot 30 september 2026',
-      title: 'Gratis raamreiniging bij uw folieplaatsing',
-      intro: 'Bij elke folieplaatsing reinigen wij gratis de betrokken ramen — binnen- en buitenzijde — vóór het aanbrengen van de folie. Een dienst die normaal apart wordt gefactureerd, hier inbegrepen zonder meerprijs.',
-      section1_title: 'Wat is inbegrepen',
-      section1_desc: 'Het reinigen van de ramen waarop de folie wordt geplaatst, langs beide zijden, maakt integraal deel uit van onze plaatsingsdienst. Dit is nodig voor een perfect resultaat, en we bieden het u graag aan in plaats van het apart te factureren.',
-      section2_title: 'Een volwaardige reinigingsdienst',
-      section2_desc: 'We bieden deze reiniging ook onafhankelijk van elke folieplaatsing aan. Neem contact met ons op voor meer informatie.',
-      cta: 'Offerte aanvragen',
+      metaTitle: 'Gratis offerte aan huis — VitraCare',
+      metaDescription: 'Wij komen gratis bij u langs om op te meten en een nauwkeurige offerte op te stellen — normaal 50€, momenteel gratis.',
+      eyebrow: 'Huidige aanbieding',
+      badge: 'Normaal 50€ — momenteel gratis',
+      title: 'Gratis offerte aan huis',
+      intro: 'De juiste afmetingen nemen maakt het verschil voor een betrouwbare offerte. Daarom komen we bij u langs om uw project te evalueren en een nauwkeurige offerte op te stellen — zonder dat u zelf iets hoeft op te meten.',
+      section1_title: 'Waarom dit bezoek het verschil maakt',
+      section1_desc: 'Veel klanten weten niet hoe ze hun beglazing correct moeten opmeten, of twijfelen tussen verschillende folies. Door bij u langs te komen, beantwoorden we uw vragen ter plaatse en vertrekken we met exacte afmetingen — uw offerte is dus meteen betrouwbaar, geen losse schatting.',
+      section2_title: 'Een offerte, geen verplichting',
+      section2_desc: 'Dit bezoek verplicht u tot niets. U ontvangt uw gedetailleerde offerte en beslist nadien of u wilt verdergaan, in één keer of gefaseerd.',
+      cta: 'Vraag mijn gratis offerte aan',
     }
   },
   EN: {
@@ -563,14 +557,11 @@ export const translations = {
       zone: 'Service Area'
     },
     popup: {
-      title: 'A question about your windows?',
-      subtitle: 'Chat with us directly on WhatsApp, or request your free quote — no obligation.',
+      eyebrow: 'Current offer',
+      offerTitle: 'Free home quote',
+      offerSubtitle: 'Normally €50, currently free. We come to you, take measurements, and you receive an accurate quote.',
       whatsapp: 'Chat on WhatsApp',
-      offerTitle: 'Free window cleaning with your film installation',
-      offerSubtitle: 'Offer valid until September 30, 2026 — chat on WhatsApp or check out the offer.',
       offerCta: 'View the offer',
-      offerDaysLeft: 'days left before the offer ends',
-      devisPromo: 'Free site visit & quote — normally €50'
     },
     commune: {
       otherAreas: 'We also work near you'
@@ -591,17 +582,17 @@ export const translations = {
       detailedIntro: 'For Uccle, Waterloo and Forest, we wrote a full page covering local specifics.',
     },
     offre: {
-      metaTitle: 'Window Cleaning Offer — VitraCare',
-      metaDescription: 'Free window cleaning with any film installation, until September 30, 2026. Limited-time offer, contact us to take advantage of it.',
-      eyebrow: 'Limited-time offer',
-      badge: 'Valid until September 30, 2026',
-      title: 'Free window cleaning with your film installation',
-      intro: 'With any window film installation, we clean the windows involved — inside and out — before applying the film, free of charge. A service usually billed separately, included here at no extra cost.',
-      section1_title: "What's included",
-      section1_desc: "Cleaning the windows where the film is applied, on both sides, is part of our installation process. It's necessary for a flawless result, and we're happy to offer it rather than bill it separately.",
-      section2_title: 'A standalone cleaning service',
-      section2_desc: 'We also offer this cleaning service independently of any film installation. Contact us to find out more.',
-      cta: 'Request a quote',
+      metaTitle: 'Free Home Quote — VitraCare',
+      metaDescription: 'We come to you free of charge to take measurements and prepare an accurate quote — normally €50, currently free.',
+      eyebrow: 'Current offer',
+      badge: 'Normally €50 — currently free',
+      title: 'Free home quote',
+      intro: "Taking accurate measurements makes all the difference for a reliable quote. That's why we come to your home to assess your project and prepare a precise quote — without you having to measure anything yourself.",
+      section1_title: 'Why this visit makes all the difference',
+      section1_desc: "Many clients aren't sure how to measure their windows correctly, or hesitate between different films. By visiting your home, we answer your questions on the spot and leave with exact measurements — your quote is reliable from the very first proposal, not a rough range.",
+      section2_title: 'A quote, no obligation',
+      section2_desc: 'This visit commits you to nothing. You receive your detailed quote, then decide whether to go ahead, all at once or in stages.',
+      cta: 'Request my free quote',
     }
   }
 };

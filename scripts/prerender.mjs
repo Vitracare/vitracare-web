@@ -157,19 +157,19 @@ const pages = [
     path: '/offre',
     meta: {
       FR: {
-        title: 'Offre nettoyage de vitres — VitraCare',
+        title: 'Devis gratuit à domicile — VitraCare',
         description:
-          "Nettoyage de vitres offert avec toute pose de film, jusqu'au 30 septembre 2026. Offre limitée, contactez-nous pour en profiter.",
+          'Nous nous déplaçons gratuitement chez vous pour prendre les mesures et vous établir un devis précis — normalement facturé 50€, actuellement offert.',
       },
       NL: {
-        title: 'Aanbieding raamreiniging — VitraCare',
+        title: 'Gratis offerte aan huis — VitraCare',
         description:
-          'Gratis raamreiniging bij elke folieplaatsing, tot 30 september 2026. Beperkte aanbieding, neem contact op om ervan te genieten.',
+          'Wij komen gratis bij u langs om op te meten en een nauwkeurige offerte op te stellen — normaal 50€, momenteel gratis.',
       },
       EN: {
-        title: 'Window Cleaning Offer — VitraCare',
+        title: 'Free Home Quote — VitraCare',
         description:
-          'Free window cleaning with any film installation, until September 30, 2026. Limited-time offer, contact us to take advantage of it.',
+          'We come to you free of charge to take measurements and prepare an accurate quote — normally €50, currently free.',
       },
     },
   },

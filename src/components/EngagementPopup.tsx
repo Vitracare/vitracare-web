@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { X, MessageCircle, Sparkles, BadgePercent } from 'lucide-react';
+import { X, MessageCircle, Sparkles } from 'lucide-react';
 import { translations, Lang } from '../i18n';
 import { langPrefixes } from '../App';
 import { withLangPrefix } from './LocalizedLink';
@@ -8,10 +8,6 @@ import { withLangPrefix } from './LocalizedLink';
 const brandColor = '#BA9765';
 const SHOW_AFTER_MS = 9000;
 const DISMISSED_KEY = 'vitracare_popup_dismissed';
-// Window-cleaning launch offer: promotes automatically until this date, then the
-// popup reverts to its normal generic message on its own — no manual follow-up
-// needed, and the "valid until" claim in the copy can never go stale.
-const OFFER_END_DATE = new Date('2026-09-30T23:59:59+02:00');
 
 // Pages where a "talk to us" popup would be redundant — the visitor is already mid-conversion there.
 const HIDDEN_ON = ['/devis', '/contact'];
@@ -33,10 +29,6 @@ export const EngagementPopup = () => {
 
   const barePath = location.pathname.replace(/^\/(nl|en)(?=\/|$)/, '') || '/';
   const isHiddenPage = HIDDEN_ON.some((p) => barePath === p || barePath === `${p}/`);
-  const offerActive = Date.now() <= OFFER_END_DATE.getTime();
-  // Real, honest countdown — computed from the same end date the offer itself expires on,
-  // never a separate "fake urgency" number.
-  const daysLeft = Math.max(0, Math.ceil((OFFER_END_DATE.getTime() - Date.now()) / 86400000));
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -64,11 +56,7 @@ export const EngagementPopup = () => {
     >
       <div
         className="relative rounded-2xl shadow-2xl p-6 pt-7"
-        style={
-          offerActive
-            ? { backgroundColor: '#FBF3E3', border: '2px dashed #BA9765' }
-            : { backgroundColor: '#FFFFFF', border: '1px solid rgba(0,0,0,0.05)' }
-        }
+        style={{ backgroundColor: '#FBF3E3', border: '2px dashed #BA9765' }}
       >
         <button
           type="button"
@@ -79,61 +67,23 @@ export const EngagementPopup = () => {
           <X size={16} />
         </button>
 
-        {offerActive ? (
-          <>
-            <div
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider mb-4 motion-safe:animate-pulse"
-              style={{ backgroundColor: brandColor, color: '#FFFFFF' }}
-            >
-              <Sparkles size={12} />
-              {t.offre.eyebrow}
-            </div>
-
-            <h3 className="text-[20px] font-bold leading-tight mb-2" style={{ color: '#464646' }}>
-              {t.popup.offerTitle}
-            </h3>
-            <p className="text-[14px] text-[#6a6a6a] leading-relaxed mb-4">
-              {t.popup.offerSubtitle}
-            </p>
-
-            <div
-              className="flex items-center gap-3 rounded-xl mb-5 px-4 py-3"
-              style={{ backgroundColor: '#2b2419' }}
-            >
-              <span className="text-[28px] font-extrabold leading-none" style={{ color: '#E9C88A' }}>
-                {daysLeft}
-              </span>
-              <span className="text-[12px] font-bold uppercase tracking-wide leading-snug" style={{ color: '#F4EDDE' }}>
-                {t.popup.offerDaysLeft}
-              </span>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="w-[42px] h-[42px] rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#F2E9DA' }}>
-              <MessageCircle size={20} color={brandColor} />
-            </div>
-
-            <h3 className="text-[17px] font-bold leading-snug mb-2" style={{ color: '#464646' }}>
-              {t.popup.title}
-            </h3>
-            <p className="text-[14px] text-[#767676] leading-relaxed mb-5">
-              {t.popup.subtitle}
-            </p>
-          </>
-        )}
-
-        {/* Standing value prop, shown regardless of which time-limited offer (if any)
-            is active above — a real, ongoing pricing policy (the site visit + quote
-            is normally billed, currently waived), not tied to the window-cleaning
-            offer's own end date. */}
+        {/* Standing offer — the home-visit quote is normally billed, currently
+            waived. Not time-limited, so no countdown/end-date mechanic here
+            (unlike the previous window-cleaning promo this replaced). */}
         <div
-          className="flex items-center gap-1.5 text-[12px] font-bold mb-4"
-          style={{ color: brandColor }}
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider mb-4"
+          style={{ backgroundColor: brandColor, color: '#FFFFFF' }}
         >
-          <BadgePercent size={14} />
-          {t.popup.devisPromo}
+          <Sparkles size={12} />
+          {t.popup.eyebrow}
         </div>
+
+        <h3 className="text-[20px] font-bold leading-tight mb-2" style={{ color: '#464646' }}>
+          {t.popup.offerTitle}
+        </h3>
+        <p className="text-[14px] text-[#6a6a6a] leading-relaxed mb-5">
+          {t.popup.offerSubtitle}
+        </p>
 
         <div className="flex flex-col gap-2.5">
           <a
@@ -148,12 +98,12 @@ export const EngagementPopup = () => {
             {t.popup.whatsapp}
           </a>
           <a
-            href={withLangPrefix(offerActive ? '/offre' : '/devis', prefix)}
+            href={withLangPrefix('/offre', prefix)}
             onClick={close}
             className="inline-flex items-center justify-center text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-gray-200 hover:border-[#BA9765] hover:text-[#BA9765] cursor-pointer"
-            style={{ color: '#464646', backgroundColor: offerActive ? '#FFFFFF' : 'transparent' }}
+            style={{ color: '#464646', backgroundColor: '#FFFFFF' }}
           >
-            {offerActive ? t.popup.offerCta : t.hero.getQuote}
+            {t.popup.offerCta}
           </a>
         </div>
       </div>

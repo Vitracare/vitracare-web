@@ -677,27 +677,29 @@ export default function Home() {
                 {/* Real Google Business Profile + Trustpilot links, side by side — no
                     customer names or review text reproduced here, only links to the
                     real, independently verifiable listings. */}
-                <div className="flex flex-row flex-wrap items-center justify-center lg:justify-start gap-x-3 gap-y-2">
+                <div className="flex flex-row flex-nowrap items-center justify-center lg:justify-start gap-x-1.5 sm:gap-x-3">
                   {/* Real Google Business Profile score badge — 4.8/5, actual rating.
-                      Stars rounded to nearest whole star for the visual (4.8 -> 5). */}
+                      Stars rounded to nearest whole star for the visual (4.8 -> 5).
+                      Sizing shrinks on narrow screens (flex-nowrap above) so the two
+                      badges always stay side by side, never stacked. */}
                   <a
                     href="https://share.google/c3Bih4FWySHUhjkAZ"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 pl-2.5 pr-3.5 py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                    className="inline-flex items-center gap-1 sm:gap-2 pl-1.5 pr-2 sm:pl-2.5 sm:pr-3.5 py-1 sm:py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow min-w-0"
                   >
-                    <svg width="14" height="14" viewBox="0 0 48 48" className="shrink-0">
+                    <svg width="12" height="12" viewBox="0 0 48 48" className="shrink-0 sm:w-[14px] sm:h-[14px]">
                       <path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/>
                       <path fill="#34A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"/>
                       <path fill="#FBBC05" d="M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24s.85 6.91 2.34 9.88l7.35-5.7z"/>
                       <path fill="#EA4335" d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"/>
                     </svg>
-                    <div className="flex items-center gap-0.5">
+                    <div className="hidden sm:flex items-center gap-0.5">
                       {[1, 2, 3, 4, 5].map((i) => (
                         <Star key={i} size={13} fill="#FBBC04" color="#FBBC04" strokeWidth={1.5} />
                       ))}
                     </div>
-                    <span className="text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
+                    <span className="text-[11px] sm:text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
                       {lang === 'FR' ? '4,8/5' : '4.8/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
                     </span>
                   </a>
@@ -715,12 +717,13 @@ export default function Home() {
                     }
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 pl-2.5 pr-3.5 py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                    className="inline-flex items-center gap-1 sm:gap-2 pl-1.5 pr-2 sm:pl-2.5 sm:pr-3.5 py-1 sm:py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow min-w-0"
                   >
-                    <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0" style={{ backgroundColor: '#00b67a' }}>
-                      <Star size={11} color="#fff" fill="#fff" />
+                    <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center shrink-0" style={{ backgroundColor: '#00b67a' }}>
+                      <Star size={9} className="sm:hidden" color="#fff" fill="#fff" />
+                      <Star size={11} className="hidden sm:block" color="#fff" fill="#fff" />
                     </div>
-                    <div className="flex items-center gap-0.5">
+                    <div className="hidden sm:flex items-center gap-0.5">
                       {[1, 2, 3, 4, 5].map((i) => (
                         <Star
                           key={i}
@@ -731,7 +734,7 @@ export default function Home() {
                         />
                       ))}
                     </div>
-                    <span className="text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
+                    <span className="text-[11px] sm:text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
                       4/5 <span className="font-normal">{lang === 'NL' ? 'op Trustpilot' : lang === 'EN' ? 'on Trustpilot' : 'sur Trustpilot'}</span>
                     </span>
                   </a>

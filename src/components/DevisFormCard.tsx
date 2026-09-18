@@ -191,8 +191,9 @@ export const DevisFormCard = () => {
           <input
             type="tel"
             name="phone"
-            placeholder={t.devis.form_phone}
-            className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400"
+            required
+            placeholder={`${t.devis.form_phone} *`}
+            className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
           />
 
           <div className="mt-2">

@@ -36,6 +36,7 @@ export default function Contact() {
     const payload = {
       name: formData.get('name'),
       email: formData.get('email'),
+      phone: formData.get('phone'),
       message: formData.get('message'),
     };
 
@@ -142,6 +143,13 @@ export default function Contact() {
                 name="email"
                 required
                 placeholder={`${t.contactPage.form_email} *`}
+                className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
+              />
+              <input
+                type="tel"
+                name="phone"
+                required
+                placeholder={`${t.contactPage.form_phone} *`}
                 className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 ${invalidClass}`}
               />
               <textarea

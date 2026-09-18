@@ -13,7 +13,9 @@ export default async function handler(req, res) {
     return;
   }
 
-  const isDevis = address !== undefined || zip !== undefined || phone !== undefined;
+  // Phone is now collected on both forms, so it can no longer be used to tell
+  // them apart — only address/zip are devis-only fields.
+  const isDevis = address !== undefined || zip !== undefined;
 
   try {
     const transporter = nodemailer.createTransport({
@@ -38,6 +40,7 @@ export default async function handler(req, res) {
       : [
           `Nom: ${name}`,
           `Email: ${email}`,
+          `Téléphone: ${phone || '-'}`,
           `Message: ${message || '-'}`,
         ];
 

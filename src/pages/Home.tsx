@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { LocalizedLink as Link } from '../components/LocalizedLink';
-import { ShieldCheck, FileBadge, Clock, ChevronDown } from 'lucide-react';
+import { ShieldCheck, FileBadge, Clock, ChevronDown, Star } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
@@ -688,6 +688,10 @@ export default function Home() {
                     {t.reviews.googleLink}
                   </a>
                   <span aria-hidden="true" className="text-gray-300">•</span>
+                  {/* Real Trustpilot score badge — 4/5 is the current TrustScore (3.8)
+                      rounded to the nearest whole star, matching how star ratings are
+                      conventionally displayed. Update the filled-star count here if the
+                      score changes as more reviews come in. */}
                   <a
                     href={
                       lang === 'NL'
@@ -698,10 +702,25 @@ export default function Home() {
                     }
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[13px] font-bold underline underline-offset-2 hover:opacity-70 transition-opacity"
-                    style={{ color: brandColor }}
+                    className="inline-flex items-center gap-2 pl-2.5 pr-3.5 py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
                   >
-                    {t.reviews.trustpilotLink}
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0" style={{ backgroundColor: '#00b67a' }}>
+                      <Star size={11} color="#fff" fill="#fff" />
+                    </div>
+                    <div className="flex items-center gap-0.5">
+                      {[1, 2, 3, 4, 5].map((i) => (
+                        <Star
+                          key={i}
+                          size={13}
+                          fill={i <= 4 ? '#00b67a' : 'none'}
+                          color={i <= 4 ? '#00b67a' : '#d1d5db'}
+                          strokeWidth={1.5}
+                        />
+                      ))}
+                    </div>
+                    <span className="text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
+                      4/5 <span className="font-normal">{lang === 'NL' ? 'op Trustpilot' : lang === 'EN' ? 'on Trustpilot' : 'sur Trustpilot'}</span>
+                    </span>
                   </a>
                 </div>
               </div>

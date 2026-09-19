@@ -47,7 +47,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "La teinte effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
             "Au-delà de l'intimité, ce film bloque jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
-            "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite — un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie.",
+            "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite — un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/film-miroir-argente-ou-noir) vous aide à trancher selon vos pièces.",
           ],
         },
         {
@@ -566,6 +566,82 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-argente-ou-noir',
+      title: 'Film miroir argenté ou noir : comment bien choisir pour votre maison ?',
+      metaTitle: 'Film miroir argenté ou noir pour vitrage à Bruxelles',
+      metaDescription: "Argenté ou noir : quelle teinte de film effet miroir choisir pour votre intimité ? On vous explique la différence avec de vrais exemples de nos chantiers récents.",
+      date: '2026-09-19',
+      excerpt: "Le film effet miroir existe en deux teintes bien différentes, avec chacune ses avantages. Voici comment on aide concrètement nos clients à choisir, avec des exemples réels.",
+      sections: [
+        {
+          paragraphs: [
+            "C'est une question qu'on nous pose presque à chaque rendez-vous, une fois sur place avec les échantillons en main : argenté ou noir ? Les deux font de l'effet miroir, mais pas du tout de la même façon. Voici comment on explique la différence à nos clients, et comment eux-mêmes ont tranché récemment.",
+          ],
+        },
+        {
+          heading: "La teinte argentée : l'effet miroir classique",
+          paragraphs: [
+            "C'est la version la plus connue et la plus posée. De jour, elle empêche totalement la vue depuis l'extérieur tout en vous laissant une vue dégagée depuis l'intérieur. Le point qui revient systématiquement en rendez-vous : le soir, si l'intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse — comme pour n'importe quelle fenêtre classique. Ce n'est pas un défaut du film, c'est simplement de l'optique : la lumière va toujours du côté le plus sombre vers le côté le plus lumineux.",
+          ],
+        },
+        {
+          heading: "La teinte noire : l'intimité à toute heure",
+          paragraphs: [
+            "La version noire répond à un besoin différent : garder l'intimité même le soir, quand l'argenté s'inverse. La contrepartie, c'est qu'elle laisse passer nettement moins de lumière naturelle qu'un film argenté. Elle se prête donc mal à une pièce de vie où on veut profiter de la luminosité toute la journée, mais elle est particulièrement adaptée à une porte d'entrée vitrée, où l'intimité de nuit compte plus que la lumière qui passe.",
+          ],
+        },
+        {
+          heading: 'Comment nos clients tranchent, concrètement',
+          paragraphs: [
+            "Récemment, un client à Waterloo nous a contactés pour son salon exposé plein sud, avec un vrai souci de vis-à-vis depuis le trottoir. Une fois sur place, on lui a expliqué l'inversion du soir avec la teinte argentée : ça ne l'a pas dérangé, parce que ses fenêtres concernées sont surtout un souci en journée. Il est resté sur l'argenté.",
+            "À l'inverse, un autre contact récent, pour une seule fenêtre de salon donnant directement sur le trottoir, cherchait avant tout à ne plus être vu des passants à toute heure — dans ce cas, la teinte noire aurait été la plus adaptée si l'intimité de soirée avait été la priorité absolue. C'est exactement ce genre de question qu'on pose systématiquement avant de recommander une teinte plutôt que l'autre : à quel moment de la journée le vis-à-vis vous dérange-t-il le plus ?",
+          ],
+        },
+        {
+          heading: 'Une protection UV identique, quelle que soit la teinte',
+          paragraphs: [
+            "Argenté ou noir, les deux bloquent jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité. Vos meubles, sols et tissus exposés au soleil en profitent autant avec l'une ou l'autre teinte.",
+          ],
+        },
+        {
+          heading: 'Le prix ne dépend pas de la teinte choisie',
+          paragraphs: [
+            "Argenté ou noir, notre tarif reste le même : c'est la surface à traiter qui détermine le prix, pas la couleur du film. Vous pouvez donc choisir uniquement en fonction de vos besoins réels, sans arbitrage financier à faire. Pour comparer ce film aux trois autres teintes que nous proposons (solaire, blanc mat, anti-effraction), notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) détaille les différences avec un tableau comparatif.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — protection contre les UV](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Le mieux reste de voir les deux teintes en vrai chez vous, à la lumière de vos propres fenêtres. Contactez-nous, on vous conseille gratuitement selon vos pièces et on vous répond sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film noir bloque-t-il toute la lumière ?',
+          answer: "Non, il laisse toujours passer de la lumière naturelle, mais nettement moins qu'avec la teinte argentée. La pièce n'est pas plongée dans l'obscurité, mais l'ambiance est plus tamisée.",
+        },
+        {
+          question: 'Peut-on changer de teinte après la pose ?',
+          answer: "Techniquement oui, mais il faut retirer le film existant et en poser un nouveau — ce n'est pas un simple ajustement. Mieux vaut comparer les deux teintes avec des échantillons avant de se décider.",
+        },
+        {
+          question: 'Le prix change-t-il selon la teinte choisie ?',
+          answer: "Non, argenté et noir sont au même tarif. Seule la surface à traiter fait varier le prix.",
+        },
+        {
+          question: 'Où privilégier la teinte noire plutôt que l\'argentée ?',
+          answer: "Principalement sur une porte d'entrée vitrée ou toute ouverture où l'intimité doit être garantie à toute heure, y compris le soir — contrairement à l'argenté qui s'inverse une fois la nuit tombée.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -588,7 +664,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "De spiegeleffect folie is de meest radicale oplossing op het gebied van privacy. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
             "Naast privacy blokkeert deze folie tot 99% van de UV-stralen — een beschermingsniveau erkend door de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) voor kwaliteitsfolies — en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
             "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
-            "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen — een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte.",
+            "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen — een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/film-miroir-argente-ou-noir) helpt u kiezen op basis van uw kamers.",
           ],
         },
         {
@@ -1106,6 +1182,82 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-argente-ou-noir',
+      title: 'Zilveren of zwarte spiegelfolie: hoe kiest u het beste voor uw huis?',
+      metaTitle: 'Zilveren of zwarte spiegelfolie voor beglazing in Brussel',
+      metaDescription: 'Zilver of zwart: welke tint spiegeleffect folie kiest u voor uw privacy? We leggen het verschil uit aan de hand van echte voorbeelden uit onze recente werven.',
+      date: '2026-09-19',
+      excerpt: 'Spiegeleffect folie bestaat in twee erg verschillende tinten, elk met hun eigen voordelen. Hier leggen we uit hoe we onze klanten concreet helpen kiezen, met echte voorbeelden.',
+      sections: [
+        {
+          paragraphs: [
+            'Het is een vraag die we bijna bij elke afspraak krijgen, eens we ter plaatse zijn met de stalen in de hand: zilver of zwart? Beide geven een spiegeleffect, maar op een heel andere manier. Hier leggen we uit hoe we het verschil aan onze klanten uitleggen, en hoe zij zelf onlangs hun keuze maakten.',
+          ],
+        },
+        {
+          heading: 'De zilveren tint: het klassieke spiegeleffect',
+          paragraphs: [
+            'Dit is de meest bekende en meest geplaatste versie. Overdag blokkeert ze het zicht van buitenaf volledig, terwijl u vanbinnen een vrij uitzicht behoudt. Het punt dat systematisch terugkomt tijdens een afspraak: \'s avonds, als het interieur verlicht is en het buiten donker is, keert het effect om — net als bij elk gewoon raam. Dit is geen gebrek van de folie, het is gewoon optica: licht gaat altijd van de donkerste naar de lichtste kant.',
+          ],
+        },
+        {
+          heading: 'De zwarte tint: privacy op elk moment',
+          paragraphs: [
+            "De zwarte versie beantwoordt aan een andere behoefte: privacy behouden ook 's avonds, wanneer de zilveren tint omkeert. De tegenprestatie is dat er merkelijk minder natuurlijk licht doorkomt dan bij een zilveren folie. Ze is dus minder geschikt voor een leefruimte waar u de hele dag van lichtinval wilt genieten, maar bijzonder geschikt voor een glazen voordeur, waar privacy 's avonds belangrijker is dan doorgelaten licht.",
+          ],
+        },
+        {
+          heading: 'Hoe onze klanten concreet beslissen',
+          paragraphs: [
+            'Onlangs contacteerde een klant in Waterloo ons voor zijn zuidgerichte woonkamer, met een echt probleem van inkijk vanaf het voetpad. Eens ter plaatse legden we hem de avondomkering van de zilveren tint uit: dat stoorde hem niet, omdat zijn betrokken ramen vooral overdag een probleem vormen. Hij koos voor de zilveren tint.',
+            'Omgekeerd zocht een ander recent contact, voor één enkel raam van een woonkamer die rechtstreeks op het voetpad uitgeeft, vooral om op elk moment niet meer gezien te worden door voorbijgangers — in dat geval zou de zwarte tint het meest geschikt zijn geweest als privacy \'s avonds de absolute prioriteit was. Dit is precies het soort vraag dat we systematisch stellen voordat we de ene tint boven de andere aanbevelen: op welk moment van de dag stoort de inkijk u het meest?',
+          ],
+        },
+        {
+          heading: 'Dezelfde UV-bescherming, ongeacht de tint',
+          paragraphs: [
+            'Zilver of zwart, beide blokkeren tot 99% van de UV-stralen — een beschermingsniveau erkend door de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) voor kwaliteitsfolies. Uw meubels, vloeren en stoffen die aan de zon blootgesteld zijn, profiteren evenveel van de ene als van de andere tint.',
+          ],
+        },
+        {
+          heading: 'De prijs hangt niet af van de gekozen tint',
+          paragraphs: [
+            'Zilver of zwart, ons tarief blijft hetzelfde: de te behandelen oppervlakte bepaalt de prijs, niet de kleur van de folie. U kunt dus puur op basis van uw echte behoeften kiezen, zonder financiële afweging. Om deze folie te vergelijken met onze drie andere tinten (zonwerend, matwit, inbraakwerend), vindt u in onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) een vergelijkingstabel.',
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[International Window Film Association — bescherming tegen UV-stralen](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Het beste is om beide tinten in het echt bij u thuis te zien, in het licht van uw eigen ramen. Neem contact met ons op, we adviseren u gratis op basis van uw kamers en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Blokkeert de zwarte folie al het licht?',
+          answer: 'Nee, er komt altijd nog natuurlijk licht door, maar merkelijk minder dan bij de zilveren tint. De ruimte wordt niet volledig donker, maar de sfeer is gedempter.',
+        },
+        {
+          question: 'Kan ik van tint veranderen na de plaatsing?',
+          answer: 'Technisch kan het, maar de bestaande folie moet verwijderd en een nieuwe geplaatst worden — het is geen eenvoudige aanpassing. Vergelijk beide tinten liever met stalen voordat u beslist.',
+        },
+        {
+          question: 'Verandert de prijs naargelang de gekozen tint?',
+          answer: 'Nee, zilver en zwart hebben hetzelfde tarief. Enkel de te behandelen oppervlakte doet de prijs variëren.',
+        },
+        {
+          question: 'Wanneer kiest u beter voor zwart in plaats van zilver?',
+          answer: "Vooral voor een glazen voordeur of elke opening waar privacy op elk moment gegarandeerd moet zijn, ook 's avonds — in tegenstelling tot de zilveren tint die omkeert eens het donker is.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -1128,7 +1280,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
             "The mirror effect film is the most effective solution when it comes to privacy. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
             "Beyond privacy, this film blocks up to 99% of UV rays — a protection level recognised by the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) for quality films — and significantly reduces the heat entering through your windows — a real advantage in summer.",
             "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
-            "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors — a trade-off best suited to a glazed front door, less so to a living space.",
+            "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors — a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/film-miroir-argente-ou-noir) helps you decide based on your rooms.",
           ],
         },
         {
@@ -1643,6 +1795,82 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Do you work outside Brussels?',
           answer: 'Yes, throughout the Brussels region and its surroundings. For sufficiently large projects, we also travel to other Belgian cities such as Charleroi, Antwerp or Ghent.',
+        },
+      ],
+    },
+    {
+      slug: 'film-miroir-argente-ou-noir',
+      title: 'Silver or black mirror film: how to choose the right one for your home?',
+      metaTitle: 'Silver or black mirror film for windows in Brussels',
+      metaDescription: "Silver or black: which mirror film tint should you choose for privacy? We explain the difference using real examples from our recent projects.",
+      date: '2026-09-19',
+      excerpt: 'Mirror film comes in two very different tints, each with its own advantages. Here is how we actually help our clients choose, with real examples.',
+      sections: [
+        {
+          paragraphs: [
+            "It's a question we get at almost every appointment, once we're on site with samples in hand: silver or black? Both create a mirror effect, but in very different ways. Here's how we explain the difference to our clients, and how they themselves recently made their choice.",
+          ],
+        },
+        {
+          heading: 'The silver tint: the classic mirror effect',
+          paragraphs: [
+            "This is the best-known and most commonly installed version. During the day, it fully blocks the view from outside while you keep a clear view from inside. The point that comes up in almost every appointment: in the evening, if the interior is lit and it's dark outside, the effect reverses — just like with any ordinary window. This isn't a flaw in the film, it's simply optics: light always travels from the darker side toward the brighter one.",
+          ],
+        },
+        {
+          heading: 'The black tint: privacy at any time',
+          paragraphs: [
+            "The black version answers a different need: keeping privacy even in the evening, when the silver tint reverses. The trade-off is that it lets in noticeably less natural light than a silver film. It's therefore less suited to a living space where you want to enjoy daylight all day, but particularly well suited to a glazed front door, where evening privacy matters more than the light coming through.",
+          ],
+        },
+        {
+          heading: 'How our clients actually decide',
+          paragraphs: [
+            "A client in Waterloo recently contacted us about their south-facing living room, with a real issue of being overlooked from the pavement. Once on site, we explained the evening reversal of the silver tint: it didn't bother them, since their windows are mainly an issue during the day. They went with silver.",
+            "Conversely, another recent contact, for a single living-room window facing directly onto the pavement, was mainly looking to no longer be seen by passers-by at any time of day — in that case, the black tint would have been the better fit if evening privacy were the absolute priority. This is exactly the kind of question we systematically ask before recommending one tint over the other: at what time of day does being overlooked bother you the most?",
+          ],
+        },
+        {
+          heading: 'The same UV protection, whichever tint you choose',
+          paragraphs: [
+            "Silver or black, both block up to 99% of UV rays — a protection level recognised by the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) for quality films. Your furniture, floors and fabrics exposed to the sun benefit equally from either tint.",
+          ],
+        },
+        {
+          heading: "The price doesn't depend on the tint you choose",
+          paragraphs: [
+            "Silver or black, our rate stays the same: it's the surface area to be treated that determines the price, not the colour of the film. You can therefore choose based purely on your actual needs, with no financial trade-off to make. To compare this film with our three other tints (solar, matte white, anti-burglary), our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) includes a comparison table.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — UV protection](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "The best approach is to see both tints in person at your home, in the light of your own windows. Contact us, we'll advise you for free based on your rooms and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does the black film block out all light?',
+          answer: "No, natural light still comes through, but noticeably less than with the silver tint. The room isn't plunged into darkness, but the atmosphere is dimmer.",
+        },
+        {
+          question: 'Can I switch tints after installation?',
+          answer: "Technically yes, but the existing film has to be removed and a new one installed — it's not a simple adjustment. It's better to compare both tints with samples before deciding.",
+        },
+        {
+          question: 'Does the price change depending on the tint chosen?',
+          answer: 'No, silver and black are the same price. Only the surface area to be treated affects the price.',
+        },
+        {
+          question: 'When should you choose black over silver?',
+          answer: "Mainly for a glazed front door or any opening where privacy needs to be guaranteed at all times, including in the evening — unlike silver, which reverses once it gets dark.",
         },
       ],
     },

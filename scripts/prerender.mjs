@@ -399,6 +399,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-miroir-argente-ou-noir',
+  meta: {
+    FR: {
+      title: 'Film miroir argenté ou noir pour vitrage à Bruxelles — VitraCare',
+      description:
+        "Argenté ou noir : quelle teinte de film effet miroir choisir pour votre intimité ? On vous explique la différence avec de vrais exemples de nos chantiers récents.",
+      headline: 'Film miroir argenté ou noir : comment bien choisir pour votre maison ?',
+      datePublished: '2026-09-19',
+      dateModified: '2026-09-19',
+    },
+    NL: {
+      title: 'Zilveren of zwarte spiegelfolie voor beglazing in Brussel — VitraCare',
+      description:
+        'Zilver of zwart: welke tint spiegeleffect folie kiest u voor uw privacy? We leggen het verschil uit aan de hand van echte voorbeelden uit onze recente werven.',
+      headline: 'Zilveren of zwarte spiegelfolie: hoe kiest u het beste voor uw huis?',
+      datePublished: '2026-09-19',
+      dateModified: '2026-09-19',
+    },
+    EN: {
+      title: 'Silver or black mirror film for windows in Brussels — VitraCare',
+      description:
+        "Silver or black: which mirror film tint should you choose for privacy? We explain the difference using real examples from our recent projects.",
+      headline: 'Silver or black mirror film: how to choose the right one for your home?',
+      datePublished: '2026-09-19',
+      dateModified: '2026-09-19',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

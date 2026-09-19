@@ -400,29 +400,29 @@ const blogArticles = [
   },
 },
 {
-  path: '/blog/film-miroir-argente-ou-noir',
+  path: '/blog/protection-uv-film-vitrage-bruxelles',
   meta: {
     FR: {
-      title: 'Film miroir argenté ou noir pour vitrage à Bruxelles — VitraCare',
+      title: 'Protection UV pour vitrage à Bruxelles — VitraCare',
       description:
-        "Argenté ou noir : quelle teinte de film effet miroir choisir pour votre intimité ? On vous explique la différence avec de vrais exemples de nos chantiers récents.",
-      headline: 'Film miroir argenté ou noir : comment bien choisir pour votre maison ?',
+        "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
+      headline: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
       datePublished: '2026-09-19',
       dateModified: '2026-09-19',
     },
     NL: {
-      title: 'Zilveren of zwarte spiegelfolie voor beglazing in Brussel — VitraCare',
+      title: 'UV-bescherming voor beglazing in Brussel — VitraCare',
       description:
-        'Zilver of zwart: welke tint spiegeleffect folie kiest u voor uw privacy? We leggen het verschil uit aan de hand van echte voorbeelden uit onze recente werven.',
-      headline: 'Zilveren of zwarte spiegelfolie: hoe kiest u het beste voor uw huis?',
+        'Meubels, parket of stoffen die jaar na jaar verkleuren? We leggen uit waarom, en hoe raamfolie uw interieur duurzaam beschermt, met echte cijfers.',
+      headline: 'Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie',
       datePublished: '2026-09-19',
       dateModified: '2026-09-19',
     },
     EN: {
-      title: 'Silver or black mirror film for windows in Brussels — VitraCare',
+      title: 'UV protection for windows in Brussels — VitraCare',
       description:
-        "Silver or black: which mirror film tint should you choose for privacy? We explain the difference using real examples from our recent projects.",
-      headline: 'Silver or black mirror film: how to choose the right one for your home?',
+        "Furniture, floors or fabrics fading year after year? We explain why, and how window film protects your interior for the long run, with real figures.",
+      headline: 'How to protect your home from UV and fading: the role of window film',
       datePublished: '2026-09-19',
       dateModified: '2026-09-19',
     },

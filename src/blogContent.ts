@@ -586,9 +586,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: "Trois niveaux d'intensité, ajustés sur place",
+          paragraphs: [
+            "Ce que beaucoup de clients ne savent pas : la teinte argentée existe en plusieurs niveaux d'intensité — léger, moyen et fort. Plus l'intensité est forte, moins la pièce reste lumineuse, mais plus le film bloque la chaleur et les UV. À titre d'exemple, sur la fiche technique de notre installateur : la version légère laisse passer 43% de la lumière du jour et bloque environ 65% de la chaleur solaire totale, contre seulement 7% de lumière laissée passer mais plus de 93% de chaleur bloquée pour la version forte.",
+            "Ce n'est pas au client de choisir ce niveau : c'est notre équipe technique qui détermine, sur place, l'intensité la plus adaptée à l'orientation de vos fenêtres et à vos besoins réels.",
+          ],
+        },
+        {
           heading: "La teinte noire : l'intimité à toute heure",
           paragraphs: [
-            "La version noire répond à un besoin différent : garder l'intimité même le soir, quand l'argenté s'inverse. La contrepartie, c'est qu'elle laisse passer nettement moins de lumière naturelle qu'un film argenté. Elle se prête donc mal à une pièce de vie où on veut profiter de la luminosité toute la journée, mais elle est particulièrement adaptée à une porte d'entrée vitrée, où l'intimité de nuit compte plus que la lumière qui passe.",
+            "La version noire répond à un besoin différent : garder l'intimité même le soir, quand l'argenté s'inverse. Elle est nettement plus radicale que l'argenté : même de nuit, avec l'intérieur éclairé, il reste impossible de voir à l'intérieur. La contrepartie, c'est qu'elle laisse passer nettement moins de lumière naturelle. Elle se prête donc mal à une pièce de vie où on veut profiter de la luminosité toute la journée, mais elle est particulièrement adaptée à une porte d'entrée vitrée, où l'intimité de nuit compte plus que la lumière qui passe. Nous ne disposons pas encore de données chiffrées précises sur ses performances thermiques — nous préférons ne pas avancer de chiffre tant que nous ne l'avons pas confirmé.",
           ],
         },
         {
@@ -599,9 +606,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Une protection UV identique, quelle que soit la teinte',
+          heading: 'La protection UV, précisément',
           paragraphs: [
-            "Argenté ou noir, les deux bloquent jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité. Vos meubles, sols et tissus exposés au soleil en profitent autant avec l'une ou l'autre teinte.",
+            "Pour la teinte argentée, la protection UV varie aussi selon l'intensité : de 46% pour la version légère à 87% pour la version forte. Les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait. Pour la teinte noire, nous n'avons pas encore de données UV précises à vous communiquer.",
           ],
         },
         {
@@ -1202,9 +1209,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Drie intensiteitsniveaus, ter plaatse aangepast',
+          paragraphs: [
+            'Wat veel klanten niet weten: de zilveren tint bestaat in verschillende intensiteitsniveaus — licht, gemiddeld en sterk. Hoe sterker de intensiteit, hoe minder licht de ruimte binnenkomt, maar hoe meer warmte en UV de folie blokkeert. Ter illustratie, op het technisch fiche van onze installateur: de lichte versie laat 43% van het daglicht door en blokkeert ongeveer 65% van de totale zonnewarmte, tegenover slechts 7% doorgelaten licht maar meer dan 93% geblokkeerde warmte voor de sterke versie.',
+            'Het is niet aan de klant om dit niveau te kiezen: ons technisch team bepaalt ter plaatse welke intensiteit het best past bij de oriëntatie van uw ramen en uw echte behoeften.',
+          ],
+        },
+        {
           heading: 'De zwarte tint: privacy op elk moment',
           paragraphs: [
-            "De zwarte versie beantwoordt aan een andere behoefte: privacy behouden ook 's avonds, wanneer de zilveren tint omkeert. De tegenprestatie is dat er merkelijk minder natuurlijk licht doorkomt dan bij een zilveren folie. Ze is dus minder geschikt voor een leefruimte waar u de hele dag van lichtinval wilt genieten, maar bijzonder geschikt voor een glazen voordeur, waar privacy 's avonds belangrijker is dan doorgelaten licht.",
+            "De zwarte versie beantwoordt aan een andere behoefte: privacy behouden ook 's avonds, wanneer de zilveren tint omkeert. Ze is merkelijk radicaler dan zilver: zelfs 's nachts, met verlicht interieur, blijft het onmogelijk om naar binnen te kijken. De tegenprestatie is dat er merkelijk minder natuurlijk licht doorkomt. Ze is dus minder geschikt voor een leefruimte waar u de hele dag van lichtinval wilt genieten, maar bijzonder geschikt voor een glazen voordeur, waar privacy 's avonds belangrijker is dan doorgelaten licht. We beschikken nog niet over precieze cijfers over haar thermische prestaties — we geven liever geen cijfer tot dit bevestigd is.",
           ],
         },
         {
@@ -1215,9 +1229,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Dezelfde UV-bescherming, ongeacht de tint',
+          heading: 'De UV-bescherming, precies',
           paragraphs: [
-            'Zilver of zwart, beide blokkeren tot 99% van de UV-stralen — een beschermingsniveau erkend door de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) voor kwaliteitsfolies. Uw meubels, vloeren en stoffen die aan de zon blootgesteld zijn, profiteren evenveel van de ene als van de andere tint.',
+            'Voor de zilveren tint varieert de UV-bescherming ook naargelang de intensiteit: van 46% voor de lichte versie tot 87% voor de sterke versie. Kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken. Voor de zwarte tint hebben we nog geen precieze UV-gegevens om mee te delen.',
           ],
         },
         {
@@ -1818,9 +1832,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Three intensity levels, adjusted on site',
+          paragraphs: [
+            "What many clients don't realise: the silver tint comes in several intensity levels — light, medium and strong. The stronger the intensity, the less light the room lets in, but the more heat and UV the film blocks. As an example, from our installer's technical sheet: the light version lets through 43% of daylight and blocks around 65% of total solar heat, compared to just 7% of light let through but over 93% of heat blocked for the strong version.",
+            "It's not the client's choice which level to use: our technical team determines on site which intensity best suits your windows' orientation and your actual needs.",
+          ],
+        },
+        {
           heading: 'The black tint: privacy at any time',
           paragraphs: [
-            "The black version answers a different need: keeping privacy even in the evening, when the silver tint reverses. The trade-off is that it lets in noticeably less natural light than a silver film. It's therefore less suited to a living space where you want to enjoy daylight all day, but particularly well suited to a glazed front door, where evening privacy matters more than the light coming through.",
+            "The black version answers a different need: keeping privacy even in the evening, when the silver tint reverses. It's notably more radical than silver: even at night, with the interior lit, it remains impossible to see inside. The trade-off is that it lets in noticeably less natural light. It's therefore less suited to a living space where you want to enjoy daylight all day, but particularly well suited to a glazed front door, where evening privacy matters more than the light coming through. We don't yet have precise figures on its thermal performance — we'd rather not quote a number until we've confirmed it.",
           ],
         },
         {
@@ -1831,9 +1852,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'The same UV protection, whichever tint you choose',
+          heading: 'UV protection, precisely',
           paragraphs: [
-            "Silver or black, both block up to 99% of UV rays — a protection level recognised by the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) for quality films. Your furniture, floors and fabrics exposed to the sun benefit equally from either tint.",
+            "For the silver tint, UV protection also varies by intensity: from 46% for the light version to 87% for the strong version. Quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — a ceiling our strongest versions approach without quite reaching. For the black tint, we don't yet have precise UV figures to share.",
           ],
         },
         {

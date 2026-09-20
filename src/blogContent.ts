@@ -45,7 +45,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "La teinte effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
-            "Au-delà de l'intimité, ce film bloque jusqu'à 99% des rayons UV — un niveau de protection reconnu par l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) pour les films de qualité — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
+            "Au-delà de l'intimité, ce film bloque de 46% à 87% des rayons UV selon l'intensité posée — les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
             "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite — un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/protection-uv-film-vitrage-bruxelles) vous aide à trancher selon vos pièces.",
           ],
@@ -83,7 +83,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Intimité', 'Réduction chaleur', 'Protection UV', 'Sécurité renforcée'],
             rows: [
-              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui', "Oui (jusqu'à 99%)", 'Non'],
+              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui', "Oui (46 à 87%)", 'Non'],
               ['Solaire', 'Non (reste transparent)', 'Oui (rôle principal)', 'Oui (bonus)', 'Non'],
               ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
               ['Anti-effraction', 'Non (reste transparent)', 'Non', 'Non', 'Oui (rôle principal)'],
@@ -675,7 +675,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "De spiegeleffect folie is de meest radicale oplossing op het gebied van privacy. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
-            "Naast privacy blokkeert deze folie tot 99% van de UV-stralen — een beschermingsniveau erkend door de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) voor kwaliteitsfolies — en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
+            "Naast privacy blokkeert deze folie 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit — kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken — en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
             "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
             "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen — een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/protection-uv-film-vitrage-bruxelles) helpt u kiezen op basis van uw kamers.",
           ],
@@ -713,7 +713,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Folie', 'Privacy', 'Warmtevermindering', 'UV-bescherming', 'Verhoogde veiligheid'],
             rows: [
-              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja', 'Ja (tot 99%)', 'Nee'],
+              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja', 'Ja (46 tot 87%)', 'Nee'],
               ['Zonwerend', 'Nee (blijft transparant)', 'Ja (hoofdrol)', 'Ja (extra)', 'Nee'],
               ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
               ['Inbraakwerend', 'Nee (blijft transparant)', 'Nee', 'Nee', 'Ja (hoofdrol)'],
@@ -1304,7 +1304,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "The mirror effect film is the most effective solution when it comes to privacy. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
-            "Beyond privacy, this film blocks up to 99% of UV rays — a protection level recognised by the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) for quality films — and significantly reduces the heat entering through your windows — a real advantage in summer.",
+            "Beyond privacy, this film blocks 46% to 87% of UV rays depending on the intensity installed — quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching — and significantly reduces the heat entering through your windows — a real advantage in summer.",
             "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
             "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors — a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/protection-uv-film-vitrage-bruxelles) helps you decide based on your rooms.",
           ],
@@ -1342,7 +1342,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Privacy', 'Heat reduction', 'UV protection', 'Enhanced security'],
             rows: [
-              ['Mirror effect', 'Yes (daytime only)', 'Yes', 'Yes (up to 99%)', 'No'],
+              ['Mirror effect', 'Yes (daytime only)', 'Yes', 'Yes (46 to 87%)', 'No'],
               ['Solar', 'No (stays transparent)', 'Yes (main role)', 'Yes (bonus)', 'No'],
               ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
               ['Anti-burglary', 'No (stays transparent)', 'No', 'No', 'Yes (main role)'],

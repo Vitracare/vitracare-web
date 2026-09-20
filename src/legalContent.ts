@@ -2,7 +2,7 @@ export const legalContent = {
   FR: {
     faqTitle: 'FAQ',
     faqItems: [
-      { q: 'Quels types de films proposez-vous ?', a: "Quatre films : l'effet miroir (intimité totale de jour, bloque 99% des UV), la teinte solaire (transparente, réduit la chaleur et les UV), le blanc mat (intimité totale des deux côtés, idéal salle de bain ou verrière) et le film anti-effraction (transparent, ralentit fortement une tentative d'effraction)." },
+      { q: 'Quels types de films proposez-vous ?', a: "Quatre films : l'effet miroir (intimité totale de jour, bloque jusqu'à 87% des UV selon l'intensité), la teinte solaire (transparente, réduit la chaleur et les UV), le blanc mat (intimité totale des deux côtés, idéal salle de bain ou verrière) et le film anti-effraction (transparent, ralentit fortement une tentative d'effraction)." },
       { q: "L'effet miroir fonctionne-t-il aussi la nuit ?", a: "De jour, l'effet miroir bloque totalement la vue depuis l'extérieur. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse — c'est le fonctionnement normal de ce type de film, à garder en tête selon vos pièces." },
       { q: 'Comment se déroule une demande de devis ?', a: 'Vous nous transmettez vos mesures et quelques photos de vos vitrages pour une première estimation rapide. Si vous le préférez, ou pour les projets plus importants, nous pouvons également nous déplacer chez vous pour confirmer les mesures sur place avant de finaliser le devis.' },
       { q: 'Proposez-vous une visite à domicile ?', a: 'Oui — sur simple demande, ou systématiquement pour les grands chantiers, nous nous déplaçons pour évaluer précisément votre projet.' },
@@ -10,7 +10,7 @@ export const legalContent = {
       { q: 'Quelle est la durée de vie du film ?', a: "10 à 15 ans pour une pose côté intérieur du vitrage, qui favorise cette durée de vie optimale — une pose extérieure reste possible selon vos préférences." },
       { q: 'Quelle garantie proposez-vous ?', a: '2 ans sur la pose.' },
       { q: 'Posez-vous sur tous les types de vitrage ?', a: 'Oui, sur simple, double et triple vitrage.' },
-      { q: 'Le film protège-t-il vraiment contre la chaleur et les UV ?', a: "Oui — il bloque jusqu'à 99% des UV et réduit considérablement la chaleur en été. Un éventuel effet de conservation de la chaleur en hiver est théoriquement possible (la couche ajoutée limite les échanges thermiques) mais n'a pas été prouvé scientifiquement pour nos films — ce n'est pas leur fonction première." },
+      { q: 'Le film protège-t-il vraiment contre la chaleur et les UV ?', a: "Oui — selon le film et l'intensité posée, il bloque jusqu'à 87% des UV et réduit considérablement la chaleur en été. Un éventuel effet de conservation de la chaleur en hiver est théoriquement possible (la couche ajoutée limite les échanges thermiques) mais n'a pas été prouvé scientifiquement pour nos films — ce n'est pas leur fonction première." },
       { q: 'Le déplacement pour établir un devis est-il payant ?', a: 'Le déplacement et la prise de mesures sont normalement facturés 50€, mais actuellement offerts.' },
       { q: 'Le film peut-il protéger mes meubles et mon parquet ?', a: 'Oui, la réduction des UV limite la décoloration des meubles, sols et objets exposés au soleil — le même principe que les films utilisés en muséographie.' },
       { q: 'Dans quelles zones intervenez-vous ?', a: 'Nous nous concentrons actuellement sur Bruxelles et sa périphérie, avec la possibilité de nous déplacer ailleurs en Belgique selon les projets.' },
@@ -74,7 +74,7 @@ export const legalContent = {
   NL: {
     faqTitle: 'Veelgestelde vragen',
     faqItems: [
-      { q: 'Welke soorten folie bieden jullie aan?', a: 'Vier folies: het spiegeleffect (volledige privacy overdag, blokkeert 99% van de UV-stralen), de zonwerende folie (transparant, vermindert warmte en UV), de matwitte folie (volledige privacy langs beide kanten, ideaal voor badkamer of veranda) en de inbraakwerende folie (transparant, vertraagt een inbraakpoging sterk).' },
+      { q: 'Welke soorten folie bieden jullie aan?', a: 'Vier folies: het spiegeleffect (volledige privacy overdag, blokkeert tot 87% van de UV-stralen naargelang de intensiteit), de zonwerende folie (transparant, vermindert warmte en UV), de matwitte folie (volledige privacy langs beide kanten, ideaal voor badkamer of veranda) en de inbraakwerende folie (transparant, vertraagt een inbraakpoging sterk).' },
       { q: "Werkt het spiegeleffect ook 's nachts?", a: "Overdag blokkeert het spiegeleffect het zicht van buitenaf volledig. 's Nachts, als uw interieur verlicht is en het buiten donker is, keert het effect om — dit is de normale werking van dit type folie, houd hier rekening mee per kamer." },
       { q: 'Hoe verloopt een offerteaanvraag?', a: "U bezorgt ons uw afmetingen en enkele foto's van uw beglazing voor een eerste snelle inschatting. Indien u dit verkiest, of voor grotere projecten, kunnen we ook bij u langsgaan om de afmetingen ter plaatse te bevestigen voordat de offerte wordt afgerond." },
       { q: 'Bieden jullie een huisbezoek aan?', a: 'Ja — op eenvoudig verzoek, of systematisch voor grotere werven, komen we langs om uw project nauwkeurig te evalueren.' },
@@ -82,7 +82,7 @@ export const legalContent = {
       { q: 'Wat is de levensduur van de folie?', a: 'Tussen 10 en 15 jaar voor een plaatsing aan de binnenzijde van het glas, wat deze optimale levensduur bevordert — een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur.' },
       { q: 'Welke garantie bieden jullie?', a: '2 jaar op de plaatsing.' },
       { q: 'Plaatsen jullie op alle soorten beglazing?', a: 'Ja, op enkel, dubbel en drievoudig glas.' },
-      { q: 'Beschermt de folie echt tegen warmte en UV?', a: "Ja — ze blokkeert tot 99% van de UV-stralen en vermindert de warmte in de zomer aanzienlijk. Een eventueel warmtebehoudend effect in de winter is theoretisch mogelijk (de extra laag beperkt warmte-uitwisseling), maar dit is voor onze folies niet wetenschappelijk bewezen — het is niet de hoofdfunctie." },
+      { q: 'Beschermt de folie echt tegen warmte en UV?', a: "Ja — naargelang de folie en de geplaatste intensiteit blokkeert ze tot 87% van de UV-stralen en vermindert ze de warmte in de zomer aanzienlijk. Een eventueel warmtebehoudend effect in de winter is theoretisch mogelijk (de extra laag beperkt warmte-uitwisseling), maar dit is voor onze folies niet wetenschappelijk bewezen — het is niet de hoofdfunctie." },
       { q: 'Is de verplaatsing voor een offerte betalend?', a: 'De verplaatsing en het opmeten worden normaal 50€ aangerekend, maar zijn momenteel gratis.' },
       { q: 'Kan de folie mijn meubels en parket beschermen?', a: 'Ja, de vermindering van UV beperkt de verkleuring van meubels, vloeren en voorwerpen die aan de zon blootgesteld zijn — hetzelfde principe als de folies die in musea worden gebruikt.' },
       { q: 'In welke zones bent u actief?', a: 'We concentreren ons momenteel op Brussel en omgeving, met de mogelijkheid om ons elders in België te verplaatsen naargelang het project.' },
@@ -146,7 +146,7 @@ export const legalContent = {
   EN: {
     faqTitle: 'FAQ',
     faqItems: [
-      { q: 'What types of film do you offer?', a: 'Four films: mirror effect (full daytime privacy, blocks 99% of UV), solar tint (transparent, reduces heat and UV), matte white (full privacy on both sides, ideal for bathrooms or conservatories) and anti-burglary film (transparent, significantly slows down a break-in attempt).' },
+      { q: 'What types of film do you offer?', a: 'Four films: mirror effect (full daytime privacy, blocks up to 87% of UV depending on intensity), solar tint (transparent, reduces heat and UV), matte white (full privacy on both sides, ideal for bathrooms or conservatories) and anti-burglary film (transparent, significantly slows down a break-in attempt).' },
       { q: 'Does the mirror effect also work at night?', a: "During the day, the mirror effect fully blocks the view from outside. At night, if your interior is lit and it's dark outside, the effect reverses — this is normal behaviour for this type of film, worth keeping in mind depending on the room." },
       { q: 'How does a quote request work?', a: 'You send us your measurements and a few photos of your windows for a quick initial estimate. If you prefer, or for larger projects, we can also visit you to confirm the measurements on site before finalising the quote.' },
       { q: 'Do you offer a home visit?', a: 'Yes — on request, or systematically for larger projects, we come to assess your project precisely.' },
@@ -154,7 +154,7 @@ export const legalContent = {
       { q: 'What is the lifespan of the film?', a: "10-15 years for installation on the interior side of the glass, which supports this optimal lifespan — exterior installation remains possible depending on your preference." },
       { q: 'What guarantee do you offer?', a: '2 years on the installation.' },
       { q: 'Do you install on all types of glazing?', a: 'Yes, on single, double and triple glazing.' },
-      { q: 'Does the film really protect against heat and UV?', a: "Yes — it blocks up to 99% of UV rays and significantly reduces heat in summer. A possible heat-retention effect in winter is theoretically plausible (the added layer limits heat exchange), but this hasn't been scientifically proven for our films — it isn't their primary purpose." },
+      { q: 'Does the film really protect against heat and UV?', a: "Yes — depending on the film and the intensity installed, it blocks up to 87% of UV rays and significantly reduces heat in summer. A possible heat-retention effect in winter is theoretically plausible (the added layer limits heat exchange), but this hasn't been scientifically proven for our films — it isn't their primary purpose." },
       { q: 'Is the site visit for a quote chargeable?', a: 'The site visit and measurements are normally billed at €50, but currently offered for free.' },
       { q: 'Can the film protect my furniture and flooring?', a: 'Yes, reducing UV limits the fading of furniture, floors and objects exposed to sunlight — the same principle used in museum-grade protective films.' },
       { q: 'Which areas do you cover?', a: 'We currently focus on Brussels and its periphery, with the possibility of travelling elsewhere in Belgium depending on the project.' },

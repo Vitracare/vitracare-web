@@ -89,9 +89,12 @@ export const DevisFormCard = () => {
 
     const formEl = e.currentTarget;
     if (!formEl.checkValidity()) {
+      // No formEl.reportValidity() here on purpose — it triggers the browser's
+      // native validation bubble, which can't be restyled to match the site.
+      // The red field outlines (invalidClass below) + the message under the
+      // form do the same job with the site's own design.
       setAttempted(true);
       setSubmitError(t.devis.required_error);
-      formEl.reportValidity();
       return;
     }
 
@@ -261,8 +264,16 @@ export const DevisFormCard = () => {
           </div>
 
           <div className="flex items-start gap-2 mt-2">
-            <input type="checkbox" id="privacy" required className="mt-1" />
-            <label htmlFor="privacy" className="text-[11px] text-gray-500 leading-tight">
+            <input
+              type="checkbox"
+              id="privacy"
+              required
+              className={`mt-1 peer ${attempted ? 'invalid:outline invalid:outline-2 invalid:outline-red-400 invalid:outline-offset-2 invalid:rounded-sm' : ''}`}
+            />
+            <label
+              htmlFor="privacy"
+              className={`text-[11px] leading-tight text-gray-500 ${attempted ? 'peer-invalid:text-red-500' : ''}`}
+            >
               {t.devis.form_privacy1}<span style={{ color: brandColor }}>{t.devis.form_privacy2}</span>
             </label>
           </div>

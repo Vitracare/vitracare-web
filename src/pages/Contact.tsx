@@ -25,9 +25,12 @@ export default function Contact() {
 
     const formEl = e.currentTarget;
     if (!formEl.checkValidity()) {
+      // No formEl.reportValidity() here on purpose — it triggers the browser's
+      // native validation bubble, which can't be restyled to match the site.
+      // The red field outlines (invalidClass below) + the message under the
+      // form do the same job with the site's own design.
       setAttempted(true);
       setSubmitError(t.contactPage.required_error);
-      formEl.reportValidity();
       return;
     }
 

@@ -252,20 +252,26 @@ export default function Home() {
 
       {/* Mobile-only hero photo — full width, in normal flow, above the text instead
           of hidden behind it. Own fade at the top just to keep the fixed header's
-          logo readable over the photo, independent of the desktop overlay above. */}
-      <div className="relative md:hidden w-full h-[42vh]">
-        <img
-          src="/images/hero.jpg"
-          alt=""
-          fetchPriority="high"
-          decoding="async"
-          className="absolute inset-0 w-full h-full object-cover object-[62%_center]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/70 to-transparent h-24"></div>
+          logo readable over the photo, independent of the desktop overlay above.
+          A rounded, shadowed card — same treatment as the before/after slider and
+          the cookie banner elsewhere on the site — rather than a flat edge-to-edge
+          strip, so it reads as a designed element instead of a cropped banner.
+          The header sits over plain page background here (pt-[104px] clears it),
+          so no fade/gradient is needed for its own legibility. */}
+      <div className="relative md:hidden w-full pt-[104px] pb-8 px-6">
+        <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+          <img
+            src="/images/hero.jpg"
+            alt=""
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover object-[62%_center]"
+          />
+        </div>
       </div>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col justify-center md:min-h-[100vh] pt-6 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
+      <main className="relative z-10 flex flex-col justify-center md:min-h-[100vh] pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
         <div className="max-w-[800px] md:-translate-y-8 lg:-translate-y-12">
           <h1
             className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight"

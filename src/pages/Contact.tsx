@@ -75,6 +75,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             <a
               href="tel:+32489607074"
+              onClick={() => trackEvent('phone_click')}
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
             >
               <Phone size={26} color={brandColor} strokeWidth={1.5} />
@@ -85,6 +86,7 @@ export default function Contact() {
               href="https://wa.me/32489607074"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackEvent('whatsapp_click')}
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
             >
               <MessageCircle size={26} color={brandColor} strokeWidth={1.5} />
@@ -93,6 +95,7 @@ export default function Contact() {
             </a>
             <a
               href="mailto:contact@vitracare.be"
+              onClick={() => trackEvent('email_click')}
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"
             >
               <Mail size={26} color={brandColor} strokeWidth={1.5} />

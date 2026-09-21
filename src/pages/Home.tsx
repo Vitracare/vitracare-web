@@ -205,17 +205,21 @@ export default function Home() {
   return (
     <div className="w-full font-sans bg-white flex flex-col">
       {/* Hero Section */}
-      <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
+      <div id="accueil" className="relative md:min-h-screen w-full overflow-hidden">
         {/* Background image as a real <img>, not a CSS background-image: the browser's
             preload scanner can only discover it while parsing HTML if it's a real
             element (a background-image is only found after CSSOM construction, which
-            was flagged as the likely LCP bottleneck on mobile). */}
+            was flagged as the likely LCP bottleneck on mobile).
+            Desktop only (md:) — mobile uses its own stacked photo block below, since
+            there's no room here to keep both a 3-line headline AND a visible photo
+            side by side on a narrow screen (the old side-gradient left only the last
+            ~4% of the screen showing any photo at all). */}
       <img
         src="/images/hero.jpg"
         alt=""
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 z-0 w-full h-full object-cover object-[62%_center] md:object-center"
+        className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
       />
 
       {/* Same image, blurred, masked to only show on the plain wall between the text
@@ -226,7 +230,7 @@ export default function Home() {
         alt=""
         aria-hidden="true"
         decoding="async"
-        className="absolute inset-0 z-0 w-full h-full object-cover object-[62%_center] md:object-center"
+        className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
         style={{
           filter: 'blur(18px)',
           WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
@@ -234,32 +238,35 @@ export default function Home() {
         }}
       />
 
-      {/* White gradient overlay so the headline stays readable over the photo.
-          Mobile needs a much wider opaque zone: the H1 wraps onto ~3 full-width
-          lines at that size, so the same percentages used on desktop (tuned for
-          a single-column text block next to the image) left the right edge of
-          each mobile line sitting directly on the photo. */}
       <div
-        className="absolute inset-0 z-0 md:hidden"
-        style={{
-          background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 68%, rgba(255,255,255,0.6) 82%, rgba(255,255,255,0) 96%)'
-        }}
-      ></div>
-      <div
-        className="absolute inset-0 z-0 hidden md:block"
+        className="hidden md:block absolute inset-0 z-0"
         style={{
           background: 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,0.85) 38%, rgba(255,255,255,0.55) 46%, rgba(255,255,255,0.25) 54%, rgba(255,255,255,0) 64%)'
         }}
       ></div>
       {/* Top subtle fade for header readability over image parts */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 to-transparent h-32"></div>
+      <div className="hidden md:block absolute inset-0 z-0 bg-gradient-to-b from-white/60 to-transparent h-32"></div>
 
       {/* Header */}
       <SiteHeader activeId={activeSection} />
 
+      {/* Mobile-only hero photo — full width, in normal flow, above the text instead
+          of hidden behind it. Own fade at the top just to keep the fixed header's
+          logo readable over the photo, independent of the desktop overlay above. */}
+      <div className="relative md:hidden w-full h-[42vh]">
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover object-[62%_center]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/70 to-transparent h-24"></div>
+      </div>
+
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col justify-center min-h-[100vh] pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
-        <div className="max-w-[800px] -translate-y-8 md:-translate-y-12">
+      <main className="relative z-10 flex flex-col justify-center md:min-h-[100vh] pt-6 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
+        <div className="max-w-[800px] md:-translate-y-8 lg:-translate-y-12">
           <h1
             className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight"
             style={{ color: headingColor }}

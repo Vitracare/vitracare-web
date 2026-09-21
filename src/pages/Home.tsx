@@ -205,15 +205,15 @@ export default function Home() {
   return (
     <div className="w-full font-sans bg-white flex flex-col">
       {/* Hero Section */}
-      <div id="accueil" className="relative md:min-h-screen w-full overflow-hidden">
+      <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
         {/* Background image as a real <img>, not a CSS background-image: the browser's
             preload scanner can only discover it while parsing HTML if it's a real
             element (a background-image is only found after CSSOM construction, which
             was flagged as the likely LCP bottleneck on mobile).
-            Desktop only (md:) — mobile uses its own stacked photo block below, since
-            there's no room here to keep both a 3-line headline AND a visible photo
-            side by side on a narrow screen (the old side-gradient left only the last
-            ~4% of the screen showing any photo at all). */}
+            Desktop only (md:) — mobile uses its own full-bleed version below, with a
+            vertical dark gradient instead of this horizontal white one (there's no
+            room on a narrow screen to keep text beside the photo without covering
+            almost all of it). */}
       <img
         src="/images/hero.jpg"
         alt=""
@@ -247,35 +247,34 @@ export default function Home() {
       {/* Top subtle fade for header readability over image parts */}
       <div className="hidden md:block absolute inset-0 z-0 bg-gradient-to-b from-white/60 to-transparent h-32"></div>
 
+      {/* Mobile-only: same photo, full-bleed, no card, no side gradient — the whole
+          point here is to actually see it. A single vertical gradient does two jobs
+          at once: a short light fade at the very top keeps the header's dark logo
+          readable, then it's fully transparent through the middle (photo stays
+          clear), then it darkens toward the bottom where the now-white headline and
+          CTA sit, so text stays readable without dimming the photo itself. */}
+      <img
+        src="/images/hero.jpg"
+        alt=""
+        fetchPriority="high"
+        decoding="async"
+        className="md:hidden absolute inset-0 z-0 w-full h-full object-cover object-[62%_center]"
+      />
+      <div
+        className="md:hidden absolute inset-0 z-0"
+        style={{
+          background: 'linear-gradient(to bottom, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 18%, rgba(0,0,0,0) 42%, rgba(0,0,0,0.78) 100%)'
+        }}
+      ></div>
+
       {/* Header */}
       <SiteHeader activeId={activeSection} />
 
-      {/* Mobile-only hero photo — full width, in normal flow, above the text instead
-          of hidden behind it. Own fade at the top just to keep the fixed header's
-          logo readable over the photo, independent of the desktop overlay above.
-          A rounded, shadowed card — same treatment as the before/after slider and
-          the cookie banner elsewhere on the site — rather than a flat edge-to-edge
-          strip, so it reads as a designed element instead of a cropped banner.
-          The header sits over plain page background here (pt-[104px] clears it),
-          so no fade/gradient is needed for its own legibility. */}
-      <div className="relative md:hidden w-full pt-[104px] pb-8 px-6">
-        <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
-          <img
-            src="/images/hero.jpg"
-            alt=""
-            fetchPriority="high"
-            decoding="async"
-            className="absolute inset-0 w-full h-full object-cover object-[62%_center]"
-          />
-        </div>
-      </div>
-
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col justify-center md:min-h-[100vh] pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
+      <main className="relative z-10 flex flex-col justify-end md:justify-center min-h-screen pb-16 md:pb-0 pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
         <div className="max-w-[800px] md:-translate-y-8 lg:-translate-y-12">
           <h1
-            className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight"
-            style={{ color: headingColor }}
+            className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight text-white md:text-[#464646]"
           >
             {/* Visually hidden (not display:none — screen readers and crawlers still
                 read it), so the H1 carries the service+location keywords an SEO audit
@@ -291,7 +290,7 @@ export default function Home() {
           <div className="w-[50px] h-[2px] mb-6" style={{ backgroundColor: brandColor }}></div>
 
           <div className="text-[18px] lg:text-[22px] font-medium mb-12 flex flex-wrap items-center min-h-[32px]">
-            <span style={{ color: lightTextColor }} className="font-normal tracking-wide mr-2">
+            <span className="font-normal tracking-wide mr-2 text-white/90 md:text-[#888888]">
               {t.hero.subtitle}
             </span>
             <span className="font-bold tracking-wide flex items-center" style={{ color: brandColor }}>

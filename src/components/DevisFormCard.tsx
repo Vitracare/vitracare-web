@@ -305,6 +305,7 @@ export const DevisFormCard = () => {
           href="https://wa.me/32489607074"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackEvent('whatsapp_click', { location: 'devis_page' })}
           className="mt-6 inline-flex items-center gap-2 text-white/90 hover:text-white text-[13px] font-bold underline underline-offset-2 transition-colors"
         >
           <MessageCircle size={16} />

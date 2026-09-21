@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { LocalizedLink as Link } from './LocalizedLink';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
+import { trackEvent } from '../lib/analytics';
 
 const brandColor = '#BA9765';
 
@@ -84,13 +85,13 @@ export const MobileMenu = ({ dark = false }: { dark?: boolean }) => {
                 <p className="text-[11px] font-bold uppercase tracking-wider mb-3" style={{ color: '#8a6a3f' }}>
                   {t.contactPage.title}
                 </p>
-                <a href="tel:+32489607074" className="flex items-center gap-3 mb-3 group">
+                <a href="tel:+32489607074" onClick={() => trackEvent('phone_click', { location: 'mobile_menu' })} className="flex items-center gap-3 mb-3 group">
                   <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shrink-0">
                     <Phone size={16} color={brandColor} />
                   </div>
                   <span className="text-[15px] font-bold text-[#464646] group-hover:opacity-70 transition-opacity">0489 60 70 74</span>
                 </a>
-                <a href="https://wa.me/32489607074" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
+                <a href="https://wa.me/32489607074" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('whatsapp_click', { location: 'mobile_menu' })} className="flex items-center gap-3 group">
                   <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shrink-0">
                     <MessageCircle size={16} color={brandColor} />
                   </div>

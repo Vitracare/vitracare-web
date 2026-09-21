@@ -4,6 +4,7 @@ import { X, MessageCircle, Sparkles } from 'lucide-react';
 import { translations, Lang } from '../i18n';
 import { langPrefixes } from '../App';
 import { withLangPrefix } from './LocalizedLink';
+import { trackEvent } from '../lib/analytics';
 
 const brandColor = '#BA9765';
 const SHOW_AFTER_MS = 9000;
@@ -90,7 +91,7 @@ export const EngagementPopup = () => {
             href="https://wa.me/32489607074"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={close}
+            onClick={() => { trackEvent('whatsapp_click', { location: 'popup' }); close(); }}
             className="inline-flex items-center justify-center gap-2 text-white text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] cursor-pointer"
             style={{ backgroundColor: brandColor }}
           >

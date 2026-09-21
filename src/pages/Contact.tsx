@@ -4,6 +4,7 @@ import { Phone, MessageCircle, Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
+import { trackEvent } from '../lib/analytics';
 
 const brandColor = '#BA9765';
 
@@ -47,6 +48,7 @@ export default function Contact() {
         body: JSON.stringify(payload),
       });
       if (!response.ok) throw new Error('Request failed');
+      trackEvent('contact_form_submit');
       setIsSubmitted(true);
     } catch {
       setSubmitError(t.contactPage.form_error);

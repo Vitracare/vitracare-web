@@ -2,6 +2,7 @@ import { useState, type FormEvent, type ChangeEvent } from 'react';
 import { X, ImagePlus, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { LocalizedLink as Link } from './LocalizedLink';
+import { trackEvent } from '../lib/analytics';
 
 const brandColor = '#BA9765';
 const MAX_PHOTOS_BYTES = 3.5 * 1024 * 1024; // stays under the ~4.5MB serverless request limit once base64-encoded
@@ -124,6 +125,7 @@ export const DevisFormCard = () => {
         body: JSON.stringify(payload),
       });
       if (!response.ok) throw new Error('Request failed');
+      trackEvent('generate_lead', { form_name: 'devis' });
       setIsSubmitted(true);
     } catch {
       setSubmitError(t.devis.form_error);

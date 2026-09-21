@@ -4,7 +4,7 @@ import { X, MessageCircle, Sparkles } from 'lucide-react';
 import { translations, Lang } from '../i18n';
 import { langPrefixes } from '../App';
 import { withLangPrefix } from './LocalizedLink';
-import { trackEvent } from '../lib/analytics';
+import { trackEvent, getConsentStatus } from '../lib/analytics';
 
 const brandColor = '#BA9765';
 const SHOW_AFTER_MS = 9000;
@@ -37,7 +37,12 @@ export const EngagementPopup = () => {
       setDismissed(true);
       return;
     }
-    const timer = setTimeout(() => setVisible(true), SHOW_AFTER_MS);
+    // Skipped (not retried) if the cookie banner is still undecided at fire
+    // time, so the two never stack on top of each other on mobile — both are
+    // bottom-anchored there.
+    const timer = setTimeout(() => {
+      if (getConsentStatus() !== null) setVisible(true);
+    }, SHOW_AFTER_MS);
     return () => clearTimeout(timer);
   }, []);
 

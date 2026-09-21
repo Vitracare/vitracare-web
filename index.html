@@ -1,15 +1,9 @@
 <!doctype html>
 <html lang="fr" class="scroll-smooth">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5NX2SQWZX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-Y5NX2SQWZX');
-    </script>
+    <!-- Google Analytics (gtag.js) is loaded conditionally from src/lib/analytics.ts
+         once the visitor accepts cookies via the consent banner — never loaded
+         unconditionally here, so no analytics cookie is set before consent. -->
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

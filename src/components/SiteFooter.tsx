@@ -2,6 +2,7 @@ import { LocalizedLink as Link } from './LocalizedLink';
 import { Phone, Mail } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { trackEvent } from '../lib/analytics';
+import { OPEN_COOKIE_PREFS_EVENT } from './CookieConsentBanner';
 
 const brandColor = '#BA9765';
 
@@ -28,6 +29,13 @@ export const SiteFooter = () => {
         <Link to="/conditions-generales" className="hover:opacity-80 transition-opacity">{t.footer.terms}</Link>
         <Link to="/mentions-legales" className="hover:opacity-80 transition-opacity">{t.footer.legal}</Link>
         <Link to="/politique-confidentialite" className="hover:opacity-80 transition-opacity">{t.footer.privacy}</Link>
+        <button
+          type="button"
+          onClick={() => window.dispatchEvent(new Event(OPEN_COOKIE_PREFS_EVENT))}
+          className="hover:opacity-80 transition-opacity underline-offset-2"
+        >
+          {t.cookies.manage}
+        </button>
       </div>
 
       {/* NAP block — phone/email were previously only visible on /contact; having them

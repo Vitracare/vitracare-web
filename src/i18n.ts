@@ -168,6 +168,13 @@ export const translations = {
       whatsapp: 'Discuter sur WhatsApp',
       offerCta: "Voir l'offre",
     },
+    cookies: {
+      text: "Nous utilisons des cookies de mesure d'audience pour comprendre comment vous utilisez le site et l'améliorer. Ils ne sont déposés qu'avec votre accord.",
+      linkText: 'En savoir plus',
+      accept: 'Accepter',
+      refuse: 'Refuser',
+      manage: 'Gérer les cookies',
+    },
     commune: {
       otherAreas: 'Nous intervenons aussi près de chez vous'
     },
@@ -367,6 +374,13 @@ export const translations = {
       whatsapp: 'Chat via WhatsApp',
       offerCta: 'Bekijk de aanbieding',
     },
+    cookies: {
+      text: 'We gebruiken analytische cookies om te begrijpen hoe u de site gebruikt en om deze te verbeteren. Ze worden pas geplaatst met uw toestemming.',
+      linkText: 'Meer weten',
+      accept: 'Accepteren',
+      refuse: 'Weigeren',
+      manage: 'Cookievoorkeuren',
+    },
     commune: {
       otherAreas: 'We zijn ook actief bij u in de buurt'
     },
@@ -565,6 +579,13 @@ export const translations = {
       offerSubtitle: 'Normally €50, currently free. We come to you, take measurements, and you receive an accurate quote.',
       whatsapp: 'Chat on WhatsApp',
       offerCta: 'View the offer',
+    },
+    cookies: {
+      text: 'We use analytics cookies to understand how you use the site and to improve it. They are only set with your consent.',
+      linkText: 'Learn more',
+      accept: 'Accept',
+      refuse: 'Decline',
+      manage: 'Manage cookies',
     },
     commune: {
       otherAreas: 'We also work near you'

@@ -1,9 +1,11 @@
-import { ReactElement } from 'react';
+import { ReactElement, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './LanguageContext';
 import { Lang } from './i18n';
 import { ScrollToTop } from './components/ScrollToTop';
 import { EngagementPopup } from './components/EngagementPopup';
+import { CookieConsentBanner } from './components/CookieConsentBanner';
+import { initAnalyticsIfConsented } from './lib/analytics';
 import Home from './pages/Home';
 import Devis from './pages/Devis';
 import Contact from './pages/Contact';
@@ -61,11 +63,16 @@ export function AppRoutes() {
 }
 
 export default function App() {
+  useEffect(() => {
+    initAnalyticsIfConsented();
+  }, []);
+
   return (
     <BrowserRouter>
       <ScrollToTop />
       <AppRoutes />
       <EngagementPopup />
+      <CookieConsentBanner />
     </BrowserRouter>
   );
 }

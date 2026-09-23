@@ -167,6 +167,24 @@ export default function Contact() {
                 placeholder={`${t.contactPage.form_message} *`}
                 className={`w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 placeholder:text-gray-400 resize-none ${invalidClass}`}
               />
+              <div className="flex items-start gap-2 mt-2">
+                <input
+                  type="checkbox"
+                  id="privacy-contact"
+                  required
+                  className={`mt-1 peer ${attempted ? 'invalid:outline invalid:outline-2 invalid:outline-red-400 invalid:outline-offset-2 invalid:rounded-sm' : ''}`}
+                />
+                <label
+                  htmlFor="privacy-contact"
+                  className={`text-[11px] leading-tight text-gray-500 ${attempted ? 'peer-invalid:text-red-500' : ''}`}
+                >
+                  {t.contactPage.form_privacy1}
+                  <Link to="/politique-confidentialite" className="underline" style={{ color: brandColor }}>
+                    {t.contactPage.form_privacy2}
+                  </Link>
+                </label>
+              </div>
+
               <p className="text-[11px] text-gray-400">{t.contactPage.required_note}</p>
               {submitError && (
                 <p className="text-[12px] text-red-600">{submitError}</p>

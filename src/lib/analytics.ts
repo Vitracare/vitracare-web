@@ -1,15 +1,18 @@
 // Petit wrapper pour envoyer des événements GA4 sans planter si gtag n'est
 // pas chargé (bloqueur de pub, consentement refusé, etc.) et sans utiliser `any`.
 type GtagFn = (...args: unknown[]) => void;
+type ClarityFn = (...args: unknown[]) => void;
 
 declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: GtagFn;
+    clarity?: ClarityFn;
   }
 }
 
 const GA_MEASUREMENT_ID = 'G-Y5NX2SQWZX';
+const CLARITY_PROJECT_ID = 'ynbho80wac';
 const CONSENT_KEY = 'vitracare_cookie_consent';
 
 export type ConsentStatus = 'granted' | 'denied' | null;
@@ -42,16 +45,40 @@ function loadGaScript() {
   document.head.appendChild(script);
 }
 
-// Best-effort : supprime les cookies GA existants quand quelqu'un retire son
-// consentement après l'avoir donné. Pas garanti à 100% (un rechargement de
+// Même principe pour Microsoft Clarity (heatmaps/enregistrements de session) :
+// jamais chargé sans consentement, il dépose lui aussi des cookies de mesure.
+function loadClarityScript() {
+  if (document.getElementById('clarity-script')) return;
+
+  window.clarity = window.clarity || function (...args: unknown[]) {
+    const c = window.clarity as ClarityFn & { q?: unknown[] };
+    (c.q = c.q || []).push(args);
+  };
+
+  const script = document.createElement('script');
+  script.id = 'clarity-script';
+  script.async = true;
+  script.src = `https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}`;
+  document.head.appendChild(script);
+}
+
+function loadAnalyticsScripts() {
+  loadGaScript();
+  loadClarityScript();
+}
+
+// Best-effort : supprime les cookies GA/Clarity existants quand quelqu'un retire
+// son consentement après l'avoir donné. Pas garanti à 100% (un rechargement de
 // page reste la façon la plus fiable de repartir sur une base propre), mais
 // évite de laisser traîner des cookies déjà posés sans raison.
-function deleteGaCookies() {
+function deleteAnalyticsCookies() {
   try {
     const cookies = document.cookie.split(';').map((c) => c.trim().split('=')[0]);
-    const gaCookies = cookies.filter((name) => name === '_ga' || name.startsWith('_ga_'));
+    const trackingCookies = cookies.filter(
+      (name) => name === '_ga' || name.startsWith('_ga_') || name === '_clck' || name === '_clsk'
+    );
     const domain = window.location.hostname.replace(/^www\./, '');
-    for (const name of gaCookies) {
+    for (const name of trackingCookies) {
       document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
       document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.${domain}`;
     }
@@ -66,7 +93,7 @@ export function grantConsent() {
   } catch {
     // silencieux
   }
-  loadGaScript();
+  loadAnalyticsScripts();
 }
 
 export function denyConsent() {
@@ -75,14 +102,14 @@ export function denyConsent() {
   } catch {
     // silencieux
   }
-  deleteGaCookies();
+  deleteAnalyticsCookies();
 }
 
-// À appeler une fois au montage de l'app : recharge GA si la personne avait
-// déjà accepté lors d'une visite précédente (le script ne persiste pas d'une
-// page à l'autre, contrairement au choix stocké en localStorage).
+// À appeler une fois au montage de l'app : recharge GA/Clarity si la personne
+// avait déjà accepté lors d'une visite précédente (les scripts ne persistent
+// pas d'une page à l'autre, contrairement au choix stocké en localStorage).
 export function initAnalyticsIfConsented() {
-  if (getConsentStatus() === 'granted') loadGaScript();
+  if (getConsentStatus() === 'granted') loadAnalyticsScripts();
 }
 
 export function trackEvent(eventName: string, params?: Record<string, unknown>) {

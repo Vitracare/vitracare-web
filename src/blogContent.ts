@@ -173,6 +173,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Quel film pour ce résultat ?',
+          paragraphs: [
+            "C'est la teinte solaire qui est visée par ces économies : elle reste transparente dans les deux sens tout en réduisant la chaleur, contrairement au film effet miroir qui joue avant tout sur l'intimité. Notre [article dédié à ce film](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement, et notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
+          ],
+        },
+        {
           heading: 'Sources',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique](https://www.osti.gov/servlets/purl/1089147)',
@@ -260,6 +266,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Pour aller plus loin',
+          paragraphs: [
+            "Pour comparer plus en détail le film effet miroir et le film blanc mat évoqués ici, notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) détaille les 4 teintes disponibles avec un tableau comparatif. Le film effet miroir a aussi un bénéfice supplémentaire : il réduit la chaleur et protège contre les UV, comme on l'explique dans notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles). Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
+          ],
+        },
+        {
           heading: 'Vous hésitez encore ?',
           paragraphs: [
             "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
@@ -332,6 +344,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Quel film choisir dans ce cas ?',
+          paragraphs: [
+            "Si le film vous intéresse, encore faut-il choisir la bonne teinte selon votre besoin réel — chaleur, intimité ou sécurité. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, et notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille comment le devis est calculé selon la surface et le type de film.",
+          ],
+        },
+        {
           heading: 'Sources',
           paragraphs: [
             '[Comparatif film solaire vs vitrage à contrôle solaire — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
@@ -398,6 +416,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Un renforcement, pas un remplacement de votre sécurité',
           paragraphs: [
             "Le film de sécurité est un complément à vos dispositifs existants — serrures, alarme, éclairage extérieur — pas un substitut. Il agit sur un point précis : le temps et le bruit nécessaires pour franchir un vitrage, ce qui décourage une grande partie des tentatives d'effraction opportunistes.",
+          ],
+        },
+        {
+          heading: 'Pour aller plus loin',
+          paragraphs: [
+            "Le film de sécurité est l'une des 4 teintes présentées dans notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages), aux côtés des films solaire, miroir et blanc mat. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé selon la surface et le type de film.",
           ],
         },
         {
@@ -472,6 +496,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Pour aller plus loin',
+          paragraphs: [
+            "Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, dont la solaire et le miroir évoqués ici. Si l'intimité est aussi un enjeu chez vous, notre [article dédié au vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) détaille les solutions, et notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) revient plus en détail sur ce bénéfice secondaire.",
+          ],
+        },
+        {
           heading: 'Vous hésitez encore ?',
           paragraphs: [
             "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
@@ -538,6 +568,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: "Notre zone d'intervention",
           paragraphs: [
             "Nous intervenons dans toute la Région de Bruxelles-Capitale et ses environs (Brabant wallon et flamand). Pour les chantiers de taille suffisante, nous nous déplaçons également ailleurs en Belgique — Charleroi, Anvers, Gand notamment. N'hésitez pas à nous soumettre votre projet, où qu'il se situe.",
+          ],
+        },
+        {
+          heading: 'Pour aller plus loin',
+          paragraphs: [
+            "Pour choisir le film adapté à votre besoin avant de demander un devis, notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Le film peut aussi représenter une économie sur la durée : notre [article sur les économies d'énergie](/blog/film-vitrage-economies-climatisation) détaille l'impact sur la climatisation en été.",
           ],
         },
         {
@@ -803,6 +839,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Welke folie voor dit resultaat?',
+          paragraphs: [
+            "Het is de zonwerende folie die voor deze besparingen zorgt: ze blijft in beide richtingen transparant terwijl ze de warmte vermindert, in tegenstelling tot de spiegeleffect folie die vooral op privacy inzet. Ons [artikel over deze folie](/blog/film-solaire-vitrage-bruxelles) legt de werking in detail uit, en onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt.",
+          ],
+        },
+        {
           heading: 'Bronnen',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies](https://www.osti.gov/servlets/purl/1089147)',
@@ -889,6 +931,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Meer weten',
+          paragraphs: [
+            "Om de spiegeleffectfolie en de matwitte folie hierboven meer in detail te vergelijken, behandelt onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) de 4 beschikbare tinten met een vergelijkingstabel. Spiegeleffectfolie heeft ook een extra voordeel: ze vermindert de warmte en beschermt tegen UV, zoals uitgelegd in ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles). Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt.",
+          ],
+        },
+        {
           heading: 'Twijfelt u nog?',
           paragraphs: [
             'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
@@ -961,6 +1009,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Welke folie kiezen in dat geval?',
+          paragraphs: [
+            "Als de folie u aanspreekt, moet u nog de juiste tint kiezen op basis van uw echte behoefte — warmte, privacy of veiligheid. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, en ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de offerte berekend wordt op basis van oppervlakte en type folie.",
+          ],
+        },
+        {
           heading: 'Bronnen',
           paragraphs: [
             '[Vergelijking zonnefolie vs zonwerende beglazing — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
@@ -1027,6 +1081,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Een versterking, geen vervanging van uw beveiliging',
           paragraphs: [
             'Beveiligingsfolie is een aanvulling op uw bestaande voorzieningen — sloten, alarm, buitenverlichting — geen vervanging. Ze werkt op één specifiek punt: de tijd en het lawaai die nodig zijn om door een raam te geraken, wat een groot deel van opportunistische inbraakpogingen ontmoedigt.',
+          ],
+        },
+        {
+          heading: 'Meer weten',
+          paragraphs: [
+            "Beveiligingsfolie is een van de 4 tinten uit onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages), naast zonwerende, spiegeleffect- en matwitte folie. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt op basis van oppervlakte en type folie.",
           ],
         },
         {
@@ -1101,6 +1161,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Meer weten',
+          paragraphs: [
+            "Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, waaronder de zonwerende en spiegelfolie hierboven. Speelt privacy bij u ook mee, dan behandelt ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) de oplossingen, en ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) gaat dieper in op dat bijkomende voordeel.",
+          ],
+        },
+        {
           heading: 'Nog twijfels?',
           paragraphs: [
             'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
@@ -1167,6 +1233,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Ons werkgebied',
           paragraphs: [
             'Wij zijn actief in het volledige Brussels Hoofdstedelijk Gewest en omstreken (Waals- en Vlaams-Brabant). Voor werven van voldoende omvang verplaatsen we ons ook elders in België — onder meer Charleroi, Antwerpen en Gent. Aarzel niet om ons uw project voor te leggen, waar het zich ook bevindt.',
+          ],
+        },
+        {
+          heading: 'Meer weten',
+          paragraphs: [
+            "Om de juiste folie te kiezen voordat u een offerte aanvraagt, vergelijkt onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) de 4 beschikbare tinten. De folie kan op termijn ook een besparing opleveren: ons [artikel over energiebesparing](/blog/film-vitrage-economies-climatisation) legt de impact op de airconditioning in de zomer uit.",
           ],
         },
         {
@@ -1432,6 +1504,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Which film for this result?',
+          paragraphs: [
+            "It's the solar tint that delivers these savings: it stays transparent in both directions while reducing heat, unlike mirror-effect film, which is mainly about privacy. Our [dedicated article on this film](/blog/film-solaire-vitrage-bruxelles) explains how it works, and our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated.",
+          ],
+        },
+        {
           heading: 'Sources',
           paragraphs: [
             '[U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films](https://www.osti.gov/servlets/purl/1089147)',
@@ -1518,6 +1596,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Learn more',
+          paragraphs: [
+            "To compare mirror effect film and matte white film in more detail, our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) covers the 4 available tints with a comparison table. Mirror effect film also has an added benefit: it reduces heat and protects against UV, as explained in our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles). For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated.",
+          ],
+        },
+        {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your situation and reply within 24 hours.",
@@ -1590,6 +1674,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Which film to choose in that case?',
+          paragraphs: [
+            "If film sounds like the right fit, you still need to pick the right tint for your actual need — heat, privacy, or security. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, and our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type.",
+          ],
+        },
+        {
           heading: 'Sources',
           paragraphs: [
             '[Solar film vs solar control glass comparison — Batimaz](https://batimaz.fr/film-solaire-vs-verre-controle-solaire-cout-performance-reversibilite/)',
@@ -1656,6 +1746,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'A reinforcement, not a replacement for your security',
           paragraphs: [
             "Security film complements your existing measures — locks, alarm, outdoor lighting — it doesn't replace them. It acts on one specific point: the time and noise needed to get through a window, which discourages a large share of opportunistic break-in attempts.",
+          ],
+        },
+        {
+          heading: 'Learn more',
+          paragraphs: [
+            "Security film is one of the 4 tints covered in our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages), alongside solar, mirror effect, and matte white film. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type.",
           ],
         },
         {
@@ -1730,6 +1826,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Learn more',
+          paragraphs: [
+            "Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, including the solar and mirror effect films mentioned here. If privacy also matters to you, our [dedicated article on privacy](/blog/intimite-vis-a-vis-film-vitrage) covers the solutions, and our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) goes further into that secondary benefit.",
+          ],
+        },
+        {
           heading: 'Still unsure?',
           paragraphs: [
             "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
@@ -1796,6 +1898,12 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Our service area',
           paragraphs: [
             'We work throughout the Brussels-Capital Region and its surroundings (Walloon and Flemish Brabant). For sufficiently large projects, we also travel elsewhere in Belgium — including Charleroi, Antwerp and Ghent. Feel free to submit your project regardless of location.',
+          ],
+        },
+        {
+          heading: 'Learn more',
+          paragraphs: [
+            "To pick the right film before requesting a quote, our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints. Film can also pay for itself over time: our [article on energy savings](/blog/film-vitrage-economies-climatisation) explains the impact on summer air conditioning.",
           ],
         },
         {

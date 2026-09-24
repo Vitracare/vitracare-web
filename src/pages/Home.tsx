@@ -630,18 +630,28 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row gap-16 lg:gap-8 items-center lg:items-start">
             {/* Left: Photo Collage */}
-            <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-4 h-[550px] relative">
-              {/* Top Row */}
-              <div className="flex w-full h-[42%] gap-4 items-end">
-                <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
+            <div className="w-full lg:w-1/2 hidden md:flex flex-col gap-6">
+              <div className="relative h-[550px] flex flex-col gap-4 w-full">
+                {/* Top Row */}
+                <div className="flex w-full h-[42%] gap-4 items-end">
+                  <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
+                </div>
+                {/* Bottom Row */}
+                <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
+                  <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
+                </div>
               </div>
-              {/* Bottom Row */}
-              <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
-                <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
-              </div>
+              {/* Desktop/tablet-landscape only — the mobile equivalent sits with the
+                  testimonials below, since this whole column is hidden under md. */}
+              <Link
+                to="/realisations"
+                className="inline-block self-start shrink-0 whitespace-nowrap text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+              >
+                {t.reviews.more}
+              </Link>
             </div>
 
             {/* Right: Testimonials */}
@@ -679,13 +689,17 @@ export default function Home() {
               </div>
               <p className="text-center text-[12px] text-gray-400 mt-3 lg:hidden">{t.reviews.swipeHint}</p>
 
-              <div className="mt-8 lg:mt-12 flex flex-col lg:flex-row items-center lg:justify-between gap-4 w-full">
-                <Link
-                  to="/realisations"
-                  className="inline-block shrink-0 whitespace-nowrap text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
-                >
-                  {t.reviews.more}
-                </Link>
+              {/* Mobile/small-tablet only — on md and up, this same button moves under
+                  the photo collage on the left (see above), since that column is
+                  hidden below md. */}
+              <Link
+                to="/realisations"
+                className="md:hidden inline-block self-center shrink-0 whitespace-nowrap mt-8 text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+              >
+                {t.reviews.more}
+              </Link>
+
+              <div className="mt-8 lg:mt-12 flex flex-col items-center lg:items-start gap-4 w-full">
                 {/* Real Google Business Profile + Trustpilot links, side by side — no
                     customer names or review text reproduced here, only links to the
                     real, independently verifiable listings. */}

@@ -169,6 +169,7 @@ export const translations = {
       offerSubtitle: 'Normalement facturé 50€, actuellement offert. On se déplace, on prend les mesures, vous recevez un devis précis.',
       whatsapp: 'Discuter sur WhatsApp',
       offerCta: "Voir l'offre",
+      devisCta: 'Demander un devis',
     },
     cookies: {
       text: "Nous utilisons des cookies de mesure d'audience pour comprendre comment vous utilisez le site et l'améliorer. Ils ne sont déposés qu'avec votre accord.",
@@ -377,6 +378,7 @@ export const translations = {
       offerSubtitle: 'Normaal 50€, momenteel gratis. Wij komen langs, meten op, en u ontvangt een nauwkeurige offerte.',
       whatsapp: 'Chat via WhatsApp',
       offerCta: 'Bekijk de aanbieding',
+      devisCta: 'Offerte aanvragen',
     },
     cookies: {
       text: 'We gebruiken analytische cookies om te begrijpen hoe u de site gebruikt en om deze te verbeteren. Ze worden pas geplaatst met uw toestemming.',
@@ -585,6 +587,7 @@ export const translations = {
       offerSubtitle: 'Normally €50, currently free. We come to you, take measurements, and you receive an accurate quote.',
       whatsapp: 'Chat on WhatsApp',
       offerCta: 'View the offer',
+      devisCta: 'Request a quote',
     },
     cookies: {
       text: 'We use analytics cookies to understand how you use the site and to improve it. They are only set with your consent.',

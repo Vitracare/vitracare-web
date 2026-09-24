@@ -679,10 +679,10 @@ export default function Home() {
               </div>
               <p className="text-center text-[12px] text-gray-400 mt-3 lg:hidden">{t.reviews.swipeHint}</p>
 
-              <div className="mt-8 lg:mt-12 flex flex-col items-center lg:items-start gap-4 pl-0 lg:pl-16">
+              <div className="mt-8 lg:mt-12 flex flex-col lg:flex-row items-center lg:justify-between gap-4 w-full">
                 <Link
                   to="/realisations"
-                  className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+                  className="inline-block shrink-0 whitespace-nowrap text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
                 >
                   {t.reviews.more}
                 </Link>

@@ -214,29 +214,41 @@ export default function Home() {
             vertical dark gradient instead of this horizontal white one (there's no
             room on a narrow screen to keep text beside the photo without covering
             almost all of it). */}
-      <img
-        src="/images/hero.jpg"
-        alt=""
-        fetchPriority="high"
-        decoding="async"
-        className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
-      />
+      <picture>
+        <source srcSet="/images/hero.avif" type="image/avif" />
+        <source srcSet="/images/hero.webp" type="image/webp" />
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          width={1672}
+          height={941}
+          fetchPriority="high"
+          decoding="async"
+          className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
+        />
+      </picture>
 
       {/* Same image, blurred, masked to only show on the plain wall between the text
           and the windows — softens that seam without ever touching the windows
           themselves, since the with/without-film comparison has to stay sharp there. */}
-      <img
-        src="/images/hero.jpg"
-        alt=""
-        aria-hidden="true"
-        decoding="async"
-        className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
-        style={{
-          filter: 'blur(18px)',
-          WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
-          maskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
-        }}
-      />
+      <picture>
+        <source srcSet="/images/hero.avif" type="image/avif" />
+        <source srcSet="/images/hero.webp" type="image/webp" />
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          width={1672}
+          height={941}
+          aria-hidden="true"
+          decoding="async"
+          className="hidden md:block absolute inset-0 z-0 w-full h-full object-cover object-center"
+          style={{
+            filter: 'blur(18px)',
+            WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
+            maskImage: 'linear-gradient(90deg, transparent 0%, black 24%, black 42%, transparent 50%)',
+          }}
+        />
+      </picture>
 
       <div
         className="hidden md:block absolute inset-0 z-0"
@@ -253,13 +265,19 @@ export default function Home() {
           readable, then it's fully transparent through the middle (photo stays
           clear), then it darkens toward the bottom where the now-white headline and
           CTA sit, so text stays readable without dimming the photo itself. */}
-      <img
-        src="/images/hero.jpg"
-        alt=""
-        fetchPriority="high"
-        decoding="async"
-        className="md:hidden absolute inset-0 z-0 w-full h-full object-cover object-[62%_center]"
-      />
+      <picture>
+        <source srcSet="/images/hero.avif" type="image/avif" />
+        <source srcSet="/images/hero.webp" type="image/webp" />
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          width={1672}
+          height={941}
+          fetchPriority="high"
+          decoding="async"
+          className="md:hidden absolute inset-0 z-0 w-full h-full object-cover object-[62%_center]"
+        />
+      </picture>
       <div
         className="md:hidden absolute inset-0 z-0"
         style={{
@@ -319,7 +337,7 @@ export default function Home() {
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Yeux.png" alt="Retrouvez votre intimité" className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Yeux.png" alt="Retrouvez votre intimité" width={454} height={277} className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f1_title}
@@ -332,7 +350,7 @@ export default function Home() {
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Securite.png" alt="Protégez votre famille" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Securite.png" alt="Protégez votre famille" width={240} height={270} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f2_title}
@@ -345,7 +363,7 @@ export default function Home() {
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Preserver.png" alt="Préservez vos biens" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Preserver.png" alt="Préservez vos biens" width={307} height={269} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f3_title}
@@ -358,7 +376,7 @@ export default function Home() {
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Temperature.png" alt="Une température maîtrisée" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Temperature.png" alt="Une température maîtrisée" width={144} height={275} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f4_title}
@@ -634,14 +652,14 @@ export default function Home() {
               <div className="relative h-[550px] flex flex-col gap-4 w-full">
                 {/* Top Row */}
                 <div className="flex w-full h-[42%] gap-4 items-end">
-                  <img loading="lazy" src="/images/House-1-final.webp" className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-2.webp" className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/House-1-final.webp" width={1280} height={916} className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-2.webp" width={539} height={800} className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
                 </div>
                 {/* Bottom Row */}
                 <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                  <img loading="lazy" src="/images/Avis-3-final.webp" className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-4.webp" className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-5-final.webp" className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-3-final.webp" width={573} height={800} className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-4.webp" width={523} height={800} className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-5-final.webp" width={769} height={800} className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
                 </div>
               </div>
               {/* Desktop/tablet-landscape only — the mobile equivalent sits with the
@@ -777,7 +795,7 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <img loading="lazy" src="/images/Mesure.png" alt="Mesures sur mesure, fenêtre par fenêtre" className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Mesure.png" alt="Mesures sur mesure, fenêtre par fenêtre" width={140} height={145} className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
               <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
                 {t.strip.f1_title}
               </h3>
@@ -826,7 +844,7 @@ export default function Home() {
       <section className="relative w-full bg-[#FAF9F6] py-14 md:py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
-           <img loading="lazy" src="/images/Bruxelles.webp" className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
+           <img loading="lazy" src="/images/Bruxelles.webp" width={1280} height={721} className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
         </div>
         <div className="relative max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col lg:flex-row items-center justify-between z-10">
 
@@ -880,7 +898,7 @@ export default function Home() {
               className="absolute inset-0 pointer-events-none"
               style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FAF9F6 45%, rgba(250,249,246,0) 85%)' }}
             ></div>
-            <img loading="lazy" src="/bx_transparent.png" alt="Carte de Bruxelles et sa périphérie desservies par VitraCare" className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <img loading="lazy" src="/bx_transparent.png" alt="Carte de Bruxelles et sa périphérie desservies par VitraCare" width={874} height={740} className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
         </div>
       </section>

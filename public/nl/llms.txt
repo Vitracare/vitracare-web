@@ -1,0 +1,36 @@
+# VitraCare
+
+> VitraCare plaatst folie en tint op maat voor beglazing in Brussel en omstreken: privacy (spiegeleffect- of matwitte folie), thermisch comfort (zonwerende folie), UV-bescherming tegen verkleuring, en extra beveiliging (folie tegen inbraak). Gratis offerte aan huis, antwoord binnen 24u.
+
+VitraCare treedt op als commerciële tussenpersoon: het eerste contact, het advies en de offerte worden door VitraCare verzorgd, de plaatsing gebeurt door een zelfstandige medewerker. Actief vanuit Brussel, België. Drietalige site: Frans (standaard), Nederlands (/nl) en Engels (/en).
+
+Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](https://vitracare.be/en/llms.txt)
+
+## Belangrijkste pagina's
+- [Home](https://vitracare.be/nl): Voorstelling van de 4 folies (spiegeleffect, zonwerend, matwit, anti-inbraak), werkgebied, klantenbeoordelingen op Google en Trustpilot.
+- [Gratis offerte](https://vitracare.be/nl/devis): Aanvraag voor een gratis en vrijblijvende offerte, antwoord binnen 24u.
+- [Offerte aan huis](https://vitracare.be/nl/offre): Bezoek aan huis voor opmeting en nauwkeurige offerte — normaal 50€, momenteel gratis.
+- [Onze realisaties](https://vitracare.be/nl/realisations): Echte werven van geplaatste folie en tint in Brussel en omstreken.
+- [Werkgebied](https://vitracare.be/nl/zone-intervention): Brussel en zijn 19 gemeenten, de hele rand, en verder voor grote projecten.
+- [FAQ](https://vitracare.be/nl/faq): Antwoorden over plaatsing, onderhoud, garantie en prijs van de folies.
+- [Contact](https://vitracare.be/nl/contact): Telefoon, WhatsApp, e-mail en contactformulier.
+
+## Blogartikelen
+- [Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?](https://vitracare.be/nl/blog/quel-film-choisir-vitrages): Vergelijkende gids van de 4 folies naargelang de behoefte (volledige privacy, thermisch comfort, of discrete esthetiek).
+- [Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie](https://vitracare.be/nl/blog/protection-uv-film-vitrage-bruxelles): Waarom meubels en vloeren met de tijd verkleuren, en hoe raamfolie duurzaam beschermt, met echte cijfers.
+- [Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?](https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage): Oplossingen tegen inkijk in de stad zonder natuurlijk licht op te offeren.
+- [Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?](https://vitracare.be/nl/blog/film-vitrage-economies-climatisation): Vergelijking tussen zonwerende folie en airconditioning om de hitte te verminderen, met cijfers.
+- [Zonwerende folie voor beglazing in Brussel: minder warmte en verblinding, zonder lichtverlies](https://vitracare.be/nl/blog/film-solaire-vitrage-bruxelles): Werking en voordelen van zonwerende folie voor een zuidgerichte ruimte.
+- [Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?](https://vitracare.be/nl/blog/film-securite-anti-effraction-vitrage): Hoe beveiligingsfolie de weerstand van het glas versterkt en een inbraak vertraagt.
+- [Ramen vervangen of folie op uw beglazing plaatsen: wat kiezen?](https://vitracare.be/nl/blog/remplacer-fenetres-ou-film-vitrage): Eerlijke vergelijking tussen ramen vervangen en folie plaatsen op bestaande beglazing.
+- [Prijs van raamfolie in Brussel: wat mag u verwachten?](https://vitracare.be/nl/blog/prix-pose-film-vitrage-bruxelles): Indicatieve prijsvork naargelang het type folie, de oppervlakte en de toegankelijkheid van de werf.
+
+## Gemeenten met eigen pagina
+- [Ukkel, Linkebeek en Sint-Genesius-Rode](https://vitracare.be/nl/communes/uccle)
+- [Waterloo, Eigenbrakel en Lasne](https://vitracare.be/nl/communes/waterloo)
+- [Vorst](https://vitracare.be/nl/communes/forest)
+
+## Juridische informatie
+- [Wettelijke vermeldingen](https://vitracare.be/nl/mentions-legales)
+- [Privacybeleid](https://vitracare.be/nl/politique-confidentialite)
+- [Algemene voorwaarden](https://vitracare.be/nl/conditions-generales)

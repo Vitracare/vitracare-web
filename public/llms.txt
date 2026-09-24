@@ -4,6 +4,8 @@
 
 VitraCare agit comme intermédiaire commercial : la prise de contact, le conseil et le devis sont assurés par VitraCare, la pose est réalisée par un collaborateur indépendant. Activité basée à Bruxelles, Belgique. Site trilingue : français (par défaut), néerlandais (/nl) et anglais (/en).
 
+Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt) — [English](https://vitracare.be/en/llms.txt)
+
 ## Pages principales
 - [Accueil](https://vitracare.be/): Présentation des 4 films (effet miroir, solaire, blanc mat, anti-effraction), zones d'intervention, avis clients Google et Trustpilot.
 - [Devis gratuit](https://vitracare.be/devis): Demande de devis gratuit et sans engagement, réponse sous 24h.

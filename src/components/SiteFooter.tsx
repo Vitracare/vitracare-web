@@ -54,7 +54,7 @@ export const SiteFooter = () => {
 
       {/* Logo */}
       <div className="flex flex-col items-center">
-        <img loading="lazy" src="/images/Logo.png" alt="Logo" className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+        <img loading="lazy" src="/images/Logo.png" alt="Logo" width={307} height={333} className="h-14 w-auto mb-4 object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
         <div className="text-white text-[12px] md:text-[13px] tracking-[0.4em] font-bold">
           VITRACARE
         </div>

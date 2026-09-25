@@ -157,19 +157,19 @@ const pages = [
     path: '/offre',
     meta: {
       FR: {
-        title: 'Devis gratuit à domicile — VitraCare',
+        title: 'Devis gratuit à domicile à Bruxelles — VitraCare',
         description:
-          'Nous nous déplaçons gratuitement chez vous pour prendre les mesures et vous établir un devis précis — normalement facturé 50€, actuellement offert.',
+          'Nous nous déplaçons gratuitement chez vous à Bruxelles pour prendre les mesures et vous établir un devis précis — en dehors de Bruxelles, 50€ de frais de déplacement sont demandés.',
       },
       NL: {
-        title: 'Gratis offerte aan huis — VitraCare',
+        title: 'Gratis offerte aan huis in Brussel — VitraCare',
         description:
-          'Wij komen gratis bij u langs om op te meten en een nauwkeurige offerte op te stellen — normaal 50€, momenteel gratis.',
+          'Wij komen gratis bij u langs in Brussel om op te meten en een nauwkeurige offerte op te stellen — buiten Brussel rekenen we 50€ verplaatsingskost.',
       },
       EN: {
-        title: 'Free Home Quote — VitraCare',
+        title: 'Free Home Quote in Brussels — VitraCare',
         description:
-          'We come to you free of charge to take measurements and prepare an accurate quote — normally €50, currently free.',
+          'We come to you free of charge in Brussels to take measurements and prepare an accurate quote — outside Brussels, a €50 travel fee applies.',
       },
     },
   },

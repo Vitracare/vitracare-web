@@ -98,13 +98,6 @@ const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: 
 
 export default function Home() {
   const { t, lang } = useLanguage();
-  // Only 3 of the marquee's communes have a dedicated page today; the rest link to
-  // /zone-intervention instead (see the marquee render below).
-  const communeSlugByLabel: Record<string, string> = {
-    FR: { Uccle: 'uccle', Forest: 'forest', Waterloo: 'waterloo' },
-    NL: { Ukkel: 'uccle', Vorst: 'forest', Waterloo: 'waterloo' },
-    EN: { Uccle: 'uccle', Forest: 'forest', Waterloo: 'waterloo' },
-  }[lang];
 
   const brandColor = '#BA9765';
   const headingColor = '#464646';
@@ -867,24 +860,20 @@ export default function Home() {
               <div className="flex md:grid md:grid-cols-4 gap-3 md:gap-x-4 md:gap-y-10 animate-marquee">
                 {[...t.map.locations, ...t.map.locations].map((city, idx) => {
                   const itemClass = `shrink-0 md:shrink flex items-center justify-center text-center min-w-[108px] max-w-[108px] md:min-w-0 md:max-w-none py-5 px-2 md:p-0 font-bold text-[17px] md:text-[16px] leading-tight ${idx >= t.map.locations.length ? 'md:hidden' : ''}`;
-                  // Communes with a dedicated page (Uccle, Waterloo, Forest) link there;
-                  // every other item — the other real communes and "et partout autour" —
-                  // links to the /zone-intervention page, which lists the full coverage
-                  // area (all 19 Brussels communes, périphérie, and the bigger cities we
-                  // travel to for large projects) instead of a 404 or dead text.
-                  const slug = communeSlugByLabel[city];
-                  const to = slug ? `/communes/${slug}` : '/zone-intervention';
+                  // Plain text, not links: clicking through to a commune page (or the
+                  // generic /zone-intervention) only pulls visitors away from the
+                  // homepage funnel without telling them anything "Bruxelles et
+                  // périphérie" hasn't already. The commune pages themselves stay live
+                  // and indexed for SEO — just no longer linked from this list.
                   return (
-                    <Link
+                    <span
                       key={idx}
-                      to={to}
-                      className={`${itemClass} underline decoration-2 underline-offset-4 hover:opacity-70 transition-opacity`}
+                      className={itemClass}
                       style={{ color: brandColor, whiteSpace: 'pre-line' }}
                       aria-hidden={idx >= t.map.locations.length}
-                      tabIndex={idx >= t.map.locations.length ? -1 : undefined}
                     >
                       {city}
-                    </Link>
+                    </span>
                   );
                 })}
               </div>

@@ -157,19 +157,19 @@ const pages = [
     path: '/offre',
     meta: {
       FR: {
-        title: 'Devis gratuit à domicile à Bruxelles — VitraCare',
+        title: 'Prise de mesures gratuite à domicile à Bruxelles — VitraCare',
         description:
-          "Le devis est toujours gratuit. À Bruxelles, nous nous déplaçons aussi gratuitement chez vous pour prendre les mesures — en dehors, le déplacement coûte 50€, mais le devis reste gratuit si vous nous envoyez vos propres mesures.",
+          "Demander un devis est toujours gratuit, où que vous soyez. À Bruxelles, nous nous déplaçons en plus gratuitement chez vous pour prendre les mesures — en dehors, ce déplacement coûte 50€, mais le devis reste gratuit si vous nous envoyez vos propres mesures.",
       },
       NL: {
-        title: 'Gratis offerte aan huis in Brussel — VitraCare',
+        title: 'Gratis opmeting aan huis in Brussel — VitraCare',
         description:
-          'De offerte is altijd gratis. In Brussel komen we ook gratis bij u langs om op te meten — daarbuiten kost de verplaatsing 50€, maar de offerte blijft gratis als u ons zelf uw afmetingen bezorgt.',
+          'Een offerte aanvragen is altijd gratis, waar u ook bent. In Brussel komen we bovendien gratis bij u langs om zelf op te meten — daarbuiten kost deze verplaatsing 50€, maar de offerte blijft gratis als u ons zelf uw afmetingen bezorgt.',
       },
       EN: {
-        title: 'Free Home Quote in Brussels — VitraCare',
+        title: 'Free Home Measurement Visit in Brussels — VitraCare',
         description:
-          "The quote is always free. In Brussels, we also visit you free of charge to take measurements — outside Brussels, the visit costs €50, but the quote itself stays free if you send us your own measurements.",
+          "Requesting a quote is always free, wherever you are. In Brussels, we also come to you free of charge to take the measurements — outside Brussels, this visit costs €50, but the quote itself stays free if you send us your own measurements.",
       },
     },
   },

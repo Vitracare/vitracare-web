@@ -159,17 +159,17 @@ const pages = [
       FR: {
         title: 'Devis gratuit à domicile à Bruxelles — VitraCare',
         description:
-          'Nous nous déplaçons gratuitement chez vous à Bruxelles pour prendre les mesures et vous établir un devis précis — en dehors de Bruxelles, 50€ de frais de déplacement sont demandés.',
+          "Le devis est toujours gratuit. À Bruxelles, nous nous déplaçons aussi gratuitement chez vous pour prendre les mesures — en dehors, le déplacement coûte 50€, mais le devis reste gratuit si vous nous envoyez vos propres mesures.",
       },
       NL: {
         title: 'Gratis offerte aan huis in Brussel — VitraCare',
         description:
-          'Wij komen gratis bij u langs in Brussel om op te meten en een nauwkeurige offerte op te stellen — buiten Brussel rekenen we 50€ verplaatsingskost.',
+          'De offerte is altijd gratis. In Brussel komen we ook gratis bij u langs om op te meten — daarbuiten kost de verplaatsing 50€, maar de offerte blijft gratis als u ons zelf uw afmetingen bezorgt.',
       },
       EN: {
         title: 'Free Home Quote in Brussels — VitraCare',
         description:
-          'We come to you free of charge in Brussels to take measurements and prepare an accurate quote — outside Brussels, a €50 travel fee applies.',
+          "The quote is always free. In Brussels, we also visit you free of charge to take measurements — outside Brussels, the visit costs €50, but the quote itself stays free if you send us your own measurements.",
       },
     },
   },

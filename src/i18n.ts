@@ -165,8 +165,8 @@ export const translations = {
     },
     popup: {
       eyebrow: 'Offre actuelle',
-      offerTitle: 'Prise de mesures gratuite à domicile à Bruxelles',
-      offerSubtitle: "Demander un devis est toujours gratuit, où que vous soyez. À Bruxelles, on se déplace en plus gratuitement pour prendre les mesures nous-mêmes. En dehors, ce déplacement coûte 50€ — vous pouvez sinon nous envoyer vos propres mesures pour un devis gratuit.",
+      offerTitle: 'Prise de mesures gratuite à Bruxelles',
+      offerSubtitle: 'On se déplace chez vous pour prendre les mesures, gratuitement à Bruxelles.',
       whatsapp: 'Discuter sur WhatsApp',
       offerCta: "Voir l'offre",
       devisCta: 'Demander un devis',
@@ -374,8 +374,8 @@ export const translations = {
     },
     popup: {
       eyebrow: 'Huidige aanbieding',
-      offerTitle: 'Gratis opmeting aan huis in Brussel',
-      offerSubtitle: 'Een offerte aanvragen is altijd gratis, waar u ook bent. In Brussel komen we bovendien gratis bij u langs om zelf op te meten. Daarbuiten kost deze verplaatsing 50€ — u kan ons ook zelf uw afmetingen bezorgen voor een gratis offerte.',
+      offerTitle: 'Gratis opmeting in Brussel',
+      offerSubtitle: 'We komen bij u langs om op te meten, gratis in Brussel.',
       whatsapp: 'Chat via WhatsApp',
       offerCta: 'Bekijk de aanbieding',
       devisCta: 'Offerte aanvragen',
@@ -583,8 +583,8 @@ export const translations = {
     },
     popup: {
       eyebrow: 'Current offer',
-      offerTitle: 'Free Home Measurement Visit in Brussels',
-      offerSubtitle: 'Requesting a quote is always free, wherever you are. In Brussels, we also come to you free of charge to take the measurements ourselves. Outside Brussels, this visit costs €50 — or you can send us your own measurements for a free quote.',
+      offerTitle: 'Free Measurement Visit in Brussels',
+      offerSubtitle: 'We come to you to take measurements, free of charge in Brussels.',
       whatsapp: 'Chat on WhatsApp',
       offerCta: 'View the offer',
       devisCta: 'Request a quote',

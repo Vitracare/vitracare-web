@@ -101,7 +101,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Pose et durée de vie',
           paragraphs: [
             "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences) — ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
-            "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement.",
+            "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Pour savoir comment se déroule concrètement un projet, de la demande de devis à la pose, consultez notre [article dédié aux étapes](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement. Pendant le mois qui suit la pose, évitez également de nettoyer ou de toucher la vitre : c'est le temps nécessaire au film pour adhérer complètement. De petites bulles d'air éventuellement visibles au début disparaissent d'elles-mêmes durant cette période, la chaleur et le soleil aidant le film à se fixer définitivement.",
             "Un petit avantage indirect de la pose : la vitre est nettoyée avant l'application du film, ce qui laisse cette face impeccable une fois le chantier terminé.",
           ],
@@ -691,6 +691,99 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'etapes-projet-film-vitrage-bruxelles',
+      title: "Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?",
+      metaTitle: "Comment se passe la pose d'un film pour vitrage ? — VitraCare",
+      metaDescription:
+        "De la prise de mesures au jour de la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
+      date: '2026-09-27',
+      excerpt:
+        "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? Voici, étape par étape, comment se déroule un projet de film pour vitrage, de la première prise de contact à la pose.",
+      sections: [
+        {
+          paragraphs: [
+            "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? C'est une question qu'on nous pose souvent — et c'est normal, la plupart des gens n'ont jamais fait poser de film pour vitrage. La bonne nouvelle : le processus est simple, et dans la majorité des cas, un seul film répond à deux besoins à la fois — l'intimité et la chaleur. Voici, étape par étape, comment se déroule un projet avec VitraCare, de la première prise de contact à la pose.",
+          ],
+        },
+        {
+          heading: 'Étape 1 : la prise de mesures',
+          paragraphs: [
+            "Tout commence par les mesures de vos fenêtres. Deux possibilités : vous nous envoyez vous-même les dimensions de chaque vitrage, ou nous venons les prendre directement chez vous. Ce déplacement est gratuit à Bruxelles ; en dehors, il est facturé 50€. Vous trouverez tous les détails sur notre [page dédiée à la prise de mesures](/offre).",
+          ],
+        },
+        {
+          heading: 'Étape 2 : le devis',
+          paragraphs: [
+            "Sur base de ces mesures, nous établissons un devis détaillé, gratuit et sans engagement — quelle que soit la formule choisie à l'étape précédente. Le prix dépend du type de film, de la surface totale et de l'accessibilité des vitrages ; notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique le calcul en détail. Vous pouvez ensuite [demander votre devis](/devis) directement en ligne.",
+          ],
+        },
+        {
+          heading: 'Étape 3 : le choix du film',
+          paragraphs: [
+            "C'est aussi à ce moment que vous choisissez le film adapté à votre besoin. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, mais un cas revient très souvent : le film effet miroir, qui répond à deux besoins en une seule pose — il empêche la vue depuis l'extérieur en journée (voir notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage)) tout en réduisant la chaleur et les UV qui entrent par vos fenêtres (voir notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles)). C'est souvent la solution la plus rentable quand les deux besoins se posent en même temps.",
+          ],
+        },
+        {
+          heading: 'Étape 4 : le rendez-vous et la pose',
+          paragraphs: [
+            "Une fois le film choisi et le devis accepté, nous fixons un rendez-vous pour la pose. L'intervention se fait en une seule visite, sans gros œuvre : le film est appliqué directement sur la face intérieure du vitrage, sans toucher au châssis ni à la fenêtre elle-même. Il n'abîme donc pas vos fenêtres, et reste entièrement réversible si vous changez d'avis plus tard. La durée de l'intervention dépend du nombre et de la taille de vos vitrages — nous vous donnons une estimation précise au moment du devis. La pose elle-même est garantie 2 ans par notre équipe technique.",
+          ],
+        },
+        {
+          heading: 'Après la pose : durée de vie et entretien',
+          paragraphs: [
+            "Une fois posé, le film a une durée de vie estimée à 10 à 15 ans. Le seul point de vigilance concerne le premier mois : évitez de nettoyer ou de toucher la vitre pendant cette période, le temps que le film adhère complètement — d'éventuelles petites bulles d'air disparaissent d'elles-mêmes. Ensuite, un nettoyage à l'eau et au savon doux suffit ; notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) détaille tous les conseils d'entretien.",
+          ],
+        },
+        {
+          heading: "Notre zone d'intervention",
+          paragraphs: [
+            "Nous intervenons dans toute la Région de Bruxelles-Capitale et sa périphérie, et au-delà pour les chantiers de taille suffisante. Retrouvez le détail complet sur notre [page zone d'intervention](/zone-intervention).",
+          ],
+        },
+        {
+          heading: 'Nos clients en parlent',
+          paragraphs: [
+            "Nos clients partagent leur expérience sur [Google](https://share.google/c3Bih4FWySHUhjkAZ) et [Trustpilot](https://fr-be.trustpilot.com/review/vitracare.be) — n'hésitez pas à y jeter un œil avant de vous lancer.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — Benefits of Window Film](https://iwfa.com/benefits-of-window-film/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Combien de temps dure une intervention ?',
+          answer: "Ça dépend du nombre et de la taille de vos vitrages. Nous vous donnons une estimation précise dès le devis, pour que vous puissiez organiser votre journée en conséquence.",
+        },
+        {
+          question: 'Le film abîme-t-il mes fenêtres ?',
+          answer: "Non. Le film est appliqué directement sur la face intérieure du vitrage, sans toucher au châssis ni modifier la fenêtre elle-même. Il est aussi entièrement réversible si vous souhaitez le retirer plus tard.",
+        },
+        {
+          question: 'Dois-je être présent pendant la pose ?',
+          answer: "Il faut simplement nous donner accès à votre domicile le jour convenu. Beaucoup de nos clients profitent de ce moment pour poser leurs dernières questions directement à notre équipe technique.",
+        },
+        {
+          question: "Que se passe-t-il si je n'ai pas mes propres mesures précises ?",
+          answer: "Pas de souci : c'est justement à ça que sert la visite à domicile. Nous prenons les mesures nous-mêmes, gratuitement à Bruxelles.",
+        },
+        {
+          question: 'Le devis est-il payant ?',
+          answer: "Non, le devis est toujours gratuit, que vous nous envoyiez vos propres mesures ou que nous passions chez vous.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -767,7 +860,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Plaatsing en levensduur',
           paragraphs: [
             "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur) — wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
-            "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend.",
+            "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Om te weten hoe een project concreet verloopt, van offerteaanvraag tot plaatsing, bekijk ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots. Vermijd ook gedurende de maand na de plaatsing om het raam te reinigen of aan te raken: dit is de tijd die de folie nodig heeft om volledig te hechten. Eventuele kleine luchtbelletjes die in het begin zichtbaar zijn, verdwijnen tijdens deze periode vanzelf, doordat warmte en zonlicht de folie helpen definitief te fixeren.",
             "Een bijkomend voordeel van de plaatsing: het raam wordt gereinigd vóór het aanbrengen van de folie, waardoor deze zijde na afloop van de werken perfect proper is.",
           ],
@@ -1356,6 +1449,99 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'etapes-projet-film-vitrage-bruxelles',
+      title: 'Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?',
+      metaTitle: 'Hoe verloopt de plaatsing van raamfolie? — VitraCare',
+      metaDescription:
+        'Van opmeting tot plaatsing: ontdek alle stappen van een raamfolieproject in Brussel, en wat u moet weten voordat u start.',
+      date: '2026-09-27',
+      excerpt:
+        'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Hier is, stap voor stap, hoe een raamfolieproject verloopt, van het eerste contact tot de plaatsing.',
+      sections: [
+        {
+          paragraphs: [
+            'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Een vraag die we vaak horen — normaal, want de meeste mensen hebben nog nooit raamfolie laten plaatsen. Het goede nieuws: het proces is eenvoudig, en in de meeste gevallen beantwoordt één folie meteen aan twee behoeften — privacy én warmte. Hier is, stap voor stap, hoe een project bij VitraCare verloopt, van het eerste contact tot de plaatsing.',
+          ],
+        },
+        {
+          heading: 'Stap 1: de opmeting',
+          paragraphs: [
+            'Alles begint met de afmetingen van uw ramen. Twee mogelijkheden: u bezorgt ons zelf de afmetingen van elke beglazing, of wij komen ze zelf opmeten bij u thuis. Deze verplaatsing is gratis in Brussel; daarbuiten kost ze 50€. Alle details vindt u op onze [pagina over de opmeting](/offre).',
+          ],
+        },
+        {
+          heading: 'Stap 2: de offerte',
+          paragraphs: [
+            'Op basis van deze afmetingen stellen we een gedetailleerde offerte op, gratis en vrijblijvend — welke formule u ook koos in de vorige stap. De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de beglazing; ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt de berekening in detail uit. Daarna kan u meteen [uw offerte aanvragen](/devis) online.',
+          ],
+        },
+        {
+          heading: 'Stap 3: de keuze van de folie',
+          paragraphs: [
+            'Dit is ook het moment om de juiste folie te kiezen. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, maar één geval komt heel vaak terug: de spiegeleffectfolie, die twee behoeften in één plaatsing beantwoordt — ze blokkeert het zicht van buitenaf overdag (zie ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage)) en vermindert tegelijk de warmte en UV-stralen die via uw ramen binnenkomen (zie ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles)). Dit is vaak de meest rendabele oplossing wanneer beide behoeften samen spelen.',
+          ],
+        },
+        {
+          heading: 'Stap 4: de afspraak en de plaatsing',
+          paragraphs: [
+            'Zodra de folie gekozen is en de offerte aanvaard, plannen we een afspraak voor de plaatsing. De interventie gebeurt in één enkel bezoek, zonder zware werken: de folie wordt rechtstreeks op de binnenzijde van de beglazing aangebracht, zonder het raamkader of het raam zelf aan te raken. Ze beschadigt uw ramen dus niet, en blijft volledig omkeerbaar mocht u later van gedacht veranderen. De duur van de interventie hangt af van het aantal en de grootte van uw beglazing — we geven u een precieze inschatting bij de offerte. De plaatsing zelf is 2 jaar gewaarborgd door ons technisch team.',
+          ],
+        },
+        {
+          heading: 'Na de plaatsing: levensduur en onderhoud',
+          paragraphs: [
+            'Eenmaal geplaatst heeft de folie een geschatte levensduur van 10 tot 15 jaar. Het enige aandachtspunt is de eerste maand: vermijd het raam te kuisen of aan te raken tijdens deze periode, de tijd die de folie nodig heeft om volledig te hechten — eventuele kleine luchtbelletjes verdwijnen vanzelf. Daarna volstaat kuisen met water en een milde zeep; onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) geeft alle onderhoudstips.',
+          ],
+        },
+        {
+          heading: 'Ons werkgebied',
+          paragraphs: [
+            'We zijn actief in het volledige Brussels Hoofdstedelijk Gewest en omstreken, en verder voor voldoende grote werven. Het volledige overzicht vindt u op onze [pagina werkgebied](/zone-intervention).',
+          ],
+        },
+        {
+          heading: 'Onze klanten getuigen',
+          paragraphs: [
+            'Onze klanten delen hun ervaring op [Google](https://share.google/c3Bih4FWySHUhjkAZ) en [Trustpilot](https://nl-be.trustpilot.com/review/vitracare.be) — aarzel niet om even te kijken voor u start.',
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[International Window Film Association — Benefits of Window Film](https://iwfa.com/benefits-of-window-film/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw project en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Hoe lang duurt een interventie?',
+          answer: 'Dat hangt af van het aantal en de grootte van uw beglazing. We geven u een precieze inschatting bij de offerte, zodat u uw dag kan plannen.',
+        },
+        {
+          question: 'Beschadigt de folie mijn ramen?',
+          answer: 'Nee. De folie wordt rechtstreeks op de binnenzijde van de beglazing aangebracht, zonder het raamkader of het raam zelf te wijzigen. Ze is ook volledig omkeerbaar als u ze later wil verwijderen.',
+        },
+        {
+          question: 'Moet ik aanwezig zijn tijdens de plaatsing?',
+          answer: 'U moet ons gewoon toegang geven tot uw woning op de afgesproken dag. Veel klanten maken van dit moment gebruik om hun laatste vragen rechtstreeks aan ons technisch team te stellen.',
+        },
+        {
+          question: 'Wat als ik geen precieze eigen afmetingen heb?',
+          answer: 'Geen probleem: daar dient net het bezoek aan huis voor. Wij nemen de afmetingen zelf, gratis in Brussel.',
+        },
+        {
+          question: 'Is de offerte betalend?',
+          answer: 'Nee, de offerte is altijd gratis, of u ons nu zelf uw afmetingen bezorgt of wij bij u langskomen.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -1432,7 +1618,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Installation and lifespan',
           paragraphs: [
             "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference) — which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
-            'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation.',
+            'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation. To see how a project actually unfolds, from quote request to installation, check our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles).',
             "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation — this is the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
             "A small side benefit of the installation: the window is cleaned before the film is applied, leaving that side spotless once the work is done.",
           ],
@@ -2018,6 +2204,99 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does the price change depending on the UV protection level wanted?',
           answer: 'No, our rate depends only on the surface area to be treated, not the intensity or type of film chosen.',
+        },
+      ],
+    },
+    {
+      slug: 'etapes-projet-film-vitrage-bruxelles',
+      title: 'How does window film installation work, from quote request to installation?',
+      metaTitle: 'How Does Window Film Installation Work? — VitraCare',
+      metaDescription:
+        "From measurements to installation day: discover every step of a window film project in Brussels, and what to know before you start.",
+      date: '2026-09-27',
+      excerpt:
+        "Hesitant to request a quote because you're not sure what happens next? Here's, step by step, how a window film project unfolds, from first contact to installation.",
+      sections: [
+        {
+          paragraphs: [
+            "Hesitant to request a quote because you're not sure what to expect next? It's a question we hear often — and it makes sense, since most people have never had window film installed before. The good news: the process is simple, and in most cases, a single film answers two needs at once — privacy and heat. Here's, step by step, how a project with VitraCare unfolds, from first contact to installation.",
+          ],
+        },
+        {
+          heading: 'Step 1: taking measurements',
+          paragraphs: [
+            "Everything starts with your windows' measurements. Two options: you send us the dimensions yourself, or we come and take them ourselves at your home. This visit is free in Brussels; outside Brussels, it costs €50. Full details are on our [measurement visit page](/offre).",
+          ],
+        },
+        {
+          heading: 'Step 2: the quote',
+          paragraphs: [
+            "Based on these measurements, we prepare a detailed quote, free and with no obligation — whichever option you chose in the previous step. The price depends on the type of film, the total surface area, and how accessible the windows are; our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains the calculation in detail. You can then [request your quote](/devis) directly online.",
+          ],
+        },
+        {
+          heading: 'Step 3: choosing the film',
+          paragraphs: [
+            "This is also when you choose the film that suits your needs. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, but one case comes up very often: mirror effect film, which answers two needs in a single installation — it blocks the view from outside during the day (see our [article on privacy](/blog/intimite-vis-a-vis-film-vitrage)) while also reducing the heat and UV entering through your windows (see our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles)). It's often the most cost-effective solution when both needs apply at once.",
+          ],
+        },
+        {
+          heading: 'Step 4: the appointment and installation',
+          paragraphs: [
+            "Once the film is chosen and the quote accepted, we schedule an appointment for installation. The work is done in a single visit, with no heavy renovation: the film is applied directly to the inside face of the glazing, without touching the frame or the window itself. It doesn't damage your windows, and stays fully reversible if you change your mind later. How long it takes depends on the number and size of your windows — we give you a precise estimate with the quote. The installation itself is guaranteed for 2 years by our technical team.",
+          ],
+        },
+        {
+          heading: 'After installation: lifespan and maintenance',
+          paragraphs: [
+            "Once installed, the film has an estimated lifespan of 10 to 15 years. The only thing to watch out for is the first month: avoid cleaning or touching the window during this period, the time the film needs to fully adhere — any small air bubbles disappear on their own. After that, cleaning with water and mild soap is enough; our [guide to choosing your film](/blog/quel-film-choisir-vitrages) covers all the care tips.",
+          ],
+        },
+        {
+          heading: 'Our service area',
+          paragraphs: [
+            "We work throughout the Brussels-Capital Region and its surroundings, and beyond for sufficiently large projects. Find the full coverage area on our [service area page](/zone-intervention).",
+          ],
+        },
+        {
+          heading: 'What our clients say',
+          paragraphs: [
+            "Our clients share their experience on [Google](https://share.google/c3Bih4FWySHUhjkAZ) and [Trustpilot](https://www.trustpilot.com/review/vitracare.be) — feel free to take a look before you get started.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — Benefits of Window Film](https://iwfa.com/benefits-of-window-film/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'How long does an installation take?',
+          answer: "It depends on the number and size of your windows. We give you a precise estimate with the quote, so you can plan your day accordingly.",
+        },
+        {
+          question: 'Does the film damage my windows?',
+          answer: "No. The film is applied directly to the inside face of the glazing, without touching the frame or altering the window itself. It's also fully reversible if you want to remove it later.",
+        },
+        {
+          question: 'Do I need to be present during installation?',
+          answer: "You just need to give us access to your home on the agreed day. Many clients use this moment to ask our technical team any last questions directly.",
+        },
+        {
+          question: "What if I don't have my own precise measurements?",
+          answer: "No problem: that's exactly what the home visit is for. We take the measurements ourselves, free of charge in Brussels.",
+        },
+        {
+          question: 'Is the quote paid?',
+          answer: "No, the quote is always free, whether you send us your own measurements or we come to you.",
         },
       ],
     },

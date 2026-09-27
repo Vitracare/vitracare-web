@@ -428,6 +428,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/etapes-projet-film-vitrage-bruxelles',
+  meta: {
+    FR: {
+      title: "Comment se passe la pose d'un film pour vitrage ? — VitraCare",
+      description:
+        "De la prise de mesures au jour de la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
+      headline: "Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?",
+      datePublished: '2026-09-27',
+      dateModified: '2026-09-27',
+    },
+    NL: {
+      title: 'Hoe verloopt de plaatsing van raamfolie? — VitraCare',
+      description:
+        'Van opmeting tot plaatsing: ontdek alle stappen van een raamfolieproject in Brussel, en wat u moet weten voordat u start.',
+      headline: 'Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?',
+      datePublished: '2026-09-27',
+      dateModified: '2026-09-27',
+    },
+    EN: {
+      title: 'How Does Window Film Installation Work? — VitraCare',
+      description:
+        "From measurements to installation day: discover every step of a window film project in Brussels, and what to know before you start.",
+      headline: 'How does window film installation work, from quote request to installation?',
+      datePublished: '2026-09-27',
+      dateModified: '2026-09-27',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

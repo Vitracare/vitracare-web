@@ -198,6 +198,24 @@ export default function Contact() {
               </button>
             </form>
           </div>
+
+          {/* Google Maps — real embed of VitraCare's own Business Profile listing,
+              not a generic Brussels map. Responsive via aspect-ratio instead of the
+              fixed 600x450 the embed code ships with, so it scales down cleanly on
+              mobile. */}
+          <div className="mt-16">
+            <h2 className="text-[24px] md:text-[28px] font-bold text-center mb-6" style={{ color: '#464646' }}>
+              {t.contactPage.findUs}
+            </h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161414.51330186112!2d4.051205565847836!3d50.79222248612366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ffd9d6c99a32b%3A0x3bc40fa46dd87305!2sVitraCare!5e0!3m2!1sfr!2sbe!4v1790626290887!5m2!1sfr!2sbe"
+              className="w-full aspect-video rounded-2xl border-0"
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              title="VitraCare sur Google Maps"
+            ></iframe>
+          </div>
         </div>
       </div>
 

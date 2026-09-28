@@ -268,7 +268,7 @@ export default function Home() {
           height={941}
           fetchPriority="high"
           decoding="async"
-          className="md:hidden absolute inset-0 z-0 w-full h-full object-cover object-[62%_center]"
+          className="md:hidden absolute inset-0 z-0 w-full h-full object-cover object-[66%_center]"
         />
       </picture>
       <div

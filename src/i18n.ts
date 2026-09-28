@@ -3,7 +3,7 @@ export type Lang = 'FR' | 'NL' | 'EN';
 export const translations = {
   FR: {
     nav: { home: 'Accueil', services: 'Services', pricing: 'Produit', realisations: 'Réalisations', about: 'Avis', contact: 'Contact' },
-    hero: { title1: 'Libérons tout le', title2: 'potentiel de', title3: 'vos Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS', seoPrefix: 'Films et teintes pour vitrages à Bruxelles' },
+    hero: { title1: 'Libérons tout le', title2: 'potentiel de', title3: 'vos Vitrages', subtitle: 'Et gagnez plus en', quote: 'DEVIS', getQuote: 'OBTENIR UN DEVIS', seoPrefix: 'Pose de films et teintes pour vitrages à Bruxelles' },
     words: ['intimité', 'sécurité', 'préservation', 'isolation'],
     features: {
       title: 'La lumière entre, rien d\'autre',
@@ -15,6 +15,17 @@ export const translations = {
       f3_desc: 'Le film filtre jusqu\'à 87 % des rayons UV pour protéger vos sols, vos meubles et vos œuvres de la décoloration, et préserver l\'éclat de votre intérieur.',
       f4_title: 'Une température\nmaîtrisée',
       f4_desc: 'Le film bloque jusqu\'à 80 % de la chaleur solaire infrarouge pour un intérieur plus frais en été, mieux isolé en hiver et confortable toute l\'année.'
+    },
+    pro: {
+      title: 'Un service aussi pensé pour les professionnels',
+      subtitle: "Bureaux, commerces, copropriétés : nos films s'adaptent tout autant aux besoins des entreprises qu'à ceux des particuliers.",
+      item1_title: 'Bureaux',
+      item1_desc: 'Réduisez la chaleur et les reflets sur les écrans, sans devoir fermer les stores toute la journée.',
+      item2_title: 'Commerces & vitrines',
+      item2_desc: 'Protégez votre vitrine et vos produits de la décoloration due aux UV, tout en gardant une devanture transparente et accueillante.',
+      item3_title: 'Copropriétés',
+      item3_desc: "Une solution unique pour plusieurs logements ou parties communes, avec un devis adapté au volume du projet.",
+      cta: 'Demander un devis professionnel',
     },
     protection: {
       title: 'Une protection\ninvisible pour\nvotre maison.',
@@ -213,7 +224,7 @@ export const translations = {
   },
   NL: {
     nav: { home: 'Startpagina', services: 'Diensten', pricing: 'Product', realisations: 'Realisaties', about: 'Beoordelingen', contact: 'Contact' },
-    hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN', seoPrefix: 'Raamfolie en tinten voor beglazing in Brussel' },
+    hero: { title1: 'Ontketen het volledige', title2: 'potentieel van', title3: 'uw beglazing', subtitle: 'En win meer aan', quote: 'OFFERTE', getQuote: 'EEN OFFERTE AANVRAGEN', seoPrefix: 'Plaatsing van raamfolie en tinten voor beglazing in Brussel' },
     words: ['privacy', 'veiligheid', 'behoud', 'isolatie'],
     features: {
       title: 'Het licht komt binnen, verder niets',
@@ -225,6 +236,17 @@ export const translations = {
       f3_desc: 'De folie filtert tot 87% van de UV-stralen om uw vloeren en meubels te beschermen tegen vervaging.',
       f4_title: 'Een beheerste\ntemperatuur',
       f4_desc: 'De folie blokkeert tot 80% van de zonnewarmte voor een koeler interieur in de zomer en beter geïsoleerd in de winter.'
+    },
+    pro: {
+      title: 'Ook gedacht voor professionals',
+      subtitle: 'Kantoren, handelszaken, mede-eigendommen: onze folies zijn even goed aangepast aan de noden van bedrijven als aan die van particulieren.',
+      item1_title: 'Kantoren',
+      item1_desc: 'Verminder warmte en schermreflecties, zonder de rolluiken de hele dag te moeten sluiten.',
+      item2_title: 'Handelszaken & etalages',
+      item2_desc: 'Bescherm uw etalage en producten tegen verkleuring door UV, met een transparante en uitnodigende gevel.',
+      item3_title: 'Mede-eigendommen',
+      item3_desc: 'Eén oplossing voor meerdere woningen of gemeenschappelijke delen, met een offerte aangepast aan de omvang van het project.',
+      cta: 'Offerte voor professionals aanvragen',
     },
     protection: {
       title: 'Een onzichtbare\nbescherming voor\nuw huis.',
@@ -423,7 +445,7 @@ export const translations = {
   },
   EN: {
     nav: { home: 'Home', services: 'Services', pricing: 'Product', realisations: 'Our work', about: 'Reviews', contact: 'Contact' },
-    hero: { title1: 'Unlock the full', title2: 'potential of', title3: 'your Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE', seoPrefix: 'Window films and tints in Brussels' },
+    hero: { title1: 'Unlock the full', title2: 'potential of', title3: 'your Windows', subtitle: 'And gain more', quote: 'QUOTE', getQuote: 'GET A QUOTE', seoPrefix: 'Window film and tint installation in Brussels' },
     words: ['privacy', 'security', 'preservation', 'insulation'],
     features: {
       title: 'Light comes in, nothing else',
@@ -435,6 +457,17 @@ export const translations = {
       f3_desc: 'The film filters up to 87% of UV rays to protect your floors, furniture and artwork from fading.',
       f4_title: 'A controlled\ntemperature',
       f4_desc: 'The film blocks up to 80% of infrared solar heat for a cooler interior in summer and better insulated in winter.'
+    },
+    pro: {
+      title: 'Also designed for businesses',
+      subtitle: 'Offices, shops, co-ownerships: our films fit business needs just as well as residential ones.',
+      item1_title: 'Offices',
+      item1_desc: 'Reduce heat and screen glare, without having to close the blinds all day.',
+      item2_title: 'Shops & storefronts',
+      item2_desc: 'Protect your storefront and products from UV fading, while keeping a transparent, welcoming façade.',
+      item3_title: 'Co-ownerships',
+      item3_desc: 'One solution for multiple units or shared areas, with a quote scaled to the size of the project.',
+      cta: 'Request a business quote',
     },
     protection: {
       title: 'Invisible protection\nfor your\nhome.',

@@ -16,19 +16,19 @@ const pages = [
     path: '/',
     meta: {
       FR: {
-        title: 'VitraCare — Films et teintes pour vitrages à Bruxelles',
+        title: 'VitraCare — Pose de films et teintes pour vitrages à Bruxelles',
         description:
-          "VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
+          "VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie, pour particuliers et professionnels : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
       },
       NL: {
-        title: 'VitraCare — Folies en tinten voor beglazing in Brussel',
+        title: 'VitraCare — Plaatsing van folies en tinten voor beglazing in Brussel',
         description:
-          'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
+          'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving, voor particulieren en professionals: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
       },
       EN: {
-        title: 'VitraCare — Window Films and Tints in Brussels',
+        title: 'VitraCare — Window Film and Tint Installation in Brussels',
         description:
-          'VitraCare installs window films and tints in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
+          'VitraCare installs window films and tints in Brussels and the surrounding area, for homes and businesses: privacy, thermal comfort and UV protection. Free quote within 24h.',
       },
     },
   },

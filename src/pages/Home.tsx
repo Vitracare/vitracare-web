@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { LocalizedLink as Link } from '../components/LocalizedLink';
-import { ShieldCheck, FileBadge, Clock, ChevronDown, Star } from 'lucide-react';
+import { ShieldCheck, FileBadge, Clock, ChevronDown, Star, Building2, Store, Users } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
@@ -624,6 +624,45 @@ export default function Home() {
             className="inline-block text-white px-10 py-4 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
           >
             {t.hero.getQuote}
+          </Link>
+        </div>
+      </section>
+
+      {/* Professionals Section — explicit "pro" audience targeting, matching every
+          competitor analyzed (Glasstech, Solarfilms, ISOfilm, PANO all split their
+          copy between particuliers/professionnels). VitraCare's own copy had zero
+          mention of "professionnel"/"entreprise"/"bureau"/"commerce" before this. */}
+      <section id="professionnels" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-[#FAF9F6]">
+        <h2 className="text-[26px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
+          {t.pro.title}
+        </h2>
+        <p className="text-[14px] md:text-[17px] text-center max-w-2xl mx-auto mb-10 md:mb-16" style={{ color: lightTextColor }}>
+          {t.pro.subtitle}
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="flex flex-col items-center text-center bg-white rounded-2xl p-8">
+            <Building2 size={32} style={{ color: brandColor }} className="mb-4" />
+            <h3 className="text-[17px] font-bold mb-2" style={{ color: headingColor }}>{t.pro.item1_title}</h3>
+            <p className="text-[14px] leading-relaxed" style={{ color: lightTextColor }}>{t.pro.item1_desc}</p>
+          </div>
+          <div className="flex flex-col items-center text-center bg-white rounded-2xl p-8">
+            <Store size={32} style={{ color: brandColor }} className="mb-4" />
+            <h3 className="text-[17px] font-bold mb-2" style={{ color: headingColor }}>{t.pro.item2_title}</h3>
+            <p className="text-[14px] leading-relaxed" style={{ color: lightTextColor }}>{t.pro.item2_desc}</p>
+          </div>
+          <div className="flex flex-col items-center text-center bg-white rounded-2xl p-8">
+            <Users size={32} style={{ color: brandColor }} className="mb-4" />
+            <h3 className="text-[17px] font-bold mb-2" style={{ color: headingColor }}>{t.pro.item3_title}</h3>
+            <p className="text-[14px] leading-relaxed" style={{ color: lightTextColor }}>{t.pro.item3_desc}</p>
+          </div>
+        </div>
+        <div className="text-center mt-10 md:mt-14">
+          <Link
+            to="/devis"
+            className="inline-flex items-center justify-center text-white text-[14px] font-bold px-8 py-3.5 rounded-full tracking-wide transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765]"
+            style={{ backgroundColor: brandColor }}
+          >
+            {t.pro.cta}
           </Link>
         </div>
       </section>

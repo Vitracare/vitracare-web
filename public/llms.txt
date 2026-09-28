@@ -1,6 +1,6 @@
 # VitraCare
 
-> VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et en périphérie : intimité (film effet miroir ou blanc mat), confort thermique (film solaire), protection UV contre la décoloration, et renfort de sécurité (film anti-effraction). Devis gratuit à domicile, réponse sous 24h.
+> VitraCare pose des films et teintes pour vitrages sur mesure à Bruxelles et en périphérie, pour particuliers et professionnels (bureaux, commerces, copropriétés) : intimité (film effet miroir ou blanc mat), confort thermique (film solaire), protection UV contre la décoloration, et renfort de sécurité (film anti-effraction). Devis gratuit, réponse sous 24h.
 
 VitraCare agit comme intermédiaire commercial : la prise de contact, le conseil et le devis sont assurés par VitraCare, la pose est réalisée par un collaborateur indépendant. Activité basée à Bruxelles, Belgique. Site trilingue : français (par défaut), néerlandais (/nl) et anglais (/en).
 
@@ -9,7 +9,7 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 ## Pages principales
 - [Accueil](https://vitracare.be/): Présentation des 4 films (effet miroir, solaire, blanc mat, anti-effraction), zones d'intervention, avis clients Google et Trustpilot.
 - [Devis gratuit](https://vitracare.be/devis): Demande de devis gratuit et sans engagement, réponse sous 24h.
-- [Offre devis à domicile](https://vitracare.be/offre): Déplacement à domicile pour prise de mesures et devis précis — normalement facturé 50€, actuellement offert.
+- [Offre devis à domicile](https://vitracare.be/offre): Prise de mesures à domicile, gratuite à Bruxelles (50€ de déplacement en dehors) — le devis lui-même est toujours gratuit.
 - [Nos réalisations](https://vitracare.be/realisations): Chantiers réels de pose de films et teintes à Bruxelles et en périphérie.
 - [Zone d'intervention](https://vitracare.be/zone-intervention): Bruxelles et ses 19 communes, toute la périphérie, et au-delà pour les grands projets.
 - [FAQ](https://vitracare.be/faq): Réponses sur la pose, l'entretien, la garantie et le prix des films.
@@ -23,7 +23,8 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 - [Film solaire pour vitrage à Bruxelles : moins de chaleur et d'éblouissement, sans perdre la lumière](https://vitracare.be/blog/film-solaire-vitrage-bruxelles): Fonctionnement et bénéfices du film solaire pour une pièce exposée plein sud.
 - [Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?](https://vitracare.be/blog/film-securite-anti-effraction-vitrage): Comment le film de sécurité renforce la résistance du verre et ralentit une intrusion.
 - [Remplacer ses fenêtres ou poser un film sur ses vitrages : quelle solution choisir ?](https://vitracare.be/blog/remplacer-fenetres-ou-film-vitrage): Comparatif honnête entre remplacement de fenêtres et pose de film pour vitrage.
-- [Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?](https://vitracare.be/blog/prix-pose-film-vitrage-bruxelles): Fourchette de prix indicative selon le type de film, la surface et l'accessibilité du chantier.
+- [Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?](https://vitracare.be/blog/prix-pose-film-vitrage-bruxelles): Les facteurs qui influencent le prix, et pourquoi un devis gratuit reste le seul moyen d'avoir un chiffre exact.
+- [Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?](https://vitracare.be/blog/etapes-projet-film-vitrage-bruxelles): Les 4 étapes d'un projet — mesures, devis, choix du film, pose — et ce qu'il faut savoir sur la durée de vie et l'entretien.
 
 ## Communes avec page dédiée
 - [Uccle, Linkebeek et Rhode-Saint-Genèse](https://vitracare.be/communes/uccle)

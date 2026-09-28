@@ -536,20 +536,20 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
       metaTitle: 'Prix pose film vitrage à Bruxelles',
       metaDescription:
-        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Fourchette indicative, facteurs qui font varier le prix, et zone d'intervention de VitraCare.",
+        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi un devis gratuit reste le seul moyen d'avoir un chiffre exact.",
       date: '2026-09-13',
       excerpt:
-        "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier. Voici une fourchette indicative et ce qui la fait varier.",
+        "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier — voici ce qui l'influence, et pourquoi la seule vraie réponse reste un devis gratuit et sans engagement.",
       sections: [
         {
           paragraphs: [
-            "C'est souvent la première question, et c'est normal : avant de contacter qui que ce soit, on veut une idée du budget. Voici une fourchette indicative, honnête sur ce qui la fait bouger d'un chantier à l'autre.",
+            "C'est souvent la première question, et c'est normal : avant de contacter qui que ce soit, on veut une idée du budget. Voici ce qui influence réellement le prix, et pourquoi on préfère un devis honnête à une fourchette générique.",
           ],
         },
         {
-          heading: 'Une fourchette de départ',
+          heading: "Pourquoi il n'y a pas de prix fixe affiché",
           paragraphs: [
-            "À titre indicatif, comptez autour de 100 €/m², pose comprise. C'est une moyenne de référence, pas un tarif fixe applicable à toutes les situations : le prix exact dépend du type de film, de la surface totale du chantier et de la configuration des vitrages concernés.",
+            "Il n'existe pas de tarif universel pour la pose d'un film pour vitrage : le prix dépend directement de votre projet — type de film, surface totale, configuration des vitrages. Afficher une fourchette générique reviendrait à vous donner un chiffre qui ne correspond probablement pas à votre situation réelle.",
           ],
         },
         {
@@ -559,9 +559,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Un devis gratuit et sans engagement',
+          heading: 'La seule vraie réponse : un devis gratuit',
           paragraphs: [
-            "Le seul moyen d'avoir un prix précis pour votre situation est un devis, gratuit et sans engagement. Nous nous déplaçons ou évaluons votre projet à distance selon les cas, et vous répondons sous 24h.",
+            "Comme le devis ne coûte rien et ne vous engage à rien, ce n'est jamais une perte de temps de nous contacter. Nous nous déplaçons ou évaluons votre projet à distance selon les cas, et vous répondons sous 24h avec un prix exact adapté à votre situation.",
           ],
         },
         {
@@ -586,7 +586,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le prix inclut-il la pose ?',
-          answer: "Oui, la fourchette indicative annoncée (environ 100 €/m²) inclut la fourniture du film et sa pose par notre équipe.",
+          answer: "Oui, le prix indiqué dans votre devis inclut toujours la fourniture du film et sa pose par notre équipe.",
         },
         {
           question: 'Le prix est-il le même pour tous les types de film ?',
@@ -1294,20 +1294,20 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
       metaTitle: 'Prijs raamfolie plaatsen in Brussel',
       metaDescription:
-        'Hoeveel kost het plaatsen van raamfolie in Brussel? Indicatieve prijsvork, factoren die de prijs doen variëren, en het werkgebied van VitraCare.',
+        'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom een gratis offerte de enige manier is om een exact cijfer te krijgen.',
       date: '2026-09-13',
       excerpt:
-        'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf. Hier is een indicatieve prijsvork en wat ze doet variëren.',
+        'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf — hier is wat ze beïnvloedt, en waarom het enige echte antwoord een gratis en vrijblijvende offerte blijft.',
       sections: [
         {
           paragraphs: [
-            'Het is vaak de eerste vraag, en dat is normaal: voordat u iemand contacteert, wilt u een idee van het budget. Hier is een indicatieve prijsvork, eerlijk over wat ze doet schommelen van de ene werf tot de andere.',
+            'Het is vaak de eerste vraag, en dat is normaal: voordat u iemand contacteert, wilt u een idee van het budget. Hier is wat de prijs werkelijk beïnvloedt, en waarom we een eerlijke offerte verkiezen boven een generieke vork.',
           ],
         },
         {
-          heading: 'Een indicatieve startprijs',
+          heading: 'Waarom er geen vaste prijs vermeld staat',
           paragraphs: [
-            'Reken ter indicatie op ongeveer 100 €/m², plaatsing inbegrepen. Dit is een gemiddelde richtprijs, geen vast tarief dat op elke situatie van toepassing is: de exacte prijs hangt af van het gekozen type folie, de totale oppervlakte van de werf en de configuratie van de betrokken beglazing.',
+            'Er bestaat geen universeel tarief voor het plaatsen van raamfolie: de prijs hangt rechtstreeks af van uw project — type folie, totale oppervlakte, configuratie van de beglazing. Een generieke prijsvork vermelden zou u een cijfer geven dat waarschijnlijk niet overeenkomt met uw echte situatie.',
           ],
         },
         {
@@ -1317,9 +1317,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Een gratis en vrijblijvende offerte',
+          heading: 'Het enige echte antwoord: een gratis offerte',
           paragraphs: [
-            'De enige manier om een precieze prijs voor uw situatie te krijgen, is een gratis en vrijblijvende offerte. Naargelang het geval komen we ter plaatse of evalueren we uw project op afstand, en antwoorden binnen 24u.',
+            'Omdat de offerte niets kost en u tot niets verplicht, is het nooit tijdverlies om ons te contacteren. Naargelang het geval komen we ter plaatse of evalueren we uw project op afstand, en antwoorden binnen 24u met een exacte prijs voor uw situatie.',
           ],
         },
         {
@@ -1344,7 +1344,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Is de plaatsing inbegrepen in de prijs?',
-          answer: 'Ja, de vermelde indicatieve prijsvork (ongeveer 100 €/m²) omvat zowel de folie zelf als de plaatsing door ons team.',
+          answer: 'Ja, de prijs in uw offerte omvat altijd zowel de folie zelf als de plaatsing door ons team.',
         },
         {
           question: 'Is de prijs dezelfde voor alle types folie?',
@@ -2052,20 +2052,20 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Window film pricing in Brussels: what to expect',
       metaTitle: 'Window film installation price in Brussels',
       metaDescription:
-        'How much does window film installation cost in Brussels? Indicative price range, what makes it vary, and VitraCare\'s service area.',
+        "How much does window film installation cost in Brussels? What influences the price, and why a free quote is the only way to get an exact figure.",
       date: '2026-09-13',
       excerpt:
-        "The price depends on the type of film, the total surface area, and how accessible the site is. Here's an indicative range and what makes it vary.",
+        "The price depends on the type of film, the total surface area, and how accessible the site is — here's what influences it, and why the only real answer is a free, no-obligation quote.",
       sections: [
         {
           paragraphs: [
-            "It's usually the first question, and rightly so: before contacting anyone, you want a sense of the budget. Here's an indicative price range, and an honest look at what shifts it from one project to another.",
+            "It's usually the first question, and rightly so: before contacting anyone, you want a sense of the budget. Here's what actually influences the price, and why we'd rather give you an honest quote than a generic range.",
           ],
         },
         {
-          heading: 'A starting price range',
+          heading: "Why we don't post a fixed price",
           paragraphs: [
-            'As a guide, expect around €100/m², installation included. This is an average reference point, not a fixed rate that applies to every situation: the exact price depends on the type of film, the total surface area of the project, and the configuration of the windows involved.',
+            "There's no universal rate for window film installation: the price depends directly on your project — type of film, total surface area, window configuration. Posting a generic range would just give you a figure that probably doesn't match your actual situation.",
           ],
         },
         {
@@ -2075,9 +2075,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'A free, no-obligation quote',
+          heading: 'The only real answer: a free quote',
           paragraphs: [
-            "The only way to get a precise price for your situation is a free, no-obligation quote. Depending on the project, we visit on site or assess it remotely, and reply within 24 hours.",
+            "Since the quote costs nothing and commits you to nothing, reaching out is never a waste of time. Depending on the project, we visit on site or assess it remotely, and reply within 24 hours with an exact price for your situation.",
           ],
         },
         {
@@ -2102,7 +2102,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Does the price include installation?',
-          answer: 'Yes, the indicative range given (around €100/m²) includes both the film itself and installation by our team.',
+          answer: 'Yes, the price in your quote always includes both the film itself and installation by our team.',
         },
         {
           question: 'Is the price the same for every type of film?',

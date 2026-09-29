@@ -909,26 +909,26 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Elke zomer dezelfde reflex: de ventilator erbij halen, of investeren in een mobiele airco. Beide hebben iets gemeen: ze verbruiken continu elektriciteit, zonder de echte oorzaak van het probleem aan te pakken, de warmte die via de ramen binnenkomt. Raamfolie pakt het probleem omgekeerd aan, door een groot deel van die warmte tegen te houden vóór ze binnenkomt. Dit tonen onafhankelijke studies over het onderwerp.",
+            "Elke zomer dezelfde reflex: de ventilator erbij halen, of investeren in een mobiele airco. Het probleem is dat beide continu elektriciteit verbruiken zonder de echte oorzaak aan te pakken: de warmte die via de ramen binnenkomt. Raamfolie werkt net omgekeerd, door een groot deel van die warmte tegen te houden vóór ze de kamer binnenkomt. Dit tonen onafhankelijke studies over het onderwerp.",
           ],
         },
         {
           heading: 'Hoeveel graden minder, concreet?',
           paragraphs: [
-            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn (veranda's, glazen daken, zuid- of westgevels op kop). In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken, verantwoordelijk volgens diezelfde studie voor ongeveer een derde van de koellast van een gebouw. Concreet betekent dit dat een ruimte die 's namiddags amper leefbaar is, opnieuw comfortabel kan worden door de warmte al aan de bron te beperken, vóór ze de kamer binnenkomt.",
+            "In de praktijk tonen installaties van zonwerende folie een daling van 3 tot 6°C van de binnentemperatuur in de zomer, vooral in de meest blootgestelde ruimtes: veranda's, glazen daken, zuid- of westgevels op kop. Het Amerikaanse [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) komt tot een vergelijkbare conclusie: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken. Die warmte-inval is volgens diezelfde studie goed voor ongeveer een derde van de koellast van een gebouw. In de praktijk betekent dit dat een ruimte die 's namiddags amper leefbaar is, opnieuw comfortabel kan worden door de warmte al aan de bron af te snijden, vóór ze binnenkomt.",
           ],
         },
         {
           heading: 'Minder airco, minder kosten',
           paragraphs: [
-            "Bij gebouwen uitgerust met zonwerende folie tonen terugkoppelingen uit de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels, volgens gegevens verzameld door [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), die zich onder meer baseren op de aanbevelingen van ADEME (het Franse agentschap voor ecologische transitie). In tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit, geen onderhoud, geen filter om te vervangen. Op termijn verandert dit de aard van de uitgave zelf: in plaats van een terugkerende kost die meestijgt met de elektriciteitsprijs, wordt de zonwering een eenmalige investering waarvan het voordeel zich elke zomer herhaalt zonder bijkomende kost.",
+            "Bij gebouwen met zonwerende folie rapporteert de sector een vermindering van 20 tot 35% van het koelverbruik op de behandelde gevels, volgens gegevens verzameld door [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), die zich onder meer baseren op de aanbevelingen van ADEME (het Franse agentschap voor ecologische transitie). En in tegenstelling tot een airco heeft de folie geen enkele werkingskost eenmaal geplaatst: geen elektriciteit te betalen, niets te onderhouden. Dat verandert de aard van de uitgave: in plaats van een factuur die elke zomer meestijgt met de elektriciteitsprijs, betaalt u één keer, en het voordeel herhaalt zich daarna zonder bijkomende kost.",
           ],
         },
         {
           heading: 'Folie, airco of ventilator: wat is het fundamentele verschil?',
           paragraphs: [
-            "Een ventilator verplaatst enkel de warme lucht die al in de ruimte aanwezig is: hij vermindert niet de warmte die via de beglazing blijft binnenkomen. Een airco koelt de lucht actief, maar verbruikt continu elektriciteit en moet voortdurend strijden tegen warmte die blijft binnenkomen.",
-            "Raamfolie grijpt in aan de bron: ze vermindert de hoeveelheid zonnewarmte die door het glas dringt. Minder warmte die binnenkomt betekent minder werk voor een bestaande airco (en dus minder verbruik), of gewoon een leefbaardere ruimte zonder iets te moeten aanzetten.",
+            "Een ventilator verplaatst enkel de warme lucht die al in de ruimte aanwezig is, en vermindert helemaal niet de warmte die via de beglazing blijft binnenkomen. Een airco koelt de lucht actief, maar verbruikt ononderbroken elektriciteit en moet voortdurend strijden tegen warmte die nooit stopt met binnenkomen.",
+            "Raamfolie grijpt eerder aan de bron in: ze vermindert rechtstreeks de hoeveelheid zonnewarmte die door het glas dringt. Het resultaat: een bestaande airco heeft minder werk te doen (en verbruikt dus minder), en heeft u er geen, dan blijft de ruimte gewoon leefbaarder zonder iets aan te zetten.",
           ],
         },
         {
@@ -1667,26 +1667,26 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Every summer, the same reflex: pull out the fan, or invest in a portable air conditioner. Both share one thing in common: they consume electricity continuously, without ever addressing the real cause of the problem: the heat entering through the windows. Window film tackles the problem from the other end, blocking a large share of that heat before it gets in. Here's what independent research shows on the topic.",
+            "Every summer, it's the same reflex: pull out the fan, or invest in a portable air conditioner. The problem is both consume electricity continuously without ever addressing the real cause: the heat entering through the windows. Window film works the other way around, blocking a large share of that heat before it gets into the room. Here's what independent research shows on the topic.",
           ],
         },
         {
           heading: 'How many degrees cooler, in practice?',
           paragraphs: [
-            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun: conservatories, glass roofs, and south- or west-facing façades leading the list. In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass, which, according to the same study, accounts for roughly a third of a building's cooling load. In practical terms, that means a room that's barely bearable by early afternoon can become liveable again simply by cutting the heat off at the source, before it ever enters the room.",
+            "In practice, solar film installations show a 3 to 6°C drop in indoor temperature during summer, mostly in the most exposed rooms: conservatories, glass roofs, and south- or west-facing façades leading the list. The U.S. [Department of Energy](https://www.osti.gov/servlets/purl/1089147) reaches a similar conclusion: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass. That heat gain, according to the same study, accounts for roughly a third of a building's cooling load. In practical terms, that means a room that's barely bearable by early afternoon can become liveable again, simply by cutting the heat off at the source before it enters.",
           ],
         },
         {
           heading: 'Less air conditioning, lower costs',
           paragraphs: [
-            "On buildings fitted with solar film, industry field data shows a 20 to 35% reduction in cooling-related energy consumption on the treated façades, according to figures compiled by [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), which draw in part on recommendations from ADEME, the French ecological transition agency. Unlike an air conditioner, the film has zero running cost once installed: no electricity, no maintenance, no filter to replace. Over time, that changes the nature of the expense itself: instead of a recurring bill that climbs with electricity prices, solar protection becomes a one-off investment whose benefit repeats every summer at no extra cost.",
+            "On buildings fitted with solar film, the industry reports a 20 to 35% reduction in cooling-related energy consumption on the treated façades, according to figures compiled by [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), which draw in part on recommendations from ADEME, the French ecological transition agency. And unlike an air conditioner, the film has zero running cost once installed: no electricity to pay for, nothing to maintain. That changes the nature of the expense: instead of a bill that climbs every summer with electricity prices, you pay once, and the benefit repeats afterward at no extra cost.",
           ],
         },
         {
           heading: 'Film, AC, or fan: what\'s the fundamental difference?',
           paragraphs: [
-            "A fan only moves the hot air already inside the room; it doesn't reduce the heat still coming in through the glass. An air conditioner actively cools the air, but consumes electricity continuously and has to keep fighting heat that never stops coming in.",
-            "Window film acts upstream: it reduces the amount of solar heat passing through the glass in the first place. Less heat coming in means less work for an existing air conditioner (and so less consumption), or simply a more liveable room without switching anything on at all.",
+            "A fan only moves the hot air already inside the room, and doesn't reduce at all the heat still coming in through the glass. An air conditioner actively cools the air, but consumes electricity without interruption and has to keep fighting heat that never stops coming in.",
+            "Window film acts further upstream: it directly reduces the amount of solar heat passing through the glass. The result: an existing air conditioner has less work to do (so it consumes less), and if you don't have one, the room simply stays more liveable without switching anything on at all.",
           ],
         },
         {

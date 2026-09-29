@@ -45,16 +45,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "La teinte effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
-            "Au-delà de l'intimité, ce film bloque de 46% à 87% des rayons UV selon l'intensité posée — les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait — et réduit considérablement la chaleur qui entre par vos fenêtres — un vrai plus en été.",
+            "Au-delà de l'intimité, ce film bloque de 46% à 87% des rayons UV selon l'intensité posée (les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait) et réduit considérablement la chaleur qui entre par vos fenêtres, un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
-            "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite — un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/protection-uv-film-vitrage-bruxelles) vous aide à trancher selon vos pièces.",
+            "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite : un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/protection-uv-film-vitrage-bruxelles) vous aide à trancher selon vos pièces.",
           ],
         },
         {
           heading: 'La teinte solaire',
           anchor: 'solaire',
           paragraphs: [
-            "Si votre priorité est le confort thermique plutôt que l'intimité totale, la teinte solaire est le film le plus adapté. Contrairement au film miroir, elle reste transparente — on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
+            "Si votre priorité est le confort thermique plutôt que l'intimité totale, la teinte solaire est le film le plus adapté. Contrairement au film miroir, elle reste transparente : on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
             "Son rôle principal : réduire la chaleur et les UV qui entrent dans la maison, pour un confort optimal en été sans devoir fermer les volets ou installer une climatisation. C'est une solution particulièrement appréciée dans les pièces de vie très exposées au soleil, ou pour protéger un salon plein sud qui devient difficilement vivable l'après-midi.",
           ],
         },
@@ -62,7 +62,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'La teinte blanc mat',
           anchor: 'mat',
           paragraphs: [
-            "La teinte blanc mat répond à un besoin différent : une intimité totale, mais dans les deux sens — depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
+            "La teinte blanc mat répond à un besoin différent : une intimité totale, mais dans les deux sens, depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
             "C'est le choix le plus adapté pour une salle de bain, une verrière, une porte d'entrée vitrée, ou toute pièce où vous voulez laisser entrer la lumière sans jamais être visible. Il apporte aussi un rendu esthétique épuré et élégant, très apprécié sur les façades contemporaines.",
           ],
         },
@@ -71,7 +71,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'anti-effraction',
           paragraphs: [
             "Le film anti-effraction répond à un besoin différent des trois précédents : il est totalement transparent et ne change rien à l'apparence de votre vitrage. Sa fonction n'est pas l'intimité, mais la sécurité.",
-            "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée — il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
+            "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée : il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
             "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur.",
           ],
         },
@@ -100,7 +100,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Pose et durée de vie',
           paragraphs: [
-            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences) — ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
+            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences), ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Pour savoir comment se déroule concrètement un projet, de la demande de devis à la pose, consultez notre [article dédié aux étapes](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement. Pendant le mois qui suit la pose, évitez également de nettoyer ou de toucher la vitre : c'est le temps nécessaire au film pour adhérer complètement. De petites bulles d'air éventuellement visibles au début disparaissent d'elles-mêmes durant cette période, la chaleur et le soleil aidant le film à se fixer définitivement.",
             "Un petit avantage indirect de la pose : la vitre est nettoyée avant l'application du film, ce qui laisse cette face impeccable une fois le chantier terminé.",
@@ -122,11 +122,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
-          answer: "Généralement à l'intérieur — une pose extérieure reste possible selon vos préférences. La pose intérieure protège le film des intempéries et des lavages de vitres, et favorise sa durée de vie — estimée à 10-15 ans.",
+          answer: "Généralement à l'intérieur, mais une pose extérieure reste possible selon vos préférences. La pose intérieure protège le film des intempéries et des lavages de vitres, et favorise sa durée de vie, estimée à 10-15 ans.",
         },
         {
           question: 'Le film abîme-t-il la vue vers l\'extérieur ?',
-          answer: "Non, ni le film effet miroir ni la teinte solaire ne dégradent la vue depuis l'intérieur — elle reste nette et dégagée. Seul le film blanc mat floute la vue, dans les deux sens, puisque c'est justement sa fonction.",
+          answer: "Non, ni le film effet miroir ni la teinte solaire ne dégradent la vue depuis l'intérieur : elle reste nette et dégagée. Seul le film blanc mat floute la vue, dans les deux sens, puisque c'est justement sa fonction.",
         },
         {
           question: 'Puis-je combiner plusieurs films différents dans la même maison ?',
@@ -134,7 +134,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Le film anti-effraction empêche-t-il vraiment un cambriolage ?',
-          answer: "Non, aucun film ne rend une vitre incassable. Il ralentit fortement une tentative d'effraction en retenant les éclats de verre au lieu de les laisser tomber, ce qui complique et retarde le passage du cambrioleur — un délai souvent décisif.",
+          answer: "Non, aucun film ne rend une vitre incassable. Il ralentit fortement une tentative d'effraction en retenant les éclats de verre au lieu de les laisser tomber, ce qui complique et retarde le passage du cambrioleur, un délai souvent décisif.",
         },
       ],
     },
@@ -150,13 +150,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Chaque été, le même réflexe : sortir le ventilateur, ou investir dans un climatiseur mobile. Les deux ont un point commun — ils consomment de l'électricité en continu, sans jamais s'attaquer à la vraie cause du problème : la chaleur qui entre par les fenêtres. Le film pour vitrage prend le problème à l'envers, en bloquant une bonne partie de cette chaleur avant qu'elle n'entre. Voici ce que montrent les études indépendantes sur le sujet.",
+            "Chaque été, le même réflexe : sortir le ventilateur, ou investir dans un climatiseur mobile. Les deux ont un point commun : ils consomment de l'électricité en continu, sans jamais s'attaquer à la vraie cause du problème, la chaleur qui entre par les fenêtres. Le film pour vitrage prend le problème à l'envers, en bloquant une bonne partie de cette chaleur avant qu'elle n'entre. Voici ce que montrent les études indépendantes sur le sujet.",
           ],
         },
         {
           heading: 'Combien de degrés en moins, concrètement ?',
           paragraphs: [
-            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil — vérandas, toits vitrés, façades sud ou ouest en tête de liste. Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre — responsable, selon la même étude, d'environ un tiers de la charge de climatisation d'un bâtiment. Concrètement, cela signifie qu'une pièce difficilement supportable en début d'après-midi peut redevenir vivable simplement en réduisant l'apport de chaleur à la source, avant qu'elle n'entre dans la pièce.",
+            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil (vérandas, toits vitrés, façades sud ou ouest en tête de liste). Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre, responsable selon la même étude d'environ un tiers de la charge de climatisation d'un bâtiment. Concrètement, cela signifie qu'une pièce difficilement supportable en début d'après-midi peut redevenir vivable simplement en réduisant l'apport de chaleur à la source, avant qu'elle n'entre dans la pièce.",
           ],
         },
         {
@@ -168,7 +168,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Film, climatiseur ou ventilateur : quelle différence de fond ?',
           paragraphs: [
-            "Un ventilateur ne fait que déplacer l'air chaud déjà présent dans la pièce — il ne réduit pas la chaleur qui continue d'entrer par les vitrages. Un climatiseur, lui, refroidit activement l'air, mais consomme de l'électricité en continu et doit lutter en permanence contre une chaleur qui n'arrête pas d'entrer.",
+            "Un ventilateur ne fait que déplacer l'air chaud déjà présent dans la pièce : il ne réduit pas la chaleur qui continue d'entrer par les vitrages. Un climatiseur, lui, refroidit activement l'air, mais consomme de l'électricité en continu et doit lutter en permanence contre une chaleur qui n'arrête pas d'entrer.",
             "Le film pour vitrage agit en amont : il réduit la quantité de chaleur solaire qui traverse le verre. Moins de chaleur qui entre, c'est moins de travail pour un climatiseur existant (et donc moins de consommation), ou tout simplement une pièce plus vivable sans avoir besoin d'allumer quoi que ce soit.",
           ],
         },
@@ -189,7 +189,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Et en hiver, ce n\'est pas du gaspillage ?',
-          answer: "Non — le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
+          answer: "Non, le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
         },
         {
           question: 'Le film pour vitrage remplace-t-il complètement la climatisation ?',
@@ -197,7 +197,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Le film fonctionne-t-il aussi bien qu\'un ventilateur ?',
-          answer: "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce — les deux ne résolvent pas le même problème.",
+          answer: "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce. Les deux ne résolvent donc pas le même problème.",
         },
         {
           question: 'Le film a-t-il un coût d\'entretien ou de fonctionnement ?',
@@ -209,7 +209,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Combien de temps dure l\'installation ?',
-          answer: "La pose est réalisée par notre collaborateur directement chez vous, en une seule intervention. La durée exacte dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
+          answer: "La pose est réalisée par notre collaborateur directement chez vous, en une seule intervention. La durée exacte dépend du nombre et de la taille des vitrages concernés : nous vous la précisons dans votre devis.",
         },
       ],
     },
@@ -225,20 +225,20 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Rideaux tirés en pleine journée, volets qui ne se rouvrent jamais complètement, salon qu'on évite de traverser en pyjama : le vis-à-vis fait partie du quotidien de beaucoup de foyers en ville. La solution la plus courante — fermer — a un coût direct : moins de lumière naturelle, une maison plus sombre, une pièce qu'on finit par déserter. Le film pour vitrage propose une autre approche : garder les fenêtres dégagées, tout en empêchant qu'on puisse voir à l'intérieur.",
+            "Rideaux tirés en pleine journée, volets qui ne se rouvrent jamais complètement, salon qu'on évite de traverser en pyjama : le vis-à-vis fait partie du quotidien de beaucoup de foyers en ville. La solution la plus courante, fermer, a un coût direct : moins de lumière naturelle, une maison plus sombre, une pièce qu'on finit par déserter. Le film pour vitrage propose une autre approche : garder les fenêtres dégagées, tout en empêchant qu'on puisse voir à l'intérieur.",
           ],
         },
         {
           heading: 'Le vis-à-vis, une réalité du quotidien en ville',
           paragraphs: [
-            "Maisons mitoyennes, rez-de-chaussée qui donnent directement sur le trottoir, appartements qui se font face de part et d'autre d'une cour intérieure, bureaux au rez-de-chaussée visibles depuis la rue : la densité du bâti bruxellois multiplie les situations où on est vu, qu'on le veuille ou non. Le réflexe naturel est de fermer — rideaux, voilages, volets — mais cette solution ferme aussi la lumière, et avec elle, une partie du confort de vie dans la pièce.",
+            "Maisons mitoyennes, rez-de-chaussée qui donnent directement sur le trottoir, appartements qui se font face de part et d'autre d'une cour intérieure, bureaux au rez-de-chaussée visibles depuis la rue : la densité du bâti bruxellois multiplie les situations où on est vu, qu'on le veuille ou non. Le réflexe naturel est de fermer (rideaux, voilages, volets), mais cette solution ferme aussi la lumière, et avec elle, une partie du confort de vie dans la pièce.",
           ],
         },
         {
           heading: 'Voir sans être vu : le principe',
           paragraphs: [
-            "Le film effet miroir repose sur un principe optique simple : la lumière. En journée, l'extérieur est toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir empêchant la vue de l'intérieur — pendant que depuis chez vous, la vue reste dégagée, comme à travers une vitre classique.",
-            "Un point important à connaître : cet effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur, donc en journée. Le soir, une fois la lumière allumée chez vous et la nuit tombée dehors, l'effet s'inverse — comme pour n'importe quelle fenêtre éclairée dans le noir. C'est un point à garder en tête selon les pièces et les horaires concernés.",
+            "Le film effet miroir repose sur un principe optique simple : la lumière. En journée, l'extérieur est toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir empêchant la vue de l'intérieur, tandis que depuis chez vous, la vue reste dégagée, comme à travers une vitre classique.",
+            "Un point important à connaître : cet effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur, donc en journée. Le soir, une fois la lumière allumée chez vous et la nuit tombée dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre éclairée dans le noir. C'est un point à garder en tête selon les pièces et les horaires concernés.",
           ],
         },
         {
@@ -250,19 +250,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Bureaux et commerces : rester visible sans être exposé',
           paragraphs: [
-            "Pour un bureau ou un espace professionnel en rez-de-chaussée, la vitrine est souvent un atout — mais elle expose aussi tout ce qui se passe à l'intérieur : réunions, poste de travail, documents. Le film pour vitrage permet de garder une façade vitrée engageante depuis l'extérieur, tout en travaillant à l'abri des regards.",
+            "Pour un bureau ou un espace professionnel en rez-de-chaussée, la vitrine est souvent un atout, mais elle expose aussi tout ce qui se passe à l'intérieur : réunions, poste de travail, documents. Le film pour vitrage permet de garder une façade vitrée engageante depuis l'extérieur, tout en travaillant à l'abri des regards.",
           ],
         },
         {
           heading: 'Vis-à-vis entre voisins : plus besoin de rideaux fermés en permanence',
           paragraphs: [
-            "Dans un immeuble ou une cour intérieure où les fenêtres se font face, le réflexe est souvent de garder les voilages fermés en continu — au détriment de la lumière naturelle. Avec un film sur les vitrages concernés, les fenêtres restent dégagées en journée, sans que les voisins d'en face ne puissent voir à l'intérieur.",
+            "Dans un immeuble ou une cour intérieure où les fenêtres se font face, le réflexe est souvent de garder les voilages fermés en continu, au détriment de la lumière naturelle. Avec un film sur les vitrages concernés, les fenêtres restent dégagées en journée, sans que les voisins d'en face ne puissent voir à l'intérieur.",
           ],
         },
         {
           heading: 'Le film blanc mat : l\'intimité totale, jour et nuit',
           paragraphs: [
-            "Pour une pièce où l'intimité doit être garantie à toute heure — une salle de bain, une chambre au rez-de-chaussée, une porte d'entrée vitrée — le film effet miroir n'est pas la solution la plus adaptée, puisqu'il ne fonctionne que de jour. Le film blanc mat, lui, bloque la vue dans les deux sens, jour et nuit, quelle que soit la luminosité de chaque côté. Il laisse entrer la lumière tout en garantissant une intimité constante.",
+            "Pour une pièce où l'intimité doit être garantie à toute heure (une salle de bain, une chambre au rez-de-chaussée, une porte d'entrée vitrée), le film effet miroir n'est pas la solution la plus adaptée, puisqu'il ne fonctionne que de jour. Le film blanc mat, lui, bloque la vue dans les deux sens, jour et nuit, quelle que soit la luminosité de chaque côté. Il laisse entrer la lumière tout en garantissant une intimité constante.",
           ],
         },
         {
@@ -285,11 +285,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Est-ce que je vois moins bien vers l\'extérieur avec le film posé ?',
-          answer: "Avec le film effet miroir ou la teinte solaire, la vue depuis l'intérieur reste claire et dégagée — seul le regard depuis l'extérieur est bloqué. Le film blanc mat, en revanche, floute la vue dans les deux sens : c'est le compromis nécessaire pour une intimité totale à toute heure.",
+          answer: "Avec le film effet miroir ou la teinte solaire, la vue depuis l'intérieur reste claire et dégagée : seul le regard depuis l'extérieur est bloqué. Le film blanc mat, en revanche, floute la vue dans les deux sens : c'est le compromis nécessaire pour une intimité totale à toute heure.",
         },
         {
           question: 'Est-ce adapté pour un appartement en copropriété ?',
-          answer: "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux — nous vous recommandons de vérifier le règlement de copropriété au cas où.",
+          answer: "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux : nous vous recommandons de vérifier le règlement de copropriété au cas où.",
         },
         {
           question: 'Le film remplace-t-il complètement les rideaux et volets ?',
@@ -297,7 +297,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Combien de temps dure la pose ?',
-          answer: "La pose est réalisée par notre collaborateur directement chez vous, en une seule intervention. La durée dépend du nombre et de la taille des vitrages concernés — nous vous la précisons dans votre devis.",
+          answer: "La pose est réalisée par notre collaborateur directement chez vous, en une seule intervention. La durée dépend du nombre et de la taille des vitrages concernés : nous vous la précisons dans votre devis.",
         },
       ],
     },
@@ -327,7 +327,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Le film pour vitrage : rapide, réversible, et bien moins cher',
           paragraphs: [
             "Le film pour vitrage se pose directement sur vos fenêtres existantes, sans démontage ni remplacement du vitrage. Le coût se situe généralement entre 8 et 80 €/m² selon le type de film, soit une fraction du prix d'un remplacement complet. L'intervention se fait en une seule visite, sans gros œuvre.",
-            "Autre avantage : le film est entièrement réversible. Si vos fenêtres sont encore en bon état, il n'y a aucune raison de les remplacer simplement pour gagner en confort thermique, en intimité ou en protection UV — le film répond au même besoin sans les inconvénients d'un chantier lourd.",
+            "Autre avantage : le film est entièrement réversible. Si vos fenêtres sont encore en bon état, il n'y a aucune raison de les remplacer simplement pour gagner en confort thermique, en intimité ou en protection UV : le film répond au même besoin sans les inconvénients d'un chantier lourd.",
           ],
         },
         {
@@ -346,7 +346,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Quel film choisir dans ce cas ?',
           paragraphs: [
-            "Si le film vous intéresse, encore faut-il choisir la bonne teinte selon votre besoin réel — chaleur, intimité ou sécurité. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, et notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille comment le devis est calculé selon la surface et le type de film.",
+            "Si le film vous intéresse, encore faut-il choisir la bonne teinte selon votre besoin réel : chaleur, intimité ou sécurité. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, et notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille comment le devis est calculé selon la surface et le type de film.",
           ],
         },
         {
@@ -366,7 +366,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film pour vitrage fonctionne-t-il sur du double ou triple vitrage neuf ?',
-          answer: "Oui, sans problème. Le film se pose côté intérieur de n'importe quel type de vitrage — simple, double ou triple — qu'il soit ancien ou tout juste installé.",
+          answer: "Oui, sans problème. Le film se pose côté intérieur de n'importe quel type de vitrage (simple, double ou triple), qu'il soit ancien ou tout juste installé.",
         },
         {
           question: 'Le film peut-il remplacer un vitrage à contrôle solaire intégré ?',
@@ -396,26 +396,26 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Ce qu\'un film de sécurité change concrètement',
           paragraphs: [
-            "Le film est appliqué côté intérieur du vitrage, en une couche continue et adhérente. Quand la vitre est frappée, le verre se fissure mais les fragments restent maintenus par le film au lieu de voler en éclats ou de céder d'un coup. Résultat : il faut plusieurs coups répétés, du bruit et du temps pour parvenir à ouvrir un passage — exactement ce qu'un cambrioleur opportuniste cherche à éviter.",
+            "Le film est appliqué côté intérieur du vitrage, en une couche continue et adhérente. Quand la vitre est frappée, le verre se fissure mais les fragments restent maintenus par le film au lieu de voler en éclats ou de céder d'un coup. Résultat : il faut plusieurs coups répétés, du bruit et du temps pour parvenir à ouvrir un passage, exactement ce qu'un cambrioleur opportuniste cherche à éviter.",
             "Il est important d'être honnête sur ce point : le film retarde et complique une effraction, il ne la rend pas impossible. C'est une couche de protection supplémentaire, pas une garantie absolue.",
           ],
         },
         {
           heading: 'Vitrines et rez-de-chaussée : la première ligne exposée',
           paragraphs: [
-            "Pour un commerce ou un rez-de-chaussée visible depuis la rue, la vitrine est à la fois un atout commercial et le point le plus vulnérable. Le film de sécurité se pose sans changer l'aspect de la vitrine ni gêner la visibilité — il reste transparent et pratiquement invisible une fois installé.",
+            "Pour un commerce ou un rez-de-chaussée visible depuis la rue, la vitrine est à la fois un atout commercial et le point le plus vulnérable. Le film de sécurité se pose sans changer l'aspect de la vitrine ni gêner la visibilité : il reste transparent et pratiquement invisible une fois installé.",
           ],
         },
         {
           heading: 'Portes vitrées et baies coulissantes',
           paragraphs: [
-            "Les portes-fenêtres et baies vitrées coulissantes sont des cibles fréquentes, car souvent plus accessibles qu'une porte d'entrée classique — jardin, terrasse, ruelle latérale. Le même film s'applique sur ces surfaces pour renforcer leur résistance à l'impact.",
+            "Les portes-fenêtres et baies vitrées coulissantes sont des cibles fréquentes, car souvent plus accessibles qu'une porte d'entrée classique (jardin, terrasse, ruelle latérale). Le même film s'applique sur ces surfaces pour renforcer leur résistance à l'impact.",
           ],
         },
         {
           heading: 'Un renforcement, pas un remplacement de votre sécurité',
           paragraphs: [
-            "Le film de sécurité est un complément à vos dispositifs existants — serrures, alarme, éclairage extérieur — pas un substitut. Il agit sur un point précis : le temps et le bruit nécessaires pour franchir un vitrage, ce qui décourage une grande partie des tentatives d'effraction opportunistes.",
+            "Le film de sécurité est un complément à vos dispositifs existants (serrures, alarme, éclairage extérieur), pas un substitut. Il agit sur un point précis : le temps et le bruit nécessaires pour franchir un vitrage, ce qui décourage une grande partie des tentatives d'effraction opportunistes.",
           ],
         },
         {
@@ -434,7 +434,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film rend-il la vitre incassable ?',
-          answer: "Non. Le verre peut toujours se fissurer sous un coup, mais le film maintient les fragments ensemble et complique fortement le passage — il faut plus de coups, plus de bruit et plus de temps pour ouvrir un accès.",
+          answer: "Non. Le verre peut toujours se fissurer sous un coup, mais le film maintient les fragments ensemble et complique fortement le passage : il faut plus de coups, plus de bruit et plus de temps pour ouvrir un accès.",
         },
         {
           question: 'Le film se voit-il une fois posé ?',
@@ -468,13 +468,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Comment le film solaire agit sur la chaleur',
           paragraphs: [
-            "Posé sur la face intérieure du vitrage, le film solaire filtre une partie du rayonnement solaire avant qu'il ne traverse la vitre et ne se transforme en chaleur dans la pièce — c'est le même principe que l'effet de serre, mais atténué. Le résultat se ressent surtout sur les pièces les plus exposées : vérandas, bureaux et salons orientés sud ou ouest.",
+            "Posé sur la face intérieure du vitrage, le film solaire filtre une partie du rayonnement solaire avant qu'il ne traverse la vitre et ne se transforme en chaleur dans la pièce, un peu comme l'effet de serre, mais atténué. Le résultat se ressent surtout sur les pièces les plus exposées : vérandas, bureaux et salons orientés sud ou ouest.",
           ],
         },
         {
           heading: 'Moins d\'éblouissement, une vue toujours dégagée',
           paragraphs: [
-            "Contrairement à un store ou un rideau, le film solaire reste transparent — avec une légère teinte bleutée propre à ce type de film — et réduit l'éblouissement direct — utile pour un écran d'ordinateur ou une télévision en pleine journée — sans obliger à fermer quoi que ce soit ni à perdre la vue vers l'extérieur.",
+            "Contrairement à un store ou un rideau, le film solaire reste transparent (avec une légère teinte bleutée propre à ce type de film) et réduit l'éblouissement direct, utile pour un écran d'ordinateur ou une télévision en pleine journée, sans obliger à fermer quoi que ce soit ni à perdre la vue vers l'extérieur.",
           ],
         },
         {
@@ -486,13 +486,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Une protection UV en complément',
           paragraphs: [
-            "Le film solaire filtre également une partie des rayons UV responsables de la décoloration des meubles, tissus et parquets exposés au soleil au fil des années — un bénéfice secondaire qui s'ajoute à la baisse de chaleur et d'éblouissement.",
+            "Le film solaire filtre également une partie des rayons UV responsables de la décoloration des meubles, tissus et parquets exposés au soleil au fil des années, un bénéfice secondaire qui s'ajoute à la baisse de chaleur et d'éblouissement.",
           ],
         },
         {
           heading: 'Solaire ou effet miroir : quelle différence ?',
           paragraphs: [
-            "Le film solaire cible la chaleur et la lumière, pas nécessairement l'intimité — la vue depuis l'extérieur reste possible selon le type choisi. Si votre priorité est d'éviter les regards (vis-à-vis, rez-de-chaussée), c'est plutôt vers le film effet miroir ou blanc mat qu'il faut se tourner ; les deux besoins peuvent aussi se combiner selon les pièces.",
+            "Le film solaire cible la chaleur et la lumière, pas nécessairement l'intimité : la vue depuis l'extérieur reste possible selon le type choisi. Si votre priorité est d'éviter les regards (vis-à-vis, rez-de-chaussée), c'est plutôt vers le film effet miroir ou blanc mat qu'il faut se tourner ; les deux besoins peuvent aussi se combiner selon les pièces.",
           ],
         },
         {
@@ -519,7 +519,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: "Le film aide-t-il aussi à garder la chaleur à l'intérieur en hiver ?",
-          answer: "Ce n'est pas l'usage principal du film, conçu avant tout contre la chaleur d'été. Ajouter une couche supplémentaire sur le vitrage peut, en théorie, légèrement limiter les échanges de chaleur dans les deux sens — mais cet effet n'a pas été mesuré ni prouvé scientifiquement pour ce produit. Nous préférons rester honnêtes plutôt que de promettre un bénéfice hivernal que nous ne pouvons pas garantir.",
+          answer: "Ce n'est pas l'usage principal du film, conçu avant tout contre la chaleur d'été. Ajouter une couche supplémentaire sur le vitrage peut, en théorie, légèrement limiter les échanges de chaleur dans les deux sens, mais cet effet n'a pas été mesuré ni prouvé scientifiquement pour ce produit. Nous préférons rester honnêtes plutôt que de promettre un bénéfice hivernal que nous ne pouvons pas garantir.",
         },
         {
           question: 'Le film solaire protège-t-il aussi l\'intimité ?',
@@ -539,7 +539,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi un devis gratuit reste le seul moyen d'avoir un chiffre exact.",
       date: '2026-09-13',
       excerpt:
-        "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier — voici ce qui l'influence, et pourquoi la seule vraie réponse reste un devis gratuit et sans engagement.",
+        "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier. Voici ce qui l'influence, et pourquoi la seule vraie réponse reste un devis gratuit et sans engagement.",
       sections: [
         {
           paragraphs: [
@@ -549,13 +549,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: "Pourquoi il n'y a pas de prix fixe affiché",
           paragraphs: [
-            "Il n'existe pas de tarif universel pour la pose d'un film pour vitrage : le prix dépend directement de votre projet — type de film, surface totale, configuration des vitrages. Afficher une fourchette générique reviendrait à vous donner un chiffre qui ne correspond probablement pas à votre situation réelle.",
+            "Il n'existe pas de tarif universel pour la pose d'un film pour vitrage : le prix dépend directement de votre projet (type de film, surface totale, configuration des vitrages). Afficher une fourchette générique reviendrait à vous donner un chiffre qui ne correspond probablement pas à votre situation réelle.",
           ],
         },
         {
           heading: 'Ce qui fait varier le prix',
           paragraphs: [
-            "Le type de film choisi (solaire, sécurité anti-effraction, miroir, blanc mat) peut légèrement modifier le tarif, chaque film ayant ses propres caractéristiques et coûts de matériau. La surface totale joue aussi : un chantier plus important permet souvent un prix au m² plus avantageux. Enfin, l'accessibilité compte — hauteur des vitrages, nombre d'ouvertures, configuration des lieux — car elle influence le temps de pose.",
+            "Le type de film choisi (solaire, sécurité anti-effraction, miroir, blanc mat) peut légèrement modifier le tarif, chaque film ayant ses propres caractéristiques et coûts de matériau. La surface totale joue aussi : un chantier plus important permet souvent un prix au m² plus avantageux. Enfin, l'accessibilité compte (hauteur des vitrages, nombre d'ouvertures, configuration des lieux), car elle influence le temps de pose.",
           ],
         },
         {
@@ -567,7 +567,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: "Notre zone d'intervention",
           paragraphs: [
-            "Nous intervenons dans toute la Région de Bruxelles-Capitale et ses environs (Brabant wallon et flamand). Pour les chantiers de taille suffisante, nous nous déplaçons également ailleurs en Belgique — Charleroi, Anvers, Gand notamment. N'hésitez pas à nous soumettre votre projet, où qu'il se situe.",
+            "Nous intervenons dans toute la Région de Bruxelles-Capitale et ses environs (Brabant wallon et flamand). Pour les chantiers de taille suffisante, nous nous déplaçons également ailleurs en Belgique, notamment à Charleroi, Anvers ou Gand. N'hésitez pas à nous soumettre votre projet, où qu'il se situe.",
           ],
         },
         {
@@ -618,38 +618,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Pourquoi les UV abîment votre intérieur',
           paragraphs: [
-            "Le verre ordinaire laisse passer la grande majorité des rayons UV du soleil. Invisibles et sans chaleur perceptible, ils dégradent pourtant progressivement les pigments des tissus, du bois et des matières synthétiques exposés — c'est ce qui explique un canapé qui se décolore uniquement du côté fenêtre, ou un parquet qui change de teinte par plaques au fil des saisons.",
+            "Le verre ordinaire laisse passer la grande majorité des rayons UV du soleil. Invisibles et sans chaleur perceptible, ils dégradent pourtant progressivement les pigments des tissus, du bois et des matières synthétiques exposés. C'est ce qui explique un canapé qui se décolore uniquement du côté fenêtre, ou un parquet qui change de teinte par plaques au fil des saisons.",
           ],
         },
         {
           heading: 'Les solutions existantes, et leurs limites',
           paragraphs: [
-            "Rideaux et stores bloquent bien les UV, mais aussi la lumière et la vue — il faut les fermer pour qu'ils servent à quelque chose, ce qui n'est pas toujours vivable au quotidien. Le vitrage à contrôle solaire, intégré à la fabrication de la fenêtre, est efficace mais ne concerne que les fenêtres neuves ou un remplacement complet, à un coût nettement plus élevé. Le film pour vitrage se pose directement sur vos fenêtres existantes, sans travaux, et protège en continu sans qu'il faille fermer quoi que ce soit.",
+            "Rideaux et stores bloquent bien les UV, mais aussi la lumière et la vue : il faut les fermer pour qu'ils servent à quelque chose, ce qui n'est pas toujours vivable au quotidien. Le vitrage à contrôle solaire, intégré à la fabrication de la fenêtre, est efficace mais ne concerne que les fenêtres neuves ou un remplacement complet, à un coût nettement plus élevé. Le film pour vitrage se pose directement sur vos fenêtres existantes, sans travaux, et protège en continu sans qu'il faille fermer quoi que ce soit.",
           ],
         },
         {
           heading: 'Une protection UV qui se mesure, pas qui se devine',
           paragraphs: [
-            "Pour notre film effet miroir (teinte argentée), la protection UV varie selon l'intensité posée : de 46% pour la version légère à 87% pour la version forte. Les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait. Nous préférons vous donner ces chiffres précis plutôt qu'une promesse vague de \"protection totale\".",
+            "Pour notre film effet miroir (teinte argentée), la protection UV varie selon l'intensité posée : de 46% pour la version légère à 87% pour la version forte. Les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait. Nous préférons vous donner ces chiffres précis plutôt qu'une promesse vague de \"protection totale\".",
           ],
         },
         {
           heading: 'Tous les films ne bloquent pas les UV de la même façon',
           paragraphs: [
-            "Ce que beaucoup de clients ne savent pas : un même film existe en plusieurs niveaux d'intensité — léger, moyen et fort. Plus l'intensité est forte, moins la pièce reste lumineuse, mais plus elle bloque la chaleur et les UV. Sur la fiche technique de notre installateur : la version légère laisse passer 43% de la lumière du jour et bloque environ 65% de la chaleur solaire totale, contre seulement 7% de lumière laissée passer mais plus de 93% de chaleur bloquée pour la version forte.",
-            "Ce n'est pas au client de choisir ce niveau : c'est notre équipe technique qui détermine, sur place, l'intensité la plus adaptée à l'orientation de vos fenêtres et à vos besoins réels — protection UV, chaleur, ou les deux à la fois.",
+            "Ce que beaucoup de clients ne savent pas : un même film existe en plusieurs niveaux d'intensité, léger, moyen et fort. Plus l'intensité est forte, moins la pièce reste lumineuse, mais plus elle bloque la chaleur et les UV. Sur la fiche technique de notre installateur : la version légère laisse passer 43% de la lumière du jour et bloque environ 65% de la chaleur solaire totale, contre seulement 7% de lumière laissée passer mais plus de 93% de chaleur bloquée pour la version forte.",
+            "Ce n'est pas au client de choisir ce niveau : c'est notre équipe technique qui détermine, sur place, l'intensité la plus adaptée à l'orientation de vos fenêtres et à vos besoins réels, protection UV, chaleur, ou les deux à la fois.",
           ],
         },
         {
           heading: "Un bénéfice supplémentaire : l'intimité",
           paragraphs: [
-            "Si votre film a un effet miroir, la protection UV s'accompagne d'un vrai bonus : l'intimité en journée. Récemment, un client à Waterloo nous a contactés pour son salon plein sud, avec à la fois un souci de décoloration et de vis-à-vis depuis le trottoir — le même film a réglé les deux problèmes en une seule pose. Pour aller plus loin sur ce sujet précis, notre [article dédié au vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) détaille toutes les solutions.",
+            "Si votre film a un effet miroir, la protection UV s'accompagne d'un vrai bonus : l'intimité en journée. Récemment, un client à Waterloo nous a contactés pour son salon plein sud, avec à la fois un souci de décoloration et de vis-à-vis depuis le trottoir : le même film a réglé les deux problèmes en une seule pose. Pour aller plus loin sur ce sujet précis, notre [article dédié au vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) détaille toutes les solutions.",
           ],
         },
         {
           heading: 'Effet miroir argenté ou noir : lequel choisit-on le plus souvent ?',
           paragraphs: [
-            "Notre film effet miroir existe en deux teintes. L'argenté est la version classique : de jour, il bloque totalement la vue depuis l'extérieur tout en laissant une vue dégagée depuis l'intérieur — mais le soir, si l'intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre. Le noir est plus radical : même de nuit, avec l'intérieur éclairé, il reste impossible de voir à l'intérieur, au prix d'une luminosité intérieure nettement réduite — un compromis surtout adapté à une porte d'entrée vitrée, moins à une pièce de vie.",
+            "Notre film effet miroir existe en deux teintes. L'argenté est la version classique : de jour, il bloque totalement la vue depuis l'extérieur tout en laissant une vue dégagée depuis l'intérieur, mais le soir, si l'intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre. Le noir est plus radical : même de nuit, avec l'intérieur éclairé, il reste impossible de voir à l'intérieur, au prix d'une luminosité intérieure nettement réduite, un compromis surtout adapté à une porte d'entrée vitrée, moins à une pièce de vie.",
             "Concrètement, un client à Waterloo au salon plein sud a choisi l'argenté, car son souci de vis-à-vis se posait surtout en journée. Un autre contact, pour une seule fenêtre donnant directement sur le trottoir et cherchant une intimité garantie à toute heure, aurait été mieux servi par le noir. Le prix ne change pas selon la teinte choisie : seule la surface à traiter fait varier le tarif.",
           ],
         },
@@ -675,7 +675,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film pour vitrage protège-t-il vraiment contre la décoloration ?',
-          answer: "Oui — c'est directement lié au niveau de protection UV du film posé, qui va de 46% à 87% selon l'intensité pour notre film effet miroir. Plus le blocage UV est élevé, plus la décoloration ralentit.",
+          answer: "Oui, c'est directement lié au niveau de protection UV du film posé, qui va de 46% à 87% selon l'intensité pour notre film effet miroir. Plus le blocage UV est élevé, plus la décoloration ralentit.",
         },
         {
           question: 'Faut-il quand même fermer les rideaux avec un film pour vitrage ?',
@@ -683,7 +683,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Tous nos films offrent-ils la même protection UV ?',
-          answer: "Non. Pour le film effet miroir, la protection varie de 46% à 87% selon l'intensité posée. Nous ne disposons pas encore de données UV précises pour la teinte noire — nous préférons ne pas avancer de chiffre tant que ce n'est pas confirmé.",
+          answer: "Non. Pour le film effet miroir, la protection varie de 46% à 87% selon l'intensité posée. Nous ne disposons pas encore de données UV précises pour la teinte noire : nous préférons ne pas avancer de chiffre tant que ce n'est pas confirmé.",
         },
         {
           question: 'Le prix change-t-il selon le niveau de protection UV souhaité ?',
@@ -703,7 +703,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? C'est une question qu'on nous pose souvent — et c'est normal, la plupart des gens n'ont jamais fait poser de film pour vitrage. La bonne nouvelle : le processus est simple, et dans la majorité des cas, un seul film répond à deux besoins à la fois — l'intimité et la chaleur. Voici, étape par étape, comment se déroule un projet avec VitraCare, de la première prise de contact à la pose.",
+            "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? C'est une question qu'on nous pose souvent, et c'est normal : la plupart des gens n'ont jamais fait poser de film pour vitrage. La bonne nouvelle : le processus est simple, et dans la majorité des cas, un seul film répond à deux besoins à la fois, l'intimité et la chaleur. Voici, étape par étape, comment se déroule un projet avec VitraCare, de la première prise de contact à la pose.",
           ],
         },
         {
@@ -715,25 +715,25 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Étape 2 : le devis',
           paragraphs: [
-            "Sur base de ces mesures, nous établissons un devis détaillé, gratuit et sans engagement — quelle que soit la formule choisie à l'étape précédente. Le prix dépend du type de film, de la surface totale et de l'accessibilité des vitrages ; notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique le calcul en détail. Vous pouvez ensuite [demander votre devis](/devis) directement en ligne.",
+            "Sur base de ces mesures, nous établissons un devis détaillé, gratuit et sans engagement, quelle que soit la formule choisie à l'étape précédente. Le prix dépend du type de film, de la surface totale et de l'accessibilité des vitrages ; notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique le calcul en détail. Vous pouvez ensuite [demander votre devis](/devis) directement en ligne.",
           ],
         },
         {
           heading: 'Étape 3 : le choix du film',
           paragraphs: [
-            "C'est aussi à ce moment que vous choisissez le film adapté à votre besoin. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, mais un cas revient très souvent : le film effet miroir, qui répond à deux besoins en une seule pose — il empêche la vue depuis l'extérieur en journée (voir notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage)) tout en réduisant la chaleur et les UV qui entrent par vos fenêtres (voir notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles)). C'est souvent la solution la plus rentable quand les deux besoins se posent en même temps.",
+            "C'est aussi à ce moment que vous choisissez le film adapté à votre besoin. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, mais un cas revient très souvent : le film effet miroir, qui répond à deux besoins en une seule pose. Il empêche la vue depuis l'extérieur en journée (voir notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage)) tout en réduisant la chaleur et les UV qui entrent par vos fenêtres (voir notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles)). C'est souvent la solution la plus rentable quand les deux besoins se posent en même temps.",
           ],
         },
         {
           heading: 'Étape 4 : le rendez-vous et la pose',
           paragraphs: [
-            "Une fois le film choisi et le devis accepté, nous fixons un rendez-vous pour la pose. L'intervention se fait en une seule visite, sans gros œuvre : le film est appliqué directement sur la face intérieure du vitrage, sans toucher au châssis ni à la fenêtre elle-même. Il n'abîme donc pas vos fenêtres, et reste entièrement réversible si vous changez d'avis plus tard. La durée de l'intervention dépend du nombre et de la taille de vos vitrages — nous vous donnons une estimation précise au moment du devis. La pose elle-même est garantie 2 ans par notre équipe technique.",
+            "Une fois le film choisi et le devis accepté, nous fixons un rendez-vous pour la pose. L'intervention se fait en une seule visite, sans gros œuvre : le film est appliqué directement sur la face intérieure du vitrage, sans toucher au châssis ni à la fenêtre elle-même. Il n'abîme donc pas vos fenêtres, et reste entièrement réversible si vous changez d'avis plus tard. La durée de l'intervention dépend du nombre et de la taille de vos vitrages : nous vous donnons une estimation précise au moment du devis. La pose elle-même est garantie 2 ans par notre équipe technique.",
           ],
         },
         {
           heading: 'Après la pose : durée de vie et entretien',
           paragraphs: [
-            "Une fois posé, le film a une durée de vie estimée à 10 à 15 ans. Le seul point de vigilance concerne le premier mois : évitez de nettoyer ou de toucher la vitre pendant cette période, le temps que le film adhère complètement — d'éventuelles petites bulles d'air disparaissent d'elles-mêmes. Ensuite, un nettoyage à l'eau et au savon doux suffit ; notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) détaille tous les conseils d'entretien.",
+            "Une fois posé, le film a une durée de vie estimée à 10 à 15 ans. Le seul point de vigilance concerne le premier mois : évitez de nettoyer ou de toucher la vitre pendant cette période, le temps que le film adhère complètement (d'éventuelles petites bulles d'air disparaissent d'elles-mêmes). Ensuite, un nettoyage à l'eau et au savon doux suffit ; notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) détaille tous les conseils d'entretien.",
           ],
         },
         {
@@ -745,7 +745,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Nos clients en parlent',
           paragraphs: [
-            "Nos clients partagent leur expérience sur [Google](https://share.google/c3Bih4FWySHUhjkAZ) et [Trustpilot](https://fr-be.trustpilot.com/review/vitracare.be) — n'hésitez pas à y jeter un œil avant de vous lancer.",
+            "Nos clients partagent leur expérience sur [Google](https://share.google/c3Bih4FWySHUhjkAZ) et [Trustpilot](https://fr-be.trustpilot.com/review/vitracare.be). N'hésitez pas à y jeter un œil avant de vous lancer.",
           ],
         },
         {
@@ -804,16 +804,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "De spiegeleffect folie is de meest radicale oplossing op het gebied van privacy. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
-            "Naast privacy blokkeert deze folie 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit — kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken — en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt — een echte troef in de zomer.",
+            "Naast privacy blokkeert deze folie 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit (kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken) en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt, een echte troef in de zomer.",
             "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
-            "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen — een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/protection-uv-film-vitrage-bruxelles) helpt u kiezen op basis van uw kamers.",
+            "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen: een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/protection-uv-film-vitrage-bruxelles) helpt u kiezen op basis van uw kamers.",
           ],
         },
         {
           heading: 'Zonwerende folie',
           anchor: 'solaire',
           paragraphs: [
-            "Als uw prioriteit eerder thermisch comfort is dan volledige privacy, is de zonwerende folie de meest geschikte keuze. In tegenstelling tot de spiegelfolie blijft ze transparant — u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
+            "Als uw prioriteit eerder thermisch comfort is dan volledige privacy, is de zonwerende folie de meest geschikte keuze. In tegenstelling tot de spiegelfolie blijft ze transparant: u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
             "Haar belangrijkste rol: de warmte en UV-stralen die het huis binnenkomen verminderen, voor optimaal comfort in de zomer zonder de rolluiken te moeten sluiten of airconditioning te installeren. Een oplossing die vooral gewaardeerd wordt in leefruimtes die sterk aan de zon blootgesteld zijn, of om een zuidgerichte woonkamer te beschermen die 's namiddags moeilijk leefbaar wordt.",
           ],
         },
@@ -821,7 +821,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Matwitte folie',
           anchor: 'mat',
           paragraphs: [
-            "De matwitte folie beantwoordt aan een andere behoefte: volledige privacy, maar in beide richtingen — van binnenuit zoals van buitenaf, dag en nacht. In tegenstelling tot de spiegelfolie hangt haar werking niet af van het lichtniveau.",
+            "De matwitte folie beantwoordt aan een andere behoefte: volledige privacy, maar in beide richtingen, van binnenuit zoals van buitenaf, dag en nacht. In tegenstelling tot de spiegelfolie hangt haar werking niet af van het lichtniveau.",
             "Dit is de meest geschikte keuze voor een badkamer, een veranda, een glazen voordeur, of elke ruimte waar u licht wilt binnenlaten zonder ooit zichtbaar te zijn. Ze zorgt ook voor een strak en elegant esthetisch resultaat, erg gewaardeerd op hedendaagse gevels.",
           ],
         },
@@ -830,7 +830,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'anti-effraction',
           paragraphs: [
             "De inbraakwerende folie beantwoordt aan een andere behoefte dan de vorige drie: ze is volledig transparant en verandert niets aan het uitzicht van uw beglazing. Haar functie is niet privacy, maar veiligheid.",
-            "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen — hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
+            "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen: hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
             "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers.",
           ],
         },
@@ -859,7 +859,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Plaatsing en levensduur',
           paragraphs: [
-            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur) — wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
+            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur), wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Om te weten hoe een project concreet verloopt, van offerteaanvraag tot plaatsing, bekijk ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots. Vermijd ook gedurende de maand na de plaatsing om het raam te reinigen of aan te raken: dit is de tijd die de folie nodig heeft om volledig te hechten. Eventuele kleine luchtbelletjes die in het begin zichtbaar zijn, verdwijnen tijdens deze periode vanzelf, doordat warmte en zonlicht de folie helpen definitief te fixeren.",
             "Een bijkomend voordeel van de plaatsing: het raam wordt gereinigd vóór het aanbrengen van de folie, waardoor deze zijde na afloop van de werken perfect proper is.",
@@ -881,11 +881,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
-          answer: "Doorgaans aan de binnenzijde — een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur. Een plaatsing aan de binnenzijde beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur — geschat op 10 tot 15 jaar.",
+          answer: "Doorgaans aan de binnenzijde, al blijft een plaatsing aan de buitenzijde mogelijk volgens uw voorkeur. Een plaatsing aan de binnenzijde beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur, geschat op 10 tot 15 jaar.",
         },
         {
           question: 'Verslechtert de folie het zicht naar buiten?',
-          answer: "Nee, noch de spiegeleffectfolie noch de zonwerende folie tast het zicht van binnenuit aan — dat blijft helder en vrij. Enkel de matwitte folie vertroebelt het zicht, in beide richtingen, aangezien dat net haar functie is.",
+          answer: "Nee, noch de spiegeleffectfolie noch de zonwerende folie tast het zicht van binnenuit aan: dat blijft helder en vrij. Enkel de matwitte folie vertroebelt het zicht, in beide richtingen, aangezien dat net haar functie is.",
         },
         {
           question: 'Kan ik verschillende folies combineren in hetzelfde huis?',
@@ -893,7 +893,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Voorkomt de inbraakwerende folie echt een inbraak?',
-          answer: "Nee, geen enkele folie maakt een raam onbreekbaar. Ze vertraagt een inbraakpoging sterk door de glasscherven vast te houden in plaats van ze te laten vallen, wat de doorgang van de inbreker bemoeilijkt en vertraagt — een vertraging die vaak doorslaggevend is.",
+          answer: "Nee, geen enkele folie maakt een raam onbreekbaar. Ze vertraagt een inbraakpoging sterk door de glasscherven vast te houden in plaats van ze te laten vallen, wat de doorgang van de inbreker bemoeilijkt en vertraagt, een vertraging die vaak doorslaggevend is.",
         },
       ],
     },
@@ -909,13 +909,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Elke zomer dezelfde reflex: de ventilator erbij halen, of investeren in een mobiele airco. Beide hebben iets gemeen — ze verbruiken continu elektriciteit, zonder de echte oorzaak van het probleem aan te pakken: de warmte die via de ramen binnenkomt. Raamfolie pakt het probleem omgekeerd aan, door een groot deel van die warmte tegen te houden vóór ze binnenkomt. Dit tonen onafhankelijke studies over het onderwerp.",
+            "Elke zomer dezelfde reflex: de ventilator erbij halen, of investeren in een mobiele airco. Beide hebben iets gemeen: ze verbruiken continu elektriciteit, zonder de echte oorzaak van het probleem aan te pakken, de warmte die via de ramen binnenkomt. Raamfolie pakt het probleem omgekeerd aan, door een groot deel van die warmte tegen te houden vóór ze binnenkomt. Dit tonen onafhankelijke studies over het onderwerp.",
           ],
         },
         {
           heading: 'Hoeveel graden minder, concreet?',
           paragraphs: [
-            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn — verandas, glazen daken, zuid- of westgevels op kop. In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken — verantwoordelijk, volgens diezelfde studie, voor ongeveer een derde van de koellast van een gebouw. Concreet betekent dit dat een ruimte die 's namiddags amper leefbaar is, opnieuw comfortabel kan worden door de warmte al aan de bron te beperken, vóór ze de kamer binnenkomt.",
+            "Terugkoppelingen van installaties met zonwerende folie tonen een daling van 3 tot 6°C van de binnentemperatuur in de zomer, in ruimtes die rechtstreeks aan de zon blootgesteld zijn (veranda's, glazen daken, zuid- of westgevels op kop). In de Verenigde Staten wijst het [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (het federale ministerie van energie) in dezelfde richting: raamfolie kan het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken, verantwoordelijk volgens diezelfde studie voor ongeveer een derde van de koellast van een gebouw. Concreet betekent dit dat een ruimte die 's namiddags amper leefbaar is, opnieuw comfortabel kan worden door de warmte al aan de bron te beperken, vóór ze de kamer binnenkomt.",
           ],
         },
         {
@@ -927,7 +927,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Folie, airco of ventilator: wat is het fundamentele verschil?',
           paragraphs: [
-            "Een ventilator verplaatst enkel de warme lucht die al in de ruimte aanwezig is — hij vermindert niet de warmte die via de beglazing blijft binnenkomen. Een airco koelt de lucht actief, maar verbruikt continu elektriciteit en moet voortdurend strijden tegen warmte die blijft binnenkomen.",
+            "Een ventilator verplaatst enkel de warme lucht die al in de ruimte aanwezig is: hij vermindert niet de warmte die via de beglazing blijft binnenkomen. Een airco koelt de lucht actief, maar verbruikt continu elektriciteit en moet voortdurend strijden tegen warmte die blijft binnenkomen.",
             "Raamfolie grijpt in aan de bron: ze vermindert de hoeveelheid zonnewarmte die door het glas dringt. Minder warmte die binnenkomt betekent minder werk voor een bestaande airco (en dus minder verbruik), of gewoon een leefbaardere ruimte zonder iets te moeten aanzetten.",
           ],
         },
@@ -948,7 +948,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'En is dit geen verspilling in de winter?',
-          answer: "Nee — de folie helpt ook om warmte binnen te houden in de winter, door warmteverlies via de beglazing te beperken. Het is een investering die het hele jaar door werkt, niet enkel tijdens zomerse hittepieken.",
+          answer: "Nee, de folie helpt ook om warmte binnen te houden in de winter, door warmteverlies via de beglazing te beperken. Het is een investering die het hele jaar door werkt, niet enkel tijdens zomerse hittepieken.",
         },
         {
           question: 'Vervangt raamfolie de airco volledig?',
@@ -956,7 +956,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Werkt de folie even goed als een ventilator?',
-          answer: "Dat is niet vergelijkbaar: een ventilator verplaatst de warme lucht die al aanwezig is, zonder de binnenkomende warmte te verminderen. De folie grijpt in vóór de warmte de ruimte binnenkomt — beide lossen niet hetzelfde probleem op.",
+          answer: "Dat is niet vergelijkbaar: een ventilator verplaatst de warme lucht die al aanwezig is, zonder de binnenkomende warmte te verminderen. De folie grijpt in vóór de warmte de ruimte binnenkomt. Beide lossen dus niet hetzelfde probleem op.",
         },
         {
           question: 'Heeft de folie onderhouds- of werkingskosten?',
@@ -968,7 +968,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Hoe lang duurt de installatie?',
-          answer: 'De plaatsing gebeurt door onze medewerker rechtstreeks bij u thuis, in één interventie. De exacte duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
+          answer: 'De plaatsing gebeurt door onze medewerker rechtstreeks bij u thuis, in één interventie. De exacte duur hangt af van het aantal en de grootte van de betrokken vensters: we vermelden dit in uw offerte.',
         },
       ],
     },
@@ -984,19 +984,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Gordijnen dicht midden op de dag, rolluiken die nooit helemaal opengaan, een woonkamer die je in pyjama liever vermijdt: inkijk hoort bij het dagelijks leven van veel gezinnen in de stad. De meest voorkomende oplossing — sluiten — heeft een directe kost: minder natuurlijk licht, een donkerder huis, een kamer die je uiteindelijk links laat liggen. Raamfolie biedt een andere aanpak: de ramen open houden, terwijl niemand naar binnen kan kijken.",
+            "Gordijnen dicht midden op de dag, rolluiken die nooit helemaal opengaan, een woonkamer die je in pyjama liever vermijdt: inkijk hoort bij het dagelijks leven van veel gezinnen in de stad. De meest voorkomende oplossing, sluiten, heeft een directe kost: minder natuurlijk licht, een donkerder huis, een kamer die je uiteindelijk links laat liggen. Raamfolie biedt een andere aanpak: de ramen open houden, terwijl niemand naar binnen kan kijken.",
           ],
         },
         {
           heading: 'Inkijk, een dagelijkse realiteit in de stad',
           paragraphs: [
-            "Rijwoningen, gelijkvloerse verdiepingen die rechtstreeks op het trottoir uitgeven, appartementen die elkaar aankijken over een binnenkoer, kantoren op het gelijkvloers zichtbaar vanaf de straat: de dichte bebouwing in Brussel vermenigvuldigt de situaties waarin u gezien wordt, of u dat nu wilt of niet. De natuurlijke reflex is sluiten — gordijnen, vitrages, rolluiken — maar deze oplossing sluit ook het licht buiten, en daarmee een deel van het wooncomfort in de kamer.",
+            "Rijwoningen, gelijkvloerse verdiepingen die rechtstreeks op het trottoir uitgeven, appartementen die elkaar aankijken over een binnenkoer, kantoren op het gelijkvloers zichtbaar vanaf de straat: de dichte bebouwing in Brussel vermenigvuldigt de situaties waarin u gezien wordt, of u dat nu wilt of niet. De natuurlijke reflex is sluiten (gordijnen, vitrages, rolluiken), maar deze oplossing sluit ook het licht buiten, en daarmee een deel van het wooncomfort in de kamer.",
           ],
         },
         {
           heading: 'Zien zonder gezien te worden: het principe',
           paragraphs: [
-            "Spiegeleffectfolie berust op een eenvoudig optisch principe: licht. Overdag is het buiten altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van buitenaf blokkeert — terwijl u vanuit uw huis gewoon vrij zicht behoudt, zoals door een gewoon raam.",
+            "Spiegeleffectfolie berust op een eenvoudig optisch principe: licht. Overdag is het buiten altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van buitenaf blokkeert, terwijl u vanuit uw huis gewoon vrij zicht behoudt, zoals door een gewoon raam.",
           ],
         },
         {
@@ -1008,19 +1008,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Kantoren en winkels: zichtbaar blijven zonder blootgesteld te zijn',
           paragraphs: [
-            "Voor een kantoor of professionele ruimte op het gelijkvloers is de etalage vaak een troef — maar ze toont ook alles wat binnen gebeurt: vergaderingen, werkplekken, documenten. Raamfolie laat toe een uitnodigende glazen gevel te behouden vanaf buiten, terwijl u beschut van blikken werkt.",
+            "Voor een kantoor of professionele ruimte op het gelijkvloers is de etalage vaak een troef, maar ze toont ook alles wat binnen gebeurt: vergaderingen, werkplekken, documenten. Raamfolie laat toe een uitnodigende glazen gevel te behouden vanaf buiten, terwijl u beschut van blikken werkt.",
           ],
         },
         {
           heading: 'Inkijk tussen buren: geen permanent gesloten vitrages meer nodig',
           paragraphs: [
-            "In een gebouw of binnenkoer waar ramen elkaar aankijken, is de reflex vaak om de vitrages voortdurend dicht te houden — ten koste van het natuurlijk licht. Met folie op de betrokken ramen blijven de ramen overdag vrij, zonder dat de buren aan de overkant naar binnen kunnen kijken.",
+            "In een gebouw of binnenkoer waar ramen elkaar aankijken, is de reflex vaak om de vitrages voortdurend dicht te houden, ten koste van het natuurlijk licht. Met folie op de betrokken ramen blijven de ramen overdag vrij, zonder dat de buren aan de overkant naar binnen kunnen kijken.",
           ],
         },
         {
           heading: 'Matwitte folie: volledige privacy, dag en nacht',
           paragraphs: [
-            "Voor een ruimte waar privacy op elk moment gegarandeerd moet zijn — een badkamer, een slaapkamer op het gelijkvloers, een glazen voordeur — is spiegeleffectfolie niet de meest geschikte oplossing, aangezien ze enkel overdag werkt. Matwitte folie daarentegen blokkeert het zicht in beide richtingen, dag en nacht, ongeacht de lichtsterkte aan elke kant. Ze laat licht binnen terwijl ze constante privacy garandeert.",
+            "Voor een ruimte waar privacy op elk moment gegarandeerd moet zijn (een badkamer, een slaapkamer op het gelijkvloers, een glazen voordeur), is spiegeleffectfolie niet de meest geschikte oplossing, aangezien ze enkel overdag werkt. Matwitte folie daarentegen blokkeert het zicht in beide richtingen, dag en nacht, ongeacht de lichtsterkte aan elke kant. Ze laat licht binnen terwijl ze constante privacy garandeert.",
           ],
         },
         {
@@ -1039,15 +1039,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Werkt dit ook \'s nachts?',
-          answer: "Een belangrijk punt: dit effect werkt enkel zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer het licht bij u brandt en het buiten donker is, keert het effect om — zoals bij elk verlicht raam in het donker. Hou hier rekening mee, afhankelijk van de kamer en het tijdstip.",
+          answer: "Een belangrijk punt: dit effect werkt enkel zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer het licht bij u brandt en het buiten donker is, keert het effect om, zoals bij elk verlicht raam in het donker. Hou hier rekening mee, afhankelijk van de kamer en het tijdstip.",
         },
         {
           question: 'Zie ik minder goed naar buiten met de folie geplaatst?',
-          answer: "Met spiegeleffectfolie of zonwerende folie blijft het zicht vanaf binnen helder en vrij — enkel het zicht vanaf buiten wordt geblokkeerd. Matwitte folie daarentegen vertroebelt het zicht in beide richtingen: dat is het noodzakelijke compromis voor volledige privacy op elk moment.",
+          answer: "Met spiegeleffectfolie of zonwerende folie blijft het zicht vanaf binnen helder en vrij: enkel het zicht vanaf buiten wordt geblokkeerd. Matwitte folie daarentegen vertroebelt het zicht in beide richtingen: dat is het noodzakelijke compromis voor volledige privacy op elk moment.",
         },
         {
           question: 'Is dit geschikt voor een appartement in mede-eigendom?',
-          answer: "De folie wordt aan de binnenzijde van het glas geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn — we raden aan het reglement van mede-eigendom na te kijken.",
+          answer: "De folie wordt aan de binnenzijde van het glas geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn: we raden aan het reglement van mede-eigendom na te kijken.",
         },
         {
           question: 'Vervangt de folie gordijnen en rolluiken volledig?',
@@ -1055,7 +1055,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Hoe lang duurt de plaatsing?',
-          answer: 'De plaatsing gebeurt door onze medewerker rechtstreeks bij u thuis, in één interventie. De duur hangt af van het aantal en de grootte van de betrokken vensters — we vermelden dit in uw offerte.',
+          answer: 'De plaatsing gebeurt door onze medewerker rechtstreeks bij u thuis, in één interventie. De duur hangt af van het aantal en de grootte van de betrokken vensters: we vermelden dit in uw offerte.',
         },
       ],
     },
@@ -1085,7 +1085,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Raamfolie: snel, omkeerbaar, en veel goedkoper',
           paragraphs: [
             'Raamfolie wordt rechtstreeks op uw bestaande ramen geplaatst, zonder demontage of vervanging van de beglazing. De kostprijs ligt doorgaans tussen 8 en 80 €/m² afhankelijk van het type folie, dus een fractie van de prijs van een volledige vervanging. De interventie gebeurt in één bezoek, zonder grote werken.',
-            'Nog een voordeel: de folie is volledig omkeerbaar. Als uw ramen nog in goede staat zijn, is er geen enkele reden om ze te vervangen enkel om thermisch comfort, privacy of UV-bescherming te winnen — de folie beantwoordt aan dezelfde behoefte zonder de nadelen van een zware werf.',
+            'Nog een voordeel: de folie is volledig omkeerbaar. Als uw ramen nog in goede staat zijn, is er geen enkele reden om ze te vervangen enkel om thermisch comfort, privacy of UV-bescherming te winnen: de folie beantwoordt aan dezelfde behoefte zonder de nadelen van een zware werf.',
           ],
         },
         {
@@ -1104,7 +1104,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Welke folie kiezen in dat geval?',
           paragraphs: [
-            "Als de folie u aanspreekt, moet u nog de juiste tint kiezen op basis van uw echte behoefte — warmte, privacy of veiligheid. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, en ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de offerte berekend wordt op basis van oppervlakte en type folie.",
+            "Als de folie u aanspreekt, moet u nog de juiste tint kiezen op basis van uw echte behoefte: warmte, privacy of veiligheid. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, en ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de offerte berekend wordt op basis van oppervlakte en type folie.",
           ],
         },
         {
@@ -1124,7 +1124,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Werkt raamfolie op nieuw dubbel of drievoudig glas?',
-          answer: 'Ja, zonder probleem. De folie wordt aan de binnenzijde van eender welk type beglazing geplaatst — enkel, dubbel of drievoudig — of het nu oud is of net geïnstalleerd.',
+          answer: 'Ja, zonder probleem. De folie wordt aan de binnenzijde van eender welk type beglazing geplaatst (enkel, dubbel of drievoudig), of het nu oud is of net geïnstalleerd.',
         },
         {
           question: 'Kan folie een geïntegreerde zonwerende beglazing vervangen?',
@@ -1154,26 +1154,26 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Wat beveiligingsfolie concreet verandert',
           paragraphs: [
-            'De folie wordt aan de binnenzijde van de beglazing aangebracht, in een doorlopende, hechtende laag. Wanneer het raam geraakt wordt, barst het glas, maar de scherven blijven bijeengehouden door de folie in plaats van weg te vliegen of ineens toe te geven. Resultaat: er zijn meerdere herhaalde klappen, lawaai en tijd nodig om een doorgang te forceren — precies wat een opportunistische inbreker wil vermijden.',
+            'De folie wordt aan de binnenzijde van de beglazing aangebracht, in een doorlopende, hechtende laag. Wanneer het raam geraakt wordt, barst het glas, maar de scherven blijven bijeengehouden door de folie in plaats van weg te vliegen of ineens toe te geven. Resultaat: er zijn meerdere herhaalde klappen, lawaai en tijd nodig om een doorgang te forceren, precies wat een opportunistische inbreker wil vermijden.',
             'Het is belangrijk hier eerlijk over te zijn: de folie vertraagt en bemoeilijkt een inbraak, ze maakt ze niet onmogelijk. Het is een extra beschermingslaag, geen absolute garantie.',
           ],
         },
         {
           heading: 'Etalages en gelijkvloers: de eerste blootgestelde linie',
           paragraphs: [
-            'Voor een handelszaak of een gelijkvloers zichtbaar vanaf de straat is de etalage zowel een commerciële troef als het kwetsbaarste punt. Beveiligingsfolie wordt geplaatst zonder het uitzicht van de etalage te veranderen of de zichtbaarheid te hinderen — ze blijft transparant en praktisch onzichtbaar eenmaal geplaatst.',
+            'Voor een handelszaak of een gelijkvloers zichtbaar vanaf de straat is de etalage zowel een commerciële troef als het kwetsbaarste punt. Beveiligingsfolie wordt geplaatst zonder het uitzicht van de etalage te veranderen of de zichtbaarheid te hinderen: ze blijft transparant en praktisch onzichtbaar eenmaal geplaatst.',
           ],
         },
         {
           heading: 'Glazen deuren en schuifpuien',
           paragraphs: [
-            'Terrasdeuren en glazen schuifpuien zijn veelvoorkomende doelwitten, vaak toegankelijker dan een klassieke voordeur — tuin, terras, zijstraat. Dezelfde folie wordt op deze oppervlakken aangebracht om hun weerstand tegen impact te versterken.',
+            'Terrasdeuren en glazen schuifpuien zijn veelvoorkomende doelwitten, vaak toegankelijker dan een klassieke voordeur (tuin, terras, zijstraat). Dezelfde folie wordt op deze oppervlakken aangebracht om hun weerstand tegen impact te versterken.',
           ],
         },
         {
           heading: 'Een versterking, geen vervanging van uw beveiliging',
           paragraphs: [
-            'Beveiligingsfolie is een aanvulling op uw bestaande voorzieningen — sloten, alarm, buitenverlichting — geen vervanging. Ze werkt op één specifiek punt: de tijd en het lawaai die nodig zijn om door een raam te geraken, wat een groot deel van opportunistische inbraakpogingen ontmoedigt.',
+            'Beveiligingsfolie is een aanvulling op uw bestaande voorzieningen (sloten, alarm, buitenverlichting), geen vervanging. Ze werkt op één specifiek punt: de tijd en het lawaai die nodig zijn om door een raam te geraken, wat een groot deel van opportunistische inbraakpogingen ontmoedigt.',
           ],
         },
         {
@@ -1192,7 +1192,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Maakt de folie het raam onbreekbaar?',
-          answer: 'Nee. Het glas kan nog steeds barsten onder een klap, maar de folie houdt de scherven samen en bemoeilijkt sterk de doorgang — er zijn meer klappen, meer lawaai en meer tijd nodig om toegang te forceren.',
+          answer: 'Nee. Het glas kan nog steeds barsten onder een klap, maar de folie houdt de scherven samen en bemoeilijkt sterk de doorgang: er zijn meer klappen, meer lawaai en meer tijd nodig om toegang te forceren.',
         },
         {
           question: 'Is de folie zichtbaar eenmaal geplaatst?',
@@ -1226,13 +1226,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Hoe zonwerende folie inwerkt op warmte',
           paragraphs: [
-            'Aangebracht aan de binnenzijde van de beglazing filtert zonwerende folie een deel van de zonnestraling voordat ze door het glas dringt en omgezet wordt in warmte in de ruimte — hetzelfde principe als het broeikaseffect, maar afgezwakt. Het resultaat is vooral merkbaar in de meest blootgestelde ruimtes: veranda\'s, kantoren en woonkamers op het zuiden of westen.',
+            'Aangebracht aan de binnenzijde van de beglazing filtert zonwerende folie een deel van de zonnestraling voordat ze door het glas dringt en omgezet wordt in warmte in de ruimte, een beetje zoals het broeikaseffect, maar afgezwakt. Het resultaat is vooral merkbaar in de meest blootgestelde ruimtes: veranda\'s, kantoren en woonkamers op het zuiden of westen.',
           ],
         },
         {
           heading: 'Minder verblinding, altijd een vrij uitzicht',
           paragraphs: [
-            'In tegenstelling tot een zonnescherm of gordijn blijft zonwerende folie transparant — met een lichte blauwachtige tint eigen aan dit type folie — en vermindert ze directe verblinding — handig voor een computerscherm of televisie overdag — zonder dat u iets moet sluiten of het uitzicht naar buiten moet opgeven.',
+            'In tegenstelling tot een zonnescherm of gordijn blijft zonwerende folie transparant (met een lichte blauwachtige tint eigen aan dit type folie) en vermindert ze directe verblinding, handig voor een computerscherm of televisie overdag, zonder dat u iets moet sluiten of het uitzicht naar buiten moet opgeven.',
           ],
         },
         {
@@ -1244,13 +1244,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'UV-bescherming als extra voordeel',
           paragraphs: [
-            'Zonwerende folie filtert ook een deel van de UV-stralen die verantwoordelijk zijn voor het verkleuren van meubels, stoffen en parket die jarenlang aan de zon blootgesteld worden — een bijkomend voordeel naast de vermindering van warmte en verblinding.',
+            'Zonwerende folie filtert ook een deel van de UV-stralen die verantwoordelijk zijn voor het verkleuren van meubels, stoffen en parket die jarenlang aan de zon blootgesteld worden, een bijkomend voordeel naast de vermindering van warmte en verblinding.',
           ],
         },
         {
           heading: 'Zonwerend of spiegeleffect: wat is het verschil?',
           paragraphs: [
-            'Zonwerende folie richt zich op warmte en licht, niet noodzakelijk op privacy — het uitzicht vanaf buiten blijft mogelijk afhankelijk van het gekozen type. Als uw prioriteit is om blikken te vermijden (inkijk, gelijkvloers), kijkt u beter naar de spiegelfolie of matwitte folie; beide behoeften kunnen ook gecombineerd worden per ruimte.',
+            'Zonwerende folie richt zich op warmte en licht, niet noodzakelijk op privacy: het uitzicht vanaf buiten blijft mogelijk afhankelijk van het gekozen type. Als uw prioriteit is om blikken te vermijden (inkijk, gelijkvloers), kijkt u beter naar de spiegelfolie of matwitte folie; beide behoeften kunnen ook gecombineerd worden per ruimte.',
           ],
         },
         {
@@ -1277,7 +1277,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: "Helpt de folie ook om warmte binnen te houden in de winter?",
-          answer: "Dat is niet het hoofddoel van de folie, die in de eerste plaats tegen zomerhitte is ontworpen. Een extra laag op de beglazing kan in theorie de warmte-uitwisseling in beide richtingen licht beperken — maar dit effect is voor dit product niet gemeten of wetenschappelijk bewezen. We geven liever een eerlijk antwoord dan een winters voordeel te beloven dat we niet kunnen garanderen.",
+          answer: "Dat is niet het hoofddoel van de folie, die in de eerste plaats tegen zomerhitte is ontworpen. Een extra laag op de beglazing kan in theorie de warmte-uitwisseling in beide richtingen licht beperken, maar dit effect is voor dit product niet gemeten of wetenschappelijk bewezen. We geven liever een eerlijk antwoord dan een winters voordeel te beloven dat we niet kunnen garanderen.",
         },
         {
           question: 'Beschermt zonwerende folie ook de privacy?',
@@ -1297,7 +1297,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom een gratis offerte de enige manier is om een exact cijfer te krijgen.',
       date: '2026-09-13',
       excerpt:
-        'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf — hier is wat ze beïnvloedt, en waarom het enige echte antwoord een gratis en vrijblijvende offerte blijft.',
+        'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf. Hier is wat ze beïnvloedt, en waarom het enige echte antwoord een gratis en vrijblijvende offerte blijft.',
       sections: [
         {
           paragraphs: [
@@ -1307,13 +1307,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Waarom er geen vaste prijs vermeld staat',
           paragraphs: [
-            'Er bestaat geen universeel tarief voor het plaatsen van raamfolie: de prijs hangt rechtstreeks af van uw project — type folie, totale oppervlakte, configuratie van de beglazing. Een generieke prijsvork vermelden zou u een cijfer geven dat waarschijnlijk niet overeenkomt met uw echte situatie.',
+            'Er bestaat geen universeel tarief voor het plaatsen van raamfolie: de prijs hangt rechtstreeks af van uw project (type folie, totale oppervlakte, configuratie van de beglazing). Een generieke prijsvork vermelden zou u een cijfer geven dat waarschijnlijk niet overeenkomt met uw echte situatie.',
           ],
         },
         {
           heading: 'Wat de prijs doet variëren',
           paragraphs: [
-            'Het gekozen type folie (zonwerend, beveiliging tegen inbraak, spiegel, matwit) kan het tarief licht beïnvloeden, aangezien elke folie haar eigen kenmerken en materiaalkosten heeft. De totale oppervlakte speelt ook een rol: een grotere werf laat vaak een voordeligere prijs per m² toe. Tot slot telt de toegankelijkheid mee — hoogte van de beglazing, aantal openingen, configuratie van de ruimte — omdat dit de plaatsingstijd beïnvloedt.',
+            'Het gekozen type folie (zonwerend, beveiliging tegen inbraak, spiegel, matwit) kan het tarief licht beïnvloeden, aangezien elke folie haar eigen kenmerken en materiaalkosten heeft. De totale oppervlakte speelt ook een rol: een grotere werf laat vaak een voordeligere prijs per m² toe. Tot slot telt de toegankelijkheid mee (hoogte van de beglazing, aantal openingen, configuratie van de ruimte), omdat dit de plaatsingstijd beïnvloedt.',
           ],
         },
         {
@@ -1325,7 +1325,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Ons werkgebied',
           paragraphs: [
-            'Wij zijn actief in het volledige Brussels Hoofdstedelijk Gewest en omstreken (Waals- en Vlaams-Brabant). Voor werven van voldoende omvang verplaatsen we ons ook elders in België — onder meer Charleroi, Antwerpen en Gent. Aarzel niet om ons uw project voor te leggen, waar het zich ook bevindt.',
+            'Wij zijn actief in het volledige Brussels Hoofdstedelijk Gewest en omstreken (Waals- en Vlaams-Brabant). Voor werven van voldoende omvang verplaatsen we ons ook elders in België, onder meer naar Charleroi, Antwerpen en Gent. Aarzel niet om ons uw project voor te leggen, waar het zich ook bevindt.',
           ],
         },
         {
@@ -1376,38 +1376,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Waarom UV uw interieur beschadigt',
           paragraphs: [
-            'Gewoon glas laat het overgrote deel van de UV-stralen van de zon door. Onzichtbaar en zonder merkbare warmte, tasten ze toch geleidelijk de pigmenten aan van blootgestelde stoffen, hout en synthetische materialen — dat verklaart een zetel die alleen aan de raamkant verkleurt, of een parket dat per vlak van tint verandert doorheen de seizoenen.',
+            'Gewoon glas laat het overgrote deel van de UV-stralen van de zon door. Onzichtbaar en zonder merkbare warmte, tasten ze toch geleidelijk de pigmenten aan van blootgestelde stoffen, hout en synthetische materialen. Dat verklaart een zetel die alleen aan de raamkant verkleurt, of een parket dat per vlak van tint verandert doorheen de seizoenen.',
           ],
         },
         {
           heading: 'De bestaande oplossingen, en hun beperkingen',
           paragraphs: [
-            'Gordijnen en rolluiken blokkeren UV goed, maar ook licht en zicht — u moet ze sluiten om er iets aan te hebben, wat niet altijd praktisch is in het dagelijks leven. Zonwerend glas, geïntegreerd bij de productie van het raam, is doeltreffend maar geldt enkel voor nieuwe ramen of een volledige vervanging, tegen een aanzienlijk hogere kost. Raamfolie wordt rechtstreeks op uw bestaande ramen geplaatst, zonder werken, en beschermt continu zonder dat u iets moet sluiten.',
+            'Gordijnen en rolluiken blokkeren UV goed, maar ook licht en zicht: u moet ze sluiten om er iets aan te hebben, wat niet altijd praktisch is in het dagelijks leven. Zonwerend glas, geïntegreerd bij de productie van het raam, is doeltreffend maar geldt enkel voor nieuwe ramen of een volledige vervanging, tegen een aanzienlijk hogere kost. Raamfolie wordt rechtstreeks op uw bestaande ramen geplaatst, zonder werken, en beschermt continu zonder dat u iets moet sluiten.',
           ],
         },
         {
           heading: 'Een UV-bescherming die meetbaar is, niet die u moet raden',
           paragraphs: [
-            'Voor onze spiegeleffect folie (zilveren tint) varieert de UV-bescherming naargelang de geplaatste intensiteit: van 46% voor de lichte versie tot 87% voor de sterke versie. Kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken. We geven liever deze precieze cijfers dan een vage belofte van "totale bescherming".',
+            'Voor onze spiegeleffect folie (zilveren tint) varieert de UV-bescherming naargelang de geplaatste intensiteit: van 46% voor de lichte versie tot 87% voor de sterke versie. Kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken. We geven liever deze precieze cijfers dan een vage belofte van "totale bescherming".',
           ],
         },
         {
           heading: 'Niet elke folie blokkeert UV op dezelfde manier',
           paragraphs: [
-            'Wat veel klanten niet weten: eenzelfde folie bestaat in verschillende intensiteitsniveaus — licht, gemiddeld en sterk. Hoe sterker de intensiteit, hoe minder licht de ruimte binnenkomt, maar hoe meer warmte en UV ze blokkeert. Op het technisch fiche van onze installateur: de lichte versie laat 43% van het daglicht door en blokkeert ongeveer 65% van de totale zonnewarmte, tegenover slechts 7% doorgelaten licht maar meer dan 93% geblokkeerde warmte voor de sterke versie.',
-            'Het is niet aan de klant om dit niveau te kiezen: ons technisch team bepaalt ter plaatse welke intensiteit het best past bij de oriëntatie van uw ramen en uw echte behoeften — UV-bescherming, warmte, of allebei tegelijk.',
+            'Wat veel klanten niet weten: eenzelfde folie bestaat in verschillende intensiteitsniveaus, licht, gemiddeld en sterk. Hoe sterker de intensiteit, hoe minder licht de ruimte binnenkomt, maar hoe meer warmte en UV ze blokkeert. Op het technisch fiche van onze installateur: de lichte versie laat 43% van het daglicht door en blokkeert ongeveer 65% van de totale zonnewarmte, tegenover slechts 7% doorgelaten licht maar meer dan 93% geblokkeerde warmte voor de sterke versie.',
+            'Het is niet aan de klant om dit niveau te kiezen: ons technisch team bepaalt ter plaatse welke intensiteit het best past bij de oriëntatie van uw ramen en uw echte behoeften, UV-bescherming, warmte, of allebei tegelijk.',
           ],
         },
         {
           heading: 'Een extra voordeel: privacy',
           paragraphs: [
-            'Als uw folie een spiegeleffect heeft, gaat de UV-bescherming gepaard met een echte bonus: privacy overdag. Onlangs contacteerde een klant in Waterloo ons voor zijn zuidgerichte woonkamer, met zowel een verkleuringsprobleem als inkijk vanaf het voetpad — dezelfde folie loste beide problemen in één plaatsing op. Voor meer over dit specifieke onderwerp behandelt ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) alle oplossingen.',
+            'Als uw folie een spiegeleffect heeft, gaat de UV-bescherming gepaard met een echte bonus: privacy overdag. Onlangs contacteerde een klant in Waterloo ons voor zijn zuidgerichte woonkamer, met zowel een verkleuringsprobleem als inkijk vanaf het voetpad: dezelfde folie loste beide problemen in één plaatsing op. Voor meer over dit specifieke onderwerp behandelt ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) alle oplossingen.',
           ],
         },
         {
           heading: 'Zilveren of zwarte spiegelfolie: welke kiest men het vaakst?',
           paragraphs: [
-            'Onze spiegeleffect folie bestaat in twee tinten. Zilver is de klassieke versie: overdag blokkeert ze het zicht van buitenaf volledig, terwijl u vanbinnen een vrij uitzicht behoudt — maar \'s avonds, als het interieur verlicht is en het buiten donker is, keert het effect om, net als bij elk gewoon raam. Zwart is radicaler: zelfs \'s nachts, met verlicht interieur, blijft het onmogelijk om naar binnen te kijken, ten koste van een merkelijk lagere lichtinval binnen — een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte.',
+            'Onze spiegeleffect folie bestaat in twee tinten. Zilver is de klassieke versie: overdag blokkeert ze het zicht van buitenaf volledig, terwijl u vanbinnen een vrij uitzicht behoudt, maar \'s avonds, als het interieur verlicht is en het buiten donker is, keert het effect om, net als bij elk gewoon raam. Zwart is radicaler: zelfs \'s nachts, met verlicht interieur, blijft het onmogelijk om naar binnen te kijken, ten koste van een merkelijk lagere lichtinval binnen, een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte.',
             'Concreet koos een klant in Waterloo met een zuidgerichte woonkamer voor zilver, omdat zijn inkijkprobleem zich vooral overdag voordeed. Een ander contact, voor één enkel raam dat rechtstreeks op het voetpad uitgeeft en op zoek naar privacy op elk moment, zou beter gediend zijn geweest met zwart. De prijs verandert niet naargelang de gekozen tint: enkel de te behandelen oppervlakte bepaalt het tarief.',
           ],
         },
@@ -1433,7 +1433,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Beschermt raamfolie echt tegen verkleuring?',
-          answer: 'Ja — dit hangt rechtstreeks samen met het UV-beschermingsniveau van de geplaatste folie, dat varieert van 46% tot 87% naargelang de intensiteit voor onze spiegeleffect folie. Hoe hoger de UV-blokkering, hoe trager de verkleuring.',
+          answer: 'Ja, dit hangt rechtstreeks samen met het UV-beschermingsniveau van de geplaatste folie, dat varieert van 46% tot 87% naargelang de intensiteit voor onze spiegeleffect folie. Hoe hoger de UV-blokkering, hoe trager de verkleuring.',
         },
         {
           question: 'Moet u toch nog gordijnen sluiten met raamfolie?',
@@ -1441,7 +1441,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Bieden al onze folies dezelfde UV-bescherming?',
-          answer: "Nee. Voor onze spiegeleffect folie varieert de bescherming van 46% tot 87% naargelang de geplaatste intensiteit. We beschikken nog niet over precieze UV-gegevens voor de zwarte tint — we geven liever geen cijfer tot dit bevestigd is.",
+          answer: "Nee. Voor onze spiegeleffect folie varieert de bescherming van 46% tot 87% naargelang de geplaatste intensiteit. We beschikken nog niet over precieze UV-gegevens voor de zwarte tint: we geven liever geen cijfer tot dit bevestigd is.",
         },
         {
           question: 'Verandert de prijs naargelang het gewenste UV-beschermingsniveau?',
@@ -1461,7 +1461,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Een vraag die we vaak horen — normaal, want de meeste mensen hebben nog nooit raamfolie laten plaatsen. Het goede nieuws: het proces is eenvoudig, en in de meeste gevallen beantwoordt één folie meteen aan twee behoeften — privacy én warmte. Hier is, stap voor stap, hoe een project bij VitraCare verloopt, van het eerste contact tot de plaatsing.',
+            'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Een vraag die we vaak horen, en dat is normaal, want de meeste mensen hebben nog nooit raamfolie laten plaatsen. Het goede nieuws: het proces is eenvoudig, en in de meeste gevallen beantwoordt één folie meteen aan twee behoeften, privacy én warmte. Hier is, stap voor stap, hoe een project bij VitraCare verloopt, van het eerste contact tot de plaatsing.',
           ],
         },
         {
@@ -1473,25 +1473,25 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Stap 2: de offerte',
           paragraphs: [
-            'Op basis van deze afmetingen stellen we een gedetailleerde offerte op, gratis en vrijblijvend — welke formule u ook koos in de vorige stap. De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de beglazing; ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt de berekening in detail uit. Daarna kan u meteen [uw offerte aanvragen](/devis) online.',
+            'Op basis van deze afmetingen stellen we een gedetailleerde offerte op, gratis en vrijblijvend, welke formule u ook koos in de vorige stap. De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de beglazing; ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt de berekening in detail uit. Daarna kan u meteen [uw offerte aanvragen](/devis) online.',
           ],
         },
         {
           heading: 'Stap 3: de keuze van de folie',
           paragraphs: [
-            'Dit is ook het moment om de juiste folie te kiezen. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, maar één geval komt heel vaak terug: de spiegeleffectfolie, die twee behoeften in één plaatsing beantwoordt — ze blokkeert het zicht van buitenaf overdag (zie ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage)) en vermindert tegelijk de warmte en UV-stralen die via uw ramen binnenkomen (zie ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles)). Dit is vaak de meest rendabele oplossing wanneer beide behoeften samen spelen.',
+            'Dit is ook het moment om de juiste folie te kiezen. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, maar één geval komt heel vaak terug: de spiegeleffectfolie, die twee behoeften in één plaatsing beantwoordt. Ze blokkeert het zicht van buitenaf overdag (zie ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage)) en vermindert tegelijk de warmte en UV-stralen die via uw ramen binnenkomen (zie ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles)). Dit is vaak de meest rendabele oplossing wanneer beide behoeften samen spelen.',
           ],
         },
         {
           heading: 'Stap 4: de afspraak en de plaatsing',
           paragraphs: [
-            'Zodra de folie gekozen is en de offerte aanvaard, plannen we een afspraak voor de plaatsing. De interventie gebeurt in één enkel bezoek, zonder zware werken: de folie wordt rechtstreeks op de binnenzijde van de beglazing aangebracht, zonder het raamkader of het raam zelf aan te raken. Ze beschadigt uw ramen dus niet, en blijft volledig omkeerbaar mocht u later van gedacht veranderen. De duur van de interventie hangt af van het aantal en de grootte van uw beglazing — we geven u een precieze inschatting bij de offerte. De plaatsing zelf is 2 jaar gewaarborgd door ons technisch team.',
+            'Zodra de folie gekozen is en de offerte aanvaard, plannen we een afspraak voor de plaatsing. De interventie gebeurt in één enkel bezoek, zonder zware werken: de folie wordt rechtstreeks op de binnenzijde van de beglazing aangebracht, zonder het raamkader of het raam zelf aan te raken. Ze beschadigt uw ramen dus niet, en blijft volledig omkeerbaar mocht u later van gedacht veranderen. De duur van de interventie hangt af van het aantal en de grootte van uw beglazing: we geven u een precieze inschatting bij de offerte. De plaatsing zelf is 2 jaar gewaarborgd door ons technisch team.',
           ],
         },
         {
           heading: 'Na de plaatsing: levensduur en onderhoud',
           paragraphs: [
-            'Eenmaal geplaatst heeft de folie een geschatte levensduur van 10 tot 15 jaar. Het enige aandachtspunt is de eerste maand: vermijd het raam te kuisen of aan te raken tijdens deze periode, de tijd die de folie nodig heeft om volledig te hechten — eventuele kleine luchtbelletjes verdwijnen vanzelf. Daarna volstaat kuisen met water en een milde zeep; onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) geeft alle onderhoudstips.',
+            'Eenmaal geplaatst heeft de folie een geschatte levensduur van 10 tot 15 jaar. Het enige aandachtspunt is de eerste maand: vermijd het raam te kuisen of aan te raken tijdens deze periode, de tijd die de folie nodig heeft om volledig te hechten (eventuele kleine luchtbelletjes verdwijnen vanzelf). Daarna volstaat kuisen met water en een milde zeep; onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) geeft alle onderhoudstips.',
           ],
         },
         {
@@ -1503,7 +1503,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Onze klanten getuigen',
           paragraphs: [
-            'Onze klanten delen hun ervaring op [Google](https://share.google/c3Bih4FWySHUhjkAZ) en [Trustpilot](https://nl-be.trustpilot.com/review/vitracare.be) — aarzel niet om even te kijken voor u start.',
+            'Onze klanten delen hun ervaring op [Google](https://share.google/c3Bih4FWySHUhjkAZ) en [Trustpilot](https://nl-be.trustpilot.com/review/vitracare.be): aarzel niet om even te kijken voor u start.',
           ],
         },
         {
@@ -1562,16 +1562,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'miroir',
           paragraphs: [
             "The mirror effect film is the most effective solution when it comes to privacy. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
-            "Beyond privacy, this film blocks 46% to 87% of UV rays depending on the intensity installed — quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching — and significantly reduces the heat entering through your windows — a real advantage in summer.",
+            "Beyond privacy, this film blocks 46% to 87% of UV rays depending on the intensity installed (quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching), and it significantly reduces the heat entering through your windows, a real advantage in summer.",
             "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
-            "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors — a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/protection-uv-film-vitrage-bruxelles) helps you decide based on your rooms.",
+            "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors, a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/protection-uv-film-vitrage-bruxelles) helps you decide based on your rooms.",
           ],
         },
         {
           heading: 'Solar tint',
           anchor: 'solaire',
           paragraphs: [
-            "If your priority is thermal comfort rather than total privacy, solar tint is the most suitable film. Unlike mirror film, it remains transparent — you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
+            "If your priority is thermal comfort rather than total privacy, solar tint is the most suitable film. Unlike mirror film, it remains transparent: you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
             "Its main role: reducing the heat and UV entering the house, for optimal comfort in summer without having to close the shutters or install air conditioning. It's a solution particularly appreciated in living spaces heavily exposed to the sun, or to protect a south-facing living room that becomes hard to use in the afternoon.",
           ],
         },
@@ -1579,7 +1579,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Matte white film',
           anchor: 'mat',
           paragraphs: [
-            "Matte white film answers a different need: total privacy, in both directions — from inside as well as outside, day or night. Unlike mirror film, how it works doesn't depend on light levels.",
+            "Matte white film answers a different need: total privacy, in both directions (from inside as well as outside, day or night). Unlike mirror film, how it works doesn't depend on light levels.",
             "It's the best choice for a bathroom, a conservatory, a glazed front door, or any room where you want to let light in without ever being visible. It also gives a clean, elegant look that's very popular on contemporary façades.",
           ],
         },
@@ -1588,7 +1588,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'anti-effraction',
           paragraphs: [
             "Anti-burglary film answers a different need from the previous three: it's completely transparent and changes nothing about how your windows look. Its purpose isn't privacy, but security.",
-            "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane — they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
+            "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane: they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
             "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window.",
           ],
         },
@@ -1617,9 +1617,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Installation and lifespan',
           paragraphs: [
-            "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference) — which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
+            "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference), which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation. To see how a project actually unfolds, from quote request to installation, check our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles).',
-            "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation — this is the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
+            "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation, the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
             "A small side benefit of the installation: the window is cleaned before the film is applied, leaving that side spotless once the work is done.",
           ],
         },
@@ -1632,18 +1632,18 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],
       faq: [
         {
           question: 'Is the film applied to the inside or the outside of the glass?',
-          answer: "Generally on the inside — exterior installation remains possible depending on your preference. Interior installation protects the film from weather and window cleaning, and supports its lifespan — estimated at 10-15 years.",
+          answer: "Generally on the inside; exterior installation remains possible depending on your preference. Interior installation protects the film from weather and window cleaning, and supports its lifespan, estimated at 10-15 years.",
         },
         {
           question: "Does the film reduce the view towards the outside?",
-          answer: "No, neither mirror effect film nor solar tint affects the view from inside — it stays clear and unobstructed. Only matte white film blurs the view, in both directions, since that's precisely its purpose.",
+          answer: "No, neither mirror effect film nor solar tint affects the view from inside: it stays clear and unobstructed. Only matte white film blurs the view, in both directions, since that's precisely its purpose.",
         },
         {
           question: 'Can I combine different films within the same home?',
@@ -1651,7 +1651,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Does anti-burglary film really prevent a break-in?',
-          answer: "No, no film makes a window unbreakable. It significantly slows down a break-in attempt by holding the glass shards together instead of letting them fall, which makes it harder and slower for an intruder to get through — a delay that's often decisive.",
+          answer: "No, no film makes a window unbreakable. It significantly slows down a break-in attempt by holding the glass shards together instead of letting them fall, which makes it harder and slower for an intruder to get through, a delay that's often decisive.",
         },
       ],
     },
@@ -1667,13 +1667,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Every summer, the same reflex: pull out the fan, or invest in a portable air conditioner. Both share one thing in common — they consume electricity continuously, without ever addressing the real cause of the problem: the heat entering through the windows. Window film tackles the problem from the other end, blocking a large share of that heat before it gets in. Here's what independent research shows on the topic.",
+            "Every summer, the same reflex: pull out the fan, or invest in a portable air conditioner. Both share one thing in common: they consume electricity continuously, without ever addressing the real cause of the problem: the heat entering through the windows. Window film tackles the problem from the other end, blocking a large share of that heat before it gets in. Here's what independent research shows on the topic.",
           ],
         },
         {
           heading: 'How many degrees cooler, in practice?',
           paragraphs: [
-            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun — conservatories, glass roofs, and south- or west-facing façades leading the list. In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass — which, according to the same study, accounts for roughly a third of a building's cooling load. In practical terms, that means a room that's barely bearable by early afternoon can become liveable again simply by cutting the heat off at the source, before it ever enters the room.",
+            "Field reports from solar film installations show a 3 to 6°C drop in indoor temperature during summer, in rooms directly exposed to the sun: conservatories, glass roofs, and south- or west-facing façades leading the list. In the United States, the [Department of Energy](https://www.osti.gov/servlets/purl/1089147) points in the same direction: window films can cut cooling-related energy use by up to 30%, by limiting solar heat gain through the glass, which, according to the same study, accounts for roughly a third of a building's cooling load. In practical terms, that means a room that's barely bearable by early afternoon can become liveable again simply by cutting the heat off at the source, before it ever enters the room.",
           ],
         },
         {
@@ -1685,8 +1685,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Film, AC, or fan: what\'s the fundamental difference?',
           paragraphs: [
-            "A fan only moves the hot air already inside the room — it doesn't reduce the heat still coming in through the glass. An air conditioner actively cools the air, but consumes electricity continuously and has to keep fighting heat that never stops coming in.",
-            "Window film acts upstream: it reduces the amount of solar heat passing through the glass in the first place. Less heat coming in means less work for an existing air conditioner (and so less consumption) — or simply a more liveable room without switching anything on at all.",
+            "A fan only moves the hot air already inside the room; it doesn't reduce the heat still coming in through the glass. An air conditioner actively cools the air, but consumes electricity continuously and has to keep fighting heat that never stops coming in.",
+            "Window film acts upstream: it reduces the amount of solar heat passing through the glass in the first place. Less heat coming in means less work for an existing air conditioner (and so less consumption), or simply a more liveable room without switching anything on at all.",
           ],
         },
         {
@@ -1706,7 +1706,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: "Isn't that wasted effort come winter?",
-          answer: "No — the film also helps retain indoor heat in winter, by limiting heat loss through the glazing. It's an investment that works year-round, not just during summer heat peaks.",
+          answer: "No, the film also helps retain indoor heat in winter, by limiting heat loss through the glazing. It's an investment that works year-round, not just during summer heat peaks.",
         },
         {
           question: 'Does window film fully replace air conditioning?',
@@ -1714,7 +1714,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Does the film work as well as a fan?',
-          answer: "They're not really comparable: a fan circulates the hot air already present, without reducing the heat still coming in. The film acts before heat enters the room at all — the two don't solve the same problem.",
+          answer: "They're not really comparable: a fan circulates the hot air already present, without reducing the heat still coming in. The film acts before heat enters the room at all; the two don't solve the same problem.",
         },
         {
           question: 'Does the film have any maintenance or running costs?',
@@ -1726,7 +1726,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'How long does installation take?',
-          answer: "Installation is carried out by our collaborator directly at your home, in a single visit. The exact duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
+          answer: "Installation is carried out by our collaborator directly at your home, in a single visit. The exact duration depends on the number and size of the windows involved; we'll confirm this in your quote.",
         },
       ],
     },
@@ -1742,19 +1742,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Curtains drawn in the middle of the day, shutters that never fully open, a living room you avoid walking through in your pyjamas: being overlooked is part of daily life for many city households. The usual fix — closing up — comes with a real cost: less natural light, a darker home, a room you eventually stop using. Window film offers a different approach: keep the windows uncovered, while making it impossible to see inside.",
+            "Curtains drawn in the middle of the day, shutters that never fully open, a living room you avoid walking through in your pyjamas: being overlooked is part of daily life for many city households. The usual fix, closing up, comes with a real cost: less natural light, a darker home, a room you eventually stop using. Window film offers a different approach: keep the windows uncovered, while making it impossible to see inside.",
           ],
         },
         {
           heading: 'Being overlooked: a daily reality of city living',
           paragraphs: [
-            "Terraced houses, ground-floor rooms opening straight onto the pavement, flats facing each other across a shared courtyard, ground-floor offices visible from the street: dense urban housing in Brussels multiplies the situations where you're seen, whether you want to be or not. The natural instinct is to close up — curtains, net curtains, shutters — but that also shuts out the light, and with it, part of the room's liveability.",
+            "Terraced houses, ground-floor rooms opening straight onto the pavement, flats facing each other across a shared courtyard, ground-floor offices visible from the street: dense urban housing in Brussels multiplies the situations where you're seen, whether you want to be or not. The natural instinct is to close up (curtains, net curtains, shutters), but that also shuts out the light, and with it, part of the room's liveability.",
           ],
         },
         {
           heading: 'Seeing without being seen: how it works',
           paragraphs: [
-            "Mirror effect film relies on a simple optical principle: light. During the day, the outside of a room is always brighter than the inside. The film reflects that light on the outside face, creating a mirror effect that blocks the view from outside — while from inside your home, the view stays just as clear as through an ordinary window.",
+            "Mirror effect film relies on a simple optical principle: light. During the day, the outside of a room is always brighter than the inside. The film reflects that light on the outside face, creating a mirror effect that blocks the view from outside, while from inside your home, the view stays just as clear as through an ordinary window.",
           ],
         },
         {
@@ -1766,19 +1766,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Offices and shopfronts: staying visible without being exposed',
           paragraphs: [
-            "For a ground-floor office or professional space, a glazed frontage is often an asset — but it also puts everything inside on display: meetings, workstations, documents. Window film lets you keep an inviting glass façade from the outside, while working away from prying eyes on the inside.",
+            "For a ground-floor office or professional space, a glazed frontage is often an asset, but it also puts everything inside on display: meetings, workstations, documents. Window film lets you keep an inviting glass façade from the outside, while working away from prying eyes on the inside.",
           ],
         },
         {
           heading: "Overlooked by neighbours: no more permanently closed net curtains",
           paragraphs: [
-            "In a building or courtyard where windows face each other, the usual reflex is to keep net curtains permanently closed — at the cost of natural light. With film applied to the windows concerned, they stay uncovered during the day, without neighbours across the way being able to see in.",
+            "In a building or courtyard where windows face each other, the usual reflex is to keep net curtains permanently closed, at the cost of natural light. With film applied to the windows concerned, they stay uncovered during the day, without neighbours across the way being able to see in.",
           ],
         },
         {
           heading: 'Matte white film: total privacy, day and night',
           paragraphs: [
-            "For a room where privacy needs to be guaranteed at all times — a bathroom, a ground-floor bedroom, a glazed front door — mirror effect film isn't the best fit, since it only works during the day. Matte white film, on the other hand, blocks the view in both directions, day and night, regardless of the light level on either side. It lets light in while guaranteeing constant privacy.",
+            "For a room where privacy needs to be guaranteed at all times (a bathroom, a ground-floor bedroom, a glazed front door), mirror effect film isn't the best fit, since it only works during the day. Matte white film, on the other hand, blocks the view in both directions, day and night, regardless of the light level on either side. It lets light in while guaranteeing constant privacy.",
           ],
         },
         {
@@ -1790,22 +1790,22 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your situation and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
           ],
         },
       ],
       faq: [
         {
           question: 'Does it work at night too?',
-          answer: "One important thing to know: this effect only works as long as the outside is brighter than the inside — in other words, during the day. In the evening, once your lights are on and it's dark outside, the effect reverses, just like with any lit window at night. Worth keeping in mind depending on the room and the time of day.",
+          answer: "One important thing to know: this effect only works as long as the outside is brighter than the inside, in other words, during the day. In the evening, once your lights are on and it's dark outside, the effect reverses, just like with any lit window at night. Worth keeping in mind depending on the room and the time of day.",
         },
         {
           question: 'Do I lose visibility looking outward with the film applied?',
-          answer: "With mirror effect film or solar tint, the view from inside stays clear and unobstructed — only the view from outside is blocked. Matte white film, on the other hand, blurs the view in both directions: that's the necessary trade-off for total privacy at all times.",
+          answer: "With mirror effect film or solar tint, the view from inside stays clear and unobstructed: only the view from outside is blocked. Matte white film, on the other hand, blurs the view in both directions: that's the necessary trade-off for total privacy at all times.",
         },
         {
           question: 'Is this suitable for a flat in a co-owned building?',
-          answer: "The film is applied to the inside face of the glass and doesn't change the building's exterior appearance. Depending on the co-ownership rules, a simple notice to the general assembly or the building manager may still be required beforehand — we recommend checking your co-ownership regulations to be sure.",
+          answer: "The film is applied to the inside face of the glass and doesn't change the building's exterior appearance. Depending on the co-ownership rules, a simple notice to the general assembly or the building manager may still be required beforehand; we recommend checking your co-ownership regulations to be sure.",
         },
         {
           question: 'Does the film fully replace curtains and shutters?',
@@ -1813,7 +1813,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'How long does installation take?',
-          answer: "Installation is carried out by our collaborator directly at your home, in a single visit. The duration depends on the number and size of the windows involved — we'll confirm this in your quote.",
+          answer: "Installation is carried out by our collaborator directly at your home, in a single visit. The duration depends on the number and size of the windows involved; we'll confirm this in your quote.",
         },
       ],
     },
@@ -1843,7 +1843,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Window film: fast, reversible, and far cheaper',
           paragraphs: [
             'Window film is applied directly to your existing windows, with no need to remove or replace the glazing. The cost is generally between €8 and €80/m² depending on the type of film, a fraction of the price of a full replacement. The work is done in a single visit, with no major construction involved.',
-            "Another advantage: the film is fully reversible. If your windows are still in good condition, there's no reason to replace them just to gain thermal comfort, privacy, or UV protection — film addresses the same need without the drawbacks of major construction work.",
+            "Another advantage: the film is fully reversible. If your windows are still in good condition, there's no reason to replace them just to gain thermal comfort, privacy, or UV protection: film addresses the same need without the drawbacks of major construction work.",
           ],
         },
         {
@@ -1862,7 +1862,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Which film to choose in that case?',
           paragraphs: [
-            "If film sounds like the right fit, you still need to pick the right tint for your actual need — heat, privacy, or security. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, and our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type.",
+            "If film sounds like the right fit, you still need to pick the right tint for your actual need: heat, privacy, or security. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, and our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type.",
           ],
         },
         {
@@ -1875,14 +1875,14 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],
       faq: [
         {
           question: 'Does window film work on new double or triple glazing?',
-          answer: "Yes, without any issue. The film is applied to the inside of any type of glazing — single, double, or triple — whether it's old or just installed.",
+          answer: "Yes, without any issue. The film is applied to the inside of any type of glazing (single, double, or triple), whether it's old or just installed.",
         },
         {
           question: 'Can film replace built-in solar control glazing?',
@@ -1912,26 +1912,26 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'What security film actually changes',
           paragraphs: [
-            "The film is applied to the inside face of the glazing, as a continuous, adhesive layer. When the glass is struck, it cracks, but the fragments stay held together by the film instead of shattering outward or giving way in one go. The result: it takes repeated blows, noise and time to force an opening — exactly what an opportunistic burglar wants to avoid.",
+            "The film is applied to the inside face of the glazing, as a continuous, adhesive layer. When the glass is struck, it cracks, but the fragments stay held together by the film instead of shattering outward or giving way in one go. The result: it takes repeated blows, noise and time to force an opening, exactly what an opportunistic burglar wants to avoid.",
             "It's important to be honest about this: the film slows down and complicates a break-in, it doesn't make one impossible. It's an added layer of protection, not an absolute guarantee.",
           ],
         },
         {
           heading: 'Shop windows and ground floors: the first exposed line',
           paragraphs: [
-            "For a shop or a ground-floor space visible from the street, the window is both a commercial asset and the most vulnerable point. Security film is applied without changing the look of the window or affecting visibility — it stays transparent and virtually invisible once installed.",
+            "For a shop or a ground-floor space visible from the street, the window is both a commercial asset and the most vulnerable point. Security film is applied without changing the look of the window or affecting visibility: it stays transparent and virtually invisible once installed.",
           ],
         },
         {
           heading: 'Glass doors and sliding bay windows',
           paragraphs: [
-            "Patio doors and sliding glass bays are frequent targets, often more accessible than a standard front door — garden, terrace, side alley. The same film is applied to these surfaces to reinforce their resistance to impact.",
+            "Patio doors and sliding glass bays are frequent targets, often more accessible than a standard front door (garden, terrace, side alley). The same film is applied to these surfaces to reinforce their resistance to impact.",
           ],
         },
         {
           heading: 'A reinforcement, not a replacement for your security',
           paragraphs: [
-            "Security film complements your existing measures — locks, alarm, outdoor lighting — it doesn't replace them. It acts on one specific point: the time and noise needed to get through a window, which discourages a large share of opportunistic break-in attempts.",
+            "Security film complements your existing measures (locks, alarm, outdoor lighting); it doesn't replace them. It acts on one specific point: the time and noise needed to get through a window, which discourages a large share of opportunistic break-in attempts.",
           ],
         },
         {
@@ -1943,14 +1943,14 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],
       faq: [
         {
           question: 'Does the film make the glass unbreakable?',
-          answer: "No. The glass can still crack under a blow, but the film holds the fragments together and makes it much harder to get through — it takes more blows, more noise and more time to force access.",
+          answer: "No. The glass can still crack under a blow, but the film holds the fragments together and makes it much harder to get through: it takes more blows, more noise and more time to force access.",
         },
         {
           question: 'Is the film visible once installed?',
@@ -1984,13 +1984,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'How solar film acts on heat',
           paragraphs: [
-            "Applied to the inside face of the glazing, solar film filters part of the solar radiation before it passes through the glass and turns into heat inside the room — the same principle as the greenhouse effect, but dampened. The effect is most noticeable in the most exposed rooms: conservatories, offices and living rooms facing south or west.",
+            "Applied to the inside face of the glazing, solar film filters part of the solar radiation before it passes through the glass and turns into heat inside the room: the same principle as the greenhouse effect, but dampened. The effect is most noticeable in the most exposed rooms: conservatories, offices and living rooms facing south or west.",
           ],
         },
         {
           heading: 'Less glare, an unobstructed view',
           paragraphs: [
-            "Unlike a blind or curtain, solar film stays transparent — with a slight blue tint characteristic of this type of film — and reduces direct glare — useful for a computer screen or TV during the day — without ever needing to close anything or lose the view outside.",
+            "Unlike a blind or curtain, solar film stays transparent (with a slight blue tint characteristic of this type of film) and reduces direct glare (useful for a computer screen or TV during the day), without ever needing to close anything or lose the view outside.",
           ],
         },
         {
@@ -2002,13 +2002,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'UV protection, as a bonus',
           paragraphs: [
-            "Solar film also filters part of the UV rays responsible for fading furniture, fabrics and floors exposed to the sun over the years — a secondary benefit on top of the reduced heat and glare.",
+            "Solar film also filters part of the UV rays responsible for fading furniture, fabrics and floors exposed to the sun over the years, a secondary benefit on top of the reduced heat and glare.",
           ],
         },
         {
           heading: 'Solar or mirror effect: what\'s the difference?',
           paragraphs: [
-            "Solar film targets heat and light, not necessarily privacy — depending on the type chosen, the view from outside may still be possible. If your priority is avoiding being overlooked (privacy, ground floor), mirror or matte white film is the better fit; the two needs can also be combined room by room.",
+            "Solar film targets heat and light, not necessarily privacy: depending on the type chosen, the view from outside may still be possible. If your priority is avoiding being overlooked (privacy, ground floor), mirror or matte white film is the better fit; the two needs can also be combined room by room.",
           ],
         },
         {
@@ -2020,7 +2020,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],
@@ -2035,7 +2035,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Does the film also help keep heat in during winter?',
-          answer: "That's not the film's main purpose, which is primarily designed against summer heat. Adding an extra layer to the glazing could, in theory, slightly limit heat exchange in both directions — but this effect hasn't been measured or scientifically proven for this product. We'd rather give an honest answer than promise a winter benefit we can't guarantee.",
+          answer: "That's not the film's main purpose, which is primarily designed against summer heat. Adding an extra layer to the glazing could, in theory, slightly limit heat exchange in both directions, but this effect hasn't been measured or scientifically proven for this product. We'd rather give an honest answer than promise a winter benefit we can't guarantee.",
         },
         {
           question: 'Does solar film also protect privacy?',
@@ -2055,7 +2055,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         "How much does window film installation cost in Brussels? What influences the price, and why a free quote is the only way to get an exact figure.",
       date: '2026-09-13',
       excerpt:
-        "The price depends on the type of film, the total surface area, and how accessible the site is — here's what influences it, and why the only real answer is a free, no-obligation quote.",
+        "The price depends on the type of film, the total surface area, and how accessible the site is: here's what influences it, and why the only real answer is a free, no-obligation quote.",
       sections: [
         {
           paragraphs: [
@@ -2065,13 +2065,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: "Why we don't post a fixed price",
           paragraphs: [
-            "There's no universal rate for window film installation: the price depends directly on your project — type of film, total surface area, window configuration. Posting a generic range would just give you a figure that probably doesn't match your actual situation.",
+            "There's no universal rate for window film installation: the price depends directly on your project (type of film, total surface area, window configuration). Posting a generic range would just give you a figure that probably doesn't match your actual situation.",
           ],
         },
         {
           heading: 'What makes the price vary',
           paragraphs: [
-            'The type of film chosen (solar, security anti-break-in, mirror, matte white) can slightly affect the rate, as each film has its own characteristics and material cost. Total surface area also matters: a larger project often allows for a better price per m². Finally, accessibility counts — window height, number of openings, site layout — since it affects installation time.',
+            'The type of film chosen (solar, security anti-break-in, mirror, matte white) can slightly affect the rate, as each film has its own characteristics and material cost. Total surface area also matters: a larger project often allows for a better price per m². Finally, accessibility counts (window height, number of openings, site layout), since it affects installation time.',
           ],
         },
         {
@@ -2083,7 +2083,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Our service area',
           paragraphs: [
-            'We work throughout the Brussels-Capital Region and its surroundings (Walloon and Flemish Brabant). For sufficiently large projects, we also travel elsewhere in Belgium — including Charleroi, Antwerp and Ghent. Feel free to submit your project regardless of location.',
+            'We work throughout the Brussels-Capital Region and its surroundings (Walloon and Flemish Brabant). For sufficiently large projects, we also travel elsewhere in Belgium, including Charleroi, Antwerp and Ghent. Feel free to submit your project regardless of location.',
           ],
         },
         {
@@ -2095,7 +2095,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],
@@ -2134,38 +2134,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Why UV damages your interior',
           paragraphs: [
-            "Ordinary glass lets through the vast majority of the sun's UV rays. Invisible and without perceptible heat, they still gradually degrade the pigments in exposed fabrics, wood and synthetic materials — which explains a sofa that only fades on the window side, or a wooden floor that changes shade in patches over the seasons.",
+            "Ordinary glass lets through the vast majority of the sun's UV rays. Invisible and without perceptible heat, they still gradually degrade the pigments in exposed fabrics, wood and synthetic materials, which explains a sofa that only fades on the window side, or a wooden floor that changes shade in patches over the seasons.",
           ],
         },
         {
           heading: 'The existing solutions, and their limits',
           paragraphs: [
-            "Curtains and blinds block UV well, but also light and view — you have to close them for them to work, which isn't always practical day to day. Solar-control glazing, built into the window itself, is effective but only applies to new windows or a full replacement, at a significantly higher cost. Window film is applied directly to your existing windows, with no construction work, and protects continuously without needing to close anything.",
+            "Curtains and blinds block UV well, but also light and view: you have to close them for them to work, which isn't always practical day to day. Solar-control glazing, built into the window itself, is effective but only applies to new windows or a full replacement, at a significantly higher cost. Window film is applied directly to your existing windows, with no construction work, and protects continuously without needing to close anything.",
           ],
         },
         {
           heading: 'UV protection you can measure, not guess at',
           paragraphs: [
-            "For our mirror-effect film (silver tint), UV protection varies by the intensity installed: from 46% for the light version to 87% for the strong version. Quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/) — a ceiling our strongest versions approach without quite reaching. We'd rather give you these precise figures than a vague promise of \"total protection\".",
+            "For our mirror-effect film (silver tint), UV protection varies by the intensity installed: from 46% for the light version to 87% for the strong version. Quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching. We'd rather give you these precise figures than a vague promise of \"total protection\".",
           ],
         },
         {
           heading: "Not all films block UV the same way",
           paragraphs: [
-            "What many clients don't realise: the same film comes in several intensity levels — light, medium and strong. The stronger the intensity, the less light the room lets in, but the more heat and UV it blocks. From our installer's technical sheet: the light version lets through 43% of daylight and blocks around 65% of total solar heat, compared to just 7% of light let through but over 93% of heat blocked for the strong version.",
-            "It's not the client's choice which level to use: our technical team determines on site which intensity best suits your windows' orientation and your actual needs — UV protection, heat, or both at once.",
+            "What many clients don't realise: the same film comes in several intensity levels (light, medium and strong). The stronger the intensity, the less light the room lets in, but the more heat and UV it blocks. From our installer's technical sheet: the light version lets through 43% of daylight and blocks around 65% of total solar heat, compared to just 7% of light let through but over 93% of heat blocked for the strong version.",
+            "It's not the client's choice which level to use: our technical team determines on site which intensity best suits your windows' orientation and your actual needs: UV protection, heat, or both at once.",
           ],
         },
         {
           heading: 'A bonus benefit: privacy',
           paragraphs: [
-            "If your film has a mirror effect, UV protection comes with a genuine bonus: daytime privacy. A client in Waterloo recently contacted us about their south-facing living room, with both a fading problem and an issue of being overlooked from the pavement — the same film solved both problems in a single installation. For more on that specific topic, our [dedicated article on privacy](/blog/intimite-vis-a-vis-film-vitrage) covers all the solutions.",
+            "If your film has a mirror effect, UV protection comes with a genuine bonus: daytime privacy. A client in Waterloo recently contacted us about their south-facing living room, with both a fading problem and an issue of being overlooked from the pavement: the same film solved both problems in a single installation. For more on that specific topic, our [dedicated article on privacy](/blog/intimite-vis-a-vis-film-vitrage) covers all the solutions.",
           ],
         },
         {
           heading: 'Silver or black mirror film: which do clients pick most?',
           paragraphs: [
-            "Our mirror-effect film comes in two tints. Silver is the classic version: during the day, it fully blocks the view from outside while you keep a clear view from inside — but in the evening, if the interior is lit and it's dark outside, the effect reverses, just like with any ordinary window. Black is more radical: even at night, with the interior lit, it remains impossible to see inside, at the cost of noticeably less light indoors — a trade-off best suited to a glazed front door, less so to a living space.",
+            "Our mirror-effect film comes in two tints. Silver is the classic version: during the day, it fully blocks the view from outside while you keep a clear view from inside, but in the evening, if the interior is lit and it's dark outside, the effect reverses, just like with any ordinary window. Black is more radical: even at night, with the interior lit, it remains impossible to see inside, at the cost of noticeably less light indoors, a trade-off best suited to a glazed front door, less so to a living space.",
             "In practice, a client in Waterloo with a south-facing living room chose silver, since their being-overlooked issue mainly came up during the day. Another contact, for a single window facing directly onto the pavement and looking for privacy at all times, would have been better served by black. The price doesn't change depending on the tint chosen: only the surface area to be treated affects the rate.",
           ],
         },
@@ -2191,7 +2191,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Does window film really protect against fading?',
-          answer: "Yes — this is directly tied to the UV protection level of the film installed, which ranges from 46% to 87% depending on intensity for our mirror-effect film. The higher the UV blocking, the slower the fading.",
+          answer: "Yes, this is directly tied to the UV protection level of the film installed, which ranges from 46% to 87% depending on intensity for our mirror-effect film. The higher the UV blocking, the slower the fading.",
         },
         {
           question: 'Do you still need to close curtains with window film?',
@@ -2199,7 +2199,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Do all our films offer the same UV protection?',
-          answer: "No. For our mirror-effect film, protection ranges from 46% to 87% depending on the intensity installed. We don't yet have precise UV figures for the black tint — we'd rather not quote a number until it's confirmed.",
+          answer: "No. For our mirror-effect film, protection ranges from 46% to 87% depending on the intensity installed. We don't yet have precise UV figures for the black tint; we'd rather not quote a number until it's confirmed.",
         },
         {
           question: 'Does the price change depending on the UV protection level wanted?',
@@ -2219,7 +2219,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Hesitant to request a quote because you're not sure what to expect next? It's a question we hear often — and it makes sense, since most people have never had window film installed before. The good news: the process is simple, and in most cases, a single film answers two needs at once — privacy and heat. Here's, step by step, how a project with VitraCare unfolds, from first contact to installation.",
+            "Hesitant to request a quote because you're not sure what to expect next? It's a question we hear often, and it makes sense, since most people have never had window film installed before. The good news: the process is simple, and in most cases, a single film answers two needs at once: privacy and heat. Here's, step by step, how a project with VitraCare unfolds, from first contact to installation.",
           ],
         },
         {
@@ -2231,25 +2231,25 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Step 2: the quote',
           paragraphs: [
-            "Based on these measurements, we prepare a detailed quote, free and with no obligation — whichever option you chose in the previous step. The price depends on the type of film, the total surface area, and how accessible the windows are; our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains the calculation in detail. You can then [request your quote](/devis) directly online.",
+            "Based on these measurements, we prepare a detailed quote, free and with no obligation, whichever option you chose in the previous step. The price depends on the type of film, the total surface area, and how accessible the windows are; our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains the calculation in detail. You can then [request your quote](/devis) directly online.",
           ],
         },
         {
           heading: 'Step 3: choosing the film',
           paragraphs: [
-            "This is also when you choose the film that suits your needs. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, but one case comes up very often: mirror effect film, which answers two needs in a single installation — it blocks the view from outside during the day (see our [article on privacy](/blog/intimite-vis-a-vis-film-vitrage)) while also reducing the heat and UV entering through your windows (see our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles)). It's often the most cost-effective solution when both needs apply at once.",
+            "This is also when you choose the film that suits your needs. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, but one case comes up very often: mirror effect film, which answers two needs in a single installation: it blocks the view from outside during the day (see our [article on privacy](/blog/intimite-vis-a-vis-film-vitrage)) while also reducing the heat and UV entering through your windows (see our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles)). It's often the most cost-effective solution when both needs apply at once.",
           ],
         },
         {
           heading: 'Step 4: the appointment and installation',
           paragraphs: [
-            "Once the film is chosen and the quote accepted, we schedule an appointment for installation. The work is done in a single visit, with no heavy renovation: the film is applied directly to the inside face of the glazing, without touching the frame or the window itself. It doesn't damage your windows, and stays fully reversible if you change your mind later. How long it takes depends on the number and size of your windows — we give you a precise estimate with the quote. The installation itself is guaranteed for 2 years by our technical team.",
+            "Once the film is chosen and the quote accepted, we schedule an appointment for installation. The work is done in a single visit, with no heavy renovation: the film is applied directly to the inside face of the glazing, without touching the frame or the window itself. It doesn't damage your windows, and stays fully reversible if you change your mind later. How long it takes depends on the number and size of your windows; we give you a precise estimate with the quote. The installation itself is guaranteed for 2 years by our technical team.",
           ],
         },
         {
           heading: 'After installation: lifespan and maintenance',
           paragraphs: [
-            "Once installed, the film has an estimated lifespan of 10 to 15 years. The only thing to watch out for is the first month: avoid cleaning or touching the window during this period, the time the film needs to fully adhere — any small air bubbles disappear on their own. After that, cleaning with water and mild soap is enough; our [guide to choosing your film](/blog/quel-film-choisir-vitrages) covers all the care tips.",
+            "Once installed, the film has an estimated lifespan of 10 to 15 years. The only thing to watch out for is the first month: avoid cleaning or touching the window during this period, the time the film needs to fully adhere. Any small air bubbles disappear on their own. After that, cleaning with water and mild soap is enough; our [guide to choosing your film](/blog/quel-film-choisir-vitrages) covers all the care tips.",
           ],
         },
         {
@@ -2261,7 +2261,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'What our clients say',
           paragraphs: [
-            "Our clients share their experience on [Google](https://share.google/c3Bih4FWySHUhjkAZ) and [Trustpilot](https://www.trustpilot.com/review/vitracare.be) — feel free to take a look before you get started.",
+            "Our clients share their experience on [Google](https://share.google/c3Bih4FWySHUhjkAZ) and [Trustpilot](https://www.trustpilot.com/review/vitracare.be): feel free to take a look before you get started.",
           ],
         },
         {
@@ -2273,7 +2273,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Still unsure?',
           paragraphs: [
-            "Contact us — we'll advise you for free based on your project and reply within 24 hours.",
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
           ],
         },
       ],

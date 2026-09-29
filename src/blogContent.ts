@@ -703,7 +703,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? C'est une question qu'on nous pose souvent, et c'est normal : la plupart des gens n'ont jamais fait poser de film pour vitrage. La bonne nouvelle : le processus est simple, et dans la majorité des cas, un seul film répond à deux besoins à la fois, l'intimité et la chaleur. Voici, étape par étape, comment se déroule un projet avec VitraCare, de la première prise de contact à la pose.",
+            "Beaucoup de gens hésitent à demander un devis simplement parce qu'ils ne savent pas trop à quoi s'attendre ensuite. C'est normal, la plupart n'ont jamais fait poser de film pour vitrage avant. Dans les faits, le processus tient en quatre étapes assez simples, et souvent un seul film couvre deux besoins à la fois : l'intimité et la chaleur. Voici comment ça se passe concrètement, de la première prise de contact jusqu'à la pose chez vous.",
           ],
         },
         {
@@ -721,13 +721,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Étape 3 : le choix du film',
           paragraphs: [
-            "C'est aussi à ce moment que vous choisissez le film adapté à votre besoin. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, mais un cas revient très souvent : le film effet miroir, qui répond à deux besoins en une seule pose. Il empêche la vue depuis l'extérieur en journée (voir notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage)) tout en réduisant la chaleur et les UV qui entrent par vos fenêtres (voir notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles)). C'est souvent la solution la plus rentable quand les deux besoins se posent en même temps.",
+            "C'est aussi le moment où vous choisissez le film qui correspond à votre besoin. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Dans la pratique, un cas revient très souvent : le film effet miroir, qui coche deux cases à la fois. Il empêche la vue depuis l'extérieur en journée (voir notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage)), et réduit en même temps la chaleur et les UV qui entrent par vos fenêtres (voir notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles)). Beaucoup de nos clients optent pour ce film justement parce qu'il règle les deux problèmes en une seule intervention.",
           ],
         },
         {
           heading: 'Étape 4 : le rendez-vous et la pose',
           paragraphs: [
-            "Une fois le film choisi et le devis accepté, nous fixons un rendez-vous pour la pose. L'intervention se fait en une seule visite, sans gros œuvre : le film est appliqué directement sur la face intérieure du vitrage, sans toucher au châssis ni à la fenêtre elle-même. Il n'abîme donc pas vos fenêtres, et reste entièrement réversible si vous changez d'avis plus tard. La durée de l'intervention dépend du nombre et de la taille de vos vitrages : nous vous donnons une estimation précise au moment du devis. La pose elle-même est garantie 2 ans par notre équipe technique.",
+            "Une fois le film choisi et le devis accepté, on fixe un rendez-vous pour la pose. Tout se fait en une seule visite, sans gros œuvre : le film est appliqué sur la face intérieure du vitrage, sans toucher au châssis ni à la fenêtre elle-même. Vos fenêtres ne sont donc pas abîmées, et le film reste réversible si jamais vous changez d'avis plus tard. Pour la durée, ça dépend surtout du nombre et de la taille de vos vitrages : on vous donne une estimation précise dès le devis. La pose est garantie 2 ans par notre équipe technique.",
           ],
         },
         {
@@ -1461,7 +1461,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Een vraag die we vaak horen, en dat is normaal, want de meeste mensen hebben nog nooit raamfolie laten plaatsen. Het goede nieuws: het proces is eenvoudig, en in de meeste gevallen beantwoordt één folie meteen aan twee behoeften, privacy én warmte. Hier is, stap voor stap, hoe een project bij VitraCare verloopt, van het eerste contact tot de plaatsing.',
+            'Veel mensen aarzelen om een offerte aan te vragen, gewoon omdat ze niet goed weten wat daarna komt. Dat is normaal, de meeste mensen hebben nog nooit raamfolie laten plaatsen. In de praktijk komt het proces neer op vier vrij eenvoudige stappen, en vaak beantwoordt één folie meteen aan twee behoeften: privacy én warmte. Zo verloopt het concreet, van het eerste contact tot de plaatsing bij u thuis.',
           ],
         },
         {
@@ -1479,13 +1479,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Stap 3: de keuze van de folie',
           paragraphs: [
-            'Dit is ook het moment om de juiste folie te kiezen. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, maar één geval komt heel vaak terug: de spiegeleffectfolie, die twee behoeften in één plaatsing beantwoordt. Ze blokkeert het zicht van buitenaf overdag (zie ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage)) en vermindert tegelijk de warmte en UV-stralen die via uw ramen binnenkomen (zie ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles)). Dit is vaak de meest rendabele oplossing wanneer beide behoeften samen spelen.',
+            'Dit is ook het moment om de juiste folie te kiezen. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten. In de praktijk komt één geval heel vaak terug: de spiegeleffectfolie, die twee vliegen in één klap slaat. Ze blokkeert het zicht van buitenaf overdag (zie ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage)), en vermindert tegelijk de warmte en UV-stralen die via uw ramen binnenkomen (zie ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles)). Veel klanten kiezen net daarom voor deze folie: ze lost twee problemen op in één enkele plaatsing.',
           ],
         },
         {
           heading: 'Stap 4: de afspraak en de plaatsing',
           paragraphs: [
-            'Zodra de folie gekozen is en de offerte aanvaard, plannen we een afspraak voor de plaatsing. De interventie gebeurt in één enkel bezoek, zonder zware werken: de folie wordt rechtstreeks op de binnenzijde van de beglazing aangebracht, zonder het raamkader of het raam zelf aan te raken. Ze beschadigt uw ramen dus niet, en blijft volledig omkeerbaar mocht u later van gedacht veranderen. De duur van de interventie hangt af van het aantal en de grootte van uw beglazing: we geven u een precieze inschatting bij de offerte. De plaatsing zelf is 2 jaar gewaarborgd door ons technisch team.',
+            'Zodra de folie gekozen is en de offerte aanvaard, plannen we een afspraak voor de plaatsing. Alles gebeurt in één enkel bezoek, zonder zware werken: de folie wordt op de binnenzijde van de beglazing aangebracht, zonder het raamkader aan te raken. Uw ramen raken dus niet beschadigd, en de folie blijft omkeerbaar mocht u later van gedacht veranderen. Voor de duur hangt het vooral af van het aantal en de grootte van uw beglazing: we geven u een precieze inschatting bij de offerte. De plaatsing is 2 jaar gewaarborgd door ons technisch team.',
           ],
         },
         {
@@ -2219,7 +2219,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Hesitant to request a quote because you're not sure what to expect next? It's a question we hear often, and it makes sense, since most people have never had window film installed before. The good news: the process is simple, and in most cases, a single film answers two needs at once: privacy and heat. Here's, step by step, how a project with VitraCare unfolds, from first contact to installation.",
+            "Plenty of people hesitate to request a quote simply because they're not sure what happens next. That's normal, most have never had window film installed before. In practice, the process comes down to four fairly simple steps, and often a single film covers two needs at once: privacy and heat. Here's how it actually plays out, from first contact to the day of installation.",
           ],
         },
         {
@@ -2237,13 +2237,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Step 3: choosing the film',
           paragraphs: [
-            "This is also when you choose the film that suits your needs. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, but one case comes up very often: mirror effect film, which answers two needs in a single installation: it blocks the view from outside during the day (see our [article on privacy](/blog/intimite-vis-a-vis-film-vitrage)) while also reducing the heat and UV entering through your windows (see our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles)). It's often the most cost-effective solution when both needs apply at once.",
+            "This is also when you choose the film that suits your needs. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints. In practice, one case comes up very often: mirror effect film, which kills two birds with one stone. It blocks the view from outside during the day (see our [article on privacy](/blog/intimite-vis-a-vis-film-vitrage)), and at the same time reduces the heat and UV entering through your windows (see our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles)). A lot of our clients pick it for exactly that reason: it solves two problems in a single installation.",
           ],
         },
         {
           heading: 'Step 4: the appointment and installation',
           paragraphs: [
-            "Once the film is chosen and the quote accepted, we schedule an appointment for installation. The work is done in a single visit, with no heavy renovation: the film is applied directly to the inside face of the glazing, without touching the frame or the window itself. It doesn't damage your windows, and stays fully reversible if you change your mind later. How long it takes depends on the number and size of your windows; we give you a precise estimate with the quote. The installation itself is guaranteed for 2 years by our technical team.",
+            "Once the film is chosen and the quote accepted, we schedule an appointment for installation. It all happens in a single visit, with no heavy renovation: the film is applied to the inside face of the glazing, without touching the frame. Your windows aren't damaged, and the film stays reversible if you change your mind later. How long it takes mostly depends on the number and size of your windows; we give you a precise estimate with the quote. The installation is guaranteed for 2 years by our technical team.",
           ],
         },
         {

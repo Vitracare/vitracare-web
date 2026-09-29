@@ -150,32 +150,32 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Chaque été, le même réflexe : sortir le ventilateur, ou investir dans un climatiseur mobile. Les deux ont un point commun : ils consomment de l'électricité en continu, sans jamais s'attaquer à la vraie cause du problème, la chaleur qui entre par les fenêtres. Le film pour vitrage prend le problème à l'envers, en bloquant une bonne partie de cette chaleur avant qu'elle n'entre. Voici ce que montrent les études indépendantes sur le sujet.",
+            "Chaque été, c'est le même réflexe : on ressort le ventilateur, ou on investit dans un climatiseur mobile. Le problème, c'est que ces deux solutions consomment de l'électricité en continu sans jamais toucher à la vraie cause : la chaleur qui entre par les fenêtres. Le film pour vitrage fonctionne à l'inverse, en bloquant une bonne partie de cette chaleur avant qu'elle n'entre dans la pièce. Voici ce que montrent les études indépendantes sur le sujet.",
           ],
         },
         {
           heading: 'Combien de degrés en moins, concrètement ?',
           paragraphs: [
-            "Les retours de terrain sur des installations de films solaires font état d'une baisse de 3 à 6°C de la température intérieure en été, dans les pièces directement exposées au soleil (vérandas, toits vitrés, façades sud ou ouest en tête de liste). Aux États-Unis, le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) (le ministère fédéral de l'énergie) va dans le même sens : les films pour vitrage permettent de réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre, responsable selon la même étude d'environ un tiers de la charge de climatisation d'un bâtiment. Concrètement, cela signifie qu'une pièce difficilement supportable en début d'après-midi peut redevenir vivable simplement en réduisant l'apport de chaleur à la source, avant qu'elle n'entre dans la pièce.",
+            "Sur le terrain, les installations de films solaires montrent une baisse de 3 à 6°C de la température intérieure en été, surtout dans les pièces les plus exposées au soleil : vérandas, toits vitrés, façades sud ou ouest en tête de liste. Le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) américain (le ministère fédéral de l'énergie) arrive à une conclusion proche : les films pour vitrage peuvent réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre. Cet apport représente, selon la même étude, environ un tiers de la charge de climatisation d'un bâtiment. En pratique, ça veut dire qu'une pièce à peine supportable en début d'après-midi peut redevenir vivable, simplement en coupant la chaleur à la source avant qu'elle n'entre dans la pièce.",
           ],
         },
         {
           heading: 'Moins de climatisation, moins de dépenses',
           paragraphs: [
-            "Sur des bâtiments équipés de films solaires, les retours d'expérience du secteur font état d'une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées, selon les données compilées par [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), qui s'appuient notamment sur les recommandations de l'ADEME (l'agence française de la transition écologique). Contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité, pas d'entretien, pas de filtre à changer. Sur la durée, cela change la nature même de la dépense : au lieu d'un poste récurrent qui grimpe avec le prix de l'électricité, la protection solaire devient un investissement réalisé une seule fois, dont le bénéfice se répète chaque été sans coût additionnel.",
+            "Sur des bâtiments équipés de films solaires, le secteur rapporte une réduction de 20 à 35 % de la consommation liée à la climatisation sur les façades traitées, d'après les données compilées par [Wonderglass](https://www.wonderglass.fr/blog/le-film-solaire-moins-de-clim-plus-deconomie), qui s'appuient notamment sur les recommandations de l'ADEME (l'agence française de la transition écologique). Et contrairement à un climatiseur, le film n'a aucun coût de fonctionnement une fois posé : pas d'électricité à payer, rien à entretenir. Ça change la nature de la dépense : plutôt qu'une facture qui grimpe chaque été avec le prix de l'électricité, on paie une fois, et le bénéfice se répète ensuite sans coût additionnel.",
           ],
         },
         {
           heading: 'Film, climatiseur ou ventilateur : quelle différence de fond ?',
           paragraphs: [
-            "Un ventilateur ne fait que déplacer l'air chaud déjà présent dans la pièce : il ne réduit pas la chaleur qui continue d'entrer par les vitrages. Un climatiseur, lui, refroidit activement l'air, mais consomme de l'électricité en continu et doit lutter en permanence contre une chaleur qui n'arrête pas d'entrer.",
-            "Le film pour vitrage agit en amont : il réduit la quantité de chaleur solaire qui traverse le verre. Moins de chaleur qui entre, c'est moins de travail pour un climatiseur existant (et donc moins de consommation), ou tout simplement une pièce plus vivable sans avoir besoin d'allumer quoi que ce soit.",
+            "Un ventilateur ne fait que brasser l'air chaud déjà présent dans la pièce, il ne réduit en rien la chaleur qui continue d'entrer par les vitrages. Un climatiseur refroidit activement l'air, mais il consomme de l'électricité sans interruption et doit lutter en permanence contre une chaleur qui n'arrête jamais d'entrer.",
+            "Le film pour vitrage agit plus en amont : il réduit directement la quantité de chaleur solaire qui traverse le verre. Résultat, un climatiseur déjà installé a moins de travail à faire (donc consomme moins), et si vous n'en avez pas, la pièce reste tout simplement plus vivable sans rien allumer du tout.",
           ],
         },
         {
           heading: 'Quel film pour ce résultat ?',
           paragraphs: [
-            "C'est la teinte solaire qui est visée par ces économies : elle reste transparente dans les deux sens tout en réduisant la chaleur, contrairement au film effet miroir qui joue avant tout sur l'intimité. Notre [article dédié à ce film](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement, et notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
+            "C'est la teinte solaire qui permet ces économies : elle reste transparente dans les deux sens tout en réduisant la chaleur, contrairement au film effet miroir qui joue surtout sur l'intimité. Notre [article dédié à ce film](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement, et notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
           ],
         },
         {
@@ -189,19 +189,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Et en hiver, ce n\'est pas du gaspillage ?',
-          answer: "Non, le film aide aussi à conserver la chaleur à l'intérieur en hiver, en limitant la déperdition à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur estivaux.",
+          answer: "Non : il aide aussi à garder la chaleur à l'intérieur en hiver, en limitant les déperditions à travers le vitrage. C'est un investissement qui travaille toute l'année, pas seulement pendant les pics de chaleur en été.",
         },
         {
           question: 'Le film pour vitrage remplace-t-il complètement la climatisation ?',
-          answer: "Pas nécessairement dans les cas les plus extrêmes, mais il réduit fortement le besoin. Beaucoup de nos clients constatent qu'une pièce auparavant invivable en été redevient confortable sans avoir besoin d'installer ou d'allumer un climatiseur.",
+          answer: "Pas forcément dans les cas les plus extrêmes, mais il réduit fortement le besoin. Beaucoup de nos clients constatent qu'une pièce auparavant invivable en été redevient confortable, sans avoir besoin d'installer ou d'allumer un climatiseur.",
         },
         {
           question: 'Le film fonctionne-t-il aussi bien qu\'un ventilateur ?',
-          answer: "Ce n'est pas comparable : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film agit avant que la chaleur n'entre dans la pièce. Les deux ne résolvent donc pas le même problème.",
+          answer: "Difficile à comparer en fait : un ventilateur brasse l'air chaud déjà présent, sans réduire la chaleur qui continue d'entrer. Le film, lui, agit avant que la chaleur n'entre dans la pièce. Ce ne sont pas vraiment les mêmes problèmes qu'ils résolvent.",
         },
         {
           question: 'Le film a-t-il un coût d\'entretien ou de fonctionnement ?',
-          answer: "Non. Contrairement à un climatiseur, le film ne consomme aucune électricité et ne nécessite aucun entretien régulier une fois posé.",
+          answer: "Non, aucun. Contrairement à un climatiseur, il ne consomme pas d'électricité et ne demande pas d'entretien régulier une fois posé.",
         },
         {
           question: 'Est-ce que ça fonctionne sur tous les types de vitrage ?',

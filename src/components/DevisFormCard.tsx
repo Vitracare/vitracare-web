@@ -115,6 +115,7 @@ export const DevisFormCard = () => {
         email: formData.get('email'),
         phone: formData.get('phone'),
         message: formData.get('message'),
+        source: formData.get('source'),
         photos: photos.map((p) => ({
           filename: p.filename,
           contentType: p.contentType,
@@ -261,6 +262,25 @@ export const DevisFormCard = () => {
                 ))}
               </div>
             )}
+          </div>
+
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-2">
+              {t.devis.form_source}
+            </label>
+            <select
+              name="source"
+              defaultValue=""
+              className="w-full border border-gray-200 rounded-md px-4 py-3.5 text-[14px] outline-none focus:border-[#BA9765] text-gray-700 bg-white"
+            >
+              <option value="" disabled>{t.devis.form_source_placeholder}</option>
+              <option value="flyer">{t.devis.form_source_flyer}</option>
+              <option value="site">{t.devis.form_source_site}</option>
+              <option value="maps">{t.devis.form_source_maps}</option>
+              <option value="wordofmouth">{t.devis.form_source_wordofmouth}</option>
+              <option value="social">{t.devis.form_source_social}</option>
+              <option value="other">{t.devis.form_source_other}</option>
+            </select>
           </div>
 
           <div className="flex items-start gap-2 mt-2">

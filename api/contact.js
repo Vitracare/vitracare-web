@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     return;
   }
 
-  const { name, address, zip, email, phone, message, photos } = req.body || {};
+  const { name, address, zip, email, phone, message, source, photos } = req.body || {};
 
   if (!name || !email) {
     res.status(400).json({ error: 'Nom et email requis' });
@@ -16,6 +16,19 @@ export default async function handler(req, res) {
   // Phone is now collected on both forms, so it can no longer be used to tell
   // them apart — only address/zip are devis-only fields.
   const isDevis = address !== undefined || zip !== undefined;
+
+  // The form sends the <option> value (not the translated label) since the
+  // visitor's UI language isn't known server-side — map it to French here so
+  // the lead email is always readable regardless of which language version
+  // of the site the visitor used.
+  const sourceLabels = {
+    flyer: 'Flyer',
+    site: 'Site internet / recherche Google',
+    maps: 'Google Maps',
+    wordofmouth: 'Bouche-à-oreille',
+    social: 'Réseaux sociaux',
+    other: 'Autre',
+  };
 
   try {
     const transporter = nodemailer.createTransport({
@@ -36,6 +49,7 @@ export default async function handler(req, res) {
           `Email: ${email}`,
           `Téléphone: ${phone || '-'}`,
           `Demande: ${message || '-'}`,
+          `Comment nous avez-vous trouvés: ${sourceLabels[source] || '-'}`,
         ]
       : [
           `Nom: ${name}`,

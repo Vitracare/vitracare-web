@@ -276,9 +276,9 @@ export const DevisFormCard = () => {
               <option value="" disabled>{t.devis.form_source_placeholder}</option>
               <option value="flyer">{t.devis.form_source_flyer}</option>
               <option value="site">{t.devis.form_source_site}</option>
-              <option value="maps">{t.devis.form_source_maps}</option>
+              <option value="reviews">{t.devis.form_source_reviews}</option>
+              <option value="ai">{t.devis.form_source_ai}</option>
               <option value="wordofmouth">{t.devis.form_source_wordofmouth}</option>
-              <option value="social">{t.devis.form_source_social}</option>
               <option value="other">{t.devis.form_source_other}</option>
             </select>
           </div>

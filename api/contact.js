@@ -24,9 +24,9 @@ export default async function handler(req, res) {
   const sourceLabels = {
     flyer: 'Flyer',
     site: 'Site internet / recherche Google',
-    maps: 'Google Maps',
+    reviews: 'Avis en ligne (Google Maps, Trustpilot)',
+    ai: 'Recherche avec une intelligence artificielle (ChatGPT, etc.)',
     wordofmouth: 'Bouche-à-oreille',
-    social: 'Réseaux sociaux',
     other: 'Autre',
   };
 

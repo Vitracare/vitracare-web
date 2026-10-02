@@ -14,7 +14,8 @@ export const translations = {
       f3_title: 'Préservez vos\nbiens',
       f3_desc: 'Le film filtre jusqu\'à 87 % des rayons UV pour protéger vos sols, vos meubles et vos œuvres de la décoloration, et préserver l\'éclat de votre intérieur.',
       f4_title: 'Une température\nmaîtrisée',
-      f4_desc: 'Le film bloque jusqu\'à 80 % de la chaleur solaire infrarouge pour un intérieur plus frais en été, mieux isolé en hiver et confortable toute l\'année.'
+      f4_desc: 'Le film bloque jusqu\'à 80 % de la chaleur solaire infrarouge pour un intérieur plus frais en été, mieux isolé en hiver et confortable toute l\'année.',
+      learnMore: 'En savoir plus',
     },
     pro: {
       title: 'Un service aussi pensé pour les professionnels',
@@ -243,7 +244,8 @@ export const translations = {
       f3_title: 'Behoud uw\neigendommen',
       f3_desc: 'De folie filtert tot 87% van de UV-stralen om uw vloeren en meubels te beschermen tegen vervaging.',
       f4_title: 'Een beheerste\ntemperatuur',
-      f4_desc: 'De folie blokkeert tot 80% van de zonnewarmte voor een koeler interieur in de zomer en beter geïsoleerd in de winter.'
+      f4_desc: 'De folie blokkeert tot 80% van de zonnewarmte voor een koeler interieur in de zomer en beter geïsoleerd in de winter.',
+      learnMore: 'Meer weten',
     },
     pro: {
       title: 'Ook gedacht voor professionals',
@@ -472,7 +474,8 @@ export const translations = {
       f3_title: 'Preserve your\nbelongings',
       f3_desc: 'The film filters up to 87% of UV rays to protect your floors, furniture and artwork from fading.',
       f4_title: 'A controlled\ntemperature',
-      f4_desc: 'The film blocks up to 80% of infrared solar heat for a cooler interior in summer and better insulated in winter.'
+      f4_desc: 'The film blocks up to 80% of infrared solar heat for a cooler interior in summer and better insulated in winter.',
+      learnMore: 'Learn more',
     },
     pro: {
       title: 'Also designed for businesses',

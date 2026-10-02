@@ -193,7 +193,7 @@ export default function BlogArticle() {
                   </h2>
                 )}
                 {section.paragraphs.map((p, pIdx) => (
-                  <p key={pIdx} className="mb-3">{renderParagraph(p)}</p>
+                  <p key={pIdx} className="mb-3">{renderParagraph(p, langPrefixes[lang])}</p>
                 ))}
                 {section.table && (
                   <div className="overflow-x-auto -mx-1 px-1 mt-2">
@@ -244,7 +244,7 @@ export default function BlogArticle() {
                       <h3 className="text-[17px] font-bold mb-2" style={{ color: '#464646' }}>
                         {item.question}
                       </h3>
-                      <p>{renderParagraph(item.answer)}</p>
+                      <p>{renderParagraph(item.answer, langPrefixes[lang])}</p>
                     </div>
                   ))}
                 </div>

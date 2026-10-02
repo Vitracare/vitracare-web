@@ -65,7 +65,7 @@ export default function Commune() {
                   </h2>
                 )}
                 {section.paragraphs.map((p, pIdx) => (
-                  <p key={pIdx} className="mb-3">{renderParagraph(p)}</p>
+                  <p key={pIdx} className="mb-3">{renderParagraph(p, langPrefixes[lang])}</p>
                 ))}
               </div>
             ))}
@@ -81,7 +81,7 @@ export default function Commune() {
                       <h3 className="text-[17px] font-bold mb-2" style={{ color: '#464646' }}>
                         {item.question}
                       </h3>
-                      <p>{renderParagraph(item.answer)}</p>
+                      <p>{renderParagraph(item.answer, langPrefixes[lang])}</p>
                     </div>
                   ))}
                 </div>

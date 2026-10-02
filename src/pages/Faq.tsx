@@ -1,6 +1,8 @@
 import { LegalPageLayout } from '../components/LegalPageLayout';
 import { useLanguage } from '../LanguageContext';
 import { legalContent } from '../legalContent';
+import { langPrefixes } from '../App';
+import { renderParagraph } from '../lib/renderParagraph';
 
 export default function Faq() {
   const { lang } = useLanguage();
@@ -12,7 +14,7 @@ export default function Faq() {
         {content.faqItems.map((item, idx) => (
           <div key={idx}>
             <h3 className="text-[17px] font-bold mb-2" style={{ color: '#464646' }}>{item.q}</h3>
-            <p>{item.a}</p>
+            <p>{renderParagraph(item.a, langPrefixes[lang])}</p>
           </div>
         ))}
       </div>

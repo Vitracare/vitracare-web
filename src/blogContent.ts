@@ -72,7 +72,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Le film anti-effraction répond à un besoin différent des trois précédents : il est totalement transparent et ne change rien à l'apparence de votre vitrage. Sa fonction n'est pas l'intimité, mais la sécurité.",
             "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée : il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
-            "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur.",
+            "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur. Notre [article dédié à la sécurité](/blog/film-securite-anti-effraction-vitrage) détaille son fonctionnement plus en profondeur.",
           ],
         },
         {
@@ -94,7 +94,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Comment choisir ?',
           paragraphs: [
             "En résumé : vous voulez une intimité totale de jour, sans perdre la vue depuis l'intérieur → la teinte effet miroir. Votre priorité est de réduire la chaleur sans perdre en transparence → la teinte solaire. Vous cherchez une intimité totale à toute heure, avec un rendu mat élégant → la teinte blanc mat. Votre priorité est la sécurité plutôt que l'intimité ou la chaleur → le film anti-effraction.",
-            "Ces quatre films sont compatibles avec du simple, double ou triple vitrage, et peuvent être combinés entre eux sur un même projet.",
+            "Ces quatre films sont compatibles avec du simple, double ou triple vitrage, et peuvent être combinés entre eux sur un même projet. Si vos fenêtres elles-mêmes sont vétustes, notre [comparatif entre remplacer ses fenêtres et poser un film](/blog/remplacer-fenetres-ou-film-vitrage) peut aussi vous aider à trancher.",
           ],
         },
         {
@@ -831,7 +831,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "De inbraakwerende folie beantwoordt aan een andere behoefte dan de vorige drie: ze is volledig transparant en verandert niets aan het uitzicht van uw beglazing. Haar functie is niet privacy, maar veiligheid.",
             "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen: hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
-            "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers.",
+            "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers. Ons [artikel gewijd aan veiligheid](/blog/film-securite-anti-effraction-vitrage) gaat dieper in op de werking.",
           ],
         },
         {
@@ -853,7 +853,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Hoe kiezen?',
           paragraphs: [
             "Samengevat: u wilt overdag volledige privacy, zonder het zicht van binnenuit te verliezen → de spiegeleffect folie. Uw prioriteit is warmte verminderen zonder transparantie te verliezen → de zonwerende folie. U zoekt volledige privacy op elk moment, met een elegante matte afwerking → de matwitte folie. Uw prioriteit is veiligheid eerder dan privacy of warmte → de inbraakwerende folie.",
-            "Deze vier folies zijn compatibel met enkel, dubbel of drievoudig glas, en kunnen onderling gecombineerd worden binnen hetzelfde project.",
+            "Deze vier folies zijn compatibel met enkel, dubbel of drievoudig glas, en kunnen onderling gecombineerd worden binnen hetzelfde project. Als uw ramen zelf verouderd zijn, kan onze [vergelijking tussen ramen vervangen en een folie plaatsen](/blog/remplacer-fenetres-ou-film-vitrage) u ook helpen kiezen.",
           ],
         },
         {
@@ -1589,7 +1589,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Anti-burglary film answers a different need from the previous three: it's completely transparent and changes nothing about how your windows look. Its purpose isn't privacy, but security.",
             "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane: they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
-            "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window.",
+            "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window. Our [dedicated article on security](/blog/film-securite-anti-effraction-vitrage) covers how it works in more detail.",
           ],
         },
         {
@@ -1611,7 +1611,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'How to choose?',
           paragraphs: [
             "In short: you want total daytime privacy without losing the view from inside → mirror effect film. Your priority is reducing heat without losing transparency → solar tint. You're looking for total privacy at any time, with an elegant matte finish → matte white film. Your priority is security rather than privacy or heat → anti-burglary film.",
-            'All four films are compatible with single, double and triple glazing, and can be combined with each other on the same project.',
+            'All four films are compatible with single, double and triple glazing, and can be combined with each other on the same project. If your windows themselves are dated, our [comparison between replacing windows and adding film](/blog/remplacer-fenetres-ou-film-vitrage) can also help you decide.',
           ],
         },
         {

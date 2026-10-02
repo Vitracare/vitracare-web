@@ -56,6 +56,7 @@ export default async function handler(req, res) {
           `Email: ${email}`,
           `Téléphone: ${phone || '-'}`,
           `Message: ${message || '-'}`,
+          `Comment nous avez-vous trouvés: ${sourceLabels[source] || '-'}`,
         ];
 
     const attachments = Array.isArray(photos)

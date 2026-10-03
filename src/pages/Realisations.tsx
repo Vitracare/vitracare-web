@@ -16,6 +16,9 @@ export default function Realisations() {
         <h1 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: '#464646' }}>
           {t.realisations.title}
         </h1>
+        <p className="text-[15px] md:text-[16px] text-center max-w-2xl mx-auto mb-8" style={{ color: '#767676' }}>
+          {t.realisations.intro}
+        </p>
         <div className="w-[60px] h-[2px] mb-16 mx-auto" style={{ backgroundColor: brandColor }}></div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">

@@ -68,7 +68,7 @@ export default function Contact() {
       <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 pt-36 pb-12">
         <div className="max-w-3xl w-full">
           <h1 className="text-[36px] md:text-[44px] font-bold text-center tracking-tight mb-6" style={{ color: '#464646' }}>
-            {t.contactPage.title}
+            {t.contactPage.h1}
           </h1>
           <div className="w-[60px] h-[2px] mb-8 mx-auto" style={{ backgroundColor: brandColor }}></div>
           <p className="text-[18px] text-center max-w-2xl mx-auto leading-relaxed mb-14" style={{ color: '#767676' }}>

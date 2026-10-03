@@ -34,7 +34,8 @@ export const translations = {
     },
     slider: { before: 'AVANT', after: 'APRÈS' },
     realisations: {
-      title: 'Nos réalisations',
+      title: 'Nos réalisations de pose de film pour vitrage à Bruxelles',
+      intro: "Quelques chantiers réalisés par notre collaborateur chez des particuliers à Bruxelles et en périphérie (Uccle, Anderlecht, Ixelles, Waterloo...). La plupart concernent le film effet miroir, pour le vis-à-vis et la chaleur, mais aussi le blanc mat selon les pièces et les besoins.",
       ctaTitle: 'Un projet similaire en tête ?',
       ctaSubtitle: 'Demandez votre devis gratuit sous 24h, ou contactez-nous directement pour en discuter.',
       captions: [
@@ -89,6 +90,8 @@ export const translations = {
       trustpilotLink: 'Voir nos avis sur Trustpilot'
     },
     strip: {
+      title: 'Pourquoi choisir VitraCare',
+      subtitle: 'Un devis personnalisé plutôt qu\'un tarif fixe, un seul interlocuteur du premier contact à la pose, et une réponse sous 24h.',
       f1_title: 'Sur mesure', f1_desc: 'étudié fenêtre\npar fenêtre',
       f2_title: 'Durée de vie', f2_desc: '10 à 15 ans\nestimée',
       f3_title: 'Pose garantie', f3_desc: 'Jusqu\'à 2 ans\npar notre collaborateur',
@@ -102,6 +105,7 @@ export const translations = {
     },
     devis: {
       title: 'Obtenez votre devis',
+      h1: 'Devis gratuit pour film pour vitrage à Bruxelles',
       subtitle: 'Découvrez le potentiel de vos vitrages : plus d\'intimité, moins de chaleur, et une protection durable pour votre intérieur.',
       reassurance: 'Devis 100% gratuit et sans engagement — réponse sous 24h',
       process_title: 'Comment ça marche ?',
@@ -142,6 +146,7 @@ export const translations = {
     },
     contactPage: {
       title: 'Contactez-nous',
+      h1: 'Contactez-nous pour votre projet de film pour vitrage à Bruxelles',
       subtitle: 'Une question ? Envoyez-nous un message ou contactez-nous directement.',
       phone: 'Téléphone',
       whatsapp: 'WhatsApp',
@@ -214,6 +219,7 @@ export const translations = {
       metaTitle: "Notre zone d'intervention — VitraCare",
       metaDescription: "Bruxelles et ses 19 communes, toute la périphérie, et au-delà pour les grands projets : découvrez toute la zone où VitraCare pose des films pour vitrages.",
       title: "Notre zone d'intervention",
+      h1: "Zone d'intervention : pose de film pour vitrage à Bruxelles et sa périphérie",
       intro: "VitraCare intervient dans toute la Région de Bruxelles-Capitale et sa périphérie. Trois communes ont leur page dédiée sur ce site — Uccle, Waterloo et Forest — mais notre zone de travail est bien plus large. Voici le détail complet.",
       brusselsHeading: 'Les 19 communes de Bruxelles',
       brusselsIntro: "Nous posons des films et teintes pour vitrages dans l'ensemble de la Région bruxelloise, quelle que soit la commune :",
@@ -272,7 +278,8 @@ export const translations = {
     },
     slider: { before: 'VOOR', after: 'NA' },
     realisations: {
-      title: 'Onze realisaties',
+      title: 'Onze realisaties van raamfolie plaatsing in Brussel',
+      intro: "Enkele werven uitgevoerd door onze medewerker bij particulieren in Brussel en omstreken (Ukkel, Anderlecht, Elsene, Waterloo...). De meeste betreffen spiegeleffectfolie, tegen inkijk en hitte, maar ook matwitte folie naargelang de kamer en de behoefte.",
       ctaTitle: 'Een gelijkaardig project in gedachten?',
       ctaSubtitle: 'Vraag uw gratis offerte aan binnen 24u, of neem rechtstreeks contact met ons op.',
       captions: [
@@ -327,6 +334,8 @@ export const translations = {
       trustpilotLink: 'Bekijk onze beoordelingen op Trustpilot'
     },
     strip: {
+      title: 'Waarom kiezen voor VitraCare',
+      subtitle: 'Een persoonlijke offerte in plaats van een vast tarief, één aanspreekpunt van het eerste contact tot de plaatsing, en een antwoord binnen 24u.',
       f1_title: 'Op maat', f1_desc: 'raam voor\nraam bestudeerd',
       f2_title: 'Levensduur', f2_desc: '10 tot 15 jaar\ngeschat',
       f3_title: 'Installatie gegarandeerd', f3_desc: 'Tot 2 jaar\ndoor onze medewerker',
@@ -340,6 +349,7 @@ export const translations = {
     },
     devis: {
       title: 'Ontvang uw offerte',
+      h1: 'Gratis offerte voor raamfolie in Brussel',
       subtitle: 'Ontdek het potentieel van uw ramen: meer privacy, minder warmte en duurzame bescherming voor uw interieur.',
       reassurance: 'Offerte 100% gratis en vrijblijvend — antwoord binnen 24u',
       process_title: 'Hoe gaat het in zijn werk?',
@@ -380,6 +390,7 @@ export const translations = {
     },
     contactPage: {
       title: 'Contacteer ons',
+      h1: 'Contacteer ons voor uw project raamfolie in Brussel',
       subtitle: 'Een vraag? Stuur ons een bericht of neem rechtstreeks contact op.',
       phone: 'Telefoon',
       whatsapp: 'WhatsApp',
@@ -452,6 +463,7 @@ export const translations = {
       metaTitle: 'Ons werkgebied — VitraCare',
       metaDescription: 'Brussel en zijn 19 gemeenten, de hele rand, en verder voor grote projecten: ontdek het volledige gebied waar VitraCare raamfolie plaatst.',
       title: 'Ons werkgebied',
+      h1: 'Werkgebied: plaatsing van raamfolie in Brussel en omstreken',
       intro: 'VitraCare is actief in het volledige Brussels Hoofdstedelijk Gewest en de rand eromheen. Drie gemeenten hebben een eigen pagina op deze site — Ukkel, Waterloo en Vorst — maar ons werkgebied is veel groter. Hieronder het volledige overzicht.',
       brusselsHeading: 'De 19 gemeenten van Brussel',
       brusselsIntro: 'Wij plaatsen folies en tinten voor beglazing in het volledige Brussels Gewest, in elke gemeente:',
@@ -510,7 +522,8 @@ export const translations = {
     },
     slider: { before: 'BEFORE', after: 'AFTER' },
     realisations: {
-      title: 'Our work',
+      title: 'Our window film installation projects in Brussels',
+      intro: "A few projects carried out by our collaborator at private homes in Brussels and its surroundings (Uccle, Anderlecht, Ixelles, Waterloo...). Most involve mirror effect film, for privacy and heat, but also matte white film depending on the room and the need.",
       ctaTitle: 'Have a similar project in mind?',
       ctaSubtitle: 'Request your free quote within 24h, or contact us directly to discuss it.',
       captions: [
@@ -565,6 +578,8 @@ export const translations = {
       trustpilotLink: 'See our reviews on Trustpilot'
     },
     strip: {
+      title: 'Why choose VitraCare',
+      subtitle: 'A personalised quote instead of a fixed rate, a single point of contact from first enquiry to installation, and a reply within 24 hours.',
       f1_title: 'Custom made', f1_desc: 'studied window\nby window',
       f2_title: 'Lifespan', f2_desc: '10-15 years\nestimated',
       f3_title: 'Guaranteed installation', f3_desc: 'Up to 2 years\nby our collaborator',
@@ -578,6 +593,7 @@ export const translations = {
     },
     devis: {
       title: 'Get your quote',
+      h1: 'Free quote for window film in Brussels',
       subtitle: 'Discover the potential of your windows: more privacy, less heat, and lasting protection for your interior.',
       reassurance: '100% free quote, no obligation — reply within 24h',
       process_title: 'How does it work?',
@@ -618,6 +634,7 @@ export const translations = {
     },
     contactPage: {
       title: 'Contact us',
+      h1: 'Contact us for your window film project in Brussels',
       subtitle: 'Have a question? Send us a message or reach out directly.',
       phone: 'Phone',
       whatsapp: 'WhatsApp',
@@ -690,6 +707,7 @@ export const translations = {
       metaTitle: 'Our Service Area — VitraCare',
       metaDescription: "Brussels and its 19 municipalities, the whole periphery, and beyond for large projects: discover VitraCare's full window film service area.",
       title: 'Our Service Area',
+      h1: 'Service area: window film installation in Brussels and its surroundings',
       intro: 'VitraCare works throughout the Brussels-Capital Region and its periphery. Three communes have their own dedicated page on this site — Uccle, Waterloo and Forest — but our actual coverage is much wider. Here is the full picture.',
       brusselsHeading: 'The 19 communes of Brussels',
       brusselsIntro: 'We install window films and tints throughout the Brussels-Capital Region, in every commune:',

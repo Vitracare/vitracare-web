@@ -833,9 +833,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Feature Strip Section */}
+      {/* Feature Strip Section — this grid of 4 badges already existed (custom-fit,
+          lifespan, warranty, 24h quote) but had no heading framing it as what sets
+          VitraCare apart. A GEO/SEO audit (cross-referencing a generic SEO video's
+          advice against Google's own official generative-AI guidance) flagged that
+          the site had zero explicit differentiation content anywhere — this heading
+          fixes that without inventing new claims, just naming what was already there. */}
       <section className="w-full bg-[#4b4b4b] py-16">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
+          <h2 className="text-[26px] md:text-[36px] font-bold text-center mb-3" style={{ color: '#fff' }}>
+            {t.strip.title}
+          </h2>
+          <p className="text-white/70 text-[14px] md:text-[16px] text-center max-w-2xl mx-auto mb-10 md:mb-14">
+            {t.strip.subtitle}
+          </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">

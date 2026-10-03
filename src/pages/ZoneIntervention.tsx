@@ -39,7 +39,7 @@ export default function ZoneIntervention() {
           </Link>
 
           <h1 className="text-[30px] md:text-[38px] font-bold leading-tight mb-6" style={{ color: '#464646' }}>
-            {zone.title}
+            {zone.h1}
           </h1>
 
           <p className="text-[16px] leading-relaxed mb-10" style={{ color: '#4a4a4a' }}>

@@ -31,7 +31,7 @@ export default function Devis() {
       <div className="flex-1 flex items-center justify-center px-8 md:px-16 lg:px-20 py-6 md:py-12 min-w-0">
         <div className="max-w-5xl w-full min-w-0 flex flex-col items-center">
           <h1 className="w-full text-[26px] md:text-[44px] font-bold text-white mb-2 md:mb-6 text-center tracking-tight">
-            {t.devis.title}
+            {t.devis.h1}
           </h1>
 
           <div className="w-[60px] h-[2px] mb-3 md:mb-8" style={{ backgroundColor: brandColor }}></div>

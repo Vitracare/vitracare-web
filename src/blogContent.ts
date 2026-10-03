@@ -498,7 +498,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Pour aller plus loin',
           paragraphs: [
-            "Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, dont la solaire et le miroir évoqués ici. Si l'intimité est aussi un enjeu chez vous, notre [article dédié au vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) détaille les solutions, et notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) revient plus en détail sur ce bénéfice secondaire.",
+            "Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles, dont la solaire et le miroir évoqués ici. Si l'intimité est aussi un enjeu chez vous, notre [article dédié au vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) détaille les solutions, et notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) revient plus en détail sur ce bénéfice secondaire. Pour une pièce extrêmement exposée, notre [comparatif avec le screen extérieur](/blog/film-solaire-ou-screen-exterieur-vitrage) vous aide à choisir la bonne solution.",
           ],
         },
         {
@@ -781,6 +781,84 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Le devis est-il payant ?',
           answer: "Non, le devis est toujours gratuit, que vous nous envoyiez vos propres mesures ou que nous passions chez vous.",
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-ou-screen-exterieur-vitrage',
+      title: 'Film solaire pour vitrage ou screen extérieur : quelle solution contre la chaleur ?',
+      metaTitle: 'Film solaire ou screen extérieur : que choisir ?',
+      metaDescription:
+        "Film solaire posé sur vitrage ou screen extérieur : comparatif honnête pour réduire la chaleur chez vous à Bruxelles, avantages et limites de chaque solution.",
+      date: '2026-10-03',
+      excerpt:
+        "Deux solutions existent pour couper la chaleur avant qu'elle n'envahisse votre intérieur : le screen extérieur et le film solaire. Voici leurs différences, pour choisir en connaissance de cause.",
+      sections: [
+        {
+          paragraphs: [
+            "Un salon qui devient invivable l'après-midi, une baie vitrée plein sud qui transforme la pièce en étuve : deux solutions s'attaquent à ce problème. Le screen extérieur, ce store ou cette toile posée devant la fenêtre, et le film solaire, appliqué directement sur la vitre. Elles n'agissent pas de la même façon, et chacune a ses avantages. Voici de quoi faire le bon choix.",
+          ],
+        },
+        {
+          heading: 'Le screen extérieur : arrêter la chaleur avant la vitre',
+          paragraphs: [
+            "Un screen extérieur (aussi appelé store banne, brise-soleil ou toile solaire) se pose devant la fenêtre, à l'extérieur du bâtiment. Son principe : intercepter les rayons du soleil avant qu'ils n'atteignent le verre. C'est la méthode la plus efficace pour couper la chaleur, puisqu'elle agit en amont, avant même que le rayonnement ne traverse la vitre. Selon [Consumer Reports](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/), un store extérieur bien orienté peut réduire l'apport de chaleur solaire jusqu'à 65% en façade sud et 77% en façade ouest.",
+            "Cette efficacité a un coût : le screen est un équipement mécanique (moteur, toile, rails), visible depuis l'extérieur du bâtiment, qui demande un entretien régulier et peut s'abîmer par grand vent. Pour un appartement, son installation modifie l'aspect de la façade et nécessite donc souvent l'accord de la copropriété. Et il ne protège que lorsqu'il est déployé : oublié relevé un jour de canicule, il ne sert à rien.",
+          ],
+        },
+        {
+          heading: 'Le film solaire : une protection fixe, posée sur la vitre',
+          paragraphs: [
+            "Le film solaire fonctionne différemment : il se pose directement sur la face intérieure du vitrage et filtre une partie du rayonnement avant qu'il ne se transforme en chaleur dans la pièce. Comme il agit sur le verre lui-même plutôt qu'en amont, il est généralement moins efficace qu'un screen extérieur pour couper la chaleur dans l'absolu, mais il a d'autres atouts bien réels. Notre [article dédié au film solaire](/blog/film-solaire-vitrage-bruxelles) explique son fonctionnement en détail, et nos [retours de terrain](/blog/film-vitrage-economies-climatisation) montrent une baisse de 3 à 6°C dans les pièces exposées.",
+            "Le film ne change rien à l'aspect extérieur du bâtiment (pas d'accord de copropriété à prévoir pour ça), n'a aucune pièce mécanique à entretenir, et protège en continu, sans qu'il faille penser à le déployer. Il coûte aussi généralement moins cher à l'installation qu'un screen motorisé.",
+          ],
+        },
+        {
+          heading: 'Peut-on combiner les deux ?',
+          paragraphs: [
+            "Oui, et c'est même une bonne option pour les pièces les plus exposées (vérandas, baies vitrées plein sud) : le screen gère les pics de chaleur en été quand il est déployé, et le film assure une protection de fond en continu, été comme hiver, sans dépendre de qui pense à fermer le store.",
+          ],
+        },
+        {
+          heading: 'Quelle solution choisir ?',
+          paragraphs: [
+            "Si vous cherchez la solution la plus efficace possible pour une pièce extrêmement exposée et que le budget, l'entretien et l'accord de copropriété ne posent pas de problème, le screen extérieur reste la référence. Si vous voulez une protection simple, sans entretien, sans modifier l'aspect de votre façade, et avec un budget plus maîtrisé, le film solaire est le choix le plus pratique. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille ce qui influence le tarif d'une pose.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Consumer Reports — Block the Sun and Lower Your Energy Costs With Window Coverings](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/)',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le screen extérieur est-il toujours plus efficace que le film solaire ?',
+          answer: "Pour bloquer un maximum de chaleur dans l'absolu, oui, puisqu'il agit avant que le rayonnement n'atteigne la vitre. Mais le film solaire reste très efficace au quotidien, avec l'avantage d'être toujours actif, sans rien à manipuler.",
+        },
+        {
+          question: 'Le film solaire peut-il remplacer un screen extérieur ?',
+          answer: "Pour une pièce extrêmement exposée (véranda plein sud, grande baie vitrée), un screen reste la solution la plus radicale. Pour la majorité des pièces, le film solaire suffit largement et évite l'installation d'un équipement mécanique.",
+        },
+        {
+          question: 'Faut-il une autorisation pour installer un screen extérieur sur un appartement ?',
+          answer: "Généralement oui, puisqu'il modifie l'aspect extérieur de la façade. Le film solaire, posé à l'intérieur du vitrage, ne change rien à l'apparence du bâtiment et évite cette démarche.",
+        },
+        {
+          question: 'Le film solaire demande-t-il un entretien particulier ?',
+          answer: "Non, un nettoyage à l'eau et au savon doux suffit. Contrairement à un screen, il n'a aucune pièce mécanique, aucun moteur ni toile à entretenir.",
+        },
+        {
+          question: 'Peut-on installer un film solaire si on a déjà un screen extérieur ?',
+          answer: "Oui, les deux se combinent très bien. Le film reste actif en continu, même quand le screen est relevé, et protège aussi contre les UV, ce que le screen ne fait plus une fois replié.",
         },
       ],
     },
@@ -1256,7 +1334,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Meer weten',
           paragraphs: [
-            "Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, waaronder de zonwerende en spiegelfolie hierboven. Speelt privacy bij u ook mee, dan behandelt ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) de oplossingen, en ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) gaat dieper in op dat bijkomende voordeel.",
+            "Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten, waaronder de zonwerende en spiegelfolie hierboven. Speelt privacy bij u ook mee, dan behandelt ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) de oplossingen, en ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) gaat dieper in op dat bijkomende voordeel. Voor een extreem blootgestelde ruimte helpt onze [vergelijking met buitenzonwering](/blog/film-solaire-ou-screen-exterieur-vitrage) u de juiste keuze te maken.",
           ],
         },
         {
@@ -1539,6 +1617,84 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Is de offerte betalend?',
           answer: 'Nee, de offerte is altijd gratis, of u ons nu zelf uw afmetingen bezorgt of wij bij u langskomen.',
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-ou-screen-exterieur-vitrage',
+      title: 'Zonwerende folie of buitenzonwering: welke oplossing tegen de hitte?',
+      metaTitle: 'Zonwerende folie of buitenzonwering: wat kiezen?',
+      metaDescription:
+        "Zonwerende folie op het raam of buitenzonwering: eerlijke vergelijking om de hitte bij u thuis in Brussel te verminderen, met de voor- en nadelen van elke oplossing.",
+      date: '2026-10-03',
+      excerpt:
+        "Twee oplossingen bestaan om de hitte te stoppen voor ze uw interieur binnendringt: buitenzonwering en zonwerende folie. Hier zijn de verschillen, om met kennis van zaken te kiezen.",
+      sections: [
+        {
+          paragraphs: [
+            "Een living die 's namiddags onleefbaar wordt, een zuidgerichte raampartij die de kamer in een oven verandert: twee oplossingen pakken dit probleem aan. De buitenzonwering, dat scherm of die doek voor het raam, en de zonwerende folie, rechtstreeks op de ruit aangebracht. Ze werken niet op dezelfde manier, en elk heeft zijn voordelen. Hier is wat u moet weten om de juiste keuze te maken.",
+          ],
+        },
+        {
+          heading: 'Buitenzonwering: de hitte stoppen vóór het raam',
+          paragraphs: [
+            "Een buitenzonwering (ook screen, zonnescherm of uitvalscherm genoemd) wordt voor het raam geplaatst, aan de buitenkant van het gebouw. Het principe: de zonnestralen onderscheppen voordat ze het glas bereiken. Dit is de meest doeltreffende methode om hitte tegen te houden, aangezien ze stroomopwaarts werkt, nog voor de straling door de ruit dringt. Volgens [Consumer Reports](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/) kan een goed georiënteerde buitenzonwering de zonnewarmte-inval met tot 65% verminderen aan de zuidkant en 77% aan de westkant.",
+            "Deze doeltreffendheid heeft een prijs: de zonwering is een mechanisch toestel (motor, doek, rails), zichtbaar aan de buitenkant van het gebouw, dat regelmatig onderhoud vraagt en bij sterke wind kan beschadigen. Voor een appartement verandert de installatie het uitzicht van de gevel en is dus vaak de toestemming van de mede-eigendom vereist. En ze beschermt enkel wanneer ze neergelaten is: vergeten op te halen tijdens een hittegolf, dient ze tot niets.",
+          ],
+        },
+        {
+          heading: 'Zonwerende folie: een vaste bescherming, op het glas zelf',
+          paragraphs: [
+            "Zonwerende folie werkt anders: ze wordt rechtstreeks op de binnenzijde van de beglazing aangebracht en filtert een deel van de straling voordat ze in de kamer in warmte verandert. Omdat ze inwerkt op het glas zelf eerder dan stroomopwaarts, is ze over het algemeen minder doeltreffend dan een buitenzonwering om de hitte absoluut tegen te houden, maar ze heeft andere, heel reële troeven. Ons [artikel over zonwerende folie](/blog/film-solaire-vitrage-bruxelles) legt de werking in detail uit, en onze [terugkoppelingen van het terrein](/blog/film-vitrage-economies-climatisation) tonen een daling van 3 tot 6°C in blootgestelde ruimtes.",
+            "De folie verandert niets aan het uitzicht van het gebouw (geen toestemming van de mede-eigendom nodig hiervoor), heeft geen mechanisch onderdeel om te onderhouden, en beschermt continu, zonder dat u eraan moet denken ze te bedienen. Ze kost bovendien doorgaans minder bij de installatie dan een gemotoriseerde zonwering.",
+          ],
+        },
+        {
+          heading: 'Kunnen beide gecombineerd worden?',
+          paragraphs: [
+            "Ja, en dat is zelfs een goede optie voor de meest blootgestelde ruimtes (veranda's, zuidgerichte raampartijen): de zonwering vangt de hittepieken op in de zomer wanneer ze neergelaten is, en de folie zorgt voor een continue basisbescherming, zomer en winter, ongeacht wie eraan denkt de zonwering te sluiten.",
+          ],
+        },
+        {
+          heading: 'Welke oplossing kiezen?',
+          paragraphs: [
+            "Zoekt u de meest doeltreffende oplossing voor een extreem blootgestelde ruimte en vormen budget, onderhoud en toestemming van de mede-eigendom geen probleem? Dan blijft de buitenzonwering de referentie. Wilt u een eenvoudige bescherming, zonder onderhoud, zonder het uitzicht van uw gevel te veranderen, en met een beperkter budget? Dan is zonwerende folie de meest praktische keuze. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat de prijs van een plaatsing beïnvloedt.",
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[Consumer Reports — Block the Sun and Lower Your Energy Costs With Window Coverings](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/)',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolies](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is buitenzonwering altijd doeltreffender dan zonwerende folie?',
+          answer: "Om absoluut zoveel mogelijk hitte tegen te houden wel, aangezien ze inwerkt voordat de straling het raam bereikt. Maar zonwerende folie blijft zeer doeltreffend in het dagelijks gebruik, met als voordeel dat ze altijd actief is, zonder iets te moeten bedienen.",
+        },
+        {
+          question: 'Kan zonwerende folie een buitenzonwering vervangen?',
+          answer: "Voor een extreem blootgestelde ruimte (zuidgerichte veranda, grote raampartij) blijft een zonwering de meest radicale oplossing. Voor de meeste ruimtes volstaat zonwerende folie ruimschoots en vermijdt u de installatie van een mechanisch toestel.",
+        },
+        {
+          question: 'Is een vergunning nodig om buitenzonwering te installeren op een appartement?',
+          answer: "Doorgaans wel, aangezien het uitzicht van de gevel verandert. Zonwerende folie, aan de binnenzijde van het glas geplaatst, verandert niets aan het uiterlijk van het gebouw en vermijdt deze stap.",
+        },
+        {
+          question: 'Vraagt zonwerende folie bijzonder onderhoud?',
+          answer: "Nee, reinigen met water en milde zeep volstaat. In tegenstelling tot een zonwering heeft ze geen enkel mechanisch onderdeel, motor of doek te onderhouden.",
+        },
+        {
+          question: 'Kan ik zonwerende folie installeren als ik al een buitenzonwering heb?',
+          answer: "Ja, beide combineren uitstekend. De folie blijft continu actief, zelfs wanneer de zonwering is opgehaald, en beschermt ook tegen UV, iets wat de zonwering niet meer doet eenmaal ingetrokken.",
         },
       ],
     },
@@ -2014,7 +2170,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Learn more',
           paragraphs: [
-            "Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, including the solar and mirror effect films mentioned here. If privacy also matters to you, our [dedicated article on privacy](/blog/intimite-vis-a-vis-film-vitrage) covers the solutions, and our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) goes further into that secondary benefit.",
+            "Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints, including the solar and mirror effect films mentioned here. If privacy also matters to you, our [dedicated article on privacy](/blog/intimite-vis-a-vis-film-vitrage) covers the solutions, and our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) goes further into that secondary benefit. For an extremely exposed room, our [comparison with exterior screens](/blog/film-solaire-ou-screen-exterieur-vitrage) can help you choose the right solution.",
           ],
         },
         {
@@ -2297,6 +2453,84 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Is the quote paid?',
           answer: "No, the quote is always free, whether you send us your own measurements or we come to you.",
+        },
+      ],
+    },
+    {
+      slug: 'film-solaire-ou-screen-exterieur-vitrage',
+      title: 'Solar window film or exterior screen: which solution against the heat?',
+      metaTitle: 'Solar film or exterior screen: which to choose?',
+      metaDescription:
+        "Solar window film or exterior screen: an honest comparison to reduce heat at home in Brussels, with the advantages and limits of each solution.",
+      date: '2026-10-03',
+      excerpt:
+        "Two real solutions exist to stop heat before it takes over your home: exterior screens and solar window film. Here are the differences, so you can choose with full knowledge.",
+      sections: [
+        {
+          paragraphs: [
+            "A living room that becomes unbearable by the afternoon, a south-facing bay window that turns the room into an oven: two solutions tackle this problem. The exterior screen, that awning or shade fitted in front of the window, and solar film, applied directly to the glass. They don't work the same way, and each has its own strengths. Here's what you need to know to choose.",
+          ],
+        },
+        {
+          heading: 'Exterior screens: stopping the heat before it reaches the glass',
+          paragraphs: [
+            "An exterior screen (also called an awning, sun blind or external shutter) is fitted in front of the window, on the outside of the building. The principle: intercept the sun's rays before they reach the glass. This is the most effective method for blocking heat, since it acts upstream, before the radiation ever passes through the window. According to [Consumer Reports](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/), a well-positioned exterior awning can reduce solar heat gain by up to 65% on south-facing windows and 77% on west-facing windows.",
+            "That effectiveness comes at a cost: a screen is a mechanical fixture (motor, fabric, rails), visible from outside the building, which needs regular maintenance and can be damaged by strong wind. For a flat, installing one changes the building's façade, so it often requires approval from the co-ownership. And it only protects while deployed: left open on a heatwave day, it does nothing.",
+          ],
+        },
+        {
+          heading: 'Solar film: a fixed protection, applied to the glass itself',
+          paragraphs: [
+            "Solar film works differently: it's applied directly to the inside face of the glazing and filters part of the radiation before it turns into heat inside the room. Since it acts on the glass itself rather than upstream, it's generally less effective than an exterior screen at blocking heat in absolute terms, but it has other, very real strengths. Our [dedicated article on solar film](/blog/film-solaire-vitrage-bruxelles) explains how it works in detail, and our [field data](/blog/film-vitrage-economies-climatisation) shows a 3 to 6°C drop in exposed rooms.",
+            "The film doesn't change the building's exterior appearance at all (no co-ownership approval needed for that), has no mechanical part to maintain, and protects continuously, with nothing to remember to operate. It's also generally cheaper to install than a motorised screen.",
+          ],
+        },
+        {
+          heading: 'Can the two be combined?',
+          paragraphs: [
+            "Yes, and it's actually a good option for the most exposed rooms (conservatories, south-facing bay windows): the screen handles summer heat peaks when deployed, and the film provides continuous baseline protection, summer and winter, regardless of whether anyone remembers to close the screen.",
+          ],
+        },
+        {
+          heading: 'Which solution should you choose?',
+          paragraphs: [
+            "If you're after the most effective solution possible for an extremely exposed room, and budget, maintenance and co-ownership approval aren't an issue, an exterior screen remains the benchmark. If you want a simple, maintenance-free protection that doesn't change your façade's appearance, with a more contained budget, solar film is the more practical choice. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains what affects the cost of an installation.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Consumer Reports — Block the Sun and Lower Your Energy Costs With Window Coverings](https://www.consumerreports.org/home-garden/energy-efficiency/beat-the-heat-with-window-coverings-a9364047186/)',
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is an exterior screen always more effective than solar film?',
+          answer: "For blocking the maximum amount of heat in absolute terms, yes, since it acts before the radiation reaches the glass. But solar film remains very effective day to day, with the advantage of always being active, with nothing to operate.",
+        },
+        {
+          question: 'Can solar film replace an exterior screen?',
+          answer: "For an extremely exposed room (a south-facing conservatory, a large bay window), a screen remains the most radical solution. For most rooms, solar film is more than enough and avoids installing a mechanical fixture.",
+        },
+        {
+          question: 'Do I need approval to install an exterior screen on a flat?',
+          answer: "Generally yes, since it changes the building's exterior appearance. Solar film, applied on the inside of the glazing, doesn't change the building's appearance at all and avoids that step.",
+        },
+        {
+          question: 'Does solar film need any special maintenance?',
+          answer: "No, cleaning with water and mild soap is enough. Unlike a screen, it has no mechanical part, motor or fabric to maintain.",
+        },
+        {
+          question: 'Can I install solar film if I already have an exterior screen?',
+          answer: "Yes, the two work very well together. The film stays active continuously, even when the screen is retracted, and also protects against UV, which the screen no longer does once folded away.",
         },
       ],
     },

@@ -457,6 +457,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-solaire-ou-screen-exterieur-vitrage',
+  meta: {
+    FR: {
+      title: 'Film solaire ou screen extérieur : que choisir ? — VitraCare',
+      description:
+        "Film solaire posé sur vitrage ou screen extérieur : comparatif honnête pour réduire la chaleur chez vous à Bruxelles, avantages et limites de chaque solution.",
+      headline: 'Film solaire pour vitrage ou screen extérieur : quelle solution contre la chaleur ?',
+      datePublished: '2026-10-03',
+      dateModified: '2026-10-03',
+    },
+    NL: {
+      title: 'Zonwerende folie of buitenzonwering: wat kiezen? — VitraCare',
+      description:
+        "Zonwerende folie op het raam of buitenzonwering: eerlijke vergelijking om de hitte bij u thuis in Brussel te verminderen, met de voor- en nadelen van elke oplossing.",
+      headline: 'Zonwerende folie of buitenzonwering: welke oplossing tegen de hitte?',
+      datePublished: '2026-10-03',
+      dateModified: '2026-10-03',
+    },
+    EN: {
+      title: 'Solar Film or Exterior Screen: Which to Choose? — VitraCare',
+      description:
+        "Solar window film or exterior screen: an honest comparison to reduce heat at home in Brussels, with the advantages and limits of each solution.",
+      headline: 'Solar window film or exterior screen: which solution against the heat?',
+      datePublished: '2026-10-03',
+      dateModified: '2026-10-03',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

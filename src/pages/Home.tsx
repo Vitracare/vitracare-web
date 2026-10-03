@@ -47,12 +47,14 @@ const BeforeAfterSlider = ({ before, after, beforeLabel, afterLabel }: { before:
       onTouchStart={(e) => { isDragging.current = true; updatePosition(e.touches[0].clientX); }}
     >
       {/* After image — base layer, always fully visible */}
-      <img loading="lazy" src={after} alt={afterLabel} className="absolute inset-0 w-full h-full object-cover pointer-events-none" draggable={false} referrerPolicy="no-referrer" />
+      <img loading="lazy" src={after} alt={afterLabel} width={700} height={559} className="absolute inset-0 w-full h-full object-cover pointer-events-none" draggable={false} referrerPolicy="no-referrer" />
 
       {/* Before image — clipped to reveal only up to the handle */}
       <img loading="lazy"
         src={before}
         alt={beforeLabel}
+        width={700}
+        height={557}
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
         draggable={false}
@@ -79,7 +81,7 @@ const Testimonial = ({ name, image, text, offsetClass }: { name: string, image: 
   return (
     <div className={`flex items-start gap-4 w-full min-w-[280px] max-w-[280px] md:min-w-0 md:max-w-[340px] shrink-0 md:shrink snap-center ${offsetClass || ''}`}>
       <div className="flex flex-col items-center gap-1.5 shrink-0 z-10 pt-4">
-        <img loading="lazy" src={image} alt={name} className="w-12 h-12 rounded-full object-cover shadow-sm" />
+        <img loading="lazy" src={image} alt={name} width={48} height={48} className="w-12 h-12 rounded-full object-cover shadow-sm" />
         <span className="text-[12px] text-[#A87C5D] font-bold">{name}</span>
       </div>
       <div className="relative bg-[#AF9269] text-white p-5 pl-6 rounded-[20px] shadow-sm mt-2 flex-1">

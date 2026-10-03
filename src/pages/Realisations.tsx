@@ -5,6 +5,21 @@ import { SiteFooter } from '../components/SiteFooter';
 
 const brandColor = '#BA9765';
 
+// Real native dimensions of each chantier photo (not all identical) — used for the
+// width/height attributes below so the browser can reserve the right box before the
+// image loads, even though the aspect-[3/4] class is what actually crops/displays it.
+const chantierDimensions: Record<number, { width: number; height: number }> = {
+  1: { width: 525, height: 700 },
+  2: { width: 525, height: 700 },
+  3: { width: 525, height: 700 },
+  4: { width: 397, height: 700 },
+  5: { width: 525, height: 700 },
+  6: { width: 525, height: 700 },
+  7: { width: 525, height: 700 },
+  8: { width: 525, height: 700 },
+  9: { width: 525, height: 700 },
+};
+
 export default function Realisations() {
   const { t } = useLanguage();
 
@@ -30,6 +45,8 @@ export default function Realisations() {
                   src={`/images/realisations/chantier-${n}.jpg`}
                   alt={caption}
                   loading="lazy"
+                  width={chantierDimensions[n].width}
+                  height={chantierDimensions[n].height}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>

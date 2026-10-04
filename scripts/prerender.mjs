@@ -205,7 +205,7 @@ const blogArticles = [
         'Film miroir, teinte solaire ou blanc mat : différences, avantages et usages de chaque film, et lequel convient le mieux à votre maison.',
       headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
       datePublished: '2026-08-06',
-      dateModified: '2026-08-09',
+      dateModified: '2026-10-04',
     },
     NL: {
       title: 'Welke folie kiezen voor uw beglazing? — VitraCare',
@@ -213,7 +213,7 @@ const blogArticles = [
         'Spiegelfolie, zonwerende folie of matwitte folie: ontdek de verschillen, voordelen en toepassingen van elke folie, en welke het beste bij uw huis past.',
       headline: 'Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?',
       datePublished: '2026-08-06',
-      dateModified: '2026-08-09',
+      dateModified: '2026-10-04',
     },
     EN: {
       title: 'Which Window Film Should You Choose? — VitraCare',
@@ -221,7 +221,7 @@ const blogArticles = [
         'Mirror film, solar tint or matte white: discover the differences, benefits and uses of each window film, and which one best suits your home.',
       headline: 'Mirror effect, solar tint or matte white: which film should you choose for your windows?',
       datePublished: '2026-08-06',
-      dateModified: '2026-08-09',
+      dateModified: '2026-10-04',
     },
   },
 },
@@ -437,7 +437,7 @@ const blogArticles = [
         "De la prise de mesures au jour de la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
       headline: "Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?",
       datePublished: '2026-09-27',
-      dateModified: '2026-09-27',
+      dateModified: '2026-10-04',
     },
     NL: {
       title: 'Hoe verloopt de plaatsing van raamfolie? — VitraCare',
@@ -445,7 +445,7 @@ const blogArticles = [
         'Van opmeting tot plaatsing: ontdek alle stappen van een raamfolieproject in Brussel, en wat u moet weten voordat u start.',
       headline: 'Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?',
       datePublished: '2026-09-27',
-      dateModified: '2026-09-27',
+      dateModified: '2026-10-04',
     },
     EN: {
       title: 'How Does Window Film Installation Work? — VitraCare',
@@ -453,7 +453,7 @@ const blogArticles = [
         "From measurements to installation day: discover every step of a window film project in Brussels, and what to know before you start.",
       headline: 'How does window film installation work, from quote request to installation?',
       datePublished: '2026-09-27',
-      dateModified: '2026-09-27',
+      dateModified: '2026-10-04',
     },
   },
 },

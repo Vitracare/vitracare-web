@@ -37,40 +37,40 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Vous envisagez de faire poser un film sur vos vitrages, mais vous hésitez entre les différentes teintes disponibles ? C'est une question qu'on nous pose très souvent. Chaque film répond à un besoin différent : intimité totale, confort thermique, ou esthétique discrète. Voici un guide simple pour vous aider à faire le bon choix.",
+            "Quatre films répondent chacun à un besoin différent : intimité totale, confort thermique, sécurité, ou esthétique discrète. C'est la question qu'on nous pose le plus souvent, au moment d'hésiter entre les teintes disponibles. Voici un guide simple pour faire le bon choix.",
           ],
         },
         {
-          heading: 'La teinte effet miroir',
+          heading: 'Quand choisir la teinte effet miroir ?',
           anchor: 'miroir',
           paragraphs: [
-            "La teinte effet miroir est la solution la plus radicale en matière d'intimité. Posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
+            "Vous choisissez la teinte effet miroir quand l'intimité de jour est votre priorité absolue : posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
             "Au-delà de l'intimité, ce film bloque de 46% à 87% des rayons UV selon l'intensité posée (les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait) et réduit considérablement la chaleur qui entre par vos fenêtres, un vrai plus en été.",
             "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
             "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite : un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/protection-uv-film-vitrage-bruxelles) vous aide à trancher selon vos pièces.",
           ],
         },
         {
-          heading: 'La teinte solaire',
+          heading: 'Quand choisir la teinte solaire ?',
           anchor: 'solaire',
           paragraphs: [
-            "Si votre priorité est le confort thermique plutôt que l'intimité totale, la teinte solaire est le film le plus adapté. Contrairement au film miroir, elle reste transparente : on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
+            "Vous choisissez la teinte solaire quand le confort thermique prime sur l'intimité totale. Contrairement au film miroir, elle reste transparente : on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
             "Son rôle principal : réduire la chaleur et les UV qui entrent dans la maison, pour un confort optimal en été sans devoir fermer les volets ou installer une climatisation. C'est une solution particulièrement appréciée dans les pièces de vie très exposées au soleil, ou pour protéger un salon plein sud qui devient difficilement vivable l'après-midi.",
           ],
         },
         {
-          heading: 'La teinte blanc mat',
+          heading: 'Quand choisir la teinte blanc mat ?',
           anchor: 'mat',
           paragraphs: [
-            "La teinte blanc mat répond à un besoin différent : une intimité totale, mais dans les deux sens, depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
+            "Vous choisissez la teinte blanc mat quand il vous faut une intimité totale dans les deux sens : depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
             "C'est le choix le plus adapté pour une salle de bain, une verrière, une porte d'entrée vitrée, ou toute pièce où vous voulez laisser entrer la lumière sans jamais être visible. Il apporte aussi un rendu esthétique épuré et élégant, très apprécié sur les façades contemporaines.",
           ],
         },
         {
-          heading: 'Le film anti-effraction',
+          heading: 'Quand choisir le film anti-effraction ?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "Le film anti-effraction répond à un besoin différent des trois précédents : il est totalement transparent et ne change rien à l'apparence de votre vitrage. Sa fonction n'est pas l'intimité, mais la sécurité.",
+            "Vous choisissez le film anti-effraction quand la sécurité prime sur l'intimité ou la chaleur : il est totalement transparent et ne change rien à l'apparence de votre vitrage.",
             "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée : il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
             "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur. Notre [article dédié à la sécurité](/blog/film-securite-anti-effraction-vitrage) détaille son fonctionnement plus en profondeur.",
           ],
@@ -98,7 +98,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Pose et durée de vie',
+          heading: 'Comment se déroule la pose, et combien de temps dure le film ?',
           paragraphs: [
             "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences), ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Pour savoir comment se déroule concrètement un projet, de la demande de devis à la pose, consultez notre [article dédié aux étapes](/blog/etapes-projet-film-vitrage-bruxelles).",
@@ -703,7 +703,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Beaucoup de gens hésitent à demander un devis simplement parce qu'ils ne savent pas trop à quoi s'attendre ensuite. C'est normal, la plupart n'ont jamais fait poser de film pour vitrage avant. Dans les faits, le processus tient en quatre étapes assez simples, et souvent un seul film couvre deux besoins à la fois : l'intimité et la chaleur. Voici comment ça se passe concrètement, de la première prise de contact jusqu'à la pose chez vous.",
+            "Un projet de film pour vitrage tient en quatre étapes assez simples : prise de mesures, devis, choix du film, puis pose. Beaucoup de gens hésitent pourtant à demander un devis, simplement parce qu'ils ne savent pas à quoi s'attendre ensuite, et c'est normal, la plupart n'ont jamais fait poser de film pour vitrage avant. Voici comment ça se passe concrètement, de la première prise de contact jusqu'à la pose chez vous.",
           ],
         },
         {
@@ -874,40 +874,40 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Overweegt u een folie te laten plaatsen op uw beglazing, maar twijfelt u tussen de verschillende tinten? Een vraag die we vaak krijgen. Elke folie beantwoordt aan een andere behoefte: volledige privacy, thermisch comfort, of een discrete esthetiek. Hier is een eenvoudige gids om de juiste keuze te maken.",
+            "Vier folies beantwoorden elk aan een andere behoefte: volledige privacy, thermisch comfort, veiligheid, of een discrete esthetiek. Dat is de vraag die we het vaakst krijgen, op het moment dat u twijfelt tussen de beschikbare tinten. Hier is een eenvoudige gids om de juiste keuze te maken.",
           ],
         },
         {
-          heading: 'Spiegeleffect folie',
+          heading: 'Wanneer kiest u voor de spiegeleffect folie?',
           anchor: 'miroir',
           paragraphs: [
-            "De spiegeleffect folie is de meest radicale oplossing op het gebied van privacy. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
+            "U kiest voor de spiegeleffect folie wanneer privacy overdag uw absolute prioriteit is: geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
             "Naast privacy blokkeert deze folie 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit (kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken) en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt, een echte troef in de zomer.",
             "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
             "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen: een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/protection-uv-film-vitrage-bruxelles) helpt u kiezen op basis van uw kamers.",
           ],
         },
         {
-          heading: 'Zonwerende folie',
+          heading: 'Wanneer kiest u voor de zonwerende folie?',
           anchor: 'solaire',
           paragraphs: [
-            "Als uw prioriteit eerder thermisch comfort is dan volledige privacy, is de zonwerende folie de meest geschikte keuze. In tegenstelling tot de spiegelfolie blijft ze transparant: u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
+            "U kiest voor de zonwerende folie wanneer thermisch comfort voor u belangrijker is dan volledige privacy. In tegenstelling tot de spiegelfolie blijft ze transparant: u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
             "Haar belangrijkste rol: de warmte en UV-stralen die het huis binnenkomen verminderen, voor optimaal comfort in de zomer zonder de rolluiken te moeten sluiten of airconditioning te installeren. Een oplossing die vooral gewaardeerd wordt in leefruimtes die sterk aan de zon blootgesteld zijn, of om een zuidgerichte woonkamer te beschermen die 's namiddags moeilijk leefbaar wordt.",
           ],
         },
         {
-          heading: 'Matwitte folie',
+          heading: 'Wanneer kiest u voor de matwitte folie?',
           anchor: 'mat',
           paragraphs: [
-            "De matwitte folie beantwoordt aan een andere behoefte: volledige privacy, maar in beide richtingen, van binnenuit zoals van buitenaf, dag en nacht. In tegenstelling tot de spiegelfolie hangt haar werking niet af van het lichtniveau.",
+            "U kiest voor de matwitte folie wanneer u volledige privacy nodig heeft in beide richtingen: van binnenuit zoals van buitenaf, dag en nacht. In tegenstelling tot de spiegelfolie hangt haar werking niet af van het lichtniveau.",
             "Dit is de meest geschikte keuze voor een badkamer, een veranda, een glazen voordeur, of elke ruimte waar u licht wilt binnenlaten zonder ooit zichtbaar te zijn. Ze zorgt ook voor een strak en elegant esthetisch resultaat, erg gewaardeerd op hedendaagse gevels.",
           ],
         },
         {
-          heading: 'Inbraakwerende folie',
+          heading: 'Wanneer kiest u voor de inbraakwerende folie?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "De inbraakwerende folie beantwoordt aan een andere behoefte dan de vorige drie: ze is volledig transparant en verandert niets aan het uitzicht van uw beglazing. Haar functie is niet privacy, maar veiligheid.",
+            "U kiest voor de inbraakwerende folie wanneer veiligheid voor u belangrijker is dan privacy of warmte: ze is volledig transparant en verandert niets aan het uitzicht van uw beglazing.",
             "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen: hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
             "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers. Ons [artikel gewijd aan veiligheid](/blog/film-securite-anti-effraction-vitrage) gaat dieper in op de werking.",
           ],
@@ -935,7 +935,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Plaatsing en levensduur',
+          heading: 'Hoe verloopt de plaatsing, en hoe lang gaat de folie mee?',
           paragraphs: [
             "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur), wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Om te weten hoe een project concreet verloopt, van offerteaanvraag tot plaatsing, bekijk ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles).",
@@ -1539,7 +1539,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            'Veel mensen aarzelen om een offerte aan te vragen, gewoon omdat ze niet goed weten wat daarna komt. Dat is normaal, de meeste mensen hebben nog nooit raamfolie laten plaatsen. In de praktijk komt het proces neer op vier vrij eenvoudige stappen, en vaak beantwoordt één folie meteen aan twee behoeften: privacy én warmte. Zo verloopt het concreet, van het eerste contact tot de plaatsing bij u thuis.',
+            'Een raamfolieproject bestaat uit vier vrij eenvoudige stappen: opmeting, offerte, keuze van de folie, en plaatsing. Toch aarzelen veel mensen om een offerte aan te vragen, gewoon omdat ze niet goed weten wat daarna komt, en dat is normaal, de meeste mensen hebben nog nooit raamfolie laten plaatsen. Zo verloopt het concreet, van het eerste contact tot de plaatsing bij u thuis.',
           ],
         },
         {
@@ -1710,40 +1710,40 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Thinking about having a film installed on your windows, but unsure which tint to choose? It's a question we get asked often. Each film answers a different need: total privacy, thermal comfort, or a discreet look. Here's a simple guide to help you make the right choice.",
+            "Four films each answer a different need: total privacy, thermal comfort, security, or a discreet look. It's the question we get asked most, right when you're torn between the available tints. Here's a simple guide to help you make the right choice.",
           ],
         },
         {
-          heading: 'Mirror effect film',
+          heading: 'When should you choose mirror effect film?',
           anchor: 'miroir',
           paragraphs: [
-            "The mirror effect film is the most effective solution when it comes to privacy. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
+            "You should choose mirror effect film when daytime privacy is your top priority: applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
             "Beyond privacy, this film blocks 46% to 87% of UV rays depending on the intensity installed (quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching), and it significantly reduces the heat entering through your windows, a real advantage in summer.",
             "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
             "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors, a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/protection-uv-film-vitrage-bruxelles) helps you decide based on your rooms.",
           ],
         },
         {
-          heading: 'Solar tint',
+          heading: 'When should you choose solar tint?',
           anchor: 'solaire',
           paragraphs: [
-            "If your priority is thermal comfort rather than total privacy, solar tint is the most suitable film. Unlike mirror film, it remains transparent: you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
+            "You should choose solar tint when thermal comfort matters more to you than total privacy. Unlike mirror film, it remains transparent: you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
             "Its main role: reducing the heat and UV entering the house, for optimal comfort in summer without having to close the shutters or install air conditioning. It's a solution particularly appreciated in living spaces heavily exposed to the sun, or to protect a south-facing living room that becomes hard to use in the afternoon.",
           ],
         },
         {
-          heading: 'Matte white film',
+          heading: 'When should you choose matte white film?',
           anchor: 'mat',
           paragraphs: [
-            "Matte white film answers a different need: total privacy, in both directions (from inside as well as outside, day or night). Unlike mirror film, how it works doesn't depend on light levels.",
+            "You should choose matte white film when you need total privacy in both directions: from inside as well as outside, day or night. Unlike mirror film, how it works doesn't depend on light levels.",
             "It's the best choice for a bathroom, a conservatory, a glazed front door, or any room where you want to let light in without ever being visible. It also gives a clean, elegant look that's very popular on contemporary façades.",
           ],
         },
         {
-          heading: 'Anti-burglary film',
+          heading: 'When should you choose anti-burglary film?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "Anti-burglary film answers a different need from the previous three: it's completely transparent and changes nothing about how your windows look. Its purpose isn't privacy, but security.",
+            "You should choose anti-burglary film when security matters more than privacy or heat: it's completely transparent and changes nothing about how your windows look.",
             "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane: they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
             "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window. Our [dedicated article on security](/blog/film-securite-anti-effraction-vitrage) covers how it works in more detail.",
           ],
@@ -1771,7 +1771,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Installation and lifespan',
+          heading: 'How does installation work, and how long does the film last?',
           paragraphs: [
             "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference), which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation. To see how a project actually unfolds, from quote request to installation, check our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles).',
@@ -2375,7 +2375,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Plenty of people hesitate to request a quote simply because they're not sure what happens next. That's normal, most have never had window film installed before. In practice, the process comes down to four fairly simple steps, and often a single film covers two needs at once: privacy and heat. Here's how it actually plays out, from first contact to the day of installation.",
+            "A window film project comes down to four fairly simple steps: measurements, quote, choosing the film, then installation. Plenty of people still hesitate to request a quote, simply because they're not sure what happens next, and that's normal, most have never had window film installed before. Here's how it actually plays out, from first contact to the day of installation.",
           ],
         },
         {

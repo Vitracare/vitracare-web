@@ -21,7 +21,7 @@ const pages = [
           "VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie, pour particuliers et professionnels : intimité, confort thermique et protection UV. Devis gratuit sous 24h.",
       },
       NL: {
-        title: 'VitraCare — Plaatsing van folies en tinten voor beglazing in Brussel',
+        title: 'VitraCare — Folie- en tintplaatsing in Brussel',
         description:
           'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving, voor particulieren en professionals: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
       },
@@ -56,17 +56,17 @@ const pages = [
     path: '/realisations',
     meta: {
       FR: {
-        title: 'Nos réalisations — VitraCare',
+        title: 'Réalisations de pose de film à Bruxelles — VitraCare',
         description:
           'Découvrez nos chantiers de pose de films et teintes pour vitrages réalisés à Bruxelles et dans sa périphérie.',
       },
       NL: {
-        title: 'Onze realisaties — VitraCare',
+        title: 'Realisaties raamfolie plaatsing Brussel — VitraCare',
         description:
           'Ontdek onze projecten voor het plaatsen van folies en tinten op beglazing, uitgevoerd in Brussel en omgeving.',
       },
       EN: {
-        title: 'Our Work — VitraCare',
+        title: 'Window Film Projects in Brussels — VitraCare',
         description:
           'Discover our window film and tint installation projects completed in Brussels and the surrounding area.',
       },
@@ -76,17 +76,17 @@ const pages = [
     path: '/contact',
     meta: {
       FR: {
-        title: 'Contact — VitraCare',
+        title: 'Contactez VitraCare — Film pour vitrage à Bruxelles',
         description:
           'Contactez VitraCare pour toute question sur la pose de films et teintes pour vitrages à Bruxelles et sa périphérie.',
       },
       NL: {
-        title: 'Contact — VitraCare',
+        title: 'Contacteer VitraCare — Raamfolie in Brussel',
         description:
           'Neem contact op met VitraCare voor al uw vragen over het plaatsen van folies en tinten op beglazing in Brussel en omgeving.',
       },
       EN: {
-        title: 'Contact — VitraCare',
+        title: 'Contact VitraCare — Window Film in Brussels',
         description:
           'Contact VitraCare for any questions about window film and tint installation in Brussels and the surrounding area.',
       },
@@ -96,7 +96,7 @@ const pages = [
     path: '/faq',
     meta: {
       FR: {
-        title: 'FAQ — VitraCare',
+        title: 'FAQ film pour vitrage à Bruxelles — VitraCare',
         description:
           'Toutes les réponses à vos questions sur les films et teintes pour vitrages : pose, entretien, garantie, prix.',
       },
@@ -106,7 +106,7 @@ const pages = [
           'Alle antwoorden op uw vragen over folies en tinten voor beglazing: plaatsing, onderhoud, garantie, prijs.',
       },
       EN: {
-        title: 'FAQ — VitraCare',
+        title: 'FAQ Window Film Brussels — VitraCare',
         description:
           'All the answers to your questions about window films and tints: installation, maintenance, warranty, pricing.',
       },
@@ -115,9 +115,9 @@ const pages = [
   {
     path: '/blog',
     meta: {
-      FR: { title: 'Blog — VitraCare', description: 'Conseils et actualités sur les films et teintes pour vitrages à Bruxelles.' },
-      NL: { title: 'Blog — VitraCare', description: 'Tips en informatie over folies en tinten voor beglazing.' },
-      EN: { title: 'Blog — VitraCare', description: 'Tips and information about window films and tints.' },
+      FR: { title: 'Blog film pour vitrage à Bruxelles — VitraCare', description: 'Conseils et actualités sur les films et teintes pour vitrages à Bruxelles.' },
+      NL: { title: 'Blog raamfolie Brussel — VitraCare', description: 'Tips en informatie over folies en tinten voor beglazing.' },
+      EN: { title: 'Blog Window Film Brussels — VitraCare', description: 'Tips and information about window films and tints.' },
     },
   },
   {
@@ -316,7 +316,7 @@ const blogArticles = [
   path: '/blog/film-securite-anti-effraction-vitrage',
   meta: {
     FR: {
-      title: 'Film de sécurité anti-effraction pour vitrage à Bruxelles — VitraCare',
+      title: 'Film de sécurité anti-effraction à Bruxelles — VitraCare',
       description:
         "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
       headline: 'Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?',
@@ -324,7 +324,7 @@ const blogArticles = [
       dateModified: '2026-09-13',
     },
     NL: {
-      title: 'Beveiligingsfolie tegen inbraak voor beglazing in Brussel — VitraCare',
+      title: 'Beveiligingsfolie tegen inbraak in Brussel — VitraCare',
       description:
         'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
       headline: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
@@ -332,7 +332,7 @@ const blogArticles = [
       dateModified: '2026-09-13',
     },
     EN: {
-      title: 'Security anti-break-in film for windows in Brussels — VitraCare',
+      title: 'Anti-break-in security film in Brussels — VitraCare',
       description:
         "Shop window, patio door, street-facing ground floor: security film reinforces your existing glazing against break-in attempts, without replacing your windows.",
       headline: 'Security window film: how to protect your glazing without replacing it?',
@@ -497,19 +497,19 @@ const communePages = [
     slug: 'uccle',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse — VitraCare',
+        title: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse',
         description:
           "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin de la commune.",
         name: 'Uccle',
       },
       NL: {
-        title: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode — VitraCare',
+        title: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin in de gemeente.',
         name: 'Ukkel',
       },
       EN: {
-        title: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse — VitraCare',
+        title: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse',
         description:
           'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens typical of the commune.',
         name: 'Uccle',
@@ -520,19 +520,19 @@ const communePages = [
     slug: 'waterloo',
     meta: {
       FR: {
-        title: "Film pour vitrage à Waterloo, Braine-l'Alleud et Lasne — VitraCare",
+        title: "Film pour vitrage à Waterloo, Braine-l'Alleud et Lasne",
         description:
           "VitraCare pose des films et teintes pour vitrages à Waterloo (Brabant wallon) : intimité, confort thermique et protection UV pour villas et vérandas.",
         name: 'Waterloo',
       },
       NL: {
-        title: 'Raamfolie in Waterloo, Eigenbrakel en Lasne — VitraCare',
+        title: 'Raamfolie in Waterloo, Eigenbrakel en Lasne',
         description:
           "VitraCare plaatst folies en tinten voor beglazing in Waterloo (Waals-Brabant): privacy, thermisch comfort en UV-bescherming voor villa's en veranda's.",
         name: 'Waterloo',
       },
       EN: {
-        title: "Window Film in Waterloo, Braine-l'Alleud and Lasne — VitraCare",
+        title: "Window Film in Waterloo, Braine-l'Alleud and Lasne",
         description:
           'VitraCare installs window films and tints in Waterloo (Walloon Brabant): privacy, thermal comfort and UV protection for villas and large glass surfaces.',
         name: 'Waterloo',
@@ -543,19 +543,19 @@ const communePages = [
     slug: 'forest',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles — VitraCare',
+        title: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles',
         description:
           "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
         name: 'Forest',
       },
       NL: {
-        title: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis — VitraCare',
+        title: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en stedelijke dichtheid van de gemeente.',
         name: 'Vorst',
       },
       EN: {
-        title: 'Window Film in Forest, Anderlecht and Saint-Gilles — VitraCare',
+        title: 'Window Film in Forest, Anderlecht and Saint-Gilles',
         description:
           'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
         name: 'Forest',

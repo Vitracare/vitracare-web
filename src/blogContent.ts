@@ -381,7 +381,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'film-securite-anti-effraction-vitrage',
       title: "Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?",
-      metaTitle: 'Film de sécurité anti-effraction pour vitrage à Bruxelles',
+      metaTitle: 'Film de sécurité anti-effraction à Bruxelles',
       metaDescription:
         "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
       date: '2026-09-13',
@@ -1217,7 +1217,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'film-securite-anti-effraction-vitrage',
       title: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
-      metaTitle: 'Beveiligingsfolie tegen inbraak voor beglazing in Brussel',
+      metaTitle: 'Beveiligingsfolie tegen inbraak in Brussel',
       metaDescription:
         'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
       date: '2026-09-13',
@@ -2053,7 +2053,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'film-securite-anti-effraction-vitrage',
       title: 'Security window film: how to protect your glazing without replacing it?',
-      metaTitle: 'Security anti-break-in film for windows in Brussels',
+      metaTitle: 'Anti-break-in security film in Brussels',
       metaDescription:
         "Shop window, patio door, street-facing ground floor: security film reinforces your existing glazing against break-in attempts, without replacing your windows.",
       date: '2026-09-13',

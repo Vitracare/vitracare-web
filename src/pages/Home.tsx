@@ -341,7 +341,7 @@ export default function Home() {
               {t.features.f1_desc}
             </p>
             <Link to="/blog/intimite-vis-a-vis-film-vitrage" className="text-[12px] md:text-[14px] font-bold mt-2 hover:opacity-70 transition-opacity" style={{ color: brandColor }}>
-              {t.features.learnMore}
+              {t.features.f1_link}
             </Link>
           </div>
 
@@ -357,7 +357,7 @@ export default function Home() {
               {t.features.f2_desc}
             </p>
             <Link to="/blog/film-securite-anti-effraction-vitrage" className="text-[12px] md:text-[14px] font-bold mt-2 hover:opacity-70 transition-opacity" style={{ color: brandColor }}>
-              {t.features.learnMore}
+              {t.features.f2_link}
             </Link>
           </div>
 
@@ -373,7 +373,7 @@ export default function Home() {
               {t.features.f3_desc}
             </p>
             <Link to="/blog/protection-uv-film-vitrage-bruxelles" className="text-[12px] md:text-[14px] font-bold mt-2 hover:opacity-70 transition-opacity" style={{ color: brandColor }}>
-              {t.features.learnMore}
+              {t.features.f3_link}
             </Link>
           </div>
 
@@ -389,7 +389,7 @@ export default function Home() {
               {t.features.f4_desc}
             </p>
             <Link to="/blog/film-vitrage-economies-climatisation" className="text-[12px] md:text-[14px] font-bold mt-2 hover:opacity-70 transition-opacity" style={{ color: brandColor }}>
-              {t.features.learnMore}
+              {t.features.f4_link}
             </Link>
           </div>
         </div>

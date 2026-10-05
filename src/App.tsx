@@ -11,6 +11,7 @@ import Devis from './pages/Devis';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Realisations from './pages/Realisations';
+import Avis from './pages/Avis';
 import ConditionsGenerales from './pages/ConditionsGenerales';
 import MentionsLegales from './pages/MentionsLegales';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
@@ -26,6 +27,7 @@ export const pageRoutes: { path: string; element: ReactElement }[] = [
   { path: '/contact', element: <Contact /> },
   { path: '/faq', element: <Faq /> },
   { path: '/realisations', element: <Realisations /> },
+  { path: '/avis', element: <Avis /> },
   { path: '/conditions-generales', element: <ConditionsGenerales /> },
   { path: '/mentions-legales', element: <MentionsLegales /> },
   { path: '/politique-confidentialite', element: <PolitiqueConfidentialite /> },

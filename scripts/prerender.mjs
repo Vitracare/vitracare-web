@@ -73,6 +73,26 @@ const pages = [
     },
   },
   {
+    path: '/avis',
+    meta: {
+      FR: {
+        title: 'Avis clients — Pose de film pour vitrage à Bruxelles — VitraCare',
+        description:
+          'Découvrez les avis Google et Trustpilot de nos clients sur la pose de films et teintes pour vitrages à Bruxelles et sa périphérie.',
+      },
+      NL: {
+        title: 'Klantenbeoordelingen — Raamfolie plaatsing Brussel — VitraCare',
+        description:
+          'Ontdek de Google- en Trustpilot-beoordelingen van onze klanten over het plaatsen van folies en tinten op beglazing in Brussel en omgeving.',
+      },
+      EN: {
+        title: 'Customer Reviews — Window Film Installation in Brussels — VitraCare',
+        description:
+          'Discover our clients\' Google and Trustpilot reviews about window film and tint installation in Brussels and the surrounding area.',
+      },
+    },
+  },
+  {
     path: '/contact',
     meta: {
       FR: {

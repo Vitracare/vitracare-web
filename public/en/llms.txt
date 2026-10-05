@@ -11,6 +11,7 @@ Other language versions: [Français](https://vitracare.be/llms.txt) — [Nederla
 - [Free quote](https://vitracare.be/en/devis): Request a free, no-obligation quote, reply within 24 hours.
 - [Home quote visit](https://vitracare.be/en/offre): On-site measurement visit, free in Brussels (€50 travel fee outside) — the quote itself is always free.
 - [Our work](https://vitracare.be/en/realisations): Real window film and tint installation projects in Brussels and its surroundings.
+- [Customer reviews](https://vitracare.be/en/avis): Google and Trustpilot reviews from our clients about window film installation in Brussels.
 - [Service area](https://vitracare.be/en/zone-intervention): Brussels and its 19 municipalities, the whole periphery, and beyond for large projects.
 - [FAQ](https://vitracare.be/en/faq): Answers on installation, maintenance, warranty and film pricing.
 - [Contact](https://vitracare.be/en/contact): Phone, WhatsApp, email and contact form.

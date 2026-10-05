@@ -11,6 +11,7 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 - [Devis gratuit](https://vitracare.be/devis): Demande de devis gratuit et sans engagement, réponse sous 24h.
 - [Offre devis à domicile](https://vitracare.be/offre): Prise de mesures à domicile, gratuite à Bruxelles (50€ de déplacement en dehors) — le devis lui-même est toujours gratuit.
 - [Nos réalisations](https://vitracare.be/realisations): Chantiers réels de pose de films et teintes à Bruxelles et en périphérie.
+- [Avis clients](https://vitracare.be/avis): Avis Google et Trustpilot de nos clients sur la pose de films pour vitrages à Bruxelles.
 - [Zone d'intervention](https://vitracare.be/zone-intervention): Bruxelles et ses 19 communes, toute la périphérie, et au-delà pour les grands projets.
 - [FAQ](https://vitracare.be/faq): Réponses sur la pose, l'entretien, la garantie et le prix des films.
 - [Contact](https://vitracare.be/contact): Téléphone, WhatsApp, email et formulaire de contact.

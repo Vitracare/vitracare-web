@@ -184,6 +184,19 @@ export default function BlogArticle() {
             />
           </div>
 
+          {article.heroImage && (
+            <div className="w-full aspect-[16/9] rounded-xl overflow-hidden mb-10 bg-gray-100">
+              <img
+                src={article.heroImage.src}
+                alt={article.heroImage.alt}
+                width={article.heroImage.width}
+                height={article.heroImage.height}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+
           <div className="flex flex-col gap-7 text-[16px] leading-relaxed" style={{ color: '#4a4a4a' }}>
             {article.sections.map((section, idx) => (
               <div key={idx}>

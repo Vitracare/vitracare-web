@@ -23,6 +23,9 @@ export type BlogArticle = {
   excerpt: string;
   sections: BlogSection[];
   faq: BlogFaqItem[];
+  // Optional real photo of an actual VitraCare chantier, shown under the title.
+  // Never a stock or AI-generated image — only genuine, unedited project photos.
+  heroImage?: { src: string; alt: string; width: number; height: number };
 };
 
 export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
@@ -452,6 +455,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         "Une pièce exposée plein sud devient vite invivable en été. Le film solaire réduit la chaleur et l'éblouissement, tout en laissant entrer la lumière.",
+      heroImage: { src: '/images/blog/film-solaire-exemple.jpg', alt: 'Toiture vitrée de véranda avec film solaire posé', width: 1400, height: 1045 },
       sections: [
         {
           paragraphs: [
@@ -864,6 +868,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         "Le film effet miroir est la solution la plus radicale contre le vis-à-vis : une intimité totale de jour, sans jamais fermer un rideau. Voici comment il fonctionne, et pour qui il est fait.",
+      heroImage: { src: '/images/blog/film-miroir-exemple.jpg', alt: 'Porte-fenêtre avec film effet miroir posé, reflétant la terrasse extérieure', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [
@@ -949,6 +954,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         "Contrairement au film effet miroir, le film blanc mat protège votre intimité jour et nuit, dans les deux sens. Voici comment il fonctionne, et pour quelles pièces il est le plus adapté.",
+      heroImage: { src: '/images/blog/film-mat-exemple.jpg', alt: 'Porte vitrée avec film blanc mat posé sur la moitié inférieure', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [
@@ -1437,6 +1443,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         "Een zuidgerichte ruimte wordt 's zomers snel onleefbaar. Zonwerende folie vermindert warmte en verblinding, terwijl het licht binnenkomt.",
+      heroImage: { src: '/images/blog/film-solaire-exemple.jpg', alt: 'Glazen verandadak met zonwerende folie', width: 1400, height: 1045 },
       sections: [
         {
           paragraphs: [
@@ -1849,6 +1856,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         'Spiegeleffectfolie is de meest radicale oplossing tegen inkijk: volledige privacy overdag, zonder ooit een gordijn te sluiten. Hoe ze werkt, en voor wie ze geschikt is.',
+      heroImage: { src: '/images/blog/film-miroir-exemple.jpg', alt: 'Terrasdeur met spiegeleffectfolie, die het terras weerkaatst', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [
@@ -1934,6 +1942,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         'In tegenstelling tot spiegeleffectfolie beschermt matwitte folie uw privacy dag en nacht, in beide richtingen. Hoe ze werkt, en voor welke ruimtes ze het meest geschikt is.',
+      heroImage: { src: '/images/blog/film-mat-exemple.jpg', alt: 'Glazen deur met matwitte folie op de onderste helft', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [
@@ -2422,6 +2431,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         'A south-facing room quickly becomes unbearable in summer. Solar film reduces heat and glare, while still letting the light in.',
+      heroImage: { src: '/images/blog/film-solaire-exemple.jpg', alt: 'Glass conservatory roof with solar film installed', width: 1400, height: 1045 },
       sections: [
         {
           paragraphs: [
@@ -2834,6 +2844,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         "Mirror effect film is the most effective solution against being overlooked: total daytime privacy, without ever closing a curtain. How it works, and who it's for.",
+      heroImage: { src: '/images/blog/film-miroir-exemple.jpg', alt: 'Patio door with mirror effect film installed, reflecting the terrace outside', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [
@@ -2919,6 +2930,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-05',
       excerpt:
         "Unlike mirror effect film, matte white film protects your privacy day and night, in both directions. How it works, and which rooms it suits best.",
+      heroImage: { src: '/images/blog/film-mat-exemple.jpg', alt: 'Glazed door with matte white film applied to the lower half', width: 690, height: 1200 },
       sections: [
         {
           paragraphs: [

@@ -28,20 +28,34 @@ export default function Blog() {
             <Link
               key={article.slug}
               to={`/blog/${article.slug}`}
-              className="flex flex-col rounded-xl border border-gray-100 hover:border-[#BA9765] transition-colors p-6 group"
+              className="flex flex-col rounded-xl border border-gray-100 hover:border-[#BA9765] transition-colors overflow-hidden group"
             >
-              <span className="text-[12px] font-bold uppercase tracking-wider mb-3" style={{ color: brandColor }}>
-                {new Date(article.date).toLocaleDateString(lang === 'FR' ? 'fr-BE' : lang === 'NL' ? 'nl-BE' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </span>
-              <h2 className="text-[19px] font-bold mb-3 leading-snug group-hover:opacity-80 transition-opacity" style={{ color: '#464646' }}>
-                {article.title}
-              </h2>
-              <p className="text-[14px] leading-relaxed mb-4" style={{ color: '#767676' }}>
-                {article.excerpt}
-              </p>
-              <span className="text-[13px] font-bold mt-auto" style={{ color: brandColor }}>
-                {t.blog.readMore} →
-              </span>
+              {article.heroImage && (
+                <div className="w-full aspect-[16/9] bg-gray-100 overflow-hidden">
+                  <img
+                    src={article.heroImage.src}
+                    alt={article.heroImage.alt}
+                    width={article.heroImage.width}
+                    height={article.heroImage.height}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              )}
+              <div className="flex flex-col flex-1 p-6">
+                <span className="text-[12px] font-bold uppercase tracking-wider mb-3" style={{ color: brandColor }}>
+                  {new Date(article.date).toLocaleDateString(lang === 'FR' ? 'fr-BE' : lang === 'NL' ? 'nl-BE' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </span>
+                <h2 className="text-[19px] font-bold mb-3 leading-snug group-hover:opacity-80 transition-opacity" style={{ color: '#464646' }}>
+                  {article.title}
+                </h2>
+                <p className="text-[14px] leading-relaxed mb-4" style={{ color: '#767676' }}>
+                  {article.excerpt}
+                </p>
+                <span className="text-[13px] font-bold mt-auto" style={{ color: brandColor }}>
+                  {t.blog.readMore} →
+                </span>
+              </div>
             </Link>
           ))}
         </div>

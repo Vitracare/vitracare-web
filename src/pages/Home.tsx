@@ -829,6 +829,9 @@ export default function Home() {
                     </span>
                   </a>
                 </div>
+                <Link to="/avis" className="mt-3 text-[13px] font-bold underline underline-offset-4 hover:opacity-80 transition-opacity" style={{ color: brandColor }}>
+                  {t.reviews.allReviews}
+                </Link>
               </div>
             </div>
           </div>

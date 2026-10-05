@@ -118,7 +118,8 @@ export const translations = {
       more: 'EN SAVOIR PLUS',
       swipeHint: '← Glissez pour voir tous les avis →',
       googleLink: 'Voir nos avis sur Google',
-      trustpilotLink: 'Voir nos avis sur Trustpilot'
+      trustpilotLink: 'Voir nos avis sur Trustpilot',
+      allReviews: 'Voir tous les avis'
     },
     strip: {
       title: 'Pourquoi choisir VitraCare',
@@ -393,7 +394,8 @@ export const translations = {
       more: 'LEES MEER',
       swipeHint: '← Schuif om alle beoordelingen te zien →',
       googleLink: 'Bekijk onze beoordelingen op Google',
-      trustpilotLink: 'Bekijk onze beoordelingen op Trustpilot'
+      trustpilotLink: 'Bekijk onze beoordelingen op Trustpilot',
+      allReviews: 'Bekijk alle beoordelingen'
     },
     strip: {
       title: 'Waarom kiezen voor VitraCare',
@@ -668,7 +670,8 @@ export const translations = {
       more: 'LEARN MORE',
       swipeHint: '← Swipe to see all reviews →',
       googleLink: 'See our reviews on Google',
-      trustpilotLink: 'See our reviews on Trustpilot'
+      trustpilotLink: 'See our reviews on Trustpilot',
+      allReviews: 'See all reviews'
     },
     strip: {
       title: 'Why choose VitraCare',

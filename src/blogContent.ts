@@ -37,6 +37,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: "Film miroir, teinte solaire ou blanc mat : découvrez les différences, avantages et usages de chaque film pour vitrages, et lequel convient le mieux à votre maison.",
       date: '2026-08-06',
       excerpt: "Chaque film répond à un besoin différent : intimité totale, confort thermique, ou esthétique discrète. Voici un guide simple pour faire le bon choix.",
+            heroImage: { src: '/images/blog/illus-quel-film-choisir.jpg', alt: 'Illustration de quatre fenêtres côte à côte montrant les 4 types de film pour vitrage : effet miroir, solaire teinté, blanc mat dépoli et anti-effraction', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -143,6 +144,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-19',
       excerpt:
         "Face à la chaleur, le réflexe est souvent d'allumer un ventilateur ou un climatiseur. Voici ce que montrent les études sur une alternative plus discrète : le film pour vitrage.",
+            heroImage: { src: '/images/blog/illus-economies-climatisation.jpg', alt: 'Illustration comparant une maison exposée au soleil avec ventilateur et climatiseur d\'un côté, et une maison fraîche grâce au film pour vitrage de l\'autre', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -218,6 +220,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-27',
       excerpt:
         "Vivre en ville, c'est souvent choisir entre lumière naturelle et intimité. Le film pour vitrage permet d'avoir les deux, sans fermer un seul volet.",
+            heroImage: { src: '/images/blog/illus-vis-a-vis.jpg', alt: 'Illustration d\'une façade en ville avec une fenêtre reflétant la rue comme un miroir, empêchant la vue depuis l\'extérieur', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -306,6 +309,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-05',
       excerpt:
         "Remplacer ses fenêtres coûte cher et prend du temps. Le film pour vitrage est-il une alternative sérieuse ? Voici un comparatif honnête, chiffres à l'appui.",
+            heroImage: { src: '/images/blog/illus-remplacer-fenetres.jpg', alt: 'Illustration comparant le remplacement complet d\'une fenêtre avec des outils de chantier, et la pose d\'un film directement sur la vitre existante', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -383,6 +387,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         "Un vitrage standard cède en quelques secondes sous un coup porté. Le film de sécurité renforce la résistance du verre et complique une intrusion, sans changer vos fenêtres.",
+            heroImage: { src: '/images/blog/illus-anti-effraction.jpg', alt: 'Illustration d\'une vitre fissurée par un impact dont les fragments restent maintenus en place grâce au film de sécurité', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -537,6 +542,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier. Voici ce qui l'influence, et pourquoi la seule vraie réponse reste un devis gratuit et sans engagement.",
+            heroImage: { src: '/images/blog/illus-prix.jpg', alt: 'Illustration d\'un devis posé près d\'une fenêtre ensoleillée, symbolisant l\'établissement d\'un prix personnalisé', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -606,6 +612,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
       date: '2026-09-19',
       excerpt: "Vos meubles ou votre parquet perdent leurs couleurs au fil des années sans que vous sachiez pourquoi ? La réponse est presque toujours la même. Voici les vraies solutions, et pourquoi le film pour vitrage revient le plus souvent.",
+            heroImage: { src: '/images/blog/illus-protection-uv.jpg', alt: 'Illustration comparant un canapé décoloré par le soleil à travers une vitre non protégée, et un canapé aux couleurs préservées grâce au film anti-UV', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -697,6 +704,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-27',
       excerpt:
         "Vous hésitez à demander un devis parce que vous ne savez pas trop à quoi vous attendre ensuite ? Voici, étape par étape, comment se déroule un projet de film pour vitrage, de la première prise de contact à la pose.",
+            heroImage: { src: '/images/blog/illus-etapes.jpg', alt: 'Illustration des 4 étapes d\'un projet de film pour vitrage : prise de mesures, devis, choix du film, pose', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -790,6 +798,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-03',
       excerpt:
         "Deux solutions existent pour couper la chaleur avant qu'elle n'envahisse votre intérieur : le screen extérieur et le film solaire. Voici leurs différences, pour choisir en connaissance de cause.",
+            heroImage: { src: '/images/blog/illus-solaire-screen.jpg', alt: 'Illustration comparant un store banne extérieur et un film solaire posé sur la vitre, deux solutions contre la chaleur', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1026,6 +1035,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: 'Spiegelfolie, zonwerende folie of matwitte folie: ontdek de verschillen, voordelen en toepassingen van elke folie, en welke het beste bij uw huis past.',
       date: '2026-08-06',
       excerpt: 'Elke folie beantwoordt aan een andere behoefte: volledige privacy, thermisch comfort, of een discrete esthetiek. Een eenvoudige gids om de juiste keuze te maken.',
+            heroImage: { src: '/images/blog/illus-quel-film-choisir.jpg', alt: 'Illustratie van vier ramen naast elkaar met de 4 soorten raamfolie: spiegeleffect, zonwerend getint, matwit en inbraakwerend', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -1132,6 +1142,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-19',
       excerpt:
         'Bij hitte grijpen we al snel naar de ventilator of de airco. Dit tonen studies over een discreter alternatief: raamfolie.',
+            heroImage: { src: '/images/blog/illus-economies-climatisation.jpg', alt: 'Illustratie die een door de zon blootgestelde woning met ventilator en airco vergelijkt met een koele woning dankzij raamfolie', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1207,6 +1218,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-27',
       excerpt:
         'Stadswonen betekent vaak kiezen tussen natuurlijk licht en privacy. Raamfolie biedt beide, zonder één rolluik te moeten sluiten.',
+            heroImage: { src: '/images/blog/illus-vis-a-vis.jpg', alt: 'Illustratie van een stadsgevel met een raam dat de straat weerkaatst als een spiegel, waardoor het zicht van buitenaf geblokkeerd wordt', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1294,6 +1306,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-05',
       excerpt:
         'Ramen vervangen kost veel en duurt lang. Is raamfolie een serieus alternatief? Een eerlijke vergelijking, met cijfers.',
+            heroImage: { src: '/images/blog/illus-remplacer-fenetres.jpg', alt: 'Illustratie die het volledig vervangen van een raam met werfgereedschap vergelijkt met het plaatsen van een folie op het bestaande raam', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1371,6 +1384,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         'Standaard beglazing bezwijkt binnen enkele seconden onder een gerichte klap. Beveiligingsfolie versterkt de weerstand van het glas en bemoeilijkt een inbraak, zonder uw ramen te vervangen.',
+            heroImage: { src: '/images/blog/illus-anti-effraction.jpg', alt: 'Illustratie van een raam dat barst bij een impact, waarbij de scherven dankzij de veiligheidsfolie op hun plaats blijven', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -1525,6 +1539,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf. Hier is wat ze beïnvloedt, en waarom het enige echte antwoord een gratis en vrijblijvende offerte blijft.',
+            heroImage: { src: '/images/blog/illus-prix.jpg', alt: 'Illustratie van een offerte naast een zonnig raam, symbool voor het opstellen van een gepersonaliseerde prijs', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1594,6 +1609,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: 'Meubels, parket of stoffen die jaar na jaar verkleuren? We leggen uit waarom, en hoe raamfolie uw interieur duurzaam beschermt, met echte cijfers.',
       date: '2026-09-19',
       excerpt: 'Verliezen uw meubels of parket hun kleur zonder dat u weet waarom? Het antwoord is bijna altijd hetzelfde. Hier zijn de echte oplossingen, en waarom raamfolie meestal naar voren komt.',
+            heroImage: { src: '/images/blog/illus-protection-uv.jpg', alt: 'Illustratie die een door de zon verbleekte sofa achter onbeschermd glas vergelijkt met een sofa met behouden kleuren dankzij anti-UV-folie', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1685,6 +1701,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-27',
       excerpt:
         'Aarzelt u om een offerte aan te vragen omdat u niet goed weet wat u daarna kan verwachten? Hier is, stap voor stap, hoe een raamfolieproject verloopt, van het eerste contact tot de plaatsing.',
+            heroImage: { src: '/images/blog/illus-etapes.jpg', alt: 'Illustratie van de 4 stappen van een raamfolieproject: opmeting, offerte, keuze van de folie, plaatsing', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -1778,6 +1795,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-03',
       excerpt:
         "Twee oplossingen bestaan om de hitte te stoppen voor ze uw interieur binnendringt: buitenzonwering en zonwerende folie. Hier zijn de verschillen, om met kennis van zaken te kiezen.",
+            heroImage: { src: '/images/blog/illus-solaire-screen.jpg', alt: 'Illustratie die een buitenzonwering vergelijkt met zonwerende folie op het raam, twee oplossingen tegen hitte', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2014,6 +2032,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: 'Mirror film, solar tint or matte white: discover the differences, benefits and uses of each window film, and which one best suits your home.',
       date: '2026-08-06',
       excerpt: "Each film answers a different need: total privacy, thermal comfort, or a discreet look. Here's a simple guide to help you make the right choice.",
+            heroImage: { src: '/images/blog/illus-quel-film-choisir.jpg', alt: 'Illustration of four windows side by side showing the 4 types of window film: mirror effect, tinted solar, matte white, and anti-burglary', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -2120,6 +2139,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-19',
       excerpt:
         "When it gets hot, the default move is to reach for a fan or an air conditioner. Here's what studies show about a quieter alternative: window film.",
+            heroImage: { src: '/images/blog/illus-economies-climatisation.jpg', alt: 'Illustration comparing a sun-exposed house using a fan and air conditioner with a cool house thanks to window film', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2195,6 +2215,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-08-27',
       excerpt:
         "City living often means choosing between natural light and privacy. Window film gives you both, without closing a single shutter.",
+            heroImage: { src: '/images/blog/illus-vis-a-vis.jpg', alt: 'Illustration of a city façade with a window reflecting the street like a mirror, blocking the view from outside', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2282,6 +2303,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-05',
       excerpt:
         "Replacing windows is expensive and slow. Is window film a serious alternative? An honest, figures-based comparison.",
+            heroImage: { src: '/images/blog/illus-remplacer-fenetres.jpg', alt: 'Illustration comparing a full window replacement with construction tools to installing film directly on the existing window', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2359,6 +2381,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         'Standard glazing gives way within seconds under a well-placed blow. Security film reinforces the glass and makes a break-in far harder, without replacing your windows.',
+            heroImage: { src: '/images/blog/illus-anti-effraction.jpg', alt: 'Illustration of a window cracking on impact, with the shattered pieces held in place by the security film', width: 1200, height: 654 },
       sections: [
         {
           paragraphs: [
@@ -2513,6 +2536,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-13',
       excerpt:
         "The price depends on the type of film, the total surface area, and how accessible the site is: here's what influences it, and why the only real answer is a free, no-obligation quote.",
+            heroImage: { src: '/images/blog/illus-prix.jpg', alt: 'Illustration of a quote document next to a sunlit window, symbolising a personalised price estimate', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2582,6 +2606,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       metaDescription: "Furniture, floors or fabrics fading year after year? We explain why, and how window film protects your interior for the long run, with real figures.",
       date: '2026-09-19',
       excerpt: 'Are your furniture or floors losing their colour without you knowing why? The answer is almost always the same. Here are the real solutions, and why window film usually comes out on top.',
+            heroImage: { src: '/images/blog/illus-protection-uv.jpg', alt: 'Illustration comparing a sofa faded by the sun through unprotected glass with a sofa keeping its colour thanks to UV-blocking film', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2673,6 +2698,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-09-27',
       excerpt:
         "Hesitant to request a quote because you're not sure what happens next? Here's, step by step, how a window film project unfolds, from first contact to installation.",
+            heroImage: { src: '/images/blog/illus-etapes.jpg', alt: 'Illustration of the 4 steps of a window film project: measurements, quote, choosing the film, installation', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [
@@ -2766,6 +2792,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-10-03',
       excerpt:
         "Two real solutions exist to stop heat before it takes over your home: exterior screens and solar window film. Here are the differences, so you can choose with full knowledge.",
+            heroImage: { src: '/images/blog/illus-solaire-screen.jpg', alt: 'Illustration comparing an exterior awning screen with solar film on the window, two solutions against heat', width: 1200, height: 669 },
       sections: [
         {
           paragraphs: [

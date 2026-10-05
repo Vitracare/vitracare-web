@@ -506,6 +506,64 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-miroir-vitrage-bruxelles',
+  meta: {
+    FR: {
+      title: 'Film effet miroir pour vitrage à Bruxelles — VitraCare',
+      description:
+        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée donnant sur la rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière. Fonctionnement, prix et installation à Bruxelles.",
+      headline: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans perdre la lumière',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+    NL: {
+      title: 'Spiegeleffect folie voor beglazing in Brussel — VitraCare',
+      description:
+        'Inkijk, gelijkvloers blootgesteld, raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt. Werking, prijs en plaatsing in Brussel.',
+      headline: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder lichtverlies',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+    EN: {
+      title: 'Mirror Effect Film for Windows in Brussels — VitraCare',
+      description:
+        "Being overlooked, an exposed ground floor, a window facing the street: mirror effect film blocks the view from outside during the day, while letting light in. How it works, pricing, and installation in Brussels.",
+      headline: 'Mirror effect film for windows in Brussels: total daytime privacy, without losing the light',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+  },
+},
+{
+  path: '/blog/film-blanc-mat-vitrage-bruxelles',
+  meta: {
+    FR: {
+      title: 'Film blanc mat pour vitrage à Bruxelles — VitraCare',
+      description:
+        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale dans les deux sens, à toute heure, sans dépendre de la luminosité. Fonctionnement, prix et installation à Bruxelles.",
+      headline: 'Film blanc mat pour vitrage à Bruxelles : une intimité totale, jour et nuit',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+    NL: {
+      title: 'Matwitte folie voor beglazing in Brussel — VitraCare',
+      description:
+        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte. Werking, prijs en plaatsing in Brussel.',
+      headline: 'Matwitte folie voor beglazing in Brussel: volledige privacy, dag en nacht',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+    EN: {
+      title: 'Matte White Film for Windows in Brussels — VitraCare',
+      description:
+        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels. How it works, pricing, and installation in Brussels.",
+      headline: 'Matte white film for windows in Brussels: total privacy, day and night',
+      datePublished: '2026-10-05',
+      dateModified: '2026-10-05',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

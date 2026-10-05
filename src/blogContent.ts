@@ -44,35 +44,28 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Quand choisir la teinte effet miroir ?',
           anchor: 'miroir',
           paragraphs: [
-            "Vous choisissez la teinte effet miroir quand l'intimité de jour est votre priorité absolue : posé sur vos vitrages, il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur pendant la journée, tout en vous laissant profiter d'une vue dégagée depuis l'intérieur. C'est le choix idéal pour une maison exposée à la rue, un rez-de-chaussée, ou une grande baie vitrée donnant sur un jardin visible des voisins.",
-            "Au-delà de l'intimité, ce film bloque de 46% à 87% des rayons UV selon l'intensité posée (les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait) et réduit considérablement la chaleur qui entre par vos fenêtres, un vrai plus en été.",
-            "Un point à connaître : l'effet miroir fonctionne uniquement de jour. La nuit, si votre intérieur est éclairé et qu'il fait sombre dehors, l'effet s'inverse, comme pour n'importe quelle vitre. C'est le fonctionnement normal de ce type de film, à garder en tête selon les pièces où vous l'installez.",
-            "Ce film existe en deux teintes : argentée (l'effet décrit ci-dessus) ou noire, beaucoup plus foncée. La version noire garantit l'intimité même le soir, au prix d'une luminosité intérieure nettement réduite : un compromis particulièrement adapté à une porte d'entrée vitrée, moins à une pièce de vie. Notre [comparatif détaillé argenté vs noir](/blog/protection-uv-film-vitrage-bruxelles) vous aide à trancher selon vos pièces.",
+            "Vous choisissez la teinte effet miroir quand l'intimité de jour est votre priorité absolue : il crée un effet miroir sans tain qui empêche totalement la vue depuis l'extérieur en journée, tout en vous laissant une vue dégagée depuis l'intérieur. Il existe en version argentée ou noire, et réduit aussi la chaleur et les UV en bonus. Notre [article dédié au film effet miroir](/blog/film-miroir-vitrage-bruxelles) détaille son fonctionnement, les deux teintes disponibles et le prix.",
           ],
         },
         {
           heading: 'Quand choisir la teinte solaire ?',
           anchor: 'solaire',
           paragraphs: [
-            "Vous choisissez la teinte solaire quand le confort thermique prime sur l'intimité totale. Contrairement au film miroir, elle reste transparente : on continue à voir clairement au travers, dans les deux sens, avec une légère teinte bleutée propre à ce type de film.",
-            "Son rôle principal : réduire la chaleur et les UV qui entrent dans la maison, pour un confort optimal en été sans devoir fermer les volets ou installer une climatisation. C'est une solution particulièrement appréciée dans les pièces de vie très exposées au soleil, ou pour protéger un salon plein sud qui devient difficilement vivable l'après-midi.",
+            "Vous choisissez la teinte solaire quand le confort thermique prime sur l'intimité totale. Contrairement au film miroir, elle reste transparente dans les deux sens, avec une légère teinte bleutée propre à ce type de film. Notre [article dédié au film solaire](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement et les pièces où il est le plus utile.",
           ],
         },
         {
           heading: 'Quand choisir la teinte blanc mat ?',
           anchor: 'mat',
           paragraphs: [
-            "Vous choisissez la teinte blanc mat quand il vous faut une intimité totale dans les deux sens : depuis l'intérieur comme depuis l'extérieur, de jour comme de nuit. Contrairement au film miroir, son fonctionnement ne dépend pas de la luminosité.",
-            "C'est le choix le plus adapté pour une salle de bain, une verrière, une porte d'entrée vitrée, ou toute pièce où vous voulez laisser entrer la lumière sans jamais être visible. Il apporte aussi un rendu esthétique épuré et élégant, très apprécié sur les façades contemporaines.",
+            "Vous choisissez la teinte blanc mat quand il vous faut une intimité totale dans les deux sens, de jour comme de nuit, contrairement au film miroir qui ne fonctionne que le jour. Notre [article dédié au film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles) détaille son fonctionnement et les pièces où il est le plus adapté.",
           ],
         },
         {
           heading: 'Quand choisir le film anti-effraction ?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "Vous choisissez le film anti-effraction quand la sécurité prime sur l'intimité ou la chaleur : il est totalement transparent et ne change rien à l'apparence de votre vitrage.",
-            "Son principe est simple : en cas de choc (tentative d'effraction avec un objet contondant, par exemple), le verre se fissure mais les éclats restent collés au film au lieu de se détacher et de tomber. Le cambrioleur ne peut donc plus simplement pousser ou dégager la vitre brisée : il doit s'acharner beaucoup plus longtemps pour se frayer un passage. Le film n'empêche pas une effraction déterminée, mais il la ralentit fortement, ce qui laisse davantage de temps pour réagir ou pour que les secours interviennent.",
-            "C'est une option particulièrement pertinente pour les maisons isolées ou peu passantes, ou pour toute vitre au rez-de-chaussée facilement accessible depuis l'extérieur. Notre [article dédié à la sécurité](/blog/film-securite-anti-effraction-vitrage) détaille son fonctionnement plus en profondeur.",
+            "Vous choisissez le film anti-effraction quand la sécurité prime sur l'intimité ou la chaleur : il est totalement transparent et ralentit fortement une tentative d'effraction sans rendre la vitre incassable. Notre [article dédié à la sécurité](/blog/film-securite-anti-effraction-vitrage) détaille son fonctionnement plus en profondeur.",
           ],
         },
         {
@@ -862,6 +855,162 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-vitrage-bruxelles',
+      title: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans perdre la lumière',
+      metaTitle: 'Film effet miroir pour vitrage à Bruxelles',
+      metaDescription:
+        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée donnant sur la rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière. Fonctionnement, prix et installation à Bruxelles.",
+      date: '2026-10-05',
+      excerpt:
+        "Le film effet miroir est la solution la plus radicale contre le vis-à-vis : une intimité totale de jour, sans jamais fermer un rideau. Voici comment il fonctionne, et pour qui il est fait.",
+      sections: [
+        {
+          paragraphs: [
+            "Le film effet miroir règle un problème très concret : être vu depuis la rue, par un voisin, ou depuis un trottoir passant, sans vouloir vivre volets fermés en permanence. Posé sur vos vitrages, il crée un effet miroir sans tain qui bloque totalement la vue depuis l'extérieur en journée, tout en vous laissant une vue parfaitement dégagée depuis l'intérieur. Voici comment il fonctionne concrètement, et dans quels cas il est la meilleure solution.",
+          ],
+        },
+        {
+          heading: 'Comment fonctionne le film effet miroir ?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "Le principe repose uniquement sur la lumière, pas sur un traitement opaque du verre. En journée, l'extérieur est presque toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir qui empêche la vue de l'intérieur, exactement comme une glace sans tain utilisée en observation.",
+            "Le revers de cette mécanique, qu'il faut connaître avant de se décider : l'effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur. Le soir, une fois vos lumières allumées et la nuit tombée dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre éclairée dans le noir. Ce n'est pas un défaut du film, c'est son fonctionnement normal, à garder en tête selon les pièces où vous l'installez.",
+          ],
+        },
+        {
+          heading: 'À qui s\'adresse ce film ?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "C'est le choix le plus adapté pour une maison exposée à la rue, un rez-de-chaussée donnant directement sur le trottoir, ou une grande baie vitrée avec vue sur un jardin visible des voisins. Pour un appartement, il fonctionne tout aussi bien sur les fenêtres en vis-à-vis d'une cour intérieure ou d'un autre immeuble.",
+            "Nous nous concentrons actuellement sur les particuliers : maisons et appartements. Si votre besoin concerne un bureau ou un commerce, contactez-nous tout de même, mais sachez que ce n'est pas encore notre cœur de cible aujourd'hui.",
+          ],
+        },
+        {
+          heading: 'Argenté ou noir : quelle différence ?',
+          anchor: 'argente-noir',
+          paragraphs: [
+            "Ce film existe en deux teintes. L'argentée est la version classique, celle décrite plus haut : un effet miroir qui fonctionne de jour et s'inverse le soir. La noire est beaucoup plus radicale : elle garantit l'intimité même en soirée, intérieur éclairé, au prix d'une luminosité intérieure nettement réduite en continu.",
+            "C'est un compromis à faire selon la pièce : la version noire convient bien à une porte d'entrée vitrée ou une fenêtre secondaire, nettement moins à une pièce de vie où la lumière naturelle compte. Le prix ne change pas selon la teinte choisie, seule la surface à traiter fait varier le tarif.",
+          ],
+        },
+        {
+          heading: "Comment se passe l'installation ?",
+          anchor: 'installation',
+          paragraphs: [
+            "La pose se fait en une seule visite chez vous, directement sur vos vitrages existants, sans démontage ni remplacement du vitrage. Elle est réalisée par notre collaborateur, généralement côté intérieur du vitrage, ce qui favorise une durée de vie optimale estimée à 10-15 ans et une garantie de 2 ans sur la pose. Notre [article détaillant chaque étape](/blog/etapes-projet-film-vitrage-bruxelles) explique tout le déroulement, de la prise de mesures à la pose.",
+          ],
+        },
+        {
+          heading: "Combien coûte la pose d'un film miroir ?",
+          anchor: 'prix',
+          paragraphs: [
+            "Il n'y a pas de tarif fixe affiché : le prix dépend de la surface totale à traiter et de l'accessibilité des vitrages, pas de la teinte choisie (argentée ou noire coûtent le même prix au m²). C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille ce qui influence le tarif.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — protection contre les UV](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Quelle est la différence entre un film \"effet miroir\" et un film \"sans tain\" ?",
+          answer: "Aucune : ce sont deux noms pour le même produit. « Sans tain » est le terme technique, « effet miroir » décrit son apparence visible depuis l'extérieur. Dans les deux cas, il reflète la lumière côté extérieur en journée, empêchant la vue de l'intérieur tout en laissant une vue dégagée depuis chez vous.",
+        },
+        {
+          question: "Peut-on voir à travers depuis l'intérieur ?",
+          answer: "Oui, c'est tout l'intérêt de ce film : depuis l'intérieur, la vue reste claire et dégagée, comme à travers une vitre classique. Seul le regard depuis l'extérieur est bloqué, et uniquement en journée.",
+        },
+        {
+          question: "Le film protège-t-il aussi de la chaleur et des UV ?",
+          answer: "Oui, en plus de l'intimité : il bloque de 46% à 87% des UV selon l'intensité posée, et réduit considérablement la chaleur qui entre par vos fenêtres. Notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) détaille les chiffres par intensité.",
+        },
+        {
+          question: "Est-ce adapté à un appartement en copropriété ?",
+          answer: "Le film est posé côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement à l'assemblée ou au syndic peut néanmoins être requis avant travaux : nous recommandons de vérifier le règlement de copropriété au cas par cas.",
+        },
+      ],
+    },
+    {
+      slug: 'film-blanc-mat-vitrage-bruxelles',
+      title: 'Film blanc mat pour vitrage à Bruxelles : une intimité totale, jour et nuit',
+      metaTitle: 'Film blanc mat pour vitrage à Bruxelles',
+      metaDescription:
+        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale dans les deux sens, à toute heure, sans dépendre de la luminosité. Fonctionnement, prix et installation à Bruxelles.",
+      date: '2026-10-05',
+      excerpt:
+        "Contrairement au film effet miroir, le film blanc mat protège votre intimité jour et nuit, dans les deux sens. Voici comment il fonctionne, et pour quelles pièces il est le plus adapté.",
+      sections: [
+        {
+          paragraphs: [
+            "Le film blanc mat répond à un besoin différent du film effet miroir : une intimité totale, dans les deux sens, à toute heure, sans dépendre de la lumière extérieure ou intérieure. C'est la solution la plus fiable pour une pièce où l'intimité ne peut jamais être prise en défaut, quelle que soit l'heure de la journée.",
+          ],
+        },
+        {
+          heading: 'Comment fonctionne le film blanc mat ?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "Contrairement au film effet miroir, son fonctionnement ne dépend pas de la luminosité de chaque côté de la vitre. Il dépolit le verre de façon permanente : la vue est bloquée dans les deux sens, en continu, de jour comme de nuit. C'est la différence essentielle à comprendre avant de choisir entre les deux films : le miroir s'inverse le soir, le blanc mat ne s'inverse jamais.",
+            "En contrepartie de cette intimité constante, la vue à travers la vitre est floutée dans les deux sens : vous laissez entrer la lumière, mais plus la vue nette, ni depuis l'intérieur ni depuis l'extérieur.",
+          ],
+        },
+        {
+          heading: 'À qui s\'adresse ce film ?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "C'est le choix le plus adapté pour une salle de bain, une verrière, une porte d'entrée vitrée, ou toute pièce où vous voulez laisser entrer la lumière sans jamais être visible, à n'importe quelle heure. Il apporte aussi un rendu esthétique épuré et élégant, apprécié sur les façades contemporaines comme à l'intérieur.",
+            "Nous nous concentrons actuellement sur les particuliers : maisons et appartements. Pour un bureau ou un commerce, contactez-nous tout de même, mais ce n'est pas encore notre cœur de cible aujourd'hui.",
+          ],
+        },
+        {
+          heading: "Comment se passe l'installation ?",
+          anchor: 'installation',
+          paragraphs: [
+            "La pose se fait en une seule visite chez vous, directement sur vos vitrages existants, sans démontage ni remplacement du vitrage. Elle est réalisée par notre collaborateur, généralement côté intérieur du vitrage, pour une durée de vie optimale estimée à 10-15 ans et une garantie de 2 ans sur la pose. Notre [article détaillant chaque étape](/blog/etapes-projet-film-vitrage-bruxelles) explique tout le déroulement, de la prise de mesures à la pose.",
+          ],
+        },
+        {
+          heading: "Combien coûte la pose d'un film blanc mat ?",
+          anchor: 'prix',
+          paragraphs: [
+            "Il n'y a pas de tarif fixe affiché : le prix dépend de la surface totale à traiter et de l'accessibilité des vitrages. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) détaille ce qui influence le tarif.",
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Le film blanc mat laisse-t-il bien passer la lumière ?",
+          answer: "Oui, c'est tout l'intérêt par rapport à un rideau ou un volet fermé : la pièce reste lumineuse, seule la vue nette est bloquée dans les deux sens. C'est très différent d'une pièce assombrie par des volets fermés en permanence.",
+        },
+        {
+          question: "Quelle différence avec le film effet miroir ?",
+          answer: "Le film effet miroir ne fonctionne que de jour et s'inverse le soir si l'intérieur est éclairé. Le film blanc mat, lui, bloque la vue dans les deux sens en permanence, jour et nuit, mais floute aussi la vue depuis l'intérieur, ce que le film miroir ne fait pas.",
+        },
+        {
+          question: "Est-ce adapté pour une salle de bain au rez-de-chaussée ?",
+          answer: "Oui, c'est l'un des usages les plus courants : une salle de bain au rez-de-chaussée ou exposée à un vis-à-vis bénéficie d'une intimité garantie à toute heure, sans jamais devoir fermer un store ou un rideau.",
+        },
+        {
+          question: "Le prix est-il différent du film effet miroir ?",
+          answer: "Non, notre tarif dépend uniquement de la surface à traiter, pas du film choisi. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -881,35 +1030,28 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Wanneer kiest u voor de spiegeleffect folie?',
           anchor: 'miroir',
           paragraphs: [
-            "U kiest voor de spiegeleffect folie wanneer privacy overdag uw absolute prioriteit is: geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen gewoon van een vrij uitzicht blijft genieten. Dit is de ideale keuze voor een huis aan de straatkant, een gelijkvloers, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren.",
-            "Naast privacy blokkeert deze folie 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit (kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken) en vermindert ze aanzienlijk de warmte die via uw ramen binnenkomt, een echte troef in de zomer.",
-            "Een aandachtspunt: het spiegeleffect werkt enkel overdag. 's Nachts, wanneer uw interieur verlicht is en het buiten donker is, keert het effect om, zoals bij elk ander raam. Dit is de normale werking van dit type folie, houd hier rekening mee afhankelijk van de kamer waarin u ze plaatst.",
-            "Deze folie bestaat in twee tinten: zilver (het hierboven beschreven effect) of zwart, veel donkerder. De zwarte versie garandeert privacy ook 's avonds, ten koste van een merkelijk lagere lichtinval binnen: een compromis dat vooral geschikt is voor een glazen voordeur, minder voor een leefruimte. Onze [gedetailleerde vergelijking zilver vs zwart](/blog/protection-uv-film-vitrage-bruxelles) helpt u kiezen op basis van uw kamers.",
+            "U kiest voor de spiegeleffect folie wanneer privacy overdag uw absolute prioriteit is: ze creëert een spiegeleffect zonder tain dat overdag elk zicht van buitenaf blokkeert, terwijl u vanbinnen vrij uitzicht behoudt. Ze bestaat in zilver of zwart, en vermindert ook warmte en UV als extra voordeel. Ons [artikel over spiegeleffectfolie](/blog/film-miroir-vitrage-bruxelles) legt de werking, de twee tinten en de prijs uit.",
           ],
         },
         {
           heading: 'Wanneer kiest u voor de zonwerende folie?',
           anchor: 'solaire',
           paragraphs: [
-            "U kiest voor de zonwerende folie wanneer thermisch comfort voor u belangrijker is dan volledige privacy. In tegenstelling tot de spiegelfolie blijft ze transparant: u blijft duidelijk doorheen kijken, in beide richtingen, met een lichte blauwachtige tint eigen aan dit type folie.",
-            "Haar belangrijkste rol: de warmte en UV-stralen die het huis binnenkomen verminderen, voor optimaal comfort in de zomer zonder de rolluiken te moeten sluiten of airconditioning te installeren. Een oplossing die vooral gewaardeerd wordt in leefruimtes die sterk aan de zon blootgesteld zijn, of om een zuidgerichte woonkamer te beschermen die 's namiddags moeilijk leefbaar wordt.",
+            "U kiest voor de zonwerende folie wanneer thermisch comfort voor u belangrijker is dan volledige privacy. In tegenstelling tot de spiegelfolie blijft ze in beide richtingen transparant, met een lichte blauwachtige tint. Ons [artikel over zonwerende folie](/blog/film-solaire-vitrage-bruxelles) legt de werking uit en voor welke ruimtes ze het nuttigst is.",
           ],
         },
         {
           heading: 'Wanneer kiest u voor de matwitte folie?',
           anchor: 'mat',
           paragraphs: [
-            "U kiest voor de matwitte folie wanneer u volledige privacy nodig heeft in beide richtingen: van binnenuit zoals van buitenaf, dag en nacht. In tegenstelling tot de spiegelfolie hangt haar werking niet af van het lichtniveau.",
-            "Dit is de meest geschikte keuze voor een badkamer, een veranda, een glazen voordeur, of elke ruimte waar u licht wilt binnenlaten zonder ooit zichtbaar te zijn. Ze zorgt ook voor een strak en elegant esthetisch resultaat, erg gewaardeerd op hedendaagse gevels.",
+            "U kiest voor de matwitte folie wanneer u volledige privacy nodig heeft in beide richtingen, dag en nacht, in tegenstelling tot de spiegelfolie die enkel overdag werkt. Ons [artikel over matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles) legt de werking uit en voor welke ruimtes ze het meest geschikt is.",
           ],
         },
         {
           heading: 'Wanneer kiest u voor de inbraakwerende folie?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "U kiest voor de inbraakwerende folie wanneer veiligheid voor u belangrijker is dan privacy of warmte: ze is volledig transparant en verandert niets aan het uitzicht van uw beglazing.",
-            "Het principe is eenvoudig: bij een schok (bijvoorbeeld een inbraakpoging met een hard voorwerp) barst het glas, maar de scherven blijven aan de folie kleven in plaats van los te komen en te vallen. De inbreker kan de gebroken ruit dus niet zomaar wegduwen of verwijderen: hij moet veel langer volharden om zich een doorgang te banen. De folie voorkomt geen vastberaden inbraak, maar vertraagt ze sterk, wat meer tijd geeft om te reageren of voor de hulpdiensten om tussen te komen.",
-            "Dit is een bijzonder relevante optie voor afgelegen of rustig gelegen woningen, of voor elk gemakkelijk bereikbaar raam op het gelijkvloers. Ons [artikel gewijd aan veiligheid](/blog/film-securite-anti-effraction-vitrage) gaat dieper in op de werking.",
+            "U kiest voor de inbraakwerende folie wanneer veiligheid voor u belangrijker is dan privacy of warmte: ze is volledig transparant en vertraagt een inbraakpoging sterk zonder het raam onbreekbaar te maken. Ons [artikel gewijd aan veiligheid](/blog/film-securite-anti-effraction-vitrage) gaat dieper in op de werking.",
           ],
         },
         {
@@ -1698,6 +1840,162 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-vitrage-bruxelles',
+      title: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder lichtverlies',
+      metaTitle: 'Spiegeleffect folie voor beglazing in Brussel',
+      metaDescription:
+        'Inkijk, gelijkvloers blootgesteld, raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt. Werking, prijs en plaatsing in Brussel.',
+      date: '2026-10-05',
+      excerpt:
+        'Spiegeleffectfolie is de meest radicale oplossing tegen inkijk: volledige privacy overdag, zonder ooit een gordijn te sluiten. Hoe ze werkt, en voor wie ze geschikt is.',
+      sections: [
+        {
+          paragraphs: [
+            "Spiegeleffectfolie lost een heel concreet probleem op: gezien worden vanaf de straat, door een buur, of vanaf een druk trottoir, zonder permanent met gesloten rolluiken te moeten leven. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen een perfect vrij uitzicht behoudt. Hier leest u hoe ze concreet werkt, en in welke gevallen ze de beste oplossing is.",
+          ],
+        },
+        {
+          heading: 'Hoe werkt spiegeleffectfolie?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "Het principe berust uitsluitend op licht, niet op een ondoorzichtige behandeling van het glas. Overdag is het buiten bijna altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van binnenuit blokkeert, net zoals een spiegelruit die gebruikt wordt bij observatie.",
+            "De keerzijde van dit mechanisme, die u moet kennen voordat u beslist: het effect werkt enkel zolang het buiten lichter is dan binnen. 's Avonds, wanneer uw lichten branden en het buiten donker is, keert het effect om, zoals bij elk verlicht raam in het donker. Dit is geen gebrek van de folie, het is haar normale werking, houd hier rekening mee afhankelijk van de kamer.",
+          ],
+        },
+        {
+          heading: 'Voor wie is deze folie geschikt?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "Dit is de meest geschikte keuze voor een huis aan de straatkant, een gelijkvloers dat rechtstreeks op het trottoir uitgeeft, of een grote raampartij met zicht op een tuin die zichtbaar is voor de buren. Voor een appartement werkt ze even goed op ramen met inkijk vanaf een binnenkoer of een ander gebouw.",
+            "Wij richten ons momenteel op particulieren: huizen en appartementen. Voor een kantoor of handelszaak kunt u ons toch contacteren, maar weet dat dit vandaag nog niet onze hoofddoelgroep is.",
+          ],
+        },
+        {
+          heading: 'Zilver of zwart: wat is het verschil?',
+          anchor: 'argente-noir',
+          paragraphs: [
+            "Deze folie bestaat in twee tinten. De zilveren is de klassieke versie, hierboven beschreven: een spiegeleffect dat overdag werkt en 's avonds omkeert. De zwarte is veel radicaler: ze garandeert privacy zelfs 's avonds met verlicht interieur, ten koste van een merkelijk lagere lichtinval, continu.",
+            "Dit is een compromis dat per kamer gemaakt moet worden: de zwarte versie past goed bij een glazen voordeur of een secundair raam, veel minder bij een leefruimte waar natuurlijk licht telt. De prijs verandert niet naargelang de gekozen tint, enkel de te behandelen oppervlakte bepaalt het tarief.",
+          ],
+        },
+        {
+          heading: 'Hoe verloopt de plaatsing?',
+          anchor: 'installation',
+          paragraphs: [
+            "De plaatsing gebeurt in één bezoek bij u thuis, rechtstreeks op uw bestaande beglazing, zonder demontage of vervanging. Ze wordt uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas, wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar, met een garantie van 2 jaar op de plaatsing. Ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles) legt het volledige verloop uit, van opmeting tot plaatsing.",
+          ],
+        },
+        {
+          heading: 'Hoeveel kost de plaatsing van spiegeleffectfolie?',
+          anchor: 'prix',
+          paragraphs: [
+            "Er is geen vast tarief: de prijs hangt af van de totale te behandelen oppervlakte en de toegankelijkheid van de beglazing, niet van de gekozen tint (zilver of zwart kosten evenveel per m²). Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat de prijs beïnvloedt.",
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[International Window Film Association — bescherming tegen UV-stralen](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Wat is het verschil tussen "spiegeleffect" en "folie zonder tain"?',
+          answer: "Geen: dit zijn twee namen voor hetzelfde product. \"Zonder tain\" is de technische term, \"spiegeleffect\" beschrijft het zichtbare uiterlijk van buitenaf. In beide gevallen weerkaatst de folie het licht langs de buitenkant overdag, waardoor het zicht van binnenuit geblokkeerd wordt terwijl u vanuit uw huis vrij zicht behoudt.",
+        },
+        {
+          question: 'Kan ik er vanbinnen doorheen kijken?',
+          answer: 'Ja, dat is net het hele punt van deze folie: van binnenuit blijft het zicht helder en vrij, zoals door een gewoon raam. Enkel het zicht van buitenaf wordt geblokkeerd, en enkel overdag.',
+        },
+        {
+          question: 'Beschermt de folie ook tegen warmte en UV?',
+          answer: "Ja, naast privacy: ze blokkeert 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit, en vermindert de warmte die via uw ramen binnenkomt aanzienlijk. Ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) geeft de cijfers per intensiteit.",
+        },
+        {
+          question: 'Is dit geschikt voor een appartement in mede-eigendom?',
+          answer: 'De folie wordt aan de binnenzijde geplaatst en verandert het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de algemene vergadering of de syndicus toch vereist zijn: we raden aan het reglement van mede-eigendom per geval na te kijken.',
+        },
+      ],
+    },
+    {
+      slug: 'film-blanc-mat-vitrage-bruxelles',
+      title: 'Matwitte folie voor beglazing in Brussel: volledige privacy, dag en nacht',
+      metaTitle: 'Matwitte folie voor beglazing in Brussel',
+      metaDescription:
+        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte. Werking, prijs en plaatsing in Brussel.',
+      date: '2026-10-05',
+      excerpt:
+        'In tegenstelling tot spiegeleffectfolie beschermt matwitte folie uw privacy dag en nacht, in beide richtingen. Hoe ze werkt, en voor welke ruimtes ze het meest geschikt is.',
+      sections: [
+        {
+          paragraphs: [
+            "Matwitte folie beantwoordt aan een andere behoefte dan spiegeleffectfolie: volledige privacy, in beide richtingen, op elk moment, ongeacht het licht buiten of binnen. Dit is de meest betrouwbare oplossing voor een ruimte waar privacy nooit in gebreke mag blijven, welk uur van de dag het ook is.",
+          ],
+        },
+        {
+          heading: 'Hoe werkt matwitte folie?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "In tegenstelling tot spiegeleffectfolie hangt haar werking niet af van het lichtniveau aan elke kant van het raam. Ze matteert het glas permanent: het zicht wordt in beide richtingen geblokkeerd, continu, dag en nacht. Dit is het essentiële verschil om te begrijpen voordat u kiest tussen beide folies: de spiegelfolie keert 's avonds om, de matwitte nooit.",
+            "In ruil voor deze constante privacy is het zicht door het raam vertroebeld in beide richtingen: u laat licht binnen, maar niet langer een scherp zicht, noch van binnenuit, noch van buitenaf.",
+          ],
+        },
+        {
+          heading: 'Voor wie is deze folie geschikt?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "Dit is de meest geschikte keuze voor een badkamer, een veranda, een glazen voordeur, of elke ruimte waar u licht wilt binnenlaten zonder ooit zichtbaar te zijn, op welk moment dan ook. Ze zorgt ook voor een strak en elegant esthetisch resultaat, gewaardeerd op hedendaagse gevels zoals binnenin.",
+            "Wij richten ons momenteel op particulieren: huizen en appartementen. Voor een kantoor of handelszaak kunt u ons toch contacteren, maar dit is vandaag nog niet onze hoofddoelgroep.",
+          ],
+        },
+        {
+          heading: 'Hoe verloopt de plaatsing?',
+          anchor: 'installation',
+          paragraphs: [
+            "De plaatsing gebeurt in één bezoek bij u thuis, rechtstreeks op uw bestaande beglazing, zonder demontage of vervanging. Ze wordt uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas, voor een optimale levensduur geschat op 10 tot 15 jaar, met een garantie van 2 jaar op de plaatsing. Ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles) legt het volledige verloop uit, van opmeting tot plaatsing.",
+          ],
+        },
+        {
+          heading: 'Hoeveel kost de plaatsing van matwitte folie?',
+          anchor: 'prix',
+          paragraphs: [
+            "Er is geen vast tarief: de prijs hangt af van de totale te behandelen oppervlakte en de toegankelijkheid van de beglazing. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat de prijs beïnvloedt.",
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Laat matwitte folie voldoende licht door?',
+          answer: 'Ja, dat is net het voordeel tegenover een gordijn of gesloten rolluik: de ruimte blijft licht, enkel het scherpe zicht wordt in beide richtingen geblokkeerd. Dit is heel anders dan een ruimte die verduisterd wordt door permanent gesloten rolluiken.',
+        },
+        {
+          question: 'Wat is het verschil met spiegeleffectfolie?',
+          answer: "Spiegeleffectfolie werkt enkel overdag en keert 's avonds om als het interieur verlicht is. Matwitte folie blokkeert het zicht permanent in beide richtingen, dag en nacht, maar vertroebelt ook het zicht van binnenuit, iets wat spiegelfolie niet doet.",
+        },
+        {
+          question: 'Is dit geschikt voor een badkamer op het gelijkvloers?',
+          answer: 'Ja, dit is een van de meest voorkomende toepassingen: een badkamer op het gelijkvloers of blootgesteld aan inkijk geniet van gegarandeerde privacy op elk moment, zonder ooit een rolluik of gordijn te moeten sluiten.',
+        },
+        {
+          question: 'Is de prijs anders dan bij spiegeleffectfolie?',
+          answer: 'Nee, ons tarief hangt enkel af van de te behandelen oppervlakte, niet van de gekozen folie. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -1717,35 +2015,28 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'When should you choose mirror effect film?',
           anchor: 'miroir',
           paragraphs: [
-            "You should choose mirror effect film when daytime privacy is your top priority: applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you continue to enjoy a clear view from inside. It's the ideal choice for a house facing the street, a ground floor, or a large window overlooking a garden visible to neighbours.",
-            "Beyond privacy, this film blocks 46% to 87% of UV rays depending on the intensity installed (quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching), and it significantly reduces the heat entering through your windows, a real advantage in summer.",
-            "One thing to know: the mirror effect only works during the day. At night, if your interior is lit and it's dark outside, the effect reverses, as with any window. This is normal behaviour for this type of film, worth keeping in mind depending on the room.",
-            "This film comes in two tints: silver (the effect described above) or black, much darker. The black version guarantees privacy even in the evening, at the cost of noticeably less light indoors, a trade-off best suited to a glazed front door, less so to a living space. Our [detailed silver vs black comparison](/blog/protection-uv-film-vitrage-bruxelles) helps you decide based on your rooms.",
+            "You should choose mirror effect film when daytime privacy is your top priority: it creates a one-way mirror effect that completely blocks the view from outside during the day, while you keep a clear view from inside. It comes in silver or black, and also reduces heat and UV as a bonus. Our [article on mirror effect film](/blog/film-miroir-vitrage-bruxelles) covers how it works, the two tints, and pricing.",
           ],
         },
         {
           heading: 'When should you choose solar tint?',
           anchor: 'solaire',
           paragraphs: [
-            "You should choose solar tint when thermal comfort matters more to you than total privacy. Unlike mirror film, it remains transparent: you can still see clearly through it, in both directions, with a slight blue tint characteristic of this type of film.",
-            "Its main role: reducing the heat and UV entering the house, for optimal comfort in summer without having to close the shutters or install air conditioning. It's a solution particularly appreciated in living spaces heavily exposed to the sun, or to protect a south-facing living room that becomes hard to use in the afternoon.",
+            "You should choose solar tint when thermal comfort matters more to you than total privacy. Unlike mirror film, it stays transparent in both directions, with a slight blue tint. Our [article on solar tint](/blog/film-solaire-vitrage-bruxelles) covers how it works and which rooms benefit most.",
           ],
         },
         {
           heading: 'When should you choose matte white film?',
           anchor: 'mat',
           paragraphs: [
-            "You should choose matte white film when you need total privacy in both directions: from inside as well as outside, day or night. Unlike mirror film, how it works doesn't depend on light levels.",
-            "It's the best choice for a bathroom, a conservatory, a glazed front door, or any room where you want to let light in without ever being visible. It also gives a clean, elegant look that's very popular on contemporary façades.",
+            "You should choose matte white film when you need total privacy in both directions, day or night, unlike mirror film which only works during the day. Our [article on matte white film](/blog/film-blanc-mat-vitrage-bruxelles) covers how it works and which rooms it suits best.",
           ],
         },
         {
           heading: 'When should you choose anti-burglary film?',
           anchor: 'anti-effraction',
           paragraphs: [
-            "You should choose anti-burglary film when security matters more than privacy or heat: it's completely transparent and changes nothing about how your windows look.",
-            "The principle is simple: on impact (for instance, a break-in attempt with a blunt object), the glass cracks but the shards stay stuck to the film instead of coming loose and falling. The intruder can no longer simply push through or clear the broken pane: they have to keep working much longer to force their way in. The film doesn't stop a determined break-in, but it slows it down significantly, giving more time to react or for help to arrive.",
-            "This is a particularly relevant option for secluded or quiet homes, or for any easily accessible ground-floor window. Our [dedicated article on security](/blog/film-securite-anti-effraction-vitrage) covers how it works in more detail.",
+            "You should choose anti-burglary film when security matters more than privacy or heat: it's completely transparent and slows down a break-in attempt significantly, without making the window unbreakable. Our [dedicated article on security](/blog/film-securite-anti-effraction-vitrage) covers how it works in more detail.",
           ],
         },
         {
@@ -2531,6 +2822,162 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Can I install solar film if I already have an exterior screen?',
           answer: "Yes, the two work very well together. The film stays active continuously, even when the screen is retracted, and also protects against UV, which the screen no longer does once folded away.",
+        },
+      ],
+    },
+    {
+      slug: 'film-miroir-vitrage-bruxelles',
+      title: 'Mirror effect film for windows in Brussels: total daytime privacy, without losing the light',
+      metaTitle: 'Mirror Effect Film for Windows in Brussels',
+      metaDescription:
+        "Being overlooked, an exposed ground floor, a window facing the street: mirror effect film blocks the view from outside during the day, while letting light in. How it works, pricing, and installation in Brussels.",
+      date: '2026-10-05',
+      excerpt:
+        "Mirror effect film is the most effective solution against being overlooked: total daytime privacy, without ever closing a curtain. How it works, and who it's for.",
+      sections: [
+        {
+          paragraphs: [
+            "Mirror effect film solves a very concrete problem: being seen from the street, by a neighbour, or from a busy pavement, without having to live behind closed shutters all the time. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you keep a perfectly clear view from inside. Here's how it actually works, and when it's the best solution.",
+          ],
+        },
+        {
+          heading: 'How does mirror effect film work?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "The principle relies entirely on light, not on an opaque coating on the glass. During the day, the outside is almost always brighter than the inside of a room. The film reflects that light on the outside, creating a mirror effect that blocks the view from inside, exactly like a one-way mirror used for observation.",
+            "The flip side of this mechanism, worth knowing before you decide: the effect only works as long as the outside stays brighter than the inside. In the evening, once your lights are on and it's dark outside, the effect reverses, as with any lit window at night. This isn't a flaw in the film, it's normal behaviour, worth keeping in mind depending on the room.",
+          ],
+        },
+        {
+          heading: 'Who is this film for?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "It's the best choice for a house facing the street, a ground floor directly overlooking the pavement, or a large window with a view of a garden visible to neighbours. For a flat, it works just as well on windows facing an inner courtyard or another building.",
+            "We currently focus on homeowners and renters: houses and flats. If your need concerns an office or a shop, feel free to contact us anyway, but know this isn't our main focus yet today.",
+          ],
+        },
+        {
+          heading: 'Silver or black: what\'s the difference?',
+          anchor: 'argente-noir',
+          paragraphs: [
+            "This film comes in two tints. Silver is the classic version described above: a mirror effect that works during the day and reverses in the evening. Black is far more radical: it guarantees privacy even in the evening with the lights on indoors, at the cost of noticeably less light coming in, continuously.",
+            "It's a trade-off to make room by room: the black version suits a glazed front door or a secondary window well, far less a living space where natural light matters. The price doesn't change depending on the tint, only the surface area to be treated affects the cost.",
+          ],
+        },
+        {
+          heading: 'How does installation work?',
+          anchor: 'installation',
+          paragraphs: [
+            "Installation happens in a single visit to your home, directly on your existing windows, with no removal or replacement of the glazing. It's carried out by our collaborator, generally on the interior side of the glass, which supports an optimal lifespan estimated at 10-15 years and is covered by a two-year warranty. Our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles) explains the full process, from measurements to installation.",
+          ],
+        },
+        {
+          heading: 'How much does mirror film installation cost?',
+          anchor: 'prix',
+          paragraphs: [
+            "There's no fixed price listed: the cost depends on the total surface area to be treated and how accessible the windows are, not on the tint chosen (silver and black cost the same per m²). That's why we always draw up a personalised, free, no-obligation quote. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains what affects the cost.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — UV protection](https://iwfa.com/benefits-of-window-film/uv-protection/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'What\'s the difference between "mirror effect" and "one-way" film?',
+          answer: "None: these are two names for the same product. \"One-way\" is the technical term, \"mirror effect\" describes how it looks from outside. Either way, it reflects light on the outside during the day, blocking the view from inside while you keep a clear view from your own home.",
+        },
+        {
+          question: 'Can you see through it from the inside?',
+          answer: "Yes, that's the whole point of this film: from inside, the view stays clear and unobstructed, just like through an ordinary window. Only the view from outside is blocked, and only during the day.",
+        },
+        {
+          question: 'Does the film also protect against heat and UV?',
+          answer: "Yes, on top of privacy: it blocks 46% to 87% of UV rays depending on the intensity installed, and significantly reduces the heat entering through your windows. Our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) gives the figures by intensity.",
+        },
+        {
+          question: 'Is this suitable for a flat in a shared building?',
+          answer: "The film is applied to the inside of the glass and doesn't change the building's exterior appearance. Depending on the building, a simple notice to the general meeting or the building manager may still be required before works: we recommend checking the co-ownership rules case by case.",
+        },
+      ],
+    },
+    {
+      slug: 'film-blanc-mat-vitrage-bruxelles',
+      title: 'Matte white film for windows in Brussels: total privacy, day and night',
+      metaTitle: 'Matte White Film for Windows in Brussels',
+      metaDescription:
+        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels. How it works, pricing, and installation in Brussels.",
+      date: '2026-10-05',
+      excerpt:
+        "Unlike mirror effect film, matte white film protects your privacy day and night, in both directions. How it works, and which rooms it suits best.",
+      sections: [
+        {
+          paragraphs: [
+            "Matte white film answers a different need from mirror effect film: total privacy, in both directions, at any time, regardless of the light outside or inside. It's the most reliable solution for a room where privacy can never afford to slip, whatever the time of day.",
+          ],
+        },
+        {
+          heading: 'How does matte white film work?',
+          anchor: 'fonctionnement',
+          paragraphs: [
+            "Unlike mirror effect film, how it works doesn't depend on light levels on either side of the window. It frosts the glass permanently: the view is blocked in both directions, continuously, day and night. This is the key difference to understand before choosing between the two films: mirror film reverses in the evening, matte white never does.",
+            "In exchange for this constant privacy, the view through the window is blurred in both directions: you let light in, but no longer a clear view, neither from inside nor from outside.",
+          ],
+        },
+        {
+          heading: 'Who is this film for?',
+          anchor: 'a-qui',
+          paragraphs: [
+            "It's the best choice for a bathroom, a conservatory, a glazed front door, or any room where you want to let light in without ever being visible, at any time. It also gives a clean, elegant look, appreciated on contemporary façades as well as indoors.",
+            "We currently focus on homeowners and renters: houses and flats. For an office or a shop, feel free to contact us anyway, but this isn't our main focus yet today.",
+          ],
+        },
+        {
+          heading: 'How does installation work?',
+          anchor: 'installation',
+          paragraphs: [
+            "Installation happens in a single visit to your home, directly on your existing windows, with no removal or replacement of the glazing. It's carried out by our collaborator, generally on the interior side of the glass, for an optimal lifespan estimated at 10-15 years, covered by a two-year warranty. Our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles) explains the full process, from measurements to installation.",
+          ],
+        },
+        {
+          heading: 'How much does matte white film installation cost?',
+          anchor: 'prix',
+          paragraphs: [
+            "There's no fixed price listed: the cost depends on the total surface area to be treated and how accessible the windows are. That's why we always draw up a personalised, free, no-obligation quote. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains what affects the cost.",
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does matte white film still let light through?',
+          answer: "Yes, that's exactly the advantage over a curtain or closed shutter: the room stays bright, only the clear view is blocked in both directions. That's very different from a room darkened by permanently closed shutters.",
+        },
+        {
+          question: 'What\'s the difference with mirror effect film?',
+          answer: "Mirror effect film only works during the day and reverses in the evening if the inside is lit. Matte white film blocks the view permanently in both directions, day and night, but it also blurs the view from inside, which mirror film doesn't do.",
+        },
+        {
+          question: 'Is this suitable for a ground-floor bathroom?',
+          answer: "Yes, this is one of the most common uses: a ground-floor bathroom, or one exposed to being overlooked, gets guaranteed privacy at any time, without ever having to close a shutter or curtain.",
+        },
+        {
+          question: 'Is the price different from mirror effect film?',
+          answer: "No, our rate depends only on the surface area to be treated, not on the film chosen. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints.",
         },
       ],
     },

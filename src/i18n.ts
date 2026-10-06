@@ -227,7 +227,8 @@ export const translations = {
       faq: 'FAQ', terms: 'Conditions générales', legal: 'Mentions légales', privacy: 'Politique confidentialité', blog: 'Blog',
       copyright: '© 2026 VitraCare. Tous droits réservés.',
       serviceArea: 'Bruxelles et périphérie — sur rendez-vous',
-      zone: "Zone d'intervention"
+      zone: "Zone d'intervention",
+      offre: 'Mesure gratuite'
     },
     popup: {
       eyebrow: 'Offre actuelle',
@@ -503,7 +504,8 @@ export const translations = {
       faq: 'FAQ', terms: 'Algemene voorwaarden', legal: 'Wettelijke vermeldingen', privacy: 'Privacybeleid', blog: 'Blog',
       copyright: '© 2026 VitraCare. Alle rechten voorbehouden.',
       serviceArea: 'Brussel en omgeving — op afspraak',
-      zone: 'Werkgebied'
+      zone: 'Werkgebied',
+      offre: 'Gratis opmeting'
     },
     popup: {
       eyebrow: 'Huidige aanbieding',
@@ -779,7 +781,8 @@ export const translations = {
       faq: 'FAQ', terms: 'Terms and conditions', legal: 'Legal notice', privacy: 'Privacy policy', blog: 'Blog',
       copyright: '© 2026 VitraCare. All rights reserved.',
       serviceArea: 'Brussels and surroundings — by appointment',
-      zone: 'Service Area'
+      zone: 'Service Area',
+      offre: 'Free measurement'
     },
     popup: {
       eyebrow: 'Current offer',

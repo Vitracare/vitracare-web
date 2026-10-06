@@ -100,6 +100,21 @@ export const EngagementPopup = () => {
           >
             {t.popup.devisCta}
           </a>
+          {/* Secondary link to /offre — the dedicated page explaining this exact
+              offer had zero real internal links anywhere on the site (only 2
+              buried mentions inside long-form content per language), which is
+              almost certainly why Google had it stuck on "Discovered, not
+              indexed" in all 3 languages. This popup is the one component whose
+              whole purpose is this offer, so it's the most natural place to
+              link to the page that explains it in full. */}
+          <a
+            href={withLangPrefix('/offre', prefix)}
+            onClick={close}
+            className="inline-flex items-center justify-center text-[13px] font-bold px-5 py-2.5 tracking-wide transition-opacity hover:opacity-70 cursor-pointer"
+            style={{ color: brandColor }}
+          >
+            {t.popup.offerCta}
+          </a>
         </div>
       </div>
     </div>

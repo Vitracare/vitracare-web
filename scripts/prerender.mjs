@@ -278,12 +278,12 @@ const blogArticles = [
   path: '/blog/intimite-vis-a-vis-film-vitrage',
   meta: {
     FR: {
-      title: 'Film pour vitrage et intimité : le vis-à-vis — VitraCare',
+      title: 'Vitre teintée contre le vis-à-vis à Bruxelles — VitraCare',
       description:
         "Rez-de-chaussée, vis-à-vis, bureaux exposés à la rue : comment profiter de la lumière sans être vu depuis l'extérieur ? Le film pour vitrage change la donne.",
       headline: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
       datePublished: '2026-08-27',
-      dateModified: '2026-08-27',
+      dateModified: '2026-10-06',
     },
     NL: {
       title: 'Raamfolie en privacy: de oplossing tegen inkijk — VitraCare',
@@ -291,7 +291,7 @@ const blogArticles = [
         'Gelijkvloers, inkijk tussen buren, kantoren aan de straat: hoe geniet u van licht zonder van buiten gezien te worden? Raamfolie verandert de zaak.',
       headline: 'Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?',
       datePublished: '2026-08-27',
-      dateModified: '2026-08-27',
+      dateModified: '2026-10-06',
     },
     EN: {
       title: 'Window Film for Privacy: Stop Being Overlooked — VitraCare',
@@ -299,7 +299,7 @@ const blogArticles = [
         "Ground floor rooms, overlooked windows, offices facing the street: enjoy natural light without being seen from outside. Window film changes the equation.",
       headline: 'Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?',
       datePublished: '2026-08-27',
-      dateModified: '2026-08-27',
+      dateModified: '2026-10-06',
     },
   },
 },
@@ -423,12 +423,12 @@ const blogArticles = [
   path: '/blog/protection-uv-film-vitrage-bruxelles',
   meta: {
     FR: {
-      title: 'Protection UV pour vitrage à Bruxelles — VitraCare',
+      title: 'Vitre teintée anti-UV à Bruxelles — VitraCare',
       description:
         "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
       headline: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
       datePublished: '2026-09-19',
-      dateModified: '2026-09-19',
+      dateModified: '2026-10-06',
     },
     NL: {
       title: 'UV-bescherming voor beglazing in Brussel — VitraCare',
@@ -436,7 +436,7 @@ const blogArticles = [
         'Meubels, parket of stoffen die jaar na jaar verkleuren? We leggen uit waarom, en hoe raamfolie uw interieur duurzaam beschermt, met echte cijfers.',
       headline: 'Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie',
       datePublished: '2026-09-19',
-      dateModified: '2026-09-19',
+      dateModified: '2026-10-06',
     },
     EN: {
       title: 'UV protection for windows in Brussels — VitraCare',
@@ -444,7 +444,7 @@ const blogArticles = [
         "Furniture, floors or fabrics fading year after year? We explain why, and how window film protects your interior for the long run, with real figures.",
       headline: 'How to protect your home from UV and fading: the role of window film',
       datePublished: '2026-09-19',
-      dateModified: '2026-09-19',
+      dateModified: '2026-10-06',
     },
   },
 },
@@ -575,7 +575,7 @@ const communePages = [
     slug: 'uccle',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse',
+        title: 'Vitre teintée à Uccle, Linkebeek et Rhode-Saint-Genèse',
         description:
           "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin de la commune.",
         name: 'Uccle',

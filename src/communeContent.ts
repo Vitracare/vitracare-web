@@ -29,7 +29,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Uccle',
       title: 'Film pour vitrage à Uccle : la solution pour maisons avec jardin et grandes baies vitrées',
-      metaTitle: 'Film pour vitrage à Uccle, Linkebeek et Rhode-Saint-Genèse',
+      metaTitle: 'Vitre teintée à Uccle, Linkebeek et Rhode-Saint-Genèse',
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin et grandes baies vitrées typiques de la commune.",
       intro:

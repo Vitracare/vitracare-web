@@ -214,7 +214,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'intimite-vis-a-vis-film-vitrage',
       title: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
-      metaTitle: 'Film pour vitrage et intimité : la solution au vis-à-vis',
+      metaTitle: 'Vitre teintée contre le vis-à-vis à Bruxelles',
       metaDescription:
         "Rez-de-chaussée, vis-à-vis entre voisins, bureaux exposés à la rue : comment profiter de la lumière naturelle sans être vu depuis l'extérieur ? Voici comment le film pour vitrage change la donne.",
       date: '2026-08-27',
@@ -608,7 +608,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     {
       slug: 'protection-uv-film-vitrage-bruxelles',
       title: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
-      metaTitle: 'Protection UV pour vitrage à Bruxelles',
+      metaTitle: 'Vitre teintée anti-UV à Bruxelles',
       metaDescription: "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
       date: '2026-09-19',
       excerpt: "Vos meubles ou votre parquet perdent leurs couleurs au fil des années sans que vous sachiez pourquoi ? La réponse est presque toujours la même. Voici les vraies solutions, et pourquoi le film pour vitrage revient le plus souvent.",

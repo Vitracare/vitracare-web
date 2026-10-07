@@ -507,6 +507,35 @@ const blogArticles = [
   },
 },
 {
+  path: '/blog/vitrage-controle-solaire-integre-ou-film',
+  meta: {
+    FR: {
+      title: 'Vitrage à contrôle solaire ou film : quelle différence ? — VitraCare',
+      description:
+        "Vitrage à contrôle solaire intégré en usine ou film de contrôle solaire posé sur vos fenêtres existantes : coût, efficacité et délai comparés pour choisir en connaissance de cause.",
+      headline: 'Vitrage à contrôle solaire intégré ou film posé après coup : quelle différence ?',
+      datePublished: '2026-10-07',
+      dateModified: '2026-10-07',
+    },
+    NL: {
+      title: 'Zonwerende beglazing of folie: wat is het verschil? — VitraCare',
+      description:
+        'Zonwerende beglazing geïntegreerd in de fabriek of zonwerende folie geplaatst op uw bestaande ramen: kostprijs, doeltreffendheid en termijn vergeleken om met kennis van zaken te kiezen.',
+      headline: 'Geïntegreerde zonwerende beglazing of folie achteraf: wat is het verschil?',
+      datePublished: '2026-10-07',
+      dateModified: '2026-10-07',
+    },
+    EN: {
+      title: "Solar Control Glazing or Film: What's the Difference? — VitraCare",
+      description:
+        "Factory-integrated solar control glazing or solar control film applied to your existing windows: cost, effectiveness and timeline compared, to help you choose with full knowledge.",
+      headline: "Integrated solar control glazing or film applied afterwards: what's the difference?",
+      datePublished: '2026-10-07',
+      dateModified: '2026-10-07',
+    },
+  },
+},
+{
   path: '/blog/film-miroir-vitrage-bruxelles',
   meta: {
     FR: {

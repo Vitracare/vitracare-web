@@ -881,38 +881,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Il existe deux façons bien différentes de réduire la chaleur solaire qui entre par une fenêtre : un vitrage à contrôle solaire intégré dès la fabrication, ou un film de contrôle solaire posé après coup sur un vitrage existant. Les deux visent le même résultat, mais pas du tout de la même manière, ni au même prix. Voici de quoi choisir en connaissance de cause.",
+            "Réduire la chaleur qui entre par une fenêtre, on peut le faire de deux façons très différentes : en choisissant un vitrage à contrôle solaire dès la fabrication, ou en posant un film sur un vitrage qui existe déjà. Le résultat recherché est le même. La manière d'y arriver, et le prix, beaucoup moins. Voici ce qu'il faut savoir avant de trancher.",
           ],
         },
         {
           heading: 'Qu\'est-ce que le vitrage à contrôle solaire intégré ?',
           anchor: 'vitrage-integre',
           paragraphs: [
-            "Un vitrage à contrôle solaire est un double ou triple vitrage dont l'une des couches de verre reçoit un traitement spécial au moment de la fabrication, conçu pour filtrer une partie du rayonnement solaire. C'est une solution intégrée à la fenêtre elle-même : on ne peut pas l'ajouter après coup, elle se choisit au moment d'acheter ou de remplacer un vitrage.",
+            "Un vitrage à contrôle solaire, c'est un double ou triple vitrage dont une des couches de verre reçoit un traitement spécial à la fabrication, pour filtrer une partie du rayonnement solaire. Cette solution fait partie intégrante de la fenêtre. Impossible de l'ajouter plus tard : elle se décide au moment d'acheter ou de remplacer le vitrage, pas après coup.",
           ],
         },
         {
           heading: 'Qu\'est-ce que le film de contrôle solaire posé après coup ?',
           anchor: 'film-pose',
           paragraphs: [
-            "Le film de contrôle solaire, lui, se pose directement sur un vitrage déjà existant, sans le remplacer. Chez VitraCare, la pose se fait systématiquement côté intérieur du vitrage, quelle que soit la taille de la fenêtre : c'est le choix de notre collaborateur, qui favorise une meilleure durée de vie du film dans le temps.",
+            "Le film, à l'inverse, se pose directement sur un vitrage qui existe déjà, sans rien remplacer. Chez VitraCare, notre collaborateur pose toujours le film côté intérieur, peu importe la taille de la fenêtre. Il a fait ce choix parce que le film tient mieux dans la durée de cette façon.",
           ],
         },
         {
           heading: 'Coût, délai, réversibilité : les vraies différences',
           anchor: 'differences',
           paragraphs: [
-            "Le vitrage à contrôle solaire intégré coûte généralement entre 150 et 300 €/m² pour un double vitrage standard posé, et jusqu'à 400 €/m² pour une version haute performance. Il implique un vrai chantier (démontage, nouveau châssis ou nouveau vitrage), et n'est pas réversible une fois posé.",
-            "Le film de contrôle solaire coûte généralement entre 8 et 80 €/m² selon le type choisi, soit une fraction du prix. L'intervention se fait en une seule visite, sans gros œuvre, et le film reste entièrement réversible si vous changez d'avis plus tard.",
-            "En pratique, le vitrage intégré se justifie surtout si vous remplacez de toute façon vos fenêtres pour d'autres raisons (vitrage défectueux, mauvaise isolation). Si vos fenêtres sont encore en bon état, ajouter un film répond au même besoin sans les inconvénients d'un chantier lourd.",
+            "Côté budget, comptez entre 150 et 300 €/m² pour un double vitrage standard avec contrôle solaire intégré, et jusqu'à 400 €/m² pour une version haute performance. Ça veut dire un vrai chantier : démontage, nouveau châssis ou nouveau vitrage. Et une fois posé, impossible de revenir en arrière.",
+            "Le film coûte entre 8 et 80 €/m² selon le type choisi, donc nettement moins cher. Une seule visite suffit, sans gros travaux, et vous pouvez toujours changer d'avis plus tard puisqu'il reste réversible.",
+            "Dans les faits, le vitrage intégré a surtout du sens si vous remplacez vos fenêtres de toute façon, pour une autre raison (vitrage défectueux, mauvaise isolation). Si elles sont encore en bon état, le film couvre le même besoin, sans le chantier qui va avec.",
           ],
         },
         {
           heading: 'Lequel réduit le plus la chaleur ?',
           anchor: 'efficacite',
           paragraphs: [
-            "Le vitrage intégré est conçu dès le départ pour cette fonction et peut offrir une performance très régulière. Mais le film n'a rien d'anecdotique non plus : selon le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) américain, les films pour vitrage peuvent réduire la consommation liée au refroidissement jusqu'à 30 %, en limitant l'apport de chaleur solaire à travers le verre.",
-            "Ce n'est pas qu'un chiffre théorique : c'est aussi ce que rapportent systématiquement les clients dès les premiers jours après la pose, chez VitraCare comme ailleurs. Ce constat revient partout où ce type de film est posé, pas seulement chez nous.",
+            "Le vitrage intégré a été pensé pour ça dès le départ, donc sa performance reste régulière. Le film n'est pas en reste : le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) américain a mesuré jusqu'à 30 % de réduction de la consommation liée au refroidissement grâce aux films pour vitrage, simplement en limitant la chaleur solaire qui traverse le verre.",
+            "Et ça se vérifie sur le terrain : nos clients le remarquent dès les premiers jours après la pose, et ce n'est pas propre à VitraCare. Le même constat revient chez tous les installateurs de ce type de film, où qu'ils soient.",
           ],
         },
         {
@@ -931,19 +931,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Peut-on ajouter un film sur un vitrage qui a déjà un contrôle solaire intégré ?',
-          answer: "Ce n'est généralement pas nécessaire : le vitrage intégré remplit déjà cette fonction. Le film est surtout pertinent pour un vitrage classique, sans traitement solaire d'origine.",
+          answer: "Pas vraiment besoin : le vitrage intégré fait déjà le travail. Le film trouve plutôt sa place sur un vitrage classique, qui n'a jamais eu de traitement solaire au départ.",
         },
         {
           question: 'Le film de contrôle solaire est-il aussi durable que le vitrage intégré ?',
-          answer: "Le film a une durée de vie estimée à 10-15 ans, contre plusieurs décennies pour un vitrage remplacé. En contrepartie, son coût de départ est nettement inférieur, et il peut être remplacé sans toucher à la fenêtre elle-même.",
+          answer: "On estime la durée de vie du film à 10-15 ans, contre plusieurs décennies pour un vitrage remplacé. En échange, il coûte beaucoup moins cher au départ, et vous pouvez le changer sans toucher à la fenêtre.",
         },
         {
           question: 'Pourquoi poser le film à l\'intérieur plutôt qu\'à l\'extérieur ?',
-          answer: "C'est le choix retenu par notre collaborateur, quelle que soit la taille du vitrage : une pose intérieure protège mieux le film des intempéries et des lavages de vitres, ce qui favorise sa durée de vie dans le temps.",
+          answer: "Notre collaborateur fait ce choix systématiquement, quelle que soit la taille du vitrage. Posé à l'intérieur, le film est mieux protégé des intempéries et du lavage des vitres, ce qui le fait durer plus longtemps.",
         },
         {
           question: 'Quelle solution choisir si je remplace de toute façon mes fenêtres ?',
-          answer: "Dans ce cas, le vitrage à contrôle solaire intégré a plus de sens : autant choisir cette option directement plutôt que d'ajouter un film sur un vitrage tout neuf.",
+          answer: "Dans ce cas précis, autant partir directement sur le vitrage à contrôle solaire intégré plutôt que de poser un film sur un vitrage flambant neuf.",
         },
       ],
     },
@@ -1957,38 +1957,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Er bestaan twee heel verschillende manieren om de zonnewarmte die via een raam binnenkomt te verminderen: zonwerende beglazing die al bij de fabricage geïntegreerd wordt, of zonwerende folie die achteraf op bestaande beglazing geplaatst wordt. Beide streven hetzelfde resultaat na, maar op een totaal andere manier, en niet aan dezelfde prijs. Hier is wat u moet weten om met kennis van zaken te kiezen.",
+            "De warmte die via een raam binnenkomt verminderen kan op twee heel verschillende manieren: door te kiezen voor zonwerende beglazing vanaf de fabricage, of door een folie te plaatsen op glas dat er al is. Het resultaat dat u zoekt is hetzelfde. De manier om er te komen, en de prijs, veel minder. Hier leest u wat u moet weten voor u kiest.",
           ],
         },
         {
           heading: 'Wat is geïntegreerde zonwerende beglazing?',
           anchor: 'vitrage-integre',
           paragraphs: [
-            "Zonwerende beglazing is dubbel of drievoudig glas waarvan een van de glaslagen bij de fabricage een speciale behandeling krijgt, ontworpen om een deel van de zonnestraling te filteren. Dit is een oplossing die geïntegreerd is in het raam zelf: u kunt ze niet achteraf toevoegen, ze wordt gekozen op het moment dat u beglazing aankoopt of vervangt.",
+            "Zonwerende beglazing, dat is dubbel of drievoudig glas waarvan een van de glaslagen bij de fabricage een speciale behandeling krijgt, om een deel van de zonnestraling te filteren. Deze oplossing maakt deel uit van het raam zelf. Achteraf toevoegen is onmogelijk: ze wordt beslist op het moment dat u beglazing aankoopt of vervangt, niet erna.",
           ],
         },
         {
           heading: 'Wat is zonwerende folie die achteraf geplaatst wordt?',
           anchor: 'film-pose',
           paragraphs: [
-            "Zonwerende folie wordt rechtstreeks op bestaande beglazing geplaatst, zonder deze te vervangen. Bij VitraCare gebeurt de plaatsing systematisch aan de binnenzijde van het glas, ongeacht de grootte van het raam: dit is de keuze van onze medewerker, die een betere levensduur van de folie op termijn bevordert.",
+            "De folie daarentegen wordt rechtstreeks op bestaand glas geplaatst, zonder iets te vervangen. Bij VitraCare plaatst onze medewerker de folie altijd aan de binnenzijde, ongeacht de grootte van het raam. Die keuze maakt hij omdat de folie zo beter standhoudt op termijn.",
           ],
         },
         {
           heading: 'Kostprijs, termijn, omkeerbaarheid: de echte verschillen',
           anchor: 'differences',
           paragraphs: [
-            "Geïntegreerde zonwerende beglazing kost doorgaans tussen 150 en 300 €/m² voor standaard dubbel glas geplaatst, en tot 400 €/m² voor een hoogperformante versie. Het vereist een echte werf (demontage, nieuw kozijn of nieuwe beglazing), en is niet omkeerbaar eenmaal geplaatst.",
-            "Zonwerende folie kost doorgaans tussen 8 en 80 €/m² afhankelijk van het gekozen type, dus een fractie van de prijs. De interventie gebeurt in één bezoek, zonder grote werken, en de folie blijft volledig omkeerbaar als u later van gedachten verandert.",
-            "In de praktijk is geïntegreerde beglazing vooral zinvol als u toch al uw ramen vervangt om andere redenen (defecte beglazing, slechte isolatie). Als uw ramen nog in goede staat zijn, beantwoordt een folie aan dezelfde behoefte zonder de nadelen van een zware werf.",
+            "Qua budget rekent u tussen 150 en 300 €/m² voor standaard dubbel glas met geïntegreerde zonwering, en tot 400 €/m² voor een hoogperformante versie. Dat betekent een echte werf: demontage, nieuw kozijn of nieuwe beglazing. En eenmaal geplaatst, is er geen weg terug.",
+            "De folie kost tussen 8 en 80 €/m² naargelang het gekozen type, dus merkelijk goedkoper. Eén bezoek volstaat, zonder grote werken, en u kunt altijd nog van gedachten veranderen later, want ze blijft omkeerbaar.",
+            "In de praktijk heeft geïntegreerde beglazing vooral zin als u uw ramen toch al vervangt, om een andere reden (defecte beglazing, slechte isolatie). Zijn ze nog in goede staat, dan dekt de folie dezelfde behoefte, zonder de werf die daarbij hoort.",
           ],
         },
         {
           heading: 'Welke vermindert de warmte het meest?',
           anchor: 'efficacite',
           paragraphs: [
-            "Geïntegreerde beglazing is vanaf het begin ontworpen voor deze functie en kan een zeer regelmatige prestatie bieden. Maar de folie is allesbehalve anekdotisch: volgens het Amerikaanse [Department of Energy](https://www.osti.gov/servlets/purl/1089147) kan raamfolie het energieverbruik voor koeling met tot 30% verminderen, door de zonnewarmte doorheen het glas te beperken.",
-            "Dit is niet enkel een theoretisch cijfer: het is ook wat klanten systematisch melden vanaf de eerste dagen na de plaatsing, bij VitraCare zoals elders. Deze vaststelling keert overal terug waar dit type folie geplaatst wordt, niet enkel bij ons.",
+            "Geïntegreerde beglazing is daar vanaf het begin voor ontworpen, dus haar prestatie blijft regelmatig. De folie doet daar niet voor onder: het Amerikaanse [Department of Energy](https://www.osti.gov/servlets/purl/1089147) mat tot 30% minder energieverbruik voor koeling dankzij raamfolie, gewoon door de zonnewarmte te beperken die doorheen het glas dringt.",
+            "En dat is te merken op het terrein: onze klanten stellen het al vast in de eerste dagen na de plaatsing, en dat is niet eigen aan VitraCare. Dezelfde vaststelling keert terug bij installateurs van dit type folie, waar ook ter wereld.",
           ],
         },
         {
@@ -2007,19 +2007,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Kan men folie toevoegen op beglazing die al geïntegreerde zonwering heeft?',
-          answer: 'Dat is doorgaans niet nodig: de geïntegreerde beglazing vervult deze functie al. Folie is vooral relevant voor klassieke beglazing, zonder zonwerende behandeling bij fabricage.',
+          answer: 'Niet echt nodig: de geïntegreerde beglazing doet dat werk al. Folie vindt vooral haar plaats op klassieke beglazing, die nooit een zonwerende behandeling kreeg bij de fabricage.',
         },
         {
           question: 'Gaat zonwerende folie even lang mee als geïntegreerde beglazing?',
-          answer: 'Folie heeft een geschatte levensduur van 10 tot 15 jaar, tegenover meerdere decennia voor vervangen beglazing. Daartegenover staat een aanzienlijk lagere startprijs, en ze kan vervangen worden zonder het raam zelf aan te raken.',
+          answer: 'We schatten de levensduur van de folie op 10 tot 15 jaar, tegenover meerdere decennia voor vervangen beglazing. Daartegenover staat een veel lagere startprijs, en u kunt ze vervangen zonder het raam zelf aan te raken.',
         },
         {
           question: 'Waarom wordt de folie aan de binnenzijde geplaatst in plaats van de buitenzijde?',
-          answer: 'Dit is de keuze van onze medewerker, ongeacht de grootte van de beglazing: een plaatsing aan de binnenzijde beschermt de folie beter tegen weersinvloeden en het reinigen van ramen, wat haar levensduur op termijn bevordert.',
+          answer: 'Onze medewerker maakt die keuze systematisch, ongeacht de grootte van de beglazing. Aan de binnenzijde geplaatst, is de folie beter beschermd tegen weersinvloeden en het reinigen van ramen, wat ze langer doet meegaan.',
         },
         {
           question: 'Welke oplossing kiezen als ik toch al mijn ramen vervang?',
-          answer: 'In dat geval heeft geïntegreerde zonwerende beglazing meer zin: kies dan meteen voor deze optie in plaats van folie toe te voegen op gloednieuwe beglazing.',
+          answer: 'In dat specifieke geval kiest u best meteen voor geïntegreerde zonwerende beglazing, in plaats van folie te plaatsen op gloednieuwe beglazing.',
         },
       ],
     },
@@ -3033,38 +3033,38 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "There are two quite different ways to reduce the solar heat entering through a window: solar control glazing built in from manufacturing, or solar control film applied afterwards to existing glazing. Both aim for the same result, but in completely different ways, and not at the same price. Here's what you need to know to choose with full knowledge.",
+            "Cutting the heat that comes in through a window can be done in two quite different ways: choosing solar control glazing from the start, at manufacturing, or applying a film to glazing that's already there. The result you're after is the same. How you get there, and what it costs, much less so. Here's what to know before deciding.",
           ],
         },
         {
           heading: 'What is integrated solar control glazing?',
           anchor: 'vitrage-integre',
           paragraphs: [
-            "Solar control glazing is double or triple glazing where one of the glass layers receives a special treatment during manufacturing, designed to filter part of the solar radiation. It's a solution built into the window itself: you can't add it afterwards, it's chosen when buying or replacing glazing.",
+            "Solar control glazing is double or triple glazing where one of the glass layers gets a special treatment at manufacturing, to filter part of the solar radiation. This solution is built into the window itself. Adding it later isn't an option: it's decided when you buy or replace the glazing, not after.",
           ],
         },
         {
           heading: 'What is solar control film applied afterwards?',
           anchor: 'film-pose',
           paragraphs: [
-            "Solar control film, on the other hand, is applied directly to existing glazing, without replacing it. At VitraCare, installation is carried out systematically on the interior side of the glass, regardless of window size: this is our collaborator's choice, supporting a better lifespan for the film over time.",
+            "Film, on the other hand, goes straight onto glazing that's already there, nothing gets replaced. At VitraCare, our collaborator always applies the film on the interior side, whatever the window size. He made that call because the film holds up better over time that way.",
           ],
         },
         {
           heading: 'Cost, timeline, reversibility: the real differences',
           anchor: 'differences',
           paragraphs: [
-            "Integrated solar control glazing generally costs between 150 and 300 €/m² for standard double glazing installed, and up to 400 €/m² for a high-performance version. It involves real construction work (removal, new frame or new glazing), and isn't reversible once installed.",
-            "Solar control film generally costs between 8 and 80 €/m² depending on the type chosen, so a fraction of the price. The work is done in a single visit, with no major construction, and the film remains fully reversible if you change your mind later.",
-            "In practice, integrated glazing mainly makes sense if you're replacing your windows anyway for other reasons (faulty glazing, poor insulation). If your windows are still in good condition, adding a film answers the same need without the drawbacks of major construction work.",
+            "On budget, expect 150 to 300 €/m² for standard double glazing with integrated solar control, and up to 400 €/m² for a high-performance version. That means real construction work: removal, a new frame or new glazing. And once it's in, there's no going back.",
+            "Film costs 8 to 80 €/m² depending on the type, so noticeably cheaper. One visit is enough, no major work involved, and you can still change your mind later since it stays reversible.",
+            "In practice, integrated glazing mostly makes sense if you're replacing your windows anyway, for another reason (faulty glazing, poor insulation). If they're still in good shape, film covers the same need, without the construction work that comes with it.",
           ],
         },
         {
           heading: 'Which one reduces heat the most?',
           anchor: 'efficacite',
           paragraphs: [
-            "Integrated glazing is designed from the start for this function and can offer very consistent performance. But film is far from anecdotal either: according to the U.S. [Department of Energy](https://www.osti.gov/servlets/purl/1089147), window films can reduce cooling-related energy consumption by up to 30%, by limiting solar heat gain through the glass.",
-            "This isn't just a theoretical figure: it's also what clients consistently report within the first few days after installation, at VitraCare as elsewhere. This observation comes up everywhere this type of film is installed, not just with us.",
+            "Integrated glazing was built for this from day one, so its performance stays consistent. Film holds its own too: the U.S. [Department of Energy](https://www.osti.gov/servlets/purl/1089147) measured up to a 30% drop in cooling-related energy use from window films, just by limiting the solar heat that gets through the glass.",
+            "And it shows on the ground: our clients notice it within the first few days after installation, and that's not unique to VitraCare. The same thing comes up with installers of this type of film everywhere.",
           ],
         },
         {
@@ -3083,19 +3083,19 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Can film be added to glazing that already has integrated solar control?',
-          answer: "That's generally not necessary: the integrated glazing already fulfils this function. Film is mainly relevant for standard glazing, without an original solar treatment.",
+          answer: "Not really needed: the integrated glazing already does that job. Film mostly earns its place on standard glazing, the kind that never got a solar treatment at manufacturing.",
         },
         {
           question: 'Does solar control film last as long as integrated glazing?',
-          answer: "Film has an estimated lifespan of 10-15 years, against several decades for replaced glazing. In exchange, its upfront cost is significantly lower, and it can be replaced without touching the window itself.",
+          answer: "We estimate the film's lifespan at 10-15 years, against several decades for replaced glazing. In exchange, it costs a lot less upfront, and you can replace it without touching the window itself.",
         },
         {
           question: 'Why install the film on the inside rather than the outside?',
-          answer: "This is the choice made by our collaborator, regardless of glazing size: interior installation better protects the film from weather and window cleaning, which supports its lifespan over time.",
+          answer: "Our collaborator makes that call every time, whatever the glazing size. Installed on the inside, the film is better shielded from weather and window cleaning, which makes it last longer.",
         },
         {
           question: "Which solution should I choose if I'm replacing my windows anyway?",
-          answer: "In that case, integrated solar control glazing makes more sense: better to choose that option directly rather than adding a film to brand new glazing.",
+          answer: "In that specific case, go straight for integrated solar control glazing rather than adding film to brand new glazing.",
         },
       ],
     },

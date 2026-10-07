@@ -90,7 +90,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Comment choisir ?',
           paragraphs: [
-            "En résumé : vous voulez une intimité totale de jour, sans perdre la vue depuis l'intérieur → la teinte effet miroir. Votre priorité est de réduire la chaleur sans perdre en transparence → la teinte solaire. Vous cherchez une intimité totale à toute heure, avec un rendu mat élégant → la teinte blanc mat. Votre priorité est la sécurité plutôt que l'intimité ou la chaleur → le film anti-effraction.",
+            "Pour trancher vite : intimité totale de jour sans perdre la vue depuis l'intérieur → la teinte effet miroir. Réduire la chaleur sans perdre en transparence → la teinte solaire. Intimité totale à toute heure, avec un rendu mat élégant → la teinte blanc mat. Sécurité avant l'intimité ou la chaleur → le film anti-effraction.",
             "Ces quatre films sont compatibles avec du simple, double ou triple vitrage, et peuvent être combinés entre eux sur un même projet. Si vos fenêtres elles-mêmes sont vétustes, notre [comparatif entre remplacer ses fenêtres et poser un film](/blog/remplacer-fenetres-ou-film-vitrage) peut aussi vous aider à trancher.",
           ],
         },
@@ -398,7 +398,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Ce qu\'un film de sécurité change concrètement',
           paragraphs: [
             "Le film est appliqué côté intérieur du vitrage, en une couche continue et adhérente. Quand la vitre est frappée, le verre se fissure mais les fragments restent maintenus par le film au lieu de voler en éclats ou de céder d'un coup. Résultat : il faut plusieurs coups répétés, du bruit et du temps pour parvenir à ouvrir un passage, exactement ce qu'un cambrioleur opportuniste cherche à éviter.",
-            "Il est important d'être honnête sur ce point : le film retarde et complique une effraction, il ne la rend pas impossible. C'est une couche de protection supplémentaire, pas une garantie absolue.",
+            "Soyons honnêtes sur ce point : le film retarde et complique une effraction, il ne la rend pas impossible. C'est une couche de protection supplémentaire, pas une garantie absolue.",
           ],
         },
         {
@@ -1167,7 +1167,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Hoe kiezen?',
           paragraphs: [
-            "Samengevat: u wilt overdag volledige privacy, zonder het zicht van binnenuit te verliezen → de spiegeleffect folie. Uw prioriteit is warmte verminderen zonder transparantie te verliezen → de zonwerende folie. U zoekt volledige privacy op elk moment, met een elegante matte afwerking → de matwitte folie. Uw prioriteit is veiligheid eerder dan privacy of warmte → de inbraakwerende folie.",
+            "Om snel te kiezen: volledige privacy overdag zonder het zicht van binnenuit te verliezen → de spiegeleffect folie. Warmte verminderen zonder transparantie te verliezen → de zonwerende folie. Volledige privacy op elk moment, met een elegante matte afwerking → de matwitte folie. Veiligheid vóór privacy of warmte → de inbraakwerende folie.",
             "Deze vier folies zijn compatibel met enkel, dubbel of drievoudig glas, en kunnen onderling gecombineerd worden binnen hetzelfde project. Als uw ramen zelf verouderd zijn, kan onze [vergelijking tussen ramen vervangen en een folie plaatsen](/blog/remplacer-fenetres-ou-film-vitrage) u ook helpen kiezen.",
           ],
         },
@@ -1474,7 +1474,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Wat beveiligingsfolie concreet verandert',
           paragraphs: [
             'De folie wordt aan de binnenzijde van de beglazing aangebracht, in een doorlopende, hechtende laag. Wanneer het raam geraakt wordt, barst het glas, maar de scherven blijven bijeengehouden door de folie in plaats van weg te vliegen of ineens toe te geven. Resultaat: er zijn meerdere herhaalde klappen, lawaai en tijd nodig om een doorgang te forceren, precies wat een opportunistische inbreker wil vermijden.',
-            'Het is belangrijk hier eerlijk over te zijn: de folie vertraagt en bemoeilijkt een inbraak, ze maakt ze niet onmogelijk. Het is een extra beschermingslaag, geen absolute garantie.',
+            'Laten we hier eerlijk over zijn: de folie vertraagt en bemoeilijkt een inbraak, ze maakt ze niet onmogelijk. Het is een extra beschermingslaag, geen absolute garantie.',
           ],
         },
         {
@@ -2243,7 +2243,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'How to choose?',
           paragraphs: [
-            "In short: you want total daytime privacy without losing the view from inside → mirror effect film. Your priority is reducing heat without losing transparency → solar tint. You're looking for total privacy at any time, with an elegant matte finish → matte white film. Your priority is security rather than privacy or heat → anti-burglary film.",
+            "To cut to it: total daytime privacy without losing the view from inside → mirror effect film. Reducing heat without losing transparency → solar tint. Total privacy at any time, with an elegant matte finish → matte white film. Security ahead of privacy or heat → anti-burglary film.",
             'All four films are compatible with single, double and triple glazing, and can be combined with each other on the same project. If your windows themselves are dated, our [comparison between replacing windows and adding film](/blog/remplacer-fenetres-ou-film-vitrage) can also help you decide.',
           ],
         },
@@ -2550,7 +2550,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'What security film actually changes',
           paragraphs: [
             "The film is applied to the inside face of the glazing, as a continuous, adhesive layer. When the glass is struck, it cracks, but the fragments stay held together by the film instead of shattering outward or giving way in one go. The result: it takes repeated blows, noise and time to force an opening, exactly what an opportunistic burglar wants to avoid.",
-            "It's important to be honest about this: the film slows down and complicates a break-in, it doesn't make one impossible. It's an added layer of protection, not an absolute guarantee.",
+            "Let's be honest about this: the film slows down and complicates a break-in, it doesn't make one impossible. It's an added layer of protection, not an absolute guarantee.",
           ],
         },
         {

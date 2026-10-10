@@ -198,7 +198,7 @@ export default function Home() {
   }, [currentText, isDeleting, currentWordIndex, typingSpeed]);
 
   return (
-    <div className="w-full font-sans bg-[#FBF3E3] flex flex-col">
+    <div className="w-full font-sans bg-white flex flex-col">
       {/* Hero Section */}
       <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
         {/* Background image as a real <img>, not a CSS background-image: the browser's
@@ -323,7 +323,7 @@ export default function Home() {
       </div>
 
       {/* Features Section */}
-      <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-[#FBF3E3]">
+      <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-white">
         <h2 className="text-[26px] md:text-[40px] font-bold text-center mb-10 md:mb-24" style={{ color: brandColor }}>
           {t.features.title}
         </h2>
@@ -441,7 +441,7 @@ export default function Home() {
       </section>
 
       {/* Teintes Section */}
-      <section id="produit" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-[#FBF3E3]">
+      <section id="produit" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
         <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
           {t.teintes.title}
         </h2>
@@ -649,7 +649,7 @@ export default function Home() {
           back a B2B pitch. Do not re-add without being asked. */}
 
       {/* Avis Section */}
-      <section id="avis" className="w-full bg-[#FBF3E3] py-24">
+      <section id="avis" className="w-full bg-white py-24">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
           {/* Title */}
           <div className="text-center mb-20 flex flex-col items-center">
@@ -868,7 +868,7 @@ export default function Home() {
       </section>
 
       {/* Map Section */}
-      <section className="relative w-full bg-[#FBF3E3] py-14 md:py-24 overflow-hidden border-t border-[#eadfc9]">
+      <section className="relative w-full bg-[#FAF9F6] py-14 md:py-24 overflow-hidden border-t border-gray-100">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
            <img loading="lazy" src="/images/Bruxelles.webp" width={1280} height={721} className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
@@ -919,7 +919,7 @@ export default function Home() {
             {/* Soft clearing behind the pin graphic so the map lines fade out instead of crossing over it */}
             <div
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FBF3E3 45%, rgba(251,243,227,0) 85%)' }}
+              style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FAF9F6 45%, rgba(250,249,246,0) 85%)' }}
             ></div>
             <img loading="lazy" src="/bx_transparent.png" alt="Carte de Bruxelles et sa périphérie desservies par VitraCare" width={874} height={740} className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>

@@ -62,13 +62,13 @@ export const EngagementPopup = () => {
     >
       <div
         className="relative rounded-2xl shadow-2xl p-6 pt-7"
-        style={{ backgroundColor: brandColor, border: '2px dashed #464646' }}
+        style={{ backgroundColor: '#FBF3E3', border: '2px dashed #BA9765' }}
       >
         <button
           type="button"
           onClick={close}
           aria-label="Close"
-          className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full text-[#464646]/60 hover:bg-black/5 hover:text-[#464646] transition-colors"
+          className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full text-gray-400 hover:bg-black/5 hover:text-gray-600 transition-colors"
         >
           <X size={16} />
         </button>
@@ -78,7 +78,7 @@ export const EngagementPopup = () => {
             (unlike the previous window-cleaning promo this replaced). */}
         <div
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider mb-4"
-          style={{ backgroundColor: '#464646', color: '#FFFFFF' }}
+          style={{ backgroundColor: brandColor, color: '#FFFFFF' }}
         >
           <Sparkles size={12} />
           {t.popup.eyebrow}
@@ -87,7 +87,7 @@ export const EngagementPopup = () => {
         <h3 className="text-[20px] font-bold leading-tight mb-2" style={{ color: '#464646' }}>
           {t.popup.offerTitle}
         </h3>
-        <p className="text-[14px] text-[#464646]/75 leading-relaxed mb-5">
+        <p className="text-[14px] text-[#6a6a6a] leading-relaxed mb-5">
           {t.popup.offerSubtitle}
         </p>
 
@@ -95,8 +95,8 @@ export const EngagementPopup = () => {
           <a
             href={withLangPrefix('/devis', prefix)}
             onClick={close}
-            className="inline-flex items-center justify-center text-white text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-[#464646] hover:bg-transparent hover:text-[#464646] cursor-pointer"
-            style={{ backgroundColor: '#464646' }}
+            className="inline-flex items-center justify-center text-white text-[13px] font-bold px-5 py-3 rounded-full tracking-wide transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] cursor-pointer"
+            style={{ backgroundColor: brandColor }}
           >
             {t.popup.devisCta}
           </a>

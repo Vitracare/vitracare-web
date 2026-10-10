@@ -198,7 +198,7 @@ export default function Home() {
   }, [currentText, isDeleting, currentWordIndex, typingSpeed]);
 
   return (
-    <div className="w-full font-sans bg-white flex flex-col">
+    <div className="w-full font-sans bg-[#FBF3E3] flex flex-col">
       {/* Hero Section */}
       <div id="accueil" className="relative min-h-screen w-full overflow-hidden">
         {/* Background image as a real <img>, not a CSS background-image: the browser's
@@ -323,7 +323,7 @@ export default function Home() {
       </div>
 
       {/* Features Section */}
-      <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-white">
+      <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-[#FBF3E3]">
         <h2 className="text-[26px] md:text-[40px] font-bold text-center mb-10 md:mb-24" style={{ color: brandColor }}>
           {t.features.title}
         </h2>
@@ -405,7 +405,7 @@ export default function Home() {
       </section>
 
       {/* Protection Section */}
-      <section className="w-full bg-[#4b4b4b] text-white">
+      <section className="w-full bg-[#BA9765] text-[#464646]">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 py-24 flex flex-col md:flex-row items-center justify-between gap-16 md:gap-24">
           {/* Slider side */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
@@ -424,15 +424,15 @@ export default function Home() {
             </h2>
 
             {/* Decorative Line */}
-            <div className="w-[60px] h-[2px] mb-8" style={{ backgroundColor: brandColor }}></div>
+            <div className="w-[60px] h-[2px] mb-8 bg-[#464646]"></div>
 
-            <p className="text-[20px] lg:text-[22px] mb-12 text-white/90">
+            <p className="text-[20px] lg:text-[22px] mb-12 text-[#464646]/80">
               {t.protection.subtitle}
             </p>
 
             <Link
               to="/devis"
-              className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#BA9765] hover:bg-transparent hover:text-[#BA9765] active:bg-transparent active:text-[#BA9765] bg-[#BA9765] cursor-pointer"
+              className="inline-block text-white px-8 py-3.5 rounded-full font-bold text-[13px] tracking-wider transition-all duration-300 border-2 border-[#464646] hover:bg-transparent hover:text-[#464646] active:bg-transparent active:text-[#464646] bg-[#464646] cursor-pointer"
             >
               {t.hero.getQuote}
             </Link>
@@ -441,7 +441,7 @@ export default function Home() {
       </section>
 
       {/* Teintes Section */}
-      <section id="produit" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-white">
+      <section id="produit" className="w-full py-24 px-8 md:px-16 lg:px-20 bg-[#FBF3E3]">
         <h2 className="text-[32px] md:text-[40px] font-bold text-center mb-4" style={{ color: brandColor }}>
           {t.teintes.title}
         </h2>
@@ -649,7 +649,7 @@ export default function Home() {
           back a B2B pitch. Do not re-add without being asked. */}
 
       {/* Avis Section */}
-      <section id="avis" className="w-full bg-white py-24">
+      <section id="avis" className="w-full bg-[#FBF3E3] py-24">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
           {/* Title */}
           <div className="text-center mb-20 flex flex-col items-center">
@@ -811,55 +811,55 @@ export default function Home() {
           advice against Google's own official generative-AI guidance) flagged that
           the site had zero explicit differentiation content anywhere — this heading
           fixes that without inventing new claims, just naming what was already there. */}
-      <section className="w-full bg-[#4b4b4b] py-16">
+      <section className="w-full bg-[#BA9765] py-16">
         <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20">
-          <h2 className="text-[26px] md:text-[36px] font-bold text-center mb-3" style={{ color: '#fff' }}>
+          <h2 className="text-[26px] md:text-[36px] font-bold text-center mb-3" style={{ color: '#464646' }}>
             {t.strip.title}
           </h2>
-          <p className="text-white/70 text-[14px] md:text-[16px] text-center max-w-2xl mx-auto mb-10 md:mb-14">
+          <p className="text-[#464646]/70 text-[14px] md:text-[16px] text-center max-w-2xl mx-auto mb-10 md:mb-14">
             {t.strip.subtitle}
           </p>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#BA9765]/40">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-8 lg:gap-0 lg:divide-x lg:divide-[#464646]/25">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <img loading="lazy" src="/images/Mesure.png" alt="Mesures sur mesure, fenêtre par fenêtre" width={140} height={145} className="h-8 w-auto mb-4 object-contain mix-blend-lighten" referrerPolicy="no-referrer" />
-              <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
+              <img loading="lazy" src="/images/Mesure.png" alt="Mesures sur mesure, fenêtre par fenêtre" width={140} height={145} className="h-8 w-auto mb-4 object-contain" referrerPolicy="no-referrer" />
+              <h3 className="text-[20px] font-bold mb-3" style={{ color: '#464646' }}>
                 {t.strip.f1_title}
               </h3>
-              <p className="text-white text-[15px] leading-relaxed whitespace-pre-line">
+              <p className="text-[#464646] text-[15px] leading-relaxed whitespace-pre-line">
                 {t.strip.f1_desc}
               </p>
             </div>
 
             {/* Feature 2 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <ShieldCheck size={32} color={brandColor} strokeWidth={1.5} className="mb-4" />
-              <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
+              <ShieldCheck size={32} color="#464646" strokeWidth={1.5} className="mb-4" />
+              <h3 className="text-[20px] font-bold mb-3" style={{ color: '#464646' }}>
                 {t.strip.f2_title}
               </h3>
-              <p className="text-white text-[15px] leading-relaxed whitespace-pre-line">
+              <p className="text-[#464646] text-[15px] leading-relaxed whitespace-pre-line">
                 {t.strip.f2_desc}
               </p>
             </div>
 
             {/* Feature 3 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <FileBadge size={32} color={brandColor} strokeWidth={1.5} className="mb-4" />
-              <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
+              <FileBadge size={32} color="#464646" strokeWidth={1.5} className="mb-4" />
+              <h3 className="text-[20px] font-bold mb-3" style={{ color: '#464646' }}>
                 {t.strip.f3_title}
               </h3>
-              <p className="text-white text-[15px] leading-relaxed whitespace-pre-line">
+              <p className="text-[#464646] text-[15px] leading-relaxed whitespace-pre-line">
                 {t.strip.f3_desc}
               </p>
             </div>
 
             {/* Feature 4 */}
             <div className="flex flex-col items-center text-center lg:px-6">
-              <Clock size={32} color={brandColor} strokeWidth={1.5} className="mb-4" />
-              <h3 className="text-[20px] font-bold mb-3" style={{ color: brandColor }}>
+              <Clock size={32} color="#464646" strokeWidth={1.5} className="mb-4" />
+              <h3 className="text-[20px] font-bold mb-3" style={{ color: '#464646' }}>
                 {t.strip.f4_title}
               </h3>
-              <p className="text-white text-[15px] leading-relaxed whitespace-pre-line">
+              <p className="text-[#464646] text-[15px] leading-relaxed whitespace-pre-line">
                 {t.strip.f4_desc}
               </p>
             </div>
@@ -868,7 +868,7 @@ export default function Home() {
       </section>
 
       {/* Map Section */}
-      <section className="relative w-full bg-[#FAF9F6] py-14 md:py-24 overflow-hidden border-t border-gray-100">
+      <section className="relative w-full bg-[#FBF3E3] py-14 md:py-24 overflow-hidden border-t border-[#eadfc9]">
         {/* Background Image — covers the full section behind all content */}
         <div className="absolute inset-0 pointer-events-none mix-blend-multiply">
            <img loading="lazy" src="/images/Bruxelles.webp" width={1280} height={721} className="w-full h-full object-cover opacity-80" alt="" referrerPolicy="no-referrer" />
@@ -919,7 +919,7 @@ export default function Home() {
             {/* Soft clearing behind the pin graphic so the map lines fade out instead of crossing over it */}
             <div
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FAF9F6 45%, rgba(250,249,246,0) 85%)' }}
+              style={{ background: 'radial-gradient(ellipse 65% 65% at 50% 50%, #FBF3E3 45%, rgba(251,243,227,0) 85%)' }}
             ></div>
             <img loading="lazy" src="/bx_transparent.png" alt="Carte de Bruxelles et sa périphérie desservies par VitraCare" width={874} height={740} className="relative w-full h-auto max-w-[650px] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </div>
@@ -927,19 +927,19 @@ export default function Home() {
       </section>
 
       {/* Devis Section */}
-      <section id="devis" className="w-full bg-[#4b4b4b] py-24 px-8 md:px-16">
+      <section id="devis" className="w-full bg-[#BA9765] py-24 px-8 md:px-16">
         <div className="max-w-5xl mx-auto flex flex-col items-center">
-          <h2 className="text-[36px] md:text-[44px] font-bold text-white mb-6 text-center tracking-tight">
+          <h2 className="text-[36px] md:text-[44px] font-bold text-[#464646] mb-6 text-center tracking-tight">
             {t.devis.title}
           </h2>
 
-          <div className="w-[60px] h-[2px] mb-8" style={{ backgroundColor: brandColor }}></div>
+          <div className="w-[60px] h-[2px] mb-8 bg-[#464646]"></div>
 
-          <p className="text-[18px] text-white/90 text-center max-w-2xl leading-relaxed mb-6">
+          <p className="text-[18px] text-[#464646]/80 text-center max-w-2xl leading-relaxed mb-6">
             {t.devis.subtitle}
           </p>
 
-          <div className="max-w-[92%] sm:max-w-fit mx-auto text-center inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-16 text-white text-[13px] font-bold tracking-wide">
+          <div className="max-w-[92%] sm:max-w-fit mx-auto text-center inline-flex items-center gap-2 bg-[#464646]/10 border border-[#464646]/20 rounded-full px-5 py-2 mb-16 text-[#464646] text-[13px] font-bold tracking-wide">
             {t.devis.reassurance}
           </div>
 

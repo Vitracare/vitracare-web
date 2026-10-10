@@ -1,4 +1,46 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow known AI crawlers (training + real-time/answer bots),
+# in addition to the wildcard rule above — belt and suspenders so these
+# stay allowed even if a future rule ever restricts User-agent: *.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://vitracare.be/sitemap.xml

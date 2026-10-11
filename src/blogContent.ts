@@ -236,8 +236,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Voir sans être vu : le principe',
           paragraphs: [
-            "Le film effet miroir repose sur un principe optique simple : la lumière. En journée, l'extérieur est toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir empêchant la vue de l'intérieur, tandis que depuis chez vous, la vue reste dégagée, comme à travers une vitre classique.",
+            "Le film effet miroir repose sur un principe optique simple : la lumière. En journée, l'extérieur est toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir empêchant la vue de l'intérieur, tandis que depuis chez vous, la vue reste dégagée.",
             "Un point important à connaître : cet effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur, donc en journée. Le soir, une fois la lumière allumée chez vous et la nuit tombée dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre éclairée dans le noir. C'est un point à garder en tête selon les pièces et les horaires concernés.",
+            "Autre nuance remontée par nos premiers clients équipés : vu de l'intérieur, on remarque un léger effet assombrissant (un peu comme des lunettes de soleil) et un très léger effet miroir perceptible aussi depuis l'intérieur. Ça n'empêche pas de voir dehors, mais ce n'est pas rigoureusement identique à une vitre nue. Notre [article dédié au film effet miroir](/blog/film-miroir-vitrage-bruxelles) détaille ce point plus en profondeur.",
           ],
         },
         {
@@ -960,7 +961,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Le film effet miroir règle un problème très concret : être vu depuis la rue, par un voisin, ou depuis un trottoir passant, sans vouloir vivre volets fermés en permanence. Posé sur vos vitrages, il crée un effet miroir sans tain qui bloque totalement la vue depuis l'extérieur en journée, tout en vous laissant une vue parfaitement dégagée depuis l'intérieur. Voici comment il fonctionne concrètement, et dans quels cas il est la meilleure solution.",
+            "Le film effet miroir règle un problème très concret : être vu depuis la rue, par un voisin, ou depuis un trottoir passant, sans vouloir vivre volets fermés en permanence. Posé sur vos vitrages, il crée un effet miroir sans tain qui bloque totalement la vue depuis l'extérieur en journée, tout en vous laissant une vue dégagée depuis l'intérieur. Voici comment il fonctionne concrètement, ce qu'on observe une fois posé, et dans quels cas il est la meilleure solution.",
           ],
         },
         {
@@ -969,6 +970,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Le principe repose uniquement sur la lumière, pas sur un traitement opaque du verre. En journée, l'extérieur est presque toujours plus lumineux que l'intérieur d'une pièce. Le film reflète cette lumière côté extérieur, ce qui crée un effet miroir qui empêche la vue de l'intérieur, exactement comme une glace sans tain utilisée en observation.",
             "Le revers de cette mécanique, qu'il faut connaître avant de se décider : l'effet fonctionne uniquement tant que l'extérieur reste plus lumineux que l'intérieur. Le soir, une fois vos lumières allumées et la nuit tombée dehors, l'effet s'inverse, comme pour n'importe quelle fenêtre éclairée dans le noir. Ce n'est pas un défaut du film, c'est son fonctionnement normal, à garder en tête selon les pièces où vous l'installez.",
+            "Autre point honnête à connaître, remonté par nos premiers clients équipés : vu de l'intérieur, la vue n'est pas tout à fait identique à une vitre nue. On remarque un léger effet assombrissant, un peu comme porter des lunettes de soleil, ainsi qu'un très léger effet miroir perceptible aussi depuis l'intérieur (on se voit soi-même, de façon atténuée, dans la vitre). Rien qui empêche de voir dehors, la vue reste dégagée, mais ce sont des nuances réelles à connaître avant de poser ce film, pas seulement un argument marketing côté extérieur.",
           ],
         },
         {
@@ -1021,7 +1023,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: "Peut-on voir à travers depuis l'intérieur ?",
-          answer: "Oui, c'est tout l'intérêt de ce film : depuis l'intérieur, la vue reste claire et dégagée, comme à travers une vitre classique. Seul le regard depuis l'extérieur est bloqué, et uniquement en journée.",
+          answer: "Oui, la vue vers l'extérieur reste dégagée, c'est tout l'intérêt de ce film. Il y a cependant deux nuances à connaître, remontées par nos clients déjà équipés : un léger effet assombrissant (un peu comme des lunettes de soleil), et un très léger effet miroir perceptible aussi depuis l'intérieur. Rien qui empêche de voir dehors, mais ce n'est pas rigoureusement identique à une vitre nue.",
         },
         {
           question: "Le film protège-t-il aussi de la chaleur et des UV ?",
@@ -1400,7 +1402,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Zien zonder gezien te worden: het principe',
           paragraphs: [
-            "Spiegeleffectfolie berust op een eenvoudig optisch principe: licht. Overdag is het buiten altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van buitenaf blokkeert, terwijl u vanuit uw huis gewoon vrij zicht behoudt, zoals door een gewoon raam.",
+            "Spiegeleffectfolie berust op een eenvoudig optisch principe: licht. Overdag is het buiten altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van buitenaf blokkeert, terwijl u vanuit uw huis vrij zicht behoudt.",
+            "Nog een nuance, teruggekoppeld door onze eerste klanten met geplaatste folie: van binnenuit merkt u een lichte verdonkering (een beetje zoals een zonnebril) en een heel licht spiegeleffect dat ook van binnenuit waarneembaar is. Dat belemmert het zicht naar buiten niet, maar het is niet strikt identiek aan kaal glas. Ons [artikel gewijd aan spiegeleffectfolie](/blog/film-miroir-vitrage-bruxelles) gaat hier dieper op in.",
           ],
         },
         {
@@ -2123,7 +2126,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Spiegeleffectfolie lost een heel concreet probleem op: gezien worden vanaf de straat, door een buur, of vanaf een druk trottoir, zonder permanent met gesloten rolluiken te moeten leven. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen een perfect vrij uitzicht behoudt. Hier leest u hoe ze concreet werkt, en in welke gevallen ze de beste oplossing is.",
+            "Spiegeleffectfolie lost een heel concreet probleem op: gezien worden vanaf de straat, door een buur, of vanaf een druk trottoir, zonder permanent met gesloten rolluiken te moeten leven. Geplaatst op uw beglazing creëert ze een spiegeleffect zonder tain dat overdag elk zicht van buitenaf volledig blokkeert, terwijl u vanbinnen een vrij uitzicht behoudt. Hier leest u hoe ze concreet werkt, wat u merkt eenmaal geplaatst, en in welke gevallen ze de beste oplossing is.",
           ],
         },
         {
@@ -2132,6 +2135,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Het principe berust uitsluitend op licht, niet op een ondoorzichtige behandeling van het glas. Overdag is het buiten bijna altijd lichter dan binnen in een kamer. De folie weerkaatst dat licht langs de buitenkant, wat een spiegeleffect creëert dat het zicht van binnenuit blokkeert, net zoals een spiegelruit die gebruikt wordt bij observatie.",
             "De keerzijde van dit mechanisme, die u moet kennen voordat u beslist: het effect werkt enkel zolang het buiten lichter is dan binnen. 's Avonds, wanneer uw lichten branden en het buiten donker is, keert het effect om, zoals bij elk verlicht raam in het donker. Dit is geen gebrek van de folie, het is haar normale werking, houd hier rekening mee afhankelijk van de kamer.",
+            "Nog een eerlijk punt, teruggekoppeld door onze eerste klanten met geplaatste folie: van binnenuit is het zicht niet helemaal identiek aan kaal glas. U merkt een lichte verdonkering, een beetje zoals een zonnebril dragen, en een heel licht spiegeleffect dat ook van binnenuit waarneembaar is (u ziet zichzelf, gedempt, in het raam). Niets dat het zicht naar buiten belemmert, dat blijft vrij, maar dit zijn reële nuances om te kennen voordat u deze folie plaatst, niet enkel een marketingargument voor de buitenkant.",
           ],
         },
         {
@@ -2184,7 +2188,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Kan ik er vanbinnen doorheen kijken?',
-          answer: 'Ja, dat is net het hele punt van deze folie: van binnenuit blijft het zicht helder en vrij, zoals door een gewoon raam. Enkel het zicht van buitenaf wordt geblokkeerd, en enkel overdag.',
+          answer: 'Ja, het zicht naar buiten blijft vrij, dat is net het hele punt van deze folie. Twee nuances om te kennen, teruggekoppeld door klanten die al geplaatst hebben: een lichte verdonkering (een beetje zoals een zonnebril), en een heel licht spiegeleffect dat ook van binnenuit waarneembaar is. Niets dat het zicht naar buiten belemmert, maar het is niet strikt identiek aan kaal glas.',
         },
         {
           question: 'Beschermt de folie ook tegen warmte en UV?',
@@ -2563,7 +2567,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Seeing without being seen: how it works',
           paragraphs: [
-            "Mirror effect film relies on a simple optical principle: light. During the day, the outside of a room is always brighter than the inside. The film reflects that light on the outside face, creating a mirror effect that blocks the view from outside, while from inside your home, the view stays just as clear as through an ordinary window.",
+            "Mirror effect film relies on a simple optical principle: light. During the day, the outside of a room is always brighter than the inside. The film reflects that light on the outside face, creating a mirror effect that blocks the view from outside, while from inside your home, the view stays clear.",
+            "Another nuance, reported by our first clients with the film installed: from inside, you'll notice a slight darkening effect (a bit like sunglasses) and a very faint mirror effect that's also visible from inside. That doesn't block the view outside, but it's not strictly identical to bare glass. Our [dedicated article on mirror effect film](/blog/film-miroir-vitrage-bruxelles) covers this in more depth.",
           ],
         },
         {
@@ -3286,7 +3291,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Mirror effect film solves a very concrete problem: being seen from the street, by a neighbour, or from a busy pavement, without having to live behind closed shutters all the time. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you keep a perfectly clear view from inside. Here's how it actually works, and when it's the best solution.",
+            "Mirror effect film solves a very concrete problem: being seen from the street, by a neighbour, or from a busy pavement, without having to live behind closed shutters all the time. Applied to your windows, it creates a one-way mirror effect that completely blocks the view from outside during the day, while you keep a clear view from inside. Here's how it actually works, what you'll notice once it's installed, and when it's the best solution.",
           ],
         },
         {
@@ -3295,6 +3300,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "The principle relies entirely on light, not on an opaque coating on the glass. During the day, the outside is almost always brighter than the inside of a room. The film reflects that light on the outside, creating a mirror effect that blocks the view from inside, exactly like a one-way mirror used for observation.",
             "The flip side of this mechanism, worth knowing before you decide: the effect only works as long as the outside stays brighter than the inside. In the evening, once your lights are on and it's dark outside, the effect reverses, as with any lit window at night. This isn't a flaw in the film, it's normal behaviour, worth keeping in mind depending on the room.",
+            "Another honest point, reported by our first clients with the film installed: from inside, the view isn't quite identical to bare glass. You'll notice a slight darkening effect, a bit like wearing sunglasses, as well as a very faint mirror effect that's also visible from inside (you see yourself, faintly, in the window). Nothing that blocks the view outside, which stays clear, but these are real nuances worth knowing before installing this film, not just an outside-facing marketing point.",
           ],
         },
         {
@@ -3347,7 +3353,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Can you see through it from the inside?',
-          answer: "Yes, that's the whole point of this film: from inside, the view stays clear and unobstructed, just like through an ordinary window. Only the view from outside is blocked, and only during the day.",
+          answer: "Yes, the view outside stays clear, that's the whole point of this film. Two honest nuances worth knowing, reported by our clients already fitted with it: a slight darkening effect (a bit like sunglasses), and a very faint mirror effect also visible from inside. Nothing that blocks the view outside, but it's not strictly identical to bare glass.",
         },
         {
           question: 'Does the film also protect against heat and UV?',

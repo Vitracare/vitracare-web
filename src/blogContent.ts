@@ -1105,6 +1105,93 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-brise-vue-anti-regard-vitrage',
+      title: 'Film brise-vue pour fenêtre : pourquoi la pose professionnelle change tout',
+      metaTitle: 'Film brise-vue à Bruxelles : pose professionnelle',
+      metaDescription:
+        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat et sa durée de vie, et comment reconnaître un installateur sérieux.",
+      date: '2026-10-11',
+      excerpt:
+        "Un film brise-vue mal posé se voit immédiatement, et pour longtemps. Voici ce qu'une pose professionnelle change concrètement, et comment repérer un installateur sérieux avant de se lancer.",
+      heroImage: { src: '/images/blog/illus-brise-vue.jpg', alt: "Vitrine avec film brise-vue, comparée de jour et le soir entre effet miroir et film mat", width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "Un film brise-vue posé de travers, avec une bulle d'air qui ne part jamais ou un bord qui commence à se soulever après quelques mois : c'est le genre de détail qu'on remarque tout de suite, et qu'on ne peut plus ignorer une fois qu'on l'a vu. La différence entre un film qui disparaît littéralement une fois posé et un film qui se voit à chaque regard tient presque entièrement à la pose, bien plus qu'au film lui-même.",
+          ],
+        },
+        {
+          heading: 'Pourquoi ne pas simplement coller un film brise-vue soi-même ?',
+          anchor: 'diy',
+          paragraphs: [
+            "On trouve facilement des films brise-vue en rouleau, à poser soi-même, sur à peu près n'importe quel site de bricolage. Sur le papier, l'idée est tentante : le matériau coûte peu cher à l'achat, et la pose a l'air simple sur les vidéos qui montrent toujours le même geste bien maîtrisé.",
+            "Dans la pratique, coller un film sur une grande surface vitrée sans bulle, sans poussière piégée dessous et sans bord qui se décolle au bout de quelques semaines est un exercice bien plus délicat qu'il n'y paraît. Et contrairement à une tache sur un mur, on ne peut pas repeindre par-dessus : le moindre défaut reste visible en permanence, à chaque fois qu'on regarde la fenêtre.",
+          ],
+        },
+        {
+          heading: 'Ce qui différencie concrètement une pose professionnelle',
+          anchor: 'pose-pro',
+          paragraphs: [
+            "Chez VitraCare, la pose se fait toujours côté intérieur du vitrage, par notre collaborateur, après un nettoyage complet de la vitre, pas un simple coup d'éponge rapide. Cette étape n'est pas optionnelle : la moindre poussière ou résidu resterait visible en permanence une fois le film posé dessus.",
+            "Le film est ensuite découpé sur mesure pour chaque fenêtre, pas simplement déroulé et coupé à vue. Un petit avantage indirect de cette étape : la vitre ressort impeccable une fois le chantier terminé, même sur la face qui n'est pas concernée par le film.",
+          ],
+        },
+        {
+          heading: 'Mat ou miroir : un choix à faire avant la pose, pas pendant',
+          anchor: 'mat-ou-miroir',
+          paragraphs: [
+            "Avant de choisir qui pose le film, il faut d'abord savoir lequel. Le film effet miroir bloque la vue depuis l'extérieur uniquement en journée, et l'effet s'inverse le soir si l'intérieur est plus éclairé que l'extérieur, un fonctionnement normal du produit, pas un défaut. Le film blanc mat, lui, bloque la vue dans les deux sens, jour et nuit, au prix d'un rendu plus opaque qui floute aussi la vue depuis l'intérieur.",
+            "Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) détaille les 4 teintes disponibles avec un tableau comparatif, et notre [article sur le vis-à-vis](/blog/intimite-vis-a-vis-film-vitrage) creuse ce choix pièce par pièce, entre rez-de-chaussée, bureaux et vis-à-vis entre voisins.",
+          ],
+        },
+        {
+          heading: 'Garantie et durée de vie : ce que ça change vraiment',
+          anchor: 'garantie',
+          paragraphs: [
+            "Posé correctement, côté intérieur, un film a une durée de vie estimée à 10-15 ans. C'est précisément parce que cette durée dépend directement de la qualité de la pose que notre garantie porte sur l'installation elle-même : 2 ans, qui couvrent un défaut lié à la pose (décollement, bulle due à une mauvaise application). Elle ne couvre pas un dommage causé après coup par un usage inapproprié ou un tiers, une griffure de votre animal de compagnie par exemple.",
+          ],
+        },
+        {
+          heading: "Comment vérifier qu'un installateur est sérieux",
+          anchor: 'verifier-installateur',
+          paragraphs: [
+            "Difficile de juger la qualité d'une pose avant qu'elle soit faite. Quelques questions permettent quand même de se faire une idée sérieuse avant de choisir : l'entreprise propose-t-elle un devis clair avant intervention ? Peut-elle montrer des réalisations concrètes plutôt que des promesses ? Offre-t-elle une garantie explicite sur la pose, pas seulement sur le matériau ? Ce sont à peu près les mêmes questions que recommande de poser l'[International Window Film Association](https://iwfa.com/before-you-buy/) avant de choisir un installateur : références de clients précédents, accréditations éventuelles, et durée de vie annoncée pour le film recommandé.",
+            "De notre côté, vous pouvez consulter nos [réalisations](/realisations) et nos [avis clients](/avis) avant de vous décider, et nous répondons volontiers à toute question avant qu'un devis ne soit signé.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — questions à poser avant de choisir un installateur](https://iwfa.com/before-you-buy/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Un film brise-vue en pose soi-même fonctionne-t-il quand même un peu ?',
+          answer: "Oui, dans une certaine mesure : un film en rouleau bloque une partie de la vue même mal posé. Le problème n'est pas l'efficacité de base, c'est la durabilité et le rendu : bulles, bords qui se décollent avec le temps, poussière piégée sous le film, des défauts qui restent visibles en permanence une fois posés.",
+        },
+        {
+          question: 'La garantie de 2 ans couvre-t-elle un défaut qui apparaît plusieurs mois après la pose ?',
+          answer: "Oui, tant que le défaut est lié à la pose elle-même (décollement, bulle due à une mauvaise application) et pas à un usage inapproprié ou un dommage causé par un tiers après coup.",
+        },
+        {
+          question: 'Peut-on voir des réalisations avant de demander un devis ?',
+          answer: "Oui, notre page [réalisations](/realisations) présente de vrais chantiers déjà effectués, et notre page [avis clients](/avis) regroupe les retours Google et Trustpilot.",
+        },
+        {
+          question: 'Combien de temps prend une pose professionnelle pour une maison ?',
+          answer: "Ça dépend du nombre et de la taille des vitrages concernés. L'intervention se fait en une seule visite, généralement en quelques heures pour une maison standard. La durée exacte est précisée dans votre devis.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -2181,6 +2268,93 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-brise-vue-anti-regard-vitrage',
+      title: 'Inkijkwerende folie voor ramen: waarom professionele plaatsing het verschil maakt',
+      metaTitle: 'Inkijkwerende folie in Brussel: professionele plaatsing',
+      metaDescription:
+        "Inkijkwerende folie: waarom een professionele plaatsing echt het verschil maakt voor het resultaat en de levensduur, en hoe u een serieuze installateur herkent.",
+      date: '2026-10-11',
+      excerpt:
+        'Slecht geplaatste inkijkwerende folie valt meteen op, en blijft lang zichtbaar. Dit verandert een professionele plaatsing concreet, en zo herkent u een serieuze installateur voordat u begint.',
+      heroImage: { src: '/images/blog/illus-brise-vue.jpg', alt: 'Winkelraam met inkijkwerende folie, vergeleken overdag en \'s avonds tussen spiegeleffect en matte folie', width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "Scheef geplaatste inkijkwerende folie, met een luchtbel die nooit verdwijnt of een rand die na enkele maanden begint los te komen: dat soort details valt meteen op, en eens u het gezien hebt, kunt u er niet meer naast kijken. Het verschil tussen folie die na plaatsing letterlijk verdwijnt en folie die bij elke blik opvalt, zit bijna volledig in de plaatsing, veel meer dan in de folie zelf.",
+          ],
+        },
+        {
+          heading: 'Waarom niet gewoon zelf inkijkwerende folie plakken?',
+          anchor: 'diy',
+          paragraphs: [
+            "Folie in rol, zelf te plaatsen, vindt u gemakkelijk op zowat elke doe-het-zelfsite. Op papier is het idee aantrekkelijk: het materiaal is goedkoop in aankoop, en de plaatsing lijkt eenvoudig op de video's die altijd hetzelfde vlotte gebaar tonen.",
+            "In de praktijk is folie plakken op een groot raamoppervlak zonder luchtbel, zonder stof eronder en zonder rand die na enkele weken loskomt, een veel delicatere oefening dan het lijkt. En in tegenstelling tot een vlek op een muur kunt u er niet overheen schilderen: het kleinste gebrek blijft permanent zichtbaar, elke keer dat u naar het raam kijkt.",
+          ],
+        },
+        {
+          heading: 'Wat een professionele plaatsing concreet anders maakt',
+          anchor: 'pose-pro',
+          paragraphs: [
+            "Bij VitraCare gebeurt de plaatsing steeds aan de binnenzijde van het glas, door onze medewerker, na een grondige reiniging van het raam, niet zomaar een snelle veeg met een spons. Deze stap is niet optioneel: het kleinste stofje of residu zou permanent zichtbaar blijven eenmaal de folie erop geplaatst is.",
+            "De folie wordt vervolgens op maat gesneden voor elk raam, niet zomaar uitgerold en op het oog afgeknipt. Een klein bijkomend voordeel van deze stap: het raam ziet er onberispelijk uit eenmaal de werf afgerond is, zelfs aan de kant zonder folie.",
+          ],
+        },
+        {
+          heading: 'Mat of spiegeleffect: een keuze voor de plaatsing, niet tijdens',
+          anchor: 'mat-ou-miroir',
+          paragraphs: [
+            "Voor u kiest wie de folie plaatst, moet u eerst weten welke. Spiegeleffectfolie blokkeert het zicht van buitenaf enkel overdag, en het effect keert 's avonds om als het interieur meer verlicht is dan buiten, een normale werking van het product, geen gebrek. Matwitte folie blokkeert het zicht in beide richtingen, dag en nacht, maar geeft een ondoorzichtiger resultaat dat ook het zicht van binnenuit vertroebelt.",
+            "Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten met een overzichtstabel, en ons [artikel over inkijk](/blog/intimite-vis-a-vis-film-vitrage) gaat dieper in op deze keuze per ruimte, van gelijkvloers tot kantoren en inkijk tussen buren.",
+          ],
+        },
+        {
+          heading: 'Garantie en levensduur: wat dit echt verandert',
+          anchor: 'garantie',
+          paragraphs: [
+            "Correct geplaatst, aan de binnenzijde, heeft folie een geschatte levensduur van 10 tot 15 jaar. Net omdat deze levensduur rechtstreeks afhangt van de kwaliteit van de plaatsing, geldt onze garantie op de installatie zelf: 2 jaar, die een gebrek verbonden aan de plaatsing dekken (loslaten, luchtbel door een verkeerde toepassing). Ze dekt geen schade die nadien ontstaat door oneigenlijk gebruik of door een derde, een kras van uw huisdier bijvoorbeeld.",
+          ],
+        },
+        {
+          heading: 'Hoe herkent u een serieuze installateur',
+          anchor: 'verifier-installateur',
+          paragraphs: [
+            "Moeilijk om de kwaliteit van een plaatsing te beoordelen voordat ze gebeurd is. Enkele vragen geven toch een serieus beeld voordat u kiest: biedt het bedrijf een duidelijke offerte voor de interventie? Kan het concrete realisaties tonen in plaats van beloftes? Biedt het een expliciete garantie op de plaatsing, niet enkel op het materiaal? Dit zijn ongeveer dezelfde vragen die de [International Window Film Association](https://iwfa.com/before-you-buy/) aanraadt voor het kiezen van een installateur: referenties van eerdere klanten, eventuele accreditaties, en de aangekondigde levensduur van de aanbevolen folie.",
+            "Van onze kant kunt u onze [realisaties](/realisations) en [klantenbeoordelingen](/avis) bekijken voordat u beslist, en we beantwoorden graag elke vraag voordat een offerte ondertekend wordt.",
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[International Window Film Association — vragen om te stellen voor het kiezen van een installateur](https://iwfa.com/before-you-buy/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Werkt zelf geplaatste inkijkwerende folie toch een beetje?',
+          answer: "Ja, tot op zekere hoogte: folie uit een rol blokkeert een deel van het zicht, zelfs slecht geplaatst. Het probleem is niet de basiswerking, het is de duurzaamheid en de afwerking: luchtbellen, randen die na verloop van tijd loskomen, stof onder de folie, gebreken die permanent zichtbaar blijven eenmaal geplaatst.",
+        },
+        {
+          question: 'Dekt de garantie van 2 jaar een gebrek dat pas na enkele maanden optreedt?',
+          answer: 'Ja, zolang het gebrek verbonden is aan de plaatsing zelf (loslaten, luchtbel door een verkeerde toepassing) en niet aan oneigenlijk gebruik of schade door een derde nadien.',
+        },
+        {
+          question: 'Kan ik realisaties bekijken voordat ik een offerte aanvraag?',
+          answer: 'Ja, onze pagina [realisaties](/realisations) toont echte, reeds uitgevoerde werven, en onze pagina [klantenbeoordelingen](/avis) verzamelt de Google- en Trustpilot-reacties.',
+        },
+        {
+          question: 'Hoelang duurt een professionele plaatsing voor een huis?',
+          answer: 'Dat hangt af van het aantal en de grootte van de betrokken vensters. De interventie gebeurt in één bezoek, doorgaans enkele uren voor een standaardwoning. De exacte duur staat in uw offerte.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -3254,6 +3428,93 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Is the price different from mirror effect film?',
           answer: "No, our rate depends only on the surface area to be treated, not on the film chosen. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints.",
+        },
+      ],
+    },
+    {
+      slug: 'film-brise-vue-anti-regard-vitrage',
+      title: 'Window privacy film: why professional installation makes all the difference',
+      metaTitle: 'Window privacy film in Brussels: professional installation',
+      metaDescription:
+        "Window privacy film: why professional installation makes a real difference to the result and its lifespan, and how to recognise a serious installer.",
+      date: '2026-10-11',
+      excerpt:
+        "Badly installed privacy film shows immediately, and stays visible for a long time. Here's what professional installation actually changes, and how to spot a serious installer before you commit.",
+      heroImage: { src: '/images/blog/illus-brise-vue.jpg', alt: 'Shopfront window with privacy film, compared by day and evening between mirror effect and matte film', width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "Privacy film installed crooked, with an air bubble that never goes away or an edge that starts lifting after a few months: that's the kind of detail you notice immediately, and once you've seen it, you can't unsee it. The difference between a film that genuinely disappears once installed and one that stands out every time you look is almost entirely down to the installation, far more than the film itself.",
+          ],
+        },
+        {
+          heading: "Why not just stick on privacy film yourself?",
+          anchor: 'diy',
+          paragraphs: [
+            "Roll privacy film, meant for DIY installation, is easy to find on pretty much any home improvement website. On paper, the idea is tempting: the material is cheap to buy, and the installation looks simple in videos that always show the same smooth, practised motion.",
+            "In practice, applying film to a large glass surface without a bubble, without dust trapped underneath, and without an edge peeling off within a few weeks is a far trickier job than it looks. And unlike a mark on a wall, you can't paint over it: the smallest flaw stays permanently visible, every time you look at the window.",
+          ],
+        },
+        {
+          heading: 'What professional installation actually changes',
+          anchor: 'pose-pro',
+          paragraphs: [
+            "At VitraCare, installation is always carried out on the interior side of the glass, by our collaborator, after a thorough cleaning of the window, not just a quick wipe. This step isn't optional: the smallest speck of dust or residue would stay permanently visible once the film is applied over it.",
+            "The film is then cut to the exact size of each window, not simply unrolled and trimmed by eye. A small side benefit of this step: the window comes out spotless once the job is done, even on the side the film isn't applied to.",
+          ],
+        },
+        {
+          heading: "Matte or mirror: a choice to make before installation, not during",
+          anchor: 'mat-ou-miroir',
+          paragraphs: [
+            "Before choosing who installs the film, you need to know which one you want. Mirror effect film blocks the view from outside only during the day, and the effect reverses in the evening if the inside is brighter than outside, normal behaviour for this product, not a fault. Matte white film blocks the view in both directions, day and night, at the cost of a more opaque result that also blurs the view from inside.",
+            "Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints with a comparison table, and our [article on being overlooked](/blog/intimite-vis-a-vis-film-vitrage) looks at this choice room by room, from ground floors to offices and privacy between neighbours.",
+          ],
+        },
+        {
+          heading: 'Warranty and lifespan: what this really changes',
+          anchor: 'garantie',
+          paragraphs: [
+            "Correctly installed, on the interior side, film has an estimated lifespan of 10 to 15 years. Precisely because that lifespan depends directly on installation quality, our warranty covers the installation itself: 2 years, covering a defect linked to the installation (peeling, a bubble caused by poor application). It doesn't cover damage caused afterwards by misuse or a third party, a scratch from your pet, for instance.",
+          ],
+        },
+        {
+          heading: 'How to recognise a serious installer',
+          anchor: 'verifier-installateur',
+          paragraphs: [
+            "It's hard to judge installation quality before it's done. A few questions still give you a reliable sense before choosing: does the company offer a clear quote before the work starts? Can it show real completed projects rather than promises? Does it offer an explicit warranty on the installation itself, not just the material? These are roughly the same questions the [International Window Film Association](https://iwfa.com/before-you-buy/) recommends asking before choosing an installer: references from previous customers, any accreditations, and the expected lifespan of the recommended film.",
+            "On our side, you can check our [completed projects](/realisations) and [customer reviews](/avis) before deciding, and we're happy to answer any question before a quote is signed.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[International Window Film Association — questions to ask before choosing an installer](https://iwfa.com/before-you-buy/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us, we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does DIY-installed privacy film still work at all?',
+          answer: "Yes, to some extent: roll film blocks part of the view even when badly installed. The problem isn't basic effectiveness, it's durability and finish: bubbles, edges that peel over time, dust trapped under the film, flaws that stay permanently visible once installed.",
+        },
+        {
+          question: 'Does the 2-year warranty cover a defect that appears several months after installation?',
+          answer: "Yes, as long as the defect is linked to the installation itself (peeling, a bubble caused by poor application) and not to misuse or damage caused by a third party afterwards.",
+        },
+        {
+          question: 'Can I see completed projects before requesting a quote?',
+          answer: "Yes, our [completed projects](/realisations) page shows real projects already carried out, and our [customer reviews](/avis) page gathers feedback from Google and Trustpilot.",
+        },
+        {
+          question: 'How long does professional installation take for a house?',
+          answer: "It depends on the number and size of the windows involved. The work is done in a single visit, typically taking a few hours for a standard house. The exact duration is confirmed in your quote.",
         },
       ],
     },

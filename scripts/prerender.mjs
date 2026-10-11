@@ -593,6 +593,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-brise-vue-anti-regard-vitrage',
+  meta: {
+    FR: {
+      title: 'Film brise-vue à Bruxelles : pose professionnelle — VitraCare',
+      description:
+        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat et sa durée de vie, et comment reconnaître un installateur sérieux.",
+      headline: 'Film brise-vue pour fenêtre : pourquoi la pose professionnelle change tout',
+      datePublished: '2026-10-11',
+      dateModified: '2026-10-11',
+    },
+    NL: {
+      title: 'Inkijkwerende folie in Brussel: professionele plaatsing — VitraCare',
+      description:
+        "Inkijkwerende folie: waarom een professionele plaatsing echt het verschil maakt voor het resultaat en de levensduur, en hoe u een serieuze installateur herkent.",
+      headline: 'Inkijkwerende folie voor ramen: waarom professionele plaatsing het verschil maakt',
+      datePublished: '2026-10-11',
+      dateModified: '2026-10-11',
+    },
+    EN: {
+      title: 'Window Privacy Film in Brussels: Professional Installation — VitraCare',
+      description:
+        "Window privacy film: why professional installation makes a real difference to the result and its lifespan, and how to recognise a serious installer.",
+      headline: 'Window privacy film: why professional installation makes all the difference',
+      datePublished: '2026-10-11',
+      dateModified: '2026-10-11',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

@@ -283,8 +283,13 @@ export default function Home() {
       {/* Header */}
       <SiteHeader activeId={activeSection} />
 
-      {/* Main Content */}
-      <main className="relative z-10 flex flex-col justify-end md:justify-center min-h-screen pb-16 md:pb-0 pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
+      {/* Hero content — a <div>, not <main>: the page's real <main> landmark wraps
+          this hero plus every section below (see just after the hero closes), so
+          AI/boilerplate extractors see the whole page body as core content instead
+          of just this fragment. Kept as a plain div here to avoid nesting <main>
+          inside <main>, and to avoid touching SiteHeader's position in the DOM
+          (its sticky/active-section logic wasn't worth risking for this). */}
+      <div className="relative z-10 flex flex-col justify-end md:justify-center min-h-screen pb-16 md:pb-0 pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
         <div className="max-w-[800px] md:-translate-y-8 lg:-translate-y-12">
           <h1
             className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight text-white md:text-[#464646]"
@@ -294,8 +299,8 @@ export default function Home() {
                 flagged as missing, without touching the tagline's carefully-tuned
                 3-line mobile wrap. */}
             <span className="sr-only">{t.hero.seoPrefix} — </span>
-            {t.hero.title1}<br />
-            {t.hero.title2}<br />
+            {t.hero.title1}{' '}<br />
+            {t.hero.title2}{' '}<br />
             {t.hero.title3}
           </h1>
 
@@ -319,8 +324,14 @@ export default function Home() {
             {t.hero.getQuote}
           </Link>
         </div>
-      </main>
       </div>
+      </div>
+
+      {/* Main Content — wraps every real content section (hero through Devis),
+          excluding SiteHeader/SiteFooter. Added for AI/boilerplate extraction: a
+          GEO audit flagged a 96% boilerplate ratio because these sections sat
+          outside any <main> landmark. */}
+      <main>
 
       {/* Features Section */}
       <section id="services" className="w-full py-14 md:py-24 px-8 md:px-16 lg:px-20 bg-white">
@@ -946,6 +957,8 @@ export default function Home() {
           <DevisFormCard />
         </div>
       </section>
+
+      </main>
 
       <SiteFooter />
     </div>

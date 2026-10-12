@@ -36,8 +36,11 @@ export const SiteHeader = ({ activeId, alwaysSolid = false }: { activeId?: strin
           so it only ever blended against the header's own background, never the hero photo
           behind it — which is exactly why a white box used to show up over the image. */}
       <Link to="/" className="flex items-center gap-3">
+        {/* Two crops of the same wide logo+wordmark asset (icon, then text) rebuilt
+            side by side. alt is empty here and carried by the wordmark crop below,
+            so a screen reader announces "VITRACARE" once per link, not "Logo VITRACARE". */}
         <div className="relative h-8 w-[29px] overflow-hidden">
-          <img src="/images/Logo-et-nom.png" alt="Logo" width={1280} height={296} className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
+          <img src="/images/Logo-et-nom.png" alt="" width={1280} height={296} className="absolute top-0 left-0 h-8 w-auto max-w-none" referrerPolicy="no-referrer" />
         </div>
         <div className="relative h-8 w-[105px] overflow-hidden">
           <img src="/images/Logo-et-nom.png" alt="VITRACARE" width={1280} height={296} className="absolute top-0 left-[-33.5px] h-8 w-auto max-w-none" referrerPolicy="no-referrer" />

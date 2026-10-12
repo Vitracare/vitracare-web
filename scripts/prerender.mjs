@@ -826,7 +826,16 @@ function buildBusinessSchema(lang, prefix) {
     ],
     url: `https://vitracare.be${fullPath(prefix, '/devis')}`,
   };
-  return [localBusiness, service];
+  const website = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': 'https://vitracare.be/#website',
+    name: 'VitraCare',
+    url: `https://vitracare.be${prefix || '/'}`,
+    inLanguage,
+    publisher: { '@id': 'https://vitracare.be/#business' },
+  };
+  return [localBusiness, service, website];
 }
 
 function escapeHtml(str) {

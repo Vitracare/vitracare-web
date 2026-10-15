@@ -51,7 +51,11 @@ export const CookieConsentBanner = () => {
 
   return (
     <div
-      className="fixed z-[200] left-4 right-4 bottom-4 md:left-6 md:right-auto md:bottom-6 md:max-w-[420px] rounded-2xl shadow-2xl p-5"
+      // Mobile: anchored near the top instead of the bottom — a bottom-fixed banner
+      // was overlapping the hero CTA and the top of the /devis form, both of which
+      // sit close to the bottom of a mobile viewport by design. Desktop/tablet (md:)
+      // keep the original compact bottom-left card, which never had this collision.
+      className="fixed z-[200] left-4 right-4 top-24 md:top-auto md:left-6 md:right-auto md:bottom-6 md:max-w-[420px] rounded-2xl shadow-2xl p-5"
       style={{ backgroundColor: '#FFFFFF', border: '1px solid #E5E5E5' }}
       role="dialog"
       aria-label="Cookies"

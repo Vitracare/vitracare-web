@@ -11,6 +11,15 @@ const hreflangCodes = { FR: 'fr', NL: 'nl', EN: 'en' };
 const langs = ['FR', 'NL', 'EN'];
 const homeLabels = { FR: 'Accueil', NL: 'Home', EN: 'Home' };
 
+// Short nav-style labels for BreadcrumbList on top-level pages that don't
+// otherwise get one (blog articles and commune pages build their own below).
+const breadcrumbLabels = {
+  '/devis': { FR: 'Devis', NL: 'Offerte', EN: 'Quote' },
+  '/realisations': { FR: 'Réalisations', NL: 'Realisaties', EN: 'Our work' },
+  '/avis': { FR: 'Avis', NL: 'Beoordelingen', EN: 'Reviews' },
+  '/contact': { FR: 'Contact', NL: 'Contact', EN: 'Contact' },
+};
+
 const pages = [
   {
     path: '/',
@@ -813,6 +822,14 @@ function buildBusinessSchema(lang, prefix) {
     description: copy.description,
     telephone: '+32489607074',
     email: 'contact@vitracare.be',
+    // City-level only — VitraCare doesn't have a fixed street address (service-area
+    // business, installs happen on-site), so no streetAddress/geo is included rather
+    // than inventing a precise location that doesn't exist.
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: copy.city,
+      addressCountry: 'BE',
+    },
     areaServed: [
       { '@type': 'City', name: copy.city },
       { '@type': 'AdministrativeArea', name: copy.area },
@@ -884,6 +901,7 @@ function buildRoutes() {
       const prefix = prefixes[lang];
       const routePath = fullPath(prefix, page.path);
       const fileRel = routePath === '/' ? 'index.html' : `${routePath.replace(/^\//, '')}/index.html`;
+      const breadcrumbLabel = breadcrumbLabels[page.path];
       routes.push({
         routePath,
         file: fileRel,
@@ -891,6 +909,18 @@ function buildRoutes() {
         lang,
         title: page.meta[lang].title,
         description: page.meta[lang].description,
+        schema: breadcrumbLabel
+          ? [
+              {
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: homeLabels[lang], item: `https://vitracare.be${fullPath(prefix, '/')}` },
+                  { '@type': 'ListItem', position: 2, name: breadcrumbLabel[lang], item: `https://vitracare.be${routePath}` },
+                ],
+              },
+            ]
+          : undefined,
       });
     }
   }

@@ -43,6 +43,10 @@ Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](htt
 - [Etterbeek, Jourdan en Merode](https://vitracare.be/nl/communes/etterbeek)
 - [Sint-Pieters-Woluwe](https://vitracare.be/nl/communes/woluwe-saint-pierre)
 - [Sint-Gillis, Barrière en Parvis](https://vitracare.be/nl/communes/saint-gilles)
+- [Anderlecht](https://vitracare.be/nl/communes/anderlecht)
+- [Oudergem](https://vitracare.be/nl/communes/auderghem)
+- [Jette](https://vitracare.be/nl/communes/jette)
+- [Koekelberg](https://vitracare.be/nl/communes/koekelberg)
 
 ## Juridische informatie
 - [Wettelijke vermeldingen](https://vitracare.be/nl/mentions-legales)

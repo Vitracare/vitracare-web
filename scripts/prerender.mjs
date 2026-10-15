@@ -895,6 +895,98 @@ const communePages = [
       },
     },
   },
+  {
+    slug: 'anderlecht',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Anderlecht',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Anderlecht : intimité et confort thermique adaptés à la diversité du bâti de la commune.",
+        name: 'Anderlecht',
+      },
+      NL: {
+        title: 'Raamfolie in Anderlecht',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Anderlecht: privacy en thermisch comfort aangepast aan de diverse bebouwing van de gemeente.',
+        name: 'Anderlecht',
+      },
+      EN: {
+        title: 'Window Film in Anderlecht',
+        description:
+          'VitraCare installs window films and tints in Anderlecht: privacy and thermal comfort suited to the varied housing stock of the commune.',
+        name: 'Anderlecht',
+      },
+    },
+  },
+  {
+    slug: 'auderghem',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Auderghem',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Auderghem : confort thermique et intimité pour les habitations proches de la Forêt de Soignes.",
+        name: 'Auderghem',
+      },
+      NL: {
+        title: 'Raamfolie in Oudergem',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Oudergem: thermisch comfort en privacy voor woningen nabij het Zoniënwoud.',
+        name: 'Oudergem',
+      },
+      EN: {
+        title: 'Window Film in Auderghem',
+        description:
+          'VitraCare installs window films and tints in Auderghem: thermal comfort and privacy for homes near the Sonian Forest.',
+        name: 'Auderghem',
+      },
+    },
+  },
+  {
+    slug: 'jette',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Jette',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Jette : intimité et confort thermique adaptés aux maisons de l'entre-deux-guerres.",
+        name: 'Jette',
+      },
+      NL: {
+        title: 'Raamfolie in Jette',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Jette: privacy en thermisch comfort aangepast aan de interbellumwoningen van de gemeente.',
+        name: 'Jette',
+      },
+      EN: {
+        title: 'Window Film in Jette',
+        description:
+          'VitraCare installs window films and tints in Jette: privacy and thermal comfort suited to the interwar houses of the commune.',
+        name: 'Jette',
+      },
+    },
+  },
+  {
+    slug: 'koekelberg',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Koekelberg',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Koekelberg : intimité adaptée à l'habitat dense de la plus petite commune de Bruxelles.",
+        name: 'Koekelberg',
+      },
+      NL: {
+        title: 'Raamfolie in Koekelberg',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Koekelberg: privacy aangepast aan de dichte bebouwing van de kleinste gemeente van Brussel.',
+        name: 'Koekelberg',
+      },
+      EN: {
+        title: 'Window Film in Koekelberg',
+        description:
+          "VitraCare installs window films and tints in Koekelberg: privacy suited to the dense housing of Brussels's smallest commune.",
+        name: 'Koekelberg',
+      },
+    },
+  },
 ];
 
 function decodeEntities(str) {

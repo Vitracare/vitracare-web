@@ -55,7 +55,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Quand choisir la teinte solaire ?',
           anchor: 'solaire',
           paragraphs: [
-            "Vous choisissez la teinte solaire quand le confort thermique prime sur l'intimité totale. Contrairement au film miroir, elle reste transparente dans les deux sens, avec une légère teinte bleutée propre à ce type de film. Notre [article dédié au film solaire](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement et les pièces où il est le plus utile.",
+            "Vous choisissez la teinte solaire quand la protection UV (meubles, parquet) et une transparence totale priment sur l'intimité. Elle réduit aussi la chaleur, mais plus modérément que le film miroir. Contrairement à ce dernier, elle reste transparente dans les deux sens, avec une légère teinte bleutée propre à ce type de film. Notre [article dédié au film solaire](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement et les pièces où il est le plus utile.",
           ],
         },
         {
@@ -80,8 +80,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Intimité', 'Réduction chaleur', 'Protection UV', 'Sécurité renforcée'],
             rows: [
-              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui', "Oui (46 à 87%)", 'Non'],
-              ['Solaire', 'Non (reste transparent)', 'Oui (rôle principal)', 'Oui (bonus)', 'Non'],
+              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui (la plus marquée)', "Oui (46 à 87%)", 'Non'],
+              ['Solaire', 'Non (reste transparent)', 'Oui (modérée)', 'Oui (rôle principal)', 'Non'],
               ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
               ['Anti-effraction', 'Non (reste transparent)', 'Non', 'Non', 'Oui (rôle principal)'],
             ],
@@ -173,7 +173,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Quel film pour ce résultat ?',
           paragraphs: [
-            "C'est la teinte solaire qui permet ces économies : elle reste transparente dans les deux sens tout en réduisant la chaleur, contrairement au film effet miroir qui joue surtout sur l'intimité. Notre [article dédié à ce film](/blog/film-solaire-vitrage-bruxelles) détaille son fonctionnement, et notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
+            "Ces chiffres concernent les films solaires au sens large (la catégorie des films qui réfléchissent le rayonnement), une famille qui inclut aussi bien la teinte solaire que l'effet miroir. Entre les deux, c'est le film effet miroir qui bloque le plus de chaleur, étant plus réfléchissant, avec en prime l'intimité de jour. La teinte solaire reste l'option à privilégier si vous voulez garder une transparence totale dans les deux sens, sans aucun effet miroir visible : son effet sur la chaleur reste réel, mais plus modéré. Notre [article qui compare les deux](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) détaille cette différence, et notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) compare les 4 teintes disponibles. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé.",
           ],
         },
         {
@@ -481,9 +481,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Sa vraie force : la protection UV',
+          paragraphs: [
+            "Le film solaire filtre une bonne partie des rayons UV responsables de la décoloration des meubles, tissus et parquets exposés au soleil au fil des années. C'est là que ce film est le plus efficace, et c'est pour ça qu'on le recommande en priorité quand la préservation du mobilier est l'enjeu principal, pas uniquement la chaleur.",
+          ],
+        },
+        {
           heading: 'Comment le film solaire agit sur la chaleur',
           paragraphs: [
-            "Posé sur la face intérieure du vitrage, le film solaire filtre une partie du rayonnement solaire avant qu'il ne traverse la vitre et ne se transforme en chaleur dans la pièce, un peu comme l'effet de serre, mais atténué. Le résultat se ressent surtout sur les pièces les plus exposées : vérandas, bureaux et salons orientés sud ou ouest.",
+            "Posé sur la face intérieure du vitrage, le film solaire filtre aussi une partie du rayonnement solaire avant qu'il ne traverse la vitre et ne se transforme en chaleur dans la pièce. L'effet est réel, mais reste modéré : le film solaire est pensé pour rester transparent, donc il ne bloque pas la chaleur aussi fortement qu'un film plus réfléchissant comme l'effet miroir. Le résultat se ressent surtout sur les pièces les plus exposées : vérandas, bureaux et salons orientés sud ou ouest.",
           ],
         },
         {
@@ -499,15 +505,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'Une protection UV en complément',
-          paragraphs: [
-            "Le film solaire filtre également une partie des rayons UV responsables de la décoloration des meubles, tissus et parquets exposés au soleil au fil des années, un bénéfice secondaire qui s'ajoute à la baisse de chaleur et d'éblouissement.",
-          ],
-        },
-        {
           heading: 'Solaire ou effet miroir : quelle différence ?',
           paragraphs: [
-            "Le film solaire cible la chaleur et la lumière, pas nécessairement l'intimité : la vue depuis l'extérieur reste possible selon le type choisi. Si votre priorité est d'éviter les regards (vis-à-vis, rez-de-chaussée), c'est plutôt vers le film effet miroir ou blanc mat qu'il faut se tourner ; les deux besoins peuvent aussi se combiner selon les pièces.",
+            "Le film solaire cible avant tout la protection UV et l'éblouissement, avec un effet modéré sur la chaleur, tout en restant transparent dans les deux sens, sans intimité. Si votre priorité est vraiment de réduire fortement la chaleur, en plus d'éviter les regards (vis-à-vis, rez-de-chaussée), c'est plutôt vers le film effet miroir qu'il faut se tourner : plus réfléchissant, il bloque davantage de chaleur en plus de bloquer la vue en journée. Notre [article qui compare les deux](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) détaille cette différence.",
           ],
         },
         {
@@ -527,6 +527,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Le film solaire assombrit-il la pièce ?',
           answer: "Non, il reste transparent et laisse passer la lumière naturelle : il filtre la chaleur et l'éblouissement sans assombrir fortement la pièce. Vous remarquerez une légère teinte bleutée sur le vitrage, propre à ce type de film, mais elle ne réduit pas la clarté de la pièce.",
+        },
+        {
+          question: 'Le film solaire réduit-il beaucoup la chaleur ?',
+          answer: "L'effet est réel mais reste modéré : ce film est pensé pour rester transparent, donc il ne bloque pas la chaleur aussi fortement qu'un film plus réfléchissant comme l'effet miroir. Si la réduction de chaleur est votre priorité absolue, le film effet miroir est plus efficace sur ce point précis ; le solaire reste le meilleur choix pour la protection UV sans aucune perte de transparence.",
         },
         {
           question: 'Fonctionne-t-il été comme hiver ?',
@@ -1279,8 +1283,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       ],
       faq: [
         {
-          question: 'Le film miroir est-il aussi efficace sur la chaleur que le film solaire ?',
-          answer: "Les deux reposent sur un principe de réflexion du rayonnement solaire, avec un effet comparable sur la chaleur. La différence se joue sur l'intimité : le solaire reste transparent dans les deux sens, le miroir bloque la vue depuis l'extérieur en journée.",
+          question: 'Le film miroir est-il plus efficace sur la chaleur que le film solaire ?',
+          answer: "Oui : les deux reposent sur un principe de réflexion du rayonnement solaire, mais le miroir, plus réfléchissant, bloque davantage de chaleur. La différence se joue aussi sur l'intimité et la transparence : le solaire reste transparent dans les deux sens sans aucun effet miroir, tandis que le miroir bloque la vue depuis l'extérieur en journée.",
         },
         {
           question: 'Est-ce plus cher de viser les deux bénéfices en même temps ?',
@@ -1323,7 +1327,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'Wanneer kiest u voor de zonwerende folie?',
           anchor: 'solaire',
           paragraphs: [
-            "U kiest voor de zonwerende folie wanneer thermisch comfort voor u belangrijker is dan volledige privacy. In tegenstelling tot de spiegelfolie blijft ze in beide richtingen transparant, met een lichte blauwachtige tint. Ons [artikel over zonwerende folie](/blog/film-solaire-vitrage-bruxelles) legt de werking uit en voor welke ruimtes ze het nuttigst is.",
+            "U kiest voor de zonwerende folie wanneer UV-bescherming (meubels, parket) en volledige transparantie belangrijker zijn dan privacy. Ze vermindert ook warmte, maar gematigder dan spiegeleffectfolie. In tegenstelling tot die laatste blijft ze in beide richtingen transparant, met een lichte blauwachtige tint. Ons [artikel over zonwerende folie](/blog/film-solaire-vitrage-bruxelles) legt de werking uit en voor welke ruimtes ze het nuttigst is.",
           ],
         },
         {
@@ -1348,8 +1352,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Folie', 'Privacy', 'Warmtevermindering', 'UV-bescherming', 'Verhoogde veiligheid'],
             rows: [
-              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja', 'Ja (46 tot 87%)', 'Nee'],
-              ['Zonwerend', 'Nee (blijft transparant)', 'Ja (hoofdrol)', 'Ja (extra)', 'Nee'],
+              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja (het sterkst)', 'Ja (46 tot 87%)', 'Nee'],
+              ['Zonwerend', 'Nee (blijft transparant)', 'Ja (matig)', 'Ja (hoofdrol)', 'Nee'],
               ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
               ['Inbraakwerend', 'Nee (blijft transparant)', 'Nee', 'Nee', 'Ja (hoofdrol)'],
             ],
@@ -1441,7 +1445,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Welke folie voor dit resultaat?',
           paragraphs: [
-            "Het is de zonwerende folie die voor deze besparingen zorgt: ze blijft in beide richtingen transparant terwijl ze de warmte vermindert, in tegenstelling tot de spiegeleffect folie die vooral op privacy inzet. Ons [artikel over deze folie](/blog/film-solaire-vitrage-bruxelles) legt de werking in detail uit, en onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt.",
+            "Deze cijfers betreffen zonwerende folies in brede zin (de categorie folies die zonnestraling weerkaatsen), een familie die zowel zonwerende tint als spiegeleffect omvat. Tussen beide blokkeert spiegeleffectfolie de meeste warmte, omdat ze meer reflecteert, met als extra privacy overdag. Zonwerende tint blijft de aangewezen optie als u volledige transparantie in beide richtingen wilt behouden, zonder zichtbaar spiegeleffect: haar effect op warmte is reëel, maar gematigder. Ons [artikel dat beide vergelijkt](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) legt dit verschil uit, en onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 beschikbare tinten. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt.",
           ],
         },
         {
@@ -1748,9 +1752,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Haar echte sterkte: UV-bescherming',
+          paragraphs: [
+            'Zonwerende folie filtert een groot deel van de UV-stralen die verantwoordelijk zijn voor het verkleuren van meubels, stoffen en parket die jarenlang aan de zon blootgesteld worden. Daar is deze folie het meest doeltreffend, en daarom raden we ze in de eerste plaats aan wanneer het behoud van meubilair de hoofdzorg is, niet enkel de warmte.',
+          ],
+        },
+        {
           heading: 'Hoe zonwerende folie inwerkt op warmte',
           paragraphs: [
-            'Aangebracht aan de binnenzijde van de beglazing filtert zonwerende folie een deel van de zonnestraling voordat ze door het glas dringt en omgezet wordt in warmte in de ruimte, een beetje zoals het broeikaseffect, maar afgezwakt. Het resultaat is vooral merkbaar in de meest blootgestelde ruimtes: veranda\'s, kantoren en woonkamers op het zuiden of westen.',
+            'Aangebracht aan de binnenzijde van de beglazing filtert zonwerende folie ook een deel van de zonnestraling voordat ze door het glas dringt en omgezet wordt in warmte in de ruimte. Het effect is reëel, maar blijft gematigd: deze folie is ontworpen om transparant te blijven, dus ze blokkeert de warmte niet zo sterk als een meer reflecterende folie zoals spiegeleffect. Het resultaat is vooral merkbaar in de meest blootgestelde ruimtes: veranda\'s, kantoren en woonkamers op het zuiden of westen.',
           ],
         },
         {
@@ -1766,15 +1776,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'UV-bescherming als extra voordeel',
-          paragraphs: [
-            'Zonwerende folie filtert ook een deel van de UV-stralen die verantwoordelijk zijn voor het verkleuren van meubels, stoffen en parket die jarenlang aan de zon blootgesteld worden, een bijkomend voordeel naast de vermindering van warmte en verblinding.',
-          ],
-        },
-        {
           heading: 'Zonwerend of spiegeleffect: wat is het verschil?',
           paragraphs: [
-            'Zonwerende folie richt zich op warmte en licht, niet noodzakelijk op privacy: het uitzicht vanaf buiten blijft mogelijk afhankelijk van het gekozen type. Als uw prioriteit is om blikken te vermijden (inkijk, gelijkvloers), kijkt u beter naar de spiegelfolie of matwitte folie; beide behoeften kunnen ook gecombineerd worden per ruimte.',
+            'Zonwerende folie richt zich vooral op UV-bescherming en verblinding, met een gematigd effect op warmte, terwijl ze in beide richtingen transparant blijft, zonder privacy. Als warmtevermindering echt uw prioriteit is, naast het vermijden van blikken (inkijk, gelijkvloers), kijkt u beter naar spiegeleffectfolie: meer reflecterend, blokkeert ze meer warmte naast het blokkeren van het zicht overdag. Ons [artikel dat beide vergelijkt](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) legt dit verschil uit.',
           ],
         },
         {
@@ -1794,6 +1798,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Verduistert zonwerende folie de ruimte?',
           answer: 'Nee, ze blijft transparant en laat natuurlijk licht door: ze filtert warmte en verblinding zonder de ruimte sterk te verduisteren. U merkt wel een lichte blauwachtige tint op de beglazing, eigen aan dit type folie, maar die vermindert de helderheid van de ruimte niet.',
+        },
+        {
+          question: 'Vermindert zonwerende folie de warmte sterk?',
+          answer: "Het effect is reëel maar blijft gematigd: deze folie is ontworpen om transparant te blijven, dus ze blokkeert de warmte niet zo sterk als een meer reflecterende folie zoals spiegeleffect. Is warmtevermindering uw absolute prioriteit, dan is spiegeleffectfolie doeltreffender op dat vlak; zonwerende folie blijft de beste keuze voor UV-bescherming zonder enig verlies van transparantie.",
         },
         {
           question: "Werkt ze zowel 's zomers als 's winters?",
@@ -2546,8 +2554,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       ],
       faq: [
         {
-          question: 'Is spiegeleffectfolie even doeltreffend tegen warmte als zonwerende folie?',
-          answer: 'Beide berusten op hetzelfde principe van weerkaatsing van zonnestraling, met een vergelijkbaar effect op de warmte. Het verschil zit in de privacy: zonwerende folie blijft transparant in beide richtingen, spiegeleffectfolie blokkeert overdag het zicht van buitenaf.',
+          question: 'Is spiegeleffectfolie doeltreffender tegen warmte dan zonwerende folie?',
+          answer: 'Ja: beide berusten op hetzelfde principe van weerkaatsing van zonnestraling, maar spiegeleffectfolie, meer reflecterend, blokkeert meer warmte. Het verschil zit ook in privacy en transparantie: zonwerende folie blijft transparant in beide richtingen zonder enig spiegeleffect, terwijl spiegeleffectfolie overdag het zicht van buitenaf blokkeert.',
         },
         {
           question: 'Is het duurder om beide voordelen tegelijk na te streven?',
@@ -2590,7 +2598,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           heading: 'When should you choose solar tint?',
           anchor: 'solaire',
           paragraphs: [
-            "You should choose solar tint when thermal comfort matters more to you than total privacy. Unlike mirror film, it stays transparent in both directions, with a slight blue tint. Our [article on solar tint](/blog/film-solaire-vitrage-bruxelles) covers how it works and which rooms benefit most.",
+            "You should choose solar tint when UV protection (furniture, flooring) and full transparency matter more to you than privacy. It also reduces heat, but more moderately than mirror film. Unlike mirror film, it stays transparent in both directions, with a slight blue tint. Our [article on solar tint](/blog/film-solaire-vitrage-bruxelles) covers how it works and which rooms benefit most.",
           ],
         },
         {
@@ -2615,8 +2623,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Privacy', 'Heat reduction', 'UV protection', 'Enhanced security'],
             rows: [
-              ['Mirror effect', 'Yes (daytime only)', 'Yes', 'Yes (46 to 87%)', 'No'],
-              ['Solar', 'No (stays transparent)', 'Yes (main role)', 'Yes (bonus)', 'No'],
+              ['Mirror effect', 'Yes (daytime only)', 'Yes (the strongest)', 'Yes (46 to 87%)', 'No'],
+              ['Solar', 'No (stays transparent)', 'Yes (moderate)', 'Yes (main role)', 'No'],
               ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
               ['Anti-burglary', 'No (stays transparent)', 'No', 'No', 'Yes (main role)'],
             ],
@@ -2708,7 +2716,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Which film for this result?',
           paragraphs: [
-            "It's the solar tint that delivers these savings: it stays transparent in both directions while reducing heat, unlike mirror-effect film, which is mainly about privacy. Our [dedicated article on this film](/blog/film-solaire-vitrage-bruxelles) explains how it works, and our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated.",
+            "These figures cover solar-control films in the broad sense (the category of films that reflect solar radiation), a family that includes both solar tint and mirror effect. Between the two, mirror effect film blocks the most heat, being more reflective, with daytime privacy as a bonus. Solar tint remains the one to pick if you want to keep full transparency in both directions, with no visible mirror effect: its effect on heat is real, just more moderate. Our [article comparing the two](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) explains this difference, and our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 available tints. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated.",
           ],
         },
         {
@@ -3015,9 +3023,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Its real strength: UV protection',
+          paragraphs: [
+            "Solar film filters a good share of the UV rays responsible for fading furniture, fabrics and floors exposed to the sun over the years. This is where this film performs best, which is why we recommend it first when protecting furniture is the main concern, not just heat.",
+          ],
+        },
+        {
           heading: 'How solar film acts on heat',
           paragraphs: [
-            "Applied to the inside face of the glazing, solar film filters part of the solar radiation before it passes through the glass and turns into heat inside the room: the same principle as the greenhouse effect, but dampened. The effect is most noticeable in the most exposed rooms: conservatories, offices and living rooms facing south or west.",
+            "Applied to the inside face of the glazing, solar film also filters part of the solar radiation before it passes through the glass and turns into heat inside the room. The effect is real, but stays moderate: this film is designed to stay transparent, so it doesn't block heat as strongly as a more reflective film like mirror effect. The effect is most noticeable in the most exposed rooms: conservatories, offices and living rooms facing south or west.",
           ],
         },
         {
@@ -3033,15 +3047,9 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
-          heading: 'UV protection, as a bonus',
-          paragraphs: [
-            "Solar film also filters part of the UV rays responsible for fading furniture, fabrics and floors exposed to the sun over the years, a secondary benefit on top of the reduced heat and glare.",
-          ],
-        },
-        {
           heading: 'Solar or mirror effect: what\'s the difference?',
           paragraphs: [
-            "Solar film targets heat and light, not necessarily privacy: depending on the type chosen, the view from outside may still be possible. If your priority is avoiding being overlooked (privacy, ground floor), mirror or matte white film is the better fit; the two needs can also be combined room by room.",
+            "Solar film targets UV protection and glare above all, with a moderate effect on heat, while staying transparent in both directions, with no privacy. If reducing heat is really your priority, on top of avoiding being overlooked (privacy, ground floor), mirror effect film is the one to look at: more reflective, it blocks more heat in addition to blocking the view during the day. Our [article comparing the two](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) explains this difference.",
           ],
         },
         {
@@ -3061,6 +3069,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does solar film darken the room?',
           answer: "No, it stays transparent and lets natural light through: it filters heat and glare without significantly darkening the room. You'll notice a slight blue tint on the glazing, characteristic of this type of film, but it doesn't reduce the room's brightness.",
+        },
+        {
+          question: 'Does solar film reduce heat by a lot?',
+          answer: "The effect is real but stays moderate: this film is designed to stay transparent, so it doesn't block heat as strongly as a more reflective film like mirror effect. If reducing heat is your absolute priority, mirror effect film is more effective on that specific point; solar film remains the best choice for UV protection without any loss of transparency.",
         },
         {
           question: 'Does it work in both summer and winter?',
@@ -3813,8 +3825,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       ],
       faq: [
         {
-          question: 'Is mirror effect film as effective against heat as solar film?',
-          answer: "Both rely on the same principle of reflecting solar radiation, with a comparable effect on heat. The difference is in privacy: solar film stays transparent in both directions, mirror film blocks the view from outside during the day.",
+          question: 'Is mirror effect film more effective against heat than solar film?',
+          answer: "Yes: both rely on the same principle of reflecting solar radiation, but mirror film, being more reflective, blocks more heat. The difference also lies in privacy and transparency: solar film stays transparent in both directions with no mirror effect at all, while mirror film blocks the view from outside during the day.",
         },
         {
           question: 'Is it more expensive to target both benefits at once?',

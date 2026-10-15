@@ -454,7 +454,7 @@ const blogArticles = [
     FR: {
       title: "Comment se passe la pose d'un film pour vitrage ? — VitraCare",
       description:
-        "De la prise de mesures au jour de la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
+        "De la prise de mesures à la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
       headline: "Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?",
       datePublished: '2026-09-27',
       dateModified: '2026-10-04',

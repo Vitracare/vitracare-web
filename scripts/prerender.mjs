@@ -803,6 +803,98 @@ const communePages = [
       },
     },
   },
+  {
+    slug: 'molenbeek-saint-jean',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Molenbeek-Saint-Jean',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Molenbeek-Saint-Jean : intimité et confort thermique pour les maisons rénovées le long du canal.",
+        name: 'Molenbeek-Saint-Jean',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Jans-Molenbeek',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Jans-Molenbeek: privacy en thermisch comfort voor de gerenoveerde woningen langs het kanaal.',
+        name: 'Sint-Jans-Molenbeek',
+      },
+      EN: {
+        title: 'Window Film in Molenbeek-Saint-Jean',
+        description:
+          'VitraCare installs window films and tints in Molenbeek-Saint-Jean: privacy and thermal comfort for the renovated houses along the canal.',
+        name: 'Molenbeek-Saint-Jean',
+      },
+    },
+  },
+  {
+    slug: 'etterbeek',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Etterbeek, Jourdan et Mérode',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Etterbeek : intimité adaptée aux immeubles denses proches du quartier européen.",
+        name: 'Etterbeek',
+      },
+      NL: {
+        title: 'Raamfolie in Etterbeek, Jourdan en Merode',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Etterbeek: privacy aangepast aan de dichte gebouwen nabij de Europese wijk.',
+        name: 'Etterbeek',
+      },
+      EN: {
+        title: 'Window Film in Etterbeek, Jourdan and Merode',
+        description:
+          'VitraCare installs window films and tints in Etterbeek: privacy suited to the dense buildings near the European quarter.',
+        name: 'Etterbeek',
+      },
+    },
+  },
+  {
+    slug: 'woluwe-saint-pierre',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Woluwe-Saint-Pierre',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Woluwe-Saint-Pierre : confort thermique et intimité pour les maisons avec jardin.",
+        name: 'Woluwe-Saint-Pierre',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Pieters-Woluwe',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Pieters-Woluwe: thermisch comfort en privacy voor woningen met tuin.',
+        name: 'Sint-Pieters-Woluwe',
+      },
+      EN: {
+        title: 'Window Film in Woluwe-Saint-Pierre',
+        description:
+          'VitraCare installs window films and tints in Woluwe-Saint-Pierre: thermal comfort and privacy for homes with gardens.',
+        name: 'Woluwe-Saint-Pierre',
+      },
+    },
+  },
+  {
+    slug: 'saint-gilles',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Saint-Gilles, Barrière et Parvis',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Saint-Gilles : intimité adaptée aux maisons Art nouveau et aux rues étroites.",
+        name: 'Saint-Gilles',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Gillis, Barrière en Parvis',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Gillis: privacy aangepast aan de art-nouveauwoningen en smalle straten.',
+        name: 'Sint-Gillis',
+      },
+      EN: {
+        title: 'Window Film in Saint-Gilles, Barrière and Parvis',
+        description:
+          'VitraCare installs window films and tints in Saint-Gilles: privacy suited to the Art Nouveau houses and narrow streets.',
+        name: 'Saint-Gilles',
+      },
+    },
+  },
 ];
 
 function decodeEntities(str) {

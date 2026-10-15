@@ -39,6 +39,10 @@ Other language versions: [Français](https://vitracare.be/llms.txt) — [Nederla
 - [Forest](https://vitracare.be/en/communes/forest)
 - [Ixelles, Flagey and Chatelain](https://vitracare.be/en/communes/ixelles)
 - [Schaerbeek, Terdelt and Square Riga](https://vitracare.be/en/communes/schaerbeek)
+- [Molenbeek-Saint-Jean](https://vitracare.be/en/communes/molenbeek-saint-jean)
+- [Etterbeek, Jourdan and Merode](https://vitracare.be/en/communes/etterbeek)
+- [Woluwe-Saint-Pierre](https://vitracare.be/en/communes/woluwe-saint-pierre)
+- [Saint-Gilles, Barrière and Parvis](https://vitracare.be/en/communes/saint-gilles)
 
 ## Legal information
 - [Legal notice](https://vitracare.be/en/mentions-legales)

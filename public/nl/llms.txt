@@ -39,6 +39,10 @@ Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](htt
 - [Vorst](https://vitracare.be/nl/communes/forest)
 - [Elsene, Flagey en Kasteleinsplein](https://vitracare.be/nl/communes/ixelles)
 - [Schaarbeek, Terdelt en Rigaplein](https://vitracare.be/nl/communes/schaerbeek)
+- [Sint-Jans-Molenbeek](https://vitracare.be/nl/communes/molenbeek-saint-jean)
+- [Etterbeek, Jourdan en Merode](https://vitracare.be/nl/communes/etterbeek)
+- [Sint-Pieters-Woluwe](https://vitracare.be/nl/communes/woluwe-saint-pierre)
+- [Sint-Gillis, Barrière en Parvis](https://vitracare.be/nl/communes/saint-gilles)
 
 ## Juridische informatie
 - [Wettelijke vermeldingen](https://vitracare.be/nl/mentions-legales)

@@ -34,7 +34,7 @@ export const MobileMenu = ({ dark = false }: { dark?: boolean }) => {
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Menu"
-        className={`flex items-center justify-center w-10 h-10 ${dark ? 'text-white' : 'text-[#464646]'}`}
+        className={`flex items-center justify-center w-12 h-12 ${dark ? 'text-white' : 'text-[#464646]'}`}
       >
         <Menu size={26} />
       </button>

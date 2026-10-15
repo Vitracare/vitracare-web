@@ -742,6 +742,336 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
       ],
     },
+    {
+      slug: 'bruxelles-ville',
+      name: 'Bruxelles-Ville',
+      hidden: true,
+      title: 'Film pour vitrage à Bruxelles-Ville : la solution pour maisons de centre historique',
+      metaTitle: 'Film pour vitrage à Bruxelles-Ville, Pentagone et Laeken',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Bruxelles-Ville : intimité adaptée aux maisons et commerces du centre historique.",
+      intro:
+        "La Ville de Bruxelles, qui englobe le Pentagone historique mais aussi des quartiers plus résidentiels comme Laeken, présente un bâti très varié : maisons de ville étroites au rez-de-chaussée commercial dans le centre, villas plus spacieuses dans les quartiers périphériques. Le vis-à-vis urbain y est particulièrement présent dans les rues étroites du centre.",
+      sections: [
+        {
+          heading: 'Le bâti à Bruxelles-Ville',
+          paragraphs: [
+            "Dans le Pentagone, le tracé médiéval des rues laisse peu d'espace entre les façades, et de nombreuses maisons combinent un commerce au rez-de-chaussée avec un logement à l'étage, souvent en étroit vis-à-vis avec l'immeuble d'en face. À Laeken ou Neder-Over-Heembeek, plus excentrés, le bâti s'aère avec des maisons individuelles et davantage de verdure.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les fenêtres d'étage proches des immeubles voisins dans le centre, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les commerces avec logement à l'étage, le film blanc mat offre une intimité constante, utile notamment pour les pièces donnant directement sur rue.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Dans les rues étroites du centre historique, une fenêtre d'étage reste visible depuis les immeubles voisins ou la rue elle-même. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Bruxelles-Ville',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Bruxelles-Ville, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous aussi bien dans le Pentagone qu\'à Laeken ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble du territoire de la Ville de Bruxelles, du centre historique aux quartiers plus résidentiels.",
+        },
+        {
+          question: 'Le film convient-il à un commerce avec logement à l\'étage ?',
+          answer: "Oui, c'est une configuration fréquente dans le Pentagone. Nous adaptons la solution à chaque fenêtre selon qu'elle donne sur le commerce ou sur l'espace de vie.",
+        },
+        {
+          question: 'Le film abîme-t-il les façades classées ou protégées du centre historique ?',
+          answer: "Non, le film se pose côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Pour un bien classé, nous recommandons de vérifier les éventuelles restrictions auprès de la commune avant travaux.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'evere',
+      name: 'Evere',
+      hidden: true,
+      title: 'Film pour vitrage à Evere : la solution pour immeubles d\'après-guerre',
+      metaTitle: 'Film pour vitrage à Evere',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Evere : intimité adaptée aux immeubles d'après-guerre et à la population internationale de la commune.",
+      intro:
+        "Evere, au nord-est de Bruxelles, se distingue par un bâti plus récent que la moyenne bruxelloise, dominé par des immeubles à appartements d'après-guerre. La proximité du siège de l'OTAN et de l'aéroport y attire une population internationale, avec une forte rotation des locataires.",
+      sections: [
+        {
+          heading: 'Le bâti à Evere',
+          paragraphs: [
+            "Contrairement aux communes du centre, Evere compte une proportion importante d'immeubles à appartements construits après 1945, aux façades plus larges et aux fenêtres parfois alignées d'un immeuble à l'autre. Cette configuration, combinée à une population internationale en rotation fréquente, crée un vis-à-vis différent de celui des maisons mitoyennes historiques.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les appartements avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour une intimité garantie à toute heure, notamment utile pour les locataires de passage, le film blanc mat reste l'option la plus fiable.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Dans les immeubles d'après-guerre d'Evere, les fenêtres d'appartements voisins se font souvent face à faible distance. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Evere',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Evere, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous dans tous les quartiers d\'Evere ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune.",
+        },
+        {
+          question: 'Le film fonctionne-t-il pour un bail de courte durée ou une location temporaire ?',
+          answer: "Oui, le film reste une solution réversible : il peut être retiré si nécessaire sans endommager le vitrage, mais l'accord du propriétaire reste requis avant la pose.",
+        },
+        {
+          question: 'Le film convient-il aux grands immeubles à appartements typiques d\'Evere ?',
+          answer: "Oui, c'est l'un des cas d'usage les plus fréquents : le film effet miroir ou blanc mat s'adapte bien aux fenêtres standardisées de ce type d'immeuble.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'berchem-sainte-agathe',
+      name: 'Berchem-Sainte-Agathe',
+      hidden: true,
+      title: 'Film pour vitrage à Berchem-Sainte-Agathe : la solution pour maisons de petite commune résidentielle',
+      metaTitle: 'Film pour vitrage à Berchem-Sainte-Agathe',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Berchem-Sainte-Agathe : intimité et confort thermique pour les maisons de cette commune résidentielle.",
+      intro:
+        "Berchem-Sainte-Agathe est l'une des plus petites communes de Bruxelles, au caractère résidentiel marqué, avec un bâti dominé par des maisons de l'entre-deux-guerres dans des rues calmes. Sa taille réduite n'empêche pas un vis-à-vis fréquent entre habitations voisines.",
+      sections: [
+        {
+          heading: 'Le bâti à Berchem-Sainte-Agathe',
+          paragraphs: [
+            "La commune se compose essentiellement de maisons individuelles ou mitoyennes construites entre les deux guerres, sur des rues résidentielles calmes. Si la densité y est moindre que dans les communes centrales, les parcelles restent suffisamment rapprochées pour que le vis-à-vis reste une réalité quotidienne, notamment pour les fenêtres de rez-de-chaussée.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les fenêtres de rez-de-chaussée proches des habitations voisines, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les grandes baies orientées sud ou ouest, la teinte solaire reste pertinente contre la chaleur estivale.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Même dans une commune au caractère résidentiel calme, une fenêtre de rez-de-chaussée reste visible depuis la rue ou les propriétés voisines. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Berchem-Sainte-Agathe',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Berchem-Sainte-Agathe, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous à Berchem-Sainte-Agathe malgré sa petite taille ?',
+          answer: "Oui, notre collaborateur intervient dans toute la commune, quelle que soit sa taille.",
+        },
+        {
+          question: 'Le film convient-il aux maisons de l\'entre-deux-guerres typiques de la commune ?',
+          answer: "Oui, c'est l'un des cas d'usage les plus fréquents, notamment pour les fenêtres de rez-de-chaussée proches de la rue ou des voisins.",
+        },
+        {
+          question: 'Le film fonctionne-t-il aussi bien pour une maison avec jardin ?',
+          answer: "Oui, même avec un jardin, le vis-à-vis reste souvent réel entre propriétés voisines, et le film s'applique de la même façon.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'ganshoren',
+      name: 'Ganshoren',
+      hidden: true,
+      title: 'Film pour vitrage à Ganshoren : la solution pour maisons de cité-jardin',
+      metaTitle: 'Film pour vitrage à Ganshoren',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Ganshoren : intimité et confort thermique pour les maisons individuelles de cette commune verdoyante.",
+      intro:
+        "Ganshoren, petite commune verdoyante du nord-ouest bruxellois, se caractérise par ses quartiers de cité-jardin de l'entre-deux-guerres, aux maisons individuelles entourées de jardins. Ce cadre plus aéré n'élimine pas le vis-à-vis, surtout pour les fenêtres orientées vers les parcelles voisines.",
+      sections: [
+        {
+          heading: 'Le bâti à Ganshoren',
+          paragraphs: [
+            "Les quartiers de cité-jardin, hérités des années 1920-1930, se composent de maisons individuelles ou semi-mitoyennes entourées de jardins, avec des fenêtres souvent orientées vers ces espaces verts. Ce type d'urbanisme, pensé pour la lumière et la verdure, expose malgré tout les pièces de vie aux regards des propriétés voisines.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les grandes fenêtres orientées sud ou ouest vers le jardin, la teinte solaire reste le choix le plus pertinent contre la chaleur, sans perdre la vue sur la verdure environnante. Pour les façades plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Même dans un quartier de cité-jardin pensé pour la verdure, une maison reste visible depuis les parcelles voisines une bonne partie de l'année. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Ganshoren',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Ganshoren, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous dans tous les quartiers de Ganshoren ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune.",
+        },
+        {
+          question: 'Le film convient-il aux maisons de cité-jardin entourées de verdure ?',
+          answer: "Oui, la teinte solaire s'adapte particulièrement bien à ces maisons : elle réduit la chaleur et les UV tout en préservant la vue sur le jardin.",
+        },
+        {
+          question: 'Le vis-à-vis est-il vraiment un problème dans un quartier aussi vert ?',
+          answer: "Oui, même entourées de jardins, les maisons restent souvent visibles depuis les parcelles voisines, surtout en hiver quand la végétation perd ses feuilles.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'saint-josse-ten-noode',
+      name: 'Saint-Josse-ten-Noode',
+      hidden: true,
+      title: 'Film pour vitrage à Saint-Josse-ten-Noode : la solution pour la commune la plus dense de Bruxelles',
+      metaTitle: 'Film pour vitrage à Saint-Josse-ten-Noode',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Saint-Josse-ten-Noode : intimité adaptée à l'habitat très dense de cette petite commune bruxelloise.",
+      intro:
+        "Saint-Josse-ten-Noode est l'une des communes les plus petites et les plus densément peuplées de Belgique, organisée autour de la gare du Nord. Les immeubles y sont particulièrement rapprochés, avec un vis-à-vis quasi systématique entre logements voisins.",
+      sections: [
+        {
+          heading: 'Le bâti à Saint-Josse-ten-Noode',
+          paragraphs: [
+            "La commune se caractérise par une densité exceptionnelle à l'échelle bruxelloise : petits immeubles à appartements et maisons mitoyennes se succèdent sur des rues étroites, avec très peu d'espace entre les façades. Les fenêtres de logements voisins se font souvent face à quelques mètres seulement.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les fenêtres avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les petits logements où l'intimité doit être garantie à toute heure, le film blanc mat reste la solution la plus fiable.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Dans une commune aussi dense que Saint-Josse-ten-Noode, une fenêtre est presque toujours visible depuis un immeuble voisin ou la rue. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Saint-Josse-ten-Noode',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Saint-Josse-ten-Noode, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous à Saint-Josse-ten-Noode malgré sa petite taille ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, malgré sa très forte densité.",
+        },
+        {
+          question: 'Le film convient-il à un petit appartement avec vis-à-vis immédiat ?',
+          answer: "Oui, c'est exactement le cas d'usage pour lequel le film effet miroir ou blanc mat est le plus utilisé, selon le niveau d'intimité recherché.",
+        },
+        {
+          question: 'La pose est-elle possible dans un immeuble ancien typique du quartier de la gare du Nord ?',
+          answer: "Oui, le film s'adapte à tout type de vitrage existant, ancien ou récent, sans travaux lourds.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'watermael-boitsfort',
+      name: 'Watermael-Boitsfort',
+      hidden: true,
+      title: 'Film pour vitrage à Watermael-Boitsfort : la solution pour maisons modernistes et villas proches de la forêt',
+      metaTitle: 'Film pour vitrage à Watermael-Boitsfort',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Watermael-Boitsfort : confort thermique et intimité pour les villas et maisons de cette commune verte.",
+      intro:
+        "Watermael-Boitsfort, à la lisière de la Forêt de Soignes, est connue pour son cadre verdoyant et son patrimoine architectural moderniste, notamment les cités-jardins du Logis et Floréal. Les villas et maisons y bénéficient souvent de grandes baies vitrées, très exposées au soleil et, malgré la verdure, toujours concernées par le vis-à-vis.",
+      sections: [
+        {
+          heading: 'Le bâti à Watermael-Boitsfort',
+          paragraphs: [
+            "Les cités-jardins du Logis et Floréal, datant des années 1920, se composent de maisons mitoyennes ou semi-mitoyennes avec jardins, pensées selon les principes de l'urbanisme moderniste. Ailleurs dans la commune, de grandes villas individuelles proches de la forêt disposent de larges baies vitrées orientées vers la végétation environnante.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les grandes baies vitrées des villas exposées au soleil, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre la vue sur la verdure. Pour les maisons des cités-jardins plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Même dans un cadre aussi vert que Watermael-Boitsfort, les maisons restent visibles depuis les propriétés voisines une bonne partie de l'année. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Watermael-Boitsfort',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Watermael-Boitsfort, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous dans tous les quartiers de Watermael-Boitsfort ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, des cités-jardins aux abords de la forêt.",
+        },
+        {
+          question: 'Le film convient-il aux maisons des cités-jardins du Logis et Floréal ?',
+          answer: "Oui, nous adaptons la solution à chaque fenêtre selon son orientation et sa proximité avec le voisinage.",
+        },
+        {
+          question: 'Le film fonctionne-t-il pour les grandes baies vitrées des villas proches de la forêt ?',
+          answer: "Oui, la teinte solaire est particulièrement adaptée : elle réduit la chaleur et les UV tout en préservant la vue sur la végétation environnante.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -1456,6 +1786,336 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
       ],
     },
+    {
+      slug: 'bruxelles-ville',
+      name: 'Brussel-Stad',
+      hidden: true,
+      title: 'Raamfolie in Brussel-Stad: de oplossing voor woningen in de historische binnenstad',
+      metaTitle: 'Raamfolie in Brussel-Stad, Vijfhoek en Laken',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Brussel-Stad: privacy aangepast aan de woningen en handelszaken van de historische binnenstad.',
+      intro:
+        'De Stad Brussel, die de historische Vijfhoek omvat maar ook meer residentiële wijken zoals Laken, kent een zeer gevarieerde bebouwing: smalle herenhuizen met handelszaak op het gelijkvloers in het centrum, ruimere villa\'s in de buitenwijken. Stedelijke inkijk is er bijzonder aanwezig in de smalle straten van het centrum.',
+      sections: [
+        {
+          heading: 'De bebouwing in Brussel-Stad',
+          paragraphs: [
+            'In de Vijfhoek laat het middeleeuwse stratenplan weinig ruimte tussen de gevels, en veel woningen combineren een handelszaak op het gelijkvloers met een woonruimte op de verdieping, vaak met nauwe inkijk op het pand ertegenover. In Laken of Neder-Over-Heembeek, meer aan de rand gelegen, wordt de bebouwing opener met vrijstaande woningen en meer groen.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor ramen op de verdieping dicht bij buurpanden in het centrum laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor handelszaken met een woning op de verdieping biedt matwitte folie constante privacy, vooral nuttig voor ruimtes die rechtstreeks op straat uitgeven.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'In de smalle straten van de historische binnenstad blijft een raam op de verdieping zichtbaar vanuit buurpanden of de straat zelf. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Brussel-Stad',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Brussel-Stad, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief zowel in de Vijfhoek als in Laken?',
+          answer: 'Ja, onze medewerker is actief op het hele grondgebied van de Stad Brussel, van de historische binnenstad tot de meer residentiële wijken.',
+        },
+        {
+          question: 'Is de folie geschikt voor een handelszaak met woning op de verdieping?',
+          answer: 'Ja, dit is een courante configuratie in de Vijfhoek. We passen de oplossing per raam aan, naargelang het op de zaak of op de woonruimte uitgeeft.',
+        },
+        {
+          question: 'Beschadigt de folie beschermde of geklasseerde gevels in de binnenstad?',
+          answer: 'Nee, de folie wordt langs de binnenzijde van het glas geplaatst en wijzigt het uiterlijk van het gebouw niet. Voor een geklasseerd pand raden we aan om eventuele beperkingen bij de gemeente na te vragen vóór de werken.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'evere',
+      name: 'Evere',
+      hidden: true,
+      title: 'Raamfolie in Evere: de oplossing voor naoorlogse appartementsgebouwen',
+      metaTitle: 'Raamfolie in Evere',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Evere: privacy aangepast aan de naoorlogse appartementsgebouwen en internationale bevolking van de gemeente.',
+      intro:
+        'Evere, in het noordoosten van Brussel, onderscheidt zich door een jongere bebouwing dan het Brusselse gemiddelde, gedomineerd door naoorlogse appartementsgebouwen. De nabijheid van het NAVO-hoofdkwartier en de luchthaven trekt er een internationale bevolking aan, met veel verloop van huurders.',
+      sections: [
+        {
+          heading: 'De bebouwing in Evere',
+          paragraphs: [
+            'In tegenstelling tot de gemeenten in het centrum telt Evere een groot aandeel appartementsgebouwen gebouwd na 1945, met bredere gevels en ramen die soms van het ene gebouw naar het andere op één lijn liggen. Deze configuratie, gecombineerd met een internationale bevolking met veel verloop, zorgt voor een andere vorm van inkijk dan bij historische rijwoningen.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor appartementen met direct zicht op een naburig gebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor gegarandeerde privacy op elk moment, nuttig voor huurders op doorreis, blijft matwitte folie de meest betrouwbare optie.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'In de naoorlogse gebouwen van Evere kijken ramen van naburige appartementen elkaar vaak op korte afstand aan. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Evere',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Evere, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief in alle wijken van Evere?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente.',
+        },
+        {
+          question: 'Werkt de folie voor een kort huurcontract of tijdelijke verhuur?',
+          answer: 'Ja, de folie blijft een omkeerbare oplossing: ze kan indien nodig verwijderd worden zonder het glas te beschadigen, maar de toestemming van de eigenaar blijft vereist vóór plaatsing.',
+        },
+        {
+          question: 'Is de folie geschikt voor de grote appartementsgebouwen typisch voor Evere?',
+          answer: 'Ja, dit is een van de meest voorkomende toepassingen: spiegeleffectfolie of matwitte folie past zich goed aan de gestandaardiseerde ramen van dit type gebouw aan.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'berchem-sainte-agathe',
+      name: 'Sint-Agatha-Berchem',
+      hidden: true,
+      title: 'Raamfolie in Sint-Agatha-Berchem: de oplossing voor woningen in een kleine residentiële gemeente',
+      metaTitle: 'Raamfolie in Sint-Agatha-Berchem',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Sint-Agatha-Berchem: privacy en thermisch comfort voor de woningen van deze residentiële gemeente.',
+      intro:
+        'Sint-Agatha-Berchem is een van de kleinste gemeenten van Brussel, met een uitgesproken residentieel karakter en een bebouwing gedomineerd door interbellumwoningen in rustige straten. De beperkte oppervlakte sluit frequente inkijk tussen buurwoningen niet uit.',
+      sections: [
+        {
+          heading: 'De bebouwing in Sint-Agatha-Berchem',
+          paragraphs: [
+            'De gemeente bestaat voornamelijk uit vrijstaande of halfvrijstaande woningen gebouwd tussen de twee wereldoorlogen, in rustige residentiële straten. Hoewel de dichtheid er lager ligt dan in de centrale gemeenten, blijven de percelen dicht genoeg bij elkaar om inkijk een dagelijkse realiteit te maken, vooral voor ramen op het gelijkvloers.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor ramen op het gelijkvloers dicht bij buurwoningen laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor grote zuid- of westgerichte raampartijen blijft zonwerende folie relevant tegen de zomerhitte.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Zelfs in een gemeente met een rustig residentieel karakter blijft een raam op het gelijkvloers zichtbaar vanaf de straat of buurpercelen. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Sint-Agatha-Berchem',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Sint-Agatha-Berchem, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief in Sint-Agatha-Berchem ondanks de kleine oppervlakte?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, ongeacht haar grootte.',
+        },
+        {
+          question: 'Is de folie geschikt voor de typische interbellumwoningen van de gemeente?',
+          answer: 'Ja, dit is een van de meest voorkomende toepassingen, vooral voor ramen op het gelijkvloers dicht bij de straat of de buren.',
+        },
+        {
+          question: 'Werkt de folie ook goed voor een woning met tuin?',
+          answer: 'Ja, zelfs met een tuin blijft inkijk vaak reëel tussen buurpercelen, en de folie wordt op dezelfde manier toegepast.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'ganshoren',
+      name: 'Ganshoren',
+      hidden: true,
+      title: 'Raamfolie in Ganshoren: de oplossing voor woningen in een tuinwijk',
+      metaTitle: 'Raamfolie in Ganshoren',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Ganshoren: privacy en thermisch comfort voor de vrijstaande woningen van deze groene gemeente.',
+      intro:
+        'Ganshoren, een kleine groene gemeente in het noordwesten van Brussel, kenmerkt zich door haar interbellum-tuinwijken met vrijstaande woningen omgeven door tuinen. Dit meer open kader sluit inkijk niet uit, vooral voor ramen gericht op de buurpercelen.',
+      sections: [
+        {
+          heading: 'De bebouwing in Ganshoren',
+          paragraphs: [
+            'De tuinwijken, erfenis van de jaren 1920-1930, bestaan uit vrijstaande of halfvrijstaande woningen omgeven door tuinen, met ramen vaak gericht op deze groene ruimtes. Dit type stedenbouw, ontworpen voor licht en groen, stelt de leefruimtes toch bloot aan de blikken van buurpercelen.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor grote zuid- of westgerichte ramen op de tuin blijft zonwerende folie de beste keuze tegen de warmte, zonder het zicht op het omliggende groen te verliezen. Voor gevels dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Zelfs in een tuinwijk ontworpen voor groen blijft een woning een groot deel van het jaar zichtbaar vanuit buurpercelen. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Ganshoren',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Ganshoren, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief in alle wijken van Ganshoren?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente.',
+        },
+        {
+          question: 'Is de folie geschikt voor tuinwijkwoningen omgeven door groen?',
+          answer: 'Ja, zonwerende folie past zich bijzonder goed aan deze woningen aan: ze vermindert warmte en UV-stralen terwijl het zicht op de tuin behouden blijft.',
+        },
+        {
+          question: 'Is inkijk echt een probleem in zo\'n groene wijk?',
+          answer: 'Ja, zelfs omgeven door tuinen blijven woningen vaak zichtbaar vanuit buurpercelen, vooral in de winter wanneer de begroeiing haar blad verliest.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'saint-josse-ten-noode',
+      name: 'Sint-Joost-ten-Node',
+      hidden: true,
+      title: 'Raamfolie in Sint-Joost-ten-Node: de oplossing voor de dichtstbevolkte gemeente van Brussel',
+      metaTitle: 'Raamfolie in Sint-Joost-ten-Node',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Sint-Joost-ten-Node: privacy aangepast aan de zeer dichte bebouwing van deze kleine Brusselse gemeente.',
+      intro:
+        'Sint-Joost-ten-Node is een van de kleinste en dichtstbevolkte gemeenten van België, georganiseerd rond het Noordstation. De gebouwen staan er bijzonder dicht bij elkaar, met inkijk tussen buurwoningen die bijna systematisch is.',
+      sections: [
+        {
+          heading: 'De bebouwing in Sint-Joost-ten-Node',
+          paragraphs: [
+            'De gemeente kenmerkt zich door een uitzonderlijke dichtheid naar Brusselse normen: kleine appartementsgebouwen en rijwoningen volgen elkaar op in smalle straten, met zeer weinig ruimte tussen de gevels. Ramen van buurwoningen kijken elkaar vaak op slechts enkele meters aan.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor ramen met direct zicht op een buurgebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor kleine woningen waar privacy op elk moment gegarandeerd moet zijn, blijft matwitte folie de meest betrouwbare oplossing.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'In een gemeente zo dicht als Sint-Joost-ten-Node is een raam bijna altijd zichtbaar vanuit een buurgebouw of de straat. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Sint-Joost-ten-Node',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Sint-Joost-ten-Node, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief in Sint-Joost-ten-Node ondanks de kleine oppervlakte?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, ondanks haar zeer hoge dichtheid.',
+        },
+        {
+          question: 'Is de folie geschikt voor een klein appartement met directe inkijk?',
+          answer: 'Ja, dit is net het geval waarvoor spiegeleffectfolie of matwitte folie het meest gebruikt wordt, naargelang de gewenste privacy.',
+        },
+        {
+          question: 'Is plaatsing mogelijk in een oud gebouw typisch voor de wijk rond het Noordstation?',
+          answer: 'Ja, de folie past zich aan elk type bestaande beglazing aan, oud of recent, zonder grote werken.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'watermael-boitsfort',
+      name: 'Watermaal-Bosvoorde',
+      hidden: true,
+      title: 'Raamfolie in Watermaal-Bosvoorde: de oplossing voor modernistische woningen en villa\'s nabij het bos',
+      metaTitle: 'Raamfolie in Watermaal-Bosvoorde',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Watermaal-Bosvoorde: thermisch comfort en privacy voor de villa\'s en woningen van deze groene gemeente.',
+      intro:
+        'Watermaal-Bosvoorde, aan de rand van het Zoniënwoud, staat bekend om haar groene kader en modernistisch architecturaal erfgoed, met name de tuinwijken Logis en Floréal. De villa\'s en woningen beschikken er vaak over grote raampartijen, sterk blootgesteld aan de zon en, ondanks het groen, nog steeds onderhevig aan inkijk.',
+      sections: [
+        {
+          heading: 'De bebouwing in Watermaal-Bosvoorde',
+          paragraphs: [
+            'De tuinwijken Logis en Floréal, daterend uit de jaren 1920, bestaan uit rij- of halfvrijstaande woningen met tuinen, ontworpen volgens de principes van de modernistische stedenbouw. Elders in de gemeente beschikken grote vrijstaande villa\'s nabij het bos over brede raampartijen gericht op het omliggende groen.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor de grote raampartijen van villa\'s blootgesteld aan de zon blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder het zicht op het groen te verliezen. Voor woningen in de tuinwijken dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Zelfs in een kader zo groen als Watermaal-Bosvoorde blijven woningen een groot deel van het jaar zichtbaar vanuit buurwoningen. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Watermaal-Bosvoorde',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Watermaal-Bosvoorde, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief in alle wijken van Watermaal-Bosvoorde?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van de tuinwijken tot de rand van het bos.',
+        },
+        {
+          question: 'Is de folie geschikt voor de woningen van de tuinwijken Logis en Floréal?',
+          answer: 'Ja, we passen de oplossing per raam aan, naargelang de oriëntatie en de nabijheid van de buren.',
+        },
+        {
+          question: 'Werkt de folie voor de grote raampartijen van villa\'s nabij het bos?',
+          answer: 'Ja, zonwerende folie is bijzonder geschikt: ze vermindert warmte en UV-stralen terwijl het zicht op het omliggende groen behouden blijft.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -2163,6 +2823,336 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Is installation more complicated in such a dense area?',
           answer: "No, installation works the same way regardless of neighbourhood density: our collaborator comes directly to you, with no major works involved.",
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'bruxelles-ville',
+      name: 'City of Brussels',
+      hidden: true,
+      title: 'Window film in the City of Brussels: the solution for historic city-centre homes',
+      metaTitle: 'Window Film in the City of Brussels, Pentagon and Laeken',
+      metaDescription:
+        'VitraCare installs window films and tints in the City of Brussels: privacy suited to the homes and shops of the historic city centre.',
+      intro:
+        "The City of Brussels, which covers the historic Pentagon as well as more residential areas like Laeken, has very varied housing: narrow townhouses with a shop at street level in the centre, more spacious villas in the outer districts. Urban overlooking is especially present in the narrow streets of the centre.",
+      sections: [
+        {
+          heading: 'Housing in the City of Brussels',
+          paragraphs: [
+            "In the Pentagon, the medieval street layout leaves little space between façades, and many buildings combine a ground-floor shop with living space above, often closely overlooked by the building opposite. In Laeken or Neder-Over-Heembeek, further out, housing opens up with detached houses and more greenery.",
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For upper-floor windows close to neighbouring buildings in the centre, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For shops with living space above, matte white film offers constant privacy, especially useful for rooms facing directly onto the street.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "In the narrow streets of the historic centre, an upper-floor window remains visible from neighbouring buildings or the street itself. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in the City of Brussels',
+          paragraphs: [
+            'We are currently running local outreach in the City of Brussels, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in both the Pentagon and Laeken?',
+          answer: 'Yes, our collaborator covers the whole territory of the City of Brussels, from the historic centre to the more residential areas.',
+        },
+        {
+          question: 'Is the film suitable for a shop with living space above it?',
+          answer: "Yes, this is a common layout in the Pentagon. We adapt the solution per window, depending on whether it faces the shop or the living space.",
+        },
+        {
+          question: 'Does the film damage listed or protected façades in the historic centre?',
+          answer: "No, the film is applied on the inside of the glazing and doesn't change the building's outside appearance. For a listed property, we recommend checking any restrictions with the commune before works.",
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'evere',
+      name: 'Evere',
+      hidden: true,
+      title: 'Window film in Evere: the solution for post-war apartment buildings',
+      metaTitle: 'Window Film in Evere',
+      metaDescription:
+        'VitraCare installs window films and tints in Evere: privacy suited to the post-war apartment buildings and international population of the commune.',
+      intro:
+        "Evere, in north-east Brussels, stands out for housing that's newer than the Brussels average, dominated by post-war apartment buildings. Proximity to NATO headquarters and the airport draws an international population, with high tenant turnover.",
+      sections: [
+        {
+          heading: 'Housing in Evere',
+          paragraphs: [
+            'Unlike the central communes, Evere has a large share of apartment buildings built after 1945, with wider façades and windows sometimes aligned from one building to the next. This layout, combined with a frequently rotating international population, creates a different kind of overlooking than historic terraced houses.',
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For apartments directly overlooked by a neighbouring building, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For privacy guaranteed at all times, useful for short-term tenants, matte white film remains the most reliable option.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "In Evere's post-war buildings, windows of neighbouring apartments often face each other at short distance. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Evere',
+          paragraphs: [
+            'We are currently running local outreach in Evere, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in every neighbourhood of Evere?',
+          answer: 'Yes, our collaborator covers the whole commune.',
+        },
+        {
+          question: 'Does the film work for a short lease or temporary rental?',
+          answer: "Yes, the film remains a reversible solution: it can be removed if needed without damaging the glazing, but the landlord's agreement is still required before installation.",
+        },
+        {
+          question: "Is the film suitable for the large apartment buildings typical of Evere?",
+          answer: 'Yes, this is one of the most common uses: mirror effect or matte white film adapts well to the standardised windows of this type of building.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'berchem-sainte-agathe',
+      name: 'Berchem-Sainte-Agathe',
+      hidden: true,
+      title: 'Window film in Berchem-Sainte-Agathe: the solution for a small residential commune',
+      metaTitle: 'Window Film in Berchem-Sainte-Agathe',
+      metaDescription:
+        'VitraCare installs window films and tints in Berchem-Sainte-Agathe: privacy and thermal comfort for the homes of this residential commune.',
+      intro:
+        "Berchem-Sainte-Agathe is one of the smallest communes in Brussels, with a strongly residential character and housing dominated by interwar houses on quiet streets. Its small size doesn't rule out frequent overlooking between neighbouring homes.",
+      sections: [
+        {
+          heading: 'Housing in Berchem-Sainte-Agathe',
+          paragraphs: [
+            'The commune is made up mainly of detached or terraced houses built between the two world wars, on quiet residential streets. While density is lower than in the central communes, plots remain close enough together for overlooking to be a daily reality, especially for ground-floor windows.',
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For ground-floor windows close to neighbouring homes, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For large south- or west-facing windows, solar tint remains relevant against summer heat.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Even in a commune with a quiet residential character, a ground-floor window remains visible from the street or neighbouring properties. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Berchem-Sainte-Agathe',
+          paragraphs: [
+            'We are currently running local outreach in Berchem-Sainte-Agathe, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in Berchem-Sainte-Agathe despite its small size?',
+          answer: 'Yes, our collaborator covers the whole commune, whatever its size.',
+        },
+        {
+          question: 'Is the film suitable for the interwar houses typical of the commune?',
+          answer: 'Yes, this is one of the most common uses, especially for ground-floor windows close to the street or neighbours.',
+        },
+        {
+          question: 'Does the film work just as well for a house with a garden?',
+          answer: 'Yes, even with a garden, overlooking is often real between neighbouring properties, and the film is applied the same way.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'ganshoren',
+      name: 'Ganshoren',
+      hidden: true,
+      title: 'Window film in Ganshoren: the solution for garden-suburb houses',
+      metaTitle: 'Window Film in Ganshoren',
+      metaDescription:
+        'VitraCare installs window films and tints in Ganshoren: privacy and thermal comfort for the detached houses of this green commune.',
+      intro:
+        'Ganshoren, a small green commune in north-west Brussels, is characterised by its interwar garden-suburb neighbourhoods, with detached houses surrounded by gardens. This more open setting doesn\'t rule out overlooking, especially for windows facing neighbouring plots.',
+      sections: [
+        {
+          heading: 'Housing in Ganshoren',
+          paragraphs: [
+            'The garden-suburb neighbourhoods, dating from the 1920s-1930s, are made up of detached or semi-detached houses surrounded by gardens, with windows often facing these green spaces. This type of town planning, designed for light and greenery, still exposes living spaces to the view of neighbouring plots.',
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For large south- or west-facing windows onto the garden, solar tint remains the most relevant choice against heat, without losing the view of the surrounding greenery. For façades closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible during the day.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Even in a garden suburb designed for greenery, a house remains visible from neighbouring plots for a good part of the year. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Ganshoren',
+          paragraphs: [
+            'We are currently running local outreach in Ganshoren, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in every neighbourhood of Ganshoren?',
+          answer: 'Yes, our collaborator covers the whole commune.',
+        },
+        {
+          question: 'Is the film suitable for garden-suburb houses surrounded by greenery?',
+          answer: 'Yes, solar tint suits these houses particularly well: it reduces heat and UV while keeping the view of the garden.',
+        },
+        {
+          question: 'Is overlooking really an issue in such a green neighbourhood?',
+          answer: 'Yes, even surrounded by gardens, houses often remain visible from neighbouring plots, especially in winter when vegetation loses its leaves.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'saint-josse-ten-noode',
+      name: 'Saint-Josse-ten-Noode',
+      hidden: true,
+      title: "Window film in Saint-Josse-ten-Noode: the solution for Brussels's densest commune",
+      metaTitle: 'Window Film in Saint-Josse-ten-Noode',
+      metaDescription:
+        "VitraCare installs window films and tints in Saint-Josse-ten-Noode: privacy suited to the very dense housing of this small Brussels commune.",
+      intro:
+        "Saint-Josse-ten-Noode is one of the smallest and most densely populated communes in Belgium, built around Gare du Nord. Buildings sit particularly close together, with overlooking between neighbouring homes that's almost systematic.",
+      sections: [
+        {
+          heading: 'Housing in Saint-Josse-ten-Noode',
+          paragraphs: [
+            "The commune is marked by exceptional density by Brussels standards: small apartment buildings and terraced houses follow one another on narrow streets, with very little space between façades. Windows of neighbouring homes often face each other just metres apart.",
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For windows directly overlooked by a neighbouring building, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For small homes where privacy needs to be guaranteed at all times, matte white film remains the most reliable solution.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "In a commune as dense as Saint-Josse-ten-Noode, a window is almost always visible from a neighbouring building or the street. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Saint-Josse-ten-Noode',
+          paragraphs: [
+            'We are currently running local outreach in Saint-Josse-ten-Noode, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in Saint-Josse-ten-Noode despite its small size?',
+          answer: 'Yes, our collaborator covers the whole commune, despite its very high density.',
+        },
+        {
+          question: 'Is the film suitable for a small apartment with immediate overlooking?',
+          answer: 'Yes, this is exactly the use case mirror effect or matte white film is most used for, depending on the privacy level wanted.',
+        },
+        {
+          question: 'Is installation possible in an older building typical of the area around Gare du Nord?',
+          answer: 'Yes, the film adapts to any type of existing glazing, old or recent, without major works.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'watermael-boitsfort',
+      name: 'Watermael-Boitsfort',
+      hidden: true,
+      title: 'Window film in Watermael-Boitsfort: the solution for modernist homes and villas near the forest',
+      metaTitle: 'Window Film in Watermael-Boitsfort',
+      metaDescription:
+        'VitraCare installs window films and tints in Watermael-Boitsfort: thermal comfort and privacy for the villas and homes of this green commune.',
+      intro:
+        "Watermael-Boitsfort, on the edge of the Sonian Forest, is known for its green setting and modernist architectural heritage, notably the Logis and Floréal garden estates. Villas and homes here often have large windows, heavily sun-exposed and, despite the greenery, still affected by overlooking.",
+      sections: [
+        {
+          heading: 'Housing in Watermael-Boitsfort',
+          paragraphs: [
+            "The Logis and Floréal garden estates, dating from the 1920s, are made up of terraced or semi-detached houses with gardens, designed according to modernist town-planning principles. Elsewhere in the commune, large detached villas near the forest have wide windows facing the surrounding greenery.",
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            "For the large sun-exposed windows of villas, solar tint remains the most relevant choice: it reduces heat and UV without losing the view of the greenery. For homes in the garden estates closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible during the day.",
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Even in a setting as green as Watermael-Boitsfort, homes remain visible from neighbouring properties for a good part of the year. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Watermael-Boitsfort',
+          paragraphs: [
+            'We are currently running local outreach in Watermael-Boitsfort, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work in every neighbourhood of Watermael-Boitsfort?',
+          answer: 'Yes, our collaborator covers the whole commune, from the garden estates to the edge of the forest.',
+        },
+        {
+          question: 'Is the film suitable for homes in the Logis and Floréal garden estates?',
+          answer: 'Yes, we adapt the solution per window, depending on orientation and proximity to neighbours.',
+        },
+        {
+          question: 'Does the film work for the large windows of villas near the forest?',
+          answer: 'Yes, solar tint is particularly well suited: it reduces heat and UV while preserving the view of the surrounding greenery.',
         },
         {
           question: 'Can the film help reduce the risk of burglary?',

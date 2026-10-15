@@ -47,6 +47,12 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 - [Auderghem](https://vitracare.be/communes/auderghem)
 - [Jette](https://vitracare.be/communes/jette)
 - [Koekelberg](https://vitracare.be/communes/koekelberg)
+- [Bruxelles-Ville, Pentagone et Laeken](https://vitracare.be/communes/bruxelles-ville)
+- [Evere](https://vitracare.be/communes/evere)
+- [Berchem-Sainte-Agathe](https://vitracare.be/communes/berchem-sainte-agathe)
+- [Ganshoren](https://vitracare.be/communes/ganshoren)
+- [Saint-Josse-ten-Noode](https://vitracare.be/communes/saint-josse-ten-noode)
+- [Watermael-Boitsfort](https://vitracare.be/communes/watermael-boitsfort)
 
 ## Informations légales
 - [Mentions légales](https://vitracare.be/mentions-legales)

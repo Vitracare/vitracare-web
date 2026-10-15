@@ -47,6 +47,12 @@ Other language versions: [Français](https://vitracare.be/llms.txt) — [Nederla
 - [Auderghem](https://vitracare.be/en/communes/auderghem)
 - [Jette](https://vitracare.be/en/communes/jette)
 - [Koekelberg](https://vitracare.be/en/communes/koekelberg)
+- [City of Brussels, Pentagon and Laeken](https://vitracare.be/en/communes/bruxelles-ville)
+- [Evere](https://vitracare.be/en/communes/evere)
+- [Berchem-Sainte-Agathe](https://vitracare.be/en/communes/berchem-sainte-agathe)
+- [Ganshoren](https://vitracare.be/en/communes/ganshoren)
+- [Saint-Josse-ten-Noode](https://vitracare.be/en/communes/saint-josse-ten-noode)
+- [Watermael-Boitsfort](https://vitracare.be/en/communes/watermael-boitsfort)
 
 ## Legal information
 - [Legal notice](https://vitracare.be/en/mentions-legales)

@@ -987,6 +987,144 @@ const communePages = [
       },
     },
   },
+  {
+    slug: 'bruxelles-ville',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Bruxelles-Ville, Pentagone et Laeken',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Bruxelles-Ville : intimité adaptée aux maisons et commerces du centre historique.",
+        name: 'Bruxelles-Ville',
+      },
+      NL: {
+        title: 'Raamfolie in Brussel-Stad, Vijfhoek en Laken',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Brussel-Stad: privacy aangepast aan de woningen en handelszaken van de historische binnenstad.',
+        name: 'Stad Brussel',
+      },
+      EN: {
+        title: 'Window Film in the City of Brussels, Pentagon and Laeken',
+        description:
+          'VitraCare installs window films and tints in the City of Brussels: privacy suited to the homes and shops of the historic city centre.',
+        name: 'City of Brussels',
+      },
+    },
+  },
+  {
+    slug: 'evere',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Evere',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Evere : intimité adaptée aux immeubles d'après-guerre et à la population internationale de la commune.",
+        name: 'Evere',
+      },
+      NL: {
+        title: 'Raamfolie in Evere',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Evere: privacy aangepast aan de naoorlogse appartementsgebouwen en internationale bevolking.',
+        name: 'Evere',
+      },
+      EN: {
+        title: 'Window Film in Evere',
+        description:
+          'VitraCare installs window films and tints in Evere: privacy suited to the post-war apartment buildings and international population of the commune.',
+        name: 'Evere',
+      },
+    },
+  },
+  {
+    slug: 'berchem-sainte-agathe',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Berchem-Sainte-Agathe',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Berchem-Sainte-Agathe : intimité et confort thermique pour les maisons de cette commune résidentielle.",
+        name: 'Berchem-Sainte-Agathe',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Agatha-Berchem',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Agatha-Berchem: privacy en thermisch comfort voor de woningen van deze residentiële gemeente.',
+        name: 'Sint-Agatha-Berchem',
+      },
+      EN: {
+        title: 'Window Film in Berchem-Sainte-Agathe',
+        description:
+          'VitraCare installs window films and tints in Berchem-Sainte-Agathe: privacy and thermal comfort for the homes of this residential commune.',
+        name: 'Berchem-Sainte-Agathe',
+      },
+    },
+  },
+  {
+    slug: 'ganshoren',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Ganshoren',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Ganshoren : intimité et confort thermique pour les maisons individuelles de cette commune verdoyante.",
+        name: 'Ganshoren',
+      },
+      NL: {
+        title: 'Raamfolie in Ganshoren',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Ganshoren: privacy en thermisch comfort voor de vrijstaande woningen van deze groene gemeente.',
+        name: 'Ganshoren',
+      },
+      EN: {
+        title: 'Window Film in Ganshoren',
+        description:
+          'VitraCare installs window films and tints in Ganshoren: privacy and thermal comfort for the detached houses of this green commune.',
+        name: 'Ganshoren',
+      },
+    },
+  },
+  {
+    slug: 'saint-josse-ten-noode',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Saint-Josse-ten-Noode',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Saint-Josse-ten-Noode : intimité adaptée à l'habitat très dense de cette petite commune bruxelloise.",
+        name: 'Saint-Josse-ten-Noode',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Joost-ten-Node',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Joost-ten-Node: privacy aangepast aan de zeer dichte bebouwing van deze kleine Brusselse gemeente.',
+        name: 'Sint-Joost-ten-Node',
+      },
+      EN: {
+        title: 'Window Film in Saint-Josse-ten-Noode',
+        description:
+          "VitraCare installs window films and tints in Saint-Josse-ten-Noode: privacy suited to the very dense housing of this small Brussels commune.",
+        name: 'Saint-Josse-ten-Noode',
+      },
+    },
+  },
+  {
+    slug: 'watermael-boitsfort',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Watermael-Boitsfort',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Watermael-Boitsfort : confort thermique et intimité pour les villas et maisons de cette commune verte.",
+        name: 'Watermael-Boitsfort',
+      },
+      NL: {
+        title: 'Raamfolie in Watermaal-Bosvoorde',
+        description:
+          "VitraCare plaatst folies en tinten voor beglazing in Watermaal-Bosvoorde: thermisch comfort en privacy voor de villa's en woningen van deze groene gemeente.",
+        name: 'Watermaal-Bosvoorde',
+      },
+      EN: {
+        title: 'Window Film in Watermael-Boitsfort',
+        description:
+          'VitraCare installs window films and tints in Watermael-Boitsfort: thermal comfort and privacy for the villas and homes of this green commune.',
+        name: 'Watermael-Boitsfort',
+      },
+    },
+  },
 ];
 
 function decodeEntities(str) {

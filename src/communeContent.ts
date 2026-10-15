@@ -694,9 +694,9 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       title: 'Film pour vitrage à Koekelberg : la solution pour habitat dense autour de la Basilique',
       metaTitle: 'Film pour vitrage à Koekelberg',
       metaDescription:
-        "VitraCare pose des films et teintes pour vitrages à Koekelberg : intimité adaptée à l'habitat dense de la plus petite commune de Bruxelles.",
+        "VitraCare pose des films et teintes pour vitrages à Koekelberg : intimité adaptée à l'habitat dense de l'une des plus petites communes de Bruxelles.",
       intro:
-        "Koekelberg est la plus petite commune de la région bruxelloise, très densément peuplée, organisée autour de la Basilique. Les maisons et immeubles y sont particulièrement rapprochés, avec des rues étroites où le vis-à-vis entre voisins est quasiment systématique.",
+        "Koekelberg est l'une des plus petites communes de la région bruxelloise (juste derrière Saint-Josse-ten-Noode), très densément peuplée, organisée autour de la Basilique. Les maisons et immeubles y sont particulièrement rapprochés, avec des rues étroites où le vis-à-vis entre voisins est quasiment systématique.",
       sections: [
         {
           heading: 'Le bâti à Koekelberg',
@@ -1793,9 +1793,9 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       title: 'Raamfolie in Koekelberg: de oplossing voor dichte bebouwing rond de Basiliek',
       metaTitle: 'Raamfolie in Koekelberg',
       metaDescription:
-        'VitraCare plaatst folies en tinten voor beglazing in Koekelberg: privacy aangepast aan de dichte bebouwing van de kleinste gemeente van Brussel.',
+        'VitraCare plaatst folies en tinten voor beglazing in Koekelberg: privacy aangepast aan de dichte bebouwing van een van de kleinste gemeenten van Brussel.',
       intro:
-        'Koekelberg is de kleinste gemeente van het Brussels gewest, zeer dicht bevolkt, georganiseerd rond de Basiliek. Woningen en gebouwen liggen er bijzonder dicht bij elkaar, met smalle straten waar inkijk tussen buren bijna systematisch is.',
+        'Koekelberg is een van de kleinste gemeenten van het Brussels gewest (net na Sint-Joost-ten-Node), zeer dicht bevolkt, georganiseerd rond de Basiliek. Woningen en gebouwen liggen er bijzonder dicht bij elkaar, met smalle straten waar inkijk tussen buren bijna systematisch is.',
       sections: [
         {
           heading: 'De bebouwing in Koekelberg',
@@ -2892,9 +2892,9 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       title: 'Window film in Koekelberg: the solution for dense housing around the Basilica',
       metaTitle: 'Window Film in Koekelberg',
       metaDescription:
-        "VitraCare installs window films and tints in Koekelberg: privacy suited to the dense housing of Brussels's smallest commune.",
+        "VitraCare installs window films and tints in Koekelberg: privacy suited to the dense housing of one of Brussels's smallest communes.",
       intro:
-        "Koekelberg is the smallest commune in the Brussels region, very densely populated, built around the Basilica. Houses and buildings sit particularly close together, with narrow streets where overlooking between neighbours is almost systematic.",
+        "Koekelberg is one of the smallest communes in the Brussels region (just behind Saint-Josse-ten-Noode), very densely populated, built around the Basilica. Houses and buildings sit particularly close together, with narrow streets where overlooking between neighbours is almost systematic.",
       sections: [
         {
           heading: 'Housing in Koekelberg',

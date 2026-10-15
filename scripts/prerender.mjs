@@ -970,19 +970,19 @@ const communePages = [
       FR: {
         title: 'Film pour vitrage à Koekelberg',
         description:
-          "VitraCare pose des films et teintes pour vitrages à Koekelberg : intimité adaptée à l'habitat dense de la plus petite commune de Bruxelles.",
+          "VitraCare pose des films et teintes pour vitrages à Koekelberg : intimité adaptée à l'habitat dense de l'une des plus petites communes de Bruxelles.",
         name: 'Koekelberg',
       },
       NL: {
         title: 'Raamfolie in Koekelberg',
         description:
-          'VitraCare plaatst folies en tinten voor beglazing in Koekelberg: privacy aangepast aan de dichte bebouwing van de kleinste gemeente van Brussel.',
+          'VitraCare plaatst folies en tinten voor beglazing in Koekelberg: privacy aangepast aan de dichte bebouwing van een van de kleinste gemeenten van Brussel.',
         name: 'Koekelberg',
       },
       EN: {
         title: 'Window Film in Koekelberg',
         description:
-          "VitraCare installs window films and tints in Koekelberg: privacy suited to the dense housing of Brussels's smallest commune.",
+          "VitraCare installs window films and tints in Koekelberg: privacy suited to the dense housing of one of Brussels's smallest communes.",
         name: 'Koekelberg',
       },
     },

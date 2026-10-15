@@ -224,6 +224,27 @@ const pages = [
   },
 ];
 
+// Real per-article hero images (mirrors src/blogContent.ts's heroImage.src, same
+// image across all 3 languages) — used for BlogPosting schema so each article's
+// structured-data image is actually representative, instead of the generic app icon.
+const blogArticleImages = {
+  'quel-film-choisir-vitrages': '/images/blog/illus-quel-film-choisir.jpg',
+  'film-vitrage-economies-climatisation': '/images/blog/illus-economies-climatisation.jpg',
+  'intimite-vis-a-vis-film-vitrage': '/images/blog/illus-vis-a-vis.jpg',
+  'remplacer-fenetres-ou-film-vitrage': '/images/blog/illus-remplacer-fenetres.jpg',
+  'film-securite-anti-effraction-vitrage': '/images/blog/illus-anti-effraction.jpg',
+  'film-solaire-vitrage-bruxelles': '/images/blog/film-solaire-exemple.jpg',
+  'prix-pose-film-vitrage-bruxelles': '/images/blog/illus-prix.jpg',
+  'protection-uv-film-vitrage-bruxelles': '/images/blog/illus-protection-uv.jpg',
+  'etapes-projet-film-vitrage-bruxelles': '/images/blog/illus-etapes.jpg',
+  'film-solaire-ou-screen-exterieur-vitrage': '/images/blog/illus-solaire-screen.jpg',
+  'vitrage-controle-solaire-integre-ou-film': '/images/blog/illus-controle-solaire-integre.jpg',
+  'film-miroir-vitrage-bruxelles': '/images/blog/film-miroir-exemple.jpg',
+  'film-blanc-mat-vitrage-bruxelles': '/images/blog/film-mat-exemple.jpg',
+  'film-brise-vue-anti-regard-vitrage': '/images/blog/illus-brise-vue.jpg',
+  'film-miroir-chaleur-vis-a-vis-bruxelles': '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg',
+};
+
 const blogArticles = [
 {
   path: '/blog/quel-film-choisir-vitrages',
@@ -882,6 +903,12 @@ function buildBusinessSchema(lang, prefix) {
     '@id': 'https://vitracare.be/#business',
     name: 'VitraCare',
     url: `https://vitracare.be${prefix || '/'}`,
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://vitracare.be/images/Logo.png',
+      width: 307,
+      height: 333,
+    },
     inLanguage,
     description: copy.description,
     telephone: '+32489607074',
@@ -1013,6 +1040,8 @@ function buildRoutes() {
       const routePath = fullPath(prefix, blogArticle.path);
       const fileRel = `${routePath.replace(/^\//, '')}/index.html`;
       const m = blogArticle.meta[lang];
+      const slug = blogArticle.path.split('/').pop();
+      const articleImage = blogArticleImages[slug] || '/icon-512.png';
       routes.push({
         routePath,
         file: fileRel,
@@ -1026,11 +1055,16 @@ function buildRoutes() {
             '@type': 'BlogPosting',
             headline: m.headline,
             description: m.description,
-            image: ['https://vitracare.be/icon-512.png'],
+            image: [`https://vitracare.be${articleImage}`],
             datePublished: m.datePublished,
             dateModified: m.dateModified,
             author: { '@type': 'Organization', name: 'VitraCare' },
-            publisher: { '@type': 'Organization', name: 'VitraCare', url: 'https://vitracare.be/' },
+            publisher: {
+              '@type': 'Organization',
+              name: 'VitraCare',
+              url: 'https://vitracare.be/',
+              logo: { '@type': 'ImageObject', url: 'https://vitracare.be/images/Logo.png', width: 307, height: 333 },
+            },
             mainEntityOfPage: `https://vitracare.be${routePath}`,
             url: `https://vitracare.be${routePath}`,
             inLanguage: `${hreflangCodes[lang]}-BE`,

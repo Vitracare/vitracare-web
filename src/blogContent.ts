@@ -1206,6 +1206,96 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-chaleur-vis-a-vis-bruxelles',
+      title: "Chaleur et vis-à-vis en même temps : le film miroir règle les deux d'une seule pose",
+      metaTitle: 'Film miroir : anti-chaleur et anti-regard en une pose',
+      metaDescription:
+        "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose, sans devoir choisir entre les deux.",
+      date: '2026-10-15',
+      excerpt:
+        "Soleil plein sud et vis-à-vis sur rue ne sont pas deux problèmes à régler séparément. Voici pourquoi le film miroir répond aux deux en une seule pose, et dans quels cas ça compte vraiment.",
+      heroImage: { src: '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg', alt: "Illustration d'une façade exposée au soleil et à la rue, avec le film effet miroir bloquant à la fois la chaleur et le regard des passants", width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "Une façade qui chauffe tout l'après-midi, et des passants qui voient directement dans le salon : à Bruxelles, dans les maisons mitoyennes exposées au soleil et donnant sur rue, ces deux problèmes arrivent souvent ensemble, pas l'un après l'autre. Et pourtant, on les traite presque toujours séparément, comme s'il fallait deux solutions différentes.",
+          ],
+        },
+        {
+          heading: 'Deux problèmes qui vont souvent ensemble à Bruxelles',
+          anchor: 'deux-problemes',
+          paragraphs: [
+            "La densité du bâti bruxellois crée cette combinaison plus souvent qu'ailleurs : une façade orientée sud ou ouest, qui reçoit le soleil une bonne partie de la journée, donne très fréquemment aussi sur un trottoir, une rue passante ou des fenêtres de voisins. Le réflexe naturel est de fermer les rideaux pour l'intimité, ce qui n'arrange rien côté chaleur puisque le soleil a déjà traversé la vitre à ce moment-là.",
+          ],
+        },
+        {
+          heading: 'Comment un seul film répond aux deux',
+          anchor: 'un-film-deux-reponses',
+          paragraphs: [
+            "Le film effet miroir repose sur un principe optique simple : en journée, l'extérieur est plus lumineux que l'intérieur d'une pièce, et le film reflète cette lumière côté extérieur. Ça crée à la fois l'effet miroir qui empêche la vue depuis la rue, et une réflexion d'une partie du rayonnement solaire avant qu'il ne se transforme en chaleur dans la pièce. Les deux effets viennent du même mécanisme, pas de deux traitements différents superposés.",
+          ],
+        },
+        {
+          heading: 'Ce que ça change concrètement sur la chaleur',
+          anchor: 'chaleur',
+          paragraphs: [
+            "Sur le terrain, les installations de films solaires et miroir montrent une baisse de 3 à 6°C de la température intérieure en été dans les pièces les plus exposées. Le [Department of Energy](https://www.osti.gov/servlets/purl/1089147) américain arrive à une conclusion proche : les films pour vitrage peuvent réduire la consommation liée au refroidissement jusqu'à 30%, en limitant l'apport de chaleur solaire à travers le verre, qui représente environ un tiers de la charge de climatisation d'un bâtiment selon la même étude.",
+          ],
+        },
+        {
+          heading: 'Et sur le vis-à-vis',
+          anchor: 'vis-a-vis',
+          paragraphs: [
+            "Le film bloque totalement la vue depuis l'extérieur en journée, tout en laissant une vue dégagée depuis l'intérieur. Un point à garder en tête : cet effet fonctionne tant que l'extérieur reste plus lumineux que l'intérieur, donc en journée. Le soir, une fois la lumière allumée chez vous, l'effet s'inverse, comme pour n'importe quelle fenêtre éclairée dans le noir. Si l'intimité du soir compte aussi pour vous, notre [article sur le film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles) couvre ce besoin spécifique, au prix d'un rendu plus opaque.",
+          ],
+        },
+        {
+          heading: 'Les autres films ne font qu\'un des deux',
+          anchor: 'comparaison',
+          paragraphs: [
+            "C'est ce qui rend le film miroir particulier parmi les 4 teintes disponibles : le film solaire réduit la chaleur mais n'apporte aucune intimité, et le film blanc mat bloque les regards jour et nuit mais n'a pas d'effet sur la chaleur. Le film miroir est le seul des 4 à répondre aux deux besoins en même temps, avec une seule pose. Notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages) détaille les 4 teintes avec un tableau comparatif si votre situation est différente.",
+          ],
+        },
+        {
+          heading: 'Quand ça vaut vraiment le coup',
+          anchor: 'quand',
+          paragraphs: [
+            "Ce double bénéfice compte surtout pour les pièces à la fois exposées au soleil et visibles depuis l'extérieur : un salon plein sud en rez-de-chaussée sur rue, une baie vitrée côté jardin visible des voisins, ou une façade ouest qui chauffe en fin de journée pile au moment où la rue est la plus fréquentée. Pour une pièce qui n'a qu'un seul des deux problèmes, un autre film peut être plus adapté : notre [guide de choix](/blog/quel-film-choisir-vitrages) aide à trancher au cas par cas.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — étude sur les films de vitrage à contrôle énergétique](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film miroir est-il aussi efficace sur la chaleur que le film solaire ?',
+          answer: "Les deux reposent sur un principe de réflexion du rayonnement solaire, avec un effet comparable sur la chaleur. La différence se joue sur l'intimité : le solaire reste transparent dans les deux sens, le miroir bloque la vue depuis l'extérieur en journée.",
+        },
+        {
+          question: 'Est-ce plus cher de viser les deux bénéfices en même temps ?',
+          answer: "Non, notre tarif dépend uniquement de la surface à traiter, pas du nombre de bénéfices recherchés. C'est le même film, posé une seule fois.",
+        },
+        {
+          question: 'Si je veux aussi de l\'intimité le soir, le film miroir suffit-il ?',
+          answer: "Non, l'effet miroir ne fonctionne que de jour. Pour une intimité garantie à toute heure en plus de la réduction de chaleur, il faut comparer avec le film blanc mat, qui n'a cependant pas d'effet sur la chaleur. Notre [guide de choix](/blog/quel-film-choisir-vitrages) détaille ce compromis.",
+        },
+        {
+          question: 'Pourquoi ne pas simplement poser deux films différents ?',
+          answer: "Ce serait inutile et plus coûteux : le film miroir couvre déjà les deux besoins avec une seule pose. Superposer deux films sur le même vitrage n'est pas notre pratique et n'apporterait rien de plus.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -2383,6 +2473,96 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-miroir-chaleur-vis-a-vis-bruxelles',
+      title: 'Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing',
+      metaTitle: 'Spiegelfolie: tegen warmte én inkijk in één keer',
+      metaDescription:
+        'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing, zonder tussen de twee te moeten kiezen.',
+      date: '2026-10-15',
+      excerpt:
+        'Volle zon en inkijk vanaf de straat zijn geen twee aparte problemen om op te lossen. Hier leest u waarom spiegeleffectfolie beide oplost met één plaatsing, en wanneer dat echt het verschil maakt.',
+      heroImage: { src: '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg', alt: 'Illustratie van een gevel blootgesteld aan zon en straat, waarbij spiegeleffectfolie zowel de warmte als de blikken van voorbijgangers blokkeert', width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "Een gevel die de hele namiddag opwarmt, en voorbijgangers die rechtstreeks in de woonkamer kijken: in Brussel, in de rijwoningen blootgesteld aan zon én straat, komen deze twee problemen vaak samen voor, niet na elkaar. Toch worden ze bijna altijd apart behandeld, alsof er twee verschillende oplossingen nodig zijn.",
+          ],
+        },
+        {
+          heading: 'Twee problemen die vaak samen voorkomen in Brussel',
+          anchor: 'deux-problemes',
+          paragraphs: [
+            'De dichte bebouwing in Brussel creëert deze combinatie vaker dan elders: een zuid- of westgerichte gevel, die een groot deel van de dag zon ontvangt, geeft zeer regelmatig ook uit op een trottoir, een drukke straat of ramen van buren. De natuurlijke reflex is de gordijnen te sluiten voor privacy, wat niets oplost voor de warmte, aangezien de zon op dat moment al door het raam is gegaan.',
+          ],
+        },
+        {
+          heading: 'Hoe één folie beide oplost',
+          anchor: 'un-film-deux-reponses',
+          paragraphs: [
+            'Spiegeleffectfolie berust op een eenvoudig optisch principe: overdag is het buiten lichter dan binnen in een kamer, en de folie weerkaatst dat licht langs de buitenkant. Dat creëert zowel het spiegeleffect dat het zicht vanaf de straat blokkeert, als een weerkaatsing van een deel van de zonnestraling voordat ze in warmte wordt omgezet in de kamer. Beide effecten komen van hetzelfde mechanisme, niet van twee verschillende, op elkaar gestapelde behandelingen.',
+          ],
+        },
+        {
+          heading: 'Wat dit concreet verandert aan de warmte',
+          anchor: 'chaleur',
+          paragraphs: [
+            'Op het terrein tonen plaatsingen van zonwerende en spiegeleffectfolie een daling van 3 tot 6°C van de binnentemperatuur in de zomer in de meest blootgestelde ruimtes. Het Amerikaanse [Department of Energy](https://www.osti.gov/servlets/purl/1089147) komt tot een gelijkaardige conclusie: raamfolie kan het energieverbruik voor koeling tot 30% verminderen, door de zonnewarmte die door het glas komt te beperken, wat volgens dezelfde studie ongeveer een derde van de koellast van een gebouw vertegenwoordigt.',
+          ],
+        },
+        {
+          heading: 'En aan de inkijk',
+          anchor: 'vis-a-vis',
+          paragraphs: [
+            "De folie blokkeert overdag het zicht van buitenaf volledig, terwijl u vanbinnen een vrij uitzicht behoudt. Een punt om te onthouden: dit effect werkt zolang het buiten lichter is dan binnen, dus overdag. 's Avonds, wanneer uw licht brandt, keert het effect om, zoals bij elk verlicht raam in het donker. Als privacy 's avonds ook voor u telt, behandelt ons [artikel over matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles) die specifieke behoefte, tegen een ondoorzichtiger resultaat.",
+          ],
+        },
+        {
+          heading: 'De andere folies doen slechts één van de twee',
+          anchor: 'comparaison',
+          paragraphs: [
+            'Dat maakt spiegeleffectfolie bijzonder onder de 4 beschikbare tinten: zonwerende folie vermindert de warmte maar biedt geen privacy, en matwitte folie blokkeert blikken dag en nacht maar heeft geen effect op de warmte. Spiegeleffectfolie is de enige van de 4 die beide behoeften tegelijk beantwoordt, met één plaatsing. Onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de 4 tinten met een overzichtstabel als uw situatie anders is.',
+          ],
+        },
+        {
+          heading: 'Wanneer het echt de moeite loont',
+          anchor: 'quand',
+          paragraphs: [
+            'Dit dubbele voordeel telt vooral voor ruimtes die zowel aan de zon als aan inkijk blootgesteld zijn: een zuidgerichte woonkamer op het gelijkvloers aan de straat, een tuinzijde zichtbaar vanaf de buren, of een westgevel die opwarmt net op het moment dat de straat het drukst is. Voor een ruimte met slechts één van beide problemen kan een andere folie geschikter zijn: onze [keuzegids](/blog/quel-film-choisir-vitrages) helpt per situatie te beslissen.',
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — studie over energiebesparende raamfolie](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Nog twijfels?',
+          paragraphs: [
+            'Contacteer ons, wij adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is spiegeleffectfolie even doeltreffend tegen warmte als zonwerende folie?',
+          answer: 'Beide berusten op hetzelfde principe van weerkaatsing van zonnestraling, met een vergelijkbaar effect op de warmte. Het verschil zit in de privacy: zonwerende folie blijft transparant in beide richtingen, spiegeleffectfolie blokkeert overdag het zicht van buitenaf.',
+        },
+        {
+          question: 'Is het duurder om beide voordelen tegelijk na te streven?',
+          answer: 'Nee, ons tarief hangt enkel af van de te behandelen oppervlakte, niet van het aantal gezochte voordelen. Het is dezelfde folie, één keer geplaatst.',
+        },
+        {
+          question: "Als ik ook privacy 's avonds wil, volstaat spiegeleffectfolie dan?",
+          answer: "Nee, het spiegeleffect werkt enkel overdag. Voor privacy op elk moment naast de warmtevermindering moet u matwitte folie overwegen, die echter geen effect heeft op de warmte. Onze [keuzegids](/blog/quel-film-choisir-vitrages) legt deze afweging uit.",
+        },
+        {
+          question: 'Waarom niet gewoon twee verschillende folies plaatsen?',
+          answer: 'Dat zou nutteloos en duurder zijn: spiegeleffectfolie dekt beide behoeften al met één plaatsing. Twee folies op dezelfde beglazing stapelen is geen gangbare praktijk bij ons en zou niets extra opleveren.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -3557,6 +3737,96 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'How long does professional installation take for a house?',
           answer: "It depends on the number and size of the windows involved. The work is done in a single visit, typically taking a few hours for a standard house. The exact duration is confirmed in your quote.",
+        },
+      ],
+    },
+    {
+      slug: 'film-miroir-chaleur-vis-a-vis-bruxelles',
+      title: "Heat and being overlooked at the same time: mirror effect film solves both in one installation",
+      metaTitle: 'Mirror film: against heat and being overlooked at once',
+      metaDescription:
+        "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation, without having to choose between the two.",
+      date: '2026-10-15',
+      excerpt:
+        "Full sun and being overlooked from the street aren't two separate problems to solve. Here's why mirror effect film answers both with one installation, and when it really matters.",
+      heroImage: { src: '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg', alt: 'Illustration of a facade exposed to both sun and street, with mirror effect film blocking both the heat and the view from passers-by', width: 1200, height: 662 },
+      sections: [
+        {
+          paragraphs: [
+            "A facade that heats up all afternoon, and passers-by who can see straight into the living room: in Brussels, in terraced houses exposed to both sun and street, these two problems often arrive together, not one after the other. Yet they're almost always treated separately, as if two different solutions were needed.",
+          ],
+        },
+        {
+          heading: 'Two problems that often go together in Brussels',
+          anchor: 'deux-problemes',
+          paragraphs: [
+            "The density of Brussels housing creates this combination more often than elsewhere: a south or west-facing facade, which gets sun for a good part of the day, very often also faces a pavement, a busy street, or neighbours' windows. The natural instinct is to close the curtains for privacy, which does nothing for the heat, since the sun has already come through the glass by that point.",
+          ],
+        },
+        {
+          heading: 'How one film answers both',
+          anchor: 'un-film-deux-reponses',
+          paragraphs: [
+            "Mirror effect film relies on a simple optical principle: during the day, the outside of a room is brighter than the inside, and the film reflects that light on the outside face. That creates both the mirror effect that blocks the view from the street, and a reflection of part of the solar radiation before it turns into heat inside the room. Both effects come from the same mechanism, not two different treatments layered on top of each other.",
+          ],
+        },
+        {
+          heading: 'What this actually changes about the heat',
+          anchor: 'chaleur',
+          paragraphs: [
+            "In the field, solar and mirror film installations show a 3 to 6°C drop in indoor temperature in summer in the most exposed rooms. The US [Department of Energy](https://www.osti.gov/servlets/purl/1089147) reaches a similar conclusion: window films can reduce cooling-related energy consumption by up to 30%, by limiting the solar heat gain passing through the glass, which according to the same study accounts for roughly a third of a building's cooling load.",
+          ],
+        },
+        {
+          heading: 'And about being overlooked',
+          anchor: 'vis-a-vis',
+          paragraphs: [
+            "The film fully blocks the view from outside during the day, while you keep a clear view from inside. One thing to keep in mind: this effect only works as long as the outside stays brighter than the inside, so during the day. In the evening, once your lights are on, the effect reverses, just like with any lit window at night. If evening privacy matters to you too, our [article on matte white film](/blog/film-blanc-mat-vitrage-bruxelles) covers that specific need, at the cost of a more opaque result.",
+          ],
+        },
+        {
+          heading: 'The other films only do one of the two',
+          anchor: 'comparaison',
+          paragraphs: [
+            "That's what makes mirror effect film unique among the 4 available tints: solar film reduces heat but adds no privacy, and matte white film blocks the view day and night but has no effect on heat. Mirror effect film is the only one of the 4 that answers both needs at once, with a single installation. Our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the 4 tints with a comparison table if your situation is different.",
+          ],
+        },
+        {
+          heading: 'When it really pays off',
+          anchor: 'quand',
+          paragraphs: [
+            "This double benefit matters most for rooms exposed to both the sun and the street: a south-facing ground-floor living room on the street, a garden-facing bay window visible from neighbours, or a west-facing facade that heats up right when the street is busiest. For a room with only one of the two problems, another film may be more suitable: our [choice guide](/blog/quel-film-choisir-vitrages) helps decide case by case.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[U.S. Department of Energy / Office of Scientific and Technical Information — study on energy-control window films](https://www.osti.gov/servlets/purl/1089147)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is mirror effect film as effective against heat as solar film?',
+          answer: "Both rely on the same principle of reflecting solar radiation, with a comparable effect on heat. The difference is in privacy: solar film stays transparent in both directions, mirror film blocks the view from outside during the day.",
+        },
+        {
+          question: 'Is it more expensive to target both benefits at once?',
+          answer: "No, our rate depends only on the surface area to be treated, not on the number of benefits you're after. It's the same film, installed once.",
+        },
+        {
+          question: 'If I also want evening privacy, is mirror film enough?',
+          answer: "No, the mirror effect only works during the day. For privacy at any time on top of reduced heat, you'd need to compare with matte white film, which however has no effect on heat. Our [choice guide](/blog/quel-film-choisir-vitrages) explains this trade-off.",
+        },
+        {
+          question: "Why not just install two different films?",
+          answer: "That would be pointless and more expensive: mirror effect film already covers both needs with a single installation. Stacking two films on the same glazing isn't something we do, and it wouldn't add anything.",
         },
       ],
     },

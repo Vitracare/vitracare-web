@@ -37,6 +37,8 @@ Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](htt
 - [Ukkel, Linkebeek en Sint-Genesius-Rode](https://vitracare.be/nl/communes/uccle)
 - [Waterloo, Eigenbrakel en Lasne](https://vitracare.be/nl/communes/waterloo)
 - [Vorst](https://vitracare.be/nl/communes/forest)
+- [Elsene, Flagey en Kasteleinsplein](https://vitracare.be/nl/communes/ixelles)
+- [Schaarbeek, Terdelt en Rigaplein](https://vitracare.be/nl/communes/schaerbeek)
 
 ## Juridische informatie
 - [Wettelijke vermeldingen](https://vitracare.be/nl/mentions-legales)

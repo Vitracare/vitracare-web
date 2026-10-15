@@ -37,6 +37,8 @@ Other language versions: [Français](https://vitracare.be/llms.txt) — [Nederla
 - [Uccle, Linkebeek and Rhode-Saint-Genèse](https://vitracare.be/en/communes/uccle)
 - [Waterloo, Braine-l'Alleud and Lasne](https://vitracare.be/en/communes/waterloo)
 - [Forest](https://vitracare.be/en/communes/forest)
+- [Ixelles, Flagey and Chatelain](https://vitracare.be/en/communes/ixelles)
+- [Schaerbeek, Terdelt and Square Riga](https://vitracare.be/en/communes/schaerbeek)
 
 ## Legal information
 - [Legal notice](https://vitracare.be/en/mentions-legales)

@@ -37,6 +37,8 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 - [Uccle, Linkebeek et Rhode-Saint-Genèse](https://vitracare.be/communes/uccle)
 - [Waterloo, Braine-l'Alleud et Lasne](https://vitracare.be/communes/waterloo)
 - [Forest](https://vitracare.be/communes/forest)
+- [Ixelles, Flagey et Châtelain](https://vitracare.be/communes/ixelles)
+- [Schaerbeek, Terdelt et Square Riga](https://vitracare.be/communes/schaerbeek)
 
 ## Informations légales
 - [Mentions légales](https://vitracare.be/mentions-legales)

@@ -17,6 +17,11 @@ export type CommunePage = {
   intro: string;
   sections: CommuneSection[];
   faq: CommuneFaqItem[];
+  // Defaults to shown. Set to false for a commune page that should exist (built,
+  // indexed via sitemap.xml, listed in llms.txt — real content for Google/AI
+  // crawlers) without a clickable link anywhere in the site's own navigation —
+  // deliberately requested to keep /zone-intervention from listing every commune.
+  hidden?: boolean;
 };
 
 // Each commune page leads with what's actually different about the local building
@@ -180,6 +185,116 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Que se passe-t-il le soir, une fois les lumières allumées ?',
           answer: "L'effet miroir fonctionne uniquement de jour. Le soir, si l'intérieur est éclairé, l'effet s'inverse comme pour une fenêtre classique — un point à garder en tête selon les pièces concernées.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'ixelles',
+      hidden: true,
+      name: 'Ixelles',
+      title: 'Film pour vitrage à Ixelles : la solution pour immeubles de maître et appartements avec vis-à-vis',
+      metaTitle: 'Film pour vitrage à Ixelles, Flagey et Châtelain',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Ixelles : intimité et confort thermique adaptés aux grandes baies vitrées des immeubles de maître.",
+      intro:
+        "Ixelles est l'une des communes les plus densément peuplées de Bruxelles : immeubles de maître du 19e siècle transformés en appartements, grandes baies vitrées autour des étangs et de Flagey, quartiers animés comme le Châtelain ou Matongé. Cette densité crée un vis-à-vis quasi permanent, entre façades proches et fenêtres qui se font face d'un immeuble à l'autre.",
+      sections: [
+        {
+          heading: 'Le bâti à Ixelles : ce qui compte pour choisir son film',
+          paragraphs: [
+            "Autour des étangs d'Ixelles, du Châtelain ou de Flagey, le bâti est dominé par de grands immeubles de maître aux larges fenêtres, souvent divisés en appartements. Ces grandes baies, caractéristiques de l'architecture bruxelloise de la fin du 19e siècle, apportent beaucoup de lumière mais exposent aussi fortement les pièces de vie aux regards des immeubles voisins, parfois à quelques mètres seulement de l'autre côté de la rue ou de la cour intérieure.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation pour les appartements ixellois',
+          paragraphs: [
+            "Pour les grandes fenêtres donnant sur rue ou sur cour avec un vis-à-vis direct, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les salles de bain ou chambres en rez-de-chaussée, souvent très exposées dans ce type d'immeuble, le film blanc mat garantit une intimité constante, jour et nuit.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Dans un quartier aussi dense qu'Ixelles, les grandes baies vitrées exposent l'intérieur du logement à de nombreux regards extérieurs, bien au-delà des voisins directs. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Ixelles',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Ixelles, en complément de notre présence dans toute la région bruxelloise. Notre collaborateur intervient dans tous les quartiers de la commune.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film convient-il aux grandes baies vitrées des immeubles de maître ixellois ?',
+          answer: "Oui, c'est l'un des cas d'usage les plus fréquents à Ixelles : ces grandes fenêtres se prêtent très bien au film effet miroir ou blanc mat selon le niveau d'intimité recherché.",
+        },
+        {
+          question: 'Intervenez-vous dans tous les quartiers d\'Ixelles ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, des étangs au Châtelain en passant par Flagey et Matongé.",
+        },
+        {
+          question: 'Le film fonctionne-t-il aussi pour les appartements en copropriété ?',
+          answer: "Oui, le film se pose côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement au syndic peut néanmoins être recommandé avant travaux.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
+    {
+      slug: 'schaerbeek',
+      hidden: true,
+      name: 'Schaerbeek',
+      title: 'Film pour vitrage à Schaerbeek : la solution pour maisons de maître et façades à bow-windows',
+      metaTitle: 'Film pour vitrage à Schaerbeek, Terdelt et Square Riga',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Schaerbeek : intimité et confort thermique adaptés aux grandes façades à bow-windows et à la densité de la commune.",
+      intro:
+        "Schaerbeek est la deuxième commune la plus peuplée de Bruxelles, avec un bâti très varié : maisons de maître Art déco autour du Square Riga ou de Terdelt, façades à bow-windows typiquement bruxelloises, et quartiers plus denses proches de la gare du Nord. Le vis-à-vis y prend des formes différentes selon le quartier, mais reste une préoccupation quasi générale.",
+      sections: [
+        {
+          heading: 'Le bâti à Schaerbeek',
+          paragraphs: [
+            "Schaerbeek se distingue par la diversité de son bâti : grandes maisons de maître avec bow-windows et vitraux dans les quartiers Terdelt ou Square Riga, rangées de maisons mitoyennes plus modestes dans les quartiers proches du centre. Les bow-windows, très caractéristiques de l'architecture bruxelloise, multiplient les surfaces vitrées exposées à la rue sur plusieurs angles à la fois.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les bow-windows et grandes façades vitrées donnant sur rue, le film effet miroir permet de conserver une vue dégagée depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les pièces nécessitant une intimité totale à toute heure, comme une salle de bain au rez-de-chaussée, le film blanc mat reste la solution la plus fiable.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Les bow-windows, en multipliant les angles de vue vers l'intérieur, exposent particulièrement ce qui est visible depuis la rue. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Schaerbeek',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Schaerbeek, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film convient-il aux bow-windows typiques de Schaerbeek ?',
+          answer: "Oui, les bow-windows se prêtent très bien au film pour vitrage : chaque panneau peut être traité individuellement pour un rendu homogène sur toute la façade.",
+        },
+        {
+          question: 'Intervenez-vous dans tous les quartiers de Schaerbeek ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, du Square Riga à Terdelt en passant par les quartiers proches de la gare du Nord.",
+        },
+        {
+          question: 'Le film abîme-t-il les vitraux ou éléments décoratifs anciens ?',
+          answer: "Non, le film se pose sur une surface vitrée standard et n'altère pas les éléments décoratifs environnants. Pour un vitrage avec des éléments spécifiques (plomb, gravure), nous en discutons au cas par cas lors de la prise de mesures.",
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
@@ -351,6 +466,116 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
       ],
     },
+    {
+      slug: 'ixelles',
+      hidden: true,
+      name: 'Elsene',
+      title: 'Raamfolie in Elsene: de oplossing voor herenhuizen en appartementen met inkijk',
+      metaTitle: 'Raamfolie in Elsene, Flagey en Kasteleinsplein',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Elsene: privacy en thermisch comfort aangepast aan de grote raampartijen van herenhuizen en appartementen nabij de vijvers.',
+      intro:
+        'Elsene is een van de dichtstbevolkte gemeenten van Brussel: 19e-eeuwse herenhuizen omgebouwd tot appartementen, grote raampartijen rond de vijvers en Flagey, levendige wijken zoals het Kasteleinsplein of Matongé. Deze dichtheid zorgt voor een bijna permanente inkijk, tussen gevels die dicht bij elkaar staan en ramen die elkaar van het ene gebouw naar het andere aankijken.',
+      sections: [
+        {
+          heading: 'De bebouwing in Elsene: waar u rekening mee moet houden',
+          paragraphs: [
+            'Rond de vijvers van Elsene, het Kasteleinsplein of Flagey bestaat de bebouwing voornamelijk uit grote herenhuizen met brede ramen, vaak opgedeeld in appartementen. Deze grote raampartijen, kenmerkend voor de Brusselse architectuur van het einde van de 19e eeuw, brengen veel licht binnen maar stellen de leefruimtes ook sterk bloot aan de blikken van naburige gebouwen, soms slechts enkele meters verderop aan de overkant van de straat of de binnenplaats.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling voor appartementen in Elsene',
+          paragraphs: [
+            'Voor grote ramen met direct zicht op straat of binnenplaats laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor badkamers of slaapkamers op het gelijkvloers, vaak erg blootgesteld in dit type gebouw, garandeert matwitte folie permanente privacy, dag en nacht.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'In een wijk zo dicht als Elsene stellen grote raampartijen het interieur van de woning bloot aan veel blikken van buitenaf, ver voorbij de directe buren. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Elsene',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Elsene, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze medewerker is actief in alle wijken van de gemeente.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is de folie geschikt voor de grote raampartijen van herenhuizen in Elsene?',
+          answer: 'Ja, dit is een van de meest voorkomende toepassingen in Elsene: deze grote ramen lenen zich uitstekend voor spiegeleffectfolie of matwitte folie, naargelang de gewenste privacy.',
+        },
+        {
+          question: 'Bent u actief in alle wijken van Elsene?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van de vijvers tot het Kasteleinsplein, via Flagey en Matongé.',
+        },
+        {
+          question: 'Werkt de folie ook voor appartementen in mede-eigendom?',
+          answer: 'Ja, de folie wordt langs de binnenzijde van het glas geplaatst en wijzigt het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de syndicus toch aanbevolen zijn voor de werken.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
+    {
+      slug: 'schaerbeek',
+      hidden: true,
+      name: 'Schaarbeek',
+      title: 'Raamfolie in Schaarbeek: de oplossing voor herenhuizen en gevels met erkers',
+      metaTitle: 'Raamfolie in Schaarbeek, Terdelt en Rigaplein',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Schaarbeek: privacy en thermisch comfort aangepast aan de grote erkergevels en de dichtheid van de gemeente.',
+      intro:
+        'Schaarbeek is de tweede dichtstbevolkte gemeente van Brussel, met een zeer gevarieerde bebouwing: art-decoherenhuizen rond het Rigaplein of Terdelt, typisch Brusselse erkergevels, en dichtere wijken nabij het Noordstation. Inkijk neemt er verschillende vormen aan naargelang de wijk, maar blijft een vrijwel algemene bezorgdheid.',
+      sections: [
+        {
+          heading: 'De bebouwing in Schaarbeek',
+          paragraphs: [
+            'Schaarbeek onderscheidt zich door de diversiteit van haar bebouwing: grote herenhuizen met erkers en glas-in-loodramen in de wijken Terdelt of Rigaplein, bescheidener rijen rijwoningen in de wijken dichter bij het centrum. De erkers, erg kenmerkend voor de Brusselse architectuur, vermenigvuldigen de aan de straat blootgestelde glasoppervlakken over meerdere hoeken tegelijk.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor erkers en grote raampartijen met zicht op straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor ruimtes die op elk moment volledige privacy vereisen, zoals een badkamer op het gelijkvloers, blijft matwitte folie de meest betrouwbare oplossing.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Erkers vermenigvuldigen de kijkhoeken naar binnen en stellen zo in het bijzonder bloot wat zichtbaar is vanaf de straat. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Schaarbeek',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Schaarbeek, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is de folie geschikt voor de typische erkers van Schaarbeek?',
+          answer: 'Ja, erkers lenen zich uitstekend voor raamfolie: elk paneel kan afzonderlijk behandeld worden voor een homogeen resultaat over de hele gevel.',
+        },
+        {
+          question: 'Bent u actief in alle wijken van Schaarbeek?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van het Rigaplein tot Terdelt, via de wijken nabij het Noordstation.',
+        },
+        {
+          question: 'Beschadigt de folie glas-in-lood of andere decoratieve elementen?',
+          answer: 'Nee, de folie wordt op een standaard glasoppervlak geplaatst en tast de omliggende decoratieve elementen niet aan. Voor beglazing met specifieke elementen (lood, gravure) bespreken we dit geval per geval tijdens de opmeting.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -508,6 +733,116 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'What happens in the evening, once the lights are on?',
           answer: 'The mirror effect only works during the day. In the evening, if the interior is lit, the effect reverses just like with any ordinary window — worth keeping in mind depending on the room.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'ixelles',
+      hidden: true,
+      name: 'Ixelles',
+      title: 'Window film in Ixelles: the solution for townhouses and apartments with overlooking',
+      metaTitle: 'Window Film in Ixelles, Flagey and Chatelain',
+      metaDescription:
+        'VitraCare installs window films and tints in Ixelles: privacy and thermal comfort suited to the large windows of townhouses and apartments near the ponds.',
+      intro:
+        "Ixelles is one of the most densely populated communes in Brussels: 19th-century townhouses converted into apartments, large windows around the ponds and Flagey, lively neighbourhoods like Chatelain or Matongé. This density creates near-constant overlooking, with façades close together and windows facing each other from one building to the next.",
+      sections: [
+        {
+          heading: 'Housing in Ixelles: what matters when choosing a film',
+          paragraphs: [
+            'Around the Ixelles ponds, Chatelain or Flagey, housing is dominated by large townhouses with wide windows, often split into apartments. These large windows, typical of late 19th-century Brussels architecture, bring in plenty of light but also strongly expose living spaces to the view of neighbouring buildings, sometimes just metres away across the street or the inner courtyard.',
+          ],
+        },
+        {
+          heading: 'Our recommendation for Ixelles apartments',
+          paragraphs: [
+            'For large windows facing the street or a courtyard with direct overlooking, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For ground-floor bathrooms or bedrooms, often very exposed in this type of building, matte white film guarantees constant privacy, day and night.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "In a neighbourhood as dense as Ixelles, large windows expose the inside of the home to many outside views, well beyond direct neighbours. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Ixelles',
+          paragraphs: [
+            'We are currently running local outreach in Ixelles, alongside our presence across the wider Brussels region. Our collaborator works in every neighbourhood of the commune.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is the film suitable for the large windows of Ixelles townhouses?',
+          answer: "Yes, this is one of the most common uses in Ixelles: these large windows suit mirror effect or matte white film well, depending on the privacy level wanted.",
+        },
+        {
+          question: 'Do you work in every neighbourhood of Ixelles?',
+          answer: 'Yes, our collaborator covers the whole commune, from the ponds to Chatelain, via Flagey and Matongé.',
+        },
+        {
+          question: 'Does the film also work for apartments in co-ownership?',
+          answer: "Yes, the film is applied on the inside of the glazing and doesn't change the building's outside appearance. Depending on the co-ownership, a simple notice to the syndic may still be recommended before works.",
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'schaerbeek',
+      hidden: true,
+      name: 'Schaerbeek',
+      title: 'Window film in Schaerbeek: the solution for townhouses and bow-window façades',
+      metaTitle: 'Window Film in Schaerbeek, Terdelt and Square Riga',
+      metaDescription:
+        'VitraCare installs window films and tints in Schaerbeek: privacy and thermal comfort suited to the large bow-window façades and density of the commune.',
+      intro:
+        "Schaerbeek is the second most populous commune in Brussels, with very varied housing: Art Deco townhouses around Square Riga or Terdelt, bow-window façades typical of Brussels, and denser neighbourhoods near Gare du Nord. Overlooking takes different forms depending on the area, but remains an almost universal concern.",
+      sections: [
+        {
+          heading: 'Housing in Schaerbeek',
+          paragraphs: [
+            'Schaerbeek stands out for the diversity of its housing: large townhouses with bow windows and stained glass in the Terdelt or Square Riga areas, more modest rows of terraced houses closer to the centre. Bow windows, very characteristic of Brussels architecture, multiply the glass surfaces exposed to the street across several angles at once.',
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For bow windows and large street-facing façades, mirror effect film keeps the view clear from inside while blocking the view from outside during the day. For rooms needing total privacy at all times, such as a ground-floor bathroom, matte white film remains the most reliable solution.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Bow windows, by multiplying the angles of view inward, particularly expose what's visible from the street. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Schaerbeek',
+          paragraphs: [
+            'We are currently running local outreach in Schaerbeek, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Is the film suitable for the bow windows typical of Schaerbeek?',
+          answer: 'Yes, bow windows suit window film very well: each panel can be treated individually for a consistent result across the whole façade.',
+        },
+        {
+          question: 'Do you work in every neighbourhood of Schaerbeek?',
+          answer: 'Yes, our collaborator covers the whole commune, from Square Riga to Terdelt, via the neighbourhoods near Gare du Nord.',
+        },
+        {
+          question: 'Does the film damage stained glass or other decorative elements?',
+          answer: "No, the film is applied to a standard glass surface and doesn't affect surrounding decorative elements. For glazing with specific features (leading, engraving), we discuss it case by case during the measurement visit.",
         },
         {
           question: 'Can the film help reduce the risk of burglary?',

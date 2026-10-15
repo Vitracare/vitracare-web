@@ -736,6 +736,52 @@ const communePages = [
       },
     },
   },
+  {
+    slug: 'ixelles',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Ixelles, Flagey et Châtelain',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Ixelles : intimité et confort thermique adaptés aux grandes baies vitrées des immeubles de maître.",
+        name: 'Ixelles',
+      },
+      NL: {
+        title: 'Raamfolie in Elsene, Flagey en Kasteleinsplein',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Elsene: privacy en thermisch comfort aangepast aan de grote raampartijen van herenhuizen in de gemeente.',
+        name: 'Elsene',
+      },
+      EN: {
+        title: 'Window Film in Ixelles, Flagey and Chatelain',
+        description:
+          'VitraCare installs window films and tints in Ixelles: privacy and thermal comfort suited to the large windows of townhouses in the commune.',
+        name: 'Ixelles',
+      },
+    },
+  },
+  {
+    slug: 'schaerbeek',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Schaerbeek, Terdelt et Square Riga',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Schaerbeek : intimité et confort thermique adaptés aux façades à bow-windows et à la densité de la commune.",
+        name: 'Schaerbeek',
+      },
+      NL: {
+        title: 'Raamfolie in Schaarbeek, Terdelt en Rigaplein',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Schaarbeek: privacy en thermisch comfort aangepast aan de erkergevels en dichtheid van de gemeente.',
+        name: 'Schaarbeek',
+      },
+      EN: {
+        title: 'Window Film in Schaerbeek, Terdelt and Square Riga',
+        description:
+          'VitraCare installs window films and tints in Schaerbeek: privacy and thermal comfort suited to the bow-window façades and density of the commune.',
+        name: 'Schaerbeek',
+      },
+    },
+  },
 ];
 
 function decodeEntities(str) {

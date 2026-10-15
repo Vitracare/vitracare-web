@@ -11,7 +11,9 @@ const brandColor = '#BA9765';
 export default function ZoneIntervention() {
   const { t, lang } = useLanguage();
   const zone = t.zone;
-  const communes = communePages[lang];
+  // Hidden commune pages exist for SEO (built, sitemapped, listed in llms.txt)
+  // but are deliberately not linked from anywhere in the site's own navigation.
+  const communes = communePages[lang].filter((c) => !c.hidden);
 
   useEffect(() => {
     document.title = zone.metaTitle;

@@ -343,7 +343,7 @@ export default function Home() {
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Yeux.png" alt="Retrouvez votre intimité" width={454} height={277} className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Yeux.png" alt={t.features.f1_title.replace('\n', ' ')} width={454} height={277} className="h-full w-full object-contain mix-blend-multiply" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f1_title}
@@ -359,7 +359,7 @@ export default function Home() {
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Securite.png" alt="Protégez votre famille" width={240} height={270} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Securite.png" alt={t.features.f2_title.replace('\n', ' ')} width={240} height={270} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f2_title}
@@ -375,7 +375,7 @@ export default function Home() {
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Preserver.png" alt="Préservez vos biens" width={307} height={269} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Preserver.png" alt={t.features.f3_title.replace('\n', ' ')} width={307} height={269} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f3_title}
@@ -391,7 +391,7 @@ export default function Home() {
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 md:mb-8 flex h-[48px] w-[48px] md:h-[80px] md:w-[80px] items-center justify-center">
-              <img loading="lazy" src="/images/Temperature.png" alt="Une température maîtrisée" width={144} height={275} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
+              <img loading="lazy" src="/images/Temperature.png" alt={t.features.f4_title.replace('\n', ' ')} width={144} height={275} className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <h3 className="text-[15px] md:text-[22px] font-bold mb-1.5 md:mb-4 leading-snug whitespace-pre-line" style={{ color: headingColor }}>
               {t.features.f4_title}
@@ -676,14 +676,14 @@ export default function Home() {
               <div className="relative h-[550px] flex flex-col gap-4 w-full">
                 {/* Top Row */}
                 <div className="flex w-full h-[42%] gap-4 items-end">
-                  <img loading="lazy" src="/images/House-1-final.webp" width={1280} height={916} className="w-[53%] h-full object-cover rounded-xl" alt="Maison à Bruxelles avec vitrages teintés" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-2.webp" width={539} height={800} className="w-[25%] h-[98%] object-cover rounded-xl" alt="Balcon vitré avec film teinté posé par VitraCare" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/House-1-final.webp" width={1280} height={916} className="w-[53%] h-full object-cover rounded-xl" alt={lang === 'NL' ? 'Huis in Brussel met getinte beglazing' : lang === 'EN' ? 'House in Brussels with tinted windows' : 'Maison à Bruxelles avec vitrages teintés'} referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-2.webp" width={539} height={800} className="w-[25%] h-[98%] object-cover rounded-xl" alt={lang === 'NL' ? 'Balkon met raamfolie geplaatst door VitraCare' : lang === 'EN' ? 'Balcony with window film installed by VitraCare' : 'Balcon vitré avec film teinté posé par VitraCare'} referrerPolicy="no-referrer" />
                 </div>
                 {/* Bottom Row */}
                 <div className="flex w-full h-[58%] gap-4 items-start pl-[7%]">
-                  <img loading="lazy" src="/images/Avis-3-final.webp" width={573} height={800} className="w-[27%] h-[72%] object-cover rounded-xl" alt="Fenêtres avec film teinté effet miroir" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-4.webp" width={523} height={800} className="w-[34%] h-full object-cover rounded-xl" alt="Façade de maison avec vitrages teintés à Bruxelles" referrerPolicy="no-referrer" />
-                  <img loading="lazy" src="/images/Avis-5-final.webp" width={769} height={800} className="w-[25%] h-[49%] object-cover rounded-xl" alt="Baie vitrée avec film solaire posé par VitraCare" referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-3-final.webp" width={573} height={800} className="w-[27%] h-[72%] object-cover rounded-xl" alt={lang === 'NL' ? 'Ramen met spiegeleffectfolie' : lang === 'EN' ? 'Windows with mirror effect film' : 'Fenêtres avec film teinté effet miroir'} referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-4.webp" width={523} height={800} className="w-[34%] h-full object-cover rounded-xl" alt={lang === 'NL' ? 'Gevel van een huis in Brussel met getinte beglazing' : lang === 'EN' ? 'House façade in Brussels with tinted windows' : 'Façade de maison avec vitrages teintés à Bruxelles'} referrerPolicy="no-referrer" />
+                  <img loading="lazy" src="/images/Avis-5-final.webp" width={769} height={800} className="w-[25%] h-[49%] object-cover rounded-xl" alt={lang === 'NL' ? 'Raampartij met zonwerende folie geplaatst door VitraCare' : lang === 'EN' ? 'Bay window with solar film installed by VitraCare' : 'Baie vitrée avec film solaire posé par VitraCare'} referrerPolicy="no-referrer" />
                 </div>
               </div>
               {/* Desktop/tablet-landscape only — the mobile equivalent sits with the

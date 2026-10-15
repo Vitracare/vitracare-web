@@ -384,7 +384,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: "Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?",
       metaTitle: 'Film de sécurité anti-effraction à Bruxelles',
       metaDescription:
-        "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
+        "Vitrine ou rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages contre les tentatives d'effraction, sans changer vos fenêtres.",
       date: '2026-09-13',
       excerpt:
         "Un vitrage standard cède en quelques secondes sous un coup porté. Le film de sécurité renforce la résistance du verre et complique une intrusion, sans changer vos fenêtres.",
@@ -1655,7 +1655,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
       metaTitle: 'Beveiligingsfolie tegen inbraak in Brussel',
       metaDescription:
-        'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
+        'Etalage of gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
       date: '2026-09-13',
       excerpt:
         'Standaard beglazing bezwijkt binnen enkele seconden onder een gerichte klap. Beveiligingsfolie versterkt de weerstand van het glas en bemoeilijkt een inbraak, zonder uw ramen te vervangen.',

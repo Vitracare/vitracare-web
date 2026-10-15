@@ -338,7 +338,7 @@ const blogArticles = [
     FR: {
       title: 'Film de sécurité anti-effraction à Bruxelles — VitraCare',
       description:
-        "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
+        "Vitrine ou rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages contre les tentatives d'effraction, sans changer vos fenêtres.",
       headline: 'Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?',
       datePublished: '2026-09-13',
       dateModified: '2026-10-15',
@@ -346,7 +346,7 @@ const blogArticles = [
     NL: {
       title: 'Beveiligingsfolie tegen inbraak in Brussel — VitraCare',
       description:
-        'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
+        'Etalage of gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
       headline: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
       datePublished: '2026-09-13',
       dateModified: '2026-10-15',

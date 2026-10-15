@@ -425,7 +425,7 @@ const blogArticles = [
     FR: {
       title: 'Vitre teintée anti-UV à Bruxelles — VitraCare',
       description:
-        "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
+        "Meubles, parquet, tissus : pourquoi ils se décolorent, et comment le film pour vitrage protège durablement votre intérieur, chiffres à l'appui.",
       headline: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
       datePublished: '2026-09-19',
       dateModified: '2026-10-06',

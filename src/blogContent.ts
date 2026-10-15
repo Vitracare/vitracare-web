@@ -626,7 +626,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       slug: 'protection-uv-film-vitrage-bruxelles',
       title: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
       metaTitle: 'Vitre teintée anti-UV à Bruxelles',
-      metaDescription: "Meubles, parquet et tissus qui se décolorent au fil des années ? On vous explique pourquoi, et comment le film pour vitrage protège durablement votre intérieur, chiffres réels à l'appui.",
+      metaDescription: "Meubles, parquet, tissus : pourquoi ils se décolorent, et comment le film pour vitrage protège durablement votre intérieur, chiffres à l'appui.",
       date: '2026-09-19',
       excerpt: "Vos meubles ou votre parquet perdent leurs couleurs au fil des années sans que vous sachiez pourquoi ? La réponse est presque toujours la même. Voici les vraies solutions, et pourquoi le film pour vitrage revient le plus souvent.",
             heroImage: { src: '/images/blog/illus-protection-uv.jpg', alt: 'Illustration comparant un canapé décoloré par le soleil à travers une vitre non protégée, et un canapé aux couleurs préservées grâce au film anti-UV', width: 1200, height: 669 },

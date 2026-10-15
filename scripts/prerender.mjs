@@ -541,7 +541,7 @@ const blogArticles = [
     FR: {
       title: 'Film effet miroir pour vitrage à Bruxelles — VitraCare',
       description:
-        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée donnant sur la rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière. Fonctionnement, prix et installation à Bruxelles.",
+        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée sur rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière.",
       headline: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans perdre la lumière',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',
@@ -549,7 +549,7 @@ const blogArticles = [
     NL: {
       title: 'Spiegeleffect folie voor beglazing in Brussel — VitraCare',
       description:
-        'Inkijk, gelijkvloers blootgesteld, raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt. Werking, prijs en plaatsing in Brussel.',
+        'Inkijk, gelijkvloers of raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt.',
       headline: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder lichtverlies',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',
@@ -557,7 +557,7 @@ const blogArticles = [
     EN: {
       title: 'Mirror Effect Film for Windows in Brussels — VitraCare',
       description:
-        "Being overlooked, an exposed ground floor, a window facing the street: mirror effect film blocks the view from outside during the day, while letting light in. How it works, pricing, and installation in Brussels.",
+        "Being overlooked, an exposed ground floor or street-facing window: mirror effect film blocks the view from outside during the day, while letting light in.",
       headline: 'Mirror effect film for windows in Brussels: total daytime privacy, without losing the light',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',

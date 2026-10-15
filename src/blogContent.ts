@@ -969,7 +969,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans perdre la lumière',
       metaTitle: 'Film effet miroir pour vitrage à Bruxelles',
       metaDescription:
-        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée donnant sur la rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière. Fonctionnement, prix et installation à Bruxelles.",
+        "Vis-à-vis, rez-de-chaussée exposé, baie vitrée sur rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière.",
       date: '2026-10-05',
       excerpt:
         "Le film effet miroir est la solution la plus radicale contre le vis-à-vis : une intimité totale de jour, sans jamais fermer un rideau. Voici comment il fonctionne, et pour qui il est fait.",
@@ -2240,7 +2240,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder lichtverlies',
       metaTitle: 'Spiegeleffect folie voor beglazing in Brussel',
       metaDescription:
-        'Inkijk, gelijkvloers blootgesteld, raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt. Werking, prijs en plaatsing in Brussel.',
+        'Inkijk, gelijkvloers of raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt.',
       date: '2026-10-05',
       excerpt:
         'Spiegeleffectfolie is de meest radicale oplossing tegen inkijk: volledige privacy overdag, zonder ooit een gordijn te sluiten. Hoe ze werkt, en voor wie ze geschikt is.',
@@ -3511,7 +3511,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Mirror effect film for windows in Brussels: total daytime privacy, without losing the light',
       metaTitle: 'Mirror Effect Film for Windows in Brussels',
       metaDescription:
-        "Being overlooked, an exposed ground floor, a window facing the street: mirror effect film blocks the view from outside during the day, while letting light in. How it works, pricing, and installation in Brussels.",
+        "Being overlooked, an exposed ground floor or street-facing window: mirror effect film blocks the view from outside during the day, while letting light in.",
       date: '2026-10-05',
       excerpt:
         "Mirror effect film is the most effective solution against being overlooked: total daytime privacy, without ever closing a curtain. How it works, and who it's for.",

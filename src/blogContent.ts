@@ -890,7 +890,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Vitrage à contrôle solaire intégré ou film posé après coup : quelle différence ?',
       metaTitle: 'Vitrage à contrôle solaire ou film : quelle différence ?',
       metaDescription:
-        "Vitrage à contrôle solaire intégré en usine ou film de contrôle solaire posé sur vos fenêtres existantes : coût, efficacité et délai comparés pour choisir en connaissance de cause.",
+        "Vitrage à contrôle solaire intégré en usine ou film posé sur vos fenêtres existantes : coût, efficacité et délai comparés.",
       date: '2026-10-07',
       excerpt:
         "Vitrage à contrôle solaire ou film posé après coup : deux solutions au même problème de chaleur, mais pas au même prix ni dans les mêmes délais. Voici comment choisir.",
@@ -2161,7 +2161,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Geïntegreerde zonwerende beglazing of folie achteraf: wat is het verschil?',
       metaTitle: 'Zonwerende beglazing of folie: wat is het verschil?',
       metaDescription:
-        'Zonwerende beglazing geïntegreerd in de fabriek of zonwerende folie geplaatst op uw bestaande ramen: kostprijs, doeltreffendheid en termijn vergeleken om met kennis van zaken te kiezen.',
+        'Zonwerende beglazing geïntegreerd in de fabriek of folie op uw bestaande ramen: kostprijs, doeltreffendheid en termijn vergeleken.',
       date: '2026-10-07',
       excerpt:
         'Zonwerende beglazing of folie achteraf: twee oplossingen voor hetzelfde hitteprobleem, maar niet aan dezelfde prijs of binnen dezelfde termijn. Hier leest u hoe u kiest.',
@@ -3432,7 +3432,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Integrated solar control glazing or film applied afterwards: what\'s the difference?',
       metaTitle: 'Solar Control Glazing or Film: What\'s the Difference?',
       metaDescription:
-        "Factory-integrated solar control glazing or solar control film applied to your existing windows: cost, effectiveness and timeline compared, to help you choose with full knowledge.",
+        "Factory-integrated solar control glazing or film applied to your existing windows: cost, effectiveness and timeline compared.",
       date: '2026-10-07',
       excerpt:
         "Solar control glazing or film applied afterwards: two solutions to the same heat problem, but not at the same price or within the same timeframe. Here's how to choose.",

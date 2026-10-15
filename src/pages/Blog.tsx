@@ -49,9 +49,9 @@ export default function Blog() {
                 <h2 className="text-[19px] font-bold mb-3 leading-snug group-hover:opacity-80 transition-opacity" style={{ color: '#464646' }}>
                   {article.title}
                 </h2>
-                <p className="text-[14px] leading-relaxed mb-4" style={{ color: '#767676' }}>
+                <div className="text-[14px] leading-relaxed mb-4" style={{ color: '#767676' }}>
                   {article.excerpt}
-                </p>
+                </div>
                 <span className="text-[13px] font-bold mt-auto" style={{ color: brandColor }}>
                   {t.blog.readMore} →
                 </span>

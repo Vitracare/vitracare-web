@@ -122,9 +122,9 @@ export default function Avis() {
 
       {/* CTA band */}
       <div className="w-full bg-[#FAF9F6] border-t border-gray-100 py-16 px-8 text-center">
-        <h2 className="text-[24px] md:text-[28px] font-bold mb-3" style={{ color: '#464646' }}>
+        <p className="text-[24px] md:text-[28px] font-bold mb-3" style={{ color: '#464646' }}>
           {t.avis.ctaTitle}
-        </h2>
+        </p>
         <p className="text-[15px] mb-8 max-w-xl mx-auto" style={{ color: '#767676' }}>
           {t.avis.ctaSubtitle}
         </p>

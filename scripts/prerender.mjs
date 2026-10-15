@@ -841,6 +841,7 @@ function buildBusinessSchema(lang, prefix) {
     sameAs: [
       'https://share.google/c3Bih4FWySHUhjkAZ',
       'https://fr-be.trustpilot.com/review/vitracare.be',
+      'https://www.instagram.com/vitracare.be/',
     ],
   };
   const service = {

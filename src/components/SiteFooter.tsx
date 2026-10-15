@@ -1,5 +1,16 @@
 import { LocalizedLink as Link } from './LocalizedLink';
 import { Phone, Mail } from 'lucide-react';
+
+// lucide-react dropped brand/social icons (no Instagram export in this version),
+// so this one is a plain inline SVG, drawn to match lucide's own stroke style
+// (currentColor, strokeWidth 2) so it sits visually consistent with Phone/Mail above.
+const InstagramIcon = ({ size = 15 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+  </svg>
+);
 import { useLanguage } from '../LanguageContext';
 import { trackEvent } from '../lib/analytics';
 import { OPEN_COOKIE_PREFS_EVENT } from './CookieConsentBanner';
@@ -49,6 +60,10 @@ export const SiteFooter = () => {
         <a href="mailto:contact@vitracare.be" onClick={() => trackEvent('email_click', { location: 'footer' })} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Mail size={15} />
           contact@vitracare.be
+        </a>
+        <a href="https://www.instagram.com/vitracare.be/" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('instagram_click', { location: 'footer' })} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <InstagramIcon />
+          Instagram
         </a>
         <span className="text-white/80">{t.footer.serviceArea}</span>
       </div>

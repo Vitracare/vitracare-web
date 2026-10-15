@@ -746,8 +746,8 @@ export default function Home() {
                     customer names or review text reproduced here, only links to the
                     real, independently verifiable listings. */}
                 <div className="flex flex-row flex-nowrap items-center justify-center lg:justify-start gap-x-1.5 sm:gap-x-3">
-                  {/* Real Google Business Profile score badge — 4.8/5, actual rating.
-                      Stars rounded to nearest whole star for the visual (4.8 -> 5).
+                  {/* Real Google Business Profile score badge — 4.9/5 (9 reviews), actual rating.
+                      Stars rounded to nearest whole star for the visual (4.9 -> 5).
                       Sizing shrinks on narrow screens (flex-nowrap above) so the two
                       badges always stay side by side, never stacked. */}
                   <a
@@ -768,7 +768,7 @@ export default function Home() {
                       ))}
                     </div>
                     <span className="text-[11px] sm:text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
-                      {lang === 'FR' ? '4,8/5' : '4.8/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
+                      {lang === 'FR' ? '4,9/5' : '4.9/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
                     </span>
                   </a>
                   {/* Real Trustpilot score badge — 4/5 is the current TrustScore (3.8)

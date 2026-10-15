@@ -792,6 +792,12 @@ const businessCopy = {
     city: 'Bruxelles',
     area: 'Périphérie bruxelloise',
     serviceType: 'Pose de films et teintes pour vitrages',
+    reviews: {
+      r1: 'Le salon plein sud est enfin vivable en été !',
+      r2: 'Impossible de savoir si nous sommes là de l\'extérieur. C\'est exactement ce qu\'on voulait.',
+      r3: 'Nous vivons enfin rideaux ouverts, sans nous sentir observés.',
+      r4: 'Nos toiles ne craignent plus le soleil. Un vrai soulagement !',
+    },
   },
   NL: {
     description:
@@ -799,6 +805,12 @@ const businessCopy = {
     city: 'Brussel',
     area: 'Brusselse rand',
     serviceType: 'Plaatsing van folies en tinten voor beglazing',
+    reviews: {
+      r1: 'De woonkamer op het zuiden is eindelijk leefbaar in de zomer!',
+      r2: 'Onmogelijk om van buitenaf te zien of we er zijn. Precies wat we wilden.',
+      r3: 'We leven eindelijk met open gordijnen, zonder ons bekeken te voelen.',
+      r4: 'Onze doeken zijn niet meer bang voor de zon. Een hele opluchting!',
+    },
   },
   EN: {
     description:
@@ -806,6 +818,12 @@ const businessCopy = {
     city: 'Brussels',
     area: 'Brussels surroundings',
     serviceType: 'Window film and tint installation',
+    reviews: {
+      r1: 'The south-facing living room is finally livable in summer!',
+      r2: 'Impossible to know if we are there from the outside. Exactly what we wanted.',
+      r3: 'We finally live with curtains open, without feeling watched.',
+      r4: 'Our canvases no longer fear the sun. A real relief!',
+    },
   },
 };
 
@@ -854,11 +872,29 @@ function buildBusinessSchema(lang, prefix) {
     },
     // Confirmed via the business's own Google share link — a real Google Business
     // Profile exists (Knowledge Graph id g/11zdd0rsnv), previously invisible from the
-    // site itself. Reviews stay on Google; no customer names are reproduced here.
+    // site itself.
     sameAs: [
       'https://share.google/c3Bih4FWySHUhjkAZ',
       'https://fr-be.trustpilot.com/review/vitracare.be',
       'https://www.instagram.com/vitracare.be/',
+    ],
+    // Real Google rating (4.9/5, 9 reviews) — Trustpilot (4/5, 3 reviews) is kept
+    // separate via sameAs above rather than blended into one artificial average
+    // across two different platforms' scales. Review text below is reused verbatim
+    // from what's already public on /avis, same first-name-only attribution. No
+    // per-review star rating is included — only the aggregate (4.9/9) is actually
+    // known; each individual reviewer's own star count isn't, so it isn't guessed.
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '9',
+      bestRating: '5',
+    },
+    review: [
+      { '@type': 'Review', author: { '@type': 'Person', name: 'Isabelle' }, reviewBody: copy.reviews.r1 },
+      { '@type': 'Review', author: { '@type': 'Person', name: 'Olivier' }, reviewBody: copy.reviews.r2 },
+      { '@type': 'Review', author: { '@type': 'Person', name: 'Sophie' }, reviewBody: copy.reviews.r3 },
+      { '@type': 'Review', author: { '@type': 'Person', name: 'François' }, reviewBody: copy.reviews.r4 },
     ],
   };
   const service = {

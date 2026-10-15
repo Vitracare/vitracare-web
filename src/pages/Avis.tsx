@@ -49,7 +49,7 @@ export default function Avis() {
               ))}
             </div>
             <span className="text-[13px] font-bold whitespace-nowrap" style={{ color: '#464646' }}>
-              {lang === 'FR' ? '4,8/5' : '4.8/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
+              {lang === 'FR' ? '4,9/5' : '4.9/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
             </span>
           </a>
           <a

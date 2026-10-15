@@ -396,26 +396,26 @@ const blogArticles = [
     FR: {
       title: 'Prix pose film vitrage à Bruxelles — VitraCare',
       description:
-        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Fourchette indicative, facteurs qui font varier le prix, et zone d'intervention de VitraCare.",
+        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi seul un devis donne un chiffre exact.",
       headline: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
     NL: {
       title: 'Prijs raamfolie plaatsen in Brussel — VitraCare',
       description:
-        'Hoeveel kost het plaatsen van raamfolie in Brussel? Indicatieve prijsvork, factoren die de prijs doen variëren, en het werkgebied van VitraCare.',
+        'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom enkel een offerte een exact cijfer geeft.',
       headline: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
     EN: {
       title: 'Window film installation price in Brussels — VitraCare',
       description:
-        "How much does window film installation cost in Brussels? Indicative price range, what makes it vary, and VitraCare's service area.",
+        "How much does window film installation cost in Brussels? What influences the price, and why a free quote is the only way to get an exact figure.",
       headline: 'Window film pricing in Brussels: what to expect',
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
   },
 },

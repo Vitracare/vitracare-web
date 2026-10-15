@@ -555,7 +555,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
       metaTitle: 'Prix pose film vitrage à Bruxelles',
       metaDescription:
-        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi un devis gratuit reste le seul moyen d'avoir un chiffre exact.",
+        "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi seul un devis donne un chiffre exact.",
       date: '2026-09-13',
       excerpt:
         "Le prix dépend du type de film, de la surface totale et de l'accessibilité du chantier. Voici ce qui l'influence, et pourquoi la seule vraie réponse reste un devis gratuit et sans engagement.",
@@ -1826,7 +1826,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
       metaTitle: 'Prijs raamfolie plaatsen in Brussel',
       metaDescription:
-        'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom een gratis offerte de enige manier is om een exact cijfer te krijgen.',
+        'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom enkel een offerte een exact cijfer geeft.',
       date: '2026-09-13',
       excerpt:
         'De prijs hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de werf. Hier is wat ze beïnvloedt, en waarom het enige echte antwoord een gratis en vrijblijvende offerte blijft.',

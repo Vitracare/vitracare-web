@@ -1128,7 +1128,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Film brise-vue pour fenêtre : pourquoi la pose professionnelle change tout',
       metaTitle: 'Film brise-vue à Bruxelles : pose professionnelle',
       metaDescription:
-        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat et sa durée de vie, et comment reconnaître un installateur sérieux.",
+        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat, et comment reconnaître un installateur sérieux.",
       date: '2026-10-11',
       excerpt:
         "Un film brise-vue mal posé se voit immédiatement, et pour longtemps. Voici ce qu'une pose professionnelle change concrètement, et comment repérer un installateur sérieux avant de se lancer.",

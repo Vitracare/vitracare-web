@@ -599,7 +599,7 @@ const blogArticles = [
     FR: {
       title: 'Film brise-vue à Bruxelles : pose professionnelle — VitraCare',
       description:
-        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat et sa durée de vie, et comment reconnaître un installateur sérieux.",
+        "Film brise-vue ou anti-regard : pourquoi une pose professionnelle fait une vraie différence sur le résultat, et comment reconnaître un installateur sérieux.",
       headline: 'Film brise-vue pour fenêtre : pourquoi la pose professionnelle change tout',
       datePublished: '2026-10-11',
       dateModified: '2026-10-11',

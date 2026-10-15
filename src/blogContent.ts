@@ -421,9 +421,17 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Garantie et durée de vie : ce qu\'il faut retenir',
+          anchor: 'garantie',
+          paragraphs: [
+            "La pose est garantie 2 ans, pour tout défaut lié à l'installation elle-même (décollement, bulle due à une mauvaise application). Elle ne couvre pas un dommage causé après coup par un usage inapproprié ou un tiers.",
+            "Posé côté intérieur, comme c'est le cas le plus fréquent pour ce film, la durée de vie est estimée à 10-15 ans. Une pose côté extérieur reste possible, mais réduit cette durée du fait de l'exposition directe aux intempéries.",
+          ],
+        },
+        {
           heading: 'Pour aller plus loin',
           paragraphs: [
-            "Le film de sécurité est l'une des 4 teintes présentées dans notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages), aux côtés des films solaire, miroir et blanc mat. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé selon la surface et le type de film.",
+            "Le film de sécurité est l'une des 4 teintes présentées dans notre [guide complet pour choisir son film](/blog/quel-film-choisir-vitrages), aux côtés des films solaire, miroir et blanc mat : chacune répond à un objectif précis plutôt qu'à un choix esthétique. Pour une idée de budget, notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment le devis est calculé selon la surface et le type de film. Vous pouvez aussi consulter nos [réalisations](/realisations) pour voir de vrais chantiers déjà effectués.",
           ],
         },
         {
@@ -449,6 +457,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Le film remplace-t-il une alarme ou des volets de sécurité ?',
           answer: "Non, c'est un complément à vos dispositifs de sécurité existants, pas un remplacement. Il agit spécifiquement sur la résistance du vitrage lui-même.",
+        },
+        {
+          question: 'Quelle garantie offrez-vous sur ce film ?',
+          answer: "2 ans sur la pose, pour un défaut qui nous est imputable (décollement, bulle). La durée de vie du film lui-même est estimée à 10-15 ans pour une pose côté intérieur.",
         },
       ],
     },
@@ -1586,9 +1598,17 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Garantie en levensduur: wat u moet onthouden',
+          anchor: 'garantie',
+          paragraphs: [
+            'De plaatsing is 2 jaar gewaarborgd, voor elk gebrek verbonden aan de installatie zelf (loslaten, luchtbel door een verkeerde toepassing). Dit dekt geen schade die nadien ontstaat door oneigenlijk gebruik of door een derde.',
+            'Aan de binnenzijde geplaatst, zoals meestal het geval is voor deze folie, is de levensduur geschat op 10 tot 15 jaar. Een plaatsing aan de buitenzijde blijft mogelijk, maar verkort deze levensduur door de directe blootstelling aan weersinvloeden.',
+          ],
+        },
+        {
           heading: 'Meer weten',
           paragraphs: [
-            "Beveiligingsfolie is een van de 4 tinten uit onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages), naast zonwerende, spiegeleffect- en matwitte folie. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt op basis van oppervlakte en type folie.",
+            "Beveiligingsfolie is een van de 4 tinten uit onze [volledige gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages), naast zonwerende, spiegeleffect- en matwitte folie: elke tint beantwoordt aan een precies doel, geen esthetische keuze. Voor een idee van het budget legt ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) uit hoe de offerte berekend wordt op basis van oppervlakte en type folie. Bekijk ook onze [realisaties](/realisations) voor echte, reeds uitgevoerde werven.",
           ],
         },
         {
@@ -1614,6 +1634,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Vervangt de folie een alarm of veiligheidsluiken?',
           answer: 'Nee, het is een aanvulling op uw bestaande beveiligingsvoorzieningen, geen vervanging. Ze werkt specifiek op de weerstand van de beglazing zelf.',
+        },
+        {
+          question: 'Welke garantie biedt u op deze folie?',
+          answer: '2 jaar op de plaatsing, voor een gebrek dat ons te wijten is (loslaten, luchtbel). De levensduur van de folie zelf wordt geschat op 10 tot 15 jaar bij plaatsing aan de binnenzijde.',
         },
       ],
     },
@@ -2751,9 +2775,17 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           ],
         },
         {
+          heading: 'Warranty and lifespan: what to remember',
+          anchor: 'garantie',
+          paragraphs: [
+            "The installation is guaranteed for 2 years, covering any defect linked to the installation itself (peeling, a bubble caused by poor application). It doesn't cover damage caused afterwards by misuse or a third party.",
+            "Installed on the interior side, the most common case for this film, the lifespan is estimated at 10 to 15 years. Exterior installation remains possible, but shortens this lifespan due to direct exposure to the weather.",
+          ],
+        },
+        {
           heading: 'Learn more',
           paragraphs: [
-            "Security film is one of the 4 tints covered in our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages), alongside solar, mirror effect, and matte white film. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type.",
+            "Security film is one of the 4 tints covered in our [complete guide to choosing your film](/blog/quel-film-choisir-vitrages), alongside solar, mirror effect, and matte white film: each one answers a specific purpose, not an aesthetic choice. For a sense of budget, our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the quote is calculated based on surface area and film type. You can also check our [completed projects](/realisations) for real work already carried out.",
           ],
         },
         {
@@ -2779,6 +2811,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does the film replace an alarm or security shutters?',
           answer: "No, it complements your existing security measures rather than replacing them. It specifically strengthens the glazing itself.",
+        },
+        {
+          question: 'What warranty do you offer on this film?',
+          answer: "2 years on the installation, for a defect attributable to us (peeling, a bubble). The film's own lifespan is estimated at 10 to 15 years for an interior installation.",
         },
       ],
     },

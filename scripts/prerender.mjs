@@ -341,7 +341,7 @@ const blogArticles = [
         "Vitrine, porte-fenêtre, rez-de-chaussée exposé à la rue : le film de sécurité renforce vos vitrages existants contre les tentatives d'effraction, sans changer vos fenêtres.",
       headline: 'Film de sécurité anti-effraction : comment protéger vos vitrages sans les remplacer ?',
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
     NL: {
       title: 'Beveiligingsfolie tegen inbraak in Brussel — VitraCare',
@@ -349,7 +349,7 @@ const blogArticles = [
         'Etalage, terrasdeur, gelijkvloers dat op straat uitgeeft: beveiligingsfolie versterkt uw bestaande beglazing tegen inbraakpogingen, zonder uw ramen te vervangen.',
       headline: 'Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?',
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
     EN: {
       title: 'Anti-break-in security film in Brussels — VitraCare',
@@ -357,7 +357,7 @@ const blogArticles = [
         "Shop window, patio door, street-facing ground floor: security film reinforces your existing glazing against break-in attempts, without replacing your windows.",
       headline: 'Security window film: how to protect your glazing without replacing it?',
       datePublished: '2026-09-13',
-      dateModified: '2026-09-13',
+      dateModified: '2026-10-15',
     },
   },
 },

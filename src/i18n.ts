@@ -133,7 +133,8 @@ export const translations = {
       title: 'Partout à Bruxelles\net en périphérie',
       subtitle: 'Nous développons un service de haute qualité\npartout à Bruxelles et ses alentours',
       locations: ['Centre', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'Et partout\nautour'],
-      swipeHint: '← Glissez pour voir toutes les communes →'
+      swipeHint: '← Glissez pour voir toutes les communes →',
+      seeAllZones: 'Voir toutes nos zones d\'intervention'
     },
     devis: {
       title: 'Obtenez votre devis',
@@ -410,7 +411,8 @@ export const translations = {
       title: 'Overal in Brussel\nen de rand',
       subtitle: 'Wij ontwikkelen een hoogwaardige service\noveral in Brussel en omgeving',
       locations: ['Centrum', 'Elsene', 'Ukkel', 'Woluwe', 'Evere', 'Oudergem', 'Etterbeek', 'Vorst', 'Waterloo', 'Linkebeek', 'Kraainem', 'En overal\nrondom'],
-      swipeHint: '← Schuif om alle gemeenten te zien →'
+      swipeHint: '← Schuif om alle gemeenten te zien →',
+      seeAllZones: 'Bekijk al onze interventiezones'
     },
     devis: {
       title: 'Ontvang uw offerte',
@@ -687,7 +689,8 @@ export const translations = {
       title: 'Everywhere in Brussels\nand surroundings',
       subtitle: 'We develop a high quality service\neverywhere in Brussels and surroundings',
       locations: ['Center', 'Ixelles', 'Uccle', 'Woluwe', 'Evere', 'Auderghem', 'Etterbeek', 'Forest', 'Waterloo', 'Linkebeek', 'Kraainem', 'And everywhere\naround'],
-      swipeHint: '← Swipe to see all the communes →'
+      swipeHint: '← Swipe to see all the communes →',
+      seeAllZones: 'See all areas we serve'
     },
     devis: {
       title: 'Get your quote',

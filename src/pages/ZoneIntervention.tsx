@@ -11,9 +11,12 @@ const brandColor = '#BA9765';
 export default function ZoneIntervention() {
   const { t, lang } = useLanguage();
   const zone = t.zone;
-  // Hidden commune pages exist for SEO (built, sitemapped, listed in llms.txt)
-  // but are deliberately not linked from anywhere in the site's own navigation.
-  const communes = communePages[lang].filter((c) => !c.hidden);
+  // The featured card grid further down only shows the 3 pages with the full
+  // treatment (Uccle, Waterloo, Forest). The pill list of all 19 communes just
+  // below uses allCommunes instead, so every commune — including the ones
+  // without a featured card — gets one real link from this page.
+  const allCommunes = communePages[lang];
+  const communes = allCommunes.filter((c) => !c.hidden);
 
   useEffect(() => {
     document.title = zone.metaTitle;
@@ -56,7 +59,7 @@ export default function ZoneIntervention() {
               <p className="mb-4">{zone.brusselsIntro}</p>
               <div className="flex flex-wrap gap-2">
                 {zone.brusselsCommunes.map((name) => {
-                  const slug = communes.find((c) => c.name === name)?.slug;
+                  const slug = allCommunes.find((c) => c.name === name)?.slug;
                   if (slug) {
                     return (
                       <Link

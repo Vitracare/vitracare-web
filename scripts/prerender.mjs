@@ -1125,6 +1125,29 @@ const communePages = [
       },
     },
   },
+  {
+    slug: 'woluwe-saint-lambert',
+    meta: {
+      FR: {
+        title: 'Film pour vitrage à Woluwe-Saint-Lambert et Stockel',
+        description:
+          "VitraCare pose des films et teintes pour vitrages à Woluwe-Saint-Lambert : intimité adaptée aux maisons de maître et aux immeubles proches de Stockel.",
+        name: 'Woluwe-Saint-Lambert',
+      },
+      NL: {
+        title: 'Raamfolie in Sint-Lambrechts-Woluwe en Stokkel',
+        description:
+          'VitraCare plaatst folies en tinten voor beglazing in Sint-Lambrechts-Woluwe: privacy aangepast aan de herenhuizen en gebouwen nabij Stokkel.',
+        name: 'Sint-Lambrechts-Woluwe',
+      },
+      EN: {
+        title: 'Window Film in Woluwe-Saint-Lambert and Stockel',
+        description:
+          'VitraCare installs window films and tints in Woluwe-Saint-Lambert: privacy suited to the townhouses and buildings near Stockel.',
+        name: 'Woluwe-Saint-Lambert',
+      },
+    },
+  },
 ];
 
 function decodeEntities(str) {

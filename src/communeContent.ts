@@ -1072,6 +1072,61 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
       ],
     },
+    {
+      slug: 'woluwe-saint-lambert',
+      name: 'Woluwe-Saint-Lambert',
+      hidden: true,
+      title: 'Film pour vitrage à Woluwe-Saint-Lambert : la solution pour avenues bourgeoises et immeubles proches de Stockel',
+      metaTitle: 'Film pour vitrage à Woluwe-Saint-Lambert et Stockel',
+      metaDescription:
+        "VitraCare pose des films et teintes pour vitrages à Woluwe-Saint-Lambert : intimité adaptée aux maisons de maître et aux immeubles proches de Stockel.",
+      intro:
+        "Woluwe-Saint-Lambert mêle de larges avenues bordées de maisons de maître, notamment autour de l'avenue Georges Henri, et des immeubles à appartements plus récents proches de Stockel et de son centre commercial. Cette diversité de bâti crée des formes de vis-à-vis différentes selon le quartier.",
+      sections: [
+        {
+          heading: 'Le bâti à Woluwe-Saint-Lambert',
+          paragraphs: [
+            "Le long des grandes avenues comme Georges Henri ou Montgomery, les maisons de maître aux larges façades vitrées dominent, souvent proches les unes des autres malgré leur taille. Près de Stockel, le bâti devient plus dense avec des immeubles à appartements aux fenêtres parfois alignées d'un bâtiment à l'autre.",
+          ],
+        },
+        {
+          heading: 'Notre recommandation',
+          paragraphs: [
+            "Pour les grandes façades vitrées des maisons de maître proches des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les appartements avec vis-à-vis direct près de Stockel, le film blanc mat reste l'option la plus fiable pour une intimité à toute heure.",
+          ],
+        },
+        {
+          heading: 'Un bénéfice souvent négligé : la discrétion face aux regards indiscrets',
+          paragraphs: [
+            "Que ce soit en maison de maître ou en appartement, une fenêtre proche d'une propriété voisine reste visible au quotidien. Le service belge de prévention [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (SPF Intérieur) recommande explicitement de ne pas laisser d'objets de valeur visibles depuis l'extérieur. Le film pour vitrage permet d'obtenir cette discrétion en continu, sans devoir réorganiser son intérieur au quotidien.",
+          ],
+        },
+        {
+          heading: 'VitraCare à Woluwe-Saint-Lambert',
+          paragraphs: [
+            "Nous menons actuellement des actions de sensibilisation locale à Woluwe-Saint-Lambert, en complément de notre présence dans toute la région bruxelloise.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Intervenez-vous aussi bien sur les avenues bourgeoises qu\'à Stockel ?',
+          answer: "Oui, notre collaborateur intervient dans l'ensemble de la commune, des avenues Georges Henri et Montgomery jusqu'à Stockel.",
+        },
+        {
+          question: 'Le film convient-il aux grandes façades vitrées des maisons de maître ?',
+          answer: "Oui, c'est l'un des cas d'usage les plus fréquents : ces grandes surfaces vitrées se prêtent très bien au film effet miroir ou blanc mat selon le niveau d'intimité recherché.",
+        },
+        {
+          question: 'Le film fonctionne-t-il aussi pour les immeubles plus récents près de Stockel ?',
+          answer: "Oui, le film s'adapte à tout type de vitrage existant, qu'il s'agisse d'une maison de maître ancienne ou d'un immeuble plus récent.",
+        },
+        {
+          question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
+          answer: "Il existe deux approches complémentaires. La première, passive : réduire ce qui est visible depuis l'extérieur, un principe recommandé par les services de prévention belges. La seconde, plus directe : notre film anti-effraction, qui ne rend pas la vitre incassable mais retient les éclats de verre en cas de choc, ralentissant fortement une tentative d'effraction.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -2116,6 +2171,61 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
       ],
     },
+    {
+      slug: 'woluwe-saint-lambert',
+      name: 'Sint-Lambrechts-Woluwe',
+      hidden: true,
+      title: 'Raamfolie in Sint-Lambrechts-Woluwe: de oplossing voor herenhuislanen en gebouwen nabij Stokkel',
+      metaTitle: 'Raamfolie in Sint-Lambrechts-Woluwe en Stokkel',
+      metaDescription:
+        'VitraCare plaatst folies en tinten voor beglazing in Sint-Lambrechts-Woluwe: privacy aangepast aan de herenhuizen en gebouwen nabij Stokkel.',
+      intro:
+        'Sint-Lambrechts-Woluwe combineert brede lanen met herenhuizen, met name rond de Georges Henrilaan, en recentere appartementsgebouwen nabij Stokkel en haar winkelcentrum. Deze diversiteit aan bebouwing zorgt voor verschillende vormen van inkijk naargelang de wijk.',
+      sections: [
+        {
+          heading: 'De bebouwing in Sint-Lambrechts-Woluwe',
+          paragraphs: [
+            'Langs grote lanen zoals Georges Henri of Montgomery domineren herenhuizen met brede raampartijen, vaak dicht bij elkaar ondanks hun formaat. Nabij Stokkel wordt de bebouwing dichter, met appartementsgebouwen waarvan de ramen soms van het ene gebouw naar het andere op één lijn liggen.',
+          ],
+        },
+        {
+          heading: 'Onze aanbeveling',
+          paragraphs: [
+            'Voor de brede raampartijen van herenhuizen dicht bij de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor appartementen met directe inkijk nabij Stokkel blijft matwitte folie de meest betrouwbare optie voor privacy op elk moment.',
+          ],
+        },
+        {
+          heading: 'Een vaak onderschat voordeel: discretie tegenover ongewenste blikken',
+          paragraphs: [
+            'Of het nu gaat om een herenhuis of een appartement, een raam dicht bij een buurwoning blijft dagelijks zichtbaar. De Belgische preventiedienst [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (FOD Binnenlandse Zaken) raadt uitdrukkelijk aan om geen waardevolle voorwerpen zichtbaar te laten vanaf buiten. Raamfolie biedt deze discretie permanent, zonder dagelijks uw interieur te moeten herschikken.',
+          ],
+        },
+        {
+          heading: 'VitraCare in Sint-Lambrechts-Woluwe',
+          paragraphs: [
+            'We voeren momenteel lokale sensibiliseringsacties in Sint-Lambrechts-Woluwe, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Bent u actief zowel op de herenhuislanen als in Stokkel?',
+          answer: 'Ja, onze medewerker is actief in de hele gemeente, van de Georges Henri- en Montgomerylaan tot Stokkel.',
+        },
+        {
+          question: 'Is de folie geschikt voor de brede raampartijen van herenhuizen?',
+          answer: 'Ja, dit is een van de meest voorkomende toepassingen: deze grote glasoppervlakken lenen zich uitstekend voor spiegeleffectfolie of matwitte folie, naargelang de gewenste privacy.',
+        },
+        {
+          question: 'Werkt de folie ook voor recentere gebouwen nabij Stokkel?',
+          answer: 'Ja, de folie past zich aan elk type bestaande beglazing aan, of het nu om een oud herenhuis of een recenter gebouw gaat.',
+        },
+        {
+          question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
+          answer: 'Er bestaan twee complementaire aanpakken. De eerste, passief: verminderen wat zichtbaar is vanaf buiten, een principe aanbevolen door de Belgische preventiediensten. De tweede, directer: onze inbraakwerende folie, die het raam niet onbreekbaar maakt maar de glasscherven bij impact vasthoudt, wat een inbraakpoging sterk vertraagt.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -3153,6 +3263,61 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           question: 'Does the film work for the large windows of villas near the forest?',
           answer: 'Yes, solar tint is particularly well suited: it reduces heat and UV while preserving the view of the surrounding greenery.',
+        },
+        {
+          question: 'Can the film help reduce the risk of burglary?',
+          answer: "There are two complementary approaches. The first, passive: reducing what's visible from outside, a principle recommended by Belgian crime prevention services. The second, more direct: our anti-burglary film, which doesn't make a window unbreakable but holds the glass shards together on impact, significantly slowing down a break-in attempt.",
+        },
+      ],
+    },
+    {
+      slug: 'woluwe-saint-lambert',
+      name: 'Woluwe-Saint-Lambert',
+      hidden: true,
+      title: 'Window film in Woluwe-Saint-Lambert: the solution for grand avenues and buildings near Stockel',
+      metaTitle: 'Window Film in Woluwe-Saint-Lambert and Stockel',
+      metaDescription:
+        'VitraCare installs window films and tints in Woluwe-Saint-Lambert: privacy suited to the townhouses and buildings near Stockel.',
+      intro:
+        "Woluwe-Saint-Lambert mixes wide avenues lined with townhouses, notably around Avenue Georges Henri, with more recent apartment buildings near Stockel and its shopping centre. This mix of housing creates different forms of overlooking depending on the area.",
+      sections: [
+        {
+          heading: 'Housing in Woluwe-Saint-Lambert',
+          paragraphs: [
+            'Along major avenues like Georges Henri or Montgomery, townhouses with wide windows dominate, often close to one another despite their size. Near Stockel, housing becomes denser, with apartment buildings whose windows are sometimes aligned from one building to the next.',
+          ],
+        },
+        {
+          heading: 'Our recommendation',
+          paragraphs: [
+            'For the wide windows of townhouses close to neighbours, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For apartments with direct overlooking near Stockel, matte white film remains the most reliable option for privacy at all times.',
+          ],
+        },
+        {
+          heading: 'An often-overlooked benefit: staying discreet from prying eyes',
+          paragraphs: [
+            "Whether in a townhouse or an apartment, a window close to a neighbouring property remains visible day to day. The Belgian crime prevention service [BeSafe](https://www.besafe.be/fr/vol-fraude/prevention-cambriolage) (part of the Federal Public Service Home Affairs) explicitly recommends not leaving valuables visible from outside. Window film provides this discretion continuously, without having to rearrange your interior every day.",
+          ],
+        },
+        {
+          heading: 'VitraCare in Woluwe-Saint-Lambert',
+          paragraphs: [
+            'We are currently running local outreach in Woluwe-Saint-Lambert, alongside our presence across the wider Brussels region.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Do you work on both the grand avenues and in Stockel?',
+          answer: 'Yes, our collaborator covers the whole commune, from Avenue Georges Henri and Montgomery to Stockel.',
+        },
+        {
+          question: "Is the film suitable for the wide windows of townhouses?",
+          answer: 'Yes, this is one of the most common uses: these large glass surfaces suit mirror effect or matte white film very well, depending on the privacy level wanted.',
+        },
+        {
+          question: 'Does the film also work for newer buildings near Stockel?',
+          answer: 'Yes, the film adapts to any type of existing glazing, whether an old townhouse or a newer building.',
         },
         {
           question: 'Can the film help reduce the risk of burglary?',

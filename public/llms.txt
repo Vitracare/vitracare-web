@@ -53,6 +53,7 @@ Versions dans les autres langues : [Nederlands](https://vitracare.be/nl/llms.txt
 - [Ganshoren](https://vitracare.be/communes/ganshoren)
 - [Saint-Josse-ten-Noode](https://vitracare.be/communes/saint-josse-ten-noode)
 - [Watermael-Boitsfort](https://vitracare.be/communes/watermael-boitsfort)
+- [Woluwe-Saint-Lambert et Stockel](https://vitracare.be/communes/woluwe-saint-lambert)
 
 ## Informations légales
 - [Mentions légales](https://vitracare.be/mentions-legales)

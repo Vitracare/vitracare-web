@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { LocalizedLink as Link } from '../components/LocalizedLink';
-import { ShieldCheck, FileBadge, Clock, ChevronDown, Star } from 'lucide-react';
+import { ShieldCheck, FileBadge, Clock, ChevronDown, Star, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 import { SiteHeader } from '../components/SiteHeader';
 import { SiteFooter } from '../components/SiteFooter';
@@ -923,6 +923,19 @@ export default function Home() {
                 })}
               </div>
             </div>
+
+            {/* Subtle, single CTA to /zone-intervention — the ticker itself stays
+                unlinked (see comment above) so this is the one deliberate path from
+                the homepage to the full list of served communes, including the ones
+                not shown in the ticker. */}
+            <Link
+              to="/zone-intervention"
+              className="inline-flex items-center gap-1.5 mt-6 md:mt-8 text-[13px] md:text-[14px] font-bold hover:opacity-70 transition-opacity"
+              style={{ color: brandColor }}
+            >
+              {t.map.seeAllZones}
+              <ArrowRight size={14} />
+            </Link>
           </div>
 
           {/* Right Content — desktop only, hidden on mobile/tablet */}

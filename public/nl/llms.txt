@@ -53,6 +53,7 @@ Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](htt
 - [Ganshoren](https://vitracare.be/nl/communes/ganshoren)
 - [Sint-Joost-ten-Node](https://vitracare.be/nl/communes/saint-josse-ten-noode)
 - [Watermaal-Bosvoorde](https://vitracare.be/nl/communes/watermael-boitsfort)
+- [Sint-Lambrechts-Woluwe en Stokkel](https://vitracare.be/nl/communes/woluwe-saint-lambert)
 
 ## Juridische informatie
 - [Wettelijke vermeldingen](https://vitracare.be/nl/mentions-legales)

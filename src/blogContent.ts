@@ -1215,7 +1215,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: "Chaleur et vis-à-vis en même temps : le film miroir règle les deux d'une seule pose",
       metaTitle: 'Film miroir : anti-chaleur et anti-regard en une pose',
       metaDescription:
-        "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose, sans devoir choisir entre les deux.",
+        "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose.",
       date: '2026-10-15',
       excerpt:
         "Soleil plein sud et vis-à-vis sur rue ne sont pas deux problèmes à régler séparément. Voici pourquoi le film miroir répond aux deux en une seule pose, et dans quels cas ça compte vraiment.",
@@ -2486,7 +2486,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing',
       metaTitle: 'Spiegelfolie: tegen warmte én inkijk in één keer',
       metaDescription:
-        'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing, zonder tussen de twee te moeten kiezen.',
+        'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing.',
       date: '2026-10-15',
       excerpt:
         'Volle zon en inkijk vanaf de straat zijn geen twee aparte problemen om op te lossen. Hier leest u waarom spiegeleffectfolie beide oplost met één plaatsing, en wanneer dat echt het verschil maakt.',
@@ -3757,7 +3757,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: "Heat and being overlooked at the same time: mirror effect film solves both in one installation",
       metaTitle: 'Mirror film: against heat and being overlooked at once',
       metaDescription:
-        "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation, without having to choose between the two.",
+        "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation.",
       date: '2026-10-15',
       excerpt:
         "Full sun and being overlooked from the street aren't two separate problems to solve. Here's why mirror effect film answers both with one installation, and when it really matters.",

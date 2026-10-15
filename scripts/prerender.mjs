@@ -628,7 +628,7 @@ const blogArticles = [
     FR: {
       title: 'Film miroir : anti-chaleur et anti-regard en une pose — VitraCare',
       description:
-        "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose, sans devoir choisir entre les deux.",
+        "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose.",
       headline: "Chaleur et vis-à-vis en même temps : le film miroir règle les deux d'une seule pose",
       datePublished: '2026-10-15',
       dateModified: '2026-10-15',
@@ -636,7 +636,7 @@ const blogArticles = [
     NL: {
       title: 'Spiegelfolie: tegen warmte én inkijk in één keer — VitraCare',
       description:
-        'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing, zonder tussen de twee te moeten kiezen.',
+        'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing.',
       headline: 'Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing',
       datePublished: '2026-10-15',
       dateModified: '2026-10-15',
@@ -644,7 +644,7 @@ const blogArticles = [
     EN: {
       title: 'Mirror Film: Against Heat and Being Overlooked at Once — VitraCare',
       description:
-        "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation, without having to choose between the two.",
+        "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation.",
       headline: 'Heat and being overlooked at the same time: mirror effect film solves both in one installation',
       datePublished: '2026-10-15',
       dateModified: '2026-10-15',

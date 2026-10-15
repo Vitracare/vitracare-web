@@ -1056,7 +1056,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Film blanc mat pour vitrage à Bruxelles : une intimité totale, jour et nuit',
       metaTitle: 'Film blanc mat pour vitrage à Bruxelles',
       metaDescription:
-        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale dans les deux sens, à toute heure, sans dépendre de la luminosité. Fonctionnement, prix et installation à Bruxelles.",
+        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale, jour et nuit, sans dépendre de la luminosité.",
       date: '2026-10-05',
       excerpt:
         "Contrairement au film effet miroir, le film blanc mat protège votre intimité jour et nuit, dans les deux sens. Voici comment il fonctionne, et pour quelles pièces il est le plus adapté.",
@@ -2327,7 +2327,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Matwitte folie voor beglazing in Brussel: volledige privacy, dag en nacht',
       metaTitle: 'Matwitte folie voor beglazing in Brussel',
       metaDescription:
-        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte. Werking, prijs en plaatsing in Brussel.',
+        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte.',
       date: '2026-10-05',
       excerpt:
         'In tegenstelling tot spiegeleffectfolie beschermt matwitte folie uw privacy dag en nacht, in beide richtingen. Hoe ze werkt, en voor welke ruimtes ze het meest geschikt is.',
@@ -3598,7 +3598,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Matte white film for windows in Brussels: total privacy, day and night',
       metaTitle: 'Matte White Film for Windows in Brussels',
       metaDescription:
-        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels. How it works, pricing, and installation in Brussels.",
+        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels.",
       date: '2026-10-05',
       excerpt:
         "Unlike mirror effect film, matte white film protects your privacy day and night, in both directions. How it works, and which rooms it suits best.",

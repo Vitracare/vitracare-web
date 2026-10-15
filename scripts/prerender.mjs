@@ -570,7 +570,7 @@ const blogArticles = [
     FR: {
       title: 'Film blanc mat pour vitrage à Bruxelles — VitraCare',
       description:
-        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale dans les deux sens, à toute heure, sans dépendre de la luminosité. Fonctionnement, prix et installation à Bruxelles.",
+        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale, jour et nuit, sans dépendre de la luminosité.",
       headline: 'Film blanc mat pour vitrage à Bruxelles : une intimité totale, jour et nuit',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',
@@ -578,7 +578,7 @@ const blogArticles = [
     NL: {
       title: 'Matwitte folie voor beglazing in Brussel — VitraCare',
       description:
-        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte. Werking, prijs en plaatsing in Brussel.',
+        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte.',
       headline: 'Matwitte folie voor beglazing in Brussel: volledige privacy, dag en nacht',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',
@@ -586,7 +586,7 @@ const blogArticles = [
     EN: {
       title: 'Matte White Film for Windows in Brussels — VitraCare',
       description:
-        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels. How it works, pricing, and installation in Brussels.",
+        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels.",
       headline: 'Matte white film for windows in Brussels: total privacy, day and night',
       datePublished: '2026-10-05',
       dateModified: '2026-10-05',

@@ -80,7 +80,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Intimité', 'Réduction chaleur', 'Protection UV', 'Sécurité renforcée'],
             rows: [
-              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui (la plus marquée)', "Oui (46 à 87%)", 'Non'],
+              ['Effet miroir', 'Oui (le jour uniquement)', 'Oui (la plus marquée)', "Oui (72%)", 'Non'],
               ['Solaire', 'Non (reste transparent)', 'Oui (modérée)', 'Oui (rôle principal)', 'Non'],
               ['Blanc mat', 'Oui (jour et nuit)', 'Non', 'Non', 'Non'],
               ['Anti-effraction', 'Non (reste transparent)', 'Non', 'Non', 'Oui (rôle principal)'],
@@ -400,6 +400,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Le film est appliqué côté intérieur du vitrage, en une couche continue et adhérente. Quand la vitre est frappée, le verre se fissure mais les fragments restent maintenus par le film au lieu de voler en éclats ou de céder d'un coup. Résultat : il faut plusieurs coups répétés, du bruit et du temps pour parvenir à ouvrir un passage, exactement ce qu'un cambrioleur opportuniste cherche à éviter.",
             "Soyons honnêtes sur ce point : le film retarde et complique une effraction, il ne la rend pas impossible. C'est une couche de protection supplémentaire, pas une garantie absolue.",
+            "Le film que nous posons est certifié EN 356 (la norme européenne de résistance à l'effraction pour le vitrage) et porte le marquage CE. La fiche technique justificative est disponible sur demande.",
           ],
         },
         {
@@ -461,6 +462,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Quelle garantie offrez-vous sur ce film ?',
           answer: "2 ans sur la pose, pour un défaut qui nous est imputable (décollement, bulle). La durée de vie du film lui-même est estimée à 10-15 ans pour une pose côté intérieur.",
+        },
+        {
+          question: 'Le film est-il certifié ?',
+          answer: "Oui, il est certifié EN 356 (la norme européenne de résistance à l'effraction pour le vitrage) et porte le marquage CE. Nous pouvons vous transmettre la fiche technique sur demande.",
         },
       ],
     },
@@ -651,14 +656,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Une protection UV qui se mesure, pas qui se devine',
           paragraphs: [
-            "Pour notre film effet miroir (teinte argentée), la protection UV varie selon l'intensité posée : de 46% pour la version légère à 87% pour la version forte. Les films de qualité peuvent atteindre jusqu'à 99% selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), un plafond que nos versions les plus fortes approchent sans l'atteindre tout à fait. Nous préférons vous donner ces chiffres précis plutôt qu'une promesse vague de \"protection totale\".",
-          ],
-        },
-        {
-          heading: 'Tous les films ne bloquent pas les UV de la même façon',
-          paragraphs: [
-            "Ce que beaucoup de clients ne savent pas : un même film existe en plusieurs niveaux d'intensité, léger, moyen et fort. Plus l'intensité est forte, moins la pièce reste lumineuse, mais plus elle bloque la chaleur et les UV. Sur la fiche technique de notre installateur : la version légère laisse passer 43% de la lumière du jour et bloque environ 65% de la chaleur solaire totale, contre seulement 7% de lumière laissée passer mais plus de 93% de chaleur bloquée pour la version forte.",
-            "Ce n'est pas au client de choisir ce niveau : c'est notre équipe technique qui détermine, sur place, l'intensité la plus adaptée à l'orientation de vos fenêtres et à vos besoins réels, protection UV, chaleur, ou les deux à la fois.",
+            "Trois indicateurs techniques permettent de comparer objectivement les films entre eux, plutôt que de se fier à une promesse marketing vague. La transmission lumineuse visible (VLT, pour Visible Light Transmission) indique le pourcentage de lumière du jour qui traverse encore le film et la vitre : plus ce chiffre est bas, plus la pièce reste sombre, mais plus l'effet d'intimité ou de miroir est marqué. Le rejet UV mesure la part des rayons ultraviolets, invisibles et sans effet de chaleur direct, mais responsables de la décoloration progressive des meubles, tissus et parquets exposés au soleil, qui est bloquée par le film. Le rejet infrarouge mesure la part du rayonnement infrarouge solaire réfléchie par le film plutôt que transmise à travers la vitre : c'est un facteur parmi d'autres dans la chaleur ressentie en été, pas une mesure de la chaleur totale bloquée, puisque la lumière visible et les UV y contribuent aussi.",
+            "Pour notre film effet miroir (teinte argentée), la fiche technique donne un VLT de 22%, un rejet UV de 72% et un rejet infrarouge de 81%. Les films de qualité peuvent rejeter jusqu'à 99% des UV selon l'[International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/). Nous préférons vous donner ces chiffres précis plutôt qu'une promesse vague de \"protection totale\".",
           ],
         },
         {
@@ -696,7 +695,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film pour vitrage protège-t-il vraiment contre la décoloration ?',
-          answer: "Oui, c'est directement lié au niveau de protection UV du film posé, qui va de 46% à 87% selon l'intensité pour notre film effet miroir. Plus le blocage UV est élevé, plus la décoloration ralentit.",
+          answer: "Oui : notre film effet miroir bloque 72% des rayons UV, les principaux responsables de la décoloration des meubles, tissus et parquets exposés au soleil.",
         },
         {
           question: 'Faut-il quand même fermer les rideaux avec un film pour vitrage ?',
@@ -704,11 +703,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Tous nos films offrent-ils la même protection UV ?',
-          answer: "Non. Pour le film effet miroir, la protection varie de 46% à 87% selon l'intensité posée. Nous ne disposons pas encore de données UV précises pour la teinte noire : nous préférons ne pas avancer de chiffre tant que ce n'est pas confirmé.",
+          answer: "Non. Pour le film effet miroir, le rejet UV est de 72%. Nous ne disposons pas encore de données confirmées pour nos autres films (solaire, blanc mat) : nous préférons ne pas avancer de chiffre tant que ce n'est pas confirmé.",
         },
         {
-          question: 'Le prix change-t-il selon le niveau de protection UV souhaité ?',
-          answer: "Non, notre tarif dépend uniquement de la surface à traiter, pas de l'intensité ou du type de film choisi.",
+          question: 'Le prix change-t-il selon le film choisi ?',
+          answer: "Non, notre tarif dépend uniquement de la surface à traiter, pas du type de film choisi.",
         },
       ],
     },
@@ -1043,7 +1042,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: "Le film protège-t-il aussi de la chaleur et des UV ?",
-          answer: "Oui, en plus de l'intimité : il bloque de 46% à 87% des UV selon l'intensité posée, et réduit considérablement la chaleur qui entre par vos fenêtres. Notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) détaille les chiffres par intensité.",
+          answer: "Oui, en plus de l'intimité : il bloque 72% des UV et réfléchit 81% du rayonnement infrarouge solaire, ce qui réduit la chaleur qui entre par vos fenêtres. Notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) détaille ces chiffres.",
         },
         {
           question: "Est-ce adapté à un appartement en copropriété ?",
@@ -1352,7 +1351,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Folie', 'Privacy', 'Warmtevermindering', 'UV-bescherming', 'Verhoogde veiligheid'],
             rows: [
-              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja (het sterkst)', 'Ja (46 tot 87%)', 'Nee'],
+              ['Spiegeleffect', 'Ja (enkel overdag)', 'Ja (het sterkst)', 'Ja (72%)', 'Nee'],
               ['Zonwerend', 'Nee (blijft transparant)', 'Ja (matig)', 'Ja (hoofdrol)', 'Nee'],
               ['Matwit', 'Ja (dag en nacht)', 'Nee', 'Nee', 'Nee'],
               ['Inbraakwerend', 'Nee (blijft transparant)', 'Nee', 'Nee', 'Ja (hoofdrol)'],
@@ -1671,6 +1670,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             'De folie wordt aan de binnenzijde van de beglazing aangebracht, in een doorlopende, hechtende laag. Wanneer het raam geraakt wordt, barst het glas, maar de scherven blijven bijeengehouden door de folie in plaats van weg te vliegen of ineens toe te geven. Resultaat: er zijn meerdere herhaalde klappen, lawaai en tijd nodig om een doorgang te forceren, precies wat een opportunistische inbreker wil vermijden.',
             'Laten we hier eerlijk over zijn: de folie vertraagt en bemoeilijkt een inbraak, ze maakt ze niet onmogelijk. Het is een extra beschermingslaag, geen absolute garantie.',
+            'De folie die wij plaatsen is EN 356-gecertificeerd (de Europese norm voor inbraakwerendheid van beglazing) en draagt de CE-markering. Het bijbehorende technisch document is op aanvraag beschikbaar.',
           ],
         },
         {
@@ -1732,6 +1732,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Welke garantie biedt u op deze folie?',
           answer: '2 jaar op de plaatsing, voor een gebrek dat ons te wijten is (loslaten, luchtbel). De levensduur van de folie zelf wordt geschat op 10 tot 15 jaar bij plaatsing aan de binnenzijde.',
+        },
+        {
+          question: 'Is de folie gecertificeerd?',
+          answer: 'Ja, ze is EN 356-gecertificeerd (de Europese norm voor inbraakweerstand van beglazing) en draagt de CE-markering. We kunnen u de technische fiche op aanvraag bezorgen.',
         },
       ],
     },
@@ -1922,14 +1926,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Een UV-bescherming die meetbaar is, niet die u moet raden',
           paragraphs: [
-            'Voor onze spiegeleffect folie (zilveren tint) varieert de UV-bescherming naargelang de geplaatste intensiteit: van 46% voor de lichte versie tot 87% voor de sterke versie. Kwaliteitsfolies kunnen tot 99% bereiken volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), een plafond dat onze sterkste versies benaderen zonder het volledig te bereiken. We geven liever deze precieze cijfers dan een vage belofte van "totale bescherming".',
-          ],
-        },
-        {
-          heading: 'Niet elke folie blokkeert UV op dezelfde manier',
-          paragraphs: [
-            'Wat veel klanten niet weten: eenzelfde folie bestaat in verschillende intensiteitsniveaus, licht, gemiddeld en sterk. Hoe sterker de intensiteit, hoe minder licht de ruimte binnenkomt, maar hoe meer warmte en UV ze blokkeert. Op het technisch fiche van onze installateur: de lichte versie laat 43% van het daglicht door en blokkeert ongeveer 65% van de totale zonnewarmte, tegenover slechts 7% doorgelaten licht maar meer dan 93% geblokkeerde warmte voor de sterke versie.',
-            'Het is niet aan de klant om dit niveau te kiezen: ons technisch team bepaalt ter plaatse welke intensiteit het best past bij de oriëntatie van uw ramen en uw echte behoeften, UV-bescherming, warmte, of allebei tegelijk.',
+            'Drie technische indicatoren laten toe om folies objectief te vergelijken, in plaats van te vertrouwen op een vage marketingbelofte. De lichtdoorlating (VLT, voor Visible Light Transmission) geeft aan welk percentage daglicht nog door de folie en de beglazing komt: hoe lager dit cijfer, hoe donkerder de ruimte blijft, maar hoe sterker het privacy- of spiegeleffect. De UV-blokkering meet welk deel van de onzichtbare, niet rechtstreeks warme ultraviolette stralen, verantwoordelijk voor de geleidelijke verkleuring van meubels, stoffen en parket die aan de zon blootgesteld worden, door de folie wordt tegengehouden. De infraroodblokkering meet welk deel van de zonne-infraroodstraling door de folie wordt gereflecteerd in plaats van doorgelaten: dit is één factor onder andere in de warmte die u \'s zomers voelt, geen maatstaf voor de totaal geblokkeerde warmte, want ook zichtbaar licht en UV spelen daarin een rol.',
+            'Voor onze spiegeleffect folie (zilveren tint) geeft het technisch fiche een VLT van 22%, een UV-blokkering van 72% en een infraroodblokkering van 81%. Kwaliteitsfolies kunnen tot 99% van de UV-straling blokkeren volgens de [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/). We geven liever deze precieze cijfers dan een vage belofte van "totale bescherming".',
           ],
         },
         {
@@ -1967,7 +1965,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Beschermt raamfolie echt tegen verkleuring?',
-          answer: 'Ja, dit hangt rechtstreeks samen met het UV-beschermingsniveau van de geplaatste folie, dat varieert van 46% tot 87% naargelang de intensiteit voor onze spiegeleffect folie. Hoe hoger de UV-blokkering, hoe trager de verkleuring.',
+          answer: 'Ja: onze spiegeleffect folie blokkeert 72% van de UV-stralen, de belangrijkste oorzaak van verkleuring van meubels, stoffen en parket die aan de zon blootgesteld worden.',
         },
         {
           question: 'Moet u toch nog gordijnen sluiten met raamfolie?',
@@ -1975,11 +1973,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Bieden al onze folies dezelfde UV-bescherming?',
-          answer: "Nee. Voor onze spiegeleffect folie varieert de bescherming van 46% tot 87% naargelang de geplaatste intensiteit. We beschikken nog niet over precieze UV-gegevens voor de zwarte tint: we geven liever geen cijfer tot dit bevestigd is.",
+          answer: "Nee. Voor onze spiegeleffect folie is de UV-blokkering 72%. We beschikken nog niet over bevestigde gegevens voor onze andere folies (zonwerend, matwit): we geven liever geen cijfer tot dit bevestigd is.",
         },
         {
-          question: 'Verandert de prijs naargelang het gewenste UV-beschermingsniveau?',
-          answer: 'Nee, ons tarief hangt enkel af van de te behandelen oppervlakte, niet van de intensiteit of het type folie.',
+          question: 'Verandert de prijs naargelang het gekozen folietype?',
+          answer: 'Nee, ons tarief hangt enkel af van de te behandelen oppervlakte, niet van het type folie.',
         },
       ],
     },
@@ -2314,7 +2312,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Beschermt de folie ook tegen warmte en UV?',
-          answer: "Ja, naast privacy: ze blokkeert 46 tot 87% van de UV-stralen naargelang de geplaatste intensiteit, en vermindert de warmte die via uw ramen binnenkomt aanzienlijk. Ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) geeft de cijfers per intensiteit.",
+          answer: "Ja, naast privacy: ze blokkeert 72% van de UV-stralen en reflecteert 81% van de zonne-infraroodstraling, wat de warmte die via uw ramen binnenkomt vermindert. Ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) geeft deze cijfers in detail.",
         },
         {
           question: 'Is dit geschikt voor een appartement in mede-eigendom?',
@@ -2623,7 +2621,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           table: {
             headers: ['Film', 'Privacy', 'Heat reduction', 'UV protection', 'Enhanced security'],
             rows: [
-              ['Mirror effect', 'Yes (daytime only)', 'Yes (the strongest)', 'Yes (46 to 87%)', 'No'],
+              ['Mirror effect', 'Yes (daytime only)', 'Yes (the strongest)', 'Yes (72%)', 'No'],
               ['Solar', 'No (stays transparent)', 'Yes (moderate)', 'Yes (main role)', 'No'],
               ['Matte white', 'Yes (day and night)', 'No', 'No', 'No'],
               ['Anti-burglary', 'No (stays transparent)', 'No', 'No', 'Yes (main role)'],
@@ -2942,6 +2940,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "The film is applied to the inside face of the glazing, as a continuous, adhesive layer. When the glass is struck, it cracks, but the fragments stay held together by the film instead of shattering outward or giving way in one go. The result: it takes repeated blows, noise and time to force an opening, exactly what an opportunistic burglar wants to avoid.",
             "Let's be honest about this: the film slows down and complicates a break-in, it doesn't make one impossible. It's an added layer of protection, not an absolute guarantee.",
+            "The film we install is EN 356 certified (the European standard for glazing break-in resistance) and carries the CE mark. The supporting technical datasheet is available on request.",
           ],
         },
         {
@@ -3003,6 +3002,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'What warranty do you offer on this film?',
           answer: "2 years on the installation, for a defect attributable to us (peeling, a bubble). The film's own lifespan is estimated at 10 to 15 years for an interior installation.",
+        },
+        {
+          question: 'Is the film certified?',
+          answer: "Yes, it's EN 356 certified (the European standard for glazing break-in resistance) and carries the CE mark. We can send you the technical datasheet on request.",
         },
       ],
     },
@@ -3193,14 +3196,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'UV protection you can measure, not guess at',
           paragraphs: [
-            "For our mirror-effect film (silver tint), UV protection varies by the intensity installed: from 46% for the light version to 87% for the strong version. Quality films can reach up to 99% according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/), a ceiling our strongest versions approach without quite reaching. We'd rather give you these precise figures than a vague promise of \"total protection\".",
-          ],
-        },
-        {
-          heading: "Not all films block UV the same way",
-          paragraphs: [
-            "What many clients don't realise: the same film comes in several intensity levels (light, medium and strong). The stronger the intensity, the less light the room lets in, but the more heat and UV it blocks. From our installer's technical sheet: the light version lets through 43% of daylight and blocks around 65% of total solar heat, compared to just 7% of light let through but over 93% of heat blocked for the strong version.",
-            "It's not the client's choice which level to use: our technical team determines on site which intensity best suits your windows' orientation and your actual needs: UV protection, heat, or both at once.",
+            "Three technical indicators let you compare films objectively, rather than relying on a vague marketing promise. Visible light transmission (VLT) indicates the percentage of daylight that still passes through the film and the glazing: the lower this figure, the darker the room stays, but the stronger the privacy or mirror effect. UV rejection measures the share of invisible, non-heat-generating ultraviolet rays, responsible for the gradual fading of furniture, fabrics and flooring exposed to sunlight, that gets blocked by the film. Infrared rejection measures the share of solar infrared radiation reflected by the film rather than transmitted through the glass: it's one factor among others in the heat you feel in summer, not a measure of total heat blocked, since visible light and UV also play a role.",
+            "For our mirror-effect film (silver tint), the technical datasheet gives a VLT of 22%, UV rejection of 72%, and infrared rejection of 81%. Quality films can reject up to 99% of UV according to the [International Window Film Association](https://iwfa.com/benefits-of-window-film/uv-protection/). We'd rather give you these precise figures than a vague promise of \"total protection\".",
           ],
         },
         {
@@ -3238,7 +3235,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Does window film really protect against fading?',
-          answer: "Yes, this is directly tied to the UV protection level of the film installed, which ranges from 46% to 87% depending on intensity for our mirror-effect film. The higher the UV blocking, the slower the fading.",
+          answer: "Yes: our mirror-effect film rejects 72% of UV rays, the main cause of fading in furniture, fabrics and flooring exposed to sunlight.",
         },
         {
           question: 'Do you still need to close curtains with window film?',
@@ -3246,11 +3243,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Do all our films offer the same UV protection?',
-          answer: "No. For our mirror-effect film, protection ranges from 46% to 87% depending on the intensity installed. We don't yet have precise UV figures for the black tint; we'd rather not quote a number until it's confirmed.",
+          answer: "No. For our mirror-effect film, UV rejection is 72%. We don't yet have confirmed figures for our other films (solar, matte white); we'd rather not quote a number until it's confirmed.",
         },
         {
-          question: 'Does the price change depending on the UV protection level wanted?',
-          answer: 'No, our rate depends only on the surface area to be treated, not the intensity or type of film chosen.',
+          question: 'Does the price change depending on the film chosen?',
+          answer: 'No, our rate depends only on the surface area to be treated, not the type of film chosen.',
         },
       ],
     },
@@ -3585,7 +3582,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           question: 'Does the film also protect against heat and UV?',
-          answer: "Yes, on top of privacy: it blocks 46% to 87% of UV rays depending on the intensity installed, and significantly reduces the heat entering through your windows. Our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) gives the figures by intensity.",
+          answer: "Yes, on top of privacy: it blocks 72% of UV rays and reflects 81% of solar infrared radiation, which reduces the heat entering through your windows. Our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) covers these figures in detail.",
         },
         {
           question: 'Is this suitable for a flat in a shared building?',

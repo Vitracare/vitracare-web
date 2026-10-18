@@ -1305,10 +1305,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : comment choisir ?',
+      title: 'Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : comment choisir ?',
       metaTitle: 'Film premier prix ou pose professionnelle ?',
       metaDescription:
-        "Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
+        "Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
       date: '2026-10-18',
       excerpt:
         "Film statique premier prix en grande surface ou pose professionnelle : ce qui change vraiment, et dans quels cas chaque option a du sens.",
@@ -1322,14 +1322,14 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Qu\'est-ce qu\'un film de vitre premier prix, concrètement ?',
           paragraphs: [
-            "Les films vendus en grande surface de bricolage ou de déco (Action, Gamma, Zelfbouwmarkt, et d'autres enseignes similaires) sont presque toujours des films à adhérence statique : ils tiennent sur la vitre par un effet électrostatique, sans colle. C'est ce qui permet de les poser soi-même en quelques minutes, et de les retirer tout aussi facilement. Ils se vendent en petits rouleaux, typiquement autour de 45 à 70 cm de large pour 1,5 mètre de long, à des prix allant d'une quinzaine à une vingtaine d'euros selon l'enseigne et le format. Chez [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988) par exemple, un film statique effet givré de 67,5 × 150 cm coûte 19,99 €.",
+            "Les films vendus en grande surface de bricolage ou de déco (Action, Brico, Zelfbouwmarkt, et d'autres enseignes similaires) sont presque toujours des films à adhérence statique : ils tiennent sur la vitre par un effet électrostatique, sans colle. C'est ce qui permet de les poser soi-même en quelques minutes, et de les retirer tout aussi facilement. Ils se vendent en petits rouleaux, typiquement autour de 45 à 70 cm de large pour 1,5 mètre de long, à des prix allant d'une dizaine à une vingtaine d'euros selon l'enseigne et le format. Chez [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) par exemple, un film statique de 45 × 150 cm coûte 11,99 €. Certains de ces films affichent eux-mêmes un pourcentage de protection UV sur l'emballage (jusqu'à 95% annoncé par le fabricant pour ce modèle), mais il s'agit d'une allégation du fabricant, pas d'une donnée mesurée indépendamment comme celles que nous fournissons sur fiche technique.",
           ],
         },
         {
           heading: 'Les vraies limites de ces films',
           paragraphs: [
-            "L'adhérence statique a un revers : elle tient moins bien dans la durée qu'un film collé, surtout dans une pièce humide (salle de bain) ou soumise à des écarts de température. Sur des forums de bricolage, certains utilisateurs rapportent que ce type de film finit par se décoller après quelques semaines : un retour qu'on ne peut pas généraliser à tous les cas, mais qui illustre bien la limite du procédé.",
-            "Deuxième limite : ces films sont presque toujours décoratifs ou dépolis, pensés pour l'intimité visuelle, pas pour une performance thermique ou UV mesurée. Contrairement au film que nous posons, dont les caractéristiques techniques (transmission lumineuse, rejet UV, rejet infrarouge) figurent sur une fiche technique, un film premier prix n'est généralement accompagné d'aucune donnée de ce type.",
+            "L'adhérence statique a un revers : elle tient moins bien dans la durée qu'un film collé, surtout dans une pièce humide (salle de bain) ou soumise à des écarts de température. Sur le [forum Bricozone](https://www.bricozone.be/t/film-statique-sur-vitre.155035/), un utilisateur raconte qu'un film acheté chez Brico s'est décollé en façade plein sud après quelques semaines, alors qu'il tenait bien sur une fenêtre orientée nord : un retour qu'on ne peut pas généraliser à tous les cas, mais qui illustre bien la limite du procédé face à l'exposition au soleil et aux écarts de température.",
+            "Deuxième limite : ces films sont presque toujours décoratifs ou dépolis, pensés pour l'intimité visuelle, pas pour une performance thermique ou UV mesurée de façon indépendante. Certains annoncent un pourcentage de protection UV sur l'emballage, mais c'est une allégation du fabricant. Contrairement au film que nous posons, dont les caractéristiques techniques (transmission lumineuse, rejet UV, rejet infrarouge) figurent sur une fiche technique fournisseur, un film premier prix n'est généralement accompagné d'aucune donnée mesurée indépendamment.",
             "Troisième limite, plus pratique : les formats vendus en rouleau (45 à 70 cm de large) obligent à des raccords sur une fenêtre plus large qu'un seul rouleau, avec un risque de bulles d'air, de plis ou de léger décalage de teinte entre les lés, surtout en première pose.",
           ],
         },
@@ -1359,16 +1359,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Performance mesurée (VLT/UV/infrarouge)', 'Non communiquée', 'Donnée sur fiche technique'],
               ['Garantie', 'Aucune', '2 ans sur la pose'],
               ['Durée de vie estimée', 'Variable selon pose et environnement', '10 à 15 ans'],
-              ['Prix', '~15 à 20€ le rouleau', 'Devis personnalisé selon surface'],
+              ['Prix', '~10 à 20€ le rouleau', 'Devis personnalisé selon surface'],
             ],
           },
         },
         {
           heading: 'Sources',
           paragraphs: [
-            '[Gamma — film statique pour fenêtre](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Brico — film statique pour vitrage](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — film de fenêtre givré statique](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
-            '[Bricozone — retour d\'utilisateurs sur un film statique](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+            '[Bricozone — retour d\'un utilisateur sur un film Brico](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
         {
@@ -2677,10 +2677,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: hoe kiest u?',
+      title: 'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?',
       metaTitle: 'Goedkope folie of professionele plaatsing?',
       metaDescription:
-        'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
+        'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
       date: '2026-10-18',
       excerpt:
         'Statische goedkope folie uit de winkel of professionele plaatsing: wat er écht verschilt, en in welke gevallen elke optie zin heeft.',
@@ -2694,14 +2694,14 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Wat is een goedkope raamfolie precies?',
           paragraphs: [
-            "De folies die verkocht worden in doe-het-zelf- of decozaken (Action, Gamma, Zelfbouwmarkt, en gelijkaardige ketens) zijn bijna altijd folies met statische hechting: ze blijven op het raam door een elektrostatisch effect, zonder lijm. Daardoor kunt u ze zelf in enkele minuten plaatsen, en even makkelijk weer verwijderen. Ze worden verkocht in kleine rollen, doorgaans rond 45 tot 70 cm breed voor 1,5 meter lang, aan prijzen van een vijftiental tot een twintigtal euro naargelang de winkel en het formaat. Bij [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988) bijvoorbeeld kost een statische folie met vorsteffect van 67,5 × 150 cm 19,99 €.",
+            "De folies die verkocht worden in doe-het-zelf- of decozaken (Action, Brico, Zelfbouwmarkt, en gelijkaardige ketens) zijn bijna altijd folies met statische hechting: ze blijven op het raam door een elektrostatisch effect, zonder lijm. Daardoor kunt u ze zelf in enkele minuten plaatsen, en even makkelijk weer verwijderen. Ze worden verkocht in kleine rollen, doorgaans rond 45 tot 70 cm breed voor 1,5 meter lang, aan prijzen van een tiental tot een twintigtal euro naargelang de winkel en het formaat. Bij [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) bijvoorbeeld kost een statische folie van 45 × 150 cm 11,99 €. Sommige van deze folies vermelden zelf een UV-beschermingspercentage op de verpakking (tot 95% volgens de fabrikant voor dit model), maar dat is een claim van de fabrikant, geen onafhankelijk gemeten gegeven zoals wat wij op technisch fiche aanleveren.",
           ],
         },
         {
           heading: 'De echte beperkingen van deze folies',
           paragraphs: [
-            "Statische hechting heeft een keerzijde: ze houdt minder goed stand in de tijd dan een gelijmde folie, vooral in een vochtige ruimte (badkamer) of bij temperatuurschommelingen. Op doe-het-zelfforums melden sommige gebruikers dat dit type folie na enkele weken loslaat: een ervaring die we niet kunnen veralgemenen, maar die de beperking van het procedé wel illustreert.",
-            "Tweede beperking: deze folies zijn bijna altijd decoratief of matterend, bedoeld voor visuele privacy, niet voor een gemeten thermische of UV-prestatie. In tegenstelling tot de folie die wij plaatsen, waarvan de technische kenmerken (lichtdoorlating, UV-blokkering, infraroodblokkering) op een technisch fiche staan, wordt bij een goedkope folie doorgaans geen enkel dergelijk gegeven meegegeven.",
+            "Statische hechting heeft een keerzijde: ze houdt minder goed stand in de tijd dan een gelijmde folie, vooral in een vochtige ruimte (badkamer) of bij temperatuurschommelingen. Op het [Bricozone-forum](https://www.bricozone.be/t/film-statique-sur-vitre.155035/) vertelt een gebruiker dat een folie gekocht bij Brico na enkele weken loskwam op een zuidgericht raam, terwijl ze wel standhield op een noordgericht raam: een ervaring die we niet kunnen veralgemenen, maar die de beperking van het procedé bij zonneblootstelling en temperatuurschommelingen wel illustreert.",
+            "Tweede beperking: deze folies zijn bijna altijd decoratief of matterend, bedoeld voor visuele privacy, niet voor een onafhankelijk gemeten thermische of UV-prestatie. Sommige vermelden wel een UV-beschermingspercentage op de verpakking, maar dat is een claim van de fabrikant. In tegenstelling tot de folie die wij plaatsen, waarvan de technische kenmerken (lichtdoorlating, UV-blokkering, infraroodblokkering) op een technisch leveranciersfiche staan, wordt bij een goedkope folie doorgaans geen enkel onafhankelijk gemeten gegeven meegegeven.",
             "Derde, praktischere beperking: de rolformaten (45 tot 70 cm breed) verplichten tot naden op een raam dat breder is dan één rol, met risico op luchtbellen, plooien of een licht kleurverschil tussen de banen, vooral bij een eerste plaatsing.",
           ],
         },
@@ -2731,16 +2731,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Gemeten prestatie (VLT/UV/infrarood)', 'Niet meegedeeld', 'Op technisch fiche'],
               ['Garantie', 'Geen', '2 jaar op de plaatsing'],
               ['Geschatte levensduur', 'Variabel naargelang plaatsing en omgeving', '10 tot 15 jaar'],
-              ['Prijs', '~15 à 20€ per rol', 'Offerte op maat naargelang oppervlakte'],
+              ['Prijs', '~10 à 20€ per rol', 'Offerte op maat naargelang oppervlakte'],
             ],
           },
         },
         {
           heading: 'Bronnen',
           paragraphs: [
-            '[Gamma — statische raamfolie](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Brico — statische raamfolie](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — statische vorstfolie voor ramen](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
-            '[Bricozone — gebruikerservaringen met statische folie](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+            '[Bricozone — gebruikerservaring met een Brico-folie](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
         {
@@ -4049,10 +4049,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Cheap window film (Action, Gamma...) or professional installation: how to choose?',
+      title: 'Cheap window film (Action, Brico...) or professional installation: how to choose?',
       metaTitle: 'Cheap film or professional installation?',
       metaDescription:
-        'Cheap window film (Action, Gamma...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
+        'Cheap window film (Action, Brico...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
       date: '2026-10-18',
       excerpt:
         'Cheap static film from a shop or professional installation: what actually differs, and when each option makes sense.',
@@ -4066,14 +4066,14 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'What is a cheap window film, exactly?',
           paragraphs: [
-            "The films sold in hardware or home decor stores (Action, Gamma, Zelfbouwmarkt, and similar chains) are almost always static cling films: they hold onto the glass through an electrostatic effect, with no glue. That's what lets you apply them yourself in a few minutes, and remove them just as easily. They're sold in small rolls, typically around 45 to 70 cm wide by 1.5 metres long, at prices from roughly fifteen to twenty euros depending on the store and size. At [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988), for instance, a static frosted film at 67.5 × 150 cm costs €19.99.",
+            "The films sold in hardware or home decor stores (Action, Brico, Zelfbouwmarkt, and similar chains) are almost always static cling films: they hold onto the glass through an electrostatic effect, with no glue. That's what lets you apply them yourself in a few minutes, and remove them just as easily. They're sold in small rolls, typically around 45 to 70 cm wide by 1.5 metres long, at prices from roughly ten to twenty euros depending on the store and size. At [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186), for instance, a static film at 45 × 150 cm costs €11.99. Some of these films print a UV protection percentage on the packaging (up to 95% claimed by the manufacturer for this model), but that's a manufacturer's claim, not independently measured data like what we provide on a datasheet.",
           ],
         },
         {
           heading: 'The real limits of these films',
           paragraphs: [
-            "Static cling has a downside: it holds up less well over time than a glued film, especially in a humid room (bathroom) or one with temperature swings. On DIY forums, some users report that this type of film ends up peeling off after a few weeks, a report that can't be generalised to every case, but which illustrates the limit of the method well.",
-            "Second limit: these films are almost always decorative or frosted, designed for visual privacy, not for measured thermal or UV performance. Unlike the film we install, whose technical characteristics (light transmission, UV rejection, infrared rejection) are given on a datasheet, a cheap film generally comes with no such data at all.",
+            "Static cling has a downside: it holds up less well over time than a glued film, especially in a humid room (bathroom) or one with temperature swings. On the [Bricozone forum](https://www.bricozone.be/t/film-statique-sur-vitre.155035/), one user describes a film bought at Brico that peeled off on a south-facing window after a few weeks, while it held up fine on a north-facing one, a report that can't be generalised to every case, but which illustrates the method's limits under sun exposure and temperature swings well.",
+            "Second limit: these films are almost always decorative or frosted, designed for visual privacy, not for independently measured thermal or UV performance. Some print a UV protection percentage on the packaging, but that's a manufacturer's claim. Unlike the film we install, whose technical characteristics (light transmission, UV rejection, infrared rejection) are given on a supplier datasheet, a cheap film generally comes with no independently measured data at all.",
             "Third, more practical limit: the roll widths (45 to 70 cm) force seams on any window wider than a single roll, with a risk of air bubbles, creases, or a slight shade mismatch between strips, especially on a first attempt.",
           ],
         },
@@ -4103,16 +4103,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Measured performance (VLT/UV/infrared)', 'Not provided', 'Given on datasheet'],
               ['Warranty', 'None', '2 years on installation'],
               ['Estimated lifespan', 'Variable, depends on application and environment', '10 to 15 years'],
-              ['Price', '~€15 to 20 per roll', 'Custom quote based on surface area'],
+              ['Price', '~€10 to 20 per roll', 'Custom quote based on surface area'],
             ],
           },
         },
         {
           heading: 'Sources',
           paragraphs: [
-            '[Gamma — static window film](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Brico — static window film](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — static frosted window film](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
-            '[Bricozone — user feedback on a static film](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+            '[Bricozone — user feedback on a Brico film](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
         {

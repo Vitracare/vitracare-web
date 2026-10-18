@@ -688,24 +688,24 @@ const blogArticles = [
     FR: {
       title: 'Film premier prix ou pose professionnelle ? — VitraCare',
       description:
-        "Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
-      headline: 'Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : comment choisir ?',
+        "Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
+      headline: 'Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : comment choisir ?',
       datePublished: '2026-10-18',
       dateModified: '2026-10-18',
     },
     NL: {
       title: 'Goedkope folie of professionele plaatsing? — VitraCare',
       description:
-        'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
-      headline: 'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: hoe kiest u?',
+        'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
+      headline: 'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?',
       datePublished: '2026-10-18',
       dateModified: '2026-10-18',
     },
     EN: {
       title: 'Cheap Film or Professional Installation? — VitraCare',
       description:
-        'Cheap window film (Action, Gamma...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
-      headline: 'Cheap window film (Action, Gamma...) or professional installation: how to choose?',
+        'Cheap window film (Action, Brico...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
+      headline: 'Cheap window film (Action, Brico...) or professional installation: how to choose?',
       datePublished: '2026-10-18',
       dateModified: '2026-10-18',
     },

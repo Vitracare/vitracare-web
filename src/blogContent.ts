@@ -97,7 +97,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Comment se déroule la pose, et combien de temps dure le film ?',
           paragraphs: [
-            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences), ce qui favorise une durée de vie optimale, estimée à 10-15 ans. La pose est couverte par une garantie de deux ans.",
+            "Quel que soit le film choisi, la pose est réalisée par notre collaborateur, généralement à l'intérieur du vitrage (une pose extérieure reste possible selon vos préférences), ce qui favorise une durée de vie optimale, estimée à 10-15 ans. Pour du triple vitrage, une pose côté extérieur est généralement recommandée : l'effet du film y est plus marqué qu'en pose intérieure sur ce type de vitrage. La pose est couverte par une garantie de deux ans.",
             "Chaque projet est différent : la surface, le type de vitrage et vos besoins spécifiques influencent le choix final. C'est pourquoi nous établissons toujours un devis personnalisé, gratuit et sans engagement. Pour savoir comment se déroule concrètement un projet, de la demande de devis à la pose, consultez notre [article dédié aux étapes](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Un point d'entretien important : une fois le film posé, la vitre ne doit plus être nettoyée avec un produit chimique classique (type nettoyant vitres du commerce), au risque d'abîmer le film. Un nettoyage à l'eau et au savon doux suffit amplement. Pendant le mois qui suit la pose, évitez également de nettoyer ou de toucher la vitre : c'est le temps nécessaire au film pour adhérer complètement. De petites bulles d'air éventuellement visibles au début disparaissent d'elles-mêmes durant cette période, la chaleur et le soleil aidant le film à se fixer définitivement.",
             "Un petit avantage indirect de la pose : la vitre est nettoyée avant l'application du film, ce qui laisse cette face impeccable une fois le chantier terminé.",
@@ -119,7 +119,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Le film se pose-t-il à l\'intérieur ou à l\'extérieur du vitrage ?',
-          answer: "Généralement à l'intérieur, mais une pose extérieure reste possible selon vos préférences. La pose intérieure protège le film des intempéries et des lavages de vitres, et favorise sa durée de vie, estimée à 10-15 ans.",
+          answer: "Généralement à l'intérieur, mais une pose extérieure reste possible selon vos préférences. La pose intérieure protège le film des intempéries et des lavages de vitres, et favorise sa durée de vie, estimée à 10-15 ans. Pour du triple vitrage, la pose extérieure est généralement recommandée, l'effet du film y étant plus marqué.",
+        },
+        {
+          question: 'Peut-on poser le film seulement sur une partie de la fenêtre ?',
+          answer: "Non, le film se pose toujours sur l'intégralité de la vitre, jamais sur la moitié ou les deux tiers seulement. Une même vitre exposée à deux niveaux de chaleur différents (une zone filmée qui en absorbe moins, une zone nue en plein soleil) subit une contrainte thermique inégale qui risque de fissurer ou d'endommager le verre.",
         },
         {
           question: 'Le film abîme-t-il la vue vers l\'extérieur ?',
@@ -1299,6 +1303,104 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
+      title: 'Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : comment choisir ?',
+      metaTitle: 'Film premier prix ou pose professionnelle ?',
+      metaDescription:
+        "Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
+      date: '2026-10-18',
+      excerpt:
+        "Film statique premier prix en grande surface ou pose professionnelle : ce qui change vraiment, et dans quels cas chaque option a du sens.",
+      heroImage: { src: '/images/blog/illus-film-premier-prix-ou-pro.jpg', alt: 'Illustration comparant deux fenêtres côte à côte, l\'une avec un film mal posé et plein de bulles, l\'autre avec un film posé proprement sans défaut', width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Un rouleau de film pour vitre en grande surface coûte une quinzaine à une vingtaine d'euros, contre un devis personnalisé pour une pose professionnelle. La différence de prix est réelle, mais elle ne raconte pas toute l'histoire : ces deux solutions ne répondent pas toujours au même besoin. Voici ce qui change concrètement, pour choisir en connaissance de cause plutôt que sur le seul critère du prix.",
+          ],
+        },
+        {
+          heading: 'Qu\'est-ce qu\'un film de vitre premier prix, concrètement ?',
+          paragraphs: [
+            "Les films vendus en grande surface de bricolage ou de déco (Action, Gamma, Zelfbouwmarkt, et d'autres enseignes similaires) sont presque toujours des films à adhérence statique : ils tiennent sur la vitre par un effet électrostatique, sans colle. C'est ce qui permet de les poser soi-même en quelques minutes, et de les retirer tout aussi facilement. Ils se vendent en petits rouleaux, typiquement autour de 45 à 70 cm de large pour 1,5 mètre de long, à des prix allant d'une quinzaine à une vingtaine d'euros selon l'enseigne et le format. Chez [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988) par exemple, un film statique effet givré de 67,5 × 150 cm coûte 19,99 €.",
+          ],
+        },
+        {
+          heading: 'Les vraies limites de ces films',
+          paragraphs: [
+            "L'adhérence statique a un revers : elle tient moins bien dans la durée qu'un film collé, surtout dans une pièce humide (salle de bain) ou soumise à des écarts de température. Sur des forums de bricolage, certains utilisateurs rapportent que ce type de film finit par se décoller après quelques semaines : un retour qu'on ne peut pas généraliser à tous les cas, mais qui illustre bien la limite du procédé.",
+            "Deuxième limite : ces films sont presque toujours décoratifs ou dépolis, pensés pour l'intimité visuelle, pas pour une performance thermique ou UV mesurée. Contrairement au film que nous posons, dont les caractéristiques techniques (transmission lumineuse, rejet UV, rejet infrarouge) figurent sur une fiche technique, un film premier prix n'est généralement accompagné d'aucune donnée de ce type.",
+            "Troisième limite, plus pratique : les formats vendus en rouleau (45 à 70 cm de large) obligent à des raccords sur une fenêtre plus large qu'un seul rouleau, avec un risque de bulles d'air, de plis ou de léger décalage de teinte entre les lés, surtout en première pose.",
+          ],
+        },
+        {
+          heading: 'Dans quels cas un film pas cher suffit largement',
+          paragraphs: [
+            "Soyons honnêtes : pour un besoin ponctuel ou une petite surface, un film premier prix peut largement suffire. Une petite fenêtre de toilettes ou de cave, un besoin d'intimité temporaire le temps d'un déménagement, un budget serré pour une seule vitre : dans ces cas, investir dans une pose professionnelle n'a pas forcément de sens.",
+          ],
+        },
+        {
+          heading: 'Quand la pose professionnelle change vraiment la donne',
+          paragraphs: [
+            "Pour une fenêtre plus grande, un besoin durable, ou une fonction précise (réduire réellement la chaleur, protéger contre les UV, renforcer la résistance à l'effraction), les différences prennent plus de poids. La pose professionnelle utilise un film collé, pas statique, posé en continu sur toute la hauteur de la vitre, sans raccord visible. Nous donnons des caractéristiques mesurées plutôt qu'une promesse vague, la pose est couverte par une garantie de deux ans, et si un défaut de pose ou une teinte mal posée apparaît (ce qui se voit généralement dans le mois qui suit), nous repassons corriger.",
+            "Dans les faits, on nous rappelle rarement pour reprendre un film mal posé : les demandes qu'on reçoit après coup concernent plutôt d'autres fenêtres à équiper, ou un nettoyage (le film ne supporte pas les produits chimiques classiques, un entretien que nous proposons aussi).",
+          ],
+        },
+        {
+          heading: 'Tableau comparatif rapide',
+          paragraphs: [
+            "Pour résumer visuellement les différences entre les deux options.",
+          ],
+          table: {
+            headers: ['', 'Film premier prix (grande surface)', 'Pose professionnelle VitraCare'],
+            rows: [
+              ['Fixation', 'Adhérence statique, sans colle', 'Film collé en continu'],
+              ['Finition grande fenêtre', 'Raccords visibles au-delà d\'un rouleau', 'Pose continue, sans raccord'],
+              ['Performance mesurée (VLT/UV/infrarouge)', 'Non communiquée', 'Donnée sur fiche technique'],
+              ['Garantie', 'Aucune', '2 ans sur la pose'],
+              ['Durée de vie estimée', 'Variable selon pose et environnement', '10 à 15 ans'],
+              ['Prix', '~15 à 20€ le rouleau', 'Devis personnalisé selon surface'],
+            ],
+          },
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Gamma — film statique pour fenêtre](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Zelfbouwmarkt — film de fenêtre givré statique](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Bricozone — retour d\'utilisateurs sur un film statique](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre projet et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Un film premier prix abîme-t-il la vitre ?',
+          answer: "Non, ni un film statique ni un film collé n'abîment le verre lui-même. La différence se joue sur la tenue dans le temps et la finition, pas sur un risque pour la vitre.",
+        },
+        {
+          question: 'Peut-on remplacer un film premier prix par une pose professionnelle plus tard ?',
+          answer: "Oui, un film statique se retire facilement puisqu'il n'est pas collé. La vitre est ensuite prête pour une pose professionnelle si vos besoins évoluent.",
+        },
+        {
+          question: 'Le film premier prix réduit-il la chaleur ou les UV comme un film professionnel ?',
+          answer: "Pas de la même façon : ces films sont presque toujours purement décoratifs, sans donnée de performance mesurée. Notre film effet miroir, par exemple, a un rejet UV de 72% et un rejet infrarouge de 81%, des chiffres qui ne sont généralement pas communiqués pour un film premier prix.",
+        },
+        {
+          question: 'Pourquoi les films premier prix se posent-ils surtout sur de petites surfaces ?',
+          answer: "Ils se vendent en rouleaux d'environ 45 à 70 cm de large : au-delà, il faut plusieurs lés avec un risque de raccord visible, ce qui devient vite délicat sur une grande fenêtre.",
+        },
+        {
+          question: 'VitraCare affiche-t-il ses prix ?',
+          answer: "Non, le tarif dépend de la surface et du type de film : nous établissons toujours un devis personnalisé et gratuit plutôt que d'afficher un prix fixe.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -1368,7 +1470,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Hoe verloopt de plaatsing, en hoe lang gaat de folie mee?',
           paragraphs: [
-            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur), wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. De plaatsing wordt gedekt door een garantie van twee jaar.",
+            "Ongeacht de gekozen folie wordt de plaatsing uitgevoerd door onze medewerker, doorgaans aan de binnenzijde van het glas (een plaatsing aan de buitenzijde blijft mogelijk volgens uw voorkeur), wat een optimale levensduur bevordert, geschat op 10 tot 15 jaar. Bij drievoudig glas wordt een plaatsing aan de buitenzijde doorgaans aanbevolen: het effect van de folie is daar sterker dan bij een plaatsing aan de binnenzijde op dit type beglazing. De plaatsing wordt gedekt door een garantie van twee jaar.",
             "Elk project is anders: de oppervlakte, het type beglazing en uw specifieke behoeften bepalen de uiteindelijke keuze. Daarom stellen we altijd een gepersonaliseerde offerte op, gratis en vrijblijvend. Om te weten hoe een project concreet verloopt, van offerteaanvraag tot plaatsing, bekijk ons [artikel over de verschillende stappen](/blog/etapes-projet-film-vitrage-bruxelles).",
             "Een belangrijk onderhoudspunt: eenmaal de folie geplaatst is, mag het raam niet meer gereinigd worden met een klassiek chemisch product (zoals gewone glasreiniger), want dit kan de folie beschadigen. Reinigen met water en een milde zeep volstaat ruimschoots. Vermijd ook gedurende de maand na de plaatsing om het raam te reinigen of aan te raken: dit is de tijd die de folie nodig heeft om volledig te hechten. Eventuele kleine luchtbelletjes die in het begin zichtbaar zijn, verdwijnen tijdens deze periode vanzelf, doordat warmte en zonlicht de folie helpen definitief te fixeren.",
             "Een bijkomend voordeel van de plaatsing: het raam wordt gereinigd vóór het aanbrengen van de folie, waardoor deze zijde na afloop van de werken perfect proper is.",
@@ -1390,7 +1492,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Wordt de folie aan de binnen- of buitenzijde van het glas geplaatst?',
-          answer: "Doorgaans aan de binnenzijde, al blijft een plaatsing aan de buitenzijde mogelijk volgens uw voorkeur. Een plaatsing aan de binnenzijde beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur, geschat op 10 tot 15 jaar.",
+          answer: "Doorgaans aan de binnenzijde, al blijft een plaatsing aan de buitenzijde mogelijk volgens uw voorkeur. Een plaatsing aan de binnenzijde beschermt de folie tegen weersinvloeden en het reinigen van de ramen, en bevordert haar levensduur, geschat op 10 tot 15 jaar. Bij drievoudig glas wordt een plaatsing aan de buitenzijde doorgaans aanbevolen, aangezien het effect van de folie daar sterker is.",
+        },
+        {
+          question: 'Kan de folie maar op een deel van het raam geplaatst worden?',
+          answer: "Nee, de folie wordt altijd over de volledige ruit geplaatst, nooit over de helft of tweederde ervan. Eenzelfde ruit die blootgesteld wordt aan twee verschillende warmteniveaus (een deel met folie dat minder warmte opneemt, een deel zonder folie in volle zon) ondergaat een ongelijke thermische spanning die het glas kan doen barsten of beschadigen.",
         },
         {
           question: 'Verslechtert de folie het zicht naar buiten?',
@@ -2569,6 +2675,104 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
+      title: 'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: hoe kiest u?',
+      metaTitle: 'Goedkope folie of professionele plaatsing?',
+      metaDescription:
+        'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
+      date: '2026-10-18',
+      excerpt:
+        'Statische goedkope folie uit de winkel of professionele plaatsing: wat er écht verschilt, en in welke gevallen elke optie zin heeft.',
+      heroImage: { src: '/images/blog/illus-film-premier-prix-ou-pro.jpg', alt: 'Illustratie die twee ramen naast elkaar vergelijkt, één met een slecht geplaatste folie vol luchtbellen, het andere met een netjes geplaatste folie zonder gebreken', width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Een rol raamfolie in de doe-het-zelfzaak kost een vijftiental tot een twintigtal euro, tegenover een offerte op maat voor een professionele plaatsing. Het prijsverschil is reëel, maar vertelt niet het hele verhaal: deze twee oplossingen beantwoorden niet altijd aan dezelfde behoefte. Hier is wat er concreet verschilt, om met kennis van zaken te kiezen in plaats van enkel op prijs.",
+          ],
+        },
+        {
+          heading: 'Wat is een goedkope raamfolie precies?',
+          paragraphs: [
+            "De folies die verkocht worden in doe-het-zelf- of decozaken (Action, Gamma, Zelfbouwmarkt, en gelijkaardige ketens) zijn bijna altijd folies met statische hechting: ze blijven op het raam door een elektrostatisch effect, zonder lijm. Daardoor kunt u ze zelf in enkele minuten plaatsen, en even makkelijk weer verwijderen. Ze worden verkocht in kleine rollen, doorgaans rond 45 tot 70 cm breed voor 1,5 meter lang, aan prijzen van een vijftiental tot een twintigtal euro naargelang de winkel en het formaat. Bij [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988) bijvoorbeeld kost een statische folie met vorsteffect van 67,5 × 150 cm 19,99 €.",
+          ],
+        },
+        {
+          heading: 'De echte beperkingen van deze folies',
+          paragraphs: [
+            "Statische hechting heeft een keerzijde: ze houdt minder goed stand in de tijd dan een gelijmde folie, vooral in een vochtige ruimte (badkamer) of bij temperatuurschommelingen. Op doe-het-zelfforums melden sommige gebruikers dat dit type folie na enkele weken loslaat: een ervaring die we niet kunnen veralgemenen, maar die de beperking van het procedé wel illustreert.",
+            "Tweede beperking: deze folies zijn bijna altijd decoratief of matterend, bedoeld voor visuele privacy, niet voor een gemeten thermische of UV-prestatie. In tegenstelling tot de folie die wij plaatsen, waarvan de technische kenmerken (lichtdoorlating, UV-blokkering, infraroodblokkering) op een technisch fiche staan, wordt bij een goedkope folie doorgaans geen enkel dergelijk gegeven meegegeven.",
+            "Derde, praktischere beperking: de rolformaten (45 tot 70 cm breed) verplichten tot naden op een raam dat breder is dan één rol, met risico op luchtbellen, plooien of een licht kleurverschil tussen de banen, vooral bij een eerste plaatsing.",
+          ],
+        },
+        {
+          heading: 'In welke gevallen een goedkope folie ruimschoots volstaat',
+          paragraphs: [
+            "Laten we eerlijk zijn: voor een eenmalige behoefte of een klein oppervlak kan een goedkope folie ruimschoots volstaan. Een klein toilet- of kelderraam, een tijdelijke privacybehoefte tijdens een verhuis, een krap budget voor één enkel raam: in die gevallen heeft investeren in een professionele plaatsing niet per se zin.",
+          ],
+        },
+        {
+          heading: 'Wanneer professionele plaatsing écht het verschil maakt',
+          paragraphs: [
+            "Voor een groter raam, een duurzame behoefte, of een precieze functie (echt de warmte verminderen, beschermen tegen UV, de weerstand tegen inbraak verhogen), wegen de verschillen zwaarder door. Professionele plaatsing gebruikt een gelijmde folie, geen statische, aangebracht in één doorlopende laag over de volledige hoogte van het raam, zonder zichtbare naad. Wij geven gemeten kenmerken in plaats van een vage belofte, de plaatsing is gedekt door een garantie van twee jaar, en als er een plaatsingsfout of een verkeerd geplaatste tint opduikt (wat doorgaans binnen de maand zichtbaar wordt), komen we terug om dit te corrigeren.",
+            "In de praktijk worden we zelden teruggeroepen om een slecht geplaatste folie over te doen: de aanvragen die we nadien krijgen gaan eerder over andere te beglazen ramen, of over een reiniging (de folie verdraagt geen klassieke chemische producten, een onderhoud dat we ook aanbieden).",
+          ],
+        },
+        {
+          heading: 'Snelle vergelijkingstabel',
+          paragraphs: [
+            'Om de verschillen tussen beide opties visueel samen te vatten.',
+          ],
+          table: {
+            headers: ['', 'Goedkope folie (winkel)', 'Professionele plaatsing VitraCare'],
+            rows: [
+              ['Hechting', 'Statisch, zonder lijm', 'Doorlopend gelijmde folie'],
+              ['Afwerking groot raam', 'Zichtbare naden voorbij één rol', 'Doorlopende plaatsing, zonder naad'],
+              ['Gemeten prestatie (VLT/UV/infrarood)', 'Niet meegedeeld', 'Op technisch fiche'],
+              ['Garantie', 'Geen', '2 jaar op de plaatsing'],
+              ['Geschatte levensduur', 'Variabel naargelang plaatsing en omgeving', '10 tot 15 jaar'],
+              ['Prijs', '~15 à 20€ per rol', 'Offerte op maat naargelang oppervlakte'],
+            ],
+          },
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            '[Gamma — statische raamfolie](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Zelfbouwmarkt — statische vorstfolie voor ramen](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Bricozone — gebruikerservaringen met statische folie](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw project en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Beschadigt een goedkope folie het raam?',
+          answer: 'Nee, noch een statische, noch een gelijmde folie beschadigt het glas zelf. Het verschil zit in de houdbaarheid en de afwerking, niet in een risico voor het raam.',
+        },
+        {
+          question: 'Kan een goedkope folie later vervangen worden door een professionele plaatsing?',
+          answer: 'Ja, een statische folie wordt makkelijk verwijderd aangezien ze niet gelijmd is. Het raam is daarna klaar voor een professionele plaatsing als uw behoeften veranderen.',
+        },
+        {
+          question: 'Vermindert een goedkope folie warmte of UV net zoals een professionele folie?',
+          answer: 'Niet op dezelfde manier: deze folies zijn bijna altijd puur decoratief, zonder gemeten prestatiegegevens. Onze spiegeleffectfolie bijvoorbeeld heeft een UV-blokkering van 72% en een infraroodblokkering van 81%, cijfers die doorgaans niet meegedeeld worden bij een goedkope folie.',
+        },
+        {
+          question: 'Waarom worden goedkope folies vooral op kleine oppervlakken geplaatst?',
+          answer: 'Ze worden verkocht in rollen van ongeveer 45 tot 70 cm breed: daarboven zijn meerdere banen nodig met risico op een zichtbare naad, wat snel lastig wordt op een groot raam.',
+        },
+        {
+          question: 'Toont VitraCare zijn prijzen?',
+          answer: 'Nee, het tarief hangt af van de oppervlakte en het type folie: we stellen altijd een gepersonaliseerde en gratis offerte op in plaats van een vaste prijs te tonen.',
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -2638,7 +2842,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'How does installation work, and how long does the film last?',
           paragraphs: [
-            "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference), which supports an optimal lifespan, estimated at 10-15 years. Installation is covered by a two-year warranty.",
+            "Whichever film you choose, installation is carried out by our collaborator, generally on the interior side of the glass (exterior installation remains possible depending on your preference), which supports an optimal lifespan, estimated at 10-15 years. For triple glazing, exterior installation is generally recommended: the film's effect is stronger there than with interior installation on this type of glazing. Installation is covered by a two-year warranty.",
             'Every project is different: the surface area, type of glazing and your specific needs all influence the final choice. That\'s why we always draw up a personalised quote, free and with no obligation. To see how a project actually unfolds, from quote request to installation, check our [article on the different steps](/blog/etapes-projet-film-vitrage-bruxelles).',
             "One important care note: once the film is applied, the window must no longer be cleaned with a standard chemical glass cleaner, as this can damage the film. Cleaning with water and mild soap is more than enough. Also avoid cleaning or touching the window for the month following installation, the time the film needs to fully adhere. Any small air bubbles visible at first disappear on their own during this period, as heat and sunlight help the film set completely.",
             "A small side benefit of the installation: the window is cleaned before the film is applied, leaving that side spotless once the work is done.",
@@ -2660,7 +2864,11 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       faq: [
         {
           question: 'Is the film applied to the inside or the outside of the glass?',
-          answer: "Generally on the inside; exterior installation remains possible depending on your preference. Interior installation protects the film from weather and window cleaning, and supports its lifespan, estimated at 10-15 years.",
+          answer: "Generally on the inside; exterior installation remains possible depending on your preference. Interior installation protects the film from weather and window cleaning, and supports its lifespan, estimated at 10-15 years. For triple glazing, exterior installation is generally recommended, since the film's effect is stronger there.",
+        },
+        {
+          question: 'Can the film be applied to only part of a window?',
+          answer: "No, the film is always applied across the entire pane, never over half or two-thirds of it. A single pane exposed to two different heat levels, one section with film absorbing less heat, one section bare and in full sun, undergoes uneven thermal stress that can crack or damage the glass.",
         },
         {
           question: "Does the film reduce the view towards the outside?",
@@ -3836,6 +4044,104 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Why not just install two different films?",
           answer: "That would be pointless and more expensive: mirror effect film already covers both needs with a single installation. Stacking two films on the same glazing isn't something we do, and it wouldn't add anything.",
+        },
+      ],
+    },
+    {
+      slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
+      title: 'Cheap window film (Action, Gamma...) or professional installation: how to choose?',
+      metaTitle: 'Cheap film or professional installation?',
+      metaDescription:
+        'Cheap window film (Action, Gamma...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
+      date: '2026-10-18',
+      excerpt:
+        'Cheap static film from a shop or professional installation: what actually differs, and when each option makes sense.',
+      heroImage: { src: '/images/blog/illus-film-premier-prix-ou-pro.jpg', alt: 'Illustration comparing two windows side by side, one with a badly applied film full of bubbles, the other with a cleanly installed film with no defects', width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "A roll of window film from a hardware or home store costs roughly fifteen to twenty euros, against a custom quote for a professional installation. The price difference is real, but it doesn't tell the whole story: these two solutions don't always answer the same need. Here's what actually differs, so you can choose based on more than just the price tag.",
+          ],
+        },
+        {
+          heading: 'What is a cheap window film, exactly?',
+          paragraphs: [
+            "The films sold in hardware or home decor stores (Action, Gamma, Zelfbouwmarkt, and similar chains) are almost always static cling films: they hold onto the glass through an electrostatic effect, with no glue. That's what lets you apply them yourself in a few minutes, and remove them just as easily. They're sold in small rolls, typically around 45 to 70 cm wide by 1.5 metres long, at prices from roughly fifteen to twenty euros depending on the store and size. At [Gamma](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988), for instance, a static frosted film at 67.5 × 150 cm costs €19.99.",
+          ],
+        },
+        {
+          heading: 'The real limits of these films',
+          paragraphs: [
+            "Static cling has a downside: it holds up less well over time than a glued film, especially in a humid room (bathroom) or one with temperature swings. On DIY forums, some users report that this type of film ends up peeling off after a few weeks, a report that can't be generalised to every case, but which illustrates the limit of the method well.",
+            "Second limit: these films are almost always decorative or frosted, designed for visual privacy, not for measured thermal or UV performance. Unlike the film we install, whose technical characteristics (light transmission, UV rejection, infrared rejection) are given on a datasheet, a cheap film generally comes with no such data at all.",
+            "Third, more practical limit: the roll widths (45 to 70 cm) force seams on any window wider than a single roll, with a risk of air bubbles, creases, or a slight shade mismatch between strips, especially on a first attempt.",
+          ],
+        },
+        {
+          heading: 'When a cheap film is more than enough',
+          paragraphs: [
+            "Let's be honest: for a one-off need or a small area, a cheap film can be more than enough. A small toilet or basement window, a temporary privacy need while moving, a tight budget for a single pane: in these cases, investing in a professional installation doesn't necessarily make sense.",
+          ],
+        },
+        {
+          heading: 'When professional installation really makes a difference',
+          paragraphs: [
+            "For a larger window, a long-term need, or a specific function (genuinely reducing heat, protecting against UV, reinforcing break-in resistance), the differences carry more weight. Professional installation uses a glued film, not a static one, applied in a single continuous layer across the full height of the glass, with no visible seam. We give you measured characteristics rather than a vague promise, the installation is covered by a two-year warranty, and if an installation defect or a poorly applied tint shows up (which generally becomes visible within the month), we come back to fix it.",
+            "In practice, we're rarely called back to redo a badly installed film: the requests we get afterwards are usually about other windows to equip, or about cleaning (the film can't tolerate standard chemical products, a maintenance service we also offer).",
+          ],
+        },
+        {
+          heading: 'Quick comparison table',
+          paragraphs: [
+            'To sum up the differences between both options at a glance.',
+          ],
+          table: {
+            headers: ['', 'Cheap film (store-bought)', 'Professional installation by VitraCare'],
+            rows: [
+              ['Fixation', 'Static cling, no glue', 'Continuously glued film'],
+              ['Finish on large windows', 'Visible seams beyond one roll', 'Continuous installation, no seam'],
+              ['Measured performance (VLT/UV/infrared)', 'Not provided', 'Given on datasheet'],
+              ['Warranty', 'None', '2 years on installation'],
+              ['Estimated lifespan', 'Variable, depends on application and environment', '10 to 15 years'],
+              ['Price', '~€15 to 20 per roll', 'Custom quote based on surface area'],
+            ],
+          },
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            '[Gamma — static window film](https://www.gamma.be/fr/assortiment/film-statique-pour-fenetre-mikado-338-8046-67-5-x-150-cm/p/B360988)',
+            '[Zelfbouwmarkt — static frosted window film](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Bricozone — user feedback on a static film](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your project and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does a cheap film damage the window?',
+          answer: "No, neither a static nor a glued film damages the glass itself. The difference lies in durability and finish, not in any risk to the window.",
+        },
+        {
+          question: 'Can a cheap film be replaced by a professional installation later?',
+          answer: "Yes, a static film comes off easily since it isn't glued. The window is then ready for a professional installation if your needs change.",
+        },
+        {
+          question: 'Does a cheap film reduce heat or UV the way a professional film does?',
+          answer: "Not in the same way: these films are almost always purely decorative, with no measured performance data. Our mirror-effect film, for instance, has a UV rejection of 72% and an infrared rejection of 81%, figures that are generally not provided for a cheap film.",
+        },
+        {
+          question: 'Why are cheap films mostly applied to small surfaces?',
+          answer: "They're sold in rolls roughly 45 to 70 cm wide: beyond that, you need several strips with a risk of a visible seam, which quickly becomes tricky on a large window.",
+        },
+        {
+          question: 'Does VitraCare display its prices?',
+          answer: "No, the rate depends on the surface area and the type of film: we always draw up a personalised, free quote rather than displaying a fixed price.",
         },
       ],
     },

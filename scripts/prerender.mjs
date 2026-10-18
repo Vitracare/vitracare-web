@@ -243,6 +243,7 @@ const blogArticleImages = {
   'film-blanc-mat-vitrage-bruxelles': '/images/blog/film-mat-exemple.jpg',
   'film-brise-vue-anti-regard-vitrage': '/images/blog/illus-brise-vue.jpg',
   'film-miroir-chaleur-vis-a-vis-bruxelles': '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg',
+  'film-vitre-premier-prix-ou-pose-professionnelle': '/images/blog/illus-film-premier-prix-ou-pro.jpg',
 };
 
 const blogArticles = [
@@ -678,6 +679,35 @@ const blogArticles = [
       headline: 'Heat and being overlooked at the same time: mirror effect film solves both in one installation',
       datePublished: '2026-10-15',
       dateModified: '2026-10-15',
+    },
+  },
+},
+{
+  path: '/blog/film-vitre-premier-prix-ou-pose-professionnelle',
+  meta: {
+    FR: {
+      title: 'Film premier prix ou pose professionnelle ? — VitraCare',
+      description:
+        "Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
+      headline: 'Film pour vitre premier prix (Action, Gamma...) ou pose professionnelle : comment choisir ?',
+      datePublished: '2026-10-18',
+      dateModified: '2026-10-18',
+    },
+    NL: {
+      title: 'Goedkope folie of professionele plaatsing? — VitraCare',
+      description:
+        'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
+      headline: 'Goedkope raamfolie (Action, Gamma...) of professionele plaatsing: hoe kiest u?',
+      datePublished: '2026-10-18',
+      dateModified: '2026-10-18',
+    },
+    EN: {
+      title: 'Cheap Film or Professional Installation? — VitraCare',
+      description:
+        'Cheap window film (Action, Gamma...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
+      headline: 'Cheap window film (Action, Gamma...) or professional installation: how to choose?',
+      datePublished: '2026-10-18',
+      dateModified: '2026-10-18',
     },
   },
 },

@@ -1405,6 +1405,115 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-anti-regard-transparent',
+      title: 'Film anti-regard transparent pour fenêtre : est-ce que ça existe vraiment ?',
+      metaTitle: 'Film anti-regard transparent : ça existe vraiment ?',
+      metaDescription:
+        "Un film qui bloque les regards tout en restant transparent ? Oui de jour avec le film effet miroir, pas la nuit. Pourquoi, et quel film choisir.",
+      date: '2026-10-21',
+      excerpt:
+        "Voir dehors sans être vu, avec une vitre qui reste claire : le film effet miroir le fait de jour. La nuit, c'est une autre histoire. Voici pourquoi, et quel film choisir selon votre besoin.",
+      sections: [
+        {
+          paragraphs: [
+            "Vous voulez continuer à voir la rue depuis votre salon, sans que les passants voient à l'intérieur, et sans transformer votre fenêtre en vitre opaque. C'est exactement ce que promet un film anti-regard transparent. La réponse honnête : oui en journée, avec un film effet miroir. Mais aucun film ne fait les deux à toute heure, et la raison tient à la lumière elle-même, pas à la qualité du produit. Voici ce qui se passe vraiment, ce que vous perdez en transparence, et quel film choisir selon votre besoin.",
+          ],
+        },
+        {
+          heading: 'La réponse courte : oui le jour, non 24 heures sur 24',
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Le film effet miroir, aussi appelé film sans tain, est le seul qui vous laisse voir dehors tout en bloquant la vue depuis l'extérieur. Il a une condition : que l'extérieur soit plus lumineux que l'intérieur. En journée, c'est presque toujours le cas, et les passants voient un reflet au lieu de votre salon.",
+            "Le soir, dès que vos lampes sont allumées et que la rue est sombre, le rapport s'inverse. L'intérieur devient le côté lumineux, et on peut voir chez vous depuis la rue. Les autres films ne contournent pas ce problème : le blanc mat bloque la vue à toute heure mais floute aussi la vôtre, tandis que le solaire et l'anti-effraction restent transparents, sans aucune intimité.",
+          ],
+        },
+        {
+          heading: 'Pourquoi un film « à sens unique » n\'existe pas',
+          anchor: 'physique',
+          paragraphs: [
+            "Un film effet miroir n'a pas de sens de passage. C'est une couche semi-réfléchissante : elle renvoie une partie de la lumière et laisse passer le reste, de la même façon dans les deux directions. Le service de questions-réponses du département de physique de l'[Université de l'Illinois](https://van.physics.illinois.edu/ask/listing/16805) décrit d'ailleurs ces vitres comme des miroirs partiels, qui reflètent la majeure partie de la lumière, mais pas toute.",
+            "Ce qui crée l'effet, c'est l'écart de lumière entre les deux côtés. Du côté le plus éclairé, le reflet est si fort qu'il masque le peu de lumière qui arrive de l'autre côté : on voit la rue se refléter, ou soi-même. Du côté sombre, il n'y a presque rien à refléter, donc on voit à travers. L'émission de vulgarisation [The Naked Scientists](https://www.thenakedscientists.com/node/179511) le résume ainsi : le vrai miroir à sens unique n'existe pas, et si les deux côtés sont éclairés de la même manière, l'effet ne fonctionne plus.",
+            "Ça explique pourquoi l'effet faiblit à l'aube et au crépuscule, quand la lumière est à peu près la même dedans et dehors. Et pourquoi il faut se méfier d'un produit présenté comme « transparent et unidirectionnel » à toute heure : avec un miroir ou un film classique, c'est physiquement impossible.",
+          ],
+        },
+        {
+          heading: '« Transparent », vraiment ? Ce que vous voyez depuis l\'intérieur',
+          anchor: 'vue-interieure',
+          paragraphs: [
+            "Depuis l'intérieur, la vue vers l'extérieur reste nette. Mais le film n'est pas incolore. Celui que nous posons a une transmission lumineuse visible (VLT) de 22 % : seuls 22 % de la lumière du jour traversent le vitrage, le reste est réfléchi ou absorbé. La pièce est donc plus sombre qu'avec une vitre nue. C'est le prix de l'effet miroir.",
+            "Nos clients déjà équipés décrivent un léger effet de lunettes de soleil, avec un très léger reflet perceptible aussi depuis l'intérieur. Rien qui empêche de voir dehors, mais ce n'est pas identique à une vitre nue. Le soir, ce reflet intérieur devient plus net, pour la même raison physique : la pièce éclairée est devenue le côté lumineux.",
+            "En contrepartie, ce même film bloque 72 % des UV et rejette 81 % du rayonnement infrarouge solaire, ce qui l'aide aussi contre la chaleur et la décoloration des meubles. Notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) explique ce que mesurent ces chiffres, et ce qu'ils ne mesurent pas.",
+          ],
+        },
+        {
+          heading: 'Quel film pour quel besoin ?',
+          anchor: 'comparatif',
+          paragraphs: [
+            "Le choix dépend surtout de deux questions : avez-vous besoin d'intimité le soir, et tenez-vous à voir net à travers la vitre ? Le tableau résume ce que fait chaque film.",
+          ],
+          table: {
+            headers: ['Film', "Vue depuis l'intérieur", 'Regard extérieur le jour', 'Regard extérieur le soir (lumières allumées)', 'Lumière naturelle'],
+            rows: [
+              ['Effet miroir argenté', 'Nette, un peu assombrie', 'Bloqué (reflet)', "Visible (l'effet s'inverse)", 'Réduite (22 % passent)'],
+              ['Effet miroir noir', 'Nette, nettement assombrie', 'Bloqué', 'Nettement plus difficile', 'Nettement réduite'],
+              ['Blanc mat', 'Floutée', 'Bloqué', 'Bloqué', 'Passe, diffusée'],
+              ['Solaire', 'Nette (légère teinte bleutée)', 'Visible', 'Visible', 'Passe'],
+              ['Anti-effraction', 'Nette', 'Visible', 'Visible', 'Passe'],
+            ],
+          },
+        },
+        {
+          heading: 'Comment trancher selon votre situation',
+          anchor: 'choisir',
+          paragraphs: [
+            "Si vous voulez voir dehors sans être vu en journée, typiquement un salon face à la rue ou à un vis-à-vis, le [film miroir argenté](/blog/film-miroir-vitrage-bruxelles) est le bon choix. Si l'intimité doit tenir aussi le soir sans tirer de rideau, et que vous acceptez de ne plus voir net à travers la vitre, c'est le [film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles), le plus adapté pour une salle de bain.",
+            "Et si vous voulez les deux, la vue dégagée et l'intimité le soir ? Aucun film seul ne le fait. La combinaison la plus simple reste le film miroir pour la journée et un rideau ou un store que l'on ferme le soir. La teinte noire peut convenir à une porte d'entrée vitrée ou à une fenêtre secondaire, à condition d'accepter une pièce nettement plus sombre en permanence.",
+            "Enfin, si votre problème est la chaleur, les UV ou la sécurité, et pas les regards, les films solaire et anti-effraction gardent la vitre transparente. Notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) compare les quatre options en détail.",
+          ],
+        },
+        {
+          heading: 'Comment se passe la pose, et combien ça coûte ?',
+          anchor: 'pose-prix',
+          paragraphs: [
+            "Nous posons ces films directement sur vos vitrages existants, généralement côté intérieur, en une seule visite et sans démontage. La pose est garantie 2 ans, et la durée de vie du film est estimée à 10 à 15 ans en pose intérieure. Notre [article sur les étapes d'un projet](/blog/etapes-projet-film-vitrage-bruxelles) détaille le déroulement, de la prise de mesures à la pose.",
+            "Il n'y a pas de tarif affiché : le prix dépend de la surface à traiter, et il reste le même quel que soit le film choisi. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment l'estimation est calculée.",
+            "Ces films conviennent bien si votre besoin principal est d'éviter les regards en journée sans perdre la vue. Si vous cherchez une intimité totale à toute heure avec une vue parfaitement nette, nous préférons vous le dire avant : aucun film ne le permet, et un rideau ou un store restera nécessaire le soir.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            "[Université de l'Illinois, Physics Van : « One-way Mirrors? » (2011)](https://van.physics.illinois.edu/ask/listing/16805)",
+            '[The Naked Scientists : « How does a one-way mirror work? » (2008)](https://www.thenakedscientists.com/node/179511)',
+          ],
+        },
+        {
+          heading: 'Vous hésitez encore ?',
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Le film effet miroir fonctionne-t-il par temps gris ?',
+          answer: "En général oui : en journée, même par temps couvert, l'extérieur reste le plus souvent plus lumineux qu'une pièce. L'effet faiblit surtout à l'aube et au crépuscule, quand la lumière devient comparable des deux côtés de la vitre.",
+        },
+        {
+          question: 'Peut-on superposer un film miroir et un film blanc mat pour avoir les deux ?',
+          answer: "Ce n'est pas notre pratique, et le résultat ne répondrait pas au besoin : le blanc mat flouterait de toute façon la vue depuis l'intérieur. Pour garder la vue en journée et l'intimité le soir, le film miroir associé à un rideau ou un store reste la solution la plus simple.",
+        },
+        {
+          question: 'Le film miroir se voit-il depuis la rue ?',
+          answer: "Oui, en journée : c'est justement le reflet qui empêche de voir à l'intérieur, donc la vitre prend un aspect de miroir vue de l'extérieur. Le soir, lumières allumées, cet aspect disparaît et on voit de nouveau à l'intérieur.",
+        },
+        {
+          question: 'Le film anti-effraction protège-t-il aussi des regards ?',
+          answer: "Non. Il est transparent et incolore : son rôle est de retenir les éclats si la vitre casse et de ralentir une tentative d'effraction, pas de bloquer la vue. Notre [article sur le film de sécurité](/blog/film-securite-anti-effraction-vitrage) détaille son fonctionnement.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -2781,6 +2890,115 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-anti-regard-transparent',
+      title: 'Transparante inkijkwerende raamfolie: bestaat dat echt?',
+      metaTitle: 'Transparante inkijkwerende folie: bestaat dat?',
+      metaDescription:
+        "Folie die inkijk tegenhoudt en toch transparant blijft? Overdag wel, met spiegeleffectfolie, 's avonds niet. Waarom, en welke folie u best kiest.",
+      date: '2026-10-21',
+      excerpt:
+        "Naar buiten kijken zonder gezien te worden, met een raam dat helder blijft: spiegeleffectfolie doet dat overdag. 's Avonds ligt het anders. Waarom, en welke folie bij uw situatie past.",
+      sections: [
+        {
+          paragraphs: [
+            "U wilt vanuit uw woonkamer de straat blijven zien, zonder dat voorbijgangers naar binnen kijken, en zonder van uw raam een ondoorzichtige ruit te maken. Dat is precies wat transparante inkijkwerende folie belooft. Het eerlijke antwoord: overdag wel, met spiegeleffectfolie. Maar geen enkele folie doet allebei op elk moment van de dag, en de reden ligt bij het licht zelf, niet bij de kwaliteit van het product. Dit gebeurt er echt, dit levert u in aan transparantie, en zo kiest u de juiste folie.",
+          ],
+        },
+        {
+          heading: 'Het korte antwoord: overdag wel, niet 24 uur op 24',
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Spiegeleffectfolie, ook wel folie met spiegeleffect zonder tain genoemd, is de enige die u naar buiten laat kijken terwijl ze het zicht van buitenaf blokkeert. Er is één voorwaarde: het moet buiten lichter zijn dan binnen. Overdag is dat bijna altijd zo, en voorbijgangers zien een spiegeling in plaats van uw woonkamer.",
+            "'s Avonds, zodra uw lampen branden en het buiten donker is, draait de verhouding om. Binnen wordt de lichte kant, en vanaf de straat kan men naar binnen kijken. De andere folies lossen dat niet op: matwitte folie blokkeert het zicht op elk moment, maar vertroebelt ook uw eigen zicht, terwijl zonwerende en inbraakwerende folie transparant blijven, zonder enige privacy.",
+          ],
+        },
+        {
+          heading: "Waarom 'eenrichtingsfolie' niet bestaat",
+          anchor: 'physique',
+          paragraphs: [
+            "Spiegeleffectfolie heeft geen doorlaatrichting. Het is een halfreflecterende laag: ze kaatst een deel van het licht terug en laat de rest door, op dezelfde manier in beide richtingen. De vraag-en-antwoorddienst van het fysicadepartement van de [Universiteit van Illinois](https://van.physics.illinois.edu/ask/listing/16805) beschrijft zulke ruiten trouwens als gedeeltelijke spiegels, die het grootste deel van het licht weerkaatsen, maar niet alles.",
+            "Het effect ontstaat door het verschil in licht tussen beide kanten. Aan de lichtste kant is de weerspiegeling zo sterk dat ze het beetje licht van de andere kant overstemt: u ziet de straat weerspiegeld, of uzelf. Aan de donkere kant valt er bijna niets te weerspiegelen, dus kijkt men erdoorheen. Het populairwetenschappelijke programma [The Naked Scientists](https://www.thenakedscientists.com/node/179511) vat het zo samen: een echte eenrichtingsspiegel bestaat niet, en als beide kanten even sterk verlicht zijn, werkt het effect niet meer.",
+            "Dat verklaart waarom het effect afzwakt bij zonsopgang en schemering, wanneer het licht binnen en buiten ongeveer even sterk is. En waarom u best op uw hoede bent voor een product dat als 'transparant en eenrichting' op elk moment wordt aangeprezen: met een spiegel of een klassieke folie is dat fysisch onmogelijk.",
+          ],
+        },
+        {
+          heading: "'Transparant', echt waar? Wat u van binnenuit ziet",
+          anchor: 'vue-interieure',
+          paragraphs: [
+            "Van binnenuit blijft het zicht naar buiten scherp. Maar de folie is niet kleurloos. De folie die wij plaatsen heeft een lichtdoorlating (VLT) van 22%: slechts 22% van het daglicht komt door de beglazing, de rest wordt weerkaatst of geabsorbeerd. De ruimte is dus donkerder dan met kaal glas. Dat is de prijs van het spiegeleffect.",
+            "Onze klanten met geplaatste folie beschrijven een licht zonnebrileffect, met een heel lichte spiegeling die ook van binnenuit merkbaar is. Niets dat het zicht naar buiten belemmert, maar het is niet identiek aan kaal glas. 's Avonds wordt die spiegeling binnen duidelijker, om dezelfde fysische reden: de verlichte kamer is de lichte kant geworden.",
+            "In ruil daarvoor blokkeert dezelfde folie 72% van de UV-straling en houdt ze 81% van de zonne-infraroodstraling tegen, wat ook helpt tegen warmte en het verkleuren van meubels. Ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) legt uit wat die cijfers meten, en wat niet.",
+          ],
+        },
+        {
+          heading: 'Welke folie voor welke behoefte?',
+          anchor: 'comparatif',
+          paragraphs: [
+            "De keuze hangt vooral af van twee vragen: hebt u 's avonds privacy nodig, en wilt u scherp door het raam blijven kijken? De tabel vat samen wat elke folie doet.",
+          ],
+          table: {
+            headers: ['Folie', 'Zicht van binnenuit', 'Inkijk overdag', "Inkijk 's avonds (lichten aan)", 'Daglicht'],
+            rows: [
+              ['Zilveren spiegeleffect', 'Scherp, iets donkerder', 'Geblokkeerd (spiegeling)', 'Zichtbaar (het effect keert om)', 'Verminderd (22% komt door)'],
+              ['Zwart spiegeleffect', 'Scherp, merkelijk donkerder', 'Geblokkeerd', 'Merkelijk moeilijker', 'Merkelijk verminderd'],
+              ['Matwit', 'Vertroebeld', 'Geblokkeerd', 'Geblokkeerd', 'Komt door, verspreid'],
+              ['Zonwerend', 'Scherp (lichte blauwe tint)', 'Zichtbaar', 'Zichtbaar', 'Komt door'],
+              ['Inbraakwerend', 'Scherp', 'Zichtbaar', 'Zichtbaar', 'Komt door'],
+            ],
+          },
+        },
+        {
+          heading: 'Zo kiest u volgens uw situatie',
+          anchor: 'choisir',
+          paragraphs: [
+            "Wilt u overdag naar buiten kijken zonder gezien te worden, typisch een woonkamer aan de straatkant of met inkijk van de buren, dan is [zilveren spiegeleffectfolie](/blog/film-miroir-vitrage-bruxelles) de juiste keuze. Moet de privacy ook 's avonds standhouden zonder gordijn, en aanvaardt u dat u niet meer scherp door het raam kijkt, dan is het [matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles), het meest geschikt voor een badkamer.",
+            "En als u beide wilt, vrij zicht en privacy 's avonds? Geen enkele folie doet dat alleen. De eenvoudigste combinatie blijft spiegeleffectfolie overdag en een gordijn of rolgordijn dat u 's avonds sluit. De zwarte tint kan passen bij een glazen voordeur of een bijkomend raam, op voorwaarde dat u een merkelijk donkerdere ruimte aanvaardt.",
+            "Gaat het u om warmte, UV of veiligheid, en niet om inkijk, dan houden zonwerende en inbraakwerende folie het raam transparant. Onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de vier opties in detail.",
+          ],
+        },
+        {
+          heading: 'Hoe verloopt de plaatsing, en wat kost het?',
+          anchor: 'pose-prix',
+          paragraphs: [
+            "Wij plaatsen deze folies rechtstreeks op uw bestaande beglazing, doorgaans aan de binnenzijde, in één bezoek en zonder demontage. De plaatsing is 2 jaar gewaarborgd, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing aan de binnenzijde. Ons [artikel over de stappen van een project](/blog/etapes-projet-film-vitrage-bruxelles) legt het verloop uit, van opmeting tot plaatsing.",
+            "Er is geen vaste prijslijst: de prijs hangt af van de te behandelen oppervlakte, en blijft dezelfde ongeacht de gekozen folie. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de schatting berekend wordt.",
+            "Deze folies passen goed als u vooral overdag inkijk wilt vermijden zonder uw uitzicht te verliezen. Zoekt u volledige privacy op elk moment met een perfect scherp zicht, dan zeggen we het u liever vooraf: geen enkele folie maakt dat mogelijk, en 's avonds blijft een gordijn of rolgordijn nodig.",
+          ],
+        },
+        {
+          heading: 'Bronnen',
+          paragraphs: [
+            "[Universiteit van Illinois, Physics Van: 'One-way Mirrors?' (2011)](https://van.physics.illinois.edu/ask/listing/16805)",
+            "[The Naked Scientists: 'How does a one-way mirror work?' (2008)](https://www.thenakedscientists.com/node/179511)",
+          ],
+        },
+        {
+          heading: 'Twijfelt u nog?',
+          paragraphs: [
+            'Neem contact met ons op, we adviseren u gratis op basis van uw situatie en antwoorden binnen 24u.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Werkt spiegeleffectfolie ook bij grijs weer?',
+          answer: "Meestal wel: overdag is het buiten, zelfs bij bewolkt weer, meestal lichter dan in een kamer. Het effect zwakt vooral af bij zonsopgang en schemering, wanneer het licht aan beide kanten van het raam vergelijkbaar wordt.",
+        },
+        {
+          question: 'Kan men spiegeleffectfolie en matwitte folie over elkaar plaatsen om beide te hebben?',
+          answer: "Dat doen wij niet, en het resultaat zou niet aan de behoefte beantwoorden: de matwitte folie zou het zicht van binnenuit hoe dan ook vertroebelen. Om overdag uitzicht en 's avonds privacy te hebben, blijft spiegeleffectfolie in combinatie met een gordijn of rolgordijn de eenvoudigste oplossing.",
+        },
+        {
+          question: 'Ziet men de spiegelfolie vanaf de straat?',
+          answer: "Ja, overdag: het is net de spiegeling die het zicht naar binnen tegenhoudt, dus het raam krijgt van buitenaf een spiegelend uitzicht. 's Avonds, met de lichten aan, verdwijnt dat uitzicht en kan men weer naar binnen kijken.",
+        },
+        {
+          question: 'Beschermt inbraakwerende folie ook tegen inkijk?',
+          answer: "Nee. Ze is transparant en kleurloos: haar rol is de scherven bijeen te houden als het raam breekt en een inbraakpoging te vertragen, niet het zicht te blokkeren. Ons [artikel over veiligheidsfolie](/blog/film-securite-anti-effraction-vitrage) legt de werking uit.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -4154,6 +4372,115 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does VitraCare display its prices?',
           answer: "No, the rate depends on the surface area and the type of film: we always draw up a personalised, free quote rather than displaying a fixed price.",
+        },
+      ],
+    },
+    {
+      slug: 'film-anti-regard-transparent',
+      title: 'Transparent privacy window film: does it really exist?',
+      metaTitle: 'Transparent privacy window film: does it exist?',
+      metaDescription:
+        'A film that blocks the view in while staying see-through? Yes by day, with mirror effect film, but not at night. Why, and which film to choose.',
+      date: '2026-10-21',
+      excerpt:
+        "Seeing out without being seen, through a window that stays clear: mirror effect film does it during the day. At night, it's another story. Here's why, and which film fits your situation.",
+      sections: [
+        {
+          paragraphs: [
+            "You want to keep seeing the street from your living room, without passers-by seeing in, and without turning your window into frosted glass. That's exactly what a transparent privacy film promises. The honest answer: yes during the day, with mirror effect film. But no film does both at every hour, and the reason lies with light itself, not with product quality. Here's what actually happens, what you give up in transparency, and which film to choose for your needs.",
+          ],
+        },
+        {
+          heading: 'The short answer: yes by day, not around the clock',
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Mirror effect film, also called one-way film, is the only one that lets you see out while blocking the view from outside. It has one condition: the outside has to be brighter than the inside. During the day that's almost always the case, and passers-by see a reflection instead of your living room.",
+            "In the evening, once your lights are on and the street is dark, the balance flips. The inside becomes the bright side, and people can see in from the street. The other films don't get around this: matte white film blocks the view at all times but also blurs yours, while solar and anti-burglary films stay transparent, with no privacy at all.",
+          ],
+        },
+        {
+          heading: "Why a true 'one-way' film doesn't exist",
+          anchor: 'physique',
+          paragraphs: [
+            "Mirror effect film has no direction. It's a semi-reflective layer: it reflects part of the light and lets the rest through, the same way in both directions. The University of Illinois physics department's question-and-answer service, [Physics Van](https://van.physics.illinois.edu/ask/listing/16805), describes this kind of glass as partial mirrors that reflect most of the light that hits them, but not all of it.",
+            "The effect comes from the difference in light between the two sides. On the brighter side, the reflection is so strong that it drowns out the little light coming through from the other side: you see the street reflected, or yourself. On the dark side, there's almost nothing to reflect, so you see through. As the science programme [The Naked Scientists](https://www.thenakedscientists.com/node/179511) explains, there's no such thing as a true one-way mirror, and if both sides are lit equally, the effect stops working.",
+            "That's why the effect fades at dawn and dusk, when the light is roughly the same inside and out. And why you should be wary of any product sold as 'transparent and one-way' at all hours: with a mirror or a standard film, it's physically impossible.",
+          ],
+        },
+        {
+          heading: "'Transparent', really? What you see from inside",
+          anchor: 'vue-interieure',
+          paragraphs: [
+            "From inside, the view out stays sharp. But the film isn't colourless. The one we install has a visible light transmission (VLT) of 22%: only 22% of daylight passes through the glazing, the rest is reflected or absorbed. So the room is darker than with bare glass. That's the price of the mirror effect.",
+            "Our clients with the film installed describe a slight sunglasses effect, with a very faint reflection that's also noticeable from inside. Nothing that stops you seeing out, but it's not identical to bare glass. In the evening, that inside reflection becomes clearer, for the same physical reason: the lit room has become the bright side.",
+            "In return, the same film blocks 72% of UV rays and rejects 81% of solar infrared radiation, which also helps against heat and furniture fading. Our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) explains what those figures measure, and what they don't.",
+          ],
+        },
+        {
+          heading: 'Which film for which need?',
+          anchor: 'comparatif',
+          paragraphs: [
+            'The choice mostly comes down to two questions: do you need privacy in the evening, and do you want a clear view through the glass? The table sums up what each film does.',
+          ],
+          table: {
+            headers: ['Film', 'View from inside', 'View in by day', 'View in at night (lights on)', 'Daylight'],
+            rows: [
+              ['Silver mirror effect', 'Clear, slightly darker', 'Blocked (reflection)', 'Visible (the effect reverses)', 'Reduced (22% gets through)'],
+              ['Black mirror effect', 'Clear, noticeably darker', 'Blocked', 'Much harder', 'Noticeably reduced'],
+              ['Matte white', 'Blurred', 'Blocked', 'Blocked', 'Gets through, diffused'],
+              ['Solar', 'Clear (slight blue tint)', 'Visible', 'Visible', 'Gets through'],
+              ['Anti-burglary', 'Clear', 'Visible', 'Visible', 'Gets through'],
+            ],
+          },
+        },
+        {
+          heading: 'How to decide for your situation',
+          anchor: 'choisir',
+          paragraphs: [
+            "If you want to see out without being seen during the day, typically a living room facing the street or overlooked by neighbours, [silver mirror effect film](/blog/film-miroir-vitrage-bruxelles) is the right choice. If privacy also has to hold in the evening without drawing a curtain, and you accept that you'll no longer see clearly through the glass, it's [matte white film](/blog/film-blanc-mat-vitrage-bruxelles), the best fit for a bathroom.",
+            "And if you want both, a clear view and privacy in the evening? No single film does it. The simplest combination remains mirror film for the day and a curtain or blind you close at night. The black tint can suit a glazed front door or a secondary window, as long as you accept a noticeably darker room at all times.",
+            "Finally, if your problem is heat, UV or security rather than prying eyes, solar and anti-burglary films keep the window transparent. Our [guide to choosing your film](/blog/quel-film-choisir-vitrages) compares the four options in detail.",
+          ],
+        },
+        {
+          heading: 'How does installation work, and what does it cost?',
+          anchor: 'pose-prix',
+          paragraphs: [
+            "We apply these films directly to your existing windows, generally on the interior side, in a single visit and with no removal. The installation is guaranteed for 2 years, and the film's lifespan is estimated at 10 to 15 years for an interior installation. Our [article on the steps of a project](/blog/etapes-projet-film-vitrage-bruxelles) walks through the process, from measurements to installation.",
+            "There's no published price list: the price depends on the surface area to be treated, and stays the same whichever film you choose. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
+            "These films are a good fit if your main need is avoiding prying eyes during the day without losing your view. If you're looking for total privacy at all hours with a perfectly clear view, we'd rather tell you upfront: no film can do that, and a curtain or blind will still be needed at night.",
+          ],
+        },
+        {
+          heading: 'Sources',
+          paragraphs: [
+            "[University of Illinois, Physics Van: 'One-way Mirrors?' (2011)](https://van.physics.illinois.edu/ask/listing/16805)",
+            "[The Naked Scientists: 'How does a one-way mirror work?' (2008)](https://www.thenakedscientists.com/node/179511)",
+          ],
+        },
+        {
+          heading: 'Still unsure?',
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: 'Does mirror effect film work on grey days?',
+          answer: "Generally yes: during the day, even when it's overcast, the outside is usually brighter than a room. The effect mainly fades at dawn and dusk, when the light becomes similar on both sides of the glass.",
+        },
+        {
+          question: 'Can you layer mirror film and matte white film to get both?',
+          answer: "It's not something we do, and the result wouldn't meet the need: the matte white film would blur the view from inside anyway. To keep a view by day and privacy at night, mirror film combined with a curtain or blind remains the simplest solution.",
+        },
+        {
+          question: 'Can you see the mirror film from the street?',
+          answer: "Yes, during the day: it's precisely the reflection that stops people seeing in, so the window takes on a mirror-like look from outside. In the evening, with the lights on, that look disappears and people can see inside again.",
+        },
+        {
+          question: 'Does anti-burglary film also block prying eyes?',
+          answer: "No. It's transparent and colourless: its job is to hold the glass fragments together if the window breaks and to slow down a break-in attempt, not to block the view. Our [article on security film](/blog/film-securite-anti-effraction-vitrage) explains how it works.",
         },
       ],
     },

@@ -711,6 +711,35 @@ const blogArticles = [
     },
   },
 },
+{
+  path: '/blog/film-anti-regard-transparent',
+  meta: {
+    FR: {
+      title: 'Film anti-regard transparent : ça existe vraiment ? — VitraCare',
+      description:
+        "Un film qui bloque les regards tout en restant transparent ? Oui de jour avec le film effet miroir, pas la nuit. Pourquoi, et quel film choisir.",
+      headline: 'Film anti-regard transparent pour fenêtre : est-ce que ça existe vraiment ?',
+      datePublished: '2026-10-21',
+      dateModified: '2026-10-21',
+    },
+    NL: {
+      title: 'Transparante inkijkwerende folie: bestaat dat? — VitraCare',
+      description:
+        "Folie die inkijk tegenhoudt en toch transparant blijft? Overdag wel, met spiegeleffectfolie, 's avonds niet. Waarom, en welke folie u best kiest.",
+      headline: 'Transparante inkijkwerende raamfolie: bestaat dat echt?',
+      datePublished: '2026-10-21',
+      dateModified: '2026-10-21',
+    },
+    EN: {
+      title: 'Transparent Privacy Window Film: Does It Exist? — VitraCare',
+      description:
+        'A film that blocks the view in while staying see-through? Yes by day, with mirror effect film, but not at night. Why, and which film to choose.',
+      headline: 'Transparent privacy window film: does it really exist?',
+      datePublished: '2026-10-21',
+      dateModified: '2026-10-21',
+    },
+  },
+},
 ];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

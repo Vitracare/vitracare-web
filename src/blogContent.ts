@@ -1059,7 +1059,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Film blanc mat pour vitrage à Bruxelles : une intimité totale, jour et nuit',
       metaTitle: 'Film blanc mat pour vitrage à Bruxelles',
       metaDescription:
-        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat garantit une intimité totale, jour et nuit, sans dépendre de la luminosité.",
+        "Salle de bain, verrière, porte d'entrée vitrée : le film blanc mat (film occultant et opaque) garantit une intimité totale, jour et nuit, sans dépendre de la luminosité.",
       date: '2026-10-05',
       excerpt:
         "Contrairement au film effet miroir, le film blanc mat protège votre intimité jour et nuit, dans les deux sens. Voici comment il fonctionne, et pour quelles pièces il est le plus adapté.",
@@ -1067,7 +1067,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Le film blanc mat répond à un besoin différent du film effet miroir : une intimité totale, dans les deux sens, à toute heure, sans dépendre de la lumière extérieure ou intérieure. C'est la solution la plus fiable pour une pièce où l'intimité ne peut jamais être prise en défaut, quelle que soit l'heure de la journée.",
+            "Le film blanc mat répond à un besoin différent du film effet miroir : une intimité totale, dans les deux sens, à toute heure, sans dépendre de la lumière extérieure ou intérieure. On l'appelle aussi film occultant ou film opaque pour vitrage, puisque la vue est totalement bloquée dans les deux sens, en continu. C'est la solution la plus fiable pour une pièce où l'intimité ne peut jamais être prise en défaut, quelle que soit l'heure de la journée.",
           ],
         },
         {
@@ -1111,6 +1111,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Le film blanc mat laisse-t-il bien passer la lumière ?",
           answer: "Oui, c'est tout l'intérêt par rapport à un rideau ou un volet fermé : la pièce reste lumineuse, seule la vue nette est bloquée dans les deux sens. C'est très différent d'une pièce assombrie par des volets fermés en permanence.",
+        },
+        {
+          question: "Film occultant, film opaque, film blanc mat : est-ce la même chose ?",
+          answer: "Oui, ce sont différents noms pour désigner le même type de film : il rend le vitrage opaque et bloque totalement la vue, dans les deux sens, jour et nuit, tout en laissant passer la lumière.",
         },
         {
           question: "Quelle différence avec le film effet miroir ?",
@@ -2431,7 +2435,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Matwitte folie voor beglazing in Brussel: volledige privacy, dag en nacht',
       metaTitle: 'Matwitte folie voor beglazing in Brussel',
       metaDescription:
-        'Badkamer, veranda, glazen voordeur: matwitte folie garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte.',
+        'Badkamer, veranda, glazen voordeur: matwitte folie (ondoorzichtige en blinderende folie) garandeert volledige privacy in beide richtingen, op elk moment, ongeacht de lichtsterkte.',
       date: '2026-10-05',
       excerpt:
         'In tegenstelling tot spiegeleffectfolie beschermt matwitte folie uw privacy dag en nacht, in beide richtingen. Hoe ze werkt, en voor welke ruimtes ze het meest geschikt is.',
@@ -2439,7 +2443,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Matwitte folie beantwoordt aan een andere behoefte dan spiegeleffectfolie: volledige privacy, in beide richtingen, op elk moment, ongeacht het licht buiten of binnen. Dit is de meest betrouwbare oplossing voor een ruimte waar privacy nooit in gebreke mag blijven, welk uur van de dag het ook is.",
+            "Matwitte folie beantwoordt aan een andere behoefte dan spiegeleffectfolie: volledige privacy, in beide richtingen, op elk moment, ongeacht het licht buiten of binnen. Ze wordt ook wel blinderende folie of ondoorzichtige folie voor beglazing genoemd, aangezien het zicht continu en in beide richtingen volledig geblokkeerd wordt. Dit is de meest betrouwbare oplossing voor een ruimte waar privacy nooit in gebreke mag blijven, welk uur van de dag het ook is.",
           ],
         },
         {
@@ -2483,6 +2487,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Laat matwitte folie voldoende licht door?',
           answer: 'Ja, dat is net het voordeel tegenover een gordijn of gesloten rolluik: de ruimte blijft licht, enkel het scherpe zicht wordt in beide richtingen geblokkeerd. Dit is heel anders dan een ruimte die verduisterd wordt door permanent gesloten rolluiken.',
+        },
+        {
+          question: 'Blinderende folie, ondoorzichtige folie, matwitte folie: is dat hetzelfde?',
+          answer: 'Ja, dit zijn verschillende benamingen voor hetzelfde type folie: ze maakt de beglazing ondoorzichtig en blokkeert het zicht volledig, in beide richtingen, dag en nacht, terwijl het licht wel binnenkomt.',
         },
         {
           question: 'Wat is het verschil met spiegeleffectfolie?',
@@ -3803,7 +3811,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       title: 'Matte white film for windows in Brussels: total privacy, day and night',
       metaTitle: 'Matte White Film for Windows in Brussels',
       metaDescription:
-        "Bathroom, conservatory, glazed front door: matte white film guarantees total privacy in both directions, at any time, regardless of light levels.",
+        "Bathroom, conservatory, glazed front door: matte white film (opaque, frosted privacy film) guarantees total privacy in both directions, at any time, regardless of light levels.",
       date: '2026-10-05',
       excerpt:
         "Unlike mirror effect film, matte white film protects your privacy day and night, in both directions. How it works, and which rooms it suits best.",
@@ -3811,7 +3819,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Matte white film answers a different need from mirror effect film: total privacy, in both directions, at any time, regardless of the light outside or inside. It's the most reliable solution for a room where privacy can never afford to slip, whatever the time of day.",
+            "Matte white film answers a different need from mirror effect film: total privacy, in both directions, at any time, regardless of the light outside or inside. It's also known as opaque film or frosted privacy film for windows, since the view is fully blocked in both directions, continuously. It's the most reliable solution for a room where privacy can never afford to slip, whatever the time of day.",
           ],
         },
         {
@@ -3855,6 +3863,10 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does matte white film still let light through?',
           answer: "Yes, that's exactly the advantage over a curtain or closed shutter: the room stays bright, only the clear view is blocked in both directions. That's very different from a room darkened by permanently closed shutters.",
+        },
+        {
+          question: 'Opaque film, frosted privacy film, matte white film: is it the same thing?',
+          answer: "Yes, these are different names for the same type of film: it makes the glazing opaque and fully blocks the view, in both directions, day and night, while still letting light through.",
         },
         {
           question: 'What\'s the difference with mirror effect film?',

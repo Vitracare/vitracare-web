@@ -27,14 +27,14 @@ export type CommunePage = {
 // Each commune page leads with what's actually different about the local building
 // stock (a real, verifiable, general fact — not a fabricated project or review), and
 // derives its film recommendation from that. No invented testimonials, no claimed
-// completed projects beyond what's genuinely true (ongoing local outreach).
+// completed projects, and local outreach is only mentioned where it's actually running.
 export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
   FR: [
     {
       slug: 'uccle',
       name: 'Uccle',
       title: 'Film pour vitrage à Uccle : la solution pour maisons avec jardin et grandes baies vitrées',
-      metaTitle: 'Vitre teintée à Uccle, Linkebeek et Rhode-Saint-Genèse',
+      metaTitle: 'Vitre teintée à Uccle : film pour grandes baies vitrées',
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin et grandes baies vitrées typiques de la commune.",
       intro:
@@ -49,7 +49,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation pour les maisons uccloises',
           paragraphs: [
-            "Pour les grandes baies vitrées orientées sud ou ouest, la teinte solaire est en général le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre en transparence ni assombrir la pièce. Pour les façades avant, plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée.",
+            "Pour les grandes baies vitrées orientées sud ou ouest, la teinte solaire est en général le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre en transparence ni assombrir la pièce. Pour les façades avant, plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée.",
           ],
         },
         {
@@ -61,7 +61,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Uccle',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Uccle, en complément de notre présence dans toute la région bruxelloise. Notre collaborateur intervient dans tous les quartiers de la commune.",
+            "Nous menons actuellement des actions de sensibilisation locale à Uccle, en complément de notre présence dans toute la région bruxelloise. Notre collaborateur intervient dans tous les quartiers de la commune, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -115,14 +115,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Waterloo',
           paragraphs: [
-            "Nous étendons actuellement notre présence à Waterloo, en complément de notre activité dans la région bruxelloise. Notre collaborateur se déplace dans toute la commune.",
+            "Nous étendons actuellement notre présence à Waterloo, en complément de notre activité dans la région bruxelloise. Notre collaborateur se déplace dans toute la commune. Le déplacement pour la [prise de mesures à domicile](/offre) y coûte 50 € ; le devis, lui, reste gratuit.",
           ],
         },
       ],
       faq: [
         {
           question: 'Intervenez-vous en dehors de la région bruxelloise, à Waterloo ?',
-          answer: "Oui, nous intervenons à Waterloo et dans le Brabant wallon, au même titre que dans la périphérie bruxelloise.",
+          answer: "Oui, nous intervenons à Waterloo et dans le Brabant wallon, au même titre que dans la périphérie bruxelloise. Hors de Bruxelles, le déplacement pour la prise de mesures coûte 50 €, mais le devis reste gratuit, y compris si vous nous envoyez vos propres mesures.",
         },
         {
           question: 'Le film est-il adapté aux vérandas et verrières, courantes à Waterloo ?',
@@ -142,7 +142,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Forest',
       title: 'Film pour vitrage à Forest : la solution pour maisons mitoyennes et vis-à-vis urbain',
-      metaTitle: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles',
+      metaTitle: 'Film pour vitrage à Forest contre le vis-à-vis urbain',
       metaDescription:
         "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
       intro:
@@ -169,14 +169,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Forest',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Forest, en complément de notre présence dans le reste de la région bruxelloise.",
+            "Nous intervenons à Forest comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
       faq: [
         {
           question: 'Le film est-il efficace pour une maison mitoyenne donnant directement sur la rue ?',
-          answer: "Oui, c'est exactement le cas d'usage pour lequel le film effet miroir est le plus utilisé : il permet de garder une vue dégagée depuis l'intérieur tout en empêchant les passants de voir à l'intérieur en journée.",
+          answer: "Oui, c'est exactement le cas d'usage pour lequel le film effet miroir est le plus utilisé : il permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en empêchant les passants de voir à l'intérieur en journée.",
         },
         {
           question: 'Intervenez-vous dans tous les quartiers de Forest ?',
@@ -212,7 +212,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation pour les appartements ixellois',
           paragraphs: [
-            "Pour les grandes fenêtres donnant sur rue ou sur cour avec un vis-à-vis direct, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les salles de bain ou chambres en rez-de-chaussée, souvent très exposées dans ce type d'immeuble, le film blanc mat garantit une intimité constante, jour et nuit.",
+            "Pour les grandes fenêtres donnant sur rue ou sur cour avec un vis-à-vis direct, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les salles de bain ou chambres en rez-de-chaussée, souvent très exposées dans ce type d'immeuble, le film blanc mat garantit une intimité constante, jour et nuit.",
           ],
         },
         {
@@ -224,7 +224,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Ixelles',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Ixelles, en complément de notre présence dans toute la région bruxelloise. Notre collaborateur intervient dans tous les quartiers de la commune.",
+            "Nous intervenons à Ixelles comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite. Notre collaborateur intervient dans tous les quartiers de la commune.",
           ],
         },
       ],
@@ -239,7 +239,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Le film fonctionne-t-il aussi pour les appartements en copropriété ?',
-          answer: "Oui, le film se pose côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Selon les copropriétés, un simple avertissement au syndic peut néanmoins être recommandé avant travaux.",
+          answer: "Oui. Le film se pose côté intérieur du vitrage, mais un film miroir ou blanc mat reste visible depuis la rue. Selon les copropriétés, un simple avertissement au syndic peut donc être recommandé avant travaux.",
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
@@ -267,7 +267,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les bow-windows et grandes façades vitrées donnant sur rue, le film effet miroir permet de conserver une vue dégagée depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les pièces nécessitant une intimité totale à toute heure, comme une salle de bain au rez-de-chaussée, le film blanc mat reste la solution la plus fiable.",
+            "Pour les bow-windows et grandes façades vitrées donnant sur rue, le film effet miroir permet de conserver une vue nette, un peu plus sombre, depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les pièces nécessitant une intimité totale à toute heure, comme une salle de bain au rez-de-chaussée, le film blanc mat reste la solution la plus fiable.",
           ],
         },
         {
@@ -279,7 +279,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Schaerbeek',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Schaerbeek, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Schaerbeek comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -334,7 +334,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Molenbeek-Saint-Jean',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Molenbeek-Saint-Jean, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Molenbeek-Saint-Jean comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -377,7 +377,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres de salon ou de chambre donnant sur un immeuble voisin proche, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour une intimité garantie à toute heure, notamment en soirée, le film blanc mat reste l'option la plus fiable.",
+            "Pour les fenêtres de salon ou de chambre donnant sur un immeuble voisin proche, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour une intimité garantie à toute heure, notamment en soirée, le film blanc mat reste l'option la plus fiable.",
           ],
         },
         {
@@ -389,7 +389,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Etterbeek',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Etterbeek, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Etterbeek comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -432,7 +432,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes fenêtres orientées sud ou ouest, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans assombrir la pièce ni perdre la vue sur le jardin. Pour les façades plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+            "Pour les grandes fenêtres orientées sud ou ouest, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans assombrir la pièce ni perdre la vue sur le jardin. Pour les façades plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible en journée.",
           ],
         },
         {
@@ -444,7 +444,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Woluwe-Saint-Pierre',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Woluwe-Saint-Pierre, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Woluwe-Saint-Pierre comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -487,7 +487,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes fenêtres de rez-de-chaussée ou de premier étage proches de la rue, le film effet miroir permet de conserver une vue dégagée depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les studios et petits appartements où l'intimité doit être garantie à toute heure, le film blanc mat reste la solution la plus fiable.",
+            "Pour les grandes fenêtres de rez-de-chaussée ou de premier étage proches de la rue, le film effet miroir permet de conserver une vue nette, un peu plus sombre, depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les studios et petits appartements où l'intimité doit être garantie à toute heure, le film blanc mat reste la solution la plus fiable.",
           ],
         },
         {
@@ -499,7 +499,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Saint-Gilles',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Saint-Gilles, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Saint-Gilles comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -542,7 +542,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les maisons mitoyennes proches de la rue, le film effet miroir permet de conserver une vue dégagée depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les grandes baies vitrées orientées sud ou ouest des quartiers plus résidentiels, la teinte solaire reste le choix le plus pertinent contre la chaleur.",
+            "Pour les maisons mitoyennes proches de la rue, le film effet miroir permet de conserver une vue nette, un peu plus sombre, depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les grandes baies vitrées orientées sud ou ouest des quartiers plus résidentiels, la teinte solaire reste le choix le plus pertinent contre la chaleur.",
           ],
         },
         {
@@ -554,7 +554,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Anderlecht',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Anderlecht, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Anderlecht comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -565,7 +565,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Quel film choisir pour une maison mitoyenne proche de la rue ?',
-          answer: "Le film effet miroir est généralement le plus adapté : il bloque la vue depuis la rue en journée tout en gardant une vue dégagée depuis l'intérieur.",
+          answer: "Le film effet miroir est généralement le plus adapté : il bloque la vue depuis la rue en journée tout en gardant une vue nette, un peu plus sombre, depuis l'intérieur.",
         },
         {
           question: 'Et pour une maison avec jardin dans les quartiers plus résidentiels ?',
@@ -597,7 +597,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes baies vitrées exposées au soleil, que ce soit en villa ou en appartement, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre en transparence. Pour les façades plus proches des voisins ou de la rue, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+            "Pour les grandes baies vitrées exposées au soleil, que ce soit en villa ou en appartement, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre en transparence. Pour les façades plus proches des voisins ou de la rue, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible en journée.",
           ],
         },
         {
@@ -609,7 +609,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Auderghem',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Auderghem, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Auderghem comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -652,7 +652,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres de rez-de-chaussée ou de salon proches de la rue, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les pièces nécessitant une intimité à toute heure, le film blanc mat reste l'option la plus fiable.",
+            "Pour les fenêtres de rez-de-chaussée ou de salon proches de la rue, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les pièces nécessitant une intimité à toute heure, le film blanc mat reste l'option la plus fiable.",
           ],
         },
         {
@@ -664,7 +664,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Jette',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Jette, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Jette comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -707,7 +707,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres proches de la rue ou d'un immeuble voisin, le film effet miroir permet de conserver une vue dégagée depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les salles de bain ou chambres nécessitant une intimité totale à toute heure, le film blanc mat reste la solution la plus fiable.",
+            "Pour les fenêtres proches de la rue ou d'un immeuble voisin, le film effet miroir permet de conserver une vue nette, un peu plus sombre, depuis l'intérieur tout en bloquant la vue depuis l'extérieur en journée. Pour les salles de bain ou chambres nécessitant une intimité totale à toute heure, le film blanc mat reste la solution la plus fiable.",
           ],
         },
         {
@@ -719,7 +719,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Koekelberg',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Koekelberg, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Koekelberg comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -762,7 +762,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres d'étage proches des immeubles voisins dans le centre, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les commerces avec logement à l'étage, le film blanc mat offre une intimité constante, utile notamment pour les pièces donnant directement sur rue.",
+            "Pour les fenêtres d'étage proches des immeubles voisins dans le centre, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les commerces avec logement à l'étage, le film blanc mat offre une intimité constante, utile notamment pour les pièces donnant directement sur rue.",
           ],
         },
         {
@@ -774,7 +774,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Bruxelles-Ville',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Bruxelles-Ville, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Bruxelles-Ville comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -789,7 +789,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Le film abîme-t-il les façades classées ou protégées du centre historique ?',
-          answer: "Non, le film se pose côté intérieur du vitrage et ne modifie pas l'aspect extérieur du bâtiment. Pour un bien classé, nous recommandons de vérifier les éventuelles restrictions auprès de la commune avant travaux.",
+          answer: "Non, le film se pose côté intérieur du vitrage et ne touche pas à la façade. Un film miroir ou blanc mat reste toutefois visible depuis la rue : pour un bien classé, nous recommandons de vérifier les éventuelles restrictions auprès de la commune avant travaux.",
         },
         {
           question: 'Le film peut-il aider à réduire le risque de cambriolage ?',
@@ -817,7 +817,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les appartements avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour une intimité garantie à toute heure, notamment utile pour les locataires de passage, le film blanc mat reste l'option la plus fiable.",
+            "Pour les appartements avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour une intimité garantie à toute heure, notamment utile pour les locataires de passage, le film blanc mat reste l'option la plus fiable.",
           ],
         },
         {
@@ -829,7 +829,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Evere',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Evere, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Evere comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -872,7 +872,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres de rez-de-chaussée proches des habitations voisines, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les grandes baies orientées sud ou ouest, la teinte solaire reste pertinente contre la chaleur estivale.",
+            "Pour les fenêtres de rez-de-chaussée proches des habitations voisines, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les grandes baies orientées sud ou ouest, la teinte solaire reste pertinente contre la chaleur estivale.",
           ],
         },
         {
@@ -884,7 +884,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Berchem-Sainte-Agathe',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Berchem-Sainte-Agathe, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Berchem-Sainte-Agathe comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -927,7 +927,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes fenêtres orientées sud ou ouest vers le jardin, la teinte solaire reste le choix le plus pertinent contre la chaleur, sans perdre la vue sur la verdure environnante. Pour les façades plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+            "Pour les grandes fenêtres orientées sud ou ouest vers le jardin, la teinte solaire reste le choix le plus pertinent contre la chaleur, sans perdre la vue sur la verdure environnante. Pour les façades plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible en journée.",
           ],
         },
         {
@@ -939,7 +939,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Ganshoren',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Ganshoren, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Ganshoren comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -982,7 +982,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les fenêtres avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les petits logements où l'intimité doit être garantie à toute heure, le film blanc mat reste la solution la plus fiable.",
+            "Pour les fenêtres avec vis-à-vis direct sur un immeuble voisin, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les petits logements où l'intimité doit être garantie à toute heure, le film blanc mat reste la solution la plus fiable.",
           ],
         },
         {
@@ -994,7 +994,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Saint-Josse-ten-Noode',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Saint-Josse-ten-Noode, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Saint-Josse-ten-Noode comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -1037,7 +1037,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes baies vitrées des villas exposées au soleil, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre la vue sur la verdure. Pour les maisons des cités-jardins plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible en journée.",
+            "Pour les grandes baies vitrées des villas exposées au soleil, la teinte solaire reste le choix le plus pertinent : elle réduit la chaleur et les UV sans perdre la vue sur la verdure. Pour les maisons des cités-jardins plus proches de la rue ou des voisins, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible en journée.",
           ],
         },
         {
@@ -1049,7 +1049,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Watermael-Boitsfort',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Watermael-Boitsfort, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Watermael-Boitsfort comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -1092,7 +1092,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Notre recommandation',
           paragraphs: [
-            "Pour les grandes façades vitrées des maisons de maître proches des voisins, le film effet miroir permet de garder une vue dégagée depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les appartements avec vis-à-vis direct près de Stockel, le film blanc mat reste l'option la plus fiable pour une intimité à toute heure.",
+            "Pour les grandes façades vitrées des maisons de maître proches des voisins, le film effet miroir permet de garder une vue nette, un peu plus sombre, depuis l'intérieur tout en devenant invisible de l'extérieur en journée. Pour les appartements avec vis-à-vis direct près de Stockel, le film blanc mat reste l'option la plus fiable pour une intimité à toute heure.",
           ],
         },
         {
@@ -1104,7 +1104,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare à Woluwe-Saint-Lambert',
           paragraphs: [
-            "Nous menons actuellement des actions de sensibilisation locale à Woluwe-Saint-Lambert, en complément de notre présence dans toute la région bruxelloise.",
+            "Nous intervenons à Woluwe-Saint-Lambert comme dans toute la région bruxelloise, et la [prise de mesures à domicile](/offre) y est gratuite.",
           ],
         },
       ],
@@ -1133,7 +1133,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Ukkel',
       title: 'Raamfolie in Ukkel: de oplossing voor huizen met tuin en grote raampartijen',
-      metaTitle: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode',
+      metaTitle: 'Raamfolie in Ukkel voor grote raampartijen',
       metaDescription:
         'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin en grote raampartijen die kenmerkend zijn voor de gemeente.',
       intro:
@@ -1148,7 +1148,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling voor woningen in Ukkel',
           paragraphs: [
-            'Voor grote raampartijen gericht op het zuiden of westen is zonwerende folie doorgaans de beste keuze: ze vermindert warmte en UV-stralen zonder aan transparantie in te boeten of de kamer te verduisteren. Voor de voorgevel, dichter bij de straat of de buren, laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf.',
+            'Voor grote raampartijen gericht op het zuiden of westen is zonwerende folie doorgaans de beste keuze: ze vermindert warmte en UV-stralen zonder aan transparantie in te boeten of de kamer te verduisteren. Voor de voorgevel, dichter bij de straat of de buren, laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf.',
           ],
         },
         {
@@ -1160,7 +1160,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Ukkel',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Ukkel, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze medewerker is actief in alle wijken van de gemeente.',
+            'We voeren momenteel lokale sensibiliseringsacties in Ukkel, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze medewerker is actief in alle wijken van de gemeente, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1214,14 +1214,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
-            'We breiden onze aanwezigheid momenteel uit naar Waterloo, als aanvulling op onze activiteit in het Brussels gewest. Onze medewerker verplaatst zich naar de hele gemeente.',
+            'We breiden onze aanwezigheid momenteel uit naar Waterloo, als aanvulling op onze activiteit in het Brussels gewest. Onze medewerker verplaatst zich naar de hele gemeente. De verplaatsing voor de [opmeting aan huis](/offre) kost er 50 €; de offerte zelf blijft gratis.',
           ],
         },
       ],
       faq: [
         {
           question: 'Bent u ook actief buiten het Brussels gewest, in Waterloo?',
-          answer: 'Ja, we zijn actief in Waterloo en Waals-Brabant, net zoals in de Brusselse rand.',
+          answer: 'Ja, we zijn actief in Waterloo en Waals-Brabant, net zoals in de Brusselse rand. Buiten Brussel kost de verplaatsing voor de opmeting 50 €, maar de offerte blijft gratis, ook als u ons uw eigen afmetingen bezorgt.',
         },
         {
           question: 'Is de folie geschikt voor veranda\'s en serres, courant in Waterloo?',
@@ -1241,7 +1241,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Vorst',
       title: 'Raamfolie in Vorst: de oplossing voor rijwoningen en stedelijke inkijk',
-      metaTitle: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis',
+      metaTitle: 'Raamfolie in Vorst tegen stedelijke inkijk',
       metaDescription:
         'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en de stedelijke dichtheid van de gemeente.',
       intro:
@@ -1268,14 +1268,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Vorst',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Vorst, als aanvulling op onze aanwezigheid in de rest van het Brussels gewest.',
+            'We zijn actief in Vorst, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
       faq: [
         {
           question: 'Is de folie doeltreffend voor een rijwoning die rechtstreeks op straat uitgeeft?',
-          answer: 'Ja, dit is precies de toepassing waarvoor spiegeleffectfolie het meest gebruikt wordt: u behoudt vrij zicht van binnenuit, terwijl voorbijgangers overdag niet naar binnen kunnen kijken.',
+          answer: 'Ja, dit is precies de toepassing waarvoor spiegeleffectfolie het meest gebruikt wordt: u behoudt een helder, iets donkerder zicht van binnenuit, terwijl voorbijgangers overdag niet naar binnen kunnen kijken.',
         },
         {
           question: 'Bent u actief in alle wijken van Vorst?',
@@ -1311,7 +1311,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling voor appartementen in Elsene',
           paragraphs: [
-            'Voor grote ramen met direct zicht op straat of binnenplaats laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor badkamers of slaapkamers op het gelijkvloers, vaak erg blootgesteld in dit type gebouw, garandeert matwitte folie permanente privacy, dag en nacht.',
+            'Voor grote ramen met direct zicht op straat of binnenplaats laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor badkamers of slaapkamers op het gelijkvloers, vaak erg blootgesteld in dit type gebouw, garandeert matwitte folie permanente privacy, dag en nacht.',
           ],
         },
         {
@@ -1323,7 +1323,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Elsene',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Elsene, als aanvulling op onze aanwezigheid in heel het Brussels gewest. Onze medewerker is actief in alle wijken van de gemeente.',
+            'We zijn actief in Elsene, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis. Onze medewerker is actief in alle wijken van de gemeente.',
           ],
         },
       ],
@@ -1338,7 +1338,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Werkt de folie ook voor appartementen in mede-eigendom?',
-          answer: 'Ja, de folie wordt langs de binnenzijde van het glas geplaatst en wijzigt het uiterlijk van het gebouw niet. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de syndicus toch aanbevolen zijn voor de werken.',
+          answer: 'Ja. De folie wordt langs de binnenzijde van het glas geplaatst, maar spiegel- of matwitte folie blijft zichtbaar vanaf de straat. Afhankelijk van de mede-eigendom kan een eenvoudige melding aan de syndicus daarom aanbevolen zijn voor de werken.',
         },
         {
           question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
@@ -1366,7 +1366,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor erkers en grote raampartijen met zicht op straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor ruimtes die op elk moment volledige privacy vereisen, zoals een badkamer op het gelijkvloers, blijft matwitte folie de meest betrouwbare oplossing.',
+            'Voor erkers en grote raampartijen met zicht op straat laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor ruimtes die op elk moment volledige privacy vereisen, zoals een badkamer op het gelijkvloers, blijft matwitte folie de meest betrouwbare oplossing.',
           ],
         },
         {
@@ -1378,7 +1378,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Schaarbeek',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Schaarbeek, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Schaarbeek, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1433,7 +1433,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Jans-Molenbeek',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Jans-Molenbeek, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Jans-Molenbeek, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1476,7 +1476,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            "Voor woonkamer- of slaapkamerramen met zicht op een nabijgelegen gebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor gegarandeerde privacy op elk moment, vooral 's avonds, blijft matwitte folie de meest betrouwbare optie.",
+            "Voor woonkamer- of slaapkamerramen met zicht op een nabijgelegen gebouw laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor gegarandeerde privacy op elk moment, vooral 's avonds, blijft matwitte folie de meest betrouwbare optie.",
           ],
         },
         {
@@ -1488,7 +1488,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Etterbeek',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Etterbeek, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Etterbeek, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1531,7 +1531,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor grote zuid- of westgerichte ramen blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder de kamer te verduisteren of het zicht op de tuin te verliezen. Voor gevels dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+            'Voor grote zuid- of westgerichte ramen blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder de kamer te verduisteren of het zicht op de tuin te verliezen. Voor gevels dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt.',
           ],
         },
         {
@@ -1543,7 +1543,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Pieters-Woluwe',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Pieters-Woluwe, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Pieters-Woluwe, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1586,7 +1586,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor grote ramen op het gelijkvloers of de eerste verdieping dicht bij de straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor studio\'s en kleine appartementen waar privacy op elk moment gegarandeerd moet zijn, blijft matwitte folie de meest betrouwbare oplossing.',
+            'Voor grote ramen op het gelijkvloers of de eerste verdieping dicht bij de straat laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor studio\'s en kleine appartementen waar privacy op elk moment gegarandeerd moet zijn, blijft matwitte folie de meest betrouwbare oplossing.',
           ],
         },
         {
@@ -1598,7 +1598,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Gillis',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Gillis, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Gillis, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1641,7 +1641,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor rijwoningen dicht bij de straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor grote zuid- of westgerichte raampartijen in de meer residentiële wijken blijft zonwerende folie de beste keuze tegen de warmte.',
+            'Voor rijwoningen dicht bij de straat laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor grote zuid- of westgerichte raampartijen in de meer residentiële wijken blijft zonwerende folie de beste keuze tegen de warmte.',
           ],
         },
         {
@@ -1653,7 +1653,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Anderlecht',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Anderlecht, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Anderlecht, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1664,7 +1664,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Welke folie kiezen voor een rijwoning dicht bij de straat?',
-          answer: 'Spiegeleffectfolie is doorgaans het meest geschikt: ze blokkeert overdag het zicht vanaf de straat terwijl u vanbinnen vrij zicht behoudt.',
+          answer: 'Spiegeleffectfolie is doorgaans het meest geschikt: ze blokkeert overdag het zicht vanaf de straat terwijl u vanbinnen een helder, iets donkerder zicht behoudt.',
         },
         {
           question: 'En voor een woning met tuin in de meer residentiële wijken?',
@@ -1696,7 +1696,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor grote raampartijen blootgesteld aan de zon, of het nu in een villa of appartement is, blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder aan transparantie in te boeten. Voor gevels dichter bij de buren of de straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+            'Voor grote raampartijen blootgesteld aan de zon, of het nu in een villa of appartement is, blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder aan transparantie in te boeten. Voor gevels dichter bij de buren of de straat laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt.',
           ],
         },
         {
@@ -1708,7 +1708,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Oudergem',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Oudergem, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Oudergem, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1751,7 +1751,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor ramen op het gelijkvloers of in de woonkamer dicht bij de straat laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor ruimtes die op elk moment privacy vereisen, blijft matwitte folie de meest betrouwbare optie.',
+            'Voor ramen op het gelijkvloers of in de woonkamer dicht bij de straat laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor ruimtes die op elk moment privacy vereisen, blijft matwitte folie de meest betrouwbare optie.',
           ],
         },
         {
@@ -1763,7 +1763,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Jette',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Jette, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Jette, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1806,7 +1806,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor ramen dicht bij de straat of een buurgebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor badkamers of slaapkamers die op elk moment volledige privacy vereisen, blijft matwitte folie de meest betrouwbare oplossing.',
+            'Voor ramen dicht bij de straat of een buurgebouw laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl overdag het zicht van buitenaf wordt geblokkeerd. Voor badkamers of slaapkamers die op elk moment volledige privacy vereisen, blijft matwitte folie de meest betrouwbare oplossing.',
           ],
         },
         {
@@ -1818,7 +1818,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Koekelberg',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Koekelberg, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Koekelberg, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1861,7 +1861,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor ramen op de verdieping dicht bij buurpanden in het centrum laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor handelszaken met een woning op de verdieping biedt matwitte folie constante privacy, vooral nuttig voor ruimtes die rechtstreeks op straat uitgeven.',
+            'Voor ramen op de verdieping dicht bij buurpanden in het centrum laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor handelszaken met een woning op de verdieping biedt matwitte folie constante privacy, vooral nuttig voor ruimtes die rechtstreeks op straat uitgeven.',
           ],
         },
         {
@@ -1873,7 +1873,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Brussel-Stad',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Brussel-Stad, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Brussel-Stad, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1888,7 +1888,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Beschadigt de folie beschermde of geklasseerde gevels in de binnenstad?',
-          answer: 'Nee, de folie wordt langs de binnenzijde van het glas geplaatst en wijzigt het uiterlijk van het gebouw niet. Voor een geklasseerd pand raden we aan om eventuele beperkingen bij de gemeente na te vragen vóór de werken.',
+          answer: 'Nee, de folie wordt langs de binnenzijde van het glas geplaatst en raakt de gevel niet. Spiegel- of matwitte folie blijft wel zichtbaar vanaf de straat: voor een geklasseerd pand raden we aan om eventuele beperkingen bij de gemeente na te vragen vóór de werken.',
         },
         {
           question: 'Kan de folie helpen om het risico op inbraak te verminderen?',
@@ -1916,7 +1916,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor appartementen met direct zicht op een naburig gebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor gegarandeerde privacy op elk moment, nuttig voor huurders op doorreis, blijft matwitte folie de meest betrouwbare optie.',
+            'Voor appartementen met direct zicht op een naburig gebouw laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor gegarandeerde privacy op elk moment, nuttig voor huurders op doorreis, blijft matwitte folie de meest betrouwbare optie.',
           ],
         },
         {
@@ -1928,7 +1928,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Evere',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Evere, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Evere, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -1971,7 +1971,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor ramen op het gelijkvloers dicht bij buurwoningen laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor grote zuid- of westgerichte raampartijen blijft zonwerende folie relevant tegen de zomerhitte.',
+            'Voor ramen op het gelijkvloers dicht bij buurwoningen laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor grote zuid- of westgerichte raampartijen blijft zonwerende folie relevant tegen de zomerhitte.',
           ],
         },
         {
@@ -1983,7 +1983,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Agatha-Berchem',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Agatha-Berchem, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Agatha-Berchem, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -2026,7 +2026,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor grote zuid- of westgerichte ramen op de tuin blijft zonwerende folie de beste keuze tegen de warmte, zonder het zicht op het omliggende groen te verliezen. Voor gevels dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+            'Voor grote zuid- of westgerichte ramen op de tuin blijft zonwerende folie de beste keuze tegen de warmte, zonder het zicht op het omliggende groen te verliezen. Voor gevels dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt.',
           ],
         },
         {
@@ -2038,7 +2038,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Ganshoren',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Ganshoren, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Ganshoren, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -2081,7 +2081,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor ramen met direct zicht op een buurgebouw laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor kleine woningen waar privacy op elk moment gegarandeerd moet zijn, blijft matwitte folie de meest betrouwbare oplossing.',
+            'Voor ramen met direct zicht op een buurgebouw laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor kleine woningen waar privacy op elk moment gegarandeerd moet zijn, blijft matwitte folie de meest betrouwbare oplossing.',
           ],
         },
         {
@@ -2093,7 +2093,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Joost-ten-Node',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Joost-ten-Node, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Joost-ten-Node, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -2136,7 +2136,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor de grote raampartijen van villa\'s blootgesteld aan de zon blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder het zicht op het groen te verliezen. Voor woningen in de tuinwijken dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt.',
+            'Voor de grote raampartijen van villa\'s blootgesteld aan de zon blijft zonwerende folie de beste keuze: ze vermindert warmte en UV-stralen zonder het zicht op het groen te verliezen. Voor woningen in de tuinwijken dichter bij de straat of de buren laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt.',
           ],
         },
         {
@@ -2148,7 +2148,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Watermaal-Bosvoorde',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Watermaal-Bosvoorde, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Watermaal-Bosvoorde, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -2191,7 +2191,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Onze aanbeveling',
           paragraphs: [
-            'Voor de brede raampartijen van herenhuizen dicht bij de buren laat spiegeleffectfolie toe om vanbinnen vrij zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor appartementen met directe inkijk nabij Stokkel blijft matwitte folie de meest betrouwbare optie voor privacy op elk moment.',
+            'Voor de brede raampartijen van herenhuizen dicht bij de buren laat spiegeleffectfolie toe om vanbinnen een helder, iets donkerder zicht te behouden terwijl u overdag onzichtbaar wordt van buitenaf. Voor appartementen met directe inkijk nabij Stokkel blijft matwitte folie de meest betrouwbare optie voor privacy op elk moment.',
           ],
         },
         {
@@ -2203,7 +2203,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Sint-Lambrechts-Woluwe',
           paragraphs: [
-            'We voeren momenteel lokale sensibiliseringsacties in Sint-Lambrechts-Woluwe, als aanvulling op onze aanwezigheid in heel het Brussels gewest.',
+            'We zijn actief in Sint-Lambrechts-Woluwe, zoals in heel het Brussels gewest, en de [opmeting aan huis](/offre) is er gratis.',
           ],
         },
       ],
@@ -2232,7 +2232,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'uccle',
       name: 'Uccle',
       title: 'Window film in Uccle: the solution for houses with gardens and large windows',
-      metaTitle: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse',
+      metaTitle: 'Window Film in Uccle for Homes with Large Windows',
       metaDescription:
         'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens and large windows typical of the commune.',
       intro:
@@ -2247,7 +2247,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation for Uccle homes',
           paragraphs: [
-            'For large south- or west-facing windows, solar tint is generally the most relevant choice: it reduces heat and UV without losing transparency or darkening the room. For front façades closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day.',
+            'For large south- or west-facing windows, solar tint is generally the most relevant choice: it reduces heat and UV without losing transparency or darkening the room. For front façades closer to the street or neighbours, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day.',
           ],
         },
         {
@@ -2259,7 +2259,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Uccle',
           paragraphs: [
-            'We are currently running local outreach in Uccle, alongside our presence across the wider Brussels region. Our collaborator works in every neighbourhood of the commune.',
+            'We are currently running local outreach in Uccle, alongside our presence across the wider Brussels region. Our collaborator works in every neighbourhood of the commune, and the [home measurement visit](/offre) is free there.',
           ],
         },
       ],
@@ -2313,14 +2313,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Waterloo',
           paragraphs: [
-            'We are currently expanding our presence to Waterloo, alongside our activity across the Brussels region. Our collaborator travels throughout the commune.',
+            'We are currently expanding our presence to Waterloo, alongside our activity across the Brussels region. Our collaborator travels throughout the commune. The trip for the [home measurement visit](/offre) costs €50 there; the quote itself stays free.',
           ],
         },
       ],
       faq: [
         {
           question: 'Do you work outside the Brussels region, in Waterloo?',
-          answer: 'Yes, we work in Waterloo and Walloon Brabant, just as we do across the Brussels periphery.',
+          answer: 'Yes, we work in Waterloo and Walloon Brabant, just as we do across the Brussels periphery. Outside Brussels, the trip for the measurement visit costs €50, but the quote stays free, including if you send us your own measurements.',
         },
         {
           question: 'Is the film suitable for conservatories and glass extensions, common in Waterloo?',
@@ -2340,7 +2340,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
       slug: 'forest',
       name: 'Forest',
       title: 'Window film in Forest: the solution for terraced houses and urban overlooking',
-      metaTitle: 'Window Film in Forest, Anderlecht and Saint-Gilles',
+      metaTitle: 'Window Film in Forest for Privacy in Terraced Houses',
       metaDescription:
         'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
       intro:
@@ -2367,14 +2367,14 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Forest',
           paragraphs: [
-            'We are currently running local outreach in Forest, alongside our presence across the rest of the Brussels region.',
+            'We work in Forest as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
       faq: [
         {
           question: 'Is the film effective for a terraced house facing directly onto the street?',
-          answer: "Yes, this is exactly the use case mirror effect film is most used for: you keep a clear view from inside while preventing passers-by from seeing in during the day.",
+          answer: "Yes, this is exactly the use case mirror effect film is most used for: you keep a clear, slightly darker view from inside while preventing passers-by from seeing in during the day.",
         },
         {
           question: 'Do you work in every neighbourhood of Forest?',
@@ -2410,7 +2410,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation for Ixelles apartments',
           paragraphs: [
-            'For large windows facing the street or a courtyard with direct overlooking, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For ground-floor bathrooms or bedrooms, often very exposed in this type of building, matte white film guarantees constant privacy, day and night.',
+            'For large windows facing the street or a courtyard with direct overlooking, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For ground-floor bathrooms or bedrooms, often very exposed in this type of building, matte white film guarantees constant privacy, day and night.',
           ],
         },
         {
@@ -2422,7 +2422,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Ixelles',
           paragraphs: [
-            'We are currently running local outreach in Ixelles, alongside our presence across the wider Brussels region. Our collaborator works in every neighbourhood of the commune.',
+            'We work in Ixelles as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free. Our collaborator works in every neighbourhood of the commune.',
           ],
         },
       ],
@@ -2437,7 +2437,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Does the film also work for apartments in co-ownership?',
-          answer: "Yes, the film is applied on the inside of the glazing and doesn't change the building's outside appearance. Depending on the co-ownership, a simple notice to the syndic may still be recommended before works.",
+          answer: "Yes. The film is applied on the inside of the glazing, but mirror or matte white film remains visible from the street. Depending on the co-ownership, a simple notice to the syndic may therefore be recommended before works.",
         },
         {
           question: 'Can the film help reduce the risk of burglary?',
@@ -2465,7 +2465,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For bow windows and large street-facing façades, mirror effect film keeps the view clear from inside while blocking the view from outside during the day. For rooms needing total privacy at all times, such as a ground-floor bathroom, matte white film remains the most reliable solution.',
+            'For bow windows and large street-facing façades, mirror effect film keeps a clear, slightly darker view from inside while blocking the view from outside during the day. For rooms needing total privacy at all times, such as a ground-floor bathroom, matte white film remains the most reliable solution.',
           ],
         },
         {
@@ -2477,7 +2477,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Schaerbeek',
           paragraphs: [
-            'We are currently running local outreach in Schaerbeek, alongside our presence across the wider Brussels region.',
+            'We work in Schaerbeek as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2532,7 +2532,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Molenbeek-Saint-Jean',
           paragraphs: [
-            'We are currently running local outreach in Molenbeek-Saint-Jean, alongside our presence across the wider Brussels region.',
+            'We work in Molenbeek-Saint-Jean as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2575,7 +2575,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For living-room or bedroom windows facing a nearby building, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For privacy guaranteed at all times, especially in the evening, matte white film remains the most reliable option.',
+            'For living-room or bedroom windows facing a nearby building, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For privacy guaranteed at all times, especially in the evening, matte white film remains the most reliable option.',
           ],
         },
         {
@@ -2587,7 +2587,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Etterbeek',
           paragraphs: [
-            'We are currently running local outreach in Etterbeek, alongside our presence across the wider Brussels region.',
+            'We work in Etterbeek as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2630,7 +2630,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For large south- or west-facing windows, solar tint remains the most relevant choice: it reduces heat and UV without darkening the room or losing the view of the garden. For façades closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible during the day.',
+            'For large south- or west-facing windows, solar tint remains the most relevant choice: it reduces heat and UV without darkening the room or losing the view of the garden. For façades closer to the street or neighbours, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible during the day.',
           ],
         },
         {
@@ -2642,7 +2642,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Woluwe-Saint-Pierre',
           paragraphs: [
-            'We are currently running local outreach in Woluwe-Saint-Pierre, alongside our presence across the wider Brussels region.',
+            'We work in Woluwe-Saint-Pierre as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2685,7 +2685,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For large ground-floor or first-floor windows close to the street, mirror effect film keeps the view clear from inside while blocking the view from outside during the day. For studios and small apartments where privacy needs to be guaranteed at all times, matte white film remains the most reliable solution.',
+            'For large ground-floor or first-floor windows close to the street, mirror effect film keeps a clear, slightly darker view from inside while blocking the view from outside during the day. For studios and small apartments where privacy needs to be guaranteed at all times, matte white film remains the most reliable solution.',
           ],
         },
         {
@@ -2697,7 +2697,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Saint-Gilles',
           paragraphs: [
-            'We are currently running local outreach in Saint-Gilles, alongside our presence across the wider Brussels region.',
+            'We work in Saint-Gilles as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2740,7 +2740,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For terraced houses close to the street, mirror effect film keeps the view clear from inside while blocking the view from outside during the day. For large south- or west-facing windows in the more residential areas, solar tint remains the most relevant choice against heat.',
+            'For terraced houses close to the street, mirror effect film keeps a clear, slightly darker view from inside while blocking the view from outside during the day. For large south- or west-facing windows in the more residential areas, solar tint remains the most relevant choice against heat.',
           ],
         },
         {
@@ -2752,7 +2752,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Anderlecht',
           paragraphs: [
-            'We are currently running local outreach in Anderlecht, alongside our presence across the wider Brussels region.',
+            'We work in Anderlecht as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2763,7 +2763,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Which film should I choose for a terraced house close to the street?',
-          answer: "Mirror effect film is generally the most suitable: it blocks the view from the street during the day while keeping the view clear from inside.",
+          answer: "Mirror effect film is generally the most suitable: it blocks the view from the street during the day while keeping a clear, slightly darker view from inside.",
         },
         {
           question: 'What about a house with a garden in the more residential areas?',
@@ -2795,7 +2795,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For large sun-exposed windows, whether in a villa or an apartment, solar tint remains the most relevant choice: it reduces heat and UV without losing transparency. For façades closer to neighbours or the street, mirror effect film keeps the view clear from inside while becoming invisible during the day.',
+            'For large sun-exposed windows, whether in a villa or an apartment, solar tint remains the most relevant choice: it reduces heat and UV without losing transparency. For façades closer to neighbours or the street, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible during the day.',
           ],
         },
         {
@@ -2807,7 +2807,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Auderghem',
           paragraphs: [
-            'We are currently running local outreach in Auderghem, alongside our presence across the wider Brussels region.',
+            'We work in Auderghem as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2850,7 +2850,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For ground-floor or living-room windows close to the street, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For rooms needing privacy at all times, matte white film remains the most reliable option.',
+            'For ground-floor or living-room windows close to the street, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For rooms needing privacy at all times, matte white film remains the most reliable option.',
           ],
         },
         {
@@ -2862,7 +2862,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Jette',
           paragraphs: [
-            'We are currently running local outreach in Jette, alongside our presence across the wider Brussels region.',
+            'We work in Jette as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2905,7 +2905,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For windows close to the street or a neighbouring building, mirror effect film keeps the view clear from inside while blocking the view from outside during the day. For bathrooms or bedrooms needing total privacy at all times, matte white film remains the most reliable solution.',
+            'For windows close to the street or a neighbouring building, mirror effect film keeps a clear, slightly darker view from inside while blocking the view from outside during the day. For bathrooms or bedrooms needing total privacy at all times, matte white film remains the most reliable solution.',
           ],
         },
         {
@@ -2917,7 +2917,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Koekelberg',
           paragraphs: [
-            'We are currently running local outreach in Koekelberg, alongside our presence across the wider Brussels region.',
+            'We work in Koekelberg as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2960,7 +2960,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For upper-floor windows close to neighbouring buildings in the centre, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For shops with living space above, matte white film offers constant privacy, especially useful for rooms facing directly onto the street.',
+            'For upper-floor windows close to neighbouring buildings in the centre, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For shops with living space above, matte white film offers constant privacy, especially useful for rooms facing directly onto the street.',
           ],
         },
         {
@@ -2972,7 +2972,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in the City of Brussels',
           paragraphs: [
-            'We are currently running local outreach in the City of Brussels, alongside our presence across the wider Brussels region.',
+            'We work in the City of Brussels as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -2987,7 +2987,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         },
         {
           question: 'Does the film damage listed or protected façades in the historic centre?',
-          answer: "No, the film is applied on the inside of the glazing and doesn't change the building's outside appearance. For a listed property, we recommend checking any restrictions with the commune before works.",
+          answer: "No, the film is applied on the inside of the glazing and doesn't touch the façade. Mirror or matte white film does remain visible from the street, though: for a listed property, we recommend checking any restrictions with the commune before works.",
         },
         {
           question: 'Can the film help reduce the risk of burglary?',
@@ -3015,7 +3015,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For apartments directly overlooked by a neighbouring building, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For privacy guaranteed at all times, useful for short-term tenants, matte white film remains the most reliable option.',
+            'For apartments directly overlooked by a neighbouring building, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For privacy guaranteed at all times, useful for short-term tenants, matte white film remains the most reliable option.',
           ],
         },
         {
@@ -3027,7 +3027,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Evere',
           paragraphs: [
-            'We are currently running local outreach in Evere, alongside our presence across the wider Brussels region.',
+            'We work in Evere as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -3070,7 +3070,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For ground-floor windows close to neighbouring homes, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For large south- or west-facing windows, solar tint remains relevant against summer heat.',
+            'For ground-floor windows close to neighbouring homes, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For large south- or west-facing windows, solar tint remains relevant against summer heat.',
           ],
         },
         {
@@ -3082,7 +3082,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Berchem-Sainte-Agathe',
           paragraphs: [
-            'We are currently running local outreach in Berchem-Sainte-Agathe, alongside our presence across the wider Brussels region.',
+            'We work in Berchem-Sainte-Agathe as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -3125,7 +3125,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For large south- or west-facing windows onto the garden, solar tint remains the most relevant choice against heat, without losing the view of the surrounding greenery. For façades closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible during the day.',
+            'For large south- or west-facing windows onto the garden, solar tint remains the most relevant choice against heat, without losing the view of the surrounding greenery. For façades closer to the street or neighbours, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible during the day.',
           ],
         },
         {
@@ -3137,7 +3137,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Ganshoren',
           paragraphs: [
-            'We are currently running local outreach in Ganshoren, alongside our presence across the wider Brussels region.',
+            'We work in Ganshoren as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -3180,7 +3180,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For windows directly overlooked by a neighbouring building, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For small homes where privacy needs to be guaranteed at all times, matte white film remains the most reliable solution.',
+            'For windows directly overlooked by a neighbouring building, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For small homes where privacy needs to be guaranteed at all times, matte white film remains the most reliable solution.',
           ],
         },
         {
@@ -3192,7 +3192,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Saint-Josse-ten-Noode',
           paragraphs: [
-            'We are currently running local outreach in Saint-Josse-ten-Noode, alongside our presence across the wider Brussels region.',
+            'We work in Saint-Josse-ten-Noode as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -3235,7 +3235,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            "For the large sun-exposed windows of villas, solar tint remains the most relevant choice: it reduces heat and UV without losing the view of the greenery. For homes in the garden estates closer to the street or neighbours, mirror effect film keeps the view clear from inside while becoming invisible during the day.",
+            "For the large sun-exposed windows of villas, solar tint remains the most relevant choice: it reduces heat and UV without losing the view of the greenery. For homes in the garden estates closer to the street or neighbours, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible during the day.",
           ],
         },
         {
@@ -3247,7 +3247,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Watermael-Boitsfort',
           paragraphs: [
-            'We are currently running local outreach in Watermael-Boitsfort, alongside our presence across the wider Brussels region.',
+            'We work in Watermael-Boitsfort as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],
@@ -3290,7 +3290,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'Our recommendation',
           paragraphs: [
-            'For the wide windows of townhouses close to neighbours, mirror effect film keeps the view clear from inside while becoming invisible from outside during the day. For apartments with direct overlooking near Stockel, matte white film remains the most reliable option for privacy at all times.',
+            'For the wide windows of townhouses close to neighbours, mirror effect film keeps a clear, slightly darker view from inside while becoming invisible from outside during the day. For apartments with direct overlooking near Stockel, matte white film remains the most reliable option for privacy at all times.',
           ],
         },
         {
@@ -3302,7 +3302,7 @@ export const communePages: Record<'FR' | 'NL' | 'EN', CommunePage[]> = {
         {
           heading: 'VitraCare in Woluwe-Saint-Lambert',
           paragraphs: [
-            'We are currently running local outreach in Woluwe-Saint-Lambert, alongside our presence across the wider Brussels region.',
+            'We work in Woluwe-Saint-Lambert as everywhere else in the Brussels region, and the [home measurement visit](/offre) there is free.',
           ],
         },
       ],

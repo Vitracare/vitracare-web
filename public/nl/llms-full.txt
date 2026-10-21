@@ -1,64 +1,72 @@
-# VitraCare — volledige context
+# VitraCare: volledige context
 
-> VitraCare plaatst folie en tint op maat voor beglazing in Brussel en omstreken, voor particulieren en professionals (kantoren, handelszaken, mede-eigendommen): privacy (spiegeleffect- of matwitte folie), thermisch comfort (zonwerende folie), UV-bescherming tegen verkleuring, en extra beveiliging (folie tegen inbraak). Gratis offerte, antwoord binnen 24u.
+> VitraCare, plaatsing van raamfolie in Brussel: folie en tint op maat voor particulieren (huizen en appartementen), in Brussel en omstreken. Privacy (spiegeleffect- of matwitte folie), zomercomfort (zonwerende folie), UV-bescherming tegen verkleuring en extra beveiliging (inbraakwerende folie). Gratis offerte, antwoord binnen 24u.
 
-VitraCare treedt op als commerciële tussenpersoon: het eerste contact, het advies en de offerte worden door VitraCare verzorgd, de plaatsing gebeurt door een zelfstandige medewerker. Actief vanuit Brussel, België. Drietalige site: Frans (standaard), Nederlands (/nl) en Engels (/en).
+VitraCare treedt op als commerciële tussenpersoon: het eerste contact, het advies en de offerte worden door VitraCare verzorgd, de plaatsing gebeurt door onze medewerker, een zelfstandige plaatser. VitraCare blijft het enige aanspreekpunt van de klant, voor en na de plaatsing. Actief vanuit Brussel, België. Drietalige site: Frans (standaard), Nederlands (/nl) en Engels (/en).
 
-Andere taalversies: [Français](https://vitracare.be/llms-full.txt) — [English](https://vitracare.be/en/llms-full.txt)
+Andere taalversies: [Français](https://vitracare.be/llms-full.txt) · [English](https://vitracare.be/en/llms-full.txt)
 
 ## De 4 folies in detail
 
 ### Spiegeleffectfolie (zilver of zwart)
-Volledige privacy overdag: creëert een spiegeleffect dat het zicht van buitenaf volledig blokkeert overdag, terwijl u vanbinnen een vrij uitzicht behoudt. Vermindert ook warmte en blokkeert tot 87% van de UV-stralen naargelang de geplaatste intensiteit (46% lichte versie, 87% sterke versie). Het effect keert 's avonds om als het interieur meer verlicht is dan buiten — normale werking, geen defect. Zwarte versie: privacy zelfs 's nachts met verlicht interieur, ten koste van minder lichtinval (eerder geschikt voor een glazen voordeur dan een leefruimte).
+Overdag, zolang het buiten lichter is dan binnen, weerkaatst de folie het licht aan de straatkant: van buitenaf ziet men niet naar binnen. Van binnenuit blijft het zicht helder maar iets donkerder, zoals achter een zonnebril, met een heel lichte weerspiegeling. 's Avonds, als het interieur verlicht is en het buiten donker is, keert het effect om en kan men weer naar binnen kijken: dat is de normale werking van dit type folie, geen defect.
+
+Cijfers uit de technische fiche van de leverancier, voor de versie die VitraCare plaatst: doorlaat van zichtbaar licht (VLT) 22%, UV-werende werking 72%, tegenhouden van zonne-infraroodstraling 81%. Dat infraroodcijfer is geen percentage van de totale tegengehouden warmte.
+
+De zwarte versie beperkt het zicht van buitenaf 's avonds sterker, met verlicht interieur, ten koste van een merkelijk donkerdere kamer, continu.
 
 ### Zonwerende folie (tint)
-Blijft transparant in beide richtingen (lichte blauwachtige tint). Vermindert warmte en verblinding zonder de ruimte te verduisteren. Bonus UV-bescherming. Geen effect op privacy. Het meest geschikt voor veranda's, kantoren en zuid-/westgerichte woonkamers, computerschermen.
+Blijft transparant in beide richtingen, met een lichte blauwe tint. Vermindert warmte en verblinding en beschermt tegen UV. Biedt geen privacy. Geschikt voor veranda's en zuid- of westgerichte kamers.
 
-### Matwitte folie
-Volledige privacy in beide richtingen, dag ÉN nacht — in tegenstelling tot spiegeleffectfolie. Vertroebelt het zicht langs beide kanten. Ideaal voor badkamer, gelijkvloerse slaapkamer, glazen voordeur.
+### Matwitte folie (ook ondoorzichtige of verduisterende folie genoemd)
+Blokkeert het zicht in beide richtingen, dag en nacht, en laat het licht door. Het zicht is aan beide kanten vertroebeld. Geschikt voor badkamers, slaapkamers op het gelijkvloers en glazen deuren.
 
 ### Inbraakwerende folie
-Volledig transparant. Maakt het raam niet onbreekbaar, maar houdt glasscherven aan de folie vast in plaats van ze te laten vallen bij een impact, wat een inbraakpoging sterk bemoeilijkt en vertraagt.
+Transparant, zonder effect op de privacy. EN 356-gecertificeerd (de Europese norm voor inbraakwerendheid van beglazing) en met CE-markering; de technische fiche is op aanvraag beschikbaar. Ze maakt het raam niet onbreekbaar: bij een slag blijven de scherven aan de folie kleven, wat een inbraakpoging sterk vertraagt.
 
-Alle folies compatibel met enkel/dubbel/drievoudig glas, onderling combineerbaar binnen hetzelfde project, geplaatst aan de binnenzijde (buitenzijde mogelijk naargelang voorkeur), geschatte levensduur 10 tot 15 jaar, 2 jaar garantie op de plaatsing.
+### Voor alle folies
+- Geschikt voor enkel, dubbel en drievoudig glas, en combineerbaar binnen hetzelfde project.
+- Doorgaans aan de binnenzijde geplaatst; plaatsing aan de buitenzijde blijft mogelijk. Voor drievoudig glas wordt plaatsing aan de buitenzijde doorgaans aangeraden.
+- Geschatte levensduur van 10 tot 15 jaar bij plaatsing aan de binnenzijde. 2 jaar garantie op de plaatsing.
+- De folies zijn in de eerste plaats ontworpen tegen de zomerhitte: een isolerend effect in de winter wordt niet beloofd, omdat het voor deze folies niet gemeten is.
 
-## Tarieven
+## Prijs
 
-Geen vaste prijs weergegeven: het tarief hangt af van het type folie, de totale oppervlakte en de toegankelijkheid van de beglazing. Elk project krijgt een gepersonaliseerde en gratis offerte, vrijblijvend, antwoord binnen 24u. De verplaatsing en opmeting aan huis zijn gratis in Brussel (50€ daarbuiten).
+Er staat geen tarief op de site. De prijs is dezelfde ongeacht de gekozen folie: ze hangt af van de te behandelen glasoppervlakte en de toegankelijkheid van de ramen. Elk project krijgt een gepersonaliseerde, gratis en vrijblijvende offerte, met een antwoord binnen 24u.
+
+De opmeting aan huis is gratis in Brussel; buiten Brussel kost de verplaatsing 50 €. U kunt ook uw eigen afmetingen bezorgen om zonder verplaatsing een offerte te krijgen.
 
 ## Werkgebied
 
-Brussels Hoofdstedelijk Gewest en zijn 19 gemeenten, Waals- en Vlaams-Brabant. Verplaatsingen mogelijk elders in België (Charleroi, Antwerpen, Gent) voor voldoende grote werven.
+Brussels Hoofdstedelijk Gewest (19 gemeenten) en de rand, Waals-Brabant en Vlaams-Brabant. Elders in België (bijvoorbeeld Charleroi, Antwerpen of Gent) voor voldoende grote werven.
 
 ## Veelgestelde vragen
 
-**Hoe verloopt een offerteaanvraag?** U bezorgt uw afmetingen en enkele foto's van uw beglazing voor een eerste snelle inschatting. Voor grotere projecten kan VitraCare ook ter plaatse langskomen om de afmetingen te bevestigen.
+**Hoe verloopt een offerteaanvraag?** U bezorgt uw afmetingen en enkele foto's van uw beglazing voor een eerste inschatting, of u vraagt een opmeting aan huis aan (gratis in Brussel, 50 € daarbuiten). De offerte is gratis en vrijblijvend.
 
-**Hebben jullie een showroom?** Nee, momenteel geen fysieke showroom. De pagina "Onze realisaties" toont echte, reeds uitgevoerde werven.
+**Hebben jullie een showroom?** Nee, er is geen fysieke showroom. De pagina "Onze realisaties" toont echte werven.
 
-**Welke garantie bieden jullie?** 2 jaar op de plaatsing, dekt een gebrek verbonden aan de installatie zelf (loslaten, luchtbel). Dekt geen schade die nadien ontstaat door oneigenlijk gebruik of een derde.
+**Welke garantie bieden jullie?** 2 jaar op de plaatsing. Ze dekt een gebrek dat verband houdt met de installatie (loskomen, luchtbel door een slechte plaatsing), niet de schade die nadien ontstaat door oneigenlijk gebruik of door een derde.
 
-**Wie voert de plaatsing uit?** Een zelfstandige medewerker van VitraCare, die samen met VitraCare het enige aanspreekpunt blijft voor en na de interventie.
+**Wie voert de plaatsing uit?** Onze medewerker, een zelfstandige plaatser. VitraCare blijft uw enige aanspreekpunt voor en na de plaatsing.
 
-**Ben ik ergens toe verplicht na een offerte?** Nee, de offerte is gratis en vrijblijvend.
+**Hoe voorkom ik dat buren of voorbijgangers naar binnen kijken?** Overdag verhindert spiegeleffectfolie de inkijk zonder gordijnen of rolluiken te sluiten. Voor privacy dag en nacht is matwitte folie het alternatief, met een vertroebeld zicht als keerzijde.
 
-**Hoe voorkom ik dat buren of voorbijgangers bij mij naar binnen kijken?** Spiegeleffectfolie is de meest gebruikte oplossing: blokkeert overdag het zicht van buitenaf zonder gordijnen of rolluiken te sluiten. Voor privacy op elk moment, ook 's avonds, is matwitte folie het alternatief.
+**Bestaat er transparante inkijkwerende folie?** Ja overdag, met spiegeleffectfolie; nee 24 uur op 24. 's Avonds, met verlicht interieur, behoudt geen enkele folie tegelijk een helder zicht en privacy. Details: https://vitracare.be/nl/blog/film-anti-regard-transparent
 
-**Beschermt de folie tegen warmte en UV?** Ja, tot 87% UV geblokkeerd naargelang de intensiteit, en aanzienlijke warmtevermindering in de zomer. Een warmtebehoudend effect in de winter is theoretisch mogelijk maar wetenschappelijk niet bewezen voor deze folies.
+**Beschermt de folie tegen warmte en UV?** Spiegeleffectfolie blokkeert 72% van de UV-stralen en houdt 81% van de zonne-infraroodstraling tegen, wat de warmte in de zomer vermindert. Een isolerend effect in de winter wordt niet beloofd.
 
-**Plaatsen jullie op alle soorten beglazing?** Ja, enkel, dubbel en drievoudig glas.
+**Plaatsen jullie op alle soorten beglazing?** Ja: enkel, dubbel en drievoudig glas.
 
-**Is het legaal om ramen te tinten in België?** Ja, volledig legaal, huis of appartement. Reglement van mede-eigendom per geval controleren voor een appartement (de folie verandert het uiterlijk van het gebouw niet).
+**Is het legaal om folie op zijn ramen te plaatsen in België?** Ja, voor een huis en voor een appartement: voor zover wij weten verbiedt geen specifieke regelgeving raamfolie voor woningen. Kijk het reglement van de mede-eigendom na (spiegel- of matwitte folie is zichtbaar vanaf de straat) of de stedenbouwkundige regels voor een geklasseerde gevel.
 
-**Kan folie op reeds geïnstalleerde ramen geplaatst worden?** Ja, een van de grote voordelen: directe plaatsing op bestaande ramen, zonder demontage of vervanging van de beglazing, in één bezoek.
+**Kan folie op reeds geplaatste ramen?** Ja, rechtstreeks op de bestaande beglazing, zonder demontage of vervanging, in één bezoek.
 
-**Voorkomt inbraakwerende folie een inbraak?** Nee, geen enkele folie maakt een raam onbreekbaar. Ze vertraagt een poging sterk door scherven aan de folie te houden, wat de doorgang bemoeilijkt en vertraagt.
+**Voorkomt inbraakwerende folie een inbraak?** Nee, geen enkele folie maakt een raam onbreekbaar. Ze vertraagt een poging sterk doordat de scherven aan de folie blijven kleven.
 
-**Hoe reinig ik een raam met folie?** Enkel met water en milde zeep. Klassieke chemische producten (ammoniak, alcohol) kunnen de folie beschadigen. Vermijd reinigen of aanraken gedurende de maand na de plaatsing, zodat de folie volledig kan hechten.
+**Hoe reinig ik een raam met folie?** Enkel met water en milde zeep, zonder chemische producten (ammoniak, alcohol). Het raam niet reinigen of aanraken gedurende de maand na de plaatsing, zodat de folie volledig kan hechten.
 
-**Hangt de prijs af van de grootte van de ramen?** Ja, vooral van de totale glasoppervlakte en de gekozen folie — vandaar steeds een gepersonaliseerde offerte in plaats van een vaste prijs.
-
-**Ramen vervangen of folie plaatsen: wat is het verschil?** Vervangen is duurzamer maar aanzienlijk duurder (zware werf, demontage). Folie wordt op bestaande ramen geplaatst, zonder grote werken, voor een fractie van de prijs — relevant als de ramen nog in goede staat zijn en de behoefte privacy/warmte/veiligheid is eerder dan een isolatieprobleem van de beglazing zelf.
+**Ramen vervangen of folie plaatsen?** Vervangen is vollediger (isolatie) maar aanzienlijk duurder en ingrijpender. Folie wordt op de bestaande ramen geplaatst, zonder grote werken: dat is zinvol als de ramen in goede staat zijn en de behoefte privacy, warmte of veiligheid is.
 
 ## Contact
 

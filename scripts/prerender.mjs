@@ -188,17 +188,17 @@ const pages = [
       FR: {
         title: 'Prise de mesures gratuite à domicile à Bruxelles — VitraCare',
         description:
-          "Demander un devis est toujours gratuit, où que vous soyez. À Bruxelles, nous nous déplaçons en plus gratuitement chez vous pour prendre les mesures — en dehors, ce déplacement coûte 50€, mais le devis reste gratuit si vous nous envoyez vos propres mesures.",
+          "Prise de mesures gratuite à domicile à Bruxelles (50 € en dehors). Le devis reste toujours gratuit, même si vous nous envoyez vos propres mesures.",
       },
       NL: {
         title: 'Gratis opmeting aan huis in Brussel — VitraCare',
         description:
-          'Een offerte aanvragen is altijd gratis, waar u ook bent. In Brussel komen we bovendien gratis bij u langs om zelf op te meten — daarbuiten kost deze verplaatsing 50€, maar de offerte blijft gratis als u ons zelf uw afmetingen bezorgt.',
+          'Gratis opmeting aan huis in Brussel (50 € daarbuiten). De offerte blijft altijd gratis, ook als u ons uw eigen afmetingen bezorgt.',
       },
       EN: {
         title: 'Free Home Measurement Visit in Brussels — VitraCare',
         description:
-          "Requesting a quote is always free, wherever you are. In Brussels, we also come to you free of charge to take the measurements — outside Brussels, this visit costs €50, but the quote itself stays free if you send us your own measurements.",
+          "Free home measurement visit in Brussels (€50 outside). The quote is always free, even if you send us your own measurements.",
       },
     },
   },
@@ -244,6 +244,7 @@ const blogArticleImages = {
   'film-brise-vue-anti-regard-vitrage': '/images/blog/illus-brise-vue.jpg',
   'film-miroir-chaleur-vis-a-vis-bruxelles': '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg',
   'film-vitre-premier-prix-ou-pose-professionnelle': '/images/blog/illus-film-premier-prix-ou-pro.jpg',
+  'film-anti-regard-transparent': '/images/blog/illus-film-anti-regard-transparent.jpg',
 };
 
 const blogArticles = [
@@ -256,7 +257,7 @@ const blogArticles = [
         'Film miroir, teinte solaire ou blanc mat : différences, avantages et usages de chaque film, et lequel convient le mieux à votre maison.',
       headline: 'Film effet miroir, teinte solaire ou blanc mat : quel film choisir pour vos vitrages ?',
       datePublished: '2026-08-06',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Welke folie kiezen voor uw beglazing? — VitraCare',
@@ -264,7 +265,7 @@ const blogArticles = [
         'Spiegelfolie, zonwerende folie of matwitte folie: ontdek de verschillen, voordelen en toepassingen van elke folie, en welke het beste bij uw huis past.',
       headline: 'Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?',
       datePublished: '2026-08-06',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Which Window Film Should You Choose? — VitraCare',
@@ -272,7 +273,7 @@ const blogArticles = [
         'Mirror film, solar tint or matte white: discover the differences, benefits and uses of each window film, and which one best suits your home.',
       headline: 'Mirror effect, solar tint or matte white: which film should you choose for your windows?',
       datePublished: '2026-08-06',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -285,7 +286,7 @@ const blogArticles = [
         "Ventilateur, climatiseur ou film pour vitrage : quelle solution réduit vraiment la chaleur chez vous ? Ce que montrent les études et les chiffres.",
       headline: 'Film pour vitrage ou climatisation : quelle solution refroidit vraiment votre intérieur sans faire exploser la facture ?',
       datePublished: '2026-08-19',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Raamfolie vs airco: welke besparing? — VitraCare',
@@ -293,7 +294,7 @@ const blogArticles = [
         'Ventilator, airco of raamfolie: wat vermindert de hitte bij u thuis echt? Dit tonen studies, met cijfers en bronnen.',
       headline: 'Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?',
       datePublished: '2026-08-19',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Window Film vs AC: Which Saves More Energy? — VitraCare',
@@ -301,7 +302,7 @@ const blogArticles = [
         "Fan, air conditioner, or window film: what actually reduces heat at home? Here's what studies show, with figures and sources.",
       headline: 'Window film or air conditioning: which solution actually cools your home without blowing up your energy bill?',
       datePublished: '2026-08-19',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -314,7 +315,7 @@ const blogArticles = [
         "Rez-de-chaussée, vis-à-vis, bureaux exposés à la rue : comment profiter de la lumière sans être vu depuis l'extérieur ? Le film pour vitrage change la donne.",
       headline: 'Vis-à-vis, rez-de-chaussée, bureaux : comment garder son intimité sans vivre volets fermés ?',
       datePublished: '2026-08-27',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Raamfolie en privacy: de oplossing tegen inkijk — VitraCare',
@@ -322,7 +323,7 @@ const blogArticles = [
         'Gelijkvloers, inkijk tussen buren, kantoren aan de straat: hoe geniet u van licht zonder van buiten gezien te worden? Raamfolie verandert de zaak.',
       headline: 'Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?',
       datePublished: '2026-08-27',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Window Film for Privacy: Stop Being Overlooked — VitraCare',
@@ -330,7 +331,7 @@ const blogArticles = [
         "Ground floor rooms, overlooked windows, offices facing the street: enjoy natural light without being seen from outside. Window film changes the equation.",
       headline: 'Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?',
       datePublished: '2026-08-27',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -430,7 +431,7 @@ const blogArticles = [
         "Combien coûte la pose d'un film pour vitrage à Bruxelles ? Les facteurs qui influencent le prix, et pourquoi seul un devis donne un chiffre exact.",
       headline: "Prix d'un film pour vitrage à Bruxelles : à quoi s'attendre ?",
       datePublished: '2026-09-13',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Prijs raamfolie plaatsen in Brussel — VitraCare',
@@ -438,7 +439,7 @@ const blogArticles = [
         'Hoeveel kost het plaatsen van raamfolie in Brussel? De factoren die de prijs beïnvloeden, en waarom enkel een offerte een exact cijfer geeft.',
       headline: 'Prijs van raamfolie in Brussel: wat mag u verwachten?',
       datePublished: '2026-09-13',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Window film installation price in Brussels — VitraCare',
@@ -446,7 +447,7 @@ const blogArticles = [
         "How much does window film installation cost in Brussels? What influences the price, and why a free quote is the only way to get an exact figure.",
       headline: 'Window film pricing in Brussels: what to expect',
       datePublished: '2026-09-13',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -459,7 +460,7 @@ const blogArticles = [
         "Meubles, parquet, tissus : pourquoi ils se décolorent, et comment le film pour vitrage protège durablement votre intérieur, chiffres à l'appui.",
       headline: 'Comment protéger sa maison des UV et de la décoloration : le rôle du film pour vitrage',
       datePublished: '2026-09-19',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'UV-bescherming voor beglazing in Brussel — VitraCare',
@@ -467,7 +468,7 @@ const blogArticles = [
         'Meubels, parket of stoffen die jaar na jaar verkleuren? We leggen uit waarom, en hoe raamfolie uw interieur duurzaam beschermt, met echte cijfers.',
       headline: 'Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie',
       datePublished: '2026-09-19',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'UV protection for windows in Brussels — VitraCare',
@@ -475,7 +476,7 @@ const blogArticles = [
         "Furniture, floors or fabrics fading year after year? We explain why, and how window film protects your interior for the long run, with real figures.",
       headline: 'How to protect your home from UV and fading: the role of window film',
       datePublished: '2026-09-19',
-      dateModified: '2026-10-06',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -488,7 +489,7 @@ const blogArticles = [
         "De la prise de mesures à la pose : découvrez toutes les étapes d'un projet de film pour vitrage à Bruxelles, et ce qu'il faut savoir avant de vous lancer.",
       headline: "Comment se passe la pose d'un film pour vitrage, de la demande de devis à l'installation ?",
       datePublished: '2026-09-27',
-      dateModified: '2026-10-04',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Hoe verloopt de plaatsing van raamfolie? — VitraCare',
@@ -496,7 +497,7 @@ const blogArticles = [
         'Van opmeting tot plaatsing: ontdek alle stappen van een raamfolieproject in Brussel, en wat u moet weten voordat u start.',
       headline: 'Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?',
       datePublished: '2026-09-27',
-      dateModified: '2026-10-04',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'How Does Window Film Installation Work? — VitraCare',
@@ -504,7 +505,7 @@ const blogArticles = [
         "From measurements to installation day: discover every step of a window film project in Brussels, and what to know before you start.",
       headline: 'How does window film installation work, from quote request to installation?',
       datePublished: '2026-09-27',
-      dateModified: '2026-10-04',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -517,7 +518,7 @@ const blogArticles = [
         "Film solaire posé sur vitrage ou screen extérieur : comparatif honnête pour réduire la chaleur chez vous à Bruxelles, avantages et limites de chaque solution.",
       headline: 'Film solaire pour vitrage ou screen extérieur : quelle solution contre la chaleur ?',
       datePublished: '2026-10-03',
-      dateModified: '2026-10-03',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Zonwerende folie of buitenzonwering: wat kiezen? — VitraCare',
@@ -525,7 +526,7 @@ const blogArticles = [
         "Zonwerende folie op het raam of buitenzonwering: eerlijke vergelijking om de hitte bij u thuis in Brussel te verminderen, met de voor- en nadelen van elke oplossing.",
       headline: 'Zonwerende folie of buitenzonwering: welke oplossing tegen de hitte?',
       datePublished: '2026-10-03',
-      dateModified: '2026-10-03',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Solar Film or Exterior Screen: Which to Choose? — VitraCare',
@@ -533,7 +534,7 @@ const blogArticles = [
         "Solar window film or exterior screen: an honest comparison to reduce heat at home in Brussels, with the advantages and limits of each solution.",
       headline: 'Solar window film or exterior screen: which solution against the heat?',
       datePublished: '2026-10-03',
-      dateModified: '2026-10-03',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -573,25 +574,25 @@ const blogArticles = [
       title: 'Film effet miroir pour vitrage à Bruxelles — VitraCare',
       description:
         "Vis-à-vis, rez-de-chaussée exposé, baie vitrée sur rue : le film effet miroir bloque la vue depuis l'extérieur en journée, tout en laissant entrer la lumière.",
-      headline: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans perdre la lumière',
+      headline: 'Film effet miroir pour vitrage à Bruxelles : une intimité totale de jour, sans fermer les rideaux',
       datePublished: '2026-10-05',
-      dateModified: '2026-10-05',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Spiegeleffect folie voor beglazing in Brussel — VitraCare',
       description:
         'Inkijk, gelijkvloers of raampartij met zicht op straat: spiegeleffectfolie blokkeert het zicht van buitenaf overdag, terwijl het licht binnenkomt.',
-      headline: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder lichtverlies',
+      headline: 'Spiegeleffect folie voor beglazing in Brussel: volledige privacy overdag, zonder de gordijnen te sluiten',
       datePublished: '2026-10-05',
-      dateModified: '2026-10-05',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Mirror Effect Film for Windows in Brussels — VitraCare',
       description:
         "Being overlooked, an exposed ground floor or street-facing window: mirror effect film blocks the view from outside during the day, while letting light in.",
-      headline: 'Mirror effect film for windows in Brussels: total daytime privacy, without losing the light',
+      headline: 'Mirror effect film for windows in Brussels: total daytime privacy, without drawing the curtains',
       datePublished: '2026-10-05',
-      dateModified: '2026-10-05',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -662,7 +663,7 @@ const blogArticles = [
         "Façade exposée au soleil et à la rue en même temps : le film effet miroir réduit la chaleur et bloque les regards avec une seule pose.",
       headline: "Chaleur et vis-à-vis en même temps : le film miroir règle les deux d'une seule pose",
       datePublished: '2026-10-15',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Spiegelfolie: tegen warmte én inkijk in één keer — VitraCare',
@@ -670,7 +671,7 @@ const blogArticles = [
         'Gevel blootgesteld aan zon én straat tegelijk: spiegeleffectfolie vermindert de warmte en blokkeert blikken met één plaatsing.',
       headline: 'Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing',
       datePublished: '2026-10-15',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Mirror Film: Against Heat and Being Overlooked at Once — VitraCare',
@@ -678,7 +679,7 @@ const blogArticles = [
         "A facade exposed to both sun and street at once: mirror effect film reduces heat and blocks prying eyes with a single installation.",
       headline: 'Heat and being overlooked at the same time: mirror effect film solves both in one installation',
       datePublished: '2026-10-15',
-      dateModified: '2026-10-15',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -691,7 +692,7 @@ const blogArticles = [
         "Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
       headline: 'Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : comment choisir ?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-18',
+      dateModified: '2026-10-21',
     },
     NL: {
       title: 'Goedkope folie of professionele plaatsing? — VitraCare',
@@ -699,7 +700,7 @@ const blogArticles = [
         'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
       headline: 'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-18',
+      dateModified: '2026-10-21',
     },
     EN: {
       title: 'Cheap Film or Professional Installation? — VitraCare',
@@ -707,7 +708,7 @@ const blogArticles = [
         'Cheap window film (Action, Brico...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
       headline: 'Cheap window film (Action, Brico...) or professional installation: how to choose?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-18',
+      dateModified: '2026-10-21',
     },
   },
 },
@@ -751,19 +752,19 @@ const communePages = [
     slug: 'uccle',
     meta: {
       FR: {
-        title: 'Vitre teintée à Uccle, Linkebeek et Rhode-Saint-Genèse',
+        title: 'Vitre teintée à Uccle : film pour grandes baies vitrées',
         description:
           "VitraCare pose des films et teintes pour vitrages à Uccle : intimité, confort thermique et protection UV, adaptés aux maisons avec jardin de la commune.",
         name: 'Uccle',
       },
       NL: {
-        title: 'Raamfolie in Ukkel, Linkebeek en Sint-Genesius-Rode',
+        title: 'Raamfolie in Ukkel voor grote raampartijen',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Ukkel: privacy, thermisch comfort en UV-bescherming, aangepast aan de huizen met tuin in de gemeente.',
         name: 'Ukkel',
       },
       EN: {
-        title: 'Window Film in Uccle, Linkebeek and Rhode-Saint-Genèse',
+        title: 'Window Film in Uccle for Homes with Large Windows',
         description:
           'VitraCare installs window films and tints in Uccle: privacy, thermal comfort and UV protection, suited to the houses with gardens typical of the commune.',
         name: 'Uccle',
@@ -797,19 +798,19 @@ const communePages = [
     slug: 'forest',
     meta: {
       FR: {
-        title: 'Film pour vitrage à Forest, Anderlecht et Saint-Gilles',
+        title: 'Film pour vitrage à Forest contre le vis-à-vis urbain',
         description:
           "VitraCare pose des films et teintes pour vitrages à Forest : intimité et confort thermique adaptés aux maisons mitoyennes et à la densité urbaine de la commune.",
         name: 'Forest',
       },
       NL: {
-        title: 'Raamfolie in Vorst, Anderlecht en Sint-Gillis',
+        title: 'Raamfolie in Vorst tegen stedelijke inkijk',
         description:
           'VitraCare plaatst folies en tinten voor beglazing in Vorst: privacy en thermisch comfort aangepast aan de rijwoningen en stedelijke dichtheid van de gemeente.',
         name: 'Vorst',
       },
       EN: {
-        title: 'Window Film in Forest, Anderlecht and Saint-Gilles',
+        title: 'Window Film in Forest for Privacy in Terraced Houses',
         description:
           'VitraCare installs window films and tints in Forest: privacy and thermal comfort suited to the terraced houses and urban density of the commune.',
         name: 'Forest',
@@ -1261,7 +1262,6 @@ const businessCopy = {
     description:
       'VitraCare pose des films et teintes pour vitrages à Bruxelles et sa périphérie : intimité, confort thermique et protection UV. Devis gratuit sous 24h.',
     city: 'Bruxelles',
-    area: 'Périphérie bruxelloise',
     serviceType: 'Pose de films et teintes pour vitrages',
     reviews: {
       r1: 'Le salon plein sud est enfin vivable en été !',
@@ -1274,7 +1274,6 @@ const businessCopy = {
     description:
       'VitraCare plaatst folies en tinten op maat voor beglazing in Brussel en omgeving: privacy, thermisch comfort en UV-bescherming. Gratis offerte binnen 24u.',
     city: 'Brussel',
-    area: 'Brusselse rand',
     serviceType: 'Plaatsing van folies en tinten voor beglazing',
     reviews: {
       r1: 'De woonkamer op het zuiden is eindelijk leefbaar in de zomer!',
@@ -1287,7 +1286,6 @@ const businessCopy = {
     description:
       'VitraCare installs window films and tints in Brussels and the surrounding area: privacy, thermal comfort and UV protection. Free quote within 24h.',
     city: 'Brussels',
-    area: 'Brussels surroundings',
     serviceType: 'Window film and tint installation',
     reviews: {
       r1: 'The south-facing living room is finally livable in summer!',
@@ -1298,7 +1296,52 @@ const businessCopy = {
   },
 };
 
-function buildBusinessSchema(lang, prefix) {
+// Service area as actually described on /zone-intervention: the Brussels-Capital
+// Region and its 19 communes, plus Walloon and Flemish Brabant (measurement visit
+// free in Brussels, 50 € outside). Replaces the vague "Périphérie bruxelloise".
+const serviceArea = {
+  FR: {
+    region: 'Région de Bruxelles-Capitale',
+    communes: [
+      'Anderlecht', 'Auderghem', 'Berchem-Sainte-Agathe', 'Bruxelles-Ville', 'Etterbeek', 'Evere', 'Forest',
+      'Ganshoren', 'Ixelles', 'Jette', 'Koekelberg', 'Molenbeek-Saint-Jean', 'Saint-Gilles',
+      'Saint-Josse-ten-Noode', 'Schaerbeek', 'Uccle', 'Watermael-Boitsfort', 'Woluwe-Saint-Lambert',
+      'Woluwe-Saint-Pierre',
+    ],
+    provinces: ['Brabant wallon', 'Brabant flamand'],
+  },
+  NL: {
+    region: 'Brussels Hoofdstedelijk Gewest',
+    communes: [
+      'Anderlecht', 'Oudergem', 'Sint-Agatha-Berchem', 'Brussel-Stad', 'Etterbeek', 'Evere', 'Vorst',
+      'Ganshoren', 'Elsene', 'Jette', 'Koekelberg', 'Sint-Jans-Molenbeek', 'Sint-Gillis',
+      'Sint-Joost-ten-Node', 'Schaarbeek', 'Ukkel', 'Watermaal-Bosvoorde', 'Sint-Lambrechts-Woluwe',
+      'Sint-Pieters-Woluwe',
+    ],
+    provinces: ['Waals-Brabant', 'Vlaams-Brabant'],
+  },
+  EN: {
+    region: 'Brussels-Capital Region',
+    communes: [
+      'Anderlecht', 'Auderghem', 'Berchem-Sainte-Agathe', 'City of Brussels', 'Etterbeek', 'Evere', 'Forest',
+      'Ganshoren', 'Ixelles', 'Jette', 'Koekelberg', 'Molenbeek-Saint-Jean', 'Saint-Gilles',
+      'Saint-Josse-ten-Noode', 'Schaerbeek', 'Uccle', 'Watermael-Boitsfort', 'Woluwe-Saint-Lambert',
+      'Woluwe-Saint-Pierre',
+    ],
+    provinces: ['Walloon Brabant', 'Flemish Brabant'],
+  },
+};
+
+function buildAreaServed(lang) {
+  const area = serviceArea[lang];
+  return [
+    { '@type': 'AdministrativeArea', name: area.region },
+    ...area.communes.map((name) => ({ '@type': 'City', name })),
+    ...area.provinces.map((name) => ({ '@type': 'AdministrativeArea', name })),
+  ];
+}
+
+function buildBusinessSchema(lang, prefix, canonicalPath) {
   const copy = businessCopy[lang];
   const inLanguage = `${hreflangCodes[lang]}-BE`;
   const localBusiness = {
@@ -1325,10 +1368,7 @@ function buildBusinessSchema(lang, prefix) {
       addressLocality: copy.city,
       addressCountry: 'BE',
     },
-    areaServed: [
-      { '@type': 'City', name: copy.city },
-      { '@type': 'AdministrativeArea', name: copy.area },
-    ],
+    areaServed: buildAreaServed(lang),
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+32489607074',
@@ -1355,35 +1395,29 @@ function buildBusinessSchema(lang, prefix) {
       'https://fr-be.trustpilot.com/review/vitracare.be',
       'https://www.instagram.com/vitracare.be/',
     ],
-    // Real Google rating (4.9/5, 9 reviews) — Trustpilot (4/5, 3 reviews) is kept
-    // separate via sameAs above rather than blended into one artificial average
-    // across two different platforms' scales. Review text below is reused verbatim
-    // from what's already public on /avis, same first-name-only attribution. No
-    // per-review star rating is included — only the aggregate (4.9/9) is actually
-    // known; each individual reviewer's own star count isn't, so it isn't guessed.
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '9',
-      bestRating: '5',
-    },
-    review: [
+  };
+  // The four homepage testimonials (real former clients, confirmed by the owner on
+  // 21/10/2026), same first-name-only attribution as on the page. Marked up on the
+  // homepage only, since Google asks for review markup to describe content visible
+  // on that page. No aggregateRating: the 4.9/5 shown on the site comes from Google
+  // reviews, and Google's review snippet guidelines exclude ratings collected on
+  // another site. No per-review star count either, since none is shown.
+  if (canonicalPath === '/') {
+    localBusiness.review = [
       { '@type': 'Review', author: { '@type': 'Person', name: 'Isabelle' }, reviewBody: copy.reviews.r1 },
       { '@type': 'Review', author: { '@type': 'Person', name: 'Olivier' }, reviewBody: copy.reviews.r2 },
       { '@type': 'Review', author: { '@type': 'Person', name: 'Sophie' }, reviewBody: copy.reviews.r3 },
       { '@type': 'Review', author: { '@type': 'Person', name: 'François' }, reviewBody: copy.reviews.r4 },
-    ],
-  };
+    ];
+  }
   const service = {
     '@context': 'https://schema.org',
     '@type': 'Service',
+    name: copy.serviceType,
     serviceType: copy.serviceType,
     inLanguage,
     provider: { '@id': 'https://vitracare.be/#business' },
-    areaServed: [
-      { '@type': 'City', name: copy.city },
-      { '@type': 'AdministrativeArea', name: copy.area },
-    ],
+    areaServed: buildAreaServed(lang),
     url: `https://vitracare.be${fullPath(prefix, '/devis')}`,
   };
   const website = {
@@ -1462,9 +1496,12 @@ function buildRoutes() {
             image: [`https://vitracare.be${articleImage}`],
             datePublished: m.datePublished,
             dateModified: m.dateModified,
-            author: { '@type': 'Organization', name: 'VitraCare' },
+            // Same @id as the business entity emitted on every page, so the article
+            // is tied to VitraCare rather than to an anonymous organization.
+            author: { '@type': 'Organization', '@id': 'https://vitracare.be/#business', name: 'VitraCare', url: 'https://vitracare.be/' },
             publisher: {
               '@type': 'Organization',
+              '@id': 'https://vitracare.be/#business',
               name: 'VitraCare',
               url: 'https://vitracare.be/',
               logo: { '@type': 'ImageObject', url: 'https://vitracare.be/images/Logo.png', width: 307, height: 333 },
@@ -1505,7 +1542,8 @@ function buildRoutes() {
           {
             '@context': 'https://schema.org',
             '@type': 'Service',
-            serviceType: m.title.replace(' — VitraCare', ''),
+            name: { FR: `Pose de films pour vitrages à ${m.name}`, NL: `Plaatsing van raamfolie in ${m.name}`, EN: `Window film installation in ${m.name.startsWith('City of') ? 'the ' : ''}${m.name}` }[lang],
+            serviceType: businessCopy[lang].serviceType,
             inLanguage: `${hreflangCodes[lang]}-BE`,
             provider: { '@id': 'https://vitracare.be/#business' },
             areaServed: { '@type': 'AdministrativeArea', name: m.name },
@@ -1571,7 +1609,7 @@ async function main() {
     // /en). FAQ extraction now runs on every route, not just blog articles, so a page
     // like /faq — real question-headed Q&A content, no article wrapper — picks up
     // FAQPage automatically the same way the blog does.
-    const businessSchema = buildBusinessSchema(route.lang, prefixes[route.lang]);
+    const businessSchema = buildBusinessSchema(route.lang, prefixes[route.lang], route.canonicalPath);
     const faqSchema = extractFaqSchema(appHtml);
     const schemas = [...businessSchema, ...(route.schema || []), ...(faqSchema ? [faqSchema] : [])];
     const schemaScripts = schemas

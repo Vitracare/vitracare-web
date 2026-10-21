@@ -1,41 +1,50 @@
 # VitraCare
 
-> VitraCare installs custom window film and tint in Brussels and its surroundings, for homes and businesses (offices, shops, co-ownerships): privacy (mirror effect or matte white film), thermal comfort (solar film), UV protection against fading, and added security (anti-break-in film). Free quote, reply within 24 hours.
+> VitraCare, window film installation in Brussels: custom window film and tint for private homeowners and tenants (houses and flats), in Brussels and its surroundings. Privacy (mirror effect or matte white film), summer comfort (solar film), UV protection against fading and added security (anti-burglary film). Free quote, reply within 24 hours.
 
-VitraCare acts as a commercial intermediary: first contact, advice and the quote are handled by VitraCare, installation is carried out by an independent contractor. Based in Brussels, Belgium. Trilingual site: French (default), Dutch (/nl) and English (/en).
+VitraCare acts as a commercial intermediary: first contact, advice and the quote are handled by VitraCare, and installation is carried out by our collaborator, an independent installer. VitraCare remains the client's single point of contact. Based in Brussels, Belgium. Trilingual site: French (default), Dutch (/nl) and English (/en).
 
-Other language versions: [Français](https://vitracare.be/llms.txt) — [Nederlands](https://vitracare.be/nl/llms.txt)
+Other language versions: [Français](https://vitracare.be/llms.txt) · [Nederlands](https://vitracare.be/nl/llms.txt)
+Detailed context (films, figures, frequently asked questions): [llms-full.txt](https://vitracare.be/en/llms-full.txt)
+
+## Key facts
+- Mirror effect film (supplier's technical datasheet): lets 22% of visible light through, blocks 72% of UV and rejects 81% of solar infrared radiation. Daytime privacy only: in the evening, with the lights on inside, the effect reverses.
+- No prices on the site: the price is the same whichever film you choose and depends on the surface to be treated and how accessible the windows are. Free, no-obligation quote.
+- Home measurement visit free in Brussels, €50 travel fee outside Brussels.
+- Installed on existing single, double and triple glazing, in one visit. 2-year warranty on installation, estimated lifespan of 10 to 15 years.
 
 ## Main pages
-- [Home](https://vitracare.be/en): Overview of the 4 films (mirror effect, solar, matte white, anti-break-in), service area, Google and Trustpilot customer reviews.
+- [Home](https://vitracare.be/en): Overview of the 4 films (mirror effect, solar, matte white, anti-burglary), service area, Google and Trustpilot customer reviews.
 - [Free quote](https://vitracare.be/en/devis): Request a free, no-obligation quote, reply within 24 hours.
-- [Home quote visit](https://vitracare.be/en/offre): On-site measurement visit, free in Brussels (€50 travel fee outside) — the quote itself is always free.
+- [Home measurement visit](https://vitracare.be/en/offre): Free in Brussels, €50 travel fee outside; the quote itself is always free.
 - [Our work](https://vitracare.be/en/realisations): Real window film and tint installation projects in Brussels and its surroundings.
 - [Customer reviews](https://vitracare.be/en/avis): Google and Trustpilot reviews from our clients about window film installation in Brussels.
-- [Service area](https://vitracare.be/en/zone-intervention): Brussels and its 19 municipalities, the whole periphery, and beyond for large projects.
+- [Service area](https://vitracare.be/en/zone-intervention): Brussels and its 19 municipalities, the periphery, and beyond for large enough projects.
 - [FAQ](https://vitracare.be/en/faq): Answers on installation, maintenance, warranty and film pricing.
 - [Contact](https://vitracare.be/en/contact): Phone, WhatsApp, email and contact form.
 
 ## Blog articles
-- [Mirror effect, solar tint or matte white: which film should you choose for your windows?](https://vitracare.be/en/blog/quel-film-choisir-vitrages): Comparison guide to the 4 films based on your need (total privacy, thermal comfort, or a discreet look).
-- [How to protect your home from UV and fading: the role of window film](https://vitracare.be/en/blog/protection-uv-film-vitrage-bruxelles): Why furniture and floors fade over the years, and how window film protects them long-term, with real figures.
-- [Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?](https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage): Solutions against being overlooked in the city without sacrificing natural light.
-- [Window film or air conditioning: which solution actually cools your home without blowing up your energy bill?](https://vitracare.be/en/blog/film-vitrage-economies-climatisation): Comparison between solar film and air conditioning to reduce heat, with figures.
+- [Mirror effect, solar tint or matte white: which film should you choose for your windows?](https://vitracare.be/en/blog/quel-film-choisir-vitrages): Comparison guide to the 4 films by need: daytime or day-and-night privacy, heat, UV, security.
+- [How to protect your home from UV and fading: the role of window film](https://vitracare.be/en/blog/protection-uv-film-vitrage-bruxelles): Why furniture and floors fade, and how window film protects them (mirror effect film blocks 72% of UV).
+- [Overlooked from outside, ground floor, offices: how do you keep your privacy without living behind closed shutters?](https://vitracare.be/en/blog/intimite-vis-a-vis-film-vitrage): Solutions against being overlooked in the city without keeping the curtains closed.
+- [Window film or air conditioning: which solution actually cools your home without blowing up your energy bill?](https://vitracare.be/en/blog/film-vitrage-economies-climatisation): Solar film or air conditioning against the heat: how each works, costs and limits.
 - [Solar window film in Brussels: less heat and glare, without losing the light](https://vitracare.be/en/blog/film-solaire-vitrage-bruxelles): How solar film works and its benefits for a south-facing room.
-- [Security window film: how to protect your glazing without replacing it?](https://vitracare.be/en/blog/film-securite-anti-effraction-vitrage): How security film reinforces glass resistance and slows down a break-in.
+- [Security window film: how to protect your glazing without replacing it?](https://vitracare.be/en/blog/film-securite-anti-effraction-vitrage): How security film (EN 356 certified, CE marked) reinforces glazing and slows down a break-in.
 - [Replace your windows or add film to your glazing: which should you choose?](https://vitracare.be/en/blog/remplacer-fenetres-ou-film-vitrage): An honest comparison between replacing windows and applying film to existing glazing.
-- [Window film pricing in Brussels: what to expect](https://vitracare.be/en/blog/prix-pose-film-vitrage-bruxelles): What influences the price, and why a free quote is the only way to get an exact figure.
-- [How does window film installation work, from quote request to installation?](https://vitracare.be/en/blog/etapes-projet-film-vitrage-bruxelles): The 4 steps of a project — measurements, quote, choosing the film, installation — and what to know about lifespan and maintenance.
-- [Solar window film or exterior screen: which solution against the heat?](https://vitracare.be/en/blog/film-solaire-ou-screen-exterieur-vitrage): Honest comparison between solar film and exterior screens/awnings to reduce heat, advantages and limits of each solution.
-- [Solar Control Glazing or Film: What's the Difference?](https://vitracare.be/en/blog/vitrage-controle-solaire-integre-ou-film): Cost, effectiveness and timeline compared between integrated solar control glazing and film applied afterwards.
-- [Mirror Effect Film for Windows in Brussels](https://vitracare.be/en/blog/film-miroir-vitrage-bruxelles): How it works, pricing, and installation of mirror effect film against being overlooked, in Brussels.
-- [Matte White Film for Windows in Brussels](https://vitracare.be/en/blog/film-blanc-mat-vitrage-bruxelles): How it works, pricing, and installation of matte white film for total day and night privacy, in Brussels.
+- [Window film pricing in Brussels: what to expect](https://vitracare.be/en/blog/prix-pose-film-vitrage-bruxelles): What makes the price vary (surface area and accessibility, not the film chosen), and why only a free quote gives an exact figure.
+- [How does window film installation work, from quote request to installation?](https://vitracare.be/en/blog/etapes-projet-film-vitrage-bruxelles): The 4 steps of a project (measurements, quote, choosing the film, installation) and what to know about lifespan and maintenance.
+- [Solar window film or exterior screen: which solution against the heat?](https://vitracare.be/en/blog/film-solaire-ou-screen-exterieur-vitrage): Honest comparison between solar film and exterior screens against the heat, advantages and limits of each solution.
+- [Integrated solar control glazing or film applied afterwards: what's the difference?](https://vitracare.be/en/blog/vitrage-controle-solaire-integre-ou-film): Cost, effectiveness and timeline compared between integrated solar control glazing and film applied afterwards.
+- [Mirror Effect Film for Windows in Brussels](https://vitracare.be/en/blog/film-miroir-vitrage-bruxelles): How mirror effect film works against being overlooked, its two tints (silver, black) and its limit at night.
+- [Matte White Film for Windows in Brussels](https://vitracare.be/en/blog/film-blanc-mat-vitrage-bruxelles): How matte white film works: day-and-night privacy, light still comes in, the view is blurred from both sides.
 - [Window privacy film: why professional installation makes all the difference](https://vitracare.be/en/blog/film-brise-vue-anti-regard-vitrage): The difference between DIY privacy film and professional installation, warranty, and how to recognise a serious installer.
-- [Heat and being overlooked at the same time: mirror effect film solves both in one installation](https://vitracare.be/en/blog/film-miroir-chaleur-vis-a-vis-bruxelles): Why mirror effect film is the only one of the 4 films that reduces heat AND blocks prying eyes with a single installation.
+- [Heat and being overlooked at the same time: mirror effect film solves both in one installation](https://vitracare.be/en/blog/film-miroir-chaleur-vis-a-vis-bruxelles): Why mirror effect film is the only one of the 4 films that reduces heat and blocks prying eyes with a single installation.
+- [Cheap window film (Action, Brico...) or professional installation: how to choose?](https://vitracare.be/en/blog/film-vitre-premier-prix-ou-pose-professionnelle): Cheap static film from a shop or professional installation: what actually differs, and when each option makes sense.
+- [Transparent privacy window film: does it really exist?](https://vitracare.be/en/blog/film-anti-regard-transparent): Yes during the day with mirror effect film, no around the clock: why no film keeps working one way at night, and which film fits your need.
 
 ## Municipalities with a dedicated page
-- [Uccle, Linkebeek and Rhode-Saint-Genèse](https://vitracare.be/en/communes/uccle)
-- [Waterloo, Braine-l'Alleud and Lasne](https://vitracare.be/en/communes/waterloo)
+- [Uccle](https://vitracare.be/en/communes/uccle)
+- [Waterloo (Walloon Brabant)](https://vitracare.be/en/communes/waterloo)
 - [Forest](https://vitracare.be/en/communes/forest)
 - [Ixelles, Flagey and Chatelain](https://vitracare.be/en/communes/ixelles)
 - [Schaerbeek, Terdelt and Square Riga](https://vitracare.be/en/communes/schaerbeek)

@@ -771,10 +771,9 @@ export default function Home() {
                       {lang === 'FR' ? '4,9/5' : '4.9/5'} <span className="font-normal">{lang === 'NL' ? 'op Google' : lang === 'EN' ? 'on Google' : 'sur Google'}</span>
                     </span>
                   </a>
-                  {/* Real Trustpilot score badge — 4/5 is the current TrustScore (3.8)
-                      rounded to the nearest whole star, matching how star ratings are
-                      conventionally displayed. Update the filled-star count here if the
-                      score changes as more reviews come in. */}
+                  {/* Real Trustpilot score badge — 4/5 is the current TrustScore (4.0,
+                      3 reviews, checked 21/10/2026). Update the filled-star count here
+                      if the score changes as more reviews come in. */}
                   <a
                     href={
                       lang === 'NL'

@@ -1,41 +1,50 @@
 # VitraCare
 
-> VitraCare plaatst folie en tint op maat voor beglazing in Brussel en omstreken, voor particulieren en professionals (kantoren, handelszaken, mede-eigendommen): privacy (spiegeleffect- of matwitte folie), thermisch comfort (zonwerende folie), UV-bescherming tegen verkleuring, en extra beveiliging (folie tegen inbraak). Gratis offerte, antwoord binnen 24u.
+> VitraCare, plaatsing van raamfolie in Brussel: folie en tint op maat voor particulieren (huizen en appartementen), in Brussel en omstreken. Privacy (spiegeleffect- of matwitte folie), zomercomfort (zonwerende folie), UV-bescherming tegen verkleuring en extra beveiliging (inbraakwerende folie). Gratis offerte, antwoord binnen 24u.
 
-VitraCare treedt op als commerciële tussenpersoon: het eerste contact, het advies en de offerte worden door VitraCare verzorgd, de plaatsing gebeurt door een zelfstandige medewerker. Actief vanuit Brussel, België. Drietalige site: Frans (standaard), Nederlands (/nl) en Engels (/en).
+VitraCare treedt op als commerciële tussenpersoon: het eerste contact, het advies en de offerte worden door VitraCare verzorgd, de plaatsing gebeurt door onze medewerker, een zelfstandige plaatser. VitraCare blijft het enige aanspreekpunt van de klant. Actief vanuit Brussel, België. Drietalige site: Frans (standaard), Nederlands (/nl) en Engels (/en).
 
-Andere taalversies: [Français](https://vitracare.be/llms.txt) — [English](https://vitracare.be/en/llms.txt)
+Andere taalversies: [Français](https://vitracare.be/llms.txt) · [English](https://vitracare.be/en/llms.txt)
+Uitgebreide context (folies, cijfers, veelgestelde vragen): [llms-full.txt](https://vitracare.be/nl/llms-full.txt)
+
+## Belangrijkste feiten
+- Spiegeleffectfolie (technische fiche van de leverancier): laat 22% van het zichtbare licht door, blokkeert 72% van de UV-stralen en houdt 81% van de zonne-infraroodstraling tegen. Enkel privacy overdag: 's avonds, met verlicht interieur, keert het effect om.
+- Geen tarief op de site: de prijs is dezelfde ongeacht de folie en hangt af van de te behandelen oppervlakte en de toegankelijkheid van de ramen. Gratis en vrijblijvende offerte.
+- Opmeting aan huis gratis in Brussel, 50 € verplaatsingskosten daarbuiten.
+- Plaatsing op bestaand enkel, dubbel en drievoudig glas, in één bezoek. 2 jaar garantie op de plaatsing, geschatte levensduur 10 tot 15 jaar.
 
 ## Belangrijkste pagina's
-- [Home](https://vitracare.be/nl): Voorstelling van de 4 folies (spiegeleffect, zonwerend, matwit, anti-inbraak), werkgebied, klantenbeoordelingen op Google en Trustpilot.
+- [Home](https://vitracare.be/nl): Voorstelling van de 4 folies (spiegeleffect, zonwerend, matwit, inbraakwerend), werkgebied, klantenbeoordelingen op Google en Trustpilot.
 - [Gratis offerte](https://vitracare.be/nl/devis): Aanvraag voor een gratis en vrijblijvende offerte, antwoord binnen 24u.
-- [Offerte aan huis](https://vitracare.be/nl/offre): Opmeting aan huis, gratis in Brussel (50€ verplaatsing daarbuiten) — de offerte zelf is altijd gratis.
+- [Opmeting aan huis](https://vitracare.be/nl/offre): Gratis in Brussel, 50 € verplaatsingskosten daarbuiten; de offerte zelf is altijd gratis.
 - [Onze realisaties](https://vitracare.be/nl/realisations): Echte werven van geplaatste folie en tint in Brussel en omstreken.
-- [Klantenbeoordelingen](https://vitracare.be/nl/avis): Google- en Trustpilot-beoordelingen van onze klanten over raamfolie plaatsing in Brussel.
-- [Werkgebied](https://vitracare.be/nl/zone-intervention): Brussel en zijn 19 gemeenten, de hele rand, en verder voor grote projecten.
+- [Klantenbeoordelingen](https://vitracare.be/nl/avis): Google- en Trustpilot-beoordelingen van onze klanten over de plaatsing van raamfolie in Brussel.
+- [Werkgebied](https://vitracare.be/nl/zone-intervention): Brussel en zijn 19 gemeenten, de rand, en verder voor voldoende grote werven.
 - [FAQ](https://vitracare.be/nl/faq): Antwoorden over plaatsing, onderhoud, garantie en prijs van de folies.
 - [Contact](https://vitracare.be/nl/contact): Telefoon, WhatsApp, e-mail en contactformulier.
 
 ## Blogartikelen
-- [Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?](https://vitracare.be/nl/blog/quel-film-choisir-vitrages): Vergelijkende gids van de 4 folies naargelang de behoefte (volledige privacy, thermisch comfort, of discrete esthetiek).
-- [Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie](https://vitracare.be/nl/blog/protection-uv-film-vitrage-bruxelles): Waarom meubels en vloeren met de tijd verkleuren, en hoe raamfolie duurzaam beschermt, met echte cijfers.
-- [Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?](https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage): Oplossingen tegen inkijk in de stad zonder natuurlijk licht op te offeren.
-- [Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?](https://vitracare.be/nl/blog/film-vitrage-economies-climatisation): Vergelijking tussen zonwerende folie en airconditioning om de hitte te verminderen, met cijfers.
+- [Spiegeleffect, zonwerende folie of matwit: welke folie kiezen voor uw beglazing?](https://vitracare.be/nl/blog/quel-film-choisir-vitrages): Vergelijkende gids van de 4 folies naargelang de behoefte: privacy overdag of dag en nacht, warmte, UV, veiligheid.
+- [Hoe beschermt u uw huis tegen UV en verkleuring: de rol van raamfolie](https://vitracare.be/nl/blog/protection-uv-film-vitrage-bruxelles): Waarom meubels en vloeren verkleuren, en hoe raamfolie ze beschermt (spiegeleffectfolie blokkeert 72% van de UV-stralen).
+- [Inkijk, gelijkvloers, kantoren: hoe bewaart u uw privacy zonder altijd de rolluiken te sluiten?](https://vitracare.be/nl/blog/intimite-vis-a-vis-film-vitrage): Oplossingen tegen inkijk in de stad zonder altijd de gordijnen dicht te houden.
+- [Raamfolie of airco: welke oplossing koelt uw interieur écht af zonder de energiefactuur te doen ontploffen?](https://vitracare.be/nl/blog/film-vitrage-economies-climatisation): Zonwerende folie of airco tegen de hitte: werking, kosten en beperkingen van elke oplossing.
 - [Zonwerende folie voor beglazing in Brussel: minder warmte en verblinding, zonder lichtverlies](https://vitracare.be/nl/blog/film-solaire-vitrage-bruxelles): Werking en voordelen van zonwerende folie voor een zuidgerichte ruimte.
-- [Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?](https://vitracare.be/nl/blog/film-securite-anti-effraction-vitrage): Hoe beveiligingsfolie de weerstand van het glas versterkt en een inbraak vertraagt.
+- [Beveiligingsfolie tegen inbraak: hoe beschermt u uw beglazing zonder ze te vervangen?](https://vitracare.be/nl/blog/film-securite-anti-effraction-vitrage): Hoe beveiligingsfolie (EN 356-gecertificeerd, CE-markering) de beglazing versterkt en een inbraak vertraagt.
 - [Ramen vervangen of folie op uw beglazing plaatsen: wat kiezen?](https://vitracare.be/nl/blog/remplacer-fenetres-ou-film-vitrage): Eerlijke vergelijking tussen ramen vervangen en folie plaatsen op bestaande beglazing.
-- [Prijs van raamfolie in Brussel: wat mag u verwachten?](https://vitracare.be/nl/blog/prix-pose-film-vitrage-bruxelles): De factoren die de prijs beïnvloeden, en waarom een gratis offerte de enige manier is om een exact cijfer te krijgen.
-- [Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?](https://vitracare.be/nl/blog/etapes-projet-film-vitrage-bruxelles): De 4 stappen van een project — opmeting, offerte, keuze van de folie, plaatsing — en wat u moet weten over levensduur en onderhoud.
-- [Zonwerende folie of buitenzonwering: welke oplossing tegen de hitte?](https://vitracare.be/nl/blog/film-solaire-ou-screen-exterieur-vitrage): Eerlijke vergelijking tussen zonwerende folie en buitenzonwering om de hitte te verminderen, voor- en nadelen van elke oplossing.
-- [Zonwerende beglazing of folie: wat is het verschil?](https://vitracare.be/nl/blog/vitrage-controle-solaire-integre-ou-film): Vergelijking van kostprijs, doeltreffendheid en termijn tussen geïntegreerde zonwerende beglazing en folie achteraf.
-- [Spiegeleffect folie voor beglazing in Brussel](https://vitracare.be/nl/blog/film-miroir-vitrage-bruxelles): Werking, prijs en plaatsing van spiegeleffectfolie tegen inkijk, in Brussel.
-- [Matwitte folie voor beglazing in Brussel](https://vitracare.be/nl/blog/film-blanc-mat-vitrage-bruxelles): Werking, prijs en plaatsing van matwitte folie voor volledige privacy dag en nacht, in Brussel.
+- [Prijs van raamfolie in Brussel: wat mag u verwachten?](https://vitracare.be/nl/blog/prix-pose-film-vitrage-bruxelles): Wat de prijs doet variëren (oppervlakte en toegankelijkheid, niet de gekozen folie), en waarom enkel een gratis offerte een exact cijfer geeft.
+- [Hoe verloopt de plaatsing van raamfolie, van offerteaanvraag tot installatie?](https://vitracare.be/nl/blog/etapes-projet-film-vitrage-bruxelles): De 4 stappen van een project (opmeting, offerte, keuze van de folie, plaatsing) en wat u moet weten over levensduur en onderhoud.
+- [Zonwerende folie of buitenzonwering: welke oplossing tegen de hitte?](https://vitracare.be/nl/blog/film-solaire-ou-screen-exterieur-vitrage): Eerlijke vergelijking tussen zonwerende folie en buitenzonwering tegen de hitte, voor- en nadelen van elke oplossing.
+- [Geïntegreerde zonwerende beglazing of folie achteraf: wat is het verschil?](https://vitracare.be/nl/blog/vitrage-controle-solaire-integre-ou-film): Vergelijking van kostprijs, doeltreffendheid en termijn tussen geïntegreerde zonwerende beglazing en folie achteraf.
+- [Spiegeleffect folie voor beglazing in Brussel](https://vitracare.be/nl/blog/film-miroir-vitrage-bruxelles): Werking van spiegeleffectfolie tegen inkijk, de twee tinten (zilver, zwart) en de beperking 's avonds.
+- [Matwitte folie voor beglazing in Brussel](https://vitracare.be/nl/blog/film-blanc-mat-vitrage-bruxelles): Werking van matwitte folie: privacy dag en nacht, het licht komt binnen, het zicht is aan beide kanten vertroebeld.
 - [Inkijkwerende folie voor ramen: waarom professionele plaatsing het verschil maakt](https://vitracare.be/nl/blog/film-brise-vue-anti-regard-vitrage): Verschil tussen zelf geplaatste inkijkwerende folie en een professionele plaatsing, garantie, en hoe u een serieuze installateur herkent.
-- [Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing](https://vitracare.be/nl/blog/film-miroir-chaleur-vis-a-vis-bruxelles): Waarom spiegeleffectfolie de enige van de 4 folies is die warmte vermindert ÉN blikken blokkeert met één plaatsing.
+- [Warmte en inkijk tegelijk: spiegeleffectfolie lost beide op met één plaatsing](https://vitracare.be/nl/blog/film-miroir-chaleur-vis-a-vis-bruxelles): Waarom spiegeleffectfolie de enige van de 4 folies is die warmte vermindert én blikken blokkeert met één plaatsing.
+- [Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?](https://vitracare.be/nl/blog/film-vitre-premier-prix-ou-pose-professionnelle): Statische goedkope folie uit de winkel of professionele plaatsing: wat er echt verschilt, en in welke gevallen elke optie zin heeft.
+- [Transparante inkijkwerende raamfolie: bestaat dat echt?](https://vitracare.be/nl/blog/film-anti-regard-transparent): Ja overdag met spiegeleffectfolie, nee 24 uur op 24: waarom geen enkele folie 's avonds in één richting blijft werken, en welke folie bij uw behoefte past.
 
 ## Gemeenten met eigen pagina
-- [Ukkel, Linkebeek en Sint-Genesius-Rode](https://vitracare.be/nl/communes/uccle)
-- [Waterloo, Eigenbrakel en Lasne](https://vitracare.be/nl/communes/waterloo)
+- [Ukkel](https://vitracare.be/nl/communes/uccle)
+- [Waterloo (Waals-Brabant)](https://vitracare.be/nl/communes/waterloo)
 - [Vorst](https://vitracare.be/nl/communes/forest)
 - [Elsene, Flagey en Kasteleinsplein](https://vitracare.be/nl/communes/ixelles)
 - [Schaarbeek, Terdelt en Rigaplein](https://vitracare.be/nl/communes/schaerbeek)

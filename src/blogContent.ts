@@ -769,7 +769,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Nos clients en parlent',
           paragraphs: [
-            "Nos clients partagent leur expérience sur [Google](https://share.google/c3Bih4FWySHUhjkAZ) et [Trustpilot](https://fr-be.trustpilot.com/review/vitracare.be). N'hésitez pas à y jeter un œil avant de vous lancer.",
+            "Nos clients partagent leur expérience sur [Google](https://maps.google.com/?cid=4306584342564991749) et [Trustpilot](https://fr-be.trustpilot.com/review/vitracare.be). N'hésitez pas à y jeter un œil avant de vous lancer.",
           ],
         },
         {
@@ -2254,7 +2254,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Onze klanten getuigen',
           paragraphs: [
-            'Onze klanten delen hun ervaring op [Google](https://share.google/c3Bih4FWySHUhjkAZ) en [Trustpilot](https://nl-be.trustpilot.com/review/vitracare.be): aarzel niet om even te kijken voor u start.',
+            'Onze klanten delen hun ervaring op [Google](https://maps.google.com/?cid=4306584342564991749) en [Trustpilot](https://nl-be.trustpilot.com/review/vitracare.be): aarzel niet om even te kijken voor u start.',
           ],
         },
         {
@@ -3739,7 +3739,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'What our clients say',
           paragraphs: [
-            "Our clients share their experience on [Google](https://share.google/c3Bih4FWySHUhjkAZ) and [Trustpilot](https://www.trustpilot.com/review/vitracare.be): feel free to take a look before you get started.",
+            "Our clients share their experience on [Google](https://maps.google.com/?cid=4306584342564991749) and [Trustpilot](https://www.trustpilot.com/review/vitracare.be): feel free to take a look before you get started.",
           ],
         },
         {

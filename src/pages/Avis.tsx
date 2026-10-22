@@ -32,7 +32,7 @@ export default function Avis() {
         {/* Score badges — same real figures as the homepage testimonials section */}
         <div className="flex flex-row flex-wrap items-center justify-center gap-3 mb-16">
           <a
-            href="https://share.google/c3Bih4FWySHUhjkAZ"
+            href="https://maps.google.com/?cid=4306584342564991749"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 pl-2.5 pr-3.5 py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
@@ -90,7 +90,7 @@ export default function Avis() {
           ))}
         </div>
         <div className="text-center mb-20">
-          <a href="https://share.google/c3Bih4FWySHUhjkAZ" target="_blank" rel="noopener noreferrer" className="text-[14px] font-bold underline underline-offset-4" style={{ color: brandColor }}>
+          <a href="https://maps.google.com/?cid=4306584342564991749" target="_blank" rel="noopener noreferrer" className="text-[14px] font-bold underline underline-offset-4" style={{ color: brandColor }}>
             {t.avis.viewAllGoogle}
           </a>
         </div>

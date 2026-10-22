@@ -1387,11 +1387,11 @@ function buildBusinessSchema(lang, prefix, canonicalPath) {
       opens: '09:00',
       closes: '18:00',
     },
-    // Confirmed via the business's own Google share link — a real Google Business
-    // Profile exists (Knowledge Graph id g/11zdd0rsnv), previously invisible from the
-    // site itself.
+    // Stable Google Maps URL of the business's own Google Business Profile (cid,
+    // Knowledge Graph id g/11zdd0rsnv), resolved from the owner's share link on
+    // 22/10/2026 instead of the short share.google redirect.
     sameAs: [
-      'https://share.google/c3Bih4FWySHUhjkAZ',
+      'https://maps.google.com/?cid=4306584342564991749',
       'https://fr-be.trustpilot.com/review/vitracare.be',
       'https://www.instagram.com/vitracare.be/',
     ],

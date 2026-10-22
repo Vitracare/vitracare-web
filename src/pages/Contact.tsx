@@ -108,7 +108,7 @@ export default function Contact() {
             </a>
             {/* Real Google Business Profile link, no customer names/reviews reproduced */}
             <a
-              href="https://share.google/c3Bih4FWySHUhjkAZ"
+              href="https://maps.google.com/?cid=4306584342564991749"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3 p-6 rounded-xl border border-gray-200 hover:border-[#BA9765] transition-colors text-center"

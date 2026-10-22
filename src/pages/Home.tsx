@@ -751,7 +751,7 @@ export default function Home() {
                       Sizing shrinks on narrow screens (flex-nowrap above) so the two
                       badges always stay side by side, never stacked. */}
                   <a
-                    href="https://share.google/c3Bih4FWySHUhjkAZ"
+                    href="https://maps.google.com/?cid=4306584342564991749"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 sm:gap-2 pl-1.5 pr-2 sm:pl-2.5 sm:pr-3.5 py-1 sm:py-1.5 rounded-full bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow min-w-0"

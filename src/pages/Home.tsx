@@ -291,18 +291,19 @@ export default function Home() {
           (its sticky/active-section logic wasn't worth risking for this). */}
       <div className="relative z-10 flex flex-col justify-end md:justify-center min-h-screen pb-16 md:pb-0 pt-0 md:pt-[120px] px-8 md:px-16 lg:px-20 max-w-7xl mx-auto">
         <div className="max-w-[800px] md:-translate-y-8 lg:-translate-y-12">
-          <h1
+          {/* The H1 states the offer and the area in plain words, visibly (audit #1,
+              M1: visitors only saw the tagline, the keywords sat in a hidden span).
+              The tagline keeps its size and 3-line wrap, but as a paragraph. */}
+          <h1 className="text-[13px] md:text-[15px] font-bold uppercase tracking-[0.08em] mb-4 text-white md:text-[#BA9765]">
+            {t.hero.seoPrefix}
+          </h1>
+          <p
             className="text-[48px] md:text-[56px] lg:text-[64px] font-bold leading-[1.1] mb-6 tracking-tight text-white md:text-[#464646]"
           >
-            {/* Visually hidden (not display:none — screen readers and crawlers still
-                read it), so the H1 carries the service+location keywords an SEO audit
-                flagged as missing, without touching the tagline's carefully-tuned
-                3-line mobile wrap. */}
-            <span className="sr-only">{t.hero.seoPrefix} — </span>
             {t.hero.title1}{' '}<br />
             {t.hero.title2}{' '}<br />
             {t.hero.title3}
-          </h1>
+          </p>
 
           {/* Decorative Line */}
           <div className="w-[50px] h-[2px] mb-6" style={{ backgroundColor: brandColor }}></div>
@@ -323,6 +324,18 @@ export default function Home() {
           >
             {t.hero.getQuote}
           </Link>
+
+          {/* Real Google rating (4.9/5, 9 reviews), same figure as the badge lower
+              on the page, linked to the business's own Google listing. */}
+          <a
+            href="https://maps.google.com/?cid=4306584342564991749"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 flex items-center gap-2 text-[14px] font-medium w-fit text-white/90 md:text-[#666666] hover:opacity-80 transition-opacity"
+          >
+            <span aria-hidden="true" style={{ color: '#FBBC04', letterSpacing: '1px' }}>★★★★★</span>
+            {lang === 'FR' ? '4,9/5 sur Google' : lang === 'NL' ? '4,9/5 op Google' : '4.9/5 on Google'}
+          </a>
         </div>
       </div>
       </div>

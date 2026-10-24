@@ -757,7 +757,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Après la pose : durée de vie et entretien',
           paragraphs: [
-            "Une fois posé, le film a une durée de vie estimée à 10 à 15 ans. Le seul point de vigilance concerne le premier mois : évitez de nettoyer ou de toucher la vitre pendant cette période, le temps que le film adhère complètement (d'éventuelles petites bulles d'air disparaissent d'elles-mêmes). Ensuite, un nettoyage à l'eau et au savon doux suffit ; notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) détaille tous les conseils d'entretien.",
+            "Une fois posé, le film a une durée de vie estimée à 10 à 15 ans. Le seul point de vigilance concerne le premier mois : évitez de nettoyer ou de toucher la vitre pendant cette période, le temps que le film adhère complètement (d'éventuelles petites bulles d'air disparaissent d'elles-mêmes). Ensuite, un nettoyage à l'eau froide ou tiède avec un savon doux et naturel suffit, et nous pouvons aussi nous en charger si vous le souhaitez ; notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) détaille tous les conseils d'entretien.",
           ],
         },
         {
@@ -1514,6 +1514,121 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-fenetre-copropriete-autorisation',
+      title: "Film pour fenêtre en appartement à Bruxelles : faut-il l'accord de la copropriété ?",
+      metaTitle: "Film pour fenêtre en copropriété : quelle autorisation ?",
+      metaDescription:
+        "Poser un film en appartement : aucune loi ne l'interdit, mais le règlement de copropriété peut encadrer l'aspect de la façade. Ce qu'il faut vérifier.",
+      date: '2026-10-24',
+      excerpt:
+        "Le film se pose chez vous, côté intérieur. Mais en copropriété, certains films se voient depuis la rue. Ce que dit la règle à Bruxelles, et ce qu'il faut vérifier avant la pose.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-copropriete.jpg', alt: "Illustration d'une façade d'immeuble bruxellois : une fenêtre avec un film blanc mat, une fenêtre avec un film miroir qui reflète les arbres, les autres avec des rideaux, et une personne qui regarde la façade en tenant un document", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Vous vivez en appartement, le vis-à-vis ou la chaleur vous pèse, et vous pensez à un film pour vos fenêtres. Une question revient souvent avant même de demander un devis : faut-il l'accord de la copropriété ? Le film se pose chez vous, côté intérieur, et on pourrait penser que c'est comme choisir ses rideaux. C'est vrai en partie, mais pas toujours. Voici ce que nous avons trouvé dans les sources officielles bruxelloises, ce qui dépend du règlement de votre immeuble, et comment éviter une mauvaise surprise.",
+            "Précision importante : cet article donne des repères, pas un avis juridique. Le document qui fait foi, c'est le règlement de votre propre immeuble.",
+          ],
+        },
+        {
+          heading: "La réponse courte",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Nous n'avons trouvé aucune règle belge qui impose une autorisation pour poser un film côté intérieur sur ses propres fenêtres. En revanche, en copropriété, l'acte de base et le règlement de copropriété peuvent encadrer l'aspect général du bâtiment. Si votre film change l'aspect de la façade vu de la rue, ce qui est le cas d'un film miroir ou blanc mat, il peut être nécessaire d'obtenir l'accord de l'association des copropriétaires.",
+            "Si vous êtes locataire, prévenez votre propriétaire. Si votre immeuble est classé, renseignez-vous auprès du service urbanisme de votre commune avant la pose.",
+          ],
+        },
+        {
+          heading: "Ce que vos voisins voient depuis la rue",
+          anchor: 'aspect-facade',
+          paragraphs: [
+            "Tout se joue sur l'aspect extérieur. Le film est posé à l'intérieur, mais certains se voient très bien depuis le trottoir, d'autres presque pas.",
+          ],
+          table: {
+            headers: ["Film", "Aspect vu de la rue", "À vérifier avec la copropriété ?"],
+            rows: [
+              ["Effet miroir", "Vitre qui reflète comme un miroir en journée", "Oui, de préférence"],
+              ["Blanc mat", "Vitre blanche et opaque, de jour comme de nuit", "Oui, de préférence"],
+              ["Solaire", "Légère teinte bleutée, peu visible", "Rarement nécessaire, sauf règle stricte sur l'aspect"],
+              ["Anti-effraction", "Transparent et incolore", "Non, pas de changement d'aspect"],
+            ],
+          },
+        },
+        {
+          heading: "Propriétaire en copropriété : où regarder",
+          anchor: 'proprietaire',
+          paragraphs: [
+            "À Bruxelles, beaucoup d'actes de base considèrent les châssis comme des parties privatives, et d'autres comme des parties communes. KBC Brussels, dans un article consacré au remplacement des fenêtres en appartement, résume la règle ainsi : si l'acte de base rend les châssis privatifs, vous pouvez les faire remplacer sans l'autorisation de l'association des copropriétaires, mais vous devez respecter les dispositions sur l'aspect général du bâtiment, et vous écarter de cet aspect demande l'accord de l'association. Le même article précise que le remplacement du vitrage seul ne requiert jamais d'autorisation.",
+            "Un film n'est pas un remplacement de vitrage, mais la logique est la même : ce qui compte, c'est l'aspect de la façade. Concrètement, avant la pose, regardez trois documents : l'acte de base, le règlement de copropriété et le règlement d'ordre intérieur. Cherchez les passages qui parlent de l'aspect extérieur, de l'harmonie ou de l'uniformité de la façade, et des fenêtres. Si rien n'est clair, une question écrite au syndic suffit souvent pour savoir si une décision de l'assemblée générale existe déjà.",
+          ],
+        },
+        {
+          heading: "Vous êtes locataire",
+          anchor: 'locataire',
+          paragraphs: [
+            "Nous n'avons pas trouvé de texte bruxellois qui parle précisément des films pour vitrage dans un bail. Le bon réflexe reste simple : prévenez votre propriétaire par écrit avant la pose, en précisant le type de film. Et prévoyez de le faire retirer en fin de bail, sauf si votre propriétaire préfère le garder.",
+            "Si l'immeuble est en copropriété, les règles sur l'aspect de la façade s'appliquent aussi aux occupants : le propriétaire voudra sans doute vérifier le règlement avant de vous donner son accord pour un film miroir ou blanc mat.",
+          ],
+        },
+        {
+          heading: "Façade classée : demandez d'abord à la commune",
+          anchor: 'bien-classe',
+          paragraphs: [
+            "Le feuillet officiel « Fenêtres et châssis » de Bruxelles Développement urbain (septembre 2016) indique qu'aucun permis n'est nécessaire pour un simple remplacement de châssis ou de vitrages qui respecte les formes d'origine et ne modifie pas l'aspect architectural du bâtiment. Mais il précise aussi qu'un permis est toujours requis si les travaux concernent un bâtiment classé ou inscrit sur la liste de sauvegarde.",
+            "Ce feuillet ne parle pas des films pour vitrage. Si votre immeuble est classé ou inscrit sur la liste de sauvegarde, demandez l'avis du service urbanisme de votre commune avant la pose, surtout pour un film miroir ou blanc mat.",
+          ],
+        },
+        {
+          heading: "Comment préparer votre demande au syndic",
+          anchor: 'demande-syndic',
+          paragraphs: [
+            "Si une vérification s'impose, plus votre demande est précise, plus la réponse sera rapide. Indiquez quelles fenêtres sont concernées, quel film vous envisagez et pourquoi (vis-à-vis, chaleur, sécurité). Une photo d'un film déjà posé aide beaucoup à visualiser le rendu depuis la rue.",
+            "Nous pouvons vous transmettre les caractéristiques du film choisi et des photos de poses que nous avons réalisées. Et si l'aspect du film miroir ou blanc mat pose question, le [film solaire](/blog/film-solaire-vitrage-bruxelles) ou le [film anti-effraction](/blog/film-securite-anti-effraction-vitrage) changent beaucoup moins l'apparence de la façade.",
+            "À ce jour, aucun de nos clients ne nous a signalé de problème avec sa copropriété. Mais vérifier avant coûte peu, et vous évite de devoir retirer un film déjà posé.",
+          ],
+        },
+        {
+          heading: "Comment se passe la pose, et combien ça coûte ?",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "Nous posons les films directement sur vos vitrages existants, généralement côté intérieur, en une seule visite et sans démontage. La pose est garantie 2 ans, et la durée de vie du film est estimée à 10 à 15 ans en pose intérieure.",
+            "Il n'y a pas de tarif affiché : le prix dépend de la surface à traiter et de l'accessibilité des vitrages, et il reste le même quel que soit le film choisi. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique ce qui le fait varier.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[KBC Brussels : « En tant que propriétaire d'un appartement, puis-je faire remplacer librement mes fenêtres ? » (2023)](https://www.kbcbrussels.be/particuliers/fr/newsfeed/energy-newsfeed/energy-newsfeed-1/kan-ik-als-eigenaar-van-een-appartement-op-eigen-houtje-mijn-ram.html)",
+            "[Bruxelles Développement urbain, Les feuillets de l'urbanisme : « Fenêtres et châssis » (septembre 2016)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+          ],
+        },
+        {
+          heading: "Vous hésitez encore ?",
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "La copropriété peut-elle me demander de retirer un film déjà posé ?",
+          answer: "C'est possible si votre règlement interdit de modifier l'aspect de la façade sans accord et que le film le modifie, ce qui peut être le cas d'un film miroir ou blanc mat. C'est pour ça que nous conseillons de vérifier avant la pose.",
+        },
+        {
+          question: "Faut-il un permis d'urbanisme pour poser un film sur ses fenêtres ?",
+          answer: "Pour un immeuble non classé, le feuillet officiel bruxellois n'exige pas de permis pour un simple remplacement de vitrage qui ne modifie pas l'aspect du bâtiment, et ne parle pas des films. Pour un bâtiment classé ou inscrit sur la liste de sauvegarde, un permis est toujours requis pour des travaux : demandez à votre commune avant la pose.",
+        },
+        {
+          question: "Un film posé à l'intérieur, ce n'est pas comme des rideaux ?",
+          answer: "L'image est parlante, et c'est vrai pour un film qui se voit peu, comme le solaire. Mais un film miroir ou blanc mat change l'aspect de la vitre vue de la rue, et c'est cet aspect que certains règlements de copropriété encadrent.",
+        },
+        {
+          question: "Le film solaire change-t-il l'aspect de la façade ?",
+          answer: "Peu : il garde la vitre transparente, avec une légère teinte bleutée. Il est donc moins susceptible de poser question qu'un film miroir ou blanc mat, même si un règlement très strict sur l'aspect peut toujours s'appliquer.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -2242,7 +2357,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'Na de plaatsing: levensduur en onderhoud',
           paragraphs: [
-            'Eenmaal geplaatst heeft de folie een geschatte levensduur van 10 tot 15 jaar. Het enige aandachtspunt is de eerste maand: vermijd het raam te kuisen of aan te raken tijdens deze periode, de tijd die de folie nodig heeft om volledig te hechten (eventuele kleine luchtbelletjes verdwijnen vanzelf). Daarna volstaat kuisen met water en een milde zeep; onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) geeft alle onderhoudstips.',
+            'Eenmaal geplaatst heeft de folie een geschatte levensduur van 10 tot 15 jaar. Het enige aandachtspunt is de eerste maand: vermijd het raam te kuisen of aan te raken tijdens deze periode, de tijd die de folie nodig heeft om volledig te hechten (eventuele kleine luchtbelletjes verdwijnen vanzelf). Daarna volstaat kuisen met koud of lauw water en een milde, natuurlijke zeep, en wij kunnen dat ook voor u doen als u dat wenst; onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) geeft alle onderhoudstips.',
           ],
         },
         {
@@ -2999,6 +3114,121 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-fenetre-copropriete-autorisation',
+      title: "Raamfolie in een appartement in Brussel: hebt u de toestemming van de mede-eigendom nodig?",
+      metaTitle: "Raamfolie in mede-eigendom: welke toestemming?",
+      metaDescription:
+        "Folie op uw ramen in een appartement: geen wet verbiedt het, maar het reglement van mede-eigendom kan het uitzicht van de gevel regelen. Wat u moet nakijken.",
+      date: '2026-10-24',
+      excerpt:
+        "De folie komt bij u thuis, aan de binnenkant. Maar in een mede-eigendom zijn sommige folies zichtbaar vanaf de straat. Wat de regels in Brussel zeggen, en wat u vóór de plaatsing nakijkt.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-copropriete.jpg', alt: "Illustratie van een Brusselse gevel: een raam met matwitte folie, een raam met spiegelfolie die de bomen weerspiegelt, de andere met gordijnen, en een persoon die met een document in de hand naar de gevel kijkt", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "U woont in een appartement, inkijk of warmte stoort u, en u denkt aan folie voor uw ramen. Eén vraag komt vaak terug nog vóór de offerteaanvraag: hebt u de toestemming van de mede-eigendom nodig? De folie wordt bij u thuis geplaatst, aan de binnenkant, en het lijkt een beetje op het kiezen van gordijnen. Dat klopt gedeeltelijk, maar niet altijd. Dit vonden we in de officiële Brusselse bronnen, dit hangt af van het reglement van uw gebouw, en zo vermijdt u een vervelende verrassing.",
+            "Belangrijk: dit artikel geeft richtpunten, geen juridisch advies. Het document dat telt, is het reglement van uw eigen gebouw.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord",
+          anchor: 'kort-antwoord',
+          paragraphs: [
+            "We vonden geen enkele Belgische regel die een toestemming oplegt om folie aan de binnenkant van uw eigen ramen te plaatsen. In een mede-eigendom kunnen de basisakte en het reglement van mede-eigendom wel het algemene uitzicht van het gebouw regelen. Verandert uw folie het uitzicht van de gevel vanaf de straat, wat het geval is bij spiegel- of matwitte folie, dan kan de toestemming van de vereniging van mede-eigenaars nodig zijn.",
+            "Bent u huurder, verwittig dan uw verhuurder. Is uw gebouw beschermd, informeer dan vóór de plaatsing bij de dienst stedenbouw van uw gemeente.",
+          ],
+        },
+        {
+          heading: "Wat uw buren vanaf de straat zien",
+          anchor: 'uitzicht-gevel',
+          paragraphs: [
+            "Alles draait om het uitzicht van buitenaf. De folie zit aan de binnenkant, maar sommige folies zie je goed vanaf het voetpad, andere bijna niet.",
+          ],
+          table: {
+            headers: ["Folie", "Uitzicht vanaf de straat", "Nakijken met de mede-eigendom?"],
+            rows: [
+              ["Spiegeleffect", "Ruit die overdag weerspiegelt als een spiegel", "Ja, bij voorkeur"],
+              ["Matwit", "Witte, ondoorzichtige ruit, dag en nacht", "Ja, bij voorkeur"],
+              ["Zonwerend", "Lichte blauwe tint, weinig zichtbaar", "Zelden nodig, tenzij een strikte regel over het uitzicht"],
+              ["Inbraakwerend", "Transparant en kleurloos", "Nee, geen verandering van uitzicht"],
+            ],
+          },
+        },
+        {
+          heading: "Eigenaar in een mede-eigendom: waar kijkt u na?",
+          anchor: 'eigenaar',
+          paragraphs: [
+            "In Brussel beschouwen veel basisaktes de ramen als privatieve delen, andere als gemeenschappelijke delen. KBC Brussels vat het in een (Franstalig) artikel over het vervangen van ramen in een appartement zo samen: als de basisakte de ramen privatief maakt, mag u ze laten vervangen zonder toestemming van de vereniging van mede-eigenaars, maar u moet de bepalingen over het algemene uitzicht van het gebouw naleven, en wie daarvan afwijkt, heeft het akkoord van de vereniging nodig. Hetzelfde artikel vermeldt dat het vervangen van enkel de beglazing nooit een toestemming vereist.",
+            "Folie is geen vervanging van beglazing, maar de logica is dezelfde: het uitzicht van de gevel telt. Kijk vóór de plaatsing dus drie documenten na: de basisakte, het reglement van mede-eigendom en het huishoudelijk reglement. Zoek de passages over het uitzicht van buitenaf, de harmonie of de eenvormigheid van de gevel, en over de ramen. Is het niet duidelijk, dan volstaat vaak een schriftelijke vraag aan de syndicus om te weten of er al een beslissing van de algemene vergadering bestaat.",
+          ],
+        },
+        {
+          heading: "U bent huurder",
+          anchor: 'huurder',
+          paragraphs: [
+            "We vonden geen Brusselse tekst die het specifiek over raamfolie in een huurcontract heeft. De juiste reflex blijft eenvoudig: verwittig uw verhuurder schriftelijk vóór de plaatsing, met vermelding van het type folie. En reken erop dat u de folie aan het einde van de huur laat verwijderen, tenzij uw verhuurder ze liever houdt.",
+            "Staat het gebouw in mede-eigendom, dan gelden de regels over het uitzicht van de gevel ook voor de bewoners: uw verhuurder zal het reglement wellicht willen nakijken voor hij akkoord gaat met spiegel- of matwitte folie.",
+          ],
+        },
+        {
+          heading: "Beschermde gevel: vraag het eerst aan de gemeente",
+          anchor: 'beschermd-pand',
+          paragraphs: [
+            "Het officiële (Franstalige) infoblad « Fenêtres et châssis » van Brussel Stedelijke Ontwikkeling (september 2016) vermeldt dat er geen vergunning nodig is voor een gewone vervanging van ramen of beglazing die de oorspronkelijke vormen respecteert en het architecturale uitzicht van het gebouw niet wijzigt. Het vermeldt ook dat een vergunning altijd vereist is als de werken een beschermd gebouw betreffen of een gebouw op de bewaarlijst.",
+            "Dat infoblad spreekt niet over raamfolie. Is uw gebouw beschermd of opgenomen op de bewaarlijst, vraag dan vóór de plaatsing het advies van de dienst stedenbouw van uw gemeente, zeker voor spiegel- of matwitte folie.",
+          ],
+        },
+        {
+          heading: "Zo bereidt u uw vraag aan de syndicus voor",
+          anchor: 'vraag-syndicus',
+          paragraphs: [
+            "Is een controle nodig, dan geldt: hoe preciezer uw vraag, hoe sneller het antwoord. Vermeld om welke ramen het gaat, welke folie u overweegt en waarom (inkijk, warmte, veiligheid). Een foto van een reeds geplaatste folie helpt enorm om het resultaat vanaf de straat voor te stellen.",
+            "We kunnen u de kenmerken van de gekozen folie bezorgen, en foto's van plaatsingen die we uitvoerden. En als het uitzicht van spiegel- of matwitte folie vragen oproept, veranderen [zonwerende folie](/blog/film-solaire-vitrage-bruxelles) of [inbraakwerende folie](/blog/film-securite-anti-effraction-vitrage) het uitzicht van de gevel veel minder.",
+            "Tot nu toe heeft geen enkele klant ons een probleem met zijn mede-eigendom gemeld. Maar vooraf nakijken kost weinig, en bespaart u het verwijderen van een reeds geplaatste folie.",
+          ],
+        },
+        {
+          heading: "Hoe verloopt de plaatsing, en wat kost het?",
+          anchor: 'plaatsing-prijs',
+          paragraphs: [
+            "We plaatsen de folies rechtstreeks op uw bestaande beglazing, meestal aan de binnenkant, in één bezoek en zonder demontage. Op de plaatsing staat 2 jaar garantie, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing aan de binnenkant.",
+            "Er staat geen tarief op de site: de prijs hangt af van de te behandelen oppervlakte en de toegankelijkheid van de ramen, en is dezelfde ongeacht de gekozen folie. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat hem doet variëren.",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[KBC Brussels: « En tant que propriétaire d'un appartement, puis-je faire remplacer librement mes fenêtres ? » (2023, in het Frans)](https://www.kbcbrussels.be/particuliers/fr/newsfeed/energy-newsfeed/energy-newsfeed-1/kan-ik-als-eigenaar-van-een-appartement-op-eigen-houtje-mijn-ram.html)",
+            "[Brussel Stedelijke Ontwikkeling, Les feuillets de l'urbanisme: « Fenêtres et châssis » (september 2016, in het Frans)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+          ],
+        },
+        {
+          heading: "Twijfelt u nog?",
+          paragraphs: [
+            "Neem contact met ons op, we adviseren u gratis volgens uw situatie en antwoorden binnen 24u.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Kan de mede-eigendom vragen om een reeds geplaatste folie te verwijderen?",
+          answer: "Dat kan als uw reglement verbiedt om het uitzicht van de gevel zonder akkoord te wijzigen en de folie dat uitzicht verandert, wat bij spiegel- of matwitte folie het geval kan zijn. Daarom raden we aan het vóór de plaatsing na te kijken.",
+        },
+        {
+          question: "Is er een stedenbouwkundige vergunning nodig voor raamfolie?",
+          answer: "Voor een niet-beschermd gebouw vereist het officiële Brusselse infoblad geen vergunning voor een gewone vervanging van beglazing die het uitzicht van het gebouw niet wijzigt, en het spreekt niet over folie. Voor een beschermd gebouw of een gebouw op de bewaarlijst is een vergunning altijd vereist voor werken: vraag het vóór de plaatsing aan uw gemeente.",
+        },
+        {
+          question: "Is folie aan de binnenkant niet gewoon zoals gordijnen?",
+          answer: "Het beeld klopt, en het geldt voor een folie die weinig opvalt, zoals zonwerende folie. Maar spiegel- of matwitte folie verandert het uitzicht van de ruit vanaf de straat, en net dat uitzicht regelen sommige reglementen van mede-eigendom.",
+        },
+        {
+          question: "Verandert zonwerende folie het uitzicht van de gevel?",
+          answer: "Weinig: de ruit blijft transparant, met een lichte blauwe tint. Ze roept dus minder snel vragen op dan spiegel- of matwitte folie, al kan een heel strikt reglement over het uitzicht altijd gelden.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -3727,7 +3957,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           heading: 'After installation: lifespan and maintenance',
           paragraphs: [
-            "Once installed, the film has an estimated lifespan of 10 to 15 years. The only thing to watch out for is the first month: avoid cleaning or touching the window during this period, the time the film needs to fully adhere. Any small air bubbles disappear on their own. After that, cleaning with water and mild soap is enough; our [guide to choosing your film](/blog/quel-film-choisir-vitrages) covers all the care tips.",
+            "Once installed, the film has an estimated lifespan of 10 to 15 years. The only thing to watch out for is the first month: avoid cleaning or touching the window during this period, the time the film needs to fully adhere. Any small air bubbles disappear on their own. After that, cleaning with cold or lukewarm water and a mild, natural soap is enough, and we can also take care of it for you if you like; our [guide to choosing your film](/blog/quel-film-choisir-vitrages) covers all the care tips.",
           ],
         },
         {
@@ -4481,6 +4711,121 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: 'Does anti-burglary film also block prying eyes?',
           answer: "No. It's transparent and colourless: its job is to hold the glass fragments together if the window breaks and to slow down a break-in attempt, not to block the view. Our [article on security film](/blog/film-securite-anti-effraction-vitrage) explains how it works.",
+        },
+      ],
+    },
+    {
+      slug: 'film-fenetre-copropriete-autorisation',
+      title: "Window film in a Brussels flat: do you need the co-ownership's approval?",
+      metaTitle: "Window film in a co-ownership: what approval?",
+      metaDescription:
+        "Putting film on your flat's windows: no law forbids it, but the co-ownership rules can govern how the façade looks. What to check before installation.",
+      date: '2026-10-24',
+      excerpt:
+        "The film goes on inside your home. But in a co-ownership, some films can be seen from the street. What the rules say in Brussels, and what to check before installation.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-copropriete.jpg', alt: "Illustration of a Brussels building façade: one window with matte white film, one with mirror film reflecting the trees, the others with curtains, and a person looking at the façade while holding a document", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "You live in a flat, being overlooked or the heat is getting to you, and you're thinking about film for your windows. One question often comes up before people even ask for a quote: do you need the co-ownership's approval? The film goes on inside your home, and it can feel a bit like choosing curtains. That's partly true, but not always. Here's what we found in official Brussels sources, what depends on your building's rules, and how to avoid an unpleasant surprise.",
+            "An important note: this article gives pointers, not legal advice. The document that counts is your own building's rules.",
+          ],
+        },
+        {
+          heading: "The short answer",
+          anchor: 'short-answer',
+          paragraphs: [
+            "We found no Belgian rule requiring approval to apply film to the inside of your own windows. In a co-ownership, however, the basic deed and the co-ownership rules can govern the building's general appearance. If your film changes how the façade looks from the street, which is the case with mirror or matte white film, you may need the approval of the association of co-owners.",
+            "If you rent, let your landlord know. If your building is listed, check with your commune's planning department before installation.",
+          ],
+        },
+        {
+          heading: "What your neighbours see from the street",
+          anchor: 'facade-appearance',
+          paragraphs: [
+            "It all comes down to how things look from outside. The film is on the inside, but some films are clearly visible from the pavement, others hardly at all.",
+          ],
+          table: {
+            headers: ["Film", "Appearance from the street", "Check with the co-ownership?"],
+            rows: [
+              ["Mirror effect", "Glass that reflects like a mirror during the day", "Yes, ideally"],
+              ["Matte white", "White, opaque glass, day and night", "Yes, ideally"],
+              ["Solar", "Slight blue tint, hardly noticeable", "Rarely needed, unless there is a strict rule on appearance"],
+              ["Anti-burglary", "Transparent and colourless", "No, no change in appearance"],
+            ],
+          },
+        },
+        {
+          heading: "Owner in a co-ownership: where to look",
+          anchor: 'owner',
+          paragraphs: [
+            "In Brussels, many basic deeds treat window frames as private parts, and others as common parts. In an article (in French) on replacing windows in a flat, KBC Brussels sums it up like this: if the basic deed makes the frames private, you can have them replaced without the association of co-owners' approval, but you must follow the provisions on the building's general appearance, and departing from that appearance requires the association's agreement. The same article notes that replacing the glazing alone never requires approval.",
+            "Film isn't a glazing replacement, but the logic is the same: what matters is how the façade looks. In practice, before installation, check three documents: the basic deed, the co-ownership rules and the house rules. Look for passages about the exterior appearance, the harmony or uniformity of the façade, and the windows. If nothing is clear, a written question to the building manager is often enough to find out whether the general assembly has already made a decision.",
+          ],
+        },
+        {
+          heading: "If you rent",
+          anchor: 'tenant',
+          paragraphs: [
+            "We found no Brussels text dealing specifically with window film in a lease. The right reflex is simple: let your landlord know in writing before installation, stating the type of film. And plan to have it removed when you move out, unless your landlord would rather keep it.",
+            "If the building is a co-ownership, the rules on the façade's appearance also apply to occupants: your landlord will probably want to check the rules before agreeing to mirror or matte white film.",
+          ],
+        },
+        {
+          heading: "Listed façade: ask the commune first",
+          anchor: 'listed-building',
+          paragraphs: [
+            "The official information leaflet « Fenêtres et châssis » (in French) from Brussels Urban Development (September 2016) states that no permit is needed for a simple replacement of frames or glazing that keeps the original shapes and doesn't change the building's architectural appearance. It also states that a permit is always required if the works concern a listed building or one on the safeguard list.",
+            "That leaflet doesn't mention window film. If your building is listed or on the safeguard list, ask your commune's planning department for advice before installation, especially for mirror or matte white film.",
+          ],
+        },
+        {
+          heading: "How to prepare your request to the building manager",
+          anchor: 'request',
+          paragraphs: [
+            "If a check is needed, the more precise your request, the faster the answer. Say which windows are involved, which film you're considering and why (being overlooked, heat, security). A photo of film already installed helps a lot to picture the result from the street.",
+            "We can send you the specifications of the chosen film and photos of installations we've done. And if the look of mirror or matte white film raises questions, [solar film](/blog/film-solaire-vitrage-bruxelles) or [anti-burglary film](/blog/film-securite-anti-effraction-vitrage) change the façade's appearance far less.",
+            "So far, none of our clients has reported a problem with their co-ownership. But checking beforehand costs little, and saves you from having to remove film that's already installed.",
+          ],
+        },
+        {
+          heading: "How does installation work, and what does it cost?",
+          anchor: 'installation-price',
+          paragraphs: [
+            "We apply the films directly to your existing glazing, usually on the inside, in a single visit and without removing anything. Installation comes with a 2-year warranty, and the film's lifespan is estimated at 10 to 15 years when installed on the inside.",
+            "There are no prices on the site: the price depends on the surface to be treated and how accessible the windows are, and it's the same whichever film you choose. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains what makes it vary.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[KBC Brussels: « En tant que propriétaire d'un appartement, puis-je faire remplacer librement mes fenêtres ? » (2023, in French)](https://www.kbcbrussels.be/particuliers/fr/newsfeed/energy-newsfeed/energy-newsfeed-1/kan-ik-als-eigenaar-van-een-appartement-op-eigen-houtje-mijn-ram.html)",
+            "[Brussels Urban Development, Les feuillets de l'urbanisme: « Fenêtres et châssis » (September 2016, in French)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+          ],
+        },
+        {
+          heading: "Still unsure?",
+          paragraphs: [
+            "Get in touch, we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Can the co-ownership ask me to remove film that's already installed?",
+          answer: "It's possible if your rules forbid changing the façade's appearance without approval and the film changes it, which can be the case with mirror or matte white film. That's why we recommend checking before installation.",
+        },
+        {
+          question: "Do you need a planning permit to put film on your windows?",
+          answer: "For a building that isn't listed, the official Brussels leaflet doesn't require a permit for a simple glazing replacement that doesn't change the building's appearance, and it doesn't mention film. For a listed building or one on the safeguard list, a permit is always required for works: ask your commune before installation.",
+        },
+        {
+          question: "Isn't film on the inside just like curtains?",
+          answer: "It's a fair comparison, and it holds for film that's hardly noticeable, like solar film. But mirror or matte white film changes how the glass looks from the street, and that appearance is exactly what some co-ownership rules govern.",
+        },
+        {
+          question: "Does solar film change how the façade looks?",
+          answer: "Only slightly: the glass stays transparent, with a slight blue tint. It's therefore less likely to raise questions than mirror or matte white film, although a very strict rule on appearance can always apply.",
         },
       ],
     },

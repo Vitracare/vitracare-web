@@ -245,6 +245,7 @@ const blogArticleImages = {
   'film-miroir-chaleur-vis-a-vis-bruxelles': '/images/blog/illus-miroir-chaleur-vis-a-vis.jpg',
   'film-vitre-premier-prix-ou-pose-professionnelle': '/images/blog/illus-film-premier-prix-ou-pro.jpg',
   'film-anti-regard-transparent': '/images/blog/illus-film-anti-regard-transparent.jpg',
+  'film-fenetre-copropriete-autorisation': '/images/blog/illus-film-fenetre-copropriete.jpg',
 };
 
 const blogArticles = [
@@ -738,6 +739,35 @@ const blogArticles = [
       headline: 'Transparent privacy window film: does it really exist?',
       datePublished: '2026-10-21',
       dateModified: '2026-10-21',
+    },
+  },
+},
+{
+  path: '/blog/film-fenetre-copropriete-autorisation',
+  meta: {
+    FR: {
+      title: 'Film pour fenêtre en copropriété : quelle autorisation ? — VitraCare',
+      description:
+        "Poser un film en appartement : aucune loi ne l'interdit, mais le règlement de copropriété peut encadrer l'aspect de la façade. Ce qu'il faut vérifier.",
+      headline: "Film pour fenêtre en appartement à Bruxelles : faut-il l'accord de la copropriété ?",
+      datePublished: '2026-10-24',
+      dateModified: '2026-10-24',
+    },
+    NL: {
+      title: 'Raamfolie in mede-eigendom: welke toestemming? — VitraCare',
+      description:
+        "Folie op uw ramen in een appartement: geen wet verbiedt het, maar het reglement van mede-eigendom kan het uitzicht van de gevel regelen. Wat u moet nakijken.",
+      headline: 'Raamfolie in een appartement in Brussel: hebt u de toestemming van de mede-eigendom nodig?',
+      datePublished: '2026-10-24',
+      dateModified: '2026-10-24',
+    },
+    EN: {
+      title: 'Window Film in a Co-ownership: What Approval? — VitraCare',
+      description:
+        "Putting film on your flat's windows: no law forbids it, but the co-ownership rules can govern how the façade looks. What to check before installation.",
+      headline: "Window film in a Brussels flat: do you need the co-ownership's approval?",
+      datePublished: '2026-10-24',
+      dateModified: '2026-10-24',
     },
   },
 },

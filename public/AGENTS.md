@@ -34,7 +34,7 @@ Pose sur simple, double et triple vitrage, directement sur les fenêtres existan
 - Prise de mesures à domicile gratuite à Bruxelles, 50 € de déplacement en dehors.
 - Le rejet infrarouge (81 %) n'est pas un pourcentage de chaleur totale bloquée. Aucun effet isolant n'est promis en hiver.
 - Aucun film ne garde à la fois une vue nette et l'intimité la nuit, intérieur éclairé.
-- Entretien : eau et savon doux uniquement ; ne pas nettoyer ni toucher la vitre pendant le mois qui suit la pose.
+- Entretien : eau froide ou tiède et savon doux naturel uniquement ; VitraCare propose aussi le nettoyage des vitres, filmées ou non ; ne pas nettoyer ni toucher la vitre pendant le mois qui suit la pose.
 
 ## Contact
 

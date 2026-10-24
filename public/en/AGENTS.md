@@ -34,7 +34,7 @@ Installed on single, double and triple glazing, directly on existing windows, in
 - Home measurement visit free in Brussels, €50 travel fee outside.
 - Infrared rejection (81%) is not a percentage of total heat blocked. No insulating effect is promised in winter.
 - At night, with the lights on inside, no film keeps both a clear view and privacy.
-- Maintenance: water and mild soap only; don't clean or touch the window for the month following installation.
+- Maintenance: cold or lukewarm water and mild, natural soap only; VitraCare also cleans windows, with or without film; don't clean or touch the window for the month following installation.
 
 ## Contact
 

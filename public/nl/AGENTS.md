@@ -34,7 +34,7 @@ Plaatsing op enkel, dubbel en drievoudig glas, rechtstreeks op de bestaande rame
 - Opmeting aan huis gratis in Brussel, 50 € verplaatsingskosten daarbuiten.
 - Het tegenhouden van infraroodstraling (81%) is geen percentage van de totale tegengehouden warmte. Een isolerend effect in de winter wordt niet beloofd.
 - Geen enkele folie behoudt 's avonds, met verlicht interieur, tegelijk een helder zicht en privacy.
-- Onderhoud: enkel water en milde zeep; het raam niet reinigen of aanraken gedurende de maand na de plaatsing.
+- Onderhoud: enkel koud of lauw water en milde, natuurlijke zeep; VitraCare reinigt ook ramen, met of zonder folie; het raam niet reinigen of aanraken gedurende de maand na de plaatsing.
 
 ## Contact
 

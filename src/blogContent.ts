@@ -1308,7 +1308,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : comment choisir ?',
+      title: 'Film pour vitre premier prix (Action, Brico, Hubo...) ou pose professionnelle : comment choisir ?',
       metaTitle: 'Film premier prix ou pose professionnelle ?',
       metaDescription:
         "Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
@@ -1319,13 +1319,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Un rouleau de film pour vitre en grande surface coûte une quinzaine à une vingtaine d'euros, contre un devis personnalisé pour une pose professionnelle. La différence de prix est réelle, mais elle ne raconte pas toute l'histoire : ces deux solutions ne répondent pas toujours au même besoin. Voici ce qui change concrètement, pour choisir en connaissance de cause plutôt que sur le seul critère du prix.",
+            "Un rouleau de film pour vitre en grande surface coûte d'une dizaine à une trentaine d'euros, contre un devis personnalisé pour une pose professionnelle. La différence de prix est réelle, mais elle ne raconte pas toute l'histoire : ces deux solutions ne répondent pas toujours au même besoin. Voici ce qui change concrètement, pour choisir en connaissance de cause plutôt que sur le seul critère du prix.",
           ],
         },
         {
           heading: 'Qu\'est-ce qu\'un film de vitre premier prix, concrètement ?',
           paragraphs: [
-            "Les films vendus en grande surface de bricolage ou de déco (Action, Brico, Zelfbouwmarkt, et d'autres enseignes similaires) sont presque toujours des films à adhérence statique : ils tiennent sur la vitre par un effet électrostatique, sans colle. C'est ce qui permet de les poser soi-même en quelques minutes, et de les retirer tout aussi facilement. Ils se vendent en petits rouleaux, typiquement autour de 45 à 70 cm de large pour 1,5 mètre de long, à des prix allant d'une dizaine à une vingtaine d'euros selon l'enseigne et le format. Chez [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) par exemple, un film statique de 45 × 150 cm coûte 11,99 €. Certains de ces films affichent eux-mêmes un pourcentage de protection UV sur l'emballage (jusqu'à 95% annoncé par le fabricant pour ce modèle), mais il s'agit d'une allégation du fabricant, pas d'une donnée mesurée indépendamment comme celles que nous fournissons sur fiche technique.",
+            "Les films vendus en grande surface de bricolage ou de déco (Action, Brico, Hubo, Zelfbouwmarkt, et d'autres enseignes similaires) sont presque toujours des films à adhérence statique : ils tiennent sur la vitre par un effet électrostatique, sans colle. C'est ce qui permet de les poser soi-même en quelques minutes, et de les retirer tout aussi facilement. Ils se vendent en petits rouleaux, typiquement autour de 45 à 70 cm de large pour 1,5 mètre de long, à des prix allant d'une dizaine à une trentaine d'euros selon l'enseigne et le format. Chez [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) par exemple, un film statique de 45 × 150 cm coûte 11,99 €. Certains de ces films affichent eux-mêmes un pourcentage de protection UV sur l'emballage (jusqu'à 95% annoncé par le fabricant pour ce modèle), mais il s'agit d'une allégation du fabricant, pas d'une donnée mesurée indépendamment comme celles que nous fournissons sur fiche technique.",
           ],
         },
         {
@@ -1362,7 +1362,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Performance mesurée (VLT/UV/infrarouge)', 'Non communiquée', 'Donnée sur fiche technique'],
               ['Garantie', 'Aucune', '2 ans sur la pose'],
               ['Durée de vie estimée', 'Variable selon pose et environnement', '10 à 15 ans'],
-              ['Prix', '~10 à 20€ le rouleau', 'Devis personnalisé selon surface'],
+              ['Prix', '~10 à 30€ le rouleau', 'Devis personnalisé selon surface'],
             ],
           },
         },
@@ -1371,6 +1371,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             '[Brico — film statique pour vitrage](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — film de fenêtre givré statique](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Hubo — film statique Lineafix 46 × 150 cm (page en néerlandais)](https://www.hubo.be/nl/p/lineafix-statische-raamfolie-46cm-x-1-5m-nimbo/987477/)',
             '[Bricozone — retour d\'un utilisateur sur un film Brico](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
@@ -1626,6 +1627,110 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Le film solaire change-t-il l'aspect de la façade ?",
           answer: "Peu : il garde la vitre transparente, avec une légère teinte bleutée. Il est donc moins susceptible de poser question qu'un film miroir ou blanc mat, même si un règlement très strict sur l'aspect peut toujours s'appliquer.",
+        },
+      ],
+    },
+    {
+      slug: 'film-porte-entree-vitree',
+      title: "Film pour porte d'entrée vitrée : quel film pour l'intimité et la sécurité ?",
+      metaTitle: "Film pour porte d'entrée vitrée : lequel choisir ?",
+      metaDescription:
+        "Porte d'entrée vitrée qui laisse voir le couloir ? Film opaque, miroir ou anti-effraction : lequel choisir pour l'intimité jour et nuit, ou la sécurité.",
+      date: '2026-10-28',
+      excerpt:
+        "Une porte d'entrée vitrée laisse souvent voir tout le couloir depuis la rue. Quel film choisir pour l'intimité, jour et nuit, ou pour la sécurité, et pourquoi le film miroir n'est pas toujours le bon choix ici.",
+      heroImage: { src: '/images/blog/illus-film-porte-entree-vitree.jpg', alt: "Illustration en deux scènes le soir : à gauche, une porte d'entrée vitrée sans film laisse voir le couloir éclairé, l'escalier et une personne à l'intérieur depuis la rue ; à droite, la même porte équipée d'un film blanc mat reste lumineuse mais ne laisse plus rien voir", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Une porte d'entrée vitrée apporte de la lumière dans le couloir, mais elle laisse souvent voir tout l'intérieur depuis la rue : le hall, l'escalier, parfois une partie du salon. C'est l'une des demandes qui reviennent le plus souvent chez nous. La bonne nouvelle : un film se pose directement sur le vitrage de la porte, sans la changer. Encore faut-il choisir le bon, car une porte d'entrée n'a pas les mêmes contraintes qu'une fenêtre de salon.",
+          ],
+        },
+        {
+          heading: "La réponse courte",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Pour l'intimité, le film blanc mat est presque toujours le meilleur choix sur une porte d'entrée : il bloque la vue dans les deux sens, de jour comme de nuit, tout en laissant passer la lumière. Le film effet miroir, lui, ne protège des regards qu'en journée. Et si votre priorité est la sécurité, c'est le film anti-effraction, transparent, qu'il vous faut.",
+          ],
+        },
+        {
+          heading: "Pourquoi le film miroir n'est pas idéal sur une porte d'entrée",
+          anchor: 'miroir-porte',
+          paragraphs: [
+            "Le film effet miroir fonctionne tant que l'extérieur est plus lumineux que l'intérieur. En journée, les passants voient un reflet au lieu de votre couloir. Mais le soir, dès que la lumière du hall est allumée et que la rue est sombre, l'effet s'inverse : on voit à nouveau à l'intérieur.",
+            "Or une porte d'entrée, c'est justement l'endroit où l'on allume la lumière en rentrant le soir, ou quand quelqu'un sonne. Le film miroir y protège donc des regards au moment où vous en avez le moins besoin. Notre article sur le [film anti-regard transparent](/blog/film-anti-regard-transparent) explique ce phénomène en détail.",
+          ],
+        },
+        {
+          heading: "Le film blanc mat : l'intimité de jour comme de nuit",
+          anchor: 'blanc-mat',
+          paragraphs: [
+            "Le [film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles), aussi appelé film opaque, occultant ou dépoli, donne au verre un aspect proche du verre sablé. Il floute la vue dans les deux sens, en permanence : depuis la rue, on ne distingue plus l'intérieur, même le soir avec la lumière allumée. La lumière du jour continue d'entrer dans le couloir, simplement diffusée.",
+            "La contrepartie : depuis l'intérieur, vous ne voyez plus nettement qui se trouve devant la porte. Pour beaucoup de couloirs, ce n'est pas un problème. Si vous tenez à voir dehors, une solution consiste à ne filmer que certaines vitres de la porte, quand elle en compte plusieurs.",
+          ],
+        },
+        {
+          heading: "Sécuriser une porte vitrée : le film anti-effraction",
+          anchor: 'anti-effraction',
+          paragraphs: [
+            "Une porte vitrée peut aussi être un point faible. Le [film anti-effraction](/blog/film-securite-anti-effraction-vitrage) que nous posons est transparent, certifié EN 356 et marqué CE. Il ne rend pas la vitre incassable : en cas de choc, le verre peut se fissurer, mais les éclats restent collés au film au lieu de tomber, ce qui ralentit fortement une tentative d'intrusion et limite le risque de se blesser.",
+            "Ce film ne change rien à l'intimité : il est transparent. Si vous voulez à la fois masquer le couloir et renforcer le vitrage, parlons-en lors de la prise de mesures, pour choisir selon votre priorité.",
+          ],
+        },
+        {
+          heading: "Quel film pour quel besoin ?",
+          anchor: 'comparatif',
+          paragraphs: [
+            "Le tableau résume ce que fait chaque film sur une porte d'entrée vitrée.",
+          ],
+          table: {
+            headers: ["Film", "Regard extérieur le jour", "Regard extérieur le soir (lumière allumée)", "Lumière dans le couloir", "Sécurité"],
+            rows: [
+              ["Blanc mat", "Bloqué", "Bloqué", "Passe, diffusée", "Non"],
+              ["Effet miroir", "Bloqué (reflet)", "Visible (l'effet s'inverse)", "Réduite", "Non"],
+              ["Anti-effraction", "Visible", "Visible", "Passe", "Retient les éclats, ralentit une intrusion"],
+            ],
+          },
+        },
+        {
+          heading: "Comment se passe la pose sur une porte ?",
+          anchor: 'pose',
+          paragraphs: [
+            "Le film se pose directement sur le vitrage existant, sans démonter la porte, en une seule visite. Il convient au simple, au double comme au triple vitrage. Si la porte compte plusieurs petits carreaux, chacun reçoit son propre morceau de film, découpé au ras du cadre. Nous reprenons les mesures exactes sur place avant la découpe.",
+            "Si la porte vitrée est celle de l'entrée de votre immeuble, et non celle de votre logement, il s'agit en général d'une partie commune : c'est alors à la copropriété d'en décider. Notre article sur le [film en copropriété](/blog/film-fenetre-copropriete-autorisation) explique ce qu'il faut vérifier.",
+          ],
+        },
+        {
+          heading: "Combien ça coûte ?",
+          anchor: 'prix',
+          paragraphs: [
+            "Il n'y a pas de tarif affiché : le prix dépend de la surface à traiter et de l'accessibilité des vitrages, et il reste le même quel que soit le film choisi. Une porte d'entrée représente en général une petite surface. La prise de mesures à domicile est gratuite à Bruxelles, et notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique ce qui fait varier le montant.",
+            "La pose est garantie 2 ans, et la durée de vie du film est estimée à 10 à 15 ans en pose intérieure.",
+          ],
+        },
+        {
+          heading: "Vous hésitez encore ?",
+          paragraphs: [
+            "Contactez-nous, nous vous conseillons gratuitement selon votre porte et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Le film miroir convient-il à une porte d'entrée ?",
+          answer: "En journée oui, mais le soir, lumière du hall allumée, l'effet s'inverse et on voit à l'intérieur. Pour une porte d'entrée, le film blanc mat est en général plus adapté, car il garde l'intimité à toute heure.",
+        },
+        {
+          question: "Le film blanc mat laisse-t-il passer la lumière ?",
+          answer: "Oui. Il floute la vue dans les deux sens, mais la lumière du jour continue d'entrer, simplement diffusée. Le couloir reste lumineux.",
+        },
+        {
+          question: "Peut-on poser un film anti-effraction sur une porte vitrée ?",
+          answer: "Oui. Il se pose sur le vitrage existant, reste transparent et, en cas de choc, retient les éclats collés au film, ce qui ralentit une tentative d'intrusion. Il ne rend pas la vitre incassable.",
+        },
+        {
+          question: "Faut-il démonter la porte pour poser le film ?",
+          answer: "Non. Le film se pose directement sur le vitrage, porte en place, en une seule visite.",
         },
       ],
     },
@@ -2908,7 +3013,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?',
+      title: 'Goedkope raamfolie (Action, Brico, Hubo...) of professionele plaatsing: hoe kiest u?',
       metaTitle: 'Goedkope folie of professionele plaatsing?',
       metaDescription:
         'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
@@ -2919,13 +3024,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "Een rol raamfolie in de doe-het-zelfzaak kost een vijftiental tot een twintigtal euro, tegenover een offerte op maat voor een professionele plaatsing. Het prijsverschil is reëel, maar vertelt niet het hele verhaal: deze twee oplossingen beantwoorden niet altijd aan dezelfde behoefte. Hier is wat er concreet verschilt, om met kennis van zaken te kiezen in plaats van enkel op prijs.",
+            "Een rol raamfolie in de doe-het-zelfzaak kost een tiental tot een dertigtal euro, tegenover een offerte op maat voor een professionele plaatsing. Het prijsverschil is reëel, maar vertelt niet het hele verhaal: deze twee oplossingen beantwoorden niet altijd aan dezelfde behoefte. Hier is wat er concreet verschilt, om met kennis van zaken te kiezen in plaats van enkel op prijs.",
           ],
         },
         {
           heading: 'Wat is een goedkope raamfolie precies?',
           paragraphs: [
-            "De folies die verkocht worden in doe-het-zelf- of decozaken (Action, Brico, Zelfbouwmarkt, en gelijkaardige ketens) zijn bijna altijd folies met statische hechting: ze blijven op het raam door een elektrostatisch effect, zonder lijm. Daardoor kunt u ze zelf in enkele minuten plaatsen, en even makkelijk weer verwijderen. Ze worden verkocht in kleine rollen, doorgaans rond 45 tot 70 cm breed voor 1,5 meter lang, aan prijzen van een tiental tot een twintigtal euro naargelang de winkel en het formaat. Bij [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) bijvoorbeeld kost een statische folie van 45 × 150 cm 11,99 €. Sommige van deze folies vermelden zelf een UV-beschermingspercentage op de verpakking (tot 95% volgens de fabrikant voor dit model), maar dat is een claim van de fabrikant, geen onafhankelijk gemeten gegeven zoals wat wij op technisch fiche aanleveren.",
+            "De folies die verkocht worden in doe-het-zelf- of decozaken (Action, Brico, Hubo, Zelfbouwmarkt, en gelijkaardige ketens) zijn bijna altijd folies met statische hechting: ze blijven op het raam door een elektrostatisch effect, zonder lijm. Daardoor kunt u ze zelf in enkele minuten plaatsen, en even makkelijk weer verwijderen. Ze worden verkocht in kleine rollen, doorgaans rond 45 tot 70 cm breed voor 1,5 meter lang, aan prijzen van een tiental tot een dertigtal euro naargelang de winkel en het formaat. Bij [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186) bijvoorbeeld kost een statische folie van 45 × 150 cm 11,99 €. Sommige van deze folies vermelden zelf een UV-beschermingspercentage op de verpakking (tot 95% volgens de fabrikant voor dit model), maar dat is een claim van de fabrikant, geen onafhankelijk gemeten gegeven zoals wat wij op technisch fiche aanleveren.",
           ],
         },
         {
@@ -2962,7 +3067,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Gemeten prestatie (VLT/UV/infrarood)', 'Niet meegedeeld', 'Op technisch fiche'],
               ['Garantie', 'Geen', '2 jaar op de plaatsing'],
               ['Geschatte levensduur', 'Variabel naargelang plaatsing en omgeving', '10 tot 15 jaar'],
-              ['Prijs', '~10 à 20€ per rol', 'Offerte op maat naargelang oppervlakte'],
+              ['Prijs', '~10 tot 30€ per rol', 'Offerte op maat naargelang oppervlakte'],
             ],
           },
         },
@@ -2971,6 +3076,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             '[Brico — statische raamfolie](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — statische vorstfolie voor ramen](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Hubo — statische raamfolie Lineafix 46 × 150 cm](https://www.hubo.be/nl/p/lineafix-statische-raamfolie-46cm-x-1-5m-nimbo/987477/)',
             '[Bricozone — gebruikerservaring met een Brico-folie](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
@@ -3226,6 +3332,110 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Verandert zonwerende folie het uitzicht van de gevel?",
           answer: "Weinig: de ruit blijft transparant, met een lichte blauwe tint. Ze roept dus minder snel vragen op dan spiegel- of matwitte folie, al kan een heel strikt reglement over het uitzicht altijd gelden.",
+        },
+      ],
+    },
+    {
+      slug: 'film-porte-entree-vitree',
+      title: "Folie voor een glazen voordeur: welke folie voor privacy en veiligheid?",
+      metaTitle: "Folie voor een glazen voordeur: welke kiezen?",
+      metaDescription:
+        "Glazen voordeur waardoor men de gang ziet? Matte, spiegel- of inbraakwerende folie: welke kiest u voor privacy dag en nacht, of voor veiligheid?",
+      date: '2026-10-28',
+      excerpt:
+        "Door een glazen voordeur ziet men vaak de hele gang vanaf de straat. Welke folie kiest u voor privacy, dag en nacht, of voor veiligheid, en waarom spiegelfolie hier niet altijd de juiste keuze is.",
+      heroImage: { src: '/images/blog/illus-film-porte-entree-vitree.jpg', alt: "Illustratie in twee scènes 's avonds: links laat een glazen voordeur zonder folie de verlichte gang, de trap en een persoon binnen zien vanaf de straat; rechts blijft dezelfde deur met matwitte folie licht, maar is er niets meer te zien", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Een glazen voordeur brengt licht in de gang, maar laat vaak het hele interieur zien vanaf de straat: de hal, de trap, soms een deel van de woonkamer. Het is een van de vragen die we het vaakst krijgen. Het goede nieuws: folie wordt rechtstreeks op het glas van de deur geplaatst, zonder de deur te vervangen. Dan moet u wel de juiste kiezen, want een voordeur heeft andere beperkingen dan een raam in de woonkamer.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord",
+          anchor: 'kort-antwoord',
+          paragraphs: [
+            "Voor privacy is matwitte folie bijna altijd de beste keuze op een voordeur: ze blokkeert het zicht in beide richtingen, dag en nacht, en laat het licht door. Spiegeleffectfolie beschermt alleen overdag tegen inkijk. En als veiligheid uw prioriteit is, hebt u de transparante inbraakwerende folie nodig.",
+          ],
+        },
+        {
+          heading: "Waarom spiegelfolie niet ideaal is op een voordeur",
+          anchor: 'spiegel-deur',
+          paragraphs: [
+            "Spiegeleffectfolie werkt zolang het buiten lichter is dan binnen. Overdag zien voorbijgangers een weerspiegeling in plaats van uw gang. Maar 's avonds, zodra het licht in de hal brandt en het buiten donker is, keert het effect om: men kan weer naar binnen kijken.",
+            "En net bij de voordeur doet u 's avonds het licht aan als u thuiskomt, of als er iemand aanbelt. Spiegelfolie beschermt daar dus tegen inkijk op het moment dat u het het minst nodig hebt. Ons artikel over [transparante inkijkwerende folie](/blog/film-anti-regard-transparent) legt dit uitgebreid uit.",
+          ],
+        },
+        {
+          heading: "Matwitte folie: privacy dag en nacht",
+          anchor: 'matwit',
+          paragraphs: [
+            "[Matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles), ook ondoorzichtige, verduisterende of matglasfolie genoemd, geeft het glas een uitzicht dat lijkt op gezandstraald glas. Ze vertroebelt het zicht in beide richtingen, voortdurend: vanaf de straat ziet men het interieur niet meer, ook 's avonds met het licht aan. Het daglicht blijft de gang binnenkomen, alleen verspreid.",
+            "De keerzijde: van binnenuit ziet u niet meer scherp wie er voor de deur staat. Voor veel gangen is dat geen probleem. Wilt u toch naar buiten kunnen kijken, dan kunt u enkel bepaalde ruitjes van de deur laten bekleden, als ze er meerdere heeft.",
+          ],
+        },
+        {
+          heading: "Een glazen deur beveiligen: inbraakwerende folie",
+          anchor: 'inbraakwerend',
+          paragraphs: [
+            "Een glazen deur kan ook een zwak punt zijn. De [inbraakwerende folie](/blog/film-securite-anti-effraction-vitrage) die wij plaatsen is transparant, EN 356-gecertificeerd en draagt de CE-markering. Ze maakt het glas niet onbreekbaar: bij een slag kan het glas barsten, maar de scherven blijven aan de folie kleven in plaats van te vallen, wat een inbraakpoging sterk vertraagt en het risico op verwondingen beperkt.",
+            "Deze folie verandert niets aan de privacy: ze is transparant. Wilt u de gang afschermen én het glas versterken, bespreek het dan met ons bij de opmeting, om te kiezen volgens uw prioriteit.",
+          ],
+        },
+        {
+          heading: "Welke folie voor welke behoefte?",
+          anchor: 'vergelijking',
+          paragraphs: [
+            "De tabel vat samen wat elke folie doet op een glazen voordeur.",
+          ],
+          table: {
+            headers: ["Folie", "Inkijk overdag", "Inkijk 's avonds (licht aan)", "Licht in de gang", "Veiligheid"],
+            rows: [
+              ["Matwit", "Geblokkeerd", "Geblokkeerd", "Komt binnen, verspreid", "Nee"],
+              ["Spiegeleffect", "Geblokkeerd (weerspiegeling)", "Zichtbaar (effect keert om)", "Verminderd", "Nee"],
+              ["Inbraakwerend", "Zichtbaar", "Zichtbaar", "Komt binnen", "Houdt scherven vast, vertraagt een inbraak"],
+            ],
+          },
+        },
+        {
+          heading: "Hoe verloopt de plaatsing op een deur?",
+          anchor: 'plaatsing',
+          paragraphs: [
+            "De folie wordt rechtstreeks op het bestaande glas geplaatst, zonder de deur te demonteren, in één bezoek. Ze is geschikt voor enkel, dubbel en drievoudig glas. Heeft de deur meerdere kleine ruitjes, dan krijgt elk ruitje zijn eigen stuk folie, tot tegen het kader gesneden. We meten alles opnieuw nauwkeurig op ter plaatse voor we snijden.",
+            "Gaat het om de glazen deur van de inkom van uw gebouw, en niet van uw eigen woning, dan is dat doorgaans een gemeenschappelijk deel: de mede-eigendom beslist dan. Ons artikel over [folie in een mede-eigendom](/blog/film-fenetre-copropriete-autorisation) legt uit wat u moet nakijken.",
+          ],
+        },
+        {
+          heading: "Wat kost het?",
+          anchor: 'prijs',
+          paragraphs: [
+            "Er staat geen tarief op de site: de prijs hangt af van de te behandelen oppervlakte en de toegankelijkheid van het glas, en is dezelfde ongeacht de gekozen folie. Een voordeur is meestal een kleine oppervlakte. De opmeting aan huis is gratis in Brussel, en ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat het bedrag doet variëren.",
+            "Op de plaatsing staat 2 jaar garantie, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing aan de binnenkant.",
+          ],
+        },
+        {
+          heading: "Twijfelt u nog?",
+          paragraphs: [
+            "Neem contact met ons op, we adviseren u gratis volgens uw deur en antwoorden binnen 24u.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Is spiegelfolie geschikt voor een voordeur?",
+          answer: "Overdag wel, maar 's avonds, met het licht in de hal aan, keert het effect om en kan men naar binnen kijken. Voor een voordeur is matwitte folie doorgaans geschikter, omdat ze op elk moment privacy biedt.",
+        },
+        {
+          question: "Laat matwitte folie licht door?",
+          answer: "Ja. Ze vertroebelt het zicht in beide richtingen, maar het daglicht blijft binnenkomen, alleen verspreid. De gang blijft licht.",
+        },
+        {
+          question: "Kan inbraakwerende folie op een glazen deur?",
+          answer: "Ja. Ze wordt op het bestaande glas geplaatst, blijft transparant en houdt bij een slag de scherven aan de folie vast, wat een inbraakpoging vertraagt. Ze maakt het glas niet onbreekbaar.",
+        },
+        {
+          question: "Moet de deur gedemonteerd worden?",
+          answer: "Nee. De folie wordt rechtstreeks op het glas geplaatst, met de deur op haar plaats, in één bezoek.",
         },
       ],
     },
@@ -4508,7 +4718,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
     },
     {
       slug: 'film-vitre-premier-prix-ou-pose-professionnelle',
-      title: 'Cheap window film (Action, Brico...) or professional installation: how to choose?',
+      title: 'Cheap window film (Action, Brico, Hubo...) or professional installation: how to choose?',
       metaTitle: 'Cheap film or professional installation?',
       metaDescription:
         'Cheap window film (Action, Brico...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
@@ -4519,13 +4729,13 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       sections: [
         {
           paragraphs: [
-            "A roll of window film from a hardware or home store costs roughly fifteen to twenty euros, against a custom quote for a professional installation. The price difference is real, but it doesn't tell the whole story: these two solutions don't always answer the same need. Here's what actually differs, so you can choose based on more than just the price tag.",
+            "A roll of window film from a hardware or home store costs roughly ten to thirty euros, against a custom quote for a professional installation. The price difference is real, but it doesn't tell the whole story: these two solutions don't always answer the same need. Here's what actually differs, so you can choose based on more than just the price tag.",
           ],
         },
         {
           heading: 'What is a cheap window film, exactly?',
           paragraphs: [
-            "The films sold in hardware or home decor stores (Action, Brico, Zelfbouwmarkt, and similar chains) are almost always static cling films: they hold onto the glass through an electrostatic effect, with no glue. That's what lets you apply them yourself in a few minutes, and remove them just as easily. They're sold in small rolls, typically around 45 to 70 cm wide by 1.5 metres long, at prices from roughly ten to twenty euros depending on the store and size. At [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186), for instance, a static film at 45 × 150 cm costs €11.99. Some of these films print a UV protection percentage on the packaging (up to 95% claimed by the manufacturer for this model), but that's a manufacturer's claim, not independently measured data like what we provide on a datasheet.",
+            "The films sold in hardware or home decor stores (Action, Brico, Hubo, Zelfbouwmarkt, and similar chains) are almost always static cling films: they hold onto the glass through an electrostatic effect, with no glue. That's what lets you apply them yourself in a few minutes, and remove them just as easily. They're sold in small rolls, typically around 45 to 70 cm wide by 1.5 metres long, at prices from roughly ten to thirty euros depending on the store and size. At [Brico](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186), for instance, a static film at 45 × 150 cm costs €11.99. Some of these films print a UV protection percentage on the packaging (up to 95% claimed by the manufacturer for this model), but that's a manufacturer's claim, not independently measured data like what we provide on a datasheet.",
           ],
         },
         {
@@ -4562,7 +4772,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
               ['Measured performance (VLT/UV/infrared)', 'Not provided', 'Given on datasheet'],
               ['Warranty', 'None', '2 years on installation'],
               ['Estimated lifespan', 'Variable, depends on application and environment', '10 to 15 years'],
-              ['Price', '~€10 to 20 per roll', 'Custom quote based on surface area'],
+              ['Price', '~€10 to 30 per roll', 'Custom quote based on surface area'],
             ],
           },
         },
@@ -4571,6 +4781,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             '[Brico — static window film](https://brico.be/fr/raamdecoratie-woondecoratie/gordijnen-raamdecoratie/raamfolies/transform-statische-glasfolie-nature-45x150cm/5673186)',
             '[Zelfbouwmarkt — static frosted window film](https://www.zelfbouwmarkt.be/fr/film-de-fenetre-givre-statique-0-45x1-5m/a/82071)',
+            '[Hubo — Lineafix static window film 46 × 150 cm (page in Dutch)](https://www.hubo.be/nl/p/lineafix-statische-raamfolie-46cm-x-1-5m-nimbo/987477/)',
             '[Bricozone — user feedback on a Brico film](https://www.bricozone.be/t/film-statique-sur-vitre.155035/)',
           ],
         },
@@ -4826,6 +5037,110 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Does solar film change how the façade looks?",
           answer: "Only slightly: the glass stays transparent, with a slight blue tint. It's therefore less likely to raise questions than mirror or matte white film, although a very strict rule on appearance can always apply.",
+        },
+      ],
+    },
+    {
+      slug: 'film-porte-entree-vitree',
+      title: "Window film for a glazed front door: which film for privacy and security?",
+      metaTitle: "Window film for a glazed front door: which one?",
+      metaDescription:
+        "Glazed front door showing your hallway? Matte white, mirror or anti-burglary film: which to choose for privacy day and night, or for security.",
+      date: '2026-10-28',
+      excerpt:
+        "A glazed front door often lets people see your whole hallway from the street. Which film to choose for privacy, day and night, or for security, and why mirror film isn't always the right choice here.",
+      heroImage: { src: '/images/blog/illus-film-porte-entree-vitree.jpg', alt: "Two-scene illustration in the evening: on the left, a glazed front door without film shows the lit hallway, the stairs and a person inside from the street; on the right, the same door with matte white film stays bright but no longer shows anything", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "A glazed front door brings light into the hallway, but it often lets people see the whole interior from the street: the hall, the stairs, sometimes part of the living room. It's one of the requests we get most often. The good news: film is applied directly to the door's glass, without replacing the door. You still need to choose the right one, because a front door doesn't have the same constraints as a living room window.",
+          ],
+        },
+        {
+          heading: "The short answer",
+          anchor: 'short-answer',
+          paragraphs: [
+            "For privacy, matte white film is almost always the best choice on a front door: it blocks the view both ways, day and night, while letting light through. Mirror effect film only protects against prying eyes during the day. And if security is your priority, transparent anti-burglary film is what you need.",
+          ],
+        },
+        {
+          heading: "Why mirror film isn't ideal on a front door",
+          anchor: 'mirror-door',
+          paragraphs: [
+            "Mirror effect film works as long as it's brighter outside than inside. During the day, passers-by see a reflection instead of your hallway. But in the evening, as soon as the hall light is on and the street is dark, the effect reverses: people can see in again.",
+            "And a front door is exactly where you switch the light on when you come home in the evening, or when someone rings. Mirror film therefore protects against prying eyes when you need it least. Our article on [transparent privacy film](/blog/film-anti-regard-transparent) explains this in detail.",
+          ],
+        },
+        {
+          heading: "Matte white film: privacy day and night",
+          anchor: 'matte-white',
+          paragraphs: [
+            "[Matte white film](/blog/film-blanc-mat-vitrage-bruxelles), also called opaque, frosted or blackout film, gives the glass a look close to sandblasted glass. It blurs the view both ways, at all times: from the street, the interior can no longer be made out, even in the evening with the light on. Daylight keeps coming into the hallway, just diffused.",
+            "The trade-off: from inside, you can no longer clearly see who's at the door. For many hallways, that's not a problem. If you want to keep a view outside, one option is to film only some of the door's panes, if it has several.",
+          ],
+        },
+        {
+          heading: "Securing a glazed door: anti-burglary film",
+          anchor: 'anti-burglary',
+          paragraphs: [
+            "A glazed door can also be a weak point. The [anti-burglary film](/blog/film-securite-anti-effraction-vitrage) we install is transparent, EN 356 certified and CE marked. It doesn't make the glass unbreakable: on impact, the glass may crack, but the shards stay stuck to the film instead of falling, which significantly slows down a break-in attempt and limits the risk of injury.",
+            "This film doesn't change privacy at all: it's transparent. If you want to both hide the hallway and reinforce the glass, let's talk about it during the measurement visit, to choose based on your priority.",
+          ],
+        },
+        {
+          heading: "Which film for which need?",
+          anchor: 'comparison',
+          paragraphs: [
+            "The table sums up what each film does on a glazed front door.",
+          ],
+          table: {
+            headers: ["Film", "View in during the day", "View in at night (light on)", "Light in the hallway", "Security"],
+            rows: [
+              ["Matte white", "Blocked", "Blocked", "Comes in, diffused", "No"],
+              ["Mirror effect", "Blocked (reflection)", "Visible (effect reverses)", "Reduced", "No"],
+              ["Anti-burglary", "Visible", "Visible", "Comes in", "Holds shards, slows a break-in"],
+            ],
+          },
+        },
+        {
+          heading: "How does installation on a door work?",
+          anchor: 'installation',
+          paragraphs: [
+            "The film is applied directly to the existing glass, without removing the door, in a single visit. It suits single, double and triple glazing. If the door has several small panes, each one gets its own piece of film, cut flush to the frame. We take exact measurements on site before cutting.",
+            "If the glazed door is your building's entrance door rather than your own home's, it's usually a common part: the co-ownership then decides. Our article on [film in a co-ownership](/blog/film-fenetre-copropriete-autorisation) explains what to check.",
+          ],
+        },
+        {
+          heading: "What does it cost?",
+          anchor: 'price',
+          paragraphs: [
+            "There are no prices on the site: the price depends on the surface to be treated and how accessible the glass is, and it's the same whichever film you choose. A front door is usually a small surface. The home measurement visit is free in Brussels, and our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains what makes the amount vary.",
+            "Installation comes with a 2-year warranty, and the film's lifespan is estimated at 10 to 15 years when installed on the inside.",
+          ],
+        },
+        {
+          heading: "Still unsure?",
+          paragraphs: [
+            "Get in touch, we'll advise you for free based on your door and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Is mirror film suitable for a front door?",
+          answer: "During the day yes, but in the evening, with the hall light on, the effect reverses and people can see in. For a front door, matte white film is usually better suited, because it keeps privacy at all times.",
+        },
+        {
+          question: "Does matte white film let light through?",
+          answer: "Yes. It blurs the view both ways, but daylight keeps coming in, just diffused. The hallway stays bright.",
+        },
+        {
+          question: "Can anti-burglary film be applied to a glazed door?",
+          answer: "Yes. It's applied to the existing glass, stays transparent and, on impact, holds the shards stuck to the film, which slows down a break-in attempt. It doesn't make the glass unbreakable.",
+        },
+        {
+          question: "Does the door need to be removed to apply the film?",
+          answer: "No. The film is applied directly to the glass, with the door in place, in a single visit.",
         },
       ],
     },

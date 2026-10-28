@@ -246,6 +246,7 @@ const blogArticleImages = {
   'film-vitre-premier-prix-ou-pose-professionnelle': '/images/blog/illus-film-premier-prix-ou-pro.jpg',
   'film-anti-regard-transparent': '/images/blog/illus-film-anti-regard-transparent.jpg',
   'film-fenetre-copropriete-autorisation': '/images/blog/illus-film-fenetre-copropriete.jpg',
+  'film-porte-entree-vitree': '/images/blog/illus-film-porte-entree-vitree.jpg',
 };
 
 const blogArticles = [
@@ -691,25 +692,25 @@ const blogArticles = [
       title: 'Film premier prix ou pose professionnelle ? — VitraCare',
       description:
         "Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : les vraies différences (tenue, finition, performance) pour choisir en connaissance de cause.",
-      headline: 'Film pour vitre premier prix (Action, Brico...) ou pose professionnelle : comment choisir ?',
+      headline: 'Film pour vitre premier prix (Action, Brico, Hubo...) ou pose professionnelle : comment choisir ?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-21',
+      dateModified: '2026-10-28',
     },
     NL: {
       title: 'Goedkope folie of professionele plaatsing? — VitraCare',
       description:
         'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: de echte verschillen (houdbaarheid, afwerking, prestaties) om met kennis van zaken te kiezen.',
-      headline: 'Goedkope raamfolie (Action, Brico...) of professionele plaatsing: hoe kiest u?',
+      headline: 'Goedkope raamfolie (Action, Brico, Hubo...) of professionele plaatsing: hoe kiest u?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-21',
+      dateModified: '2026-10-28',
     },
     EN: {
       title: 'Cheap Film or Professional Installation? — VitraCare',
       description:
         'Cheap window film (Action, Brico...) or professional installation: the real differences (durability, finish, performance) so you can choose with full information.',
-      headline: 'Cheap window film (Action, Brico...) or professional installation: how to choose?',
+      headline: 'Cheap window film (Action, Brico, Hubo...) or professional installation: how to choose?',
       datePublished: '2026-10-18',
-      dateModified: '2026-10-21',
+      dateModified: '2026-10-28',
     },
   },
 },
@@ -768,6 +769,35 @@ const blogArticles = [
       headline: "Window film in a Brussels flat: do you need the co-ownership's approval?",
       datePublished: '2026-10-24',
       dateModified: '2026-10-24',
+    },
+  },
+},
+{
+  path: '/blog/film-porte-entree-vitree',
+  meta: {
+    FR: {
+      title: "Film pour porte d'entrée vitrée : lequel choisir ? — VitraCare",
+      description:
+        "Porte d'entrée vitrée qui laisse voir le couloir ? Film opaque, miroir ou anti-effraction : lequel choisir pour l'intimité jour et nuit, ou la sécurité.",
+      headline: "Film pour porte d'entrée vitrée : quel film pour l'intimité et la sécurité ?",
+      datePublished: '2026-10-28',
+      dateModified: '2026-10-28',
+    },
+    NL: {
+      title: 'Folie voor een glazen voordeur: welke kiezen? — VitraCare',
+      description:
+        'Glazen voordeur waardoor men de gang ziet? Matte, spiegel- of inbraakwerende folie: welke kiest u voor privacy dag en nacht, of voor veiligheid?',
+      headline: 'Folie voor een glazen voordeur: welke folie voor privacy en veiligheid?',
+      datePublished: '2026-10-28',
+      dateModified: '2026-10-28',
+    },
+    EN: {
+      title: 'Window Film for a Glazed Front Door: Which One? — VitraCare',
+      description:
+        'Glazed front door showing your hallway? Matte white, mirror or anti-burglary film: which to choose for privacy day and night, or for security.',
+      headline: 'Window film for a glazed front door: which film for privacy and security?',
+      datePublished: '2026-10-28',
+      dateModified: '2026-10-28',
     },
   },
 },

@@ -26,6 +26,7 @@ Installed on single, double and triple glazing, directly on existing windows, in
 - Car window tinting
 - Decorative or printed films
 - Replacing glazing or window frames
+- Film on roof windows (Velux type)
 - Areas outside Belgium
 
 ## Facts to cite accurately

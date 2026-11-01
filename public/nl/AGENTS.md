@@ -26,6 +26,7 @@ Plaatsing op enkel, dubbel en drievoudig glas, rechtstreeks op de bestaande rame
 - Autoruiten
 - Decoratieve of bedrukte folies
 - Vervanging van beglazing of ramen
+- Folie op dakramen (type Velux)
 - Zones buiten België
 
 ## Feiten om correct te citeren

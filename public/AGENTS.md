@@ -26,6 +26,7 @@ Pose sur simple, double et triple vitrage, directement sur les fenêtres existan
 - Vitrage automobile
 - Films décoratifs ou imprimés
 - Remplacement de vitrages ou de châssis
+- Films sur fenêtres de toit (type Velux)
 - Zones hors de Belgique
 
 ## Faits à citer correctement

@@ -247,6 +247,7 @@ const blogArticleImages = {
   'film-anti-regard-transparent': '/images/blog/illus-film-anti-regard-transparent.jpg',
   'film-fenetre-copropriete-autorisation': '/images/blog/illus-film-fenetre-copropriete.jpg',
   'film-porte-entree-vitree': '/images/blog/illus-film-porte-entree-vitree.jpg',
+  'velux-fenetre-de-toit-anti-chaleur': '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg',
 };
 
 const blogArticles = [
@@ -798,6 +799,35 @@ const blogArticles = [
       headline: 'Window film for a glazed front door: which film for privacy and security?',
       datePublished: '2026-10-28',
       dateModified: '2026-10-28',
+    },
+  },
+},
+{
+  path: '/blog/velux-fenetre-de-toit-anti-chaleur',
+  meta: {
+    FR: {
+      title: "Velux trop chaud : film anti-chaleur, store ou volet ? — VitraCare",
+      description:
+        "Une fenêtre de toit chauffe bien plus qu'une fenêtre verticale. Store extérieur, volet, store intérieur ou film : ce qui marche vraiment contre la chaleur.",
+      headline: "Velux trop chaud en été : film anti-chaleur, store ou volet ?",
+      datePublished: '2026-11-01',
+      dateModified: '2026-11-01',
+    },
+    NL: {
+      title: 'Velux te warm: warmtewerende folie, screen of rolluik? — VitraCare',
+      description:
+        'Een dakraam warmt veel meer op dan een gewoon raam. Buitenscreen, rolluik, binnengordijn of folie: wat echt helpt tegen de warmte onder het dak.',
+      headline: 'Velux te warm in de zomer: warmtewerende folie, screen of rolluik?',
+      datePublished: '2026-11-01',
+      dateModified: '2026-11-01',
+    },
+    EN: {
+      title: 'Velux Too Hot: Heat-Control Film, Blind or Shutter? — VitraCare',
+      description:
+        'A roof window heats up far more than an upright window. Outdoor blind, shutter, indoor blind or film: what actually works against the heat under the roof.',
+      headline: 'Velux roof window too hot in summer: heat-control film, blind or shutter?',
+      datePublished: '2026-11-01',
+      dateModified: '2026-11-01',
     },
   },
 },

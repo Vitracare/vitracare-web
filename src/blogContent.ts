@@ -1734,6 +1734,131 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'velux-fenetre-de-toit-anti-chaleur',
+      title: "Velux trop chaud en été : film anti-chaleur, store ou volet ?",
+      metaTitle: "Velux trop chaud : film anti-chaleur, store ou volet ?",
+      metaDescription:
+        "Une fenêtre de toit chauffe bien plus qu'une fenêtre verticale. Store extérieur, volet, store intérieur ou film : ce qui marche vraiment contre la chaleur.",
+      date: '2026-11-01',
+      excerpt:
+        "Sous les toits, un Velux peut transformer une chambre en four en été. Ce qui marche vraiment contre la chaleur d'une fenêtre de toit, pourquoi nous n'y posons pas de film, et où le film reste utile.",
+      heroImage: { src: '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg', alt: "Illustration en deux scènes d'une maison bruxelloise par une journée ensoleillée : à gauche, la façade avec une chambre sous le toit et sa fenêtre de toit ; à droite, la même maison en coupe, avec un store qui filtre le soleil sur la fenêtre de toit de la chambre et, en dessous, un salon lumineux où une personne lit dans un fauteuil, volet roulant remonté.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Une chambre sous les toits avec un Velux (le nom de la marque est devenu le mot courant pour une fenêtre de toit), c'est lumineux toute l'année. Puis arrive juillet, et c'est la pièce la plus chaude de la maison. On nous demande parfois si un film anti-chaleur peut régler le problème. Notre réponse est franche : sur la fenêtre de toit elle-même, ce n'est pas la solution que nous conseillons, et nous n'y posons pas de film. Voici pourquoi, et ce qui marche mieux.",
+          ],
+        },
+        {
+          heading: "La réponse courte",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Contre la chaleur d'un Velux, la protection la plus efficace se place à l'extérieur de la vitre : un store pare-soleil extérieur ou un volet. Un store intérieur aide, mais nettement moins. Le film, lui, a sa place sur les fenêtres verticales de la maison, en complément des stores et des volets qu'on ferme le soir mais qu'on n'a pas envie de garder fermés toute la journée.",
+          ],
+        },
+        {
+          heading: "Pourquoi un Velux chauffe autant",
+          anchor: 'pourquoi-velux-chauffe',
+          paragraphs: [
+            "Ce n'est pas une impression. Une fenêtre de toit est inclinée vers le ciel, et le soleil d'été la frappe beaucoup plus de face qu'une fenêtre dans un mur. Selon Test-Achats, une fenêtre de toit reçoit en été jusqu'à plus du double d'énergie qu'une fenêtre verticale de même surface et de même orientation : en moyenne 1 050 watts par m² de vitrage, contre 750 pour une fenêtre verticale. L'association compare ça à un petit radiateur électrique.",
+            "Et en hiver, c'est l'inverse : la fenêtre de toit laisse entrer moins de rayons. Elle chauffe donc surtout au moment où on n'en a pas besoin.",
+          ],
+        },
+        {
+          heading: "Ce qui marche le mieux : arrêter le soleil avant la vitre",
+          anchor: 'protection-exterieure',
+          paragraphs: [
+            "Une fois que le rayonnement a traversé le verre, il chauffe la pièce, même si un store intérieur l'arrête juste derrière. Test-Achats recommande donc d'installer la protection solaire à l'extérieur de la fenêtre de toit, et précise qu'une protection intérieure n'est pas suffisamment efficace contre la surchauffe.",
+            "Le tableau ci-dessous, publié par Test-Achats à partir des données du CSTC (le centre de recherche belge de la construction), montre la part du rayonnement solaire qui passe encore selon le type de protection et sa position.",
+          ],
+          table: {
+            headers: ["Type de protection", "Placée à l'extérieur", "Placée à l'intérieur"],
+            rows: [
+              ["Opaque", "2 à 7 %", "35 à 59 %"],
+              ["Semi-opaque", "16 à 20 %", "39 à 59 %"],
+              ["Translucide", "30 à 32 %", "48 à 60 %"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Pour un Velux, ça veut dire un store pare-soleil extérieur, qui laisse encore passer un peu de lumière, ou un volet roulant, qui fait le noir complet. Les fabricants de fenêtres de toit vendent les deux, à la taille de leurs modèles.",
+          ],
+        },
+        {
+          heading: "Et un film sur le Velux ?",
+          anchor: 'film-sur-velux',
+          paragraphs: [
+            "Des films anti-chaleur vendus pour les fenêtres de toit existent, et Test-Achats cite les films solaires comme une piste à envisager quand une protection extérieure n'est pas possible. Nous avons quand même choisi de ne pas en poser sur les fenêtres de toit.",
+            "La première raison est pratique. Une fenêtre de toit est inclinée, souvent haute, parfois au-dessus d'un lit ou d'une cage d'escalier. Un film se pose à l'eau et se chasse à la raclette centimètre par centimètre. Dans ces conditions, on ne peut pas garantir une finition aussi propre que sur une fenêtre verticale, et nous préférons ne pas vendre un résultat dont nous ne sommes pas sûrs.",
+            "La deuxième : même bien posé, un film reste sur le verre. Il n'arrête pas le soleil avant la vitre comme le fait un store extérieur. Enfin, une fenêtre de toit a un vitrage conçu par son fabricant et couvert par sa propre garantie. Si vous envisagez quand même un film, lisez d'abord les conditions de garantie de votre fenêtre.",
+          ],
+        },
+        {
+          heading: "Où le film est utile : en complément des stores et des volets",
+          anchor: 'film-complement',
+          paragraphs: [
+            "Les autres fenêtres de la maison posent souvent le même problème, en plus petit : un salon plein sud, une baie vitrée, une chambre à l'étage. Souvent, il y a déjà des stores ou des volets. Ils sont très utiles le soir, pour faire le noir ou ne plus être vu. Mais en journée, c'est dommage de vivre volets fermés pour garder un peu de fraîcheur.",
+            "C'est là qu'un film devient pratique. Un [film solaire](/blog/film-solaire-vitrage-bruxelles) reste transparent et réduit la chaleur qui traverse le verre. Un [film effet miroir](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) fait la même chose et bloque en plus la vue depuis l'extérieur en journée. Dans les deux cas, la lumière entre et vous gardez la vue. Le soir, vous fermez le store ou le volet comme avant.",
+            "Le film filtre aussi les UV : notre film effet miroir en bloque 72 %. Notre article sur la [protection UV](/blog/protection-uv-film-vitrage-bruxelles) explique ce que ça change pour vos meubles et vos sols. Et si vous hésitez entre un film et un store extérieur sur une fenêtre verticale, notre comparatif [film solaire ou screen extérieur](/blog/film-solaire-ou-screen-exterieur-vitrage) détaille les deux.",
+          ],
+        },
+        {
+          heading: "Quelle solution pour quelle fenêtre ?",
+          anchor: 'comparatif',
+          paragraphs: [
+            "Le tableau reprend ce que fait chaque solution.",
+          ],
+          table: {
+            headers: ["Solution", "Contre la chaleur", "Lumière en journée", "Pour quelle fenêtre"],
+            rows: [
+              ["Store pare-soleil extérieur", "Efficace", "Réduite", "Velux et fenêtres de toit"],
+              ["Volet roulant extérieur", "Très efficace une fois fermé", "Aucune une fois fermé", "Velux et fenêtres verticales"],
+              ["Store ou rideau intérieur", "Limité", "Réduite ou nulle", "Toutes, en appoint"],
+              ["Film solaire ou effet miroir", "Réduit la chaleur, en continu", "Passe, la vue reste", "Fenêtres verticales accessibles"],
+            ],
+          },
+        },
+        {
+          heading: "Combien coûte un film sur vos autres fenêtres ?",
+          anchor: 'prix',
+          paragraphs: [
+            "Il n'y a pas de tarif affiché : le prix dépend de la surface à traiter et de l'accessibilité des vitrages, et il reste le même quel que soit le film. La [prise de mesures à domicile](/offre) est gratuite à Bruxelles, et notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique ce qui fait varier le montant.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Test-Achats : Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur ? (juin 2026)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+          ],
+        },
+        {
+          heading: "Vous hésitez encore ?",
+          paragraphs: [
+            "Contactez-nous : nous vous disons gratuitement sur quelles fenêtres un film a du sens chez vous, et nous vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Peut-on mettre un film anti-chaleur sur un Velux ?",
+          answer: "Des films existent pour les fenêtres de toit, mais ce n'est pas la solution la plus efficace : une protection placée à l'extérieur, comme un store pare-soleil ou un volet, arrête le soleil avant la vitre. Chez VitraCare, nous ne posons pas de film sur les fenêtres de toit. Si vous en envisagez un, vérifiez d'abord la garantie de votre fenêtre.",
+        },
+        {
+          question: "Un store intérieur suffit-il contre la chaleur d'un Velux ?",
+          answer: "Il aide, mais peu. Selon les données du CSTC publiées par Test-Achats, une protection intérieure opaque laisse encore passer 35 à 59 % du rayonnement solaire, contre 2 à 7 % pour une protection extérieure opaque.",
+        },
+        {
+          question: "Pourquoi un Velux chauffe-t-il plus qu'une fenêtre normale ?",
+          answer: "Parce qu'il est incliné vers le ciel. Selon Test-Achats, une fenêtre de toit reçoit en été jusqu'à plus du double d'énergie qu'une fenêtre verticale de même surface et de même orientation.",
+        },
+        {
+          question: "Un film peut-il remplacer les volets ?",
+          answer: "Non, il les complète. Le volet fait le noir et protège des regards le soir. Le film réduit la chaleur et l'éblouissement en journée, sans fermer la pièce, sur les fenêtres verticales.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -3439,6 +3564,131 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'velux-fenetre-de-toit-anti-chaleur',
+      title: "Velux te warm in de zomer: warmtewerende folie, screen of rolluik?",
+      metaTitle: "Velux te warm: warmtewerende folie, screen of rolluik?",
+      metaDescription:
+        "Een dakraam warmt veel meer op dan een gewoon raam. Buitenscreen, rolluik, binnengordijn of folie: wat echt helpt tegen de warmte onder het dak.",
+      date: '2026-11-01',
+      excerpt:
+        "Onder het dak kan een Velux een slaapkamer in de zomer in een oven veranderen. Wat echt helpt tegen de warmte van een dakraam, waarom wij er geen folie op plaatsen, en waar folie wel nuttig blijft.",
+      heroImage: { src: '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg', alt: "Illustratie in twee scènes van een Brussels huis op een zonnige dag: links de gevel met een slaapkamer onder het dak en het dakraam; rechts hetzelfde huis in doorsnede, met een screen die de zon filtert op het dakraam van de slaapkamer en daaronder een lichte woonkamer waar iemand leest in een fauteuil, met opgetrokken rolluik.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "Een slaapkamer onder het dak met een Velux (de merknaam is het gewone woord voor een dakraam geworden) is het hele jaar licht. Tot het juli wordt, en het de warmste kamer van het huis is. Men vraagt ons soms of warmtewerende folie dat kan oplossen. Ons antwoord is eerlijk: op het dakraam zelf is dat niet wat wij aanraden, en wij plaatsen er geen folie op. Hieronder leest u waarom, en wat beter werkt.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Tegen de warmte van een Velux werkt een bescherming aan de buitenkant van het glas het best: een buitenscreen of een rolluik. Een binnengordijn helpt, maar duidelijk minder. Folie hoort thuis op de verticale ramen van het huis, als aanvulling op de screens en rolluiken die u 's avonds sluit maar overdag liever niet dicht laat.",
+          ],
+        },
+        {
+          heading: "Waarom een Velux zo warm wordt",
+          anchor: 'pourquoi-velux-chauffe',
+          paragraphs: [
+            "Dat is geen indruk. Een dakraam staat schuin naar de hemel, en de zomerzon valt er veel frontaler op dan op een raam in een muur. Volgens Test-Aankoop ontvangt een dakraam in de zomer tot meer dan het dubbele aan energie van een verticaal raam met dezelfde oppervlakte en oriëntatie: gemiddeld 1.050 watt per m² glas, tegenover 750 voor een verticaal raam. De consumentenorganisatie vergelijkt dat met een klein elektrisch kacheltje.",
+            "En in de winter is het omgekeerd: het dakraam laat dan minder zonnestralen binnen. Het warmt dus vooral op wanneer u dat niet nodig hebt.",
+          ],
+        },
+        {
+          heading: "Wat het best werkt: de zon tegenhouden vóór het glas",
+          anchor: 'protection-exterieure',
+          paragraphs: [
+            "Zodra de straling door het glas is, warmt ze de kamer op, ook als een binnengordijn ze vlak erachter tegenhoudt. Test-Aankoop raadt daarom aan de zonwering aan de buitenkant van het dakraam te plaatsen, en wijst erop dat een binnenzonwering niet doeltreffend genoeg is tegen oververhitting.",
+            "De tabel hieronder, door Test-Aankoop gepubliceerd op basis van gegevens van het WTCB (het Belgische onderzoekscentrum voor de bouw), toont welk deel van de zonnestraling nog doorkomt, volgens het type zonwering en waar ze hangt.",
+          ],
+          table: {
+            headers: ["Type zonwering", "Aan de buitenkant", "Aan de binnenkant"],
+            rows: [
+              ["Ondoorzichtig", "2 tot 7 %", "35 tot 59 %"],
+              ["Halfdoorzichtig", "16 tot 20 %", "39 tot 59 %"],
+              ["Lichtdoorlatend", "30 tot 32 %", "48 tot 60 %"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Voor een Velux betekent dat een buitenscreen, die nog wat licht doorlaat, of een rolluik, dat de kamer volledig verduistert. De fabrikanten van dakramen verkopen beide, op maat van hun modellen.",
+          ],
+        },
+        {
+          heading: "En folie op de Velux?",
+          anchor: 'film-sur-velux',
+          paragraphs: [
+            "Er bestaat warmtewerende folie die voor dakramen wordt verkocht, en Test-Aankoop noemt zonwerende folie een mogelijkheid wanneer buitenzonwering niet kan. Toch hebben wij ervoor gekozen er geen te plaatsen op dakramen.",
+            "De eerste reden is praktisch. Een dakraam staat schuin, zit vaak hoog, soms boven een bed of een trapgat. Folie wordt nat geplaatst en centimeter per centimeter met een rakel aangedrukt. In die omstandigheden kunnen we geen even nette afwerking garanderen als op een verticaal raam, en we verkopen liever geen resultaat waar we niet zeker van zijn.",
+            "De tweede: ook goed geplaatst blijft folie op het glas. Ze houdt de zon niet tegen vóór het glas, zoals een buitenscreen dat doet. Tot slot heeft een dakraam beglazing die door de fabrikant is ontworpen en onder diens eigen garantie valt. Overweegt u toch folie, lees dan eerst de garantievoorwaarden van uw raam.",
+          ],
+        },
+        {
+          heading: "Waar folie wel nuttig is: als aanvulling op screens en rolluiken",
+          anchor: 'film-complement',
+          paragraphs: [
+            "De andere ramen van het huis geven vaak hetzelfde probleem, op kleinere schaal: een woonkamer op het zuiden, een grote glazen schuifwand, een slaapkamer op de verdieping. Vaak zijn er al screens of rolluiken. Die zijn heel nuttig 's avonds, om te verduisteren of niet meer gezien te worden. Maar overdag is het jammer om met gesloten rolluiken te leven om wat koelte te houden.",
+            "Daar wordt folie handig. [Zonwerende folie](/blog/film-solaire-vitrage-bruxelles) blijft doorzichtig en vermindert de warmte die door het glas komt. [Spiegelfolie](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) doet hetzelfde en houdt overdag bovendien het zicht van buitenaf tegen. In beide gevallen komt het licht binnen en houdt u uw uitzicht. 's Avonds sluit u de screen of het rolluik zoals vroeger.",
+            "Folie filtert ook uv-straling: onze spiegelfolie houdt er 72 % van tegen. Ons artikel over [uv-bescherming](/blog/protection-uv-film-vitrage-bruxelles) legt uit wat dat betekent voor uw meubels en vloeren. En twijfelt u op een verticaal raam tussen folie en een buitenscreen, dan zet onze vergelijking [zonwerende folie of buitenscreen](/blog/film-solaire-ou-screen-exterieur-vitrage) beide naast elkaar.",
+          ],
+        },
+        {
+          heading: "Welke oplossing voor welk raam?",
+          anchor: 'comparatif',
+          paragraphs: [
+            "De tabel zet op een rij wat elke oplossing doet.",
+          ],
+          table: {
+            headers: ["Oplossing", "Tegen de warmte", "Licht overdag", "Voor welk raam"],
+            rows: [
+              ["Buitenscreen", "Doeltreffend", "Minder", "Velux en dakramen"],
+              ["Rolluik buiten", "Zeer doeltreffend als het dicht is", "Geen, als het dicht is", "Velux en verticale ramen"],
+              ["Binnengordijn of rolgordijn", "Beperkt", "Minder of geen", "Alle, als aanvulling"],
+              ["Zonwerende folie of spiegelfolie", "Vermindert de warmte, altijd actief", "Komt binnen, uitzicht blijft", "Bereikbare verticale ramen"],
+            ],
+          },
+        },
+        {
+          heading: "Wat kost folie op uw andere ramen?",
+          anchor: 'prix',
+          paragraphs: [
+            "Er is geen vaste prijs: die hangt af van de oppervlakte en de bereikbaarheid van de ramen, en is dezelfde welke folie u ook kiest. De [opmeting aan huis](/offre) is gratis in Brussel, en ons [artikel over de prijs](/blog/prix-pose-film-vitrage-bruxelles) legt uit wat het bedrag doet variëren.",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[Test-Achats (Test-Aankoop): Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur? (juni 2026, in het Frans)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+          ],
+        },
+        {
+          heading: "Twijfelt u nog?",
+          paragraphs: [
+            "Neem contact met ons op: we zeggen u gratis op welke ramen folie bij u zin heeft, en we antwoorden binnen 24 uur.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Kan men warmtewerende folie op een Velux plaatsen?",
+          answer: "Er bestaat folie voor dakramen, maar het is niet de doeltreffendste oplossing: buitenzonwering, zoals een buitenscreen of rolluik, houdt de zon tegen vóór het glas. VitraCare plaatst geen folie op dakramen. Overweegt u er een, controleer dan eerst de garantie van uw raam.",
+        },
+        {
+          question: "Volstaat een binnengordijn tegen de warmte van een Velux?",
+          answer: "Het helpt, maar weinig. Volgens WTCB-gegevens gepubliceerd door Test-Aankoop laat ondoorzichtige binnenzonwering nog 35 tot 59 % van de zonnestraling door, tegenover 2 tot 7 % voor ondoorzichtige buitenzonwering.",
+        },
+        {
+          question: "Waarom wordt een Velux warmer dan een gewoon raam?",
+          answer: "Omdat het schuin naar de hemel staat. Volgens Test-Aankoop ontvangt een dakraam in de zomer tot meer dan het dubbele aan energie van een verticaal raam met dezelfde oppervlakte en oriëntatie.",
+        },
+        {
+          question: "Kan folie rolluiken vervangen?",
+          answer: "Nee, ze vult ze aan. Het rolluik verduistert en beschermt 's avonds tegen inkijk. Folie vermindert overdag de warmte en verblinding op verticale ramen, zonder de kamer af te sluiten.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -5141,6 +5391,131 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Does the door need to be removed to apply the film?",
           answer: "No. The film is applied directly to the glass, with the door in place, in a single visit.",
+        },
+      ],
+    },
+    {
+      slug: 'velux-fenetre-de-toit-anti-chaleur',
+      title: "Velux roof window too hot in summer: heat-control film, blind or shutter?",
+      metaTitle: "Velux Too Hot: Heat-Control Film, Blind or Shutter?",
+      metaDescription:
+        "A roof window heats up far more than an upright window. Outdoor blind, shutter, indoor blind or film: what actually works against the heat under the roof.",
+      date: '2026-11-01',
+      excerpt:
+        "Under the roof, a Velux window can turn a bedroom into an oven in summer. What actually works against roof window heat, why we don't put film on them, and where film is still useful.",
+      heroImage: { src: '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg', alt: "Two-scene illustration of a Brussels house on a sunny day: on the left, the façade with a bedroom under the roof and its roof window; on the right, the same house in cross-section, with a blind filtering the sun on the bedroom's roof window and, below, a bright living room where someone reads in an armchair, roller shutter raised.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "A bedroom under the roof with a Velux window (in Belgium the brand name has become the everyday word for a roof window) is bright all year. Then July comes, and it's the hottest room in the house. People sometimes ask us whether heat-control film can fix that. Our answer is straightforward: on the roof window itself, it isn't what we recommend, and we don't install film there. Here's why, and what works better.",
+          ],
+        },
+        {
+          heading: "The short answer",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Against the heat of a Velux window, the most effective protection sits on the outside of the glass: an exterior awning blind or a roller shutter. An indoor blind helps, but much less. Film belongs on the upright windows of the house, alongside the blinds and shutters you close in the evening but would rather not keep closed all day.",
+          ],
+        },
+        {
+          heading: "Why a Velux window gets so hot",
+          anchor: 'pourquoi-velux-chauffe',
+          paragraphs: [
+            "It isn't just a feeling. A roof window is tilted towards the sky, and the summer sun hits it far more directly than a window set in a wall. According to the Belgian consumer association Test-Achats, a roof window receives up to more than twice as much energy in summer as an upright window of the same size and orientation: on average 1,050 watts per m² of glass, against 750 for an upright window. The association compares that to a small electric heater.",
+            "And in winter it's the other way round: the roof window lets in fewer rays. So it mostly heats the room when you don't need it.",
+          ],
+        },
+        {
+          heading: "What works best: stopping the sun before the glass",
+          anchor: 'protection-exterieure',
+          paragraphs: [
+            "Once the radiation has passed through the glass, it warms the room, even if an indoor blind stops it right behind. Test-Achats therefore recommends fitting solar protection on the outside of the roof window, and points out that indoor protection isn't effective enough against overheating.",
+            "The table below, published by Test-Achats using data from the CSTC (Belgium's building research centre), shows how much solar radiation still gets through depending on the type of protection and where it sits.",
+          ],
+          table: {
+            headers: ["Type of protection", "Fitted outside", "Fitted inside"],
+            rows: [
+              ["Opaque", "2 to 7%", "35 to 59%"],
+              ["Semi-opaque", "16 to 20%", "39 to 59%"],
+              ["Translucent", "30 to 32%", "48 to 60%"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "For a Velux window, that means an exterior awning blind, which still lets some light through, or a roller shutter, which blacks the room out completely. Roof window manufacturers sell both, sized to their models.",
+          ],
+        },
+        {
+          heading: "What about film on the Velux?",
+          anchor: 'film-sur-velux',
+          paragraphs: [
+            "Heat-control films sold for roof windows do exist, and Test-Achats mentions solar films as an option to consider when exterior protection isn't possible. We've still chosen not to install film on roof windows.",
+            "The first reason is practical. A roof window is tilted, often high up, sometimes above a bed or a stairwell. Film is applied wet and pressed out with a squeegee inch by inch. In those conditions we can't guarantee a finish as clean as on an upright window, and we'd rather not sell a result we aren't sure of.",
+            "The second: even when well applied, film stays on the glass. It doesn't stop the sun before the pane the way an exterior blind does. Finally, a roof window has glazing designed by its manufacturer and covered by its own warranty. If you're still considering film, read your window's warranty terms first.",
+          ],
+        },
+        {
+          heading: "Where film is useful: alongside blinds and shutters",
+          anchor: 'film-complement',
+          paragraphs: [
+            "The other windows in the house often have the same problem on a smaller scale: a south-facing living room, a large sliding window, an upstairs bedroom. There are often blinds or shutters already. They're very useful in the evening, to darken the room or stop people seeing in. But during the day, it's a shame to live with the shutters closed just to keep a bit cooler.",
+            "That's where film comes in handy. [Solar film](/blog/film-solaire-vitrage-bruxelles) stays clear and reduces the heat coming through the glass. [Mirror film](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) does the same and also blocks the view from outside during the day. Either way, light comes in and you keep your view. In the evening, you close the blind or shutter as before.",
+            "Film also filters UV: our mirror film blocks 72% of it. Our article on [UV protection](/blog/protection-uv-film-vitrage-bruxelles) explains what that means for your furniture and floors. And if you're torn between film and an exterior blind on an upright window, our comparison [solar film or exterior screen](/blog/film-solaire-ou-screen-exterieur-vitrage) covers both.",
+          ],
+        },
+        {
+          heading: "Which solution for which window?",
+          anchor: 'comparatif',
+          paragraphs: [
+            "The table sums up what each solution does.",
+          ],
+          table: {
+            headers: ["Solution", "Against heat", "Daylight", "For which window"],
+            rows: [
+              ["Exterior awning blind", "Effective", "Reduced", "Velux and roof windows"],
+              ["Exterior roller shutter", "Very effective when closed", "None when closed", "Velux and upright windows"],
+              ["Indoor blind or curtain", "Limited", "Reduced or none", "All, as a back-up"],
+              ["Solar or mirror film", "Reduces heat, all the time", "Comes in, view stays", "Accessible upright windows"],
+            ],
+          },
+        },
+        {
+          heading: "How much does film on your other windows cost?",
+          anchor: 'prix',
+          paragraphs: [
+            "There's no fixed price: it depends on the surface to cover and how accessible the windows are, and it's the same whichever film you choose. The [home measurement visit](/offre) is free in Brussels, and our [article on prices](/blog/prix-pose-film-vitrage-bruxelles) explains what makes the amount vary.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Test-Achats: Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur? (June 2026, in French)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+          ],
+        },
+        {
+          heading: "Still unsure?",
+          paragraphs: [
+            "Get in touch: we'll tell you for free which of your windows film makes sense on, and we reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Can you put heat-control film on a Velux window?",
+          answer: "Films for roof windows exist, but they aren't the most effective solution: exterior protection, such as an awning blind or a shutter, stops the sun before the glass. VitraCare does not install film on roof windows. If you're considering one, check your window's warranty first.",
+        },
+        {
+          question: "Is an indoor blind enough against Velux heat?",
+          answer: "It helps, but not much. According to CSTC data published by Test-Achats, opaque indoor protection still lets 35 to 59% of solar radiation through, against 2 to 7% for opaque exterior protection.",
+        },
+        {
+          question: "Why does a Velux window get hotter than a normal window?",
+          answer: "Because it's tilted towards the sky. According to Test-Achats, a roof window receives up to more than twice as much energy in summer as an upright window of the same size and orientation.",
+        },
+        {
+          question: "Can film replace shutters?",
+          answer: "No, it complements them. The shutter darkens the room and blocks the view in the evening. Film reduces heat and glare during the day on upright windows, without closing the room off.",
         },
       ],
     },

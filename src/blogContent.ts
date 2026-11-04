@@ -1859,6 +1859,144 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-fenetre-anti-chaleur-efficace',
+      title: "Film anti-chaleur pour fenêtre : est-ce que ça marche vraiment ?",
+      metaTitle: "Film anti-chaleur fenêtre : est-ce que ça marche vraiment ?",
+      metaDescription:
+        "Oui contre le soleil direct, non contre l'air chaud. Ce que fait vraiment un film anti-chaleur, comment lire sa fiche technique et quand il vaut le coup.",
+      date: '2026-11-04',
+      excerpt:
+        "Efficace ou gadget ? La réponse honnête sur les films anti-chaleur, la physique qui l'explique, et les chiffres d'une fiche technique qu'il faut savoir lire avant d'acheter.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg', alt: "Illustration en deux scènes d'une maison bruxelloise en plein soleil : à gauche, les rayons traversent les fenêtres et chauffent le salon, les thermomètres sont dans le rouge et une personne s'évente dans un fauteuil ; à droite, la même maison en coupe, une partie des rayons est renvoyée par les vitres, les thermomètres sont revenus au vert et la personne lit tranquillement.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "En été, une pièce plein sud peut devenir invivable dès le début de l'après-midi. Le film anti-chaleur promet d'y remédier sans travaux, et on en trouve chez les poseurs comme en magasin de bricolage. Alors, est-ce que ça marche vraiment, ou est-ce un gadget ? Notre réponse de poseurs : oui, mais seulement contre une partie de la chaleur, et pas avec n'importe quel film. Voici ce qui se passe réellement dans la vitre, ce que disent les études, et comment ne pas se laisser tromper par les chiffres d'une fiche technique.",
+          ],
+        },
+        {
+          heading: "La réponse courte : oui contre le soleil, non contre l'air chaud",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Oui, un film anti-chaleur réduit la chaleur qui entre par une fenêtre au soleil. Il renvoie vers l'extérieur ou absorbe une partie du rayonnement solaire avant qu'il ne chauffe la pièce. L'effet est le plus net sur une grande vitre orientée sud ou ouest, sans store extérieur.",
+            "Mais il n'agit que sur le soleil. Il ne refroidit pas l'air chaud qui entre par une fenêtre ouverte, ni la chaleur qui traverse les murs et le toit. Et un chiffre comme « 81 % d'infrarouges rejetés » ne veut pas dire 81 % de chaleur en moins. On explique pourquoi plus bas.",
+          ],
+        },
+        {
+          heading: "D'où vient la chaleur qui traverse une vitre",
+          anchor: 'physique',
+          paragraphs: [
+            "Le soleil n'envoie pas que de la lumière. Selon le guide technique de Saint-Gobain Glass, le rayonnement solaire qui atteint le sol est composé d'environ 42 % de lumière visible, 55 % d'infrarouges et 3 % d'ultraviolets. Les trois transportent de l'énergie. Autrement dit, les infrarouges ne sont pas les seuls à chauffer : la lumière visible aussi.",
+            "Quand ce rayonnement frappe une vitre, une partie est réfléchie, une partie est absorbée par le verre et le reste passe. Ce qui passe est absorbé par le sol, les meubles et les murs. Ils chauffent et réémettent une chaleur que le verre ne laisse pas ressortir. C'est l'effet de serre, le même que dans une voiture garée au soleil, vitres fermées.",
+            "Le bon indicateur pour savoir ce qui entre vraiment s'appelle le facteur solaire, noté g. C'est la part de l'énergie solaire totale qui finit dans la pièce, y compris la chaleur que la vitre a absorbée puis rendue vers l'intérieur. Plus il est bas, moins la pièce chauffe.",
+          ],
+        },
+        {
+          heading: "Ce que fait le film, et ce qu'il ne fait pas",
+          anchor: 'effet-reel',
+          paragraphs: [
+            "Un film anti-chaleur change ce partage : il réfléchit et absorbe davantage de rayonnement, et en laisse passer moins. Les films réfléchissants, comme le film effet miroir, renvoient une partie de l'énergie vers l'extérieur. Les films dits sélectifs visent surtout les infrarouges et touchent peu à la lumière visible, ce qui leur permet de rester plus clairs.",
+            "L'administration fédérale américaine chargée des bâtiments publics (GSA) a fait évaluer ces films par le Lawrence Berkeley National Laboratory. Selon ses modélisations, les films réfléchissants sont les plus efficaces, avec jusqu'à 29 % d'économies sur l'énergie de chauffage et de climatisation dans les climats chauds. Mais le résultat dépend fortement du vitrage de départ : l'étude juge le film rentable sur du simple vitrage clair, et ne le recommande pas sur du double vitrage déjà teinté (bronze) dans la plupart des climats. Ces chiffres concernent des bureaux aux États-Unis, à Saint-Louis et à Phoenix. Avec des étés belges plus doux, il faut s'attendre à moins.",
+            "Ce que le film ne fait pas : il n'isole pas contre l'air chaud. Si la pièce chauffe parce qu'il fait 30 °C dehors ou parce que le toit est mal isolé, le film n'y changera rien. Il ne remplace pas non plus une protection extérieure, qui arrête le soleil avant même qu'il touche la vitre. Selon les données du CSTC (le centre de recherche belge de la construction) publiées par Test-Achats, une protection extérieure opaque ne laisse passer que 2 à 7 % du rayonnement solaire, contre 35 à 59 % pour une protection intérieure opaque. Le film, lui, agit directement sur la vitre. Notre [comparatif entre film solaire et screen extérieur](/blog/film-solaire-ou-screen-exterieur-vitrage) aide à choisir entre les deux.",
+          ],
+        },
+        {
+          heading: "Lire une fiche technique sans se faire avoir",
+          anchor: 'fiche-technique',
+          paragraphs: [
+            "C'est là que beaucoup d'acheteurs se trompent. Une fiche de film donne plusieurs pourcentages qui ne mesurent pas la même chose :",
+          ],
+          table: {
+            headers: ["Indicateur", "Ce qu'il mesure", "Ce qu'il ne dit pas"],
+            rows: [
+              ["Lumière visible transmise (VLT)", "La part de lumière du jour qui traverse : plus elle est basse, plus la pièce est sombre", "La chaleur"],
+              ["UV rejetés", "La part des ultraviolets arrêtés, principaux responsables de la décoloration", "La chaleur : les UV ne pèsent qu'environ 3 % de l'énergie solaire"],
+              ["Infrarouges rejetés (IRR ou IRER)", "La part des infrarouges arrêtés", "La chaleur totale, puisque la lumière visible chauffe aussi"],
+              ["Énergie solaire totale rejetée (TSER) ou facteur solaire g", "La part de toute l'énergie solaire qui n'entre pas (TSER = 100 % moins g)", "Le résultat sur votre vitrage, si la mesure a été faite sur un autre verre"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Un exemple réel : sur la fiche d'un film réfléchissant de la marque Solar Gard (groupe Saint-Gobain), le même film rejette 73 % des infrarouges, mais 67 % de l'énergie solaire totale sur un simple vitrage clair. Et la fiche donne des valeurs différentes pour le simple, le double et le triple vitrage. Deux bons réflexes, donc : comparer l'énergie solaire totale rejetée plutôt que les infrarouges, et vérifier sur quel verre la mesure a été faite.",
+            "Le film effet miroir que nous posons affiche 22 % de lumière visible transmise, 72 % d'UV rejetés et 81 % d'infrarouges rejetés. Ce 81 % ne veut pas dire 81 % de chaleur en moins, pour la raison expliquée plus haut, et le gain réel dépend aussi de votre vitrage. Notre [article sur la protection UV](/blog/protection-uv-film-vitrage-bruxelles) détaille ce que mesure le chiffre des UV.",
+          ],
+        },
+        {
+          heading: "Quel film choisir contre la chaleur ?",
+          anchor: 'choisir',
+          paragraphs: [
+            "Si la chaleur est votre problème principal et que vous voulez aussi limiter le vis-à-vis, le [film effet miroir](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) est le plus efficace des films que nous posons. C'est un film réfléchissant, la famille qui donne les meilleurs résultats dans l'étude citée plus haut. En contrepartie, la pièce est plus sombre, un peu comme avec des lunettes de soleil.",
+            "Si vous voulez garder une pièce lumineuse et une vue parfaitement transparente, le [film solaire](/blog/film-solaire-vitrage-bruxelles) filtre la chaleur de façon plus modérée, avec une légère teinte bleutée. Notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) met toutes les options côte à côte.",
+            "Un film plus foncé n'est pas forcément plus efficace contre la chaleur. Ce qui compte, c'est l'énergie solaire totale rejetée, pas la couleur. Gardez ce réflexe face aux films vendus en magasin : notre [comparatif entre film premier prix et pose professionnelle](/blog/film-vitre-premier-prix-ou-pose-professionnelle) détaille ce qu'il faut vérifier.",
+          ],
+        },
+        {
+          heading: "Dans quels cas ça vaut vraiment le coup",
+          anchor: 'quand',
+          paragraphs: [
+            "Le film donne les meilleurs résultats là où le soleil frappe directement la vitre pendant des heures. Ailleurs, l'effet est plus faible, voire nul :",
+          ],
+          table: {
+            headers: ["Situation", "Le film aide-t-il ?"],
+            rows: [
+              ["Grande vitre orientée sud ou ouest, sans store extérieur", "Oui, c'est le cas le plus favorable"],
+              ["Véranda ou pièce très vitrée", "Oui, souvent en complément d'une protection extérieure"],
+              ["Fenêtre orientée nord ou à l'ombre toute la journée", "Peu : il y a peu de soleil direct à filtrer"],
+              ["Chaleur qui vient surtout du toit ou des murs", "Non : le film n'agit que sur les vitres"],
+              ["Fenêtre de toit (type Velux)", "Une protection extérieure est plus adaptée"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Pour les fenêtres de toit, notre [article sur les Velux trop chauds](/blog/velux-fenetre-de-toit-anti-chaleur) explique pourquoi nous conseillons plutôt une protection extérieure. Si vous hésitez avec un climatiseur, notre article [film ou climatisation](/blog/film-vitrage-economies-climatisation) compare les deux. Et si vos fenêtres sont en simple vitrage et en mauvais état, l'article [remplacer ses fenêtres ou poser un film](/blog/remplacer-fenetres-ou-film-vitrage) vous aide à trancher.",
+          ],
+        },
+        {
+          heading: "Combien ça coûte, et comment se passe la pose ?",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "Nous posons ces films directement sur vos vitrages existants, en général côté intérieur, en une seule intervention et sans démontage. La pose est garantie 2 ans, et la durée de vie du film est estimée de 10 à 15 ans en pose intérieure. Notre [article sur les étapes d'un projet](/blog/etapes-projet-film-vitrage-bruxelles) détaille le déroulement, de la prise de mesures à la pose.",
+            "Il n'y a pas de tarif affiché : le prix dépend de la surface à traiter, et reste le même quel que soit le film choisi. Notre [article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment l'estimation est calculée.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Saint-Gobain Glass : « Le verre et le rayonnement solaire », Memento, chapitre 3.1 (document hébergé par La Centrale du Verre)](https://lacentraleduverre.com/img/cms/documents/view/verre_et_rayonnement.pdf)",
+            "[GSA, Center for Emerging Building Technologies : « Solar-Control Films », évaluation du Lawrence Berkeley National Laboratory (janvier 2015, en anglais)](https://www.gsa.gov/system/files/017-Solar%20Control%20Film-Infographic-508.pdf)",
+            "[Test-Achats : Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur ? (juin 2026)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+            "[Solar Gard : fiche technique du film Sentinel Plus Silver 35](https://www.solargard.com/wp-content/uploads/2023/05/Sentinel-Plus-Silver-35-SAMPLE-PAGE-SOLAR-GARD-0326.pdf)",
+          ],
+        },
+        {
+          heading: "Vous hésitez encore ?",
+          paragraphs: [
+            "Contactez-nous : nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Un film anti-chaleur fonctionne-t-il sur du double vitrage ?",
+          answer: "Oui, il se pose côté intérieur sur du simple comme du double vitrage. Le gain dépend toutefois du vitrage de départ : l'évaluation du Lawrence Berkeley National Laboratory pour la GSA montre des résultats nettement meilleurs sur du simple vitrage clair que sur un double vitrage déjà teinté.",
+        },
+        {
+          question: "Le film anti-chaleur rend-il la pièce plus sombre ?",
+          answer: "Ça dépend du film. Le film effet miroir laisse passer 22 % de la lumière visible : la pièce est nettement plus sombre, un peu comme avec des lunettes de soleil. Le film solaire reste transparent, avec une légère teinte bleutée.",
+        },
+        {
+          question: "Le film garde-t-il la chaleur en hiver ?",
+          answer: "Ce n'est pas un isolant. Il filtre le soleil chaque fois qu'il frappe la vitre, y compris en hiver, mais nous ne promettons aucun gain de chauffage, faute de mesure fiable pour ce produit.",
+        },
+        {
+          question: "Un film anti-chaleur de magasin fait-il le même travail ?",
+          answer: "Pas forcément. Vérifiez d'abord que l'emballage indique l'énergie solaire totale rejetée, et pas seulement les infrarouges ou les UV : sans ce chiffre, impossible de comparer. La pose à l'eau sur une grande vitre demande aussi de la pratique pour éviter bulles et plis.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -3689,6 +3827,144 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-fenetre-anti-chaleur-efficace',
+      title: "Warmtewerende raamfolie: werkt het echt?",
+      metaTitle: "Warmtewerende raamfolie: werkt het echt?",
+      metaDescription:
+        "Ja tegen directe zon, nee tegen warme lucht. Wat warmtewerende folie echt doet, hoe u de technische fiche leest en wanneer het de moeite waard is.",
+      date: '2026-11-04',
+      excerpt:
+        "Doeltreffend of een gadget? Het eerlijke antwoord over warmtewerende folie, de fysica erachter, en de cijfers op een technische fiche die u moet kunnen lezen voor u koopt.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg', alt: "Illustratie in twee scènes van een Brussels huis in de volle zon: links schijnen de stralen door de ramen en warmen de woonkamer op, de thermometers staan in het rood en iemand wuift zich koelte toe in een zetel; rechts hetzelfde huis in doorsnede, een deel van de stralen wordt door de ruiten teruggekaatst, de thermometers staan weer op groen en de persoon leest rustig.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "In de zomer kan een kamer op het zuiden al vroeg in de namiddag onleefbaar worden. Warmtewerende folie belooft daar iets aan te doen zonder werken, en u vindt ze zowel bij plaatsers als in de doe-het-zelfzaak. Werkt het echt, of is het een gadget? Ons antwoord als plaatsers: ja, maar alleen tegen een deel van de warmte, en niet met eender welke folie. Dit gebeurt er echt in het glas, dit zeggen de studies, en zo laat u zich niet misleiden door de cijfers op een technische fiche.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord: ja tegen de zon, nee tegen warme lucht",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Ja, warmtewerende folie vermindert de warmte die binnenkomt via een raam in de zon. Ze kaatst een deel van de zonnestraling terug naar buiten of absorbeert ze, voor die de kamer opwarmt. Het effect is het duidelijkst op een groot raam op het zuiden of westen, zonder buitenzonwering.",
+            "Maar ze werkt alleen op de zon. Ze koelt de warme lucht niet af die door een open raam binnenkomt, en houdt de warmte niet tegen die door muren en dak gaat. En een cijfer als \"81 % infrarood geweerd\" betekent niet 81 % minder warmte. Verderop leggen we uit waarom.",
+          ],
+        },
+        {
+          heading: "Waar komt de warmte door een ruit vandaan?",
+          anchor: 'physique',
+          paragraphs: [
+            "De zon stuurt niet alleen licht. Volgens de technische gids van Saint-Gobain Glass bestaat de zonnestraling die de grond bereikt uit ongeveer 42 % zichtbaar licht, 55 % infrarood en 3 % ultraviolet. Alle drie dragen energie. Met andere woorden: niet alleen infrarood warmt op, zichtbaar licht ook.",
+            "Wanneer die straling een ruit raakt, wordt een deel teruggekaatst, een deel door het glas geabsorbeerd en de rest gaat erdoor. Wat erdoor gaat, wordt opgenomen door vloer, meubels en muren. Die warmen op en geven warmte af die het glas niet meer naar buiten laat. Dat is het broeikaseffect, hetzelfde als in een auto die met gesloten ramen in de zon staat.",
+            "De juiste maatstaf voor wat echt binnenkomt heet de zontoetredingsfactor, of g-waarde. Dat is het deel van de totale zonne-energie dat in de kamer belandt, inclusief de warmte die het glas heeft opgenomen en naar binnen afgeeft. Hoe lager, hoe minder de kamer opwarmt.",
+          ],
+        },
+        {
+          heading: "Wat de folie doet, en wat niet",
+          anchor: 'effet-reel',
+          paragraphs: [
+            "Warmtewerende folie verandert die verdeling: ze kaatst meer straling terug en absorbeert er meer, en laat er minder door. Reflecterende folies, zoals spiegeleffectfolie, sturen een deel van de energie terug naar buiten. Zogenaamde selectieve folies richten zich vooral op infrarood en raken weinig aan het zichtbare licht, waardoor ze helderder blijven.",
+            "De Amerikaanse federale dienst voor overheidsgebouwen (GSA) liet deze folies evalueren door het Lawrence Berkeley National Laboratory. Volgens de modellen zijn reflecterende folies het doeltreffendst, met tot 29 % besparing op de energie voor verwarming en koeling in warme klimaten. Maar het resultaat hangt sterk af van de bestaande beglazing: de studie noemt de folie rendabel op helder enkel glas, en raadt ze in de meeste klimaten af op dubbel glas dat al getint is (brons). Die cijfers gaan over kantoren in de Verenigde Staten, in Saint Louis en Phoenix. Met mildere Belgische zomers mag u minder verwachten.",
+            "Wat de folie niet doet: ze isoleert niet tegen warme lucht. Als de kamer opwarmt omdat het buiten 30 °C is of omdat het dak slecht geïsoleerd is, verandert de folie daar niets aan. Ze vervangt ook geen buitenzonwering, die de zon tegenhoudt nog voor ze het glas raakt. Volgens gegevens van het WTCB (het Belgische onderzoekscentrum voor de bouw), gepubliceerd door Test-Aankoop, laat een ondoorzichtige buitenzonwering slechts 2 tot 7 % van de zonnestraling door, tegenover 35 tot 59 % voor een ondoorzichtige binnenzonwering. De folie werkt rechtstreeks op het glas. Onze [vergelijking tussen zonwerende folie en buitenscreen](/nl/blog/film-solaire-ou-screen-exterieur-vitrage) helpt u kiezen.",
+          ],
+        },
+        {
+          heading: "Een technische fiche lezen zonder in de val te trappen",
+          anchor: 'fiche-technique',
+          paragraphs: [
+            "Hier vergissen veel kopers zich. Een foliefiche geeft verschillende percentages die niet hetzelfde meten:",
+          ],
+          table: {
+            headers: ["Waarde", "Wat ze meet", "Wat ze niet zegt"],
+            rows: [
+              ["Doorgelaten zichtbaar licht (VLT)", "Het deel daglicht dat doorkomt: hoe lager, hoe donkerder de kamer", "De warmte"],
+              ["Geweerde UV", "Het deel ultraviolet dat wordt tegengehouden, de belangrijkste oorzaak van verkleuring", "De warmte: UV is maar ongeveer 3 % van de zonne-energie"],
+              ["Geweerd infrarood (IRR of IRER)", "Het deel infrarood dat wordt tegengehouden", "De totale warmte, want zichtbaar licht warmt ook op"],
+              ["Totaal geweerde zonne-energie (TSER) of g-waarde", "Het deel van alle zonne-energie dat niet binnenkomt (TSER = 100 % min g)", "Het resultaat op uw beglazing, als op ander glas is gemeten"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Een echt voorbeeld: op de fiche van een reflecterende folie van het merk Solar Gard (groep Saint-Gobain) weert dezelfde folie 73 % van het infrarood, maar 67 % van de totale zonne-energie op helder enkel glas. En de fiche geeft andere waarden voor enkel, dubbel en driedubbel glas. Twee goede reflexen dus: vergelijk de totaal geweerde zonne-energie in plaats van het infrarood, en kijk op welk glas er gemeten is.",
+            "De spiegeleffectfolie die wij plaatsen, laat 22 % zichtbaar licht door, weert 72 % van de UV en 81 % van het infrarood. Die 81 % betekent niet 81 % minder warmte, om de reden hierboven, en de echte winst hangt ook af van uw beglazing. Ons [artikel over UV-bescherming](/nl/blog/protection-uv-film-vitrage-bruxelles) legt uit wat het UV-cijfer meet.",
+          ],
+        },
+        {
+          heading: "Welke folie kiezen tegen de warmte?",
+          anchor: 'choisir',
+          paragraphs: [
+            "Is warmte uw grootste probleem en wilt u ook inkijk beperken, dan is [spiegeleffectfolie](/nl/blog/film-miroir-chaleur-vis-a-vis-bruxelles) de doeltreffendste folie die wij plaatsen. Het is een reflecterende folie, de familie die in de studie hierboven de beste resultaten geeft. In ruil wordt de kamer donkerder, een beetje zoals met een zonnebril.",
+            "Wilt u een lichte kamer en een volledig transparant zicht houden, dan filtert [zonwerende folie](/nl/blog/film-solaire-vitrage-bruxelles) de warmte matiger, met een lichte blauwe tint. Onze [gids om uw folie te kiezen](/nl/blog/quel-film-choisir-vitrages) zet alle opties naast elkaar.",
+            "Een donkerdere folie is niet per se doeltreffender tegen warmte. Wat telt, is de totaal geweerde zonne-energie, niet de kleur. Hou dat in gedachten bij folie uit de winkel: onze [vergelijking tussen goedkope folie en professionele plaatsing](/nl/blog/film-vitre-premier-prix-ou-pose-professionnelle) zegt wat u moet nakijken.",
+          ],
+        },
+        {
+          heading: "Wanneer is het echt de moeite waard?",
+          anchor: 'quand',
+          paragraphs: [
+            "Folie geeft de beste resultaten waar de zon urenlang rechtstreeks op het glas staat. Elders is het effect kleiner, of zelfs nul:",
+          ],
+          table: {
+            headers: ["Situatie", "Helpt de folie?"],
+            rows: [
+              ["Groot raam op het zuiden of westen, zonder buitenzonwering", "Ja, dat is het gunstigste geval"],
+              ["Veranda of kamer met veel glas", "Ja, vaak als aanvulling op buitenzonwering"],
+              ["Raam op het noorden of de hele dag in de schaduw", "Weinig: er is weinig directe zon om te filteren"],
+              ["Warmte die vooral via dak of muren komt", "Nee: de folie werkt alleen op de ramen"],
+              ["Dakraam (type Velux)", "Buitenzonwering is geschikter"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Voor dakramen legt ons [artikel over te warme Velux-ramen](/nl/blog/velux-fenetre-de-toit-anti-chaleur) uit waarom we eerder buitenzonwering aanraden. Twijfelt u met een airco, dan vergelijkt ons artikel [folie of airco](/nl/blog/film-vitrage-economies-climatisation) de twee. En hebt u enkel glas in slechte staat, dan helpt het artikel [ramen vervangen of folie plaatsen](/nl/blog/remplacer-fenetres-ou-film-vitrage) u kiezen.",
+          ],
+        },
+        {
+          heading: "Wat kost het, en hoe verloopt de plaatsing?",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "We plaatsen deze folies rechtstreeks op uw bestaande beglazing, meestal aan de binnenkant, in één bezoek en zonder demontage. De plaatsing heeft 2 jaar garantie, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing binnen. Ons [artikel over de stappen van een project](/nl/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het verloop, van opmeting tot plaatsing.",
+            "Er is geen vaste prijslijst: de prijs hangt af van de oppervlakte, en blijft dezelfde welke folie u ook kiest. Ons [artikel over de prijzen](/nl/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de schatting wordt berekend.",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[Saint-Gobain Glass: \"Le verre et le rayonnement solaire\", Memento, hoofdstuk 3.1 (document gehost door La Centrale du Verre, in het Frans)](https://lacentraleduverre.com/img/cms/documents/view/verre_et_rayonnement.pdf)",
+            "[GSA, Center for Emerging Building Technologies: \"Solar-Control Films\", evaluatie door het Lawrence Berkeley National Laboratory (januari 2015, in het Engels)](https://www.gsa.gov/system/files/017-Solar%20Control%20Film-Infographic-508.pdf)",
+            "[Test-Achats (Test-Aankoop): Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur ? (juni 2026, in het Frans)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+            "[Solar Gard: technische fiche van de folie Sentinel Plus Silver 35](https://www.solargard.com/wp-content/uploads/2023/05/Sentinel-Plus-Silver-35-SAMPLE-PAGE-SOLAR-GARD-0326.pdf)",
+          ],
+        },
+        {
+          heading: "Twijfelt u nog?",
+          paragraphs: [
+            "Neem contact met ons op: we adviseren u gratis volgens uw situatie en antwoorden binnen 24 uur.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Werkt warmtewerende folie op dubbel glas?",
+          answer: "Ja, ze wordt aan de binnenkant geplaatst, op enkel en op dubbel glas. De winst hangt wel af van de bestaande beglazing: de evaluatie van het Lawrence Berkeley National Laboratory voor de GSA toont duidelijk betere resultaten op helder enkel glas dan op dubbel glas dat al getint is.",
+        },
+        {
+          question: "Maakt warmtewerende folie de kamer donkerder?",
+          answer: "Dat hangt af van de folie. Spiegeleffectfolie laat 22 % van het zichtbare licht door: de kamer wordt merkbaar donkerder, een beetje zoals met een zonnebril. Zonwerende folie blijft transparant, met een lichte blauwe tint.",
+        },
+        {
+          question: "Houdt de folie de warmte binnen in de winter?",
+          answer: "Het is geen isolatie. Ze filtert de zon telkens die op het glas staat, ook in de winter, maar we beloven geen besparing op verwarming, omdat er voor dit product geen betrouwbare meting bestaat.",
+        },
+        {
+          question: "Doet warmtewerende folie uit de winkel hetzelfde werk?",
+          answer: "Niet per se. Kijk eerst of de verpakking de totaal geweerde zonne-energie vermeldt, en niet alleen infrarood of UV: zonder dat cijfer kunt u niet vergelijken. Plaatsing met water op een groot raam vraagt ook ervaring om bellen en plooien te vermijden.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -5516,6 +5792,144 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Can film replace shutters?",
           answer: "No, it complements them. The shutter darkens the room and blocks the view in the evening. Film reduces heat and glare during the day on upright windows, without closing the room off.",
+        },
+      ],
+    },
+    {
+      slug: 'film-fenetre-anti-chaleur-efficace',
+      title: "Heat-control window film: does it really work?",
+      metaTitle: "Heat-control window film: does it really work?",
+      metaDescription:
+        "Yes against direct sun, no against hot air. What heat-control window film really does, how to read its spec sheet, and when it's worth it.",
+      date: '2026-11-04',
+      excerpt:
+        "Effective or a gimmick? The honest answer on heat-control window film, the physics behind it, and the spec-sheet figures you need to understand before you buy.",
+      heroImage: { src: '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg', alt: "Two-scene illustration of a Brussels house in full sun: on the left, sunrays pour through the windows and heat the living room, the thermometers are in the red and a person fans themselves in an armchair; on the right, the same house in cross-section, part of the rays is reflected by the glass, the thermometers are back in the green and the person reads calmly.", width: 1200, height: 641 },
+      sections: [
+        {
+          paragraphs: [
+            "In summer, a south-facing room can become unbearable by early afternoon. Heat-control film promises to fix that without building work, and you'll find it both from installers and in DIY stores. So does it really work, or is it a gimmick? Our answer as installers: yes, but only against part of the heat, and not with just any film. Here's what actually happens in the glass, what the studies say, and how not to be misled by the figures on a spec sheet.",
+          ],
+        },
+        {
+          heading: "The short answer: yes against the sun, no against hot air",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Yes, heat-control film reduces the heat coming in through a sunny window. It sends part of the solar radiation back outside, or absorbs it, before it warms the room. The effect is clearest on a large south- or west-facing window with no exterior blind.",
+            "But it only acts on sunlight. It doesn't cool the hot air coming in through an open window, or stop the heat passing through walls and roof. And a figure like '81% infrared rejection' doesn't mean 81% less heat. We explain why below.",
+          ],
+        },
+        {
+          heading: "Where the heat through a window comes from",
+          anchor: 'physique',
+          paragraphs: [
+            "The sun sends more than light. According to Saint-Gobain Glass's technical guide, the solar radiation that reaches the ground is made up of about 42% visible light, 55% infrared and 3% ultraviolet. All three carry energy. In other words, infrared isn't the only thing that heats: visible light does too.",
+            "When this radiation hits a window, part is reflected, part is absorbed by the glass and the rest passes through. What gets through is absorbed by the floor, furniture and walls. They warm up and give off heat that the glass won't let back out. That's the greenhouse effect, the same one you get in a car parked in the sun with the windows closed.",
+            "The right measure of what really gets in is called the solar factor, or g-value (in the US, the solar heat gain coefficient). It's the share of total solar energy that ends up in the room, including the heat the glass absorbed and then released inwards. The lower it is, the less the room heats up.",
+          ],
+        },
+        {
+          heading: "What film does, and what it doesn't",
+          anchor: 'effet-reel',
+          paragraphs: [
+            "Heat-control film changes that split: it reflects and absorbs more radiation, and lets less through. Reflective films, such as mirror effect film, send part of the energy back outside. So-called spectrally selective films mainly target infrared and barely affect visible light, which lets them stay clearer.",
+            "The US General Services Administration (GSA), which manages federal buildings, had these films evaluated by Lawrence Berkeley National Laboratory. According to its modelling, reflective films are the most effective, with up to 29% savings on heating and cooling energy in warmer climates. But the result depends heavily on the existing glazing: the study finds film cost-effective on single-pane clear glass, and doesn't recommend it on already tinted (bronze) double glazing in most climates. These figures concern office buildings in the United States, in St. Louis and Phoenix. With milder Belgian summers, expect less.",
+            "What film doesn't do: it doesn't insulate against hot air. If the room heats up because it's 30 °C outside or because the roof is poorly insulated, film won't change that. Nor does it replace exterior shading, which stops the sun before it even reaches the glass. According to data from the CSTC (the Belgian building research centre) published by Test-Achats, opaque exterior shading lets only 2 to 7% of solar radiation through, against 35 to 59% for opaque interior shading. Film works directly on the glass. Our [comparison of solar film and exterior screens](/en/blog/film-solaire-ou-screen-exterieur-vitrage) helps you choose between the two.",
+          ],
+        },
+        {
+          heading: "How to read a spec sheet without being misled",
+          anchor: 'fiche-technique',
+          paragraphs: [
+            "This is where many buyers go wrong. A film spec sheet gives several percentages that don't measure the same thing:",
+          ],
+          table: {
+            headers: ["Figure", "What it measures", "What it doesn't tell you"],
+            rows: [
+              ["Visible light transmission (VLT)", "The share of daylight that gets through: the lower it is, the darker the room", "Heat"],
+              ["UV rejection", "The share of ultraviolet blocked, the main cause of fading", "Heat: UV is only about 3% of solar energy"],
+              ["Infrared rejection (IRR or IRER)", "The share of infrared blocked", "Total heat, since visible light heats too"],
+              ["Total solar energy rejected (TSER) or g-value", "The share of all solar energy that doesn't get in (TSER = 100% minus g)", "The result on your glazing, if it was measured on different glass"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "A real example: on the spec sheet of a reflective film from Solar Gard (part of the Saint-Gobain group), the same film rejects 73% of infrared but 67% of total solar energy on single clear glass. And the sheet gives different values for single, double and triple glazing. So, two good habits: compare total solar energy rejected rather than infrared, and check which glass the measurement was made on.",
+            "The mirror effect film we install has a visible light transmission of 22%, rejects 72% of UV and 81% of infrared. That 81% doesn't mean 81% less heat, for the reason explained above, and the real gain also depends on your glazing. Our [article on UV protection](/en/blog/protection-uv-film-vitrage-bruxelles) explains what the UV figure measures.",
+          ],
+        },
+        {
+          heading: "Which film should you choose against heat?",
+          anchor: 'choisir',
+          paragraphs: [
+            "If heat is your main problem and you also want to cut down on being overlooked, [mirror effect film](/en/blog/film-miroir-chaleur-vis-a-vis-bruxelles) is the most effective of the films we install. It's a reflective film, the family that performs best in the study above. In return, the room is darker, a bit like wearing sunglasses.",
+            "If you want to keep a bright room and a perfectly clear view, [solar film](/en/blog/film-solaire-vitrage-bruxelles) filters heat more moderately, with a slight blue tint. Our [guide to choosing your film](/en/blog/quel-film-choisir-vitrages) puts all the options side by side.",
+            "A darker film isn't necessarily better against heat. What counts is total solar energy rejected, not the colour. Keep that in mind with films sold in shops: our [comparison of cheap film and professional installation](/en/blog/film-vitre-premier-prix-ou-pose-professionnelle) explains what to check.",
+          ],
+        },
+        {
+          heading: "When is it really worth it?",
+          anchor: 'quand',
+          paragraphs: [
+            "Film gives the best results where the sun hits the glass directly for hours. Elsewhere, the effect is smaller, or nil:",
+          ],
+          table: {
+            headers: ["Situation", "Does film help?"],
+            rows: [
+              ["Large south- or west-facing window, no exterior blind", "Yes, it's the most favourable case"],
+              ["Conservatory or very glazed room", "Yes, often alongside exterior shading"],
+              ["North-facing window, or in shade all day", "Little: there's not much direct sun to filter"],
+              ["Heat coming mainly through the roof or walls", "No: film only works on windows"],
+              ["Roof window (Velux type)", "Exterior shading is a better fit"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "For roof windows, our [article on Velux windows that get too hot](/en/blog/velux-fenetre-de-toit-anti-chaleur) explains why we recommend exterior shading instead. If you're weighing film against air conditioning, our [film or air conditioning](/en/blog/film-vitrage-economies-climatisation) article compares the two. And if your windows are single-glazed and in poor condition, the article [replace your windows or add film](/en/blog/remplacer-fenetres-ou-film-vitrage) helps you decide.",
+          ],
+        },
+        {
+          heading: "What does it cost, and how does installation work?",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "We apply these films directly to your existing windows, generally on the interior side, in a single visit and with no removal. The installation is guaranteed for 2 years, and the film's lifespan is estimated at 10 to 15 years for an interior installation. Our [article on the steps of a project](/en/blog/etapes-projet-film-vitrage-bruxelles) walks through the process, from measurements to installation.",
+            "There's no published price list: the price depends on the surface area, and stays the same whichever film you choose. Our [article on pricing](/en/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Saint-Gobain Glass: 'Le verre et le rayonnement solaire', Memento, chapter 3.1 (document hosted by La Centrale du Verre, in French)](https://lacentraleduverre.com/img/cms/documents/view/verre_et_rayonnement.pdf)",
+            "[GSA, Center for Emerging Building Technologies: 'Solar-Control Films', evaluation by Lawrence Berkeley National Laboratory (January 2015)](https://www.gsa.gov/system/files/017-Solar%20Control%20Film-Infographic-508.pdf)",
+            "[Test-Achats: Volets, stores, tentes... Quelles sont les meilleures protections solaires extérieures pour vous protéger de la chaleur ? (June 2026, in French)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/protections-solaires-en-10-questions)",
+            "[Solar Gard: Sentinel Plus Silver 35 film spec sheet](https://www.solargard.com/wp-content/uploads/2023/05/Sentinel-Plus-Silver-35-SAMPLE-PAGE-SOLAR-GARD-0326.pdf)",
+          ],
+        },
+        {
+          heading: "Still unsure?",
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Does heat-control film work on double glazing?",
+          answer: "Yes, it's applied on the interior side of single and double glazing alike. The gain does depend on the existing glazing, though: Lawrence Berkeley National Laboratory's evaluation for the GSA shows clearly better results on single clear glass than on already tinted double glazing.",
+        },
+        {
+          question: "Does heat-control film make the room darker?",
+          answer: "It depends on the film. Mirror effect film lets 22% of visible light through: the room is noticeably darker, a bit like wearing sunglasses. Solar film stays transparent, with a slight blue tint.",
+        },
+        {
+          question: "Does film keep heat in during winter?",
+          answer: "It isn't insulation. It filters the sun whenever it hits the glass, winter included, but we don't promise any heating savings, as there's no reliable measurement for this product.",
+        },
+        {
+          question: "Does shop-bought heat-control film do the same job?",
+          answer: "Not necessarily. First check that the packaging gives total solar energy rejected, not just infrared or UV: without that figure, you can't compare. Wet application on a large pane also takes practice to avoid bubbles and creases.",
         },
       ],
     },

@@ -248,6 +248,7 @@ const blogArticleImages = {
   'film-fenetre-copropriete-autorisation': '/images/blog/illus-film-fenetre-copropriete.jpg',
   'film-porte-entree-vitree': '/images/blog/illus-film-porte-entree-vitree.jpg',
   'velux-fenetre-de-toit-anti-chaleur': '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg',
+  'film-fenetre-anti-chaleur-efficace': '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg',
 };
 
 const blogArticles = [
@@ -831,7 +832,35 @@ const blogArticles = [
     },
   },
 },
-];
+{
+  path: '/blog/film-fenetre-anti-chaleur-efficace',
+  meta: {
+    FR: {
+      title: "Film anti-chaleur : est-ce que ça marche vraiment ? — VitraCare",
+      description:
+        "Oui contre le soleil direct, non contre l'air chaud. Ce que fait vraiment un film anti-chaleur, comment lire sa fiche technique et quand il vaut le coup.",
+      headline: "Film anti-chaleur pour fenêtre : est-ce que ça marche vraiment ?",
+      datePublished: '2026-11-04',
+      dateModified: '2026-11-04',
+    },
+    NL: {
+      title: 'Warmtewerende raamfolie: werkt het echt? — VitraCare',
+      description:
+        'Ja tegen directe zon, nee tegen warme lucht. Wat warmtewerende folie echt doet, hoe u de technische fiche leest en wanneer het de moeite waard is.',
+      headline: 'Warmtewerende raamfolie: werkt het echt?',
+      datePublished: '2026-11-04',
+      dateModified: '2026-11-04',
+    },
+    EN: {
+      title: 'Heat-Control Window Film: Does It Really Work? — VitraCare',
+      description:
+        "Yes against direct sun, no against hot air. What heat-control window film really does, how to read its spec sheet, and when it's worth it.",
+      headline: 'Heat-control window film: does it really work?',
+      datePublished: '2026-11-04',
+      dateModified: '2026-11-04',
+    },
+  },
+},];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles
 // above) — needed here since prerender.mjs is a plain Node script and can't import the

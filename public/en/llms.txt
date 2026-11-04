@@ -44,6 +44,7 @@ Detailed context (films, figures, frequently asked questions): [llms-full.txt](h
 - [Window film in a Brussels flat: do you need the co-ownership's approval?](https://vitracare.be/en/blog/film-fenetre-copropriete-autorisation): What Brussels sources say, which film is visible from the street, what to check in the co-ownership rules, as a tenant or for a listed façade.
 - [Window film for a glazed front door: which film for privacy and security?](https://vitracare.be/en/blog/film-porte-entree-vitree): Why matte white film suits a front door used in the evening better than mirror film, and when to choose anti-burglary film.
 - [Velux roof window too hot in summer: heat-control film, blind or shutter?](https://vitracare.be/en/blog/velux-fenetre-de-toit-anti-chaleur): Why exterior protection works best on a roof window, why VitraCare doesn't install film on them, and where film complements blinds and shutters.
+- [Heat-control window film: does it really work?](https://vitracare.be/en/blog/film-fenetre-anti-chaleur-efficace): What heat-control film does and doesn't do, where the heat through a window comes from, and how to read a spec sheet (visible light, UV, infrared, total solar energy rejected).
 
 ## Municipalities with a dedicated page
 - [Uccle](https://vitracare.be/en/communes/uccle)

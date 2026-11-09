@@ -1997,6 +1997,180 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-double-vitrage-casse-thermique',
+      title: "Film sur double vitrage : quel risque de casse, et pose intérieure ou extérieure ?",
+      metaTitle: "Film sur double vitrage : risque de casse et type de pose",
+      metaDescription:
+        "Un film peut-il faire casser un double vitrage ? Les causes de la casse thermique, les films à éviter, et quand poser le film à l'intérieur ou à l'extérieur.",
+      date: '2026-11-09',
+      excerpt:
+        "Un film solaire peut-il fissurer un double vitrage ? La réponse honnête, les chiffres d'un fabricant de films, et le choix entre pose intérieure et pose extérieure.",
+      sections: [
+        {
+          paragraphs: [
+            "« Est-ce que le film est compatible avec mon double vitrage, sans risque de casse ? » On nous pose régulièrement cette question avant une estimation, et elle est légitime : un film mal choisi peut faire fissurer une vitre sous l'effet de la chaleur. Voici ce qui se passe dans le verre, les situations à risque, ce que disent les fabricants de films et de verre, et comment choisir entre une pose à l'intérieur et une pose à l'extérieur.",
+          ],
+        },
+        {
+          heading: "La réponse courte : oui, si le film et la vitre vont ensemble",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Oui, on peut poser un film sur la plupart des doubles vitrages. Mais pas n'importe quel film sur n'importe quelle vitre. Le risque s'appelle la casse thermique : la vitre se fissure parce qu'elle chauffe de façon inégale. Il est faible avec un film adapté sur une vitre en bon état. Il augmente avec les films sombres qui absorbent beaucoup de chaleur, les vitres abîmées et les ombres partielles.",
+            "Un repère : à ce jour, nous n'avons jamais eu de vitre fissurée après une de nos poses. C'est notre expérience, pas une garantie valable pour toutes les vitres, et c'est pour ça que nous regardons chaque vitrage avant de poser.",
+          ],
+        },
+        {
+          heading: "Qu'est-ce que la casse thermique ?",
+          anchor: 'casse-thermique',
+          paragraphs: [
+            "Au soleil, le centre de la vitre chauffe et se dilate. Les bords, pris dans le châssis et à l'ombre, restent plus froids. Le verre supporte mal cette différence : quand la tension devient trop forte, il se fissure. Selon Contra Vision, fabricant de films pour vitrages, la fissure part en général du bord, là où le verre avait déjà un point faible, comme un petit éclat.",
+            "Le phénomène existe aussi sans film. Le verrier suisse Glas Trösch cite les radiateurs, les bouches d'air chaud ou les meubles sombres placés trop près de la vitre, et conseille de les garder à au moins 30 cm. Un film ajoute un facteur : il absorbe une partie du rayonnement solaire, donc la vitre sur laquelle il est collé chauffe davantage. Plus le film absorbe, plus le risque monte.",
+            "Le type de verre compte beaucoup. Selon l'association européenne des films pour vitrages (EWFA), le verre trempé ne casse pas sous l'effet de la chaleur dans un bâtiment, sauf en cas d'incendie, et le verre durci est très peu concerné. Le verre ordinaire, dit recuit ou « float », est le plus courant. C'est lui qui peut casser, et c'est sur lui que la compatibilité doit toujours être vérifiée.",
+          ],
+        },
+        {
+          heading: "Pourquoi le double vitrage demande plus d'attention",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "Sur un double vitrage, le film se pose sur la vitre côté pièce. Une partie de la chaleur qu'il renvoie repart alors vers la lame d'air entre les deux vitres, au lieu de ressortir directement. Un expert de l'association internationale des films pour vitrages (IWFA), cité par le magazine Architect, l'explique ainsi : la vitre extérieure a plus de mal à se débarrasser de cette chaleur, et le verre peut subir une contrainte thermique excessive.",
+            "Les tableaux de compatibilité des fabricants vont dans le même sens. Dans celui d'Eastman, le fabricant des films SunTek, un même film obtient un score de contrainte plus élevé sur un double vitrage clair que sur un simple vitrage clair. Le fabricant cite aussi un risque propre au double vitrage : la défaillance du joint d'étanchéité entre les deux vitres. Contra Vision, de son côté, classe les doubles vitrages à faible émissivité (« low-e ») en risque moyen.",
+            "Si votre double vitrage a déjà un verre à contrôle solaire, un film n'est pas toujours utile : notre article [vitrage à contrôle solaire intégré ou film](/blog/vitrage-controle-solaire-integre-ou-film) explique la différence.",
+          ],
+        },
+        {
+          heading: "Ce qui augmente le risque",
+          anchor: 'facteurs',
+          paragraphs: [
+            "Le guide d'Eastman ajoute des points de contrainte selon la situation de la vitre. Voici les principaux facteurs :",
+          ],
+          table: {
+            headers: ["Situation", "Pourquoi c'est un risque", "Ce qu'on en fait"],
+            rows: [
+              ["Film sombre qui absorbe beaucoup", "La vitre chauffe davantage", "Préférer un film qui réfléchit à un film qui absorbe"],
+              ["Ombre partielle sur la vitre (balcon, arbre, mur voisin)", "Une zone chauffe au soleil, l'autre reste froide. Le guide ajoute 1 à 3 points selon la forme de l'ombre", "Regarder où tombent les ombres au fil de la journée"],
+              ["Bords écaillés ou vitre abîmée", "La fissure part d'un point faible. Le guide classe les bords écaillés en « non recommandé »", "Signaler le défaut avant toute pose"],
+              ["Très grande vitre", "La contrainte augmente avec la taille. Le guide ajoute 1 point entre environ 4,6 et 9,3 m², et déconseille la pose au-delà", "Vérifier la surface de chaque vitre"],
+              ["Store, rideau épais ou meuble sombre collé à la vitre", "La chaleur reste piégée contre le verre. Le guide ajoute 1 point à moins de 10 cm", "Laisser un peu d'espace entre la vitre et le store"],
+              ["Joint du châssis abîmé ou absent", "Le verre se dilate moins librement", "Contrôler l'état des joints"],
+              ["Film posé sur une partie de la vitre seulement", "Deux zones chauffent différemment", "Toujours couvrir toute la vitre"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Ce dernier point est une règle que nous appliquons toujours pour les films miroir et solaire : notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) explique pourquoi nous ne posons jamais un film sur une partie de vitre seulement.",
+          ],
+        },
+        {
+          heading: "Film miroir, blanc mat ou teinté : lequel chauffe le plus la vitre ?",
+          anchor: 'quel-film',
+          paragraphs: [
+            "C'est la partie la plus parlante du tableau d'Eastman. Chaque film y reçoit un score de base, d'autant plus élevé qu'il absorbe de chaleur. Sur un double vitrage clair d'environ 3 mm :",
+          ],
+          table: {
+            headers: ["Film (gamme SunTek)", "Score sur double vitrage clair"],
+            rows: [
+              ["Film de sécurité transparent", "2"],
+              ["Film miroir argenté, 20 % de lumière transmise", "6"],
+              ["Film blanc mat", "7"],
+              ["Film teinté neutre, 20 % de lumière transmise", "11"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "À ce score, on ajoute les points liés à la situation (ombres, taille, store...). Le fabricant autorise ensuite la pose selon le total : jusqu'à 10 sur tous les verres, jusqu'à 14 seulement sur verre durci ou trempé, jusqu'à 18 seulement sur verre trempé, et au-delà, pas du tout.",
+            "Un exemple : une ombre de balcon en forme de T ajoute 3 points. Le film miroir passe de 6 à 9 et reste posable sur un verre ordinaire. Le film teinté neutre passe de 11 à 14 : il ne convient plus qu'à du verre durci ou trempé. À lumière transmise égale, le film qui réfléchit chauffe donc nettement moins la vitre que celui qui absorbe.",
+            "Une précision honnête : ces scores concernent les films SunTek, pas ceux que nous posons, et nous n'avons pas de tableau équivalent de notre fournisseur. Ils servent à comprendre la logique, qui vaut pour tous les films. C'est une des raisons pour lesquelles nous conseillons le [film effet miroir](/blog/film-miroir-vitrage-bruxelles) contre la chaleur. Le [film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles) reste lui aussi dans une zone modérée. Et un film de sécurité transparent, comme celui de notre [article sur les films anti-effraction](/blog/film-securite-anti-effraction-vitrage), chauffe très peu le verre.",
+          ],
+        },
+        {
+          heading: "Ce que disent les fabricants de verre",
+          anchor: 'avis-verriers',
+          paragraphs: [
+            "Ils sont plus prudents que les fabricants de films. Dans sa fiche sur le choc thermique, le verrier Glas Trösch écrit que « les verres isolants ne doivent pas être peints ni recouverts de films ». C'est la position la plus prudente qui soit, et il est logique qu'un fabricant de vitrages la prenne.",
+            "En pratique, deux réflexes simples. Si vos fenêtres sont récentes et encore sous garantie, relisez ses conditions ou demandez l'avis du fabricant avant la pose. Et demandez à votre poseur sur quoi il se base : le magazine Architect, citant l'IWFA, conseille d'obtenir par écrit les recommandations film-verre du fabricant du film, ainsi que les garanties sur le film, le vitrage et ses joints.",
+          ],
+        },
+        {
+          heading: "Pose intérieure ou extérieure : ce qui change",
+          anchor: 'interieure-exterieure',
+          paragraphs: [
+            "La plupart du temps, nous posons le film à l'intérieur. Mais la pose extérieure existe et a de vrais avantages dans certains cas. Les films que nous posons peuvent être collés d'un côté comme de l'autre.",
+          ],
+          table: {
+            headers: ["", "Pose intérieure", "Pose extérieure"],
+            rows: [
+              ["Durée de vie", "La plus longue, estimée de 10 à 15 ans : le film est à l'abri de la saleté, du froid et de la pluie", "Plus courte : le film est exposé aux intempéries et aux lavages"],
+              ["Chaleur", "Efficace, mais sur un double vitrage, une partie de la chaleur renvoyée reste dans la lame d'air", "Le soleil est arrêté avant d'entrer dans le double vitrage"],
+              ["Contrainte sur le verre", "C'est la vitre côté pièce qui chauffe", "Plus faible dans le tableau d'Eastman : 4 au lieu de 6 pour le film argenté équivalent sur double vitrage clair"],
+              ["Animaux", "Un chien ou un chat peut griffer le film", "Le film est hors de portée"],
+              ["Conditions de pose", "Possible par tous les temps", "Demande du beau temps et un accès sûr à la vitre"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Notre conseil : la pose intérieure dans la grande majorité des cas, pour sa durée de vie. La pose extérieure se discute quand un animal risque d'abîmer le film, quand la vitre reçoit beaucoup de soleil, ou pour un triple vitrage. Pour une fenêtre en hauteur, l'accès par l'extérieur peut aussi la rendre difficile, voire impossible.",
+            "Pour savoir ce qu'un film change vraiment contre la chaleur, quel que soit le côté de pose, lisez notre article [film anti-chaleur : est-ce que ça marche vraiment ?](/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "Et le triple vitrage ?",
+          anchor: 'triple-vitrage',
+          paragraphs: [
+            "Côté intérieur, la prudence domine. Contra Vision classe le triple vitrage en risque élevé et déconseille les films posés à l'intérieur. Dans le tableau d'Eastman, plusieurs films intérieurs y sont classés « non recommandé ». Le revendeur britannique Streme écrit que ses films, prévus pour l'intérieur, ne doivent pas être posés sur du triple vitrage.",
+            "Avec un film prévu pour l'extérieur, c'est différent. Le tableau d'Eastman pour ses films extérieurs donne un score de 5 au film argenté sur un triple vitrage clair, soit dans la zone autorisée pour tous les verres. C'est pourquoi, sur un triple vitrage, nous recommandons la pose extérieure.",
+          ],
+        },
+        {
+          heading: "Ce que nous vérifions avant de poser",
+          anchor: 'visite',
+          paragraphs: [
+            "Avant chaque pose, nous passons voir les vitrages. Nous regardons l'état des fenêtres, l'état des joints, l'accès à chaque vitre et le type de vitrage : simple, double ou triple. Et surtout votre problème, qu'il s'agisse de chaleur, de vis-à-vis ou de sécurité. C'est ce qui nous permet de vous conseiller le bon film, et le bon côté de pose.",
+            "Si une vitre nous paraît abîmée ou à risque, nous vous le disons avant de poser. Et si vous voyez de la buée entre les deux vitres, le double vitrage n'est plus étanche : un film n'y changera rien, comme l'explique notre article [remplacer ses fenêtres ou poser un film](/blog/remplacer-fenetres-ou-film-vitrage).",
+            "La visite est gratuite à Bruxelles et coûte 50 € en dehors. Notre [article sur les étapes d'un projet](/blog/etapes-projet-film-vitrage-bruxelles) détaille la suite, et l'[article sur les prix](/blog/prix-pose-film-vitrage-bruxelles) explique comment l'estimation est calculée.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Eastman Performance Films (SunTek) : Film Installation Guidelines, Architectural Window Films (2021, en anglais)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+            "[Eastman Performance Films (SunTek) : Film Installation Guidelines, Architectural Exterior Window Films (2020, en anglais)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/exterior-film-to-glass-recommendations.pdf)",
+            "[EWFA, sur Glassonweb : Thermal Stress, Film-to-Glass Compatibility (2012, en anglais)](https://www.glassonweb.com/article/thermal-stress-film-glass-compatibility)",
+            "[Glas Trösch : fiche technique « Bris de verre par choc thermique »](https://glastroesch.com/fileadmin/user_upload/Service/Fachwissen/Merkblaetter/FR/13_Bris_de_verre_par_choc_thermique_FR.pdf)",
+            "[Contra Vision : Thermal Fracture of Glass, Risks (en anglais)](https://www.contravision.com/technical-hub/thermal-fracture-of-glass-risks/)",
+            "[Architect Magazine : The Effects of Window Films Go Beyond the Surface (avril 2012, en anglais)](https://www.architectmagazine.com/technology/products/the-effects-of-window-films-go-beyond-the-surface_o/)",
+            "[Streme : Film compatibility (en anglais)](https://www.streme.co.uk/uploads/files/Film%20compatibility.pdf)",
+          ],
+        },
+        {
+          heading: "Vous avez un double vitrage et un doute ?",
+          paragraphs: [
+            "Contactez-nous : nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Un film peut-il faire casser un double vitrage ?",
+          answer: "C'est possible, mais rare avec un film adapté sur une vitre en bon état. Le risque augmente avec les films sombres qui absorbent la chaleur, les ombres partielles, les très grandes vitres et les bords abîmés. À ce jour, nous n'avons jamais eu de vitre fissurée après une de nos poses.",
+        },
+        {
+          question: "Comment savoir si mon verre est trempé ?",
+          answer: "Selon le guide d'Eastman, le verre trempé porte toujours un marquage dans un coin de la vitre. S'il n'y en a aucun, il faut considérer que le verre est ordinaire (recuit), le type le plus courant.",
+        },
+        {
+          question: "Le film annule-t-il la garantie de mes fenêtres ?",
+          answer: "Ça dépend du fabricant de vos fenêtres. Si elles sont encore sous garantie, relisez les conditions ou demandez-lui son avis avant la pose. Certains verriers, comme Glas Trösch, déconseillent par principe tout film sur un vitrage isolant.",
+        },
+        {
+          question: "Faut-il poser le film à l'extérieur sur un double vitrage ?",
+          answer: "Pas forcément. La pose intérieure dure plus longtemps et convient dans la plupart des cas. La pose extérieure arrête le soleil avant le double vitrage et chauffe moins le verre : elle se justifie pour un triple vitrage, une vitre très ensoleillée, ou si un animal risque de griffer le film.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -3965,6 +4139,180 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: 'film-double-vitrage-casse-thermique',
+      title: "Raamfolie op dubbel glas: kans op breuk, en binnen of buiten plaatsen?",
+      metaTitle: "Raamfolie op dubbel glas: breukrisico en plaatsing",
+      metaDescription:
+        "Kan raamfolie dubbel glas doen barsten? Wat thermische breuk veroorzaakt, welke folies u beter vermijdt, en wanneer u de folie binnen of buiten plaatst.",
+      date: '2026-11-09',
+      excerpt:
+        "Kan zonwerende folie dubbel glas doen barsten? Het eerlijke antwoord, de cijfers van een foliefabrikant, en de keuze tussen plaatsing binnen en buiten.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Is de folie geschikt voor mijn dubbel glas, zonder risico op breuk?\" Die vraag krijgen we geregeld voor een prijsraming, en ze is terecht: een slecht gekozen folie kan een ruit door warmte doen barsten. Hieronder leest u wat er in het glas gebeurt, welke situaties riskant zijn, wat folie- en glasfabrikanten zeggen, en hoe u kiest tussen plaatsing aan de binnenkant en aan de buitenkant.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord: ja, als folie en ruit bij elkaar passen",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Ja, op de meeste dubbele beglazing kan folie. Maar niet om het even welke folie op om het even welke ruit. Het risico heet thermische breuk: de ruit barst omdat ze ongelijk opwarmt. Met een geschikte folie op een ruit in goede staat is dat risico klein. Het stijgt met donkere folies die veel warmte opnemen, beschadigde ruiten en gedeeltelijke schaduw.",
+            "Ter vergelijking: tot nu toe is er na geen enkele van onze plaatsingen een ruit gebarsten. Dat is onze ervaring, geen garantie voor elke ruit, en daarom bekijken we elke beglazing voor we plaatsen.",
+          ],
+        },
+        {
+          heading: "Wat is thermische breuk?",
+          anchor: 'casse-thermique',
+          paragraphs: [
+            "In de zon warmt het midden van de ruit op en zet het uit. De randen, in het raamkader en in de schaduw, blijven koeler. Glas verdraagt dat verschil slecht: wordt de spanning te groot, dan barst het. Volgens Contra Vision, fabrikant van folies voor beglazing, vertrekt de barst meestal vanaf de rand, op een plek waar het glas al een zwak punt had, zoals een klein schilfertje.",
+            "Het verschijnsel bestaat ook zonder folie. De Zwitserse glasfabrikant Glas Trösch noemt radiatoren, warmeluchtroosters of donkere meubels te dicht bij de ruit, en raadt aan ze minstens 30 cm ervan te houden. Folie voegt een factor toe: ze neemt een deel van de zonnestraling op, waardoor de ruit waarop ze kleeft meer opwarmt. Hoe meer de folie opneemt, hoe groter het risico.",
+            "Het soort glas speelt een grote rol. Volgens de Europese vereniging van raamfoliefabrikanten (EWFA) breekt gehard glas in een gebouw niet door warmte, behalve bij brand, en is thermisch versterkt glas nauwelijks gevoelig. Gewoon glas, gegloeid of \"float\" genoemd, komt het vaakst voor. Dat kan wel breken, en daarvoor moet de compatibiliteit altijd gecontroleerd worden.",
+          ],
+        },
+        {
+          heading: "Waarom dubbel glas meer aandacht vraagt",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "Op dubbel glas komt de folie op de ruit aan de kamerkant. Een deel van de warmte die ze terugkaatst, gaat dan naar de luchtspouw tussen beide ruiten in plaats van rechtstreeks naar buiten. Een expert van de internationale vereniging van raamfoliefabrikanten (IWFA), geciteerd door het magazine Architect, legt het zo uit: de buitenste ruit raakt die warmte moeilijker kwijt, en het glas kan een te grote thermische spanning krijgen.",
+            "De compatibiliteitstabellen van fabrikanten bevestigen dat. In die van Eastman, de fabrikant van SunTek-folies, krijgt dezelfde folie een hogere spanningsscore op helder dubbel glas dan op helder enkel glas. De fabrikant noemt ook een risico dat eigen is aan dubbel glas: het falen van de afdichting tussen beide ruiten. Contra Vision stelt dubbel glas met een lage-emissiecoating (\"low-e\") op zijn beurt gelijk aan een gemiddeld risico.",
+            "Heeft uw dubbel glas al zonwerend glas? Dan is folie niet altijd nuttig: ons artikel [geïntegreerde zonwerende beglazing of folie](/nl/blog/vitrage-controle-solaire-integre-ou-film) legt het verschil uit.",
+          ],
+        },
+        {
+          heading: "Wat het risico verhoogt",
+          anchor: 'facteurs',
+          paragraphs: [
+            "De handleiding van Eastman telt spanningspunten op volgens de situatie van de ruit. Dit zijn de belangrijkste factoren:",
+          ],
+          table: {
+            headers: ["Situatie", "Waarom het een risico is", "Wat we ermee doen"],
+            rows: [
+              ["Donkere folie die veel warmte opneemt", "De ruit warmt meer op", "Een folie kiezen die weerkaatst in plaats van opneemt"],
+              ["Gedeeltelijke schaduw op de ruit (balkon, boom, buurmuur)", "Eén zone warmt op in de zon, de andere blijft koud. De handleiding telt 1 tot 3 punten bij, afhankelijk van de vorm van de schaduw", "Kijken waar de schaduwen in de loop van de dag vallen"],
+              ["Afgeschilferde randen of beschadigde ruit", "De barst vertrekt vanuit een zwak punt. De handleiding stelt afgeschilferde randen gelijk aan \"niet aanbevolen\"", "Het gebrek melden voor elke plaatsing"],
+              ["Zeer grote ruit", "De spanning stijgt met de grootte. De handleiding telt 1 punt bij tussen ongeveer 4,6 en 9,3 m², en raadt het daarboven af", "De oppervlakte van elke ruit controleren"],
+              ["Rolgordijn, dik gordijn of donker meubel tegen de ruit", "De warmte blijft tegen het glas hangen. De handleiding telt 1 punt bij onder 10 cm", "Wat ruimte laten tussen ruit en rolgordijn"],
+              ["Beschadigde of ontbrekende dichting in het kader", "Het glas kan minder vrij uitzetten", "De staat van de dichtingen controleren"],
+              ["Folie op slechts een deel van de ruit", "Twee zones warmen verschillend op", "Altijd de hele ruit bedekken"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Dat laatste punt is een regel die we altijd toepassen voor spiegel- en zonwerende folie: onze [gids om uw folie te kiezen](/nl/blog/quel-film-choisir-vitrages) legt uit waarom we nooit folie op slechts een deel van een ruit plaatsen.",
+          ],
+        },
+        {
+          heading: "Spiegelfolie, matwit of getint: welke warmt de ruit het meest op?",
+          anchor: 'quel-film',
+          paragraphs: [
+            "Dit is het meest sprekende deel van de tabel van Eastman. Elke folie krijgt er een basisscore, die hoger is naarmate ze meer warmte opneemt. Op helder dubbel glas van ongeveer 3 mm:",
+          ],
+          table: {
+            headers: ["Folie (SunTek-gamma)", "Score op helder dubbel glas"],
+            rows: [
+              ["Transparante veiligheidsfolie", "2"],
+              ["Zilveren spiegelfolie, 20 % lichtdoorlating", "6"],
+              ["Matwitte folie", "7"],
+              ["Neutraal getinte folie, 20 % lichtdoorlating", "11"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Bij die score komen de punten van de situatie (schaduw, grootte, rolgordijn...). De fabrikant laat de plaatsing dan toe volgens het totaal: tot 10 op elk glas, tot 14 alleen op thermisch versterkt of gehard glas, tot 18 alleen op gehard glas, en daarboven helemaal niet.",
+            "Een voorbeeld: een T-vormige schaduw van een balkon telt 3 punten bij. De spiegelfolie gaat van 6 naar 9 en blijft plaatsbaar op gewoon glas. De neutraal getinte folie gaat van 11 naar 14: die past dan nog alleen op thermisch versterkt of gehard glas. Bij gelijke lichtdoorlating warmt een folie die weerkaatst de ruit dus duidelijk minder op dan een folie die opneemt.",
+            "Eerlijk is eerlijk: deze scores gelden voor SunTek-folies, niet voor de folies die wij plaatsen, en van onze leverancier hebben we geen vergelijkbare tabel. Ze helpen om de logica te begrijpen, en die geldt voor alle folies. Het is een van de redenen waarom we tegen warmte [spiegelfolie](/nl/blog/film-miroir-vitrage-bruxelles) aanraden. Ook [matwitte folie](/nl/blog/film-blanc-mat-vitrage-bruxelles) blijft in een gematigde zone. En een transparante veiligheidsfolie, zoals in ons [artikel over inbraakwerende folie](/nl/blog/film-securite-anti-effraction-vitrage), warmt het glas nauwelijks op.",
+          ],
+        },
+        {
+          heading: "Wat glasfabrikanten zeggen",
+          anchor: 'avis-verriers',
+          paragraphs: [
+            "Zij zijn voorzichtiger dan foliefabrikanten. In zijn fiche over thermische breuk schrijft glasfabrikant Glas Trösch dat isolerende beglazing niet geverfd of met folie bedekt mag worden. Voorzichtiger kan niet, en het is logisch dat een fabrikant van beglazing dat standpunt inneemt.",
+            "In de praktijk twee eenvoudige reflexen. Zijn uw ramen recent en nog onder garantie, lees dan de voorwaarden na of vraag de fabrikant om advies voor de plaatsing. En vraag uw plaatser waarop hij zich baseert: het magazine Architect, dat de IWFA citeert, raadt aan de folie-glasrichtlijnen van de foliefabrikant schriftelijk te vragen, samen met de garanties op folie, beglazing en afdichting.",
+          ],
+        },
+        {
+          heading: "Binnen of buiten plaatsen: wat verandert er?",
+          anchor: 'interieure-exterieure',
+          paragraphs: [
+            "Meestal plaatsen we de folie aan de binnenkant. Maar plaatsing aan de buitenkant bestaat ook en heeft in sommige gevallen echte voordelen. De folies die wij plaatsen, kunnen aan beide kanten gekleefd worden.",
+          ],
+          table: {
+            headers: ["", "Binnenkant", "Buitenkant"],
+            rows: [
+              ["Levensduur", "De langste, geschat op 10 tot 15 jaar: de folie is beschermd tegen vuil, kou en regen", "Korter: de folie staat bloot aan weer en wind en aan het wassen"],
+              ["Warmte", "Doeltreffend, maar op dubbel glas blijft een deel van de teruggekaatste warmte in de luchtspouw", "De zon wordt tegengehouden voor ze het dubbel glas binnenkomt"],
+              ["Spanning op het glas", "De ruit aan de kamerkant warmt op", "Lager in de tabel van Eastman: 4 in plaats van 6 voor de vergelijkbare zilveren folie op helder dubbel glas"],
+              ["Huisdieren", "Een hond of kat kan de folie bekrassen", "De folie is buiten bereik"],
+              ["Omstandigheden", "Bij elk weer mogelijk", "Vraagt goed weer en veilige toegang tot de ruit"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Ons advies: in de overgrote meerderheid van de gevallen binnen plaatsen, voor de levensduur. Buiten plaatsen is het overwegen waard als een huisdier de folie kan beschadigen, als de ruit veel zon krijgt, of bij driedubbel glas. Bij een hoog raam kan de toegang langs buiten het ook moeilijk of zelfs onmogelijk maken.",
+            "Wat folie echt verandert tegen warmte, aan welke kant ook, leest u in ons artikel [warmtewerende raamfolie: werkt het echt?](/nl/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "En driedubbel glas?",
+          anchor: 'triple-vitrage',
+          paragraphs: [
+            "Aan de binnenkant overheerst de voorzichtigheid. Contra Vision stelt driedubbel glas gelijk aan een hoog risico en raadt folie aan de binnenkant af. In de tabel van Eastman krijgen verschillende binnenfolies er de vermelding \"niet aanbevolen\". De Britse verkoper Streme schrijft dat zijn folies, bedoeld voor binnen, niet op driedubbel glas geplaatst mogen worden.",
+            "Met een folie voor buitengebruik ligt het anders. De tabel van Eastman voor zijn buitenfolies geeft de zilveren folie een score van 5 op helder driedubbel glas, dus binnen de zone die voor elk glas is toegestaan. Daarom raden we bij driedubbel glas plaatsing aan de buitenkant aan.",
+          ],
+        },
+        {
+          heading: "Wat we controleren voor we plaatsen",
+          anchor: 'visite',
+          paragraphs: [
+            "Voor elke plaatsing komen we de beglazing bekijken. We kijken naar de staat van de ramen, de staat van de dichtingen, de toegang tot elke ruit en het soort beglazing: enkel, dubbel of driedubbel. En vooral naar uw probleem: warmte, inkijk of veiligheid. Zo kunnen we u de juiste folie aanraden, en de juiste kant om ze te plaatsen.",
+            "Lijkt een ruit ons beschadigd of riskant, dan zeggen we het u voor de plaatsing. En ziet u condens tussen beide ruiten, dan is het dubbel glas niet meer dicht: folie verandert daar niets aan, zoals ons artikel [ramen vervangen of folie plaatsen](/nl/blog/remplacer-fenetres-ou-film-vitrage) uitlegt.",
+            "Het bezoek is gratis in Brussel en kost 50 € daarbuiten. Ons [artikel over de stappen van een project](/nl/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het vervolg, en het [artikel over de prijzen](/nl/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de prijsraming wordt berekend.",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Window Films (2021, in het Engels)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Exterior Window Films (2020, in het Engels)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/exterior-film-to-glass-recommendations.pdf)",
+            "[EWFA, op Glassonweb: Thermal Stress, Film-to-Glass Compatibility (2012, in het Engels)](https://www.glassonweb.com/article/thermal-stress-film-glass-compatibility)",
+            "[Glas Trösch: technische fiche \"Bris de verre par choc thermique\" (in het Frans)](https://glastroesch.com/fileadmin/user_upload/Service/Fachwissen/Merkblaetter/FR/13_Bris_de_verre_par_choc_thermique_FR.pdf)",
+            "[Contra Vision: Thermal Fracture of Glass, Risks (in het Engels)](https://www.contravision.com/technical-hub/thermal-fracture-of-glass-risks/)",
+            "[Architect Magazine: The Effects of Window Films Go Beyond the Surface (april 2012, in het Engels)](https://www.architectmagazine.com/technology/products/the-effects-of-window-films-go-beyond-the-surface_o/)",
+            "[Streme: Film compatibility (in het Engels)](https://www.streme.co.uk/uploads/files/Film%20compatibility.pdf)",
+          ],
+        },
+        {
+          heading: "Twijfelt u over uw dubbel glas?",
+          paragraphs: [
+            "Neem contact met ons op: we adviseren u gratis volgens uw situatie en antwoorden binnen 24 uur.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Kan raamfolie dubbel glas doen barsten?",
+          answer: "Dat kan, maar het is zeldzaam met een geschikte folie op een ruit in goede staat. Het risico stijgt met donkere folies die warmte opnemen, gedeeltelijke schaduw, zeer grote ruiten en beschadigde randen. Tot nu toe is er na geen enkele van onze plaatsingen een ruit gebarsten.",
+        },
+        {
+          question: "Hoe weet ik of mijn glas gehard is?",
+          answer: "Volgens de handleiding van Eastman heeft gehard glas altijd een markering in een hoek van de ruit. Is er geen, dan gaat u ervan uit dat het om gewoon (gegloeid) glas gaat, het meest voorkomende type.",
+        },
+        {
+          question: "Vervalt de garantie op mijn ramen door folie?",
+          answer: "Dat hangt af van de fabrikant van uw ramen. Zijn ze nog onder garantie, lees dan de voorwaarden na of vraag de fabrikant om advies voor de plaatsing. Sommige glasfabrikanten, zoals Glas Trösch, raden folie op isolerende beglazing principieel af.",
+        },
+        {
+          question: "Moet folie op dubbel glas aan de buitenkant?",
+          answer: "Niet per se. Binnen geplaatste folie gaat langer mee en volstaat in de meeste gevallen. Buiten geplaatste folie houdt de zon tegen voor het dubbel glas en warmt het glas minder op: ze is zinvol bij driedubbel glas, een ruit met veel zon, of als een huisdier de folie kan bekrassen.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -5930,6 +6278,180 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Does shop-bought heat-control film do the same job?",
           answer: "Not necessarily. First check that the packaging gives total solar energy rejected, not just infrared or UV: without that figure, you can't compare. Wet application on a large pane also takes practice to avoid bubbles and creases.",
+        },
+      ],
+    },
+    {
+      slug: 'film-double-vitrage-casse-thermique',
+      title: "Window film on double glazing: risk of cracking, and inside or outside fitting?",
+      metaTitle: "Window Film on Double Glazing: Cracking Risk and Fitting",
+      metaDescription:
+        "Can window film crack double glazing? What causes thermal breakage, which films to avoid, and when to fit the film on the inside or the outside of the glass.",
+      date: '2026-11-09',
+      excerpt:
+        "Can solar film crack double glazing? The honest answer, a film manufacturer's figures, and how to choose between fitting the film inside or outside.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Is the film compatible with my double glazing, with no risk of cracking?\" We're asked this regularly before giving an estimate, and it's a fair question: the wrong film can make a pane crack from heat. Here's what happens inside the glass, which situations are risky, what film and glass manufacturers say, and how to choose between fitting the film on the inside or the outside.",
+          ],
+        },
+        {
+          heading: "The short answer: yes, if the film and the glass are a good match",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Yes, most double glazing can take window film. But not any film on any pane. The risk is called thermal breakage: the glass cracks because it heats up unevenly. With a suitable film on glass in good condition, the risk is low. It rises with dark films that absorb a lot of heat, damaged panes and partial shade.",
+            "For reference: to date, we have never had a pane crack after one of our installations. That's our experience, not a guarantee for every window, which is why we look at every glazing unit before we fit anything.",
+          ],
+        },
+        {
+          heading: "What is thermal breakage?",
+          anchor: 'casse-thermique',
+          paragraphs: [
+            "In the sun, the centre of the pane heats up and expands. The edges, held in the frame and shaded, stay cooler. Glass copes badly with this difference: when the tension gets too high, it cracks. According to Contra Vision, a maker of films for glazing, the crack usually starts at the edge, where the glass already had a weak point such as a small chip.",
+            "It happens without film too. The Swiss glass maker Glas Trösch mentions radiators, warm air vents and dark furniture placed too close to the glass, and recommends keeping them at least 30 cm away. Film adds one more factor: it absorbs part of the sun's radiation, so the pane it's stuck to gets hotter. The more the film absorbs, the higher the risk.",
+            "The type of glass matters a lot. According to the European Window Film Association (EWFA), tempered glass doesn't break from heat in a building, except in a fire, and heat-strengthened glass is very unlikely to. Ordinary glass, called annealed or \"float\" glass, is the most common. That's the type that can break, and its compatibility should always be checked.",
+          ],
+        },
+        {
+          heading: "Why double glazing needs more care",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "On double glazing, the film goes on the room-side pane. Part of the heat it reflects then goes back into the air gap between the two panes instead of straight outside. An expert from the International Window Film Association (IWFA), quoted by Architect magazine, puts it this way: the outer pane finds it harder to get rid of that heat, and the glass can experience excessive thermal stress.",
+            "Manufacturers' compatibility tables point the same way. In the one from Eastman, maker of SunTek films, the same film gets a higher stress score on clear double glazing than on clear single glazing. The manufacturer also mentions a risk specific to double glazing: failure of the seal between the two panes. Contra Vision, for its part, rates low-emissivity (\"low-e\") double glazing as medium risk.",
+            "If your double glazing already has solar control glass, film isn't always useful: our article [integrated solar control glazing or film](/en/blog/vitrage-controle-solaire-integre-ou-film) explains the difference.",
+          ],
+        },
+        {
+          heading: "What increases the risk",
+          anchor: 'facteurs',
+          paragraphs: [
+            "Eastman's guide adds stress points depending on the pane's situation. Here are the main factors:",
+          ],
+          table: {
+            headers: ["Situation", "Why it's a risk", "What we do about it"],
+            rows: [
+              ["Dark film that absorbs a lot", "The pane gets hotter", "Choose a film that reflects rather than absorbs"],
+              ["Partial shade on the pane (balcony, tree, neighbouring wall)", "One area heats in the sun while the other stays cold. The guide adds 1 to 3 points depending on the shape of the shadow", "Check where shadows fall during the day"],
+              ["Chipped edges or damaged glass", "The crack starts from a weak point. The guide rates chipped edges as \"not recommended\"", "Flag the defect before any installation"],
+              ["Very large pane", "Stress increases with size. The guide adds 1 point between roughly 4.6 and 9.3 m², and advises against it above that", "Check the area of each pane"],
+              ["Blind, heavy curtain or dark furniture against the glass", "Heat gets trapped against the glass. The guide adds 1 point under 10 cm", "Leave some space between the glass and the blind"],
+              ["Damaged or missing frame gasket", "The glass can't expand as freely", "Check the condition of the gaskets"],
+              ["Film on only part of the pane", "Two areas heat up differently", "Always cover the whole pane"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "That last point is a rule we always follow for mirror and solar films: our [guide to choosing your film](/en/blog/quel-film-choisir-vitrages) explains why we never fit film on just part of a pane.",
+          ],
+        },
+        {
+          heading: "Mirror, matte white or tinted: which film heats the glass most?",
+          anchor: 'quel-film',
+          paragraphs: [
+            "This is the most telling part of Eastman's table. Each film gets a base score, which is higher the more heat it absorbs. On clear double glazing about 3 mm thick:",
+          ],
+          table: {
+            headers: ["Film (SunTek range)", "Score on clear double glazing"],
+            rows: [
+              ["Clear safety film", "2"],
+              ["Silver mirror film, 20 % light transmission", "6"],
+              ["Matte white film", "7"],
+              ["Neutral tinted film, 20 % light transmission", "11"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "The points for the pane's situation (shade, size, blind...) are added to this score. The manufacturer then allows installation according to the total: up to 10 on any glass, up to 14 only on heat-strengthened or tempered glass, up to 18 only on tempered glass, and above that, not at all.",
+            "An example: a T-shaped balcony shadow adds 3 points. The mirror film goes from 6 to 9 and can still go on ordinary glass. The neutral tinted film goes from 11 to 14: it's now only suitable for heat-strengthened or tempered glass. For the same light transmission, a film that reflects heats the glass much less than one that absorbs.",
+            "To be honest: these scores apply to SunTek films, not the ones we fit, and we don't have an equivalent table from our supplier. They're useful for understanding the logic, which applies to all films. It's one of the reasons we recommend [mirror effect film](/en/blog/film-miroir-vitrage-bruxelles) against heat. [Matte white film](/en/blog/film-blanc-mat-vitrage-bruxelles) also stays in a moderate range. And a clear safety film, like the one in our [article on security film](/en/blog/film-securite-anti-effraction-vitrage), barely heats the glass.",
+          ],
+        },
+        {
+          heading: "What glass manufacturers say",
+          anchor: 'avis-verriers',
+          paragraphs: [
+            "They're more cautious than film manufacturers. In its sheet on thermal breakage, the glass maker Glas Trösch writes that insulating glass units must not be painted or covered with film. That's the most cautious position possible, and it makes sense for a glazing manufacturer to take it.",
+            "In practice, two simple reflexes. If your windows are recent and still under warranty, reread the terms or ask the manufacturer before fitting. And ask your installer what they base their advice on: Architect magazine, quoting the IWFA, recommends getting the film maker's film-to-glass guidelines in writing, along with the warranties on the film, the glazing and its seals.",
+          ],
+        },
+        {
+          heading: "Inside or outside fitting: what changes",
+          anchor: 'interieure-exterieure',
+          paragraphs: [
+            "Most of the time, we fit the film on the inside. But outside fitting exists and has real advantages in some cases. The films we fit can be applied on either side.",
+          ],
+          table: {
+            headers: ["", "Inside", "Outside"],
+            rows: [
+              ["Lifespan", "The longest, estimated at 10 to 15 years: the film is protected from dirt, cold and rain", "Shorter: the film is exposed to the weather and to cleaning"],
+              ["Heat", "Effective, but on double glazing part of the reflected heat stays in the air gap", "The sun is stopped before it enters the double glazing"],
+              ["Stress on the glass", "The room-side pane heats up", "Lower in Eastman's table: 4 instead of 6 for the equivalent silver film on clear double glazing"],
+              ["Pets", "A dog or cat can scratch the film", "The film is out of reach"],
+              ["Fitting conditions", "Possible in any weather", "Needs good weather and safe access to the glass"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Our advice: fit inside in the vast majority of cases, for the lifespan. Outside fitting is worth considering when a pet could damage the film, when the pane gets a lot of sun, or for triple glazing. For a high window, outside access can also make it difficult or even impossible.",
+            "To find out what film really changes against heat, whichever side it's on, read our article [heat-control window film: does it really work?](/en/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "What about triple glazing?",
+          anchor: 'triple-vitrage',
+          paragraphs: [
+            "On the inside, caution prevails. Contra Vision rates triple glazing as high risk and advises against film fitted on the inside. In Eastman's table, several interior films are rated \"not recommended\" on it. The UK retailer Streme states that its films, designed for inside use, must not be fitted to triple glazing.",
+            "With a film designed for outside use, things are different. Eastman's table for its exterior films gives the silver film a score of 5 on clear triple glazing, within the range allowed for any glass. That's why, on triple glazing, we recommend fitting the film on the outside.",
+          ],
+        },
+        {
+          heading: "What we check before fitting",
+          anchor: 'visite',
+          paragraphs: [
+            "Before every installation, we come and look at the glazing. We check the condition of the windows, the condition of the seals, access to each pane, and the type of glazing: single, double or triple. Above all, we look at your problem, whether it's heat, being overlooked or security. That's what lets us recommend the right film, and the right side to fit it on.",
+            "If a pane looks damaged or risky to us, we tell you before fitting. And if you see condensation between the two panes, the double glazing is no longer sealed: film won't change that, as our article [replace your windows or add film](/en/blog/remplacer-fenetres-ou-film-vitrage) explains.",
+            "The visit is free in Brussels and costs €50 outside. Our [article on the steps of a project](/en/blog/etapes-projet-film-vitrage-bruxelles) covers what happens next, and the [article on pricing](/en/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Window Films (2021)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Exterior Window Films (2020)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/exterior-film-to-glass-recommendations.pdf)",
+            "[EWFA, on Glassonweb: Thermal Stress, Film-to-Glass Compatibility (2012)](https://www.glassonweb.com/article/thermal-stress-film-glass-compatibility)",
+            "[Glas Trösch: technical sheet 'Bris de verre par choc thermique' (in French)](https://glastroesch.com/fileadmin/user_upload/Service/Fachwissen/Merkblaetter/FR/13_Bris_de_verre_par_choc_thermique_FR.pdf)",
+            "[Contra Vision: Thermal Fracture of Glass, Risks](https://www.contravision.com/technical-hub/thermal-fracture-of-glass-risks/)",
+            "[Architect Magazine: The Effects of Window Films Go Beyond the Surface (April 2012)](https://www.architectmagazine.com/technology/products/the-effects-of-window-films-go-beyond-the-surface_o/)",
+            "[Streme: Film compatibility](https://www.streme.co.uk/uploads/files/Film%20compatibility.pdf)",
+          ],
+        },
+        {
+          heading: "Double glazing and still unsure?",
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Can window film crack double glazing?",
+          answer: "It can, but it's rare with a suitable film on glass in good condition. The risk rises with dark films that absorb heat, partial shade, very large panes and damaged edges. To date, we have never had a pane crack after one of our installations.",
+        },
+        {
+          question: "How can I tell if my glass is tempered?",
+          answer: "According to Eastman's guide, tempered glass always has a mark in one corner of the pane. If there isn't one, assume the glass is ordinary (annealed), the most common type.",
+        },
+        {
+          question: "Does window film void my windows' warranty?",
+          answer: "It depends on your window manufacturer. If your windows are still under warranty, reread the terms or ask the manufacturer before fitting. Some glass makers, such as Glas Trösch, advise against any film on insulating glass units as a matter of principle.",
+        },
+        {
+          question: "Should film go on the outside of double glazing?",
+          answer: "Not necessarily. Inside fitting lasts longer and suits most cases. Outside fitting stops the sun before it reaches the double glazing and heats the glass less: it makes sense for triple glazing, a very sunny pane, or if a pet could scratch the film.",
         },
       ],
     },

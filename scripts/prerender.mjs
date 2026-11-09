@@ -860,6 +860,35 @@ const blogArticles = [
       dateModified: '2026-11-04',
     },
   },
+},
+{
+  path: '/blog/film-double-vitrage-casse-thermique',
+  meta: {
+    FR: {
+      title: "Film sur double vitrage : risque de casse et type de pose — VitraCare",
+      description:
+        "Un film peut-il faire casser un double vitrage ? Les causes de la casse thermique, les films à éviter, et quand poser le film à l'intérieur ou à l'extérieur.",
+      headline: "Film sur double vitrage : quel risque de casse, et pose intérieure ou extérieure ?",
+      datePublished: '2026-11-09',
+      dateModified: '2026-11-09',
+    },
+    NL: {
+      title: 'Raamfolie op dubbel glas: breukrisico en plaatsing — VitraCare',
+      description:
+        'Kan raamfolie dubbel glas doen barsten? Wat thermische breuk veroorzaakt, welke folies u beter vermijdt, en wanneer u de folie binnen of buiten plaatst.',
+      headline: 'Raamfolie op dubbel glas: kans op breuk, en binnen of buiten plaatsen?',
+      datePublished: '2026-11-09',
+      dateModified: '2026-11-09',
+    },
+    EN: {
+      title: 'Window Film on Double Glazing: Cracking Risk and Fitting — VitraCare',
+      description:
+        'Can window film crack double glazing? What causes thermal breakage, which films to avoid, and when to fit the film on the inside or the outside of the glass.',
+      headline: 'Window film on double glazing: risk of cracking, and inside or outside fitting?',
+      datePublished: '2026-11-09',
+      dateModified: '2026-11-09',
+    },
+  },
 },];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

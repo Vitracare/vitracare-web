@@ -1,6 +1,9 @@
 {
   "redirects": [
-    { "source": "/(.+)/", "destination": "/$1", "permanent": true }
+    { "source": "/(.+)/", "destination": "/$1", "permanent": true },
+    { "source": "/blog/film-miroir-argente-ou-noir", "destination": "/blog/protection-uv-film-vitrage-bruxelles", "permanent": true },
+    { "source": "/nl/blog/film-miroir-argente-ou-noir", "destination": "/nl/blog/protection-uv-film-vitrage-bruxelles", "permanent": true },
+    { "source": "/en/blog/film-miroir-argente-ou-noir", "destination": "/en/blog/protection-uv-film-vitrage-bruxelles", "permanent": true }
   ],
   "rewrites": [
     { "source": "/", "destination": "/index.html" },

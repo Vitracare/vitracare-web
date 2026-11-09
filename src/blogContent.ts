@@ -2006,6 +2006,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-09',
       excerpt:
         "Un film solaire peut-il fissurer un double vitrage ? La réponse honnête, les chiffres d'un fabricant de films, et le choix entre pose intérieure et pose extérieure.",
+      heroImage: { src: '/images/blog/illus-film-double-vitrage-casse-thermique.jpg', alt: "Illustration en deux scènes d'une fenêtre en double vitrage vue en coupe devant une façade bruxelloise : à gauche, les rayons du soleil traversent la vitre qui chauffe, avec un thermomètre rouge et bleu et une petite fissure ; à droite, la même fenêtre équipée d'un film miroir renvoie une partie des rayons, le thermomètre est au vert et un chat est assis sur l'appui de fenêtre.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [
@@ -4148,6 +4149,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-09',
       excerpt:
         "Kan zonwerende folie dubbel glas doen barsten? Het eerlijke antwoord, de cijfers van een foliefabrikant, en de keuze tussen plaatsing binnen en buiten.",
+      heroImage: { src: '/images/blog/illus-film-double-vitrage-casse-thermique.jpg', alt: "Illustratie in twee scènes van een raam met dubbel glas in doorsnede voor een Brusselse gevel: links gaan de zonnestralen door de ruit, die opwarmt, met een rood-blauwe thermometer en een kleine barst; rechts kaatst hetzelfde raam met spiegelfolie een deel van de stralen terug, staat de thermometer op groen en zit er een kat op de vensterbank.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [
@@ -6290,6 +6292,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-09',
       excerpt:
         "Can solar film crack double glazing? The honest answer, a film manufacturer's figures, and how to choose between fitting the film inside or outside.",
+      heroImage: { src: '/images/blog/illus-film-double-vitrage-casse-thermique.jpg', alt: "Two-scene illustration of a double-glazed window shown in cross-section in front of a Brussels facade: on the left, sunlight passes through the heating pane, with a red and blue thermometer and a small crack; on the right, the same window fitted with mirror film reflects part of the rays, the thermometer is green and a cat sits on the windowsill.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [

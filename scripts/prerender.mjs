@@ -249,6 +249,7 @@ const blogArticleImages = {
   'film-porte-entree-vitree': '/images/blog/illus-film-porte-entree-vitree.jpg',
   'velux-fenetre-de-toit-anti-chaleur': '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg',
   'film-fenetre-anti-chaleur-efficace': '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg',
+  'film-double-vitrage-casse-thermique': '/images/blog/illus-film-double-vitrage-casse-thermique.jpg',
 };
 
 const blogArticles = [

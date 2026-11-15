@@ -2172,6 +2172,166 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: "film-vitrage-apres-pose-bulles-entretien",
+      title: "Film pour vitrage après la pose : bulles, voile, séchage et entretien",
+      metaTitle: "Film vitrage après la pose : bulles, séchage et entretien",
+      metaDescription:
+        "Bulles ou voile après la pose d'un film ? Combien de temps dure le séchage, ce qu'il faut éviter, comment nettoyer le film et quand appeler votre poseur.",
+      date: '2026-11-15',
+      excerpt:
+        "Petites bulles, aspect laiteux : ce qui est normal après la pose d'un film, combien de temps il faut attendre, comment nettoyer ensuite, et les signes qui ne le sont pas.",
+      sections: [
+        {
+          paragraphs: [
+            "Juste après la pose, un film peut paraître légèrement trouble ou laisser voir quelques petites bulles. Dans la grande majorité des cas, c'est normal et ça part tout seul. Voici d'où ça vient, combien de temps ça dure, ce qu'il vaut mieux éviter pendant ce temps, comment nettoyer le film ensuite, et les quelques signes qui, eux, méritent un coup de fil.",
+          ],
+        },
+        {
+          heading: "La réponse courte",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Les petites bulles d'eau et le voile laiteux des premiers jours sont normaux : c'est l'eau de pose qui sèche. Le film continue d'adhérer à la vitre pendant environ un mois, plus longtemps s'il fait froid, si la fenêtre reçoit peu de soleil ou si le film est épais.",
+            "Pendant ce mois, on ne touche pas les bulles, on ne les perce pas et on ne nettoie pas la vitre. Ensuite, de l'eau froide ou tiède avec un savon doux suffit. Un bord qui se soulève, un pli ou une bulle qui n'a pas bougé après le séchage, en revanche, ne sont pas normaux.",
+          ],
+        },
+        {
+          heading: "D'où viennent les bulles et le voile ?",
+          anchor: 'origine',
+          paragraphs: [
+            "Un film pour vitrage se pose à l'eau. On pulvérise une solution d'eau et de savon sur la vitre, ce qui permet de placer le film exactement où il faut, puis on chasse l'eau à la raclette. L'association internationale des films pour vitrages (IWFA) le rappelle dans son guide d'inspection : on retire l'excédent, mais il reste forcément un peu d'eau entre le film et le verre.",
+            "C'est cette eau qui donne l'aspect légèrement laiteux ou les petites bulles des premiers jours. En s'évaporant à travers le film, elle disparaît, et le film colle de mieux en mieux. Le même guide précise que les bulles d'eau, les légères déformations et le voile pendant le séchage ne doivent pas être considérés comme des défauts.",
+            "C'est aussi ce que nous voyons après nos poses : pendant une trentaine de jours, le film continue de se coller à la vitre, et les petites bulles disparaissent avec la chaleur et le temps.",
+          ],
+        },
+        {
+          heading: "Combien de temps dure le séchage ?",
+          anchor: 'duree-sechage',
+          paragraphs: [
+            "Ça dépend surtout de l'épaisseur du film. Le guide de l'IWFA donne ces repères :",
+          ],
+          table: {
+            headers: ["Épaisseur du film", "Temps de séchage habituel"],
+            rows: [
+              ["Jusqu'à 100 microns", "Environ 30 jours"],
+              ["De 100 à 200 microns", "Environ 60 jours"],
+              ["De 200 à 300 microns", "Environ 90 jours"],
+              ["De 300 à 425 microns", "Environ 140 jours"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "La météo joue aussi. Selon Solar Gard, fabricant de films du groupe Saint-Gobain, le temps chaud et le soleil direct raccourcissent le séchage, alors que le froid, un ciel couvert et les films épais l'allongent. Le fabricant parle d'une fourchette qui va de quelques jours à six mois.",
+            "En Belgique, une pose en hiver ou sur une fenêtre orientée au nord prendra donc souvent plus de temps qu'une pose en été sur une baie plein sud. Les films miroir que nous posons font partie des films fins de la première ligne : comptez environ un mois. Un [film anti-effraction](/blog/film-securite-anti-effraction-vitrage), en général plus épais, demande plus de patience.",
+          ],
+        },
+        {
+          heading: "Pendant le séchage : ce qu'il vaut mieux éviter",
+          anchor: 'pendant-sechage',
+          paragraphs: [
+            "Ne touchez pas les bulles et n'appuyez pas dessus. Un poseur américain, dans ses consignes à ses clients, explique que ça ralentit le séchage et peut abîmer le film. Ne les percez pas non plus : une bulle d'eau part d'elle-même.",
+            "Ne nettoyez pas la vitre filmée pendant environ un mois. C'est ce que nous conseillons à nos clients. Les délais varient selon les fabricants et les poseurs, et ce même poseur américain demande d'attendre 45 jours. Le mois sert à laisser la colle prendre sans frotter le film.",
+            "Évitez aussi d'y coller du ruban adhésif ou des autocollants, même ceux qui tiennent sans colle, maintenant comme plus tard : Solar Gard les déconseille, car ils peuvent abîmer la surface du film ou demander des produits agressifs pour les retirer.",
+            "Rassurez-vous : le film agit dès la pose, même s'il n'est pas encore tout à fait sec. L'IWFA note qu'on remarque déjà moins d'éblouissement et plus d'intimité pendant le séchage, et souvent moins de chaleur.",
+          ],
+        },
+        {
+          heading: "Normal ou pas ? Ce que vous voyez sur la vitre",
+          anchor: 'normal-ou-pas',
+          paragraphs: [
+            "Voici les situations les plus courantes après une pose, et ce qu'elles veulent dire :",
+          ],
+          table: {
+            headers: ["Ce que vous voyez", "Normal ?", "Que faire"],
+            rows: [
+              ["Un voile laiteux, une vue un peu trouble", "Oui, c'est l'eau de pose", "Attendre la fin du séchage"],
+              ["De petites bulles d'eau ou de légères déformations", "Oui, pendant le séchage", "Attendre, sans toucher ni percer"],
+              ["Un fin liseré sans film le long du cadre, de quelques millimètres", "Oui, il est voulu", "Rien : il évite que le film touche le cadre et se décolle"],
+              ["Une ligne droite au milieu d'une très grande vitre", "Oui, c'est une jointure", "Rien : elle est nécessaire quand la vitre dépasse la largeur du rouleau dans les deux sens"],
+              ["Un petit point sous le film, avec une bulle qui ne bouge pas", "Pas une bulle d'eau : souvent une poussière ou un cheveu pris à la pose", "Le signaler s'il se voit à distance normale"],
+              ["Un bord qui se soulève, un pli, une déchirure", "Non", "Nous contacter"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Le liseré et la jointure sont prévus par les guides professionnels : l'IWFA et Solar Gard prévoient un petit espace libre de quelques millimètres le long du cadre, 1 à 2 mm pour la plupart des films selon Solar Gard, et l'IWFA précise qu'une jointure droite et parallèle au cadre n'est pas un défaut.",
+            "Si une bulle n'a toujours pas bougé une fois le séchage terminé, ou si un bord se soulève, envoyez-nous une photo. Notre garantie de 2 ans couvre les défauts liés à la pose, comme un décollement ou une bulle due à une mauvaise application. Elle ne couvre pas les dégâts survenus après coup, par exemple une griffure d'animal.",
+          ],
+        },
+        {
+          heading: "Comment juger la pose, comme le font les pros",
+          anchor: 'juger-pose',
+          paragraphs: [
+            "Un film posé n'aura jamais exactement la pureté du verre nu, et les guides professionnels le disent clairement. L'IWFA et Solar Gard décrivent une méthode simple pour juger une pose : regarder la vitre de face, depuis l'intérieur, à au moins 2 mètres, à la lumière du jour mais pas en plein soleil.",
+            "Les petits défauts qui ne se voient pas dans ces conditions sont considérés comme acceptables. Une bande d'environ 5 cm le long du cadre est jugée avec plus d'indulgence : quand le châssis est ancien ou abîmé, quelques poussières y sont difficiles à éviter. Regarder la vitre de très près, à contre-jour, n'est pas la méthode prévue par ces guides : de si près, on voit de minuscules détails invisibles à distance normale.",
+            "Le premier nettoyage complet de la vitre, avant la pose, compte beaucoup pour limiter ces poussières : c'est une étape à part entière, détaillée dans notre article sur les [étapes d'un projet de film](/blog/etapes-projet-film-vitrage-bruxelles). C'est aussi une des différences avec une pose soi-même, comme l'explique notre comparatif entre [film premier prix et pose professionnelle](/blog/film-vitre-premier-prix-ou-pose-professionnelle).",
+          ],
+        },
+        {
+          heading: "Après le séchage : comment nettoyer le film",
+          anchor: 'nettoyage',
+          paragraphs: [
+            "Bonne nouvelle : un film se salit moins vite que le verre. Selon Solar Gard, il est moins poreux, retient moins la saleté et demande des nettoyages moins fréquents.",
+            "Notre conseil est simple : de l'eau froide ou tiède avec un savon doux, par exemple un liquide vaisselle bio. On lave avec un chiffon doux ou une microfibre, et on sèche avec un deuxième chiffon propre ou une raclette en caoutchouc souple. Solar Gard et XPEL recommandent la même chose : un mélange d'eau et de détergent doux.",
+            "À éviter : les éponges à récurer, les brosses à poils durs, les grattoirs et les lames, qui rayent la surface. Utilisez toujours un chiffon propre : un grain de sable resté dans le tissu suffit à rayer le film.",
+          ],
+        },
+        {
+          heading: "Et les nettoyants vitres du commerce ?",
+          anchor: 'produits',
+          paragraphs: [
+            "Sur ce point, les fabricants ne disent pas tous la même chose. Solar Gard écrit que les nettoyants vitres du commerce sont acceptables mais pas nécessaires. Le poseur américain déjà cité demande des produits sans ammoniaque. Et XPEL demande d'éviter les produits agressifs.",
+            "Comme vous ne savez pas toujours ce que contient un nettoyant, nous conseillons de rester à l'eau et au savon doux : ça nettoie très bien, et c'est sans risque pour tous les films. Si quelqu'un nettoie vos vitres à votre place, transmettez-lui simplement ces consignes. Pour un film posé à l'extérieur, Solar Gard conseille de bien rincer la vitre avant de la laver, pour enlever le sable et les poussières qui pourraient rayer le film.",
+            "Si vous préférez ne pas vous en occuper, nous proposons aussi le nettoyage de vitres, filmées ou non.",
+          ],
+        },
+        {
+          heading: "Combien de temps dure un film bien entretenu ?",
+          anchor: 'duree-vie',
+          paragraphs: [
+            "En pose intérieure, la durée de vie d'un film est estimée à 10 à 15 ans. Elle est plus courte en pose extérieure, où le film est exposé aux intempéries et aux lavages : notre article sur le [film sur double vitrage](/blog/film-double-vitrage-casse-thermique) compare les deux types de pose.",
+            "L'entretien ne demande presque rien, mais il compte : un film rayé par une éponge abrasive ou abîmé par un adhésif ne se répare pas : il faut le remplacer. Si vous hésitez encore sur le film à choisir, notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) compare le miroir, le solaire et le blanc mat.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[IWFA : Architectural Visual Inspection Guideline for Applied Window Film (2020, en anglais)](https://iwfa.com/wp-content/uploads/2024/04/Architectural-Visual-Inspection-Guideline-For-Applied-Window-Film.pdf)",
+            "[IWFA : After You Buy (en anglais)](https://iwfa.com/after-you-buy/)",
+            "[Solar Gard (Saint-Gobain) : Visual Inspection & Maintenance of Window Film, bulletin technique (2022, en anglais)](https://www.solargard.com/wp-content/uploads/2026/07/Visual-Inspection-Maintenance-1.pdf)",
+            "[Solar Gard (Saint-Gobain) : Care and Maintenance of Window Film (en anglais)](https://www.solargard.com/blog/care-and-maintenance/care-maintenance-window-film/)",
+            "[XPEL : Commercial Care & Maintenance, window film (en anglais)](https://www.xpel.com/web-assets/downloads/XPEL-Window-Film-Care-And-Maintenance-Final.pdf)",
+            "[Solar Art / American Window Film : consignes d'entretien remises aux clients (2019, en anglais)](https://blog.americanwindowfilm.com/hubfs/Care%20Instructions%202019.pdf)",
+          ],
+        },
+        {
+          heading: "Une question après votre pose ?",
+          paragraphs: [
+            "Contactez-nous : nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Combien de temps faut-il pour que les bulles disparaissent ?",
+          answer: "Pour un film solaire ou miroir, comptez environ un mois. Le séchage est plus long par temps froid ou couvert, sur une fenêtre peu ensoleillée, ou avec un film épais comme un film anti-effraction. Selon Solar Gard, il peut aller de quelques jours à six mois.",
+        },
+        {
+          question: "Peut-on percer une bulle sous le film ?",
+          answer: "Non. Une bulle d'eau disparaît d'elle-même pendant le séchage, et la percer ou appuyer dessus risque d'abîmer le film. Si une bulle reste après le séchage, envoyez une photo à votre poseur.",
+        },
+        {
+          question: "Quand peut-on nettoyer une vitre après la pose d'un film ?",
+          answer: "Nous conseillons d'attendre environ un mois. Ensuite, nettoyez à l'eau froide ou tiède avec un savon doux, avec un chiffon doux ou une microfibre, sans éponge abrasive ni grattoir.",
+        },
+        {
+          question: "Un nettoyant vitres classique abîme-t-il le film ?",
+          answer: "Les fabricants ne sont pas d'accord : certains acceptent les nettoyants du commerce, d'autres demandent des produits sans ammoniaque. Le plus sûr est l'eau avec un savon doux, qui convient à tous les films.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -4041,7 +4201,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Warmtewerende folie verandert die verdeling: ze kaatst meer straling terug en absorbeert er meer, en laat er minder door. Reflecterende folies, zoals spiegeleffectfolie, sturen een deel van de energie terug naar buiten. Zogenaamde selectieve folies richten zich vooral op infrarood en raken weinig aan het zichtbare licht, waardoor ze helderder blijven.",
             "De Amerikaanse federale dienst voor overheidsgebouwen (GSA) liet deze folies evalueren door het Lawrence Berkeley National Laboratory. Volgens de modellen zijn reflecterende folies het doeltreffendst, met tot 29 % besparing op de energie voor verwarming en koeling in warme klimaten. Maar het resultaat hangt sterk af van de bestaande beglazing: de studie noemt de folie rendabel op helder enkel glas, en raadt ze in de meeste klimaten af op dubbel glas dat al getint is (brons). Die cijfers gaan over kantoren in de Verenigde Staten, in Saint Louis en Phoenix. Met mildere Belgische zomers mag u minder verwachten.",
-            "Wat de folie niet doet: ze isoleert niet tegen warme lucht. Als de kamer opwarmt omdat het buiten 30 °C is of omdat het dak slecht geïsoleerd is, verandert de folie daar niets aan. Ze vervangt ook geen buitenzonwering, die de zon tegenhoudt nog voor ze het glas raakt. Volgens gegevens van het WTCB (het Belgische onderzoekscentrum voor de bouw), gepubliceerd door Test-Aankoop, laat een ondoorzichtige buitenzonwering slechts 2 tot 7 % van de zonnestraling door, tegenover 35 tot 59 % voor een ondoorzichtige binnenzonwering. De folie werkt rechtstreeks op het glas. Onze [vergelijking tussen zonwerende folie en buitenscreen](/nl/blog/film-solaire-ou-screen-exterieur-vitrage) helpt u kiezen.",
+            "Wat de folie niet doet: ze isoleert niet tegen warme lucht. Als de kamer opwarmt omdat het buiten 30 °C is of omdat het dak slecht geïsoleerd is, verandert de folie daar niets aan. Ze vervangt ook geen buitenzonwering, die de zon tegenhoudt nog voor ze het glas raakt. Volgens gegevens van het WTCB (het Belgische onderzoekscentrum voor de bouw), gepubliceerd door Test-Aankoop, laat een ondoorzichtige buitenzonwering slechts 2 tot 7 % van de zonnestraling door, tegenover 35 tot 59 % voor een ondoorzichtige binnenzonwering. De folie werkt rechtstreeks op het glas. Onze [vergelijking tussen zonwerende folie en buitenscreen](/blog/film-solaire-ou-screen-exterieur-vitrage) helpt u kiezen.",
           ],
         },
         {
@@ -4063,16 +4223,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           paragraphs: [
             "Een echt voorbeeld: op de fiche van een reflecterende folie van het merk Solar Gard (groep Saint-Gobain) weert dezelfde folie 73 % van het infrarood, maar 67 % van de totale zonne-energie op helder enkel glas. En de fiche geeft andere waarden voor enkel, dubbel en driedubbel glas. Twee goede reflexen dus: vergelijk de totaal geweerde zonne-energie in plaats van het infrarood, en kijk op welk glas er gemeten is.",
-            "De spiegeleffectfolie die wij plaatsen, laat 22 % zichtbaar licht door, weert 72 % van de UV en 81 % van het infrarood. Die 81 % betekent niet 81 % minder warmte, om de reden hierboven, en de echte winst hangt ook af van uw beglazing. Ons [artikel over UV-bescherming](/nl/blog/protection-uv-film-vitrage-bruxelles) legt uit wat het UV-cijfer meet.",
+            "De spiegeleffectfolie die wij plaatsen, laat 22 % zichtbaar licht door, weert 72 % van de UV en 81 % van het infrarood. Die 81 % betekent niet 81 % minder warmte, om de reden hierboven, en de echte winst hangt ook af van uw beglazing. Ons [artikel over UV-bescherming](/blog/protection-uv-film-vitrage-bruxelles) legt uit wat het UV-cijfer meet.",
           ],
         },
         {
           heading: "Welke folie kiezen tegen de warmte?",
           anchor: 'choisir',
           paragraphs: [
-            "Is warmte uw grootste probleem en wilt u ook inkijk beperken, dan is [spiegeleffectfolie](/nl/blog/film-miroir-chaleur-vis-a-vis-bruxelles) de doeltreffendste folie die wij plaatsen. Het is een reflecterende folie, de familie die in de studie hierboven de beste resultaten geeft. In ruil wordt de kamer donkerder, een beetje zoals met een zonnebril.",
-            "Wilt u een lichte kamer en een volledig transparant zicht houden, dan filtert [zonwerende folie](/nl/blog/film-solaire-vitrage-bruxelles) de warmte matiger, met een lichte blauwe tint. Onze [gids om uw folie te kiezen](/nl/blog/quel-film-choisir-vitrages) zet alle opties naast elkaar.",
-            "Een donkerdere folie is niet per se doeltreffender tegen warmte. Wat telt, is de totaal geweerde zonne-energie, niet de kleur. Hou dat in gedachten bij folie uit de winkel: onze [vergelijking tussen goedkope folie en professionele plaatsing](/nl/blog/film-vitre-premier-prix-ou-pose-professionnelle) zegt wat u moet nakijken.",
+            "Is warmte uw grootste probleem en wilt u ook inkijk beperken, dan is [spiegeleffectfolie](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) de doeltreffendste folie die wij plaatsen. Het is een reflecterende folie, de familie die in de studie hierboven de beste resultaten geeft. In ruil wordt de kamer donkerder, een beetje zoals met een zonnebril.",
+            "Wilt u een lichte kamer en een volledig transparant zicht houden, dan filtert [zonwerende folie](/blog/film-solaire-vitrage-bruxelles) de warmte matiger, met een lichte blauwe tint. Onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) zet alle opties naast elkaar.",
+            "Een donkerdere folie is niet per se doeltreffender tegen warmte. Wat telt, is de totaal geweerde zonne-energie, niet de kleur. Hou dat in gedachten bij folie uit de winkel: onze [vergelijking tussen goedkope folie en professionele plaatsing](/blog/film-vitre-premier-prix-ou-pose-professionnelle) zegt wat u moet nakijken.",
           ],
         },
         {
@@ -4094,15 +4254,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           paragraphs: [
-            "Voor dakramen legt ons [artikel over te warme Velux-ramen](/nl/blog/velux-fenetre-de-toit-anti-chaleur) uit waarom we eerder buitenzonwering aanraden. Twijfelt u met een airco, dan vergelijkt ons artikel [folie of airco](/nl/blog/film-vitrage-economies-climatisation) de twee. En hebt u enkel glas in slechte staat, dan helpt het artikel [ramen vervangen of folie plaatsen](/nl/blog/remplacer-fenetres-ou-film-vitrage) u kiezen.",
+            "Voor dakramen legt ons [artikel over te warme Velux-ramen](/blog/velux-fenetre-de-toit-anti-chaleur) uit waarom we eerder buitenzonwering aanraden. Twijfelt u met een airco, dan vergelijkt ons artikel [folie of airco](/blog/film-vitrage-economies-climatisation) de twee. En hebt u enkel glas in slechte staat, dan helpt het artikel [ramen vervangen of folie plaatsen](/blog/remplacer-fenetres-ou-film-vitrage) u kiezen.",
           ],
         },
         {
           heading: "Wat kost het, en hoe verloopt de plaatsing?",
           anchor: 'pose-prix',
           paragraphs: [
-            "We plaatsen deze folies rechtstreeks op uw bestaande beglazing, meestal aan de binnenkant, in één bezoek en zonder demontage. De plaatsing heeft 2 jaar garantie, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing binnen. Ons [artikel over de stappen van een project](/nl/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het verloop, van opmeting tot plaatsing.",
-            "Er is geen vaste prijslijst: de prijs hangt af van de oppervlakte, en blijft dezelfde welke folie u ook kiest. Ons [artikel over de prijzen](/nl/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de schatting wordt berekend.",
+            "We plaatsen deze folies rechtstreeks op uw bestaande beglazing, meestal aan de binnenkant, in één bezoek en zonder demontage. De plaatsing heeft 2 jaar garantie, en de levensduur van de folie wordt geschat op 10 tot 15 jaar bij plaatsing binnen. Ons [artikel over de stappen van een project](/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het verloop, van opmeting tot plaatsing.",
+            "Er is geen vaste prijslijst: de prijs hangt af van de oppervlakte, en blijft dezelfde welke folie u ook kiest. Ons [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de schatting wordt berekend.",
           ],
         },
         {
@@ -4179,7 +4339,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Op dubbel glas komt de folie op de ruit aan de kamerkant. Een deel van de warmte die ze terugkaatst, gaat dan naar de luchtspouw tussen beide ruiten in plaats van rechtstreeks naar buiten. Een expert van de internationale vereniging van raamfoliefabrikanten (IWFA), geciteerd door het magazine Architect, legt het zo uit: de buitenste ruit raakt die warmte moeilijker kwijt, en het glas kan een te grote thermische spanning krijgen.",
             "De compatibiliteitstabellen van fabrikanten bevestigen dat. In die van Eastman, de fabrikant van SunTek-folies, krijgt dezelfde folie een hogere spanningsscore op helder dubbel glas dan op helder enkel glas. De fabrikant noemt ook een risico dat eigen is aan dubbel glas: het falen van de afdichting tussen beide ruiten. Contra Vision stelt dubbel glas met een lage-emissiecoating (\"low-e\") op zijn beurt gelijk aan een gemiddeld risico.",
-            "Heeft uw dubbel glas al zonwerend glas? Dan is folie niet altijd nuttig: ons artikel [geïntegreerde zonwerende beglazing of folie](/nl/blog/vitrage-controle-solaire-integre-ou-film) legt het verschil uit.",
+            "Heeft uw dubbel glas al zonwerend glas? Dan is folie niet altijd nuttig: ons artikel [geïntegreerde zonwerende beglazing of folie](/blog/vitrage-controle-solaire-integre-ou-film) legt het verschil uit.",
           ],
         },
         {
@@ -4203,7 +4363,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           paragraphs: [
-            "Dat laatste punt is een regel die we altijd toepassen voor spiegel- en zonwerende folie: onze [gids om uw folie te kiezen](/nl/blog/quel-film-choisir-vitrages) legt uit waarom we nooit folie op slechts een deel van een ruit plaatsen.",
+            "Dat laatste punt is een regel die we altijd toepassen voor spiegel- en zonwerende folie: onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) legt uit waarom we nooit folie op slechts een deel van een ruit plaatsen.",
           ],
         },
         {
@@ -4226,7 +4386,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Bij die score komen de punten van de situatie (schaduw, grootte, rolgordijn...). De fabrikant laat de plaatsing dan toe volgens het totaal: tot 10 op elk glas, tot 14 alleen op thermisch versterkt of gehard glas, tot 18 alleen op gehard glas, en daarboven helemaal niet.",
             "Een voorbeeld: een T-vormige schaduw van een balkon telt 3 punten bij. De spiegelfolie gaat van 6 naar 9 en blijft plaatsbaar op gewoon glas. De neutraal getinte folie gaat van 11 naar 14: die past dan nog alleen op thermisch versterkt of gehard glas. Bij gelijke lichtdoorlating warmt een folie die weerkaatst de ruit dus duidelijk minder op dan een folie die opneemt.",
-            "Eerlijk is eerlijk: deze scores gelden voor SunTek-folies, niet voor de folies die wij plaatsen, en van onze leverancier hebben we geen vergelijkbare tabel. Ze helpen om de logica te begrijpen, en die geldt voor alle folies. Het is een van de redenen waarom we tegen warmte [spiegelfolie](/nl/blog/film-miroir-vitrage-bruxelles) aanraden. Ook [matwitte folie](/nl/blog/film-blanc-mat-vitrage-bruxelles) blijft in een gematigde zone. En een transparante veiligheidsfolie, zoals in ons [artikel over inbraakwerende folie](/nl/blog/film-securite-anti-effraction-vitrage), warmt het glas nauwelijks op.",
+            "Eerlijk is eerlijk: deze scores gelden voor SunTek-folies, niet voor de folies die wij plaatsen, en van onze leverancier hebben we geen vergelijkbare tabel. Ze helpen om de logica te begrijpen, en die geldt voor alle folies. Het is een van de redenen waarom we tegen warmte [spiegelfolie](/blog/film-miroir-vitrage-bruxelles) aanraden. Ook [matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles) blijft in een gematigde zone. En een transparante veiligheidsfolie, zoals in ons [artikel over inbraakwerende folie](/blog/film-securite-anti-effraction-vitrage), warmt het glas nauwelijks op.",
           ],
         },
         {
@@ -4257,7 +4417,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           paragraphs: [
             "Ons advies: in de overgrote meerderheid van de gevallen binnen plaatsen, voor de levensduur. Buiten plaatsen is het overwegen waard als een huisdier de folie kan beschadigen, als de ruit veel zon krijgt, of bij driedubbel glas. Bij een hoog raam kan de toegang langs buiten het ook moeilijk of zelfs onmogelijk maken.",
-            "Wat folie echt verandert tegen warmte, aan welke kant ook, leest u in ons artikel [warmtewerende raamfolie: werkt het echt?](/nl/blog/film-fenetre-anti-chaleur-efficace)",
+            "Wat folie echt verandert tegen warmte, aan welke kant ook, leest u in ons artikel [warmtewerende raamfolie: werkt het echt?](/blog/film-fenetre-anti-chaleur-efficace)",
           ],
         },
         {
@@ -4273,8 +4433,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'visite',
           paragraphs: [
             "Voor elke plaatsing komen we de beglazing bekijken. We kijken naar de staat van de ramen, de staat van de dichtingen, de toegang tot elke ruit en het soort beglazing: enkel, dubbel of driedubbel. En vooral naar uw probleem: warmte, inkijk of veiligheid. Zo kunnen we u de juiste folie aanraden, en de juiste kant om ze te plaatsen.",
-            "Lijkt een ruit ons beschadigd of riskant, dan zeggen we het u voor de plaatsing. En ziet u condens tussen beide ruiten, dan is het dubbel glas niet meer dicht: folie verandert daar niets aan, zoals ons artikel [ramen vervangen of folie plaatsen](/nl/blog/remplacer-fenetres-ou-film-vitrage) uitlegt.",
-            "Het bezoek is gratis in Brussel en kost 50 € daarbuiten. Ons [artikel over de stappen van een project](/nl/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het vervolg, en het [artikel over de prijzen](/nl/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de prijsraming wordt berekend.",
+            "Lijkt een ruit ons beschadigd of riskant, dan zeggen we het u voor de plaatsing. En ziet u condens tussen beide ruiten, dan is het dubbel glas niet meer dicht: folie verandert daar niets aan, zoals ons artikel [ramen vervangen of folie plaatsen](/blog/remplacer-fenetres-ou-film-vitrage) uitlegt.",
+            "Het bezoek is gratis in Brussel en kost 50 € daarbuiten. Ons [artikel over de stappen van een project](/blog/etapes-projet-film-vitrage-bruxelles) beschrijft het vervolg, en het [artikel over de prijzen](/blog/prix-pose-film-vitrage-bruxelles) legt uit hoe de prijsraming wordt berekend.",
           ],
         },
         {
@@ -4312,6 +4472,166 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Moet folie op dubbel glas aan de buitenkant?",
           answer: "Niet per se. Binnen geplaatste folie gaat langer mee en volstaat in de meeste gevallen. Buiten geplaatste folie houdt de zon tegen voor het dubbel glas en warmt het glas minder op: ze is zinvol bij driedubbel glas, een ruit met veel zon, of als een huisdier de folie kan bekrassen.",
+        },
+      ],
+    },
+    {
+      slug: "film-vitrage-apres-pose-bulles-entretien",
+      title: "Raamfolie na de plaatsing: luchtbellen, waas, droogtijd en onderhoud",
+      metaTitle: "Raamfolie na plaatsing: bellen, droogtijd en onderhoud",
+      metaDescription:
+        "Bellen of een waas na het plaatsen van raamfolie? Hoe lang het drogen duurt, wat u beter vermijdt, hoe u de folie reinigt en wanneer u uw plaatser belt.",
+      date: '2026-11-15',
+      excerpt:
+        "Kleine bellen, een melkachtige waas: wat normaal is na het plaatsen van raamfolie, hoe lang u moet wachten, hoe u daarna reinigt, en welke tekenen niet normaal zijn.",
+      sections: [
+        {
+          paragraphs: [
+            "Vlak na de plaatsing kan een raamfolie er wat troebel uitzien of enkele kleine bellen tonen. In de overgrote meerderheid van de gevallen is dat normaal en verdwijnt het vanzelf. Hieronder leest u waar het vandaan komt, hoe lang het duurt, wat u in die periode beter vermijdt, hoe u de folie daarna reinigt, en welke tekenen wel een telefoontje waard zijn.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Kleine waterbellen en een melkachtige waas in de eerste dagen zijn normaal: het plaatsingswater droogt op. De folie blijft ongeveer een maand lang beter hechten aan het glas, en langer als het koud is, als het raam weinig zon krijgt of als de folie dik is.",
+            "Tijdens die maand raakt u de bellen niet aan, prikt u ze niet door en reinigt u het raam niet. Daarna volstaat koud of lauw water met een zachte zeep. Een rand die loskomt, een plooi of een bel die na het drogen niet verdwenen is, zijn daarentegen niet normaal.",
+          ],
+        },
+        {
+          heading: "Waar komen de bellen en de waas vandaan?",
+          anchor: 'origine',
+          paragraphs: [
+            "Raamfolie wordt nat geplaatst. We verstuiven een oplossing van water en zeep op het glas, zodat de folie precies op zijn plaats kan worden gelegd, en daarna drijven we het water eruit met een rakel. De internationale vereniging van raamfolieproducenten (IWFA) herinnert eraan in haar inspectierichtlijn: het overtollige water wordt verwijderd, maar er blijft onvermijdelijk wat water tussen folie en glas.",
+            "Dat water geeft de licht melkachtige aanblik of de kleine bellen van de eerste dagen. Het verdampt door de folie heen, en de folie hecht steeds beter. Dezelfde richtlijn vermeldt dat waterbellen, lichte vervormingen en waas tijdens het drogen niet als gebreken mogen worden beschouwd.",
+            "Dat zien we ook na onze plaatsingen: ongeveer dertig dagen lang blijft de folie zich aan het glas hechten, en de kleine bellen verdwijnen met de warmte en de tijd.",
+          ],
+        },
+        {
+          heading: "Hoe lang duurt het drogen?",
+          anchor: 'duree-sechage',
+          paragraphs: [
+            "Dat hangt vooral af van de dikte van de folie. De richtlijn van de IWFA geeft deze richtwaarden:",
+          ],
+          table: {
+            headers: ["Dikte van de folie", "Gebruikelijke droogtijd"],
+            rows: [
+              ["Tot 100 micron", "Ongeveer 30 dagen"],
+              ["Van 100 tot 200 micron", "Ongeveer 60 dagen"],
+              ["Van 200 tot 300 micron", "Ongeveer 90 dagen"],
+              ["Van 300 tot 425 micron", "Ongeveer 140 dagen"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Ook het weer speelt mee. Volgens Solar Gard, raamfoliefabrikant binnen de Saint-Gobain-groep, verkorten warm weer en directe zon het drogen, terwijl kou, bewolking en dikke folies het verlengen. De fabrikant spreekt van een marge van enkele dagen tot zes maanden.",
+            "In België duurt een plaatsing in de winter of op een raam op het noorden dus vaak langer dan een plaatsing in de zomer op een raam op het zuiden. De spiegelfolies die wij plaatsen horen bij de dunne folies van de eerste rij: reken op ongeveer een maand. Een [inbraakwerende folie](/blog/film-securite-anti-effraction-vitrage) is meestal dikker en vraagt meer geduld.",
+          ],
+        },
+        {
+          heading: "Tijdens het drogen: wat u beter vermijdt",
+          anchor: 'pendant-sechage',
+          paragraphs: [
+            "Raak de bellen niet aan en druk er niet op. Een Amerikaanse plaatser legt in zijn instructies aan klanten uit dat dit het drogen vertraagt en de folie kan beschadigen. Prik ze ook niet door: een waterbel verdwijnt vanzelf.",
+            "Reinig het beplakte raam ongeveer een maand niet. Dat raden wij onze klanten aan. De termijnen verschillen per fabrikant en plaatser, en dezelfde Amerikaanse plaatser vraagt zelfs 45 dagen te wachten. Die maand laat de lijm hechten zonder dat er over de folie wordt gewreven.",
+            "Vermijd ook plakband of stickers op de folie, ook stickers die zonder lijm blijven kleven, nu en later: Solar Gard raadt ze af, omdat ze het oppervlak kunnen beschadigen of agressieve producten vragen om ze te verwijderen.",
+            "Wees gerust: de folie werkt vanaf de plaatsing, ook al is ze nog niet helemaal droog. De IWFA merkt op dat u tijdens het drogen al minder verblinding en meer privacy merkt, en vaak ook minder warmte.",
+          ],
+        },
+        {
+          heading: "Normaal of niet? Wat u op het raam ziet",
+          anchor: 'normal-ou-pas',
+          paragraphs: [
+            "Dit zijn de meest voorkomende situaties na een plaatsing, en wat ze betekenen:",
+          ],
+          table: {
+            headers: ["Wat u ziet", "Normaal?", "Wat te doen"],
+            rows: [
+              ["Een melkachtige waas, een wat troebel zicht", "Ja, het is plaatsingswater", "Wachten tot het drogen klaar is"],
+              ["Kleine waterbellen of lichte vervormingen", "Ja, tijdens het drogen", "Wachten, zonder aanraken of doorprikken"],
+              ["Een smalle rand zonder folie langs het kader, enkele millimeters", "Ja, die is bewust", "Niets: ze voorkomt dat de folie het kader raakt en loskomt"],
+              ["Een rechte lijn midden op een zeer grote ruit", "Ja, het is een naad", "Niets: die is nodig wanneer de ruit in beide richtingen breder is dan de rol"],
+              ["Een puntje onder de folie, met een bel die niet verandert", "Geen waterbel: vaak een stofje of haar dat bij de plaatsing is ingesloten", "Melden als het op normale afstand zichtbaar is"],
+              ["Een rand die loskomt, een plooi, een scheur", "Nee", "Contact met ons opnemen"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "De rand en de naad zijn voorzien in de professionele richtlijnen: de IWFA en Solar Gard voorzien een kleine vrije ruimte van enkele millimeters langs het kader, 1 tot 2 mm voor de meeste folies volgens Solar Gard, en de IWFA vermeldt dat een rechte naad, evenwijdig aan het kader, geen gebrek is.",
+            "Is een bel na het drogen nog altijd niet verdwenen, of komt een rand los? Stuur ons een foto. Onze garantie van 2 jaar dekt gebreken die met de plaatsing te maken hebben, zoals loskomen of een bel door een slechte plaatsing. Ze dekt geen schade die achteraf ontstaat, bijvoorbeeld een kras van een huisdier.",
+          ],
+        },
+        {
+          heading: "Een plaatsing beoordelen zoals professionals dat doen",
+          anchor: 'juger-pose',
+          paragraphs: [
+            "Een geplaatste folie heeft nooit exact de zuiverheid van bloot glas, en de professionele richtlijnen zeggen dat duidelijk. De IWFA en Solar Gard beschrijven een eenvoudige methode: kijk recht naar het raam, van binnenuit, op minstens 2 meter, bij daglicht maar niet in volle zon.",
+            "Kleine onvolkomenheden die u in die omstandigheden niet ziet, gelden als aanvaardbaar. Een strook van ongeveer 5 cm langs het kader wordt soepeler beoordeeld: bij een oud of beschadigd kader zijn daar enkele stofjes moeilijk te vermijden. Van heel dichtbij en tegen het licht in kijken is niet de methode van die richtlijnen: zo ziet u piepkleine details die op normale afstand onzichtbaar zijn.",
+            "De grondige reiniging van het glas vóór de plaatsing is erg belangrijk om die stofjes te beperken: het is een volwaardige stap, beschreven in ons artikel over de [stappen van een raamfolieproject](/blog/etapes-projet-film-vitrage-bruxelles). Het is ook een van de verschillen met zelf plaatsen, zoals uitgelegd in onze vergelijking tussen [goedkope folie en professionele plaatsing](/blog/film-vitre-premier-prix-ou-pose-professionnelle).",
+          ],
+        },
+        {
+          heading: "Na het drogen: de folie reinigen",
+          anchor: 'nettoyage',
+          paragraphs: [
+            "Goed nieuws: folie wordt minder snel vuil dan glas. Volgens Solar Gard is ze minder poreus, houdt ze minder vuil vast en hoeft ze minder vaak gereinigd te worden.",
+            "Ons advies is eenvoudig: koud of lauw water met een zachte zeep, bijvoorbeeld een biologisch afwasmiddel. Was met een zachte doek of een microvezeldoek, en droog met een tweede schone doek of een zachte rubberen trekker. Solar Gard en XPEL raden hetzelfde aan: een mengsel van water en een mild reinigingsmiddel.",
+            "Vermijd schuursponzen, harde borstels, krabbers en mesjes: die krassen het oppervlak. Gebruik altijd een schone doek: één zandkorrel in de stof volstaat om de folie te krassen.",
+          ],
+        },
+        {
+          heading: "En glasreinigers uit de winkel?",
+          anchor: 'produits',
+          paragraphs: [
+            "Op dit punt zijn de fabrikanten het niet eens. Solar Gard schrijft dat gewone glasreinigers aanvaardbaar maar niet nodig zijn. De eerder vermelde Amerikaanse plaatser vraagt producten zonder ammoniak. En XPEL vraagt agressieve producten te vermijden.",
+            "Omdat u niet altijd weet wat een reiniger bevat, raden wij aan bij water en zachte zeep te blijven: dat reinigt heel goed en is zonder risico voor alle folies. Laat u uw ramen door iemand anders reinigen, geef die persoon dan gewoon deze instructies. Voor een folie aan de buitenkant raadt Solar Gard aan het raam eerst goed af te spoelen, om zand en stof te verwijderen die de folie kunnen krassen.",
+            "Wilt u er zelf niet mee bezig zijn? We bieden ook ramen wassen aan, met of zonder folie.",
+          ],
+        },
+        {
+          heading: "Hoe lang gaat een goed onderhouden folie mee?",
+          anchor: 'duree-vie',
+          paragraphs: [
+            "Bij plaatsing binnen wordt de levensduur van een folie geschat op 10 tot 15 jaar. Buiten is ze korter, omdat de folie blootstaat aan weer en wind en aan het wassen: ons artikel over [raamfolie op dubbel glas](/blog/film-double-vitrage-casse-thermique) vergelijkt beide manieren van plaatsen.",
+            "Het onderhoud vraagt bijna niets, maar het telt: een folie die door een schuurspons is gekrast of door plakband is beschadigd, kan niet worden hersteld, alleen vervangen. Twijfelt u nog over de keuze van de folie? Onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt spiegelfolie, zonwerende folie en matwit.",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[IWFA: Architectural Visual Inspection Guideline for Applied Window Film (2020, Engelstalig)](https://iwfa.com/wp-content/uploads/2024/04/Architectural-Visual-Inspection-Guideline-For-Applied-Window-Film.pdf)",
+            "[IWFA: After You Buy (Engelstalig)](https://iwfa.com/after-you-buy/)",
+            "[Solar Gard (Saint-Gobain): Visual Inspection & Maintenance of Window Film, technisch bulletin (2022, Engelstalig)](https://www.solargard.com/wp-content/uploads/2026/07/Visual-Inspection-Maintenance-1.pdf)",
+            "[Solar Gard (Saint-Gobain): Care and Maintenance of Window Film (Engelstalig)](https://www.solargard.com/blog/care-and-maintenance/care-maintenance-window-film/)",
+            "[XPEL: Commercial Care & Maintenance, window film (Engelstalig)](https://www.xpel.com/web-assets/downloads/XPEL-Window-Film-Care-And-Maintenance-Final.pdf)",
+            "[Solar Art / American Window Film: onderhoudsinstructies voor klanten (2019, Engelstalig)](https://blog.americanwindowfilm.com/hubfs/Care%20Instructions%202019.pdf)",
+          ],
+        },
+        {
+          heading: "Een vraag na uw plaatsing?",
+          paragraphs: [
+            "Neem contact met ons op: we adviseren u gratis volgens uw situatie en antwoorden binnen 24 uur.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Hoe lang duurt het voor de bellen verdwijnen?",
+          answer: "Voor een zonwerende of spiegelfolie rekent u op ongeveer een maand. Het drogen duurt langer bij koud of bewolkt weer, op een raam met weinig zon, of bij een dikke folie zoals een inbraakwerende folie. Volgens Solar Gard kan het van enkele dagen tot zes maanden duren.",
+        },
+        {
+          question: "Mag u een bel onder de folie doorprikken?",
+          answer: "Nee. Een waterbel verdwijnt vanzelf tijdens het drogen, en doorprikken of erop drukken kan de folie beschadigen. Blijft een bel na het drogen, stuur dan een foto naar uw plaatser.",
+        },
+        {
+          question: "Wanneer mag u een raam reinigen na het plaatsen van folie?",
+          answer: "Wij raden aan ongeveer een maand te wachten. Reinig daarna met koud of lauw water en een zachte zeep, met een zachte doek of microvezeldoek, zonder schuurspons of krabber.",
+        },
+        {
+          question: "Beschadigt een gewone glasreiniger de folie?",
+          answer: "De fabrikanten zijn het niet eens: sommigen aanvaarden gewone reinigers, anderen vragen producten zonder ammoniak. Het veiligst is water met een zachte zeep, dat geschikt is voor alle folies.",
         },
       ],
     },
@@ -6184,7 +6504,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "Heat-control film changes that split: it reflects and absorbs more radiation, and lets less through. Reflective films, such as mirror effect film, send part of the energy back outside. So-called spectrally selective films mainly target infrared and barely affect visible light, which lets them stay clearer.",
             "The US General Services Administration (GSA), which manages federal buildings, had these films evaluated by Lawrence Berkeley National Laboratory. According to its modelling, reflective films are the most effective, with up to 29% savings on heating and cooling energy in warmer climates. But the result depends heavily on the existing glazing: the study finds film cost-effective on single-pane clear glass, and doesn't recommend it on already tinted (bronze) double glazing in most climates. These figures concern office buildings in the United States, in St. Louis and Phoenix. With milder Belgian summers, expect less.",
-            "What film doesn't do: it doesn't insulate against hot air. If the room heats up because it's 30 °C outside or because the roof is poorly insulated, film won't change that. Nor does it replace exterior shading, which stops the sun before it even reaches the glass. According to data from the CSTC (the Belgian building research centre) published by Test-Achats, opaque exterior shading lets only 2 to 7% of solar radiation through, against 35 to 59% for opaque interior shading. Film works directly on the glass. Our [comparison of solar film and exterior screens](/en/blog/film-solaire-ou-screen-exterieur-vitrage) helps you choose between the two.",
+            "What film doesn't do: it doesn't insulate against hot air. If the room heats up because it's 30 °C outside or because the roof is poorly insulated, film won't change that. Nor does it replace exterior shading, which stops the sun before it even reaches the glass. According to data from the CSTC (the Belgian building research centre) published by Test-Achats, opaque exterior shading lets only 2 to 7% of solar radiation through, against 35 to 59% for opaque interior shading. Film works directly on the glass. Our [comparison of solar film and exterior screens](/blog/film-solaire-ou-screen-exterieur-vitrage) helps you choose between the two.",
           ],
         },
         {
@@ -6206,16 +6526,16 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           paragraphs: [
             "A real example: on the spec sheet of a reflective film from Solar Gard (part of the Saint-Gobain group), the same film rejects 73% of infrared but 67% of total solar energy on single clear glass. And the sheet gives different values for single, double and triple glazing. So, two good habits: compare total solar energy rejected rather than infrared, and check which glass the measurement was made on.",
-            "The mirror effect film we install has a visible light transmission of 22%, rejects 72% of UV and 81% of infrared. That 81% doesn't mean 81% less heat, for the reason explained above, and the real gain also depends on your glazing. Our [article on UV protection](/en/blog/protection-uv-film-vitrage-bruxelles) explains what the UV figure measures.",
+            "The mirror effect film we install has a visible light transmission of 22%, rejects 72% of UV and 81% of infrared. That 81% doesn't mean 81% less heat, for the reason explained above, and the real gain also depends on your glazing. Our [article on UV protection](/blog/protection-uv-film-vitrage-bruxelles) explains what the UV figure measures.",
           ],
         },
         {
           heading: "Which film should you choose against heat?",
           anchor: 'choisir',
           paragraphs: [
-            "If heat is your main problem and you also want to cut down on being overlooked, [mirror effect film](/en/blog/film-miroir-chaleur-vis-a-vis-bruxelles) is the most effective of the films we install. It's a reflective film, the family that performs best in the study above. In return, the room is darker, a bit like wearing sunglasses.",
-            "If you want to keep a bright room and a perfectly clear view, [solar film](/en/blog/film-solaire-vitrage-bruxelles) filters heat more moderately, with a slight blue tint. Our [guide to choosing your film](/en/blog/quel-film-choisir-vitrages) puts all the options side by side.",
-            "A darker film isn't necessarily better against heat. What counts is total solar energy rejected, not the colour. Keep that in mind with films sold in shops: our [comparison of cheap film and professional installation](/en/blog/film-vitre-premier-prix-ou-pose-professionnelle) explains what to check.",
+            "If heat is your main problem and you also want to cut down on being overlooked, [mirror effect film](/blog/film-miroir-chaleur-vis-a-vis-bruxelles) is the most effective of the films we install. It's a reflective film, the family that performs best in the study above. In return, the room is darker, a bit like wearing sunglasses.",
+            "If you want to keep a bright room and a perfectly clear view, [solar film](/blog/film-solaire-vitrage-bruxelles) filters heat more moderately, with a slight blue tint. Our [guide to choosing your film](/blog/quel-film-choisir-vitrages) puts all the options side by side.",
+            "A darker film isn't necessarily better against heat. What counts is total solar energy rejected, not the colour. Keep that in mind with films sold in shops: our [comparison of cheap film and professional installation](/blog/film-vitre-premier-prix-ou-pose-professionnelle) explains what to check.",
           ],
         },
         {
@@ -6237,15 +6557,15 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           paragraphs: [
-            "For roof windows, our [article on Velux windows that get too hot](/en/blog/velux-fenetre-de-toit-anti-chaleur) explains why we recommend exterior shading instead. If you're weighing film against air conditioning, our [film or air conditioning](/en/blog/film-vitrage-economies-climatisation) article compares the two. And if your windows are single-glazed and in poor condition, the article [replace your windows or add film](/en/blog/remplacer-fenetres-ou-film-vitrage) helps you decide.",
+            "For roof windows, our [article on Velux windows that get too hot](/blog/velux-fenetre-de-toit-anti-chaleur) explains why we recommend exterior shading instead. If you're weighing film against air conditioning, our [film or air conditioning](/blog/film-vitrage-economies-climatisation) article compares the two. And if your windows are single-glazed and in poor condition, the article [replace your windows or add film](/blog/remplacer-fenetres-ou-film-vitrage) helps you decide.",
           ],
         },
         {
           heading: "What does it cost, and how does installation work?",
           anchor: 'pose-prix',
           paragraphs: [
-            "We apply these films directly to your existing windows, generally on the interior side, in a single visit and with no removal. The installation is guaranteed for 2 years, and the film's lifespan is estimated at 10 to 15 years for an interior installation. Our [article on the steps of a project](/en/blog/etapes-projet-film-vitrage-bruxelles) walks through the process, from measurements to installation.",
-            "There's no published price list: the price depends on the surface area, and stays the same whichever film you choose. Our [article on pricing](/en/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
+            "We apply these films directly to your existing windows, generally on the interior side, in a single visit and with no removal. The installation is guaranteed for 2 years, and the film's lifespan is estimated at 10 to 15 years for an interior installation. Our [article on the steps of a project](/blog/etapes-projet-film-vitrage-bruxelles) walks through the process, from measurements to installation.",
+            "There's no published price list: the price depends on the surface area, and stays the same whichever film you choose. Our [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
           ],
         },
         {
@@ -6322,7 +6642,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "On double glazing, the film goes on the room-side pane. Part of the heat it reflects then goes back into the air gap between the two panes instead of straight outside. An expert from the International Window Film Association (IWFA), quoted by Architect magazine, puts it this way: the outer pane finds it harder to get rid of that heat, and the glass can experience excessive thermal stress.",
             "Manufacturers' compatibility tables point the same way. In the one from Eastman, maker of SunTek films, the same film gets a higher stress score on clear double glazing than on clear single glazing. The manufacturer also mentions a risk specific to double glazing: failure of the seal between the two panes. Contra Vision, for its part, rates low-emissivity (\"low-e\") double glazing as medium risk.",
-            "If your double glazing already has solar control glass, film isn't always useful: our article [integrated solar control glazing or film](/en/blog/vitrage-controle-solaire-integre-ou-film) explains the difference.",
+            "If your double glazing already has solar control glass, film isn't always useful: our article [integrated solar control glazing or film](/blog/vitrage-controle-solaire-integre-ou-film) explains the difference.",
           ],
         },
         {
@@ -6346,7 +6666,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
         {
           paragraphs: [
-            "That last point is a rule we always follow for mirror and solar films: our [guide to choosing your film](/en/blog/quel-film-choisir-vitrages) explains why we never fit film on just part of a pane.",
+            "That last point is a rule we always follow for mirror and solar films: our [guide to choosing your film](/blog/quel-film-choisir-vitrages) explains why we never fit film on just part of a pane.",
           ],
         },
         {
@@ -6369,7 +6689,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           paragraphs: [
             "The points for the pane's situation (shade, size, blind...) are added to this score. The manufacturer then allows installation according to the total: up to 10 on any glass, up to 14 only on heat-strengthened or tempered glass, up to 18 only on tempered glass, and above that, not at all.",
             "An example: a T-shaped balcony shadow adds 3 points. The mirror film goes from 6 to 9 and can still go on ordinary glass. The neutral tinted film goes from 11 to 14: it's now only suitable for heat-strengthened or tempered glass. For the same light transmission, a film that reflects heats the glass much less than one that absorbs.",
-            "To be honest: these scores apply to SunTek films, not the ones we fit, and we don't have an equivalent table from our supplier. They're useful for understanding the logic, which applies to all films. It's one of the reasons we recommend [mirror effect film](/en/blog/film-miroir-vitrage-bruxelles) against heat. [Matte white film](/en/blog/film-blanc-mat-vitrage-bruxelles) also stays in a moderate range. And a clear safety film, like the one in our [article on security film](/en/blog/film-securite-anti-effraction-vitrage), barely heats the glass.",
+            "To be honest: these scores apply to SunTek films, not the ones we fit, and we don't have an equivalent table from our supplier. They're useful for understanding the logic, which applies to all films. It's one of the reasons we recommend [mirror effect film](/blog/film-miroir-vitrage-bruxelles) against heat. [Matte white film](/blog/film-blanc-mat-vitrage-bruxelles) also stays in a moderate range. And a clear safety film, like the one in our [article on security film](/blog/film-securite-anti-effraction-vitrage), barely heats the glass.",
           ],
         },
         {
@@ -6400,7 +6720,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           paragraphs: [
             "Our advice: fit inside in the vast majority of cases, for the lifespan. Outside fitting is worth considering when a pet could damage the film, when the pane gets a lot of sun, or for triple glazing. For a high window, outside access can also make it difficult or even impossible.",
-            "To find out what film really changes against heat, whichever side it's on, read our article [heat-control window film: does it really work?](/en/blog/film-fenetre-anti-chaleur-efficace)",
+            "To find out what film really changes against heat, whichever side it's on, read our article [heat-control window film: does it really work?](/blog/film-fenetre-anti-chaleur-efficace)",
           ],
         },
         {
@@ -6416,8 +6736,8 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
           anchor: 'visite',
           paragraphs: [
             "Before every installation, we come and look at the glazing. We check the condition of the windows, the condition of the seals, access to each pane, and the type of glazing: single, double or triple. Above all, we look at your problem, whether it's heat, being overlooked or security. That's what lets us recommend the right film, and the right side to fit it on.",
-            "If a pane looks damaged or risky to us, we tell you before fitting. And if you see condensation between the two panes, the double glazing is no longer sealed: film won't change that, as our article [replace your windows or add film](/en/blog/remplacer-fenetres-ou-film-vitrage) explains.",
-            "The visit is free in Brussels and costs €50 outside. Our [article on the steps of a project](/en/blog/etapes-projet-film-vitrage-bruxelles) covers what happens next, and the [article on pricing](/en/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
+            "If a pane looks damaged or risky to us, we tell you before fitting. And if you see condensation between the two panes, the double glazing is no longer sealed: film won't change that, as our article [replace your windows or add film](/blog/remplacer-fenetres-ou-film-vitrage) explains.",
+            "The visit is free in Brussels and costs €50 outside. Our [article on the steps of a project](/blog/etapes-projet-film-vitrage-bruxelles) covers what happens next, and the [article on pricing](/blog/prix-pose-film-vitrage-bruxelles) explains how the estimate is calculated.",
           ],
         },
         {
@@ -6455,6 +6775,166 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Should film go on the outside of double glazing?",
           answer: "Not necessarily. Inside fitting lasts longer and suits most cases. Outside fitting stops the sun before it reaches the double glazing and heats the glass less: it makes sense for triple glazing, a very sunny pane, or if a pet could scratch the film.",
+        },
+      ],
+    },
+    {
+      slug: "film-vitrage-apres-pose-bulles-entretien",
+      title: "Window film after fitting: bubbles, haze, drying time and cleaning",
+      metaTitle: "Window Film After Fitting: Bubbles, Drying and Cleaning",
+      metaDescription:
+        "Bubbles or haze after window film is fitted? How long drying takes, what to avoid in the meantime, how to clean the film, and when to call your installer.",
+      date: '2026-11-15',
+      excerpt:
+        "Small bubbles, a milky haze: what is normal after window film is fitted, how long to wait, how to clean it afterwards, and the signs that are not normal.",
+      sections: [
+        {
+          paragraphs: [
+            "Right after fitting, window film can look slightly cloudy or show a few small bubbles. In the vast majority of cases this is normal and clears on its own. Here is where it comes from, how long it lasts, what to avoid in the meantime, how to clean the film afterwards, and the few signs that do deserve a phone call.",
+          ],
+        },
+        {
+          heading: "The short answer",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Small water bubbles and a milky haze in the first days are normal: it is the fitting water drying out. The film keeps bonding to the glass for about a month, and longer when it is cold, when the window gets little sun or when the film is thick.",
+            "During that month, don't touch the bubbles, don't pierce them and don't clean the window. After that, cold or lukewarm water with a mild soap is all you need. An edge that lifts, a crease or a bubble that is still there once the film has dried, on the other hand, is not normal.",
+          ],
+        },
+        {
+          heading: "Where do the bubbles and haze come from?",
+          anchor: 'origine',
+          paragraphs: [
+            "Window film is fitted wet. We spray a solution of water and soap on the glass, so the film can be positioned exactly where it should be, then push the water out with a squeegee. The International Window Film Association (IWFA) points this out in its inspection guideline: the excess water is removed, but some water inevitably stays between the film and the glass.",
+            "That water causes the slightly milky look or the small bubbles of the first days. It evaporates through the film, and the film bonds better and better. The same guideline states that water bubbles, slight distortion and haze during drying are not to be regarded as defects.",
+            "It is also what we see after our own installations: for about thirty days the film keeps bonding to the glass, and the small bubbles disappear with heat and time.",
+          ],
+        },
+        {
+          heading: "How long does drying take?",
+          anchor: 'duree-sechage',
+          paragraphs: [
+            "It mainly depends on how thick the film is. The IWFA guideline gives these benchmarks:",
+          ],
+          table: {
+            headers: ["Film thickness", "Typical drying time"],
+            rows: [
+              ["Up to 100 microns", "About 30 days"],
+              ["100 to 200 microns", "About 60 days"],
+              ["200 to 300 microns", "About 90 days"],
+              ["300 to 425 microns", "About 140 days"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "The weather matters too. According to Solar Gard, a window film maker in the Saint-Gobain group, warm weather and direct sun shorten drying, while cold, cloudy conditions and thick films lengthen it. The manufacturer gives a range from a few days to six months.",
+            "In Belgium, a winter installation or a north-facing window will therefore often take longer than a summer installation on a south-facing window. The mirror films we fit belong to the thin films in the first row: allow about a month. An [anti-burglary film](/blog/film-securite-anti-effraction-vitrage) is usually thicker and needs more patience.",
+          ],
+        },
+        {
+          heading: "While the film dries: what to avoid",
+          anchor: 'pendant-sechage',
+          paragraphs: [
+            "Don't touch the bubbles or press on them. A US installer explains in its customer instructions that this slows drying and can damage the film. Don't pierce them either: a water bubble goes away by itself.",
+            "Don't clean the filmed window for about a month. That is what we advise our customers. Timings vary between manufacturers and installers, and the same US installer even asks customers to wait 45 days. The month gives the adhesive time to set without the film being rubbed.",
+            "Also avoid putting tape or stickers on the film, including static cling stickers, now and later: Solar Gard advises against them, because they can damage the surface or need harsh products to remove.",
+            "Rest assured: the film works from day one, even before it is fully dry. The IWFA notes that you already notice less glare and more privacy while it dries, and often less heat.",
+          ],
+        },
+        {
+          heading: "Normal or not? What you see on the glass",
+          anchor: 'normal-ou-pas',
+          paragraphs: [
+            "These are the most common situations after an installation, and what they mean:",
+          ],
+          table: {
+            headers: ["What you see", "Normal?", "What to do"],
+            rows: [
+              ["A milky haze, slightly cloudy view", "Yes, it is fitting water", "Wait until drying is complete"],
+              ["Small water bubbles or slight distortion", "Yes, during drying", "Wait, without touching or piercing"],
+              ["A thin strip without film along the frame, a few millimetres", "Yes, it is intentional", "Nothing: it stops the film touching the frame and peeling"],
+              ["A straight line across a very large pane", "Yes, it is a seam", "Nothing: it is needed when the pane is wider than the roll in both directions"],
+              ["A small speck under the film, with a bubble that doesn't change", "Not a water bubble: often dust or a hair trapped during fitting", "Report it if it is visible from a normal distance"],
+              ["An edge lifting, a crease, a tear", "No", "Contact us"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "The edge gap and the seam are part of professional guidelines: the IWFA and Solar Gard provide for a small gap of a few millimetres along the frame, 1 to 2 mm for most films according to Solar Gard, and the IWFA states that a straight seam parallel to the frame is not a defect.",
+            "If a bubble is still there once drying is over, or an edge lifts, send us a photo. Our 2-year warranty covers defects linked to the installation, such as lifting or a bubble caused by poor application. It does not cover damage that happens afterwards, such as a scratch from a pet.",
+          ],
+        },
+        {
+          heading: "How to judge an installation, the way professionals do",
+          anchor: 'juger-pose',
+          paragraphs: [
+            "Fitted film will never be exactly as flawless as bare glass, and professional guidelines say so plainly. The IWFA and Solar Gard describe a simple method: look straight at the window, from inside, from at least 2 metres away, in daylight but not in direct sun.",
+            "Small flaws you can't see under those conditions are considered acceptable. A band of about 5 cm along the frame is judged more leniently: with an old or damaged frame, a few dust specks there are hard to avoid. Looking at the glass from up close, against the light, is not the method these guidelines use: that close, you see tiny details that are invisible from a normal distance.",
+            "Cleaning the glass thoroughly before fitting matters a lot to limit those specks: it is a step in its own right, described in our article on the [steps of a window film project](/blog/etapes-projet-film-vitrage-bruxelles). It is also one of the differences with doing it yourself, as our comparison of [budget film and professional fitting](/blog/film-vitre-premier-prix-ou-pose-professionnelle) explains.",
+          ],
+        },
+        {
+          heading: "After drying: how to clean the film",
+          anchor: 'nettoyage',
+          paragraphs: [
+            "Good news: film gets dirty more slowly than glass. According to Solar Gard, it is less porous, holds less dirt and needs cleaning less often.",
+            "Our advice is simple: cold or lukewarm water with a mild soap, for example an organic washing-up liquid. Wash with a soft cloth or microfibre, and dry with a second clean cloth or a soft rubber squeegee. Solar Gard and XPEL recommend the same thing: a mix of water and mild detergent.",
+            "Avoid scouring pads, stiff brushes, scrapers and blades, which scratch the surface. Always use a clean cloth: a single grain of sand left in the fabric is enough to scratch the film.",
+          ],
+        },
+        {
+          heading: "What about shop-bought glass cleaners?",
+          anchor: 'produits',
+          paragraphs: [
+            "Manufacturers don't all agree on this. Solar Gard writes that commercial glass cleaners are acceptable but not required. The US installer mentioned above asks for ammonia-free products. And XPEL asks customers to avoid harsh products.",
+            "Since you don't always know what a cleaner contains, we advise sticking to water and mild soap: it cleans very well and is safe for every film. If someone else cleans your windows, simply pass these instructions on. For film fitted on the outside, Solar Gard advises rinsing the glass well before washing it, to remove sand and dust that could scratch the film.",
+            "If you would rather not deal with it, we also offer window cleaning, with or without film.",
+          ],
+        },
+        {
+          heading: "How long does well-maintained film last?",
+          anchor: 'duree-vie',
+          paragraphs: [
+            "Fitted on the inside, a film's lifespan is estimated at 10 to 15 years. It is shorter on the outside, where the film is exposed to the weather and to washing: our article on [window film on double glazing](/blog/film-double-vitrage-casse-thermique) compares the two types of fitting.",
+            "Maintenance takes almost nothing, but it matters: a film scratched by a scouring pad or damaged by tape can't be repaired, only replaced. Still unsure which film to choose? Our [guide to choosing your film](/blog/quel-film-choisir-vitrages) compares mirror, solar and matte white film.",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[IWFA: Architectural Visual Inspection Guideline for Applied Window Film (2020)](https://iwfa.com/wp-content/uploads/2024/04/Architectural-Visual-Inspection-Guideline-For-Applied-Window-Film.pdf)",
+            "[IWFA: After You Buy](https://iwfa.com/after-you-buy/)",
+            "[Solar Gard (Saint-Gobain): Visual Inspection & Maintenance of Window Film, tech bulletin (2022)](https://www.solargard.com/wp-content/uploads/2026/07/Visual-Inspection-Maintenance-1.pdf)",
+            "[Solar Gard (Saint-Gobain): Care and Maintenance of Window Film](https://www.solargard.com/blog/care-and-maintenance/care-maintenance-window-film/)",
+            "[XPEL: Commercial Care & Maintenance, window film](https://www.xpel.com/web-assets/downloads/XPEL-Window-Film-Care-And-Maintenance-Final.pdf)",
+            "[Solar Art / American Window Film: customer care instructions (2019)](https://blog.americanwindowfilm.com/hubfs/Care%20Instructions%202019.pdf)",
+          ],
+        },
+        {
+          heading: "A question after your installation?",
+          paragraphs: [
+            "Contact us: we'll advise you for free based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "How long does it take for the bubbles to disappear?",
+          answer: "For a solar or mirror film, allow about a month. Drying takes longer in cold or cloudy weather, on a window that gets little sun, or with a thick film such as an anti-burglary film. According to Solar Gard, it can range from a few days to six months.",
+        },
+        {
+          question: "Can you pierce a bubble under the film?",
+          answer: "No. A water bubble disappears by itself as the film dries, and piercing it or pressing on it can damage the film. If a bubble remains after drying, send a photo to your installer.",
+        },
+        {
+          question: "When can you clean a window after film is fitted?",
+          answer: "We advise waiting about a month. After that, clean with cold or lukewarm water and a mild soap, using a soft cloth or microfibre, with no scouring pad or scraper.",
+        },
+        {
+          question: "Does an ordinary glass cleaner damage window film?",
+          answer: "Manufacturers disagree: some accept shop-bought cleaners, others ask for ammonia-free products. The safest choice is water with a mild soap, which suits every film.",
         },
       ],
     },

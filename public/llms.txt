@@ -46,6 +46,7 @@ Contexte détaillé (films, chiffres, questions fréquentes) : [llms-full.txt](h
 - [Velux trop chaud en été : film anti-chaleur, store ou volet ?](https://vitracare.be/blog/velux-fenetre-de-toit-anti-chaleur): Pourquoi une protection extérieure est la plus efficace sur une fenêtre de toit, pourquoi VitraCare n'y pose pas de film, et où le film complète stores et volets.
 - [Film anti-chaleur pour fenêtre : est-ce que ça marche vraiment ?](https://vitracare.be/blog/film-fenetre-anti-chaleur-efficace): Ce qu'un film anti-chaleur fait et ne fait pas, d'où vient la chaleur qui traverse une vitre, et comment lire une fiche technique (lumière visible, UV, infrarouges, énergie solaire totale rejetée).
 - [Film sur double vitrage : quel risque de casse, et pose intérieure ou extérieure ?](https://vitracare.be/blog/film-double-vitrage-casse-thermique): Ce qui cause la casse thermique, les facteurs de risque (film sombre, ombre partielle, bords abîmés, grande vitre), ce que disent fabricants de films et de verre, et le choix entre pose intérieure et extérieure, triple vitrage compris.
+- [Film pour vitrage après la pose : bulles, voile, séchage et entretien](https://vitracare.be/blog/film-vitrage-apres-pose-bulles-entretien): Pourquoi un film paraît trouble ou montre des bulles après la pose, les temps de séchage selon l'épaisseur (guide IWFA), ce qu'il faut éviter pendant ce temps, ce qui est normal ou pas, et comment nettoyer le film ensuite.
 
 ## Communes avec page dédiée
 - [Uccle](https://vitracare.be/communes/uccle)

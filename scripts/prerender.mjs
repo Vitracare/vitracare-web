@@ -890,6 +890,35 @@ const blogArticles = [
       dateModified: '2026-11-09',
     },
   },
+},
+{
+  path: '/blog/film-vitrage-apres-pose-bulles-entretien',
+  meta: {
+    FR: {
+      title: "Film vitrage après la pose : bulles, séchage et entretien — VitraCare",
+      description:
+        "Bulles ou voile après la pose d'un film ? Combien de temps dure le séchage, ce qu'il faut éviter, comment nettoyer le film et quand appeler votre poseur.",
+      headline: "Film pour vitrage après la pose : bulles, voile, séchage et entretien",
+      datePublished: '2026-11-15',
+      dateModified: '2026-11-15',
+    },
+    NL: {
+      title: 'Raamfolie na plaatsing: bellen, droogtijd en onderhoud — VitraCare',
+      description:
+        'Bellen of een waas na het plaatsen van raamfolie? Hoe lang het drogen duurt, wat u beter vermijdt, hoe u de folie reinigt en wanneer u uw plaatser belt.',
+      headline: 'Raamfolie na de plaatsing: luchtbellen, waas, droogtijd en onderhoud',
+      datePublished: '2026-11-15',
+      dateModified: '2026-11-15',
+    },
+    EN: {
+      title: 'Window Film After Fitting: Bubbles, Drying and Cleaning — VitraCare',
+      description:
+        'Bubbles or haze after window film is fitted? How long drying takes, what to avoid in the meantime, how to clean the film, and when to call your installer.',
+      headline: 'Window film after fitting: bubbles, haze, drying time and cleaning',
+      datePublished: '2026-11-15',
+      dateModified: '2026-11-15',
+    },
+  },
 },];
 
 // Mirrors src/communeContent.ts (kept in sync by hand, same pattern as blogArticles

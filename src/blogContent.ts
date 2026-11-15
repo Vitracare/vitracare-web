@@ -2181,6 +2181,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-15',
       excerpt:
         "Petites bulles, aspect laiteux : ce qui est normal après la pose d'un film, combien de temps il faut attendre, comment nettoyer ensuite, et les signes qui ne le sont pas.",
+      heroImage: { src: '/images/blog/illus-film-vitrage-apres-pose-bulles-entretien.jpg', alt: "Illustration en deux scènes d'une même fenêtre bruxelloise vue de l'intérieur : à gauche, « Jour 1 », la vitre filmée est légèrement laiteuse avec de petites bulles d'eau, une raclette et un pulvérisateur sur le rebord ; à droite, « Jour 30 », la vitre est parfaitement claire, avec un chiffon et un seau d'eau savonneuse ; un calendrier et une flèche relient les deux scènes.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [
@@ -4484,6 +4485,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-15',
       excerpt:
         "Kleine bellen, een melkachtige waas: wat normaal is na het plaatsen van raamfolie, hoe lang u moet wachten, hoe u daarna reinigt, en welke tekenen niet normaal zijn.",
+      heroImage: { src: '/images/blog/illus-film-vitrage-apres-pose-bulles-entretien.jpg', alt: "Illustratie in twee scènes van hetzelfde Brusselse raam, van binnenuit gezien: links, \"Jour 1\" (dag 1), is de beplakte ruit licht melkachtig met kleine waterbellen, met een rakel en een sproeier op de vensterbank; rechts, \"Jour 30\" (dag 30), is de ruit volledig helder, met een doek en een emmer zeepsop; een kalender en een pijl verbinden beide scènes.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [
@@ -6787,6 +6789,7 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
       date: '2026-11-15',
       excerpt:
         "Small bubbles, a milky haze: what is normal after window film is fitted, how long to wait, how to clean it afterwards, and the signs that are not normal.",
+      heroImage: { src: '/images/blog/illus-film-vitrage-apres-pose-bulles-entretien.jpg', alt: "Two-scene illustration of the same Brussels window seen from inside: on the left, \"Jour 1\" (day 1), the filmed glass looks slightly milky with small water bubbles, with a squeegee and a spray bottle on the sill; on the right, \"Jour 30\" (day 30), the glass is perfectly clear, with a cloth and a bucket of soapy water; a calendar and an arrow link the two scenes.", width: 1200, height: 641 },
       sections: [
         {
           paragraphs: [

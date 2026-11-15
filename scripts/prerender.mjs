@@ -250,6 +250,7 @@ const blogArticleImages = {
   'velux-fenetre-de-toit-anti-chaleur': '/images/blog/illus-velux-fenetre-de-toit-anti-chaleur.jpg',
   'film-fenetre-anti-chaleur-efficace': '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg',
   'film-double-vitrage-casse-thermique': '/images/blog/illus-film-double-vitrage-casse-thermique.jpg',
+  'film-vitrage-apres-pose-bulles-entretien': '/images/blog/illus-film-vitrage-apres-pose-bulles-entretien.jpg',
 };
 
 const blogArticles = [

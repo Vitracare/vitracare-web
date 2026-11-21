@@ -251,6 +251,7 @@ const blogArticleImages = {
   'film-fenetre-anti-chaleur-efficace': '/images/blog/illus-film-fenetre-anti-chaleur-efficace.jpg',
   'film-double-vitrage-casse-thermique': '/images/blog/illus-film-double-vitrage-casse-thermique.jpg',
   'film-vitrage-apres-pose-bulles-entretien': '/images/blog/illus-film-vitrage-apres-pose-bulles-entretien.jpg',
+  'vitres-teintees-maison': '/images/blog/illus-vitres-teintees-maison.jpg',
 };
 
 const blogArticles = [
@@ -918,6 +919,35 @@ const blogArticles = [
       headline: 'Window film after fitting: bubbles, haze, drying time and cleaning',
       datePublished: '2026-11-15',
       dateModified: '2026-11-15',
+    },
+  },
+},
+{
+  path: '/blog/vitres-teintees-maison',
+  meta: {
+    FR: {
+      title: "Vitres teintées pour maison : film teinté ou miroir ? — VitraCare",
+      description:
+        "Teinter les vitres de sa maison : ce qu'un film teinté ou miroir change le jour, le soir, pour la chaleur et la lumière, et quand choisir un vitrage teinté.",
+      headline: "Vitres teintées pour maison : film teinté, film miroir ou vitrage teinté ?",
+      datePublished: '2026-11-21',
+      dateModified: '2026-11-21',
+    },
+    NL: {
+      title: "Getinte ramen voor uw huis: getinte folie of spiegelfolie? — VitraCare",
+      description:
+        "Uw ramen thuis laten tinten: wat getinte folie of spiegelfolie verandert overdag en 's avonds, voor warmte en licht, en wanneer getint glas beter is.",
+      headline: 'Getinte ramen voor uw huis: getinte folie, spiegelfolie of getint glas?',
+      datePublished: '2026-11-21',
+      dateModified: '2026-11-21',
+    },
+    EN: {
+      title: "Tinted Windows for Your Home: Tinted or Mirror Film? — VitraCare",
+      description:
+        "Tinting your home's windows: what tinted or mirror film changes by day and at night, for heat and light, and when tinted glass makes more sense.",
+      headline: 'Tinted windows for your home: tinted film, mirror film or tinted glass?',
+      datePublished: '2026-11-21',
+      dateModified: '2026-11-21',
     },
   },
 },];

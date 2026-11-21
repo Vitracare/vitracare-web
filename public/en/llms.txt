@@ -47,6 +47,7 @@ Detailed context (films, figures, frequently asked questions): [llms-full.txt](h
 - [Heat-control window film: does it really work?](https://vitracare.be/en/blog/film-fenetre-anti-chaleur-efficace): What heat-control film does and doesn't do, where the heat through a window comes from, and how to read a spec sheet (visible light, UV, infrared, total solar energy rejected).
 - [Window film on double glazing: risk of cracking, and inside or outside fitting?](https://vitracare.be/en/blog/film-double-vitrage-casse-thermique): What causes thermal breakage, the risk factors (dark film, partial shade, damaged edges, large panes), what film and glass manufacturers say, and choosing between inside and outside fitting, including triple glazing.
 - [Window film after fitting: bubbles, haze, drying time and cleaning](https://vitracare.be/en/blog/film-vitrage-apres-pose-bulles-entretien): Why window film looks cloudy or shows bubbles after fitting, drying times by thickness (IWFA guideline), what to avoid meanwhile, what is normal and what is not, and how to clean the film afterwards.
+- [Tinted windows for your home: tinted film, mirror film or tinted glass?](https://vitracare.be/en/blog/vitres-teintees-maison): What tinted or mirror film changes on a home's windows by day and at night, for heat and light, what to check on double glazing and Brussels planning rules, and when tinted glass makes more sense.
 
 ## Municipalities with a dedicated page
 - [Uccle](https://vitracare.be/en/communes/uccle)

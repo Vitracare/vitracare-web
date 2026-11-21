@@ -5,7 +5,7 @@ import { LocalizedLink as Link } from './LocalizedLink';
 import { trackEvent } from '../lib/analytics';
 
 const brandColor = '#BA9765';
-const MAX_PHOTOS_BYTES = 3.5 * 1024 * 1024; // stays under the ~4.5MB serverless request limit once base64-encoded
+const MAX_PHOTOS_BYTES = 3 * 1024 * 1024; // base64 adds ~33% → ~4 MB request, under Vercel's 4.5 MB function limit (3.4 MB of photos was tested live and rejected with 413)
 const MAX_PHOTOS_COUNT = 12;
 const COMPRESS_MAX_DIM = 1280;
 const COMPRESS_QUALITY = 0.72;

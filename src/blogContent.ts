@@ -2333,6 +2333,163 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: "vitres-teintees-maison",
+      title: "Vitres teintées pour maison : film teinté, film miroir ou vitrage teinté ?",
+      metaTitle: "Vitres teintées pour maison : film teinté ou miroir ?",
+      metaDescription:
+        "Teinter les vitres de sa maison : ce qu'un film teinté ou miroir change le jour, le soir, pour la chaleur et la lumière, et quand choisir un vitrage teinté.",
+      date: '2026-11-21',
+      excerpt:
+        "Teinter ses vitres comme celles d'une voiture : ce que ça donne vraiment dans une maison, le jour et le soir, côté chaleur, lumière et façade, et quelle solution choisir.",
+      heroImage: { src: '/images/blog/illus-vitres-teintees-maison.jpg', alt: "Illustration d'une façade bruxelloise Art nouveau, le jour et le soir : la vitre à film miroir argenté reflète la rue le jour mais laisse voir le salon éclairé le soir, la vitre noire reste sombre, la vitre blanc mat laisse passer la lumière sans rien montrer", width: 1200, height: 670 },
+      sections: [
+        {
+          paragraphs: [
+            "« Des vitres teintées, comme sur une voiture » : c'est souvent l'image qu'on a en tête quand on veut moins de regards ou moins de soleil dans la maison. Dans une maison, ça passe presque toujours par un film collé sur la vitre existante. Mais selon le film, le résultat change beaucoup : ce qu'on voit depuis la rue, la lumière qui reste dans la pièce, la chaleur, et surtout ce qui se passe le soir.",
+          ],
+        },
+        {
+          heading: "La réponse courte",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Pour teinter les vitres d'une maison, il y a deux voies : coller un film sur le vitrage existant, ou remplacer le vitrage par un verre teinté ou à contrôle solaire. Quand les fenêtres sont en bon état, le film est la solution la plus simple.",
+            "Une vitre teintée assombrit la pièce, réduit l'éblouissement et cache l'intérieur de jour. Le soir, lumière allumée, l'effet s'inverse : on voit de nouveau à l'intérieur. Seule une teinte très foncée limite encore nettement la vue, au prix d'une pièce sombre toute la journée. Et une vitre plus foncée ne garde pas forcément la maison plus fraîche.",
+            "Petite précision avant d'aller plus loin : nous posons des films sur les vitres de maisons, d'appartements et de bureaux, à Bruxelles et dans les environs. Nous ne teintons pas les vitres de voiture.",
+          ],
+        },
+        {
+          heading: "Film teinté, film miroir, vitrage teinté : trois choses différentes",
+          anchor: 'trois-solutions',
+          paragraphs: [
+            "Le mot « teinté » recouvre trois produits qui ne fonctionnent pas de la même façon. Dans son [dossier sur les films anti-chaleur](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/films-exterieurs-anti-chaleur), Test-Achats les distingue ainsi : le film teinté contient une coloration qui absorbe une partie de la lumière et de la chaleur, alors que le film miroir a une fine couche métallisée qui renvoie une partie du rayonnement solaire. Le vitrage teinté, lui, est teinté ou traité dès la fabrication du verre.",
+          ],
+          table: {
+            headers: ["", "Film teinté", "Film miroir", "Vitrage teinté"],
+            rows: [
+              ["Principe", "Une couleur (gris, bronze ou bleu) absorbe une partie de la lumière et de la chaleur", "Une fine couche métallisée renvoie une partie du soleil", "Le verre est teinté ou traité dès sa fabrication"],
+              ["Vu de la rue, de jour", "Vitre plus sombre", "Vitre qui reflète, comme un miroir", "Selon le verre choisi"],
+              ["Vu de la rue, le soir (lumière allumée)", "On voit à l'intérieur", "On voit à l'intérieur ; la version noire limite nettement la vue", "On voit à l'intérieur"],
+              ["Travaux", "Pose sur la vitre existante", "Pose sur la vitre existante", "Remplacement du vitrage"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Chez VitraCare, nous posons le [film miroir](/blog/film-miroir-vitrage-bruxelles) en version argentée ou noire, un [film solaire](/blog/film-solaire-vitrage-bruxelles) qui reste transparent avec une légère teinte bleutée, un film blanc mat et un film anti-effraction. Pour un rendu « vitre teintée », c'est le film miroir qui s'en rapproche le plus, surtout en version noire. Notre [guide pour choisir son film](/blog/quel-film-choisir-vitrages) compare les quatre.",
+          ],
+        },
+        {
+          heading: "De jour : ce qu'on voit depuis la rue, et depuis chez vous",
+          anchor: 'de-jour',
+          paragraphs: [
+            "De jour, ce n'est pas la couleur seule qui cache l'intérieur, c'est la différence de lumière. Dehors, il fait bien plus clair que dans la pièce. Vue de la rue, la vitre renvoie surtout le reflet du ciel et des façades d'en face, et le peu de lumière qui sort de chez vous se perd dedans. Le film miroir renforce ce reflet, le film teinté assombrit encore l'intérieur : dans les deux cas, on distingue mal ce qui se passe chez vous.",
+            "Depuis l'intérieur, vous voyez dehors normalement, en un peu plus sombre, comme avec des lunettes de soleil. Le chiffre qui dit à quel point une teinte assombrit la pièce, c'est la transmission lumineuse (VLT en anglais) : la part de la lumière visible qui traverse la vitre. Plus il est bas, plus la pièce sera sombre. Notre film miroir argenté laisse passer 22 % de la lumière visible ; la version noire, nettement moins.",
+            "Demandez toujours ce chiffre avant de choisir une teinte, et pensez à la pièce : un salon où vous passez vos journées supporte moins bien une teinte foncée qu'un hall ou une cage d'escalier.",
+          ],
+        },
+        {
+          heading: "Le soir, la teinte ne suffit plus",
+          anchor: 'le-soir',
+          paragraphs: [
+            "Le soir, tout s'inverse. Il fait noir dehors, la lumière est allumée chez vous : c'est maintenant l'intérieur qui est le côté éclairé. Le film miroir devient un miroir pour vous, à l'intérieur, et on voit chez vous depuis la rue. Ce n'est pas un défaut du film, c'est de la physique, et c'est la même chose avec une vitre teintée d'usine. Nous l'expliquons en détail dans notre article sur le [film anti-regard transparent](/blog/film-anti-regard-transparent).",
+            "La version noire de notre film miroir limite nettement la vue même en soirée, parce qu'elle laisse passer beaucoup moins de lumière. En contrepartie, la pièce reste sombre en permanence. Elle convient à une fenêtre secondaire ou à un hall, beaucoup moins à un salon. Pour une porte d'entrée vitrée, nous conseillons plutôt le blanc mat, comme nous l'expliquons dans notre article sur la [porte d'entrée vitrée](/blog/film-porte-entree-vitree).",
+            "Une personne qui aménageait une salle de sport à domicile nous a récemment posé exactement cette question : elle voulait de l'intimité le jour, garder la lumière, et ne pas être vue le soir avec la lumière allumée. Nous lui avons conseillé le [film blanc mat](/blog/film-blanc-mat-vitrage-bruxelles) plutôt qu'un miroir : il bloque la vue dans les deux sens, jour et nuit, et laisse passer la lumière. Seul inconvénient, on ne voit plus net à travers. Si vous tenez à garder la vue le jour, la solution la plus simple reste le film miroir, avec un rideau qu'on ferme le soir.",
+          ],
+        },
+        {
+          heading: "Plus foncé ne veut pas dire plus frais",
+          anchor: 'chaleur',
+          paragraphs: [
+            "On pourrait croire qu'une vitre plus foncée garde la maison plus fraîche. Ce n'est pas si simple. D'après Test-Achats, l'action des films teintés contre la surchauffe est « modérée », parce qu'ils agissent surtout en absorbant la chaleur plutôt qu'en la renvoyant. Cette chaleur absorbée fait chauffer la vitre, et une partie finit quand même dans la pièce.",
+            "Les films miroir, eux, renvoient une partie des infrarouges vers l'extérieur. Et il existe des films clairs, que Test-Achats appelle sélectifs ou céramiques, qui limitent la surchauffe en gardant les vitres presque transparentes. Si votre seul problème est la chaleur, inutile d'assombrir la pièce : notre film solaire reste transparent.",
+            "Pour savoir ce qu'on peut vraiment attendre d'un film contre la chaleur, et comment lire une fiche technique, lisez notre article [film anti-chaleur : est-ce que ça marche vraiment ?](/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "Film foncé sur double vitrage : une vérification à faire",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "Un film qui absorbe beaucoup de chaleur fait aussi chauffer la vitre sur laquelle il est collé. Sur un double vitrage, ça crée des tensions dans le verre et, dans de mauvaises conditions, une casse thermique. Test-Achats va jusqu'à déconseiller les films posés à l'intérieur pour cette raison.",
+            "Les fabricants de films, eux, publient des tableaux de compatibilité : le risque dépend du film, du type de verre, de la taille de la vitre et de son exposition. C'est pour ça que nous regardons vos vitrages pendant la visite, et que nous proposons une pose à l'extérieur quand c'est plus prudent. À ce jour, nous n'avons jamais eu de vitre fissurée après une pose. Tout est détaillé dans notre article sur le [film sur double vitrage](/blog/film-double-vitrage-casse-thermique).",
+          ],
+        },
+        {
+          heading: "La façade : faut-il une autorisation ?",
+          anchor: 'facade',
+          paragraphs: [
+            "Une vitre miroir ou très foncée se remarque depuis la rue. Test-Achats le signale aussi : l'aspect brillant des films miroir peut modifier l'apparence des vitres.",
+            "À Bruxelles, la [brochure de l'urbanisme régional sur les fenêtres et châssis](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf) précise qu'un simple remplacement de vitrage ne demande pas de permis s'il ne modifie pas l'aspect architectural du bâtiment, et qu'un permis est toujours requis pour un bâtiment classé ou inscrit sur la liste de sauvegarde. Elle ne parle pas des films. Elle rappelle aussi qu'une commune peut imposer ses propres règles par son règlement communal d'urbanisme.",
+            "Notre conseil : si votre maison est classée, se trouve dans la zone de protection d'un bien classé, ou si vous avez un doute, demandez d'abord au service urbanisme de votre commune. En appartement, il y a aussi le règlement de copropriété : nous expliquons où regarder dans notre article sur le [film en copropriété](/blog/film-fenetre-copropriete-autorisation).",
+          ],
+        },
+        {
+          heading: "Film ou vitrage teinté : que choisir selon votre situation ?",
+          anchor: 'que-choisir',
+          paragraphs: [
+            "Si vos fenêtres sont en bon état, le film est la solution la plus simple : il se pose sur la vitre existante, sans toucher aux châssis. Si vous prévoyez de toute façon de changer vos fenêtres, c'est le bon moment pour choisir directement un vitrage à contrôle solaire (ce remplacement se fait chez un menuisier ou un vitrier : nous ne posons que des films). Nous comparons les deux dans [vitrage à contrôle solaire intégré ou film](/blog/vitrage-controle-solaire-integre-ou-film), et nous aidons à trancher entre [remplacer ses fenêtres ou poser un film](/blog/remplacer-fenetres-ou-film-vitrage).",
+          ],
+          table: {
+            headers: ["Votre situation", "Ce que nous conseillons"],
+            rows: [
+              ["Vis-à-vis côté rue, surtout en journée", "Film miroir argenté"],
+              ["Fenêtre secondaire ou hall, vue limitée même le soir", "Film miroir noir"],
+              ["Porte d'entrée vitrée", "Film blanc mat"],
+              ["Intimité aussi le soir, en gardant la lumière", "Film blanc mat"],
+              ["Trop chaud, mais vous voulez garder la vue et la lumière", "Film solaire"],
+              ["Fenêtres à remplacer de toute façon", "Vitrage à contrôle solaire"],
+            ],
+          },
+        },
+        {
+          heading: "Pose et prix",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "Le film se pose à l'eau, sur la face intérieure ou extérieure de la vitre selon le cas. Il met ensuite environ un mois à sécher : les petites bulles et le voile des premiers jours sont normaux, tout est expliqué dans notre article sur le [film après la pose](/blog/film-vitrage-apres-pose-bulles-entretien).",
+            "Le prix dépend de la surface et de l'accessibilité des fenêtres, pas de la teinte : un film miroir argenté ou noir coûte le même prix au m². Nous détaillons ce qui le fait varier dans [prix d'un film pour vitrage à Bruxelles](/blog/prix-pose-film-vitrage-bruxelles). Et si vous pensez à un film vendu en magasin de bricolage, nous comparons les deux options dans [premier prix ou pose professionnelle](/blog/film-vitre-premier-prix-ou-pose-professionnelle).",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Test-Achats : Les films solaires anti-chaleur : choix, efficacité, pose, entretien (dossier, juin 2026)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/films-exterieurs-anti-chaleur)",
+            "[Bruxelles Développement urbain (Région de Bruxelles-Capitale) : Fenêtres et châssis, feuillet de l'urbanisme (septembre 2016)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+            "[NFRC, guide des fenêtres pour le grand public : glossaire, « Visible transmittance » (en anglais)](https://efficientwindows.org/glossary/)",
+            "[Université de l'Illinois, Physics Van : « One-way Mirrors? » (2011, en anglais)](https://van.physics.illinois.edu/ask/listing/16805)",
+            "[The Naked Scientists : « How does a one-way mirror work? » (2008, en anglais)](https://www.thenakedscientists.com/node/179511)",
+            "[Eastman Performance Films (SunTek) : Film Installation Guidelines, Architectural Window Films (2021, en anglais)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+          ],
+        },
+        {
+          heading: "Vous hésitez entre plusieurs teintes ?",
+          paragraphs: [
+            "Contactez-nous : nous vous conseillons gratuitement selon votre situation et vous répondons sous 24h.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Peut-on teinter les vitres d'une maison comme celles d'une voiture ?",
+          answer: "Oui, avec un film collé sur la vitre existante. Le rendu le plus proche est un film miroir, surtout en version noire. Les limites de teinte imposées aux voitures concernent les véhicules, pas les fenêtres d'une maison. Pour une maison, ce sont plutôt les règles d'urbanisme, et en appartement la copropriété, qu'il faut vérifier.",
+        },
+        {
+          question: "Est-ce qu'on voit encore dehors à travers une vitre teintée ?",
+          answer: "Oui, en un peu plus sombre, comme avec des lunettes de soleil. Notre film miroir argenté laisse passer 22 % de la lumière visible ; la version noire assombrit nettement plus la pièce.",
+        },
+        {
+          question: "Une vitre teintée cache-t-elle l'intérieur la nuit ?",
+          answer: "Non. Le soir, quand la lumière est allumée chez vous et qu'il fait noir dehors, on voit à l'intérieur, que la vitre soit teintée ou miroir. Une teinte très foncée limite la vue sans la bloquer. Pour une intimité jour et nuit, il faut un film blanc mat.",
+        },
+        {
+          question: "Une vitre plus foncée protège-t-elle mieux de la chaleur ?",
+          answer: "Pas forcément. Selon Test-Achats, les films teintés agissent surtout par absorption, et leur effet contre la surchauffe est modéré. Les films miroir renvoient une partie des infrarouges, et certains films clairs limitent la chaleur en restant presque transparents.",
+        },
+        {
+          question: "Combien de temps dure un film pour vitre ?",
+          answer: "Selon les chiffres du secteur repris par Test-Achats, 10 à 15 ans pour les films en PET collés, et 2 à 7 ans pour les films en PVC repositionnables. En pose intérieure, nous comptons aussi 10 à 15 ans ; c'est plus court en pose extérieure.",
+        },
+      ],
+    },
   ],
   NL: [
     {
@@ -4637,6 +4794,163 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         },
       ],
     },
+    {
+      slug: "vitres-teintees-maison",
+      title: "Getinte ramen voor uw huis: getinte folie, spiegelfolie of getint glas?",
+      metaTitle: "Getinte ramen voor uw huis: getinte folie of spiegelfolie?",
+      metaDescription:
+        "Uw ramen thuis laten tinten: wat getinte folie of spiegelfolie verandert overdag en 's avonds, voor warmte en licht, en wanneer getint glas beter is.",
+      date: '2026-11-21',
+      excerpt:
+        "Ramen tinten zoals bij een auto: wat dat in een huis echt oplevert, overdag en 's avonds, voor warmte, licht en gevel, en welke oplossing u kiest.",
+      heroImage: { src: '/images/blog/illus-vitres-teintees-maison.jpg', alt: "Illustratie van een Brusselse art-nouveaugevel overdag en 's avonds: het raam met zilveren spiegelfolie weerspiegelt overdag de straat maar toont 's avonds de verlichte woonkamer, het zwarte raam blijft donker, het matwitte raam laat licht door zonder iets te tonen", width: 1200, height: 670 },
+      sections: [
+        {
+          paragraphs: [
+            "\"Getinte ramen, zoals bij een auto\": dat beeld hebben veel mensen in gedachten als ze thuis minder inkijk of minder zon willen. In een huis gebeurt dat bijna altijd met een folie op het bestaande glas. Maar het resultaat hangt sterk af van de folie: wat u vanaf de straat ziet, hoeveel licht er in de kamer overblijft, de warmte, en vooral wat er 's avonds gebeurt.",
+          ],
+        },
+        {
+          heading: "Het korte antwoord",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "Er zijn twee manieren om de ramen van een huis te tinten: een folie op het bestaande glas kleven, of het glas vervangen door getint of zonwerend glas. Zijn uw ramen in goede staat, dan is folie de eenvoudigste oplossing.",
+            "Een getint raam maakt de kamer donkerder, vermindert verblinding en verbergt het interieur overdag. 's Avonds, met het licht aan, keert het effect om: dan ziet men weer naar binnen. Alleen een heel donkere tint beperkt dan nog duidelijk de inkijk, met een kamer die de hele dag donker blijft. En een donkerder raam houdt het huis niet per se koeler.",
+            "Nog een woordje vooraf: wij plaatsen folie op de ramen van huizen, appartementen en kantoren, in Brussel en omgeving. Autoruiten tinten wij niet.",
+          ],
+        },
+        {
+          heading: "Getinte folie, spiegelfolie, getint glas: drie verschillende dingen",
+          anchor: 'trois-solutions',
+          paragraphs: [
+            "Achter het woord \"getint\" zitten drie producten die anders werken. In haar [dossier over zonwerende folie](https://www.test-aankoop.be/woning-energie/huis-koelen/dossier/films-exterieurs-anti-chaleur) maakt Test-Aankoop dit onderscheid: getinte folie heeft een kleurlaag die een deel van het licht en de warmte absorbeert, terwijl spiegelfolie een dunne metaallaag heeft die een deel van de zonnestraling terugkaatst. Getint glas wordt al bij de productie getint of behandeld.",
+          ],
+          table: {
+            headers: ["", "Getinte folie", "Spiegelfolie", "Getint glas"],
+            rows: [
+              ["Werking", "Een kleur (grijs, brons of blauw) absorbeert een deel van het licht en de warmte", "Een dunne metaallaag kaatst een deel van de zon terug", "Het glas wordt al bij de productie getint of behandeld"],
+              ["Vanaf de straat, overdag", "Donkerder raam", "Raam dat spiegelt", "Afhankelijk van het gekozen glas"],
+              ["Vanaf de straat, 's avonds (licht aan)", "Men ziet naar binnen", "Men ziet naar binnen; de zwarte versie beperkt de inkijk duidelijk", "Men ziet naar binnen"],
+              ["Werken", "Op het bestaande glas", "Op het bestaande glas", "Glas vervangen"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "Bij VitraCare plaatsen wij [spiegeleffectfolie](/blog/film-miroir-vitrage-bruxelles) in een zilveren of zwarte versie, een [zonwerende folie](/blog/film-solaire-vitrage-bruxelles) die transparant blijft met een lichtblauwe tint, een matwitte folie en een inbraakwerende folie. Voor een \"getint raam\"-effect komt spiegelfolie het dichtst in de buurt, vooral in de zwarte versie. Onze [gids om uw folie te kiezen](/blog/quel-film-choisir-vitrages) vergelijkt de vier.",
+          ],
+        },
+        {
+          heading: "Overdag: wat men vanaf de straat ziet, en wat u van binnenuit ziet",
+          anchor: 'de-jour',
+          paragraphs: [
+            "Overdag is het niet de kleur alleen die het interieur verbergt, maar het verschil in licht. Buiten is het veel lichter dan binnen. Vanaf de straat weerspiegelt het raam vooral de lucht en de gevels aan de overkant, en het beetje licht dat uit uw kamer komt, valt daarin weg. Spiegelfolie versterkt die weerspiegeling, getinte folie maakt het interieur nog donkerder: in beide gevallen ziet men moeilijk wat er binnen gebeurt.",
+            "Van binnenuit ziet u gewoon naar buiten, alleen wat donkerder, zoals met een zonnebril. Het cijfer dat aangeeft hoeveel donkerder een tint de kamer maakt, is de lichttoetreding (VLT in het Engels): het deel van het zichtbare licht dat door het raam gaat. Hoe lager, hoe donkerder de kamer. Onze zilveren spiegelfolie laat 22 % van het zichtbare licht door; de zwarte versie duidelijk minder.",
+            "Vraag altijd naar dat cijfer voor u een tint kiest, en denk aan de ruimte: een woonkamer waar u de hele dag zit, verdraagt een donkere tint minder goed dan een hal of een trappenhuis.",
+          ],
+        },
+        {
+          heading: "'s Avonds volstaat de tint niet meer",
+          anchor: 'le-soir',
+          paragraphs: [
+            "'s Avonds keert alles om. Buiten is het donker, binnen brandt het licht: nu is het interieur de verlichte kant. De spiegelfolie wordt een spiegel voor u, aan de binnenkant, en vanaf de straat ziet men naar binnen. Dat is geen fout van de folie, het is natuurkunde, en het geldt evengoed voor glas dat in de fabriek getint is. We leggen het uitgebreid uit in ons artikel over [transparante inkijkwerende folie](/blog/film-anti-regard-transparent).",
+            "De zwarte versie van onze spiegelfolie beperkt de inkijk ook 's avonds duidelijk, omdat ze veel minder licht doorlaat. Daar staat tegenover dat de kamer altijd donker blijft. Ze past bij een bijkomend raam of een hal, veel minder bij een woonkamer. Voor een glazen voordeur raden wij eerder matwit aan, zoals we uitleggen in ons artikel over de [glazen voordeur](/blog/film-porte-entree-vitree).",
+            "Iemand die thuis een fitnessruimte inrichtte, stelde ons onlangs precies die vraag: privacy overdag, het licht behouden, en 's avonds met het licht aan niet gezien worden. Wij raadden de [matwitte folie](/blog/film-blanc-mat-vitrage-bruxelles) aan in plaats van spiegelfolie: ze blokkeert de inkijk in beide richtingen, dag en nacht, en laat het licht door. Enig nadeel: u kijkt er niet meer scherp doorheen. Wilt u overdag het uitzicht houden, dan blijft spiegelfolie de eenvoudigste oplossing, met een gordijn dat u 's avonds dichtdoet.",
+          ],
+        },
+        {
+          heading: "Donkerder betekent niet koeler",
+          anchor: 'chaleur',
+          paragraphs: [
+            "Je zou denken dat een donkerder raam het huis koeler houdt. Zo eenvoudig is het niet. Volgens Test-Aankoop is het effect van getinte folie tegen oververhitting \"matig\", omdat ze vooral werkt door warmte te absorberen in plaats van ze terug te kaatsen. Die geabsorbeerde warmte maakt het glas warm, en een deel ervan komt toch in de kamer terecht.",
+            "Spiegelfolie kaatst een deel van de infraroodstraling naar buiten terug. En er bestaan heldere folies, die Test-Aankoop spectraal selectief of keramisch noemt, die oververhitting beperken terwijl de ramen bijna transparant blijven. Is warmte uw enige probleem, dan hoeft u de kamer niet donkerder te maken: onze zonwerende folie blijft transparant.",
+            "Wat u echt van een folie tegen warmte mag verwachten, en hoe u een technische fiche leest, leest u in ons artikel [warmtewerende raamfolie: werkt het echt?](/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "Donkere folie op dubbel glas: iets om te controleren",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "Een folie die veel warmte absorbeert, maakt ook het glas warm waarop ze kleeft. Bij dubbel glas veroorzaakt dat spanningen in het glas en, in slechte omstandigheden, thermische breuk. Test-Aankoop raadt binnenfolie daarom zelfs af.",
+            "De folieproducenten publiceren van hun kant compatibiliteitstabellen: het risico hangt af van de folie, het type glas, de grootte van de ruit en de blootstelling. Daarom bekijken wij uw beglazing tijdens het bezoek, en stellen we buitenplaatsing voor wanneer dat voorzichtiger is. Tot nu toe hebben we nog nooit een gebarsten ruit gehad na een plaatsing. Alles staat in ons artikel over [folie op dubbel glas](/blog/film-double-vitrage-casse-thermique).",
+          ],
+        },
+        {
+          heading: "De gevel: hebt u toestemming nodig?",
+          anchor: 'facade',
+          paragraphs: [
+            "Een spiegelend of heel donker raam valt op vanaf de straat. Test-Aankoop wijst er ook op: het glanzende effect van spiegelfolie kan het uitzicht van de ramen veranderen.",
+            "In Brussel vermeldt de [gewestelijke stedenbouwfolder over ramen en schrijnwerk](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf) (in het Frans) dat een eenvoudige vervanging van beglazing geen vergunning vraagt als ze het architecturale uitzicht van het gebouw niet wijzigt, en dat een vergunning altijd nodig is voor een beschermd gebouw of een gebouw op de bewaarlijst. Over folie zegt de folder niets. Hij herinnert er ook aan dat een gemeente eigen regels kan opleggen via haar gemeentelijke stedenbouwkundige verordening.",
+            "Ons advies: is uw huis beschermd, ligt het in de vrijwaringszone van een beschermd goed, of twijfelt u, vraag het dan eerst aan de dienst stedenbouw van uw gemeente. In een appartement is er ook het reglement van mede-eigendom: waar u moet kijken, leggen we uit in ons artikel over [raamfolie in een appartement](/blog/film-fenetre-copropriete-autorisation).",
+          ],
+        },
+        {
+          heading: "Folie of getint glas: wat kiezen volgens uw situatie?",
+          anchor: 'que-choisir',
+          paragraphs: [
+            "Zijn uw ramen in goede staat, dan is folie de eenvoudigste oplossing: ze komt op het bestaande glas, zonder aan het schrijnwerk te raken. Plant u sowieso nieuwe ramen, dan is dat het moment om meteen zonwerend glas te kiezen (die vervanging doet een schrijnwerker of glazenmaker: wij plaatsen alleen folie). We vergelijken beide in [geïntegreerde zonwerende beglazing of folie](/blog/vitrage-controle-solaire-integre-ou-film), en helpen u kiezen tussen [ramen vervangen of folie plaatsen](/blog/remplacer-fenetres-ou-film-vitrage).",
+          ],
+          table: {
+            headers: ["Uw situatie", "Wat wij aanraden"],
+            rows: [
+              ["Inkijk vanaf de straat, vooral overdag", "Zilveren spiegelfolie"],
+              ["Bijkomend raam of hal, ook 's avonds beperkte inkijk", "Zwarte spiegelfolie"],
+              ["Glazen voordeur", "Matwitte folie"],
+              ["Ook 's avonds privacy, met behoud van licht", "Matwitte folie"],
+              ["Te warm, maar u wilt uitzicht en licht behouden", "Zonwerende folie"],
+              ["Ramen moeten sowieso vervangen worden", "Zonwerend glas"],
+            ],
+          },
+        },
+        {
+          heading: "Plaatsing en prijs",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "De folie wordt nat geplaatst, aan de binnen- of buitenkant van het glas, afhankelijk van de situatie. Daarna droogt ze ongeveer een maand: kleine belletjes en een lichte waas in de eerste dagen zijn normaal, alles staat in ons artikel over [raamfolie na de plaatsing](/blog/film-vitrage-apres-pose-bulles-entretien).",
+            "De prijs hangt af van de oppervlakte en de bereikbaarheid van de ramen, niet van de tint: zilveren of zwarte spiegelfolie kost hetzelfde per m². Wat de prijs doet variëren, leest u in [prijs van raamfolie in Brussel](/blog/prix-pose-film-vitrage-bruxelles). En denkt u aan een folie uit de doe-het-zelfzaak, dan vergelijken we beide opties in [goedkope raamfolie of professionele plaatsing](/blog/film-vitre-premier-prix-ou-pose-professionnelle).",
+          ],
+        },
+        {
+          heading: "Bronnen",
+          paragraphs: [
+            "[Test-Aankoop: Zonwerende folie (dossier, juni 2026)](https://www.test-aankoop.be/woning-energie/huis-koelen/dossier/films-exterieurs-anti-chaleur)",
+            "[Brussel Stedelijke Ontwikkeling (Brussels Hoofdstedelijk Gewest): Fenêtres et châssis, stedenbouwfolder (september 2016, in het Frans)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+            "[NFRC, consumentengids over ramen: woordenlijst, 'Visible transmittance' (in het Engels)](https://efficientwindows.org/glossary/)",
+            "[Universiteit van Illinois, Physics Van: 'One-way Mirrors?' (2011, in het Engels)](https://van.physics.illinois.edu/ask/listing/16805)",
+            "[The Naked Scientists: 'How does a one-way mirror work?' (2008, in het Engels)](https://www.thenakedscientists.com/node/179511)",
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Window Films (2021, in het Engels)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+          ],
+        },
+        {
+          heading: "Twijfelt u tussen verschillende tinten?",
+          paragraphs: [
+            "Neem contact met ons op: we adviseren u gratis volgens uw situatie en antwoorden binnen 24 uur.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Kan ik de ramen van mijn huis tinten zoals bij een auto?",
+          answer: "Ja, met een folie op het bestaande glas. Spiegelfolie komt het dichtst in de buurt, vooral de zwarte versie. De tintlimieten voor auto's gelden voor voertuigen, niet voor de ramen van een huis. Voor een huis moet u eerder de stedenbouwregels nakijken, en in een appartement de mede-eigendom.",
+        },
+        {
+          question: "Zie ik nog naar buiten door een getint raam?",
+          answer: "Ja, alleen wat donkerder, zoals met een zonnebril. Onze zilveren spiegelfolie laat 22 % van het zichtbare licht door; de zwarte versie maakt de kamer duidelijk donkerder.",
+        },
+        {
+          question: "Verbergt een getint raam het interieur 's nachts?",
+          answer: "Nee. 's Avonds, als binnen het licht brandt en het buiten donker is, ziet men naar binnen, of het raam nu getint is of spiegelt. Een heel donkere tint beperkt de inkijk zonder ze te blokkeren. Voor privacy dag en nacht hebt u matwitte folie nodig.",
+        },
+        {
+          question: "Beschermt een donkerder raam beter tegen warmte?",
+          answer: "Niet per se. Volgens Test-Aankoop werkt getinte folie vooral door absorptie, en is het effect tegen oververhitting matig. Spiegelfolie kaatst een deel van de infraroodstraling terug, en sommige heldere folies beperken de warmte terwijl ze bijna transparant blijven.",
+        },
+        {
+          question: "Hoe lang gaat raamfolie mee?",
+          answer: "Volgens de sectorcijfers die Test-Aankoop aanhaalt, 10 tot 15 jaar voor gekleefde PET-folie en 2 tot 7 jaar voor herpositioneerbare PVC-folie. Bij binnenplaatsing rekenen wij ook op 10 tot 15 jaar; buiten is dat korter.",
+        },
+      ],
+    },
   ],
   EN: [
     {
@@ -6938,6 +7252,163 @@ export const blogArticles: Record<'FR' | 'NL' | 'EN', BlogArticle[]> = {
         {
           question: "Does an ordinary glass cleaner damage window film?",
           answer: "Manufacturers disagree: some accept shop-bought cleaners, others ask for ammonia-free products. The safest choice is water with a mild soap, which suits every film.",
+        },
+      ],
+    },
+    {
+      slug: "vitres-teintees-maison",
+      title: "Tinted windows for your home: tinted film, mirror film or tinted glass?",
+      metaTitle: "Tinted Windows for Your Home: Tinted or Mirror Film?",
+      metaDescription:
+        "Tinting your home's windows: what tinted or mirror film changes by day and at night, for heat and light, and when tinted glass makes more sense.",
+      date: '2026-11-21',
+      excerpt:
+        "Tinting your windows like a car's: what it really does in a house, by day and at night, for heat, light and the facade, and which option to choose.",
+      heroImage: { src: '/images/blog/illus-vitres-teintees-maison.jpg', alt: "Illustration of a Brussels Art Nouveau facade by day and in the evening: the window with silver mirror film reflects the street by day but shows the lit living room in the evening, the black window stays dark, the matte white window lets light through without showing anything", width: 1200, height: 670 },
+      sections: [
+        {
+          paragraphs: [
+            "\"Tinted windows, like on a car\": that is the picture many people have in mind when they want fewer eyes on them or less sun in the house. In a home, it almost always means a film applied to the existing glass. But the result depends a lot on the film: what people see from the street, how much light stays in the room, the heat, and above all what happens in the evening.",
+          ],
+        },
+        {
+          heading: "The short answer",
+          anchor: 'reponse-courte',
+          paragraphs: [
+            "There are two ways to tint the windows of a house: apply a film to the existing glazing, or replace the glazing with tinted or solar control glass. When the windows are in good condition, film is the simplest option.",
+            "A tinted window darkens the room, cuts glare and hides the interior by day. In the evening, with the lights on, the effect reverses: people can see in again. Only a very dark tint still clearly limits the view, at the cost of a room that stays dark all day. And a darker window does not necessarily keep the house cooler.",
+            "One thing before going further: we fit film on the windows of houses, flats and offices in and around Brussels. We do not tint car windows.",
+          ],
+        },
+        {
+          heading: "Tinted film, mirror film, tinted glass: three different things",
+          anchor: 'trois-solutions',
+          paragraphs: [
+            "The word \"tinted\" covers three products that work differently. In its [report on solar control films](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/films-exterieurs-anti-chaleur) (in French), the Belgian consumer association Test-Achats puts it this way: tinted film has a colour layer that absorbs part of the light and heat, while mirror film has a thin metallised layer that reflects part of the solar radiation. Tinted glass is tinted or treated when the glass is made.",
+          ],
+          table: {
+            headers: ["", "Tinted film", "Mirror film", "Tinted glass"],
+            rows: [
+              ["How it works", "A colour (grey, bronze or blue) absorbs part of the light and heat", "A thin metallised layer reflects part of the sun", "The glass is tinted or treated at the factory"],
+              ["From the street, by day", "Darker window", "Window that reflects like a mirror", "Depends on the glass chosen"],
+              ["From the street, in the evening (lights on)", "You can see in", "You can see in; the black version clearly limits the view", "You can see in"],
+              ["Work involved", "Fitted on the existing glass", "Fitted on the existing glass", "Glazing replaced"],
+            ],
+          },
+        },
+        {
+          paragraphs: [
+            "At VitraCare we fit [mirror effect film](/blog/film-miroir-vitrage-bruxelles) in a silver or black version, a [solar film](/blog/film-solaire-vitrage-bruxelles) that stays transparent with a slight blue tint, a matte white film and a security film. For a \"tinted window\" look, mirror film comes closest, especially the black version. Our [guide to choosing a film](/blog/quel-film-choisir-vitrages) compares all four.",
+          ],
+        },
+        {
+          heading: "By day: what people see from the street, and what you see from inside",
+          anchor: 'de-jour',
+          paragraphs: [
+            "By day, it is not the colour alone that hides the interior, it is the difference in light. Outside is far brighter than the room. From the street, the window mostly reflects the sky and the facades opposite, and the little light coming out of your room gets lost in that reflection. Mirror film strengthens the reflection, tinted film darkens the interior further: either way, it is hard to make out what is going on inside.",
+            "From inside, you see out normally, just a little darker, as with sunglasses. The figure that tells you how much a tint will darken the room is visible light transmission (VLT): the share of visible light that passes through the window. The lower it is, the darker the room. Our silver mirror film lets through 22% of visible light; the black version, much less.",
+            "Always ask for that figure before choosing a tint, and think about the room: a living room where you spend your days copes less well with a dark tint than a hallway or a stairwell.",
+          ],
+        },
+        {
+          heading: "In the evening, tint is no longer enough",
+          anchor: 'le-soir',
+          paragraphs: [
+            "In the evening, everything flips. It is dark outside and the lights are on inside: now the interior is the lit side. The mirror film becomes a mirror for you, on the inside, and people can see in from the street. This is not a flaw in the film, it is physics, and it is just the same with factory-tinted glass. We explain it in detail in our article on [transparent privacy window film](/blog/film-anti-regard-transparent).",
+            "The black version of our mirror film clearly limits the view even in the evening, because it lets through much less light. The trade-off is a room that stays dark all the time. It suits a secondary window or a hallway, much less a living room. For a glazed front door, we would rather recommend matte white, as we explain in our article on [glazed front doors](/blog/film-porte-entree-vitree).",
+            "Someone setting up a home gym recently asked us exactly this: privacy by day, keeping the light, and not being seen in the evening with the lights on. We recommended [matte white film](/blog/film-blanc-mat-vitrage-bruxelles) rather than mirror film: it blocks the view both ways, day and night, and lets the light through. The only drawback is that you no longer see clearly through it. If you want to keep the view by day, the simplest solution is still mirror film, with a curtain you close in the evening.",
+          ],
+        },
+        {
+          heading: "Darker does not mean cooler",
+          anchor: 'chaleur',
+          paragraphs: [
+            "You might think a darker window keeps the house cooler. It is not that simple. According to Test-Achats, tinted films have a \"moderate\" effect against overheating, because they mostly absorb heat rather than reflect it. That absorbed heat warms the glass, and part of it still ends up in the room.",
+            "Mirror films reflect part of the infrared back outside. And there are clear films, which Test-Achats calls spectrally selective or ceramic, that limit overheating while keeping the windows almost transparent. If heat is your only problem, there is no need to darken the room: our solar film stays transparent.",
+            "To see what you can really expect from a film against heat, and how to read a data sheet, read our article [heat-control window film: does it really work?](/blog/film-fenetre-anti-chaleur-efficace)",
+          ],
+        },
+        {
+          heading: "Dark film on double glazing: something to check",
+          anchor: 'double-vitrage',
+          paragraphs: [
+            "A film that absorbs a lot of heat also warms the pane it is stuck to. On double glazing, this creates stress in the glass and, under the wrong conditions, thermal breakage. Test-Achats goes as far as advising against interior films for this reason.",
+            "Film manufacturers, for their part, publish compatibility tables: the risk depends on the film, the type of glass, the size of the pane and its exposure. That is why we look at your glazing during the visit, and suggest exterior fitting when it is the safer option. To date, we have never had a pane crack after fitting. It is all covered in our article on [film on double glazing](/blog/film-double-vitrage-casse-thermique).",
+          ],
+        },
+        {
+          heading: "The facade: do you need permission?",
+          anchor: 'facade',
+          paragraphs: [
+            "A mirrored or very dark window stands out from the street. Test-Achats points this out too: the shiny look of mirror films can change how the windows look.",
+            "In Brussels, the [regional planning leaflet on windows and frames](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf) (in French) says that simply replacing glazing does not require a permit if it does not change the architectural appearance of the building, and that a permit is always required for a listed building or one on the safeguarding list. It does not mention films. It also points out that a municipality can impose its own rules through its local planning regulation.",
+            "Our advice: if your house is listed, lies in the protection zone of a listed building, or if you are unsure, ask your municipality's planning department first. In a flat, there are also the co-ownership rules: we explain where to look in our article on [window film in a flat](/blog/film-fenetre-copropriete-autorisation).",
+          ],
+        },
+        {
+          heading: "Film or tinted glass: what to choose for your situation",
+          anchor: 'que-choisir',
+          paragraphs: [
+            "If your windows are in good condition, film is the simplest option: it goes on the existing glass, without touching the frames. If you are planning to replace your windows anyway, that is the time to choose solar control glass straight away (that is a job for a joiner or glazier: we only fit film). We compare the two in [integrated solar control glazing or film](/blog/vitrage-controle-solaire-integre-ou-film), and help you decide between [replacing your windows or adding film](/blog/remplacer-fenetres-ou-film-vitrage).",
+          ],
+          table: {
+            headers: ["Your situation", "What we recommend"],
+            rows: [
+              ["Overlooked from the street, mainly by day", "Silver mirror film"],
+              ["Secondary window or hallway, view limited even in the evening", "Black mirror film"],
+              ["Glazed front door", "Matte white film"],
+              ["Privacy in the evening too, while keeping the light", "Matte white film"],
+              ["Too hot, but you want to keep the view and the light", "Solar film"],
+              ["Windows due for replacement anyway", "Solar control glass"],
+            ],
+          },
+        },
+        {
+          heading: "Fitting and price",
+          anchor: 'pose-prix',
+          paragraphs: [
+            "The film is fitted wet, on the inside or outside of the glass depending on the case. It then takes about a month to dry: small bubbles and a slight haze in the first days are normal, as explained in our article on [window film after fitting](/blog/film-vitrage-apres-pose-bulles-entretien).",
+            "The price depends on the area and how easy the windows are to reach, not on the tint: silver or black mirror film costs the same per m². We explain what makes the price vary in [window film pricing in Brussels](/blog/prix-pose-film-vitrage-bruxelles). And if you are considering a film from a DIY store, we compare both options in [cheap film or professional installation](/blog/film-vitre-premier-prix-ou-pose-professionnelle).",
+          ],
+        },
+        {
+          heading: "Sources",
+          paragraphs: [
+            "[Test-Achats: Les films solaires anti-chaleur : choix, efficacité, pose, entretien (report, June 2026, in French)](https://www.test-achats.be/maison-energie/refroidir-habitation/dossier/films-exterieurs-anti-chaleur)",
+            "[Brussels Urban Development (Brussels-Capital Region): Fenêtres et châssis, planning leaflet (September 2016, in French)](https://urbanismeadm.irisnet.be/fr/pdf/feuillets/chassis-2016-1308.pdf)",
+            "[NFRC Consumer Guide to Windows: glossary, 'Visible transmittance'](https://efficientwindows.org/glossary/)",
+            "[University of Illinois, Physics Van: 'One-way Mirrors?' (2011)](https://van.physics.illinois.edu/ask/listing/16805)",
+            "[The Naked Scientists: 'How does a one-way mirror work?' (2008)](https://www.thenakedscientists.com/node/179511)",
+            "[Eastman Performance Films (SunTek): Film Installation Guidelines, Architectural Window Films (2021)](https://suntekfilms.com/content/dam/eastman/performance-films/suntek-films/documents/film-specifications/film-to-glass-recommendations.pdf)",
+          ],
+        },
+        {
+          heading: "Torn between several tints?",
+          paragraphs: [
+            "Contact us: we will advise you free of charge based on your situation and reply within 24 hours.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Can I tint my house windows like a car's?",
+          answer: "Yes, with a film applied to the existing glass. Mirror film comes closest, especially the black version. Tint limits for cars apply to vehicles, not to the windows of a house. For a house, it is planning rules, and in a flat the co-ownership rules, that you need to check.",
+        },
+        {
+          question: "Can I still see out through a tinted window?",
+          answer: "Yes, just a little darker, as with sunglasses. Our silver mirror film lets through 22% of visible light; the black version makes the room noticeably darker.",
+        },
+        {
+          question: "Does a tinted window hide the interior at night?",
+          answer: "No. In the evening, when your lights are on and it is dark outside, people can see in, whether the window is tinted or mirrored. A very dark tint limits the view without blocking it. For privacy day and night, you need matte white film.",
+        },
+        {
+          question: "Does a darker window protect better against heat?",
+          answer: "Not necessarily. According to Test-Achats, tinted films work mainly by absorption, and their effect against overheating is moderate. Mirror films reflect part of the infrared, and some clear films limit heat while staying almost transparent.",
+        },
+        {
+          question: "How long does window film last?",
+          answer: "According to the industry figures quoted by Test-Achats, 10 to 15 years for bonded PET films and 2 to 7 years for repositionable PVC films. For interior fitting we also expect 10 to 15 years; it is shorter for exterior fitting.",
         },
       ],
     },
